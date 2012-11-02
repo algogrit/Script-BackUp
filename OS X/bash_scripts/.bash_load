@@ -1,0 +1,20 @@
+echo "~/bash_scripts/.bash_load Loaded"
+
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=/opt/subversion/bin:$PATH
+export PATH="$HOME/bin:$PATH"
+export JAVA_HOME="$(/usr/libexec/java_home)"
+export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec
+export EDITOR="$HOME/bin/mate -w"
+export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
+export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/r20.0.1
+. ~/.nvm/nvm.sh
+. ~/.rvm/scripts/rvm
+. ~/.svm/svm.sh
+. /usr/local/Cellar/hadoop/1.0.4/libexec/conf/hadoop-env.sh
+[[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
+export WORKON_HOME=$HOME/.pythonenvs
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export GROOVY_HOME="/usr/local/Cellar/groovy/2.0.5/libexec"
+export PIP_RESPECT_VIRTUALENV=true
+

@@ -1,0 +1,9 @@
+echo "~/bash_scripts/.pam_aliases Loaded"
+
+alias tomlog="tail -f /usr/local/Cellar/tomcat/7.0.32/libexec/logs/catalina.out"
+alias rd="mvn tomcat:redeploy -DskipTests=true"
+alias gs="git status"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gpr="git pull --rebase"
+
