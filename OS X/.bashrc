@@ -1,5 +1,5 @@
-echo "~/.bashrc loaded"
+echo "~/.bashrc Loaded"
 
 . ~/bash_scripts/.bash_load
-. ~/bash_scripts/.pam_aliases
+. ~/bash_scripts/.aliases
 

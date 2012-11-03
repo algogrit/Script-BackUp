@@ -12,7 +12,7 @@ export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/r20.0.1
 . ~/.rvm/scripts/rvm
 . ~/.svm/svm.sh
 . /usr/local/Cellar/hadoop/1.0.4/libexec/conf/hadoop-env.sh
-[[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
 export WORKON_HOME=$HOME/.pythonenvs
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export GROOVY_HOME="/usr/local/Cellar/groovy/2.0.5/libexec"
