@@ -7,7 +7,8 @@ rm .bash_history
 brew list > list_of_brews
 
 # Log and push
-git commit -am "Updated Mac Scripts on $(date)"
+git add .
+git commit -m "Updated Mac Scripts on $(date)"
 git remote update
 git pull
 git push
