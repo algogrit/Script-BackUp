@@ -6,10 +6,3 @@ rm .bash_history
 # List of Brew installations
 brew list > list_of_brews
 
-# Log and push
-git add .
-git commit -m "Updated Mac Scripts on $(date)"
-git remote update
-git pull
-git push
-
