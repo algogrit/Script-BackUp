@@ -1,7 +1,7 @@
 echo '~/bash_scripts/.aliases Loaded'
 
 # Generic Aliases
-alias ch="> .bash_history && history -c"
+alias ch="> ~/.bash_history && history -c"
 
 # Exported Aliases
 . ~/bash_scripts/.pam_aliases
