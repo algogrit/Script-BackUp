@@ -6,4 +6,6 @@ alias gs="git status"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gpr="git pull --rebase"
+alias nvm49="nvm use v0.4.9"
+alias c="clear"
 
