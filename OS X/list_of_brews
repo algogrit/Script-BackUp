@@ -15,6 +15,7 @@ clojure
 cmake
 couchdb
 ctags
+dart
 emacs
 erlang
 fossil
@@ -109,6 +110,7 @@ tiger-vnc
 tmux
 tokyo-cabinet
 tomcat
+unrar
 vim
 voldemort
 wget
