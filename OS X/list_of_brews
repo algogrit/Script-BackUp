@@ -88,6 +88,8 @@ pcre
 perl
 phantomjs
 pidof
+pig
+pigz
 pixman
 pkg-config
 postgresql
