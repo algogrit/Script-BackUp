@@ -7,7 +7,7 @@ export JAVA_HOME="$(/usr/libexec/java_home)"
 export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec
 export EDITOR="$HOME/bin/mate -w"
 export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
-export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/r20.0.1
+export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/r21
 . ~/.nvm/nvm.sh
 . ~/.rvm/scripts/rvm
 . ~/.svm/svm.sh

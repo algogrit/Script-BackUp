@@ -97,6 +97,7 @@ qt
 r
 readline
 redis
+rsync
 s-lang
 sbt
 scala
