@@ -99,6 +99,7 @@ readline
 redis
 rsync
 s-lang
+s3cmd
 sbt
 scala
 spidermonkey
