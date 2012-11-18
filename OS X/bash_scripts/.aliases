@@ -6,3 +6,5 @@ alias ch="> ~/.bash_history && history -c"
 # Exported Aliases
 . ~/bash_scripts/.pam_aliases
 
+# Directory Shortcut
+alias 99="cd ~/Projects/Learning/99"
