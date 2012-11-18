@@ -35,6 +35,7 @@ gnutls
 go
 gradle
 graphviz
+gremlin
 groovy
 hadoop
 haskell-platform
@@ -45,6 +46,7 @@ httpd
 icu4c
 imagemagick
 io
+ioke
 jasper
 jbig2dec
 jenkins
