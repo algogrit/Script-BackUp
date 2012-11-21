@@ -58,6 +58,7 @@ libffi
 libgcrypt
 libgpg-error
 libksba
+libmpc
 libtasn1
 libtiff
 libtool
@@ -70,6 +71,7 @@ mathomatic
 maven
 mercurial
 mongodb
+mpfr
 mupdf
 mutt
 mysql
