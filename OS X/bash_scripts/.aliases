@@ -1,10 +1,10 @@
 echo '~/bash_scripts/.aliases Loaded'
 
-# Generic Aliases
-alias ch="> ~/.bash_history && history -c"
-
 # Exported Aliases
 . ~/bash_scripts/.pam_aliases
 
 # Directory Shortcut
 alias 99="cd ~/Projects/Learning/99"
+
+# Generic Aliases
+alias ch="> ~/.bash_history && history -c"
