@@ -43,6 +43,7 @@ hbase
 help2man
 hive
 httpd
+hub
 icu4c
 imagemagick
 io
@@ -65,6 +66,9 @@ libtiff
 libtool
 little-cms
 little-cms2
+lua
+luajit
+luarocks
 lynx
 macvim
 make
