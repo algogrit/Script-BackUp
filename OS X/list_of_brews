@@ -16,6 +16,7 @@ cmake
 couchdb
 ctags
 dart
+drip
 emacs
 erlang
 fossil
