@@ -70,6 +70,7 @@ libffi
 libgcrypt
 libgeotiff
 libgpg-error
+libicns
 libksba
 libmpc
 librsync
