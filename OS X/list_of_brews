@@ -9,6 +9,7 @@ awk
 bazaar
 boost
 c-ares
+cabextract
 cairo
 cassandra
 clojure
@@ -149,6 +150,8 @@ upx
 vim
 voldemort
 wget
+wine
+winetricks
 wireshark
 xz
 yajl
