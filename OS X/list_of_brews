@@ -3,6 +3,7 @@ android-ndk
 android-sdk
 ant
 apple-gcc42
+arping
 autoconf
 automake
 awk
@@ -46,6 +47,7 @@ graphviz
 gremlin
 grep
 groovy
+gti
 hadoop
 haskell-platform
 hbase
@@ -74,6 +76,7 @@ libgpg-error
 libicns
 libksba
 libmpc
+libnet
 librsync
 libspatialite
 libtasn1
@@ -130,6 +133,7 @@ s-lang
 s3cmd
 sbt
 scala
+sl
 spidermonkey
 sqlite
 sqoop
