@@ -31,4 +31,4 @@ export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
 
 # Editor Configuration
-# export EDITOR="$HOME/bin/mate -w"
+export EDITOR="$HOME/bin/subl -w"

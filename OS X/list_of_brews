@@ -133,6 +133,7 @@ s-lang
 s3cmd
 sbt
 scala
+scm-manager
 sl
 spidermonkey
 sqlite
