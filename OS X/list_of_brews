@@ -36,6 +36,7 @@ giflib
 git
 giter8
 glib
+global
 gmp
 gnu-prolog
 gnupg
@@ -94,6 +95,7 @@ make
 mathomatic
 maven
 mercurial
+monetdb
 mongodb
 mpfr
 multitail
@@ -113,6 +115,7 @@ openjpeg
 ossp-uuid
 p11-kit
 pango
+parallel
 pcre
 perl
 phantomjs
