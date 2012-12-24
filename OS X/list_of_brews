@@ -12,11 +12,13 @@ boost
 c-ares
 cabextract
 cairo
+calcurse
 cassandra
 clojure
 cmake
 couchdb
 ctags
+curl
 dart
 drip
 duplicity
