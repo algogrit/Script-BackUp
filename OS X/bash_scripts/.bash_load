@@ -35,3 +35,6 @@ export PIP_RESPECT_VIRTUALENV=true
 
 # Editor Configuration
 export EDITOR="$HOME/bin/subl -w"
+
+# Sourcing Z
+. /usr/local/etc/profile.d/z.sh
