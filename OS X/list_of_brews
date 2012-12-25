@@ -1,4 +1,5 @@
 ack
+afflib
 android-ndk
 android-sdk
 ant
@@ -24,6 +25,7 @@ drip
 duplicity
 emacs
 erlang
+expat
 fossil
 freexl
 fuse4x
@@ -72,6 +74,7 @@ jq
 json-c
 leiningen
 libevent
+libewf
 libffi
 libgcrypt
 libgeotiff
@@ -141,6 +144,7 @@ sbt
 scala
 scm-manager
 sl
+sleuthkit
 spidermonkey
 sqlite
 sqoop
