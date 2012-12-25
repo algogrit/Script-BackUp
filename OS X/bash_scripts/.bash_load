@@ -1,7 +1,7 @@
 echo "~/bash_scripts/.bash_load Loaded"
 
 # HOMEBREW
-export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
 
 # SUBVERSION
 export PATH=/opt/subversion/bin:$PATH
