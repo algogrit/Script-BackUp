@@ -138,6 +138,7 @@ qt
 r
 readline
 redis
+riemann
 rsync
 s-lang
 s3cmd
