@@ -51,6 +51,7 @@ gradle
 graphviz
 gremlin
 grep
+groonga
 groovy
 gti
 hadoop
@@ -66,7 +67,6 @@ io
 ioke
 jasper
 jbig2dec
-jenkins
 jetty
 jpeg
 jpeg-turbo
@@ -103,6 +103,7 @@ mercurial
 monetdb
 mongodb
 mpfr
+msgpack
 multitail
 mupdf
 mutt
@@ -159,6 +160,7 @@ tmux
 tokyo-cabinet
 tomcat
 tor
+trash
 ucl
 unrar
 upx
