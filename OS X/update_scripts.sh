@@ -2,6 +2,7 @@
 cp -r ~/bash_scripts .
 cp ~/.bash* .
 cp ~/.gitconfig .
+cp ~/.lein/profiles.clj ./.lein
 rm .bash_history
 
 # List of Brew installations
