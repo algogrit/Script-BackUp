@@ -15,7 +15,6 @@ cabextract
 cairo
 calcurse
 cassandra
-clojure
 cmake
 couchdb
 ctags
@@ -26,6 +25,7 @@ duplicity
 emacs
 erlang
 expat
+flac
 fossil
 freexl
 fuse4x
@@ -72,6 +72,7 @@ jpeg
 jpeg-turbo
 jq
 json-c
+lame
 leiningen
 libevent
 libewf
@@ -81,13 +82,16 @@ libgeotiff
 libgpg-error
 libicns
 libksba
+libmikmod
 libmpc
 libnet
+libogg
 librsync
 libspatialite
 libtasn1
 libtiff
 libtool
+libvorbis
 little-cms
 little-cms2
 lua
@@ -108,6 +112,8 @@ multitail
 mupdf
 mutt
 mysql
+nagios
+nagios-plugins
 nano
 nasm
 neo4j
@@ -126,6 +132,7 @@ parallel
 pcre
 perl
 phantomjs
+physfs
 pidof
 pig
 pigz
@@ -145,6 +152,9 @@ s3cmd
 sbt
 scala
 scm-manager
+sdl
+sdl_image
+sdl_mixer
 sl
 sleuthkit
 spidermonkey

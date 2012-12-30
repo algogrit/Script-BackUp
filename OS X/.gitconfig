@@ -1,0 +1,17 @@
+[user]
+	name = Gaurav Agarwal
+	email = gauravag@thoughtworks.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/gauravag/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	ribbon = tag --force _ribbon origin/master
+	catchup = log --patch --reverse --topo-order _ribbon..origin/master
+	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	glog = log --graph --decorate --pretty=oneline --abbrev-commit
+	uncommit = reset HEAD^
+[push]
+	default = current
