@@ -5,6 +5,7 @@ echo '~/bash_scripts/.aliases Loaded'
 
 # Directory Shortcut
 alias 99="cd ~/Projects/Learning/99"
+alias euler="cd ~/Projects/Learning/Project\ Euler"
 
 # Generic Aliases
 alias ch="> ~/.bash_history && history -c"
