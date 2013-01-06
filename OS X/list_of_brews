@@ -137,6 +137,7 @@ oniguruma
 openjpeg
 openssh
 ossp-uuid
+osxutils
 p11-kit
 pango
 parallel
@@ -191,7 +192,6 @@ tmux
 tokyo-cabinet
 tomcat
 tor
-trash
 ucl
 unrar
 upx
