@@ -14,8 +14,8 @@ alias merlog="tail -f tmp/*.log"
 
 # mvn aliases
 alias rd="mvn tomcat:redeploy -DskipTests"
-alias test="mvn test -Ptest"
-alias pack="mvn clean package -DskipTests"
+alias test="mvn db-migration:reset clean test -Ptest"
+alias pack="mvn clean package -DskipTests -Pdev"
 
 # Git Aliases
 alias gs="git status"
