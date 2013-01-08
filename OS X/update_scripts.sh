@@ -3,13 +3,12 @@ cp -r ~/bash_scripts .
 cp ~/.bash* .
 rm .bash_history
 
+# Copy gitconfig
+cp ~/.gitconfig .
+
+# Copy Leiningen global profile
+cp ~/.lein/profiles.clj ./.lein
+
 # List of Brew installations
 brew list > list_of_brews
-
-# Log and push
-git add .
-git commit -m "Updated Mac Scripts on $(date)"
-git remote update
-git pull
-git push
 

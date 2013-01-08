@@ -1,0 +1,14 @@
+echo '~/bash_scripts/.aliases Loaded'
+
+# Directory Shortcut
+alias 99="cd ~/Projects/Learning/99"
+alias euler="cd ~/Projects/Learning/Project\ Euler"
+alias incanter="cd ~/Projects/Learning/Statistics\ \&\ Visualization/learning-incanter"
+
+# Generic Aliases
+alias ch="> ~/.bash_history && history -c"
+alias c="clear"
+
+# Exported Aliases
+. ~/bash_scripts/.pam_aliases
+
