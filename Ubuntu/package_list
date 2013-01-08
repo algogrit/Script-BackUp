@@ -89,8 +89,6 @@ i   checkbox-qt                     - QT4 interface for checkbox
 i   chromium-browser                - Chromium browser                          
 i A chromium-browser-l10n           - chromium-browser language packages        
 i A chromium-codecs-ffmpeg          - Free ffmpeg codecs for the Chromium Browse
-i A clojure-contrib                 - user contributed set of libraries for cloj
-i A clojure1.2                      - Lisp dialect for the JVM                  
 i   colord                          - system service to manage device colour pro
 i   command-not-found               - Suggest installation of packages in intera
 i   command-not-found-data          - Set of data files for command-not-found.  
@@ -160,6 +158,8 @@ i   evince-common                   - Document (PostScript, PDF) viewer - common
 i   evolution-data-server           - evolution database backend server         
 i   evolution-data-server-common    - architecture independent files for Evoluti
 i   example-content                 - Ubuntu example content                    
+i   exfat-fuse                      - read and write exFAT driver for FUSE      
+i A exfat-utils                     - utilities to create, check, label and dump
 i A fakeroot                        - tool for simulating superuser privileges  
 i   file                            - Determines file type using "magic" numbers
 i   file-roller                     - archive manager for GNOME                 
@@ -310,6 +310,7 @@ i   gnome-user-guide                - GNOME user's guide
 i   gnome-user-share                - User level public file sharing via WebDAV 
 i   gnomine                         - popular minesweeper puzzle game for GNOME 
 i   gnupg                           - GNU privacy guard - a free PGP replacement
+i A gnuplot-x11                     - Command-line driven interactive plotting p
 i   gpgv                            - GNU privacy guard - signature verification
 i   grep                            - GNU grep, egrep and fgrep                 
 i   groff-base                      - GNU troff text-formatting system (base sys
@@ -428,7 +429,6 @@ i   language-pack-gnome-en-base     - GNOME translations for language English
 i   language-selector-common        - Language selector for Ubuntu              
 i   language-selector-gnome         - Language selector for Ubuntu              
 i   laptop-detect                   - attempt to detect a laptop                
-i   leiningen                       - simple build system for Clojure           
 i   less                            - pager program similar to more             
 i A liba52-0.7.4                    - library for decoding ATSC A/52 streams    
 i   libaa1                          - ASCII art library                         
@@ -441,6 +441,7 @@ i A libaether-java                  - Library to handle Java artifact repositori
 i A libalgorithm-diff-perl          - module to find differences between files  
 i A libalgorithm-diff-xs-perl       - module to find differences between files (
 i A libalgorithm-merge-perl         - Perl module for three-way merge of textual
+i A libamd2.2.0                     - approximate minimum degree ordering librar
 i A libantlr-java                   - language tool for constructing recognizers
 i A libaopalliance-java             - library for interoperability for Java AOP 
 i A libapache-pom-java              - Maven metadata for all Apache Software pro
@@ -453,6 +454,7 @@ i   libapt-pkg-perl                 - Perl interface to libapt-pkg
 i   libapt-pkg4.12                  - package managment runtime library         
 i   libarchive-zip-perl             - Perl module for manipulation of ZIP archiv
 i   libarchive12                    - Multi-format archive and compression libra
+i A libarpack2                      - Fortran77 subroutines to solve large scale
 i   libart-2.0-2                    - Library of functions for 2D graphics - run
 i A libasm3-java                    - Java bytecode manipulation framework      
 i   libasn1-8-heimdal               - Heimdal Kerberos - ASN.1 library          
@@ -474,6 +476,7 @@ i A libatk-wrapper-java-jni         - An ATK implementation for Java using JNI (
 i   libatk1.0-0                     - ATK accessibility toolkit                 
 i   libatk1.0-data                  - Common files for the ATK accessibility too
 i   libatkmm-1.6-1                  - C++ wrappers for ATK accessibility toolkit
+i A libatlas3-base                  - Automatically Tuned Linear Algebra Softwar
 i   libatspi2.0-0                   - Assistive Technology Service Provider Inte
 i A libattica0.4                    - a Qt library that implements the Open Coll
 i   libattr1                        - Extended attribute shared library         
@@ -494,6 +497,7 @@ i   libbamf3-0                      - Window matching library - shared library
 i A libbatik-java                   - xml.apache.org SVG Library                
 i   libbind9-80                     - BIND9 Shared Library used by BIND         
 i A libbison-dev                    - YACC-compatible parser generator - develop
+i A libblas3                        - Basic Linear Algebra Reference implementat
 i   libblkid1                       - block device id library                   
 i   libbluetooth3                   - Library to use the BlueZ Linux Bluetooth s
 i A libbonobo2-0                    - Bonobo CORBA interfaces library           
@@ -527,6 +531,7 @@ i   libcanberra0                    - simple abstract interface for playing even
 i   libcap-ng0                      - An alternate POSIX capabilities library   
 i   libcap2                         - support for getting/setting POSIX.1e capab
 i   libcap2-bin                     - basic utility programs for using capabilit
+i A libccolamd2.7.1                 - constrained column approximate library for
 i A libcdaudio1                     - library for controlling a CD-ROM when play
 i A libcdi-api-java                 - Contexts and Dependency Injection for Java
 i   libcdio-cdda1                   - library to read and control digital audio 
@@ -534,13 +539,13 @@ i   libcdio-paranoia1               - library to read digital audio CDs with err
 i   libcdio13                       - library to read and control CD-ROM        
 i   libcdparanoia0                  - audio extraction tool for sampling CDs (li
 i A libcglib-java                   - code generation library for Java          
+i A libcholmod1.7.1                 - sparse Cholesky factorization library for 
 i   libck-connector0                - ConsoleKit libraries                      
 i   libclass-accessor-perl          - Perl module that automatically generates a
 i   libclass-isa-perl               - report the search path for a class's ISA t
 i A libclassworlds-java             - framework for container developers requiri
 i   libclone-perl                   - recursively copy Perl datatypes           
 i A libclucene0ldbl                 - library for full-featured text search engi
-i A libclucy-clojure                - Clojure interface to the Lucene search eng
 i   libclutter-1.0-0                - Open GL based interactive canvas library  
 i   libclutter-1.0-common           - Open GL based interactive canvas library (
 i   libclutter-gst-1.0-0            - Open GL based interactive canvas library G
@@ -549,6 +554,7 @@ i   libcmis-0.2-2                   - CMIS protocol client library
 i   libcogl-common                  - Object oriented GL/GLES Abstraction/Utilit
 i   libcogl-pango0                  - Object oriented GL/GLES Abstraction/Utilit
 i   libcogl9                        - Object oriented GL/GLES Abstraction/Utilit
+i A libcolamd2.7.1                  - column approximate minimum degree ordering
 i   libcolord1                      - system service to manage device colour pro
 i   libcomerr2                      - common error description library          
 i A libcommons-beanutils-java       - utility for manipulating JavaBeans        
@@ -556,7 +562,6 @@ i A libcommons-cli-java             - API for working with the command line argu
 i A libcommons-codec-java           - encoder and decoders such as Base64 and he
 i A libcommons-collections-java     - set of abstract data type interfaces and i
 i A libcommons-collections3-java    - A set of abstract data type interfaces and
-i A libcommons-compress-java        - Java API for working with tar, zip and bzi
 i A libcommons-configuration-java   - Java based library providing a generic con
 i A libcommons-dbcp-java            - Database Connection Pooling Services      
 i A libcommons-digester-java        - Rule based XML Java object mapping tool   
@@ -588,13 +593,10 @@ i   libcurl3                        - easy-to-use client-side URL transfer libra
 i   libcurl3-gnutls                 - easy-to-use client-side URL transfer libra
 i   libcurl3-nss                    - easy-to-use client-side URL transfer libra
 i A libcwidget3                     - high-level terminal interface library for 
+i A libcxsparse2.2.3                - concise sparse matrix library (complex, in
 i   libdaemon0                      - lightweight C library for daemons - runtim
 i   libdatrie1                      - Double-array trie library                 
-i A libdb-java                      - Berkeley Database Libraries for Java      
-i A libdb-je-java                   - Oracle Berkeley Database Java Edition     
 i   libdb5.1                        - Berkeley v5.1 Database Libraries [runtime]
-i A libdb5.1-java                   - Berkeley v5.1 Database Libraries for Java 
-i A libdb5.1-java-jni               - Berkeley v5.1 Database Libraries for Java 
 i   libdbus-1-3                     - simple interprocess messaging system (libr
 i   libdbus-glib-1-2                - simple interprocess messaging system (GLib
 i   libdbusmenu-glib4               - library for passing menus over DBus       
@@ -669,6 +671,7 @@ i A libfile-listing-perl            - module to parse directory listings
 i   libfile-mimeinfo-perl           - Perl module to determine file types       
 i   libflac8                        - Free Lossless Audio Codec - runtime C libr
 i A libflite1                       - Small run-time speech synthesis engine - s
+i A libfltk1.1                      - Fast Light Toolkit - shared libraries     
 i   libfolks-eds25                  - Evolution-data-server backend for libfolks
 i   libfolks-telepathy25            - Telepathy backend for libfolks            
 i   libfolks25                      - library to aggregates people into metacont
@@ -714,11 +717,13 @@ i A libgeronimo-jta-1.1-spec-java   - Geronimo API implementation of the JTA 1.1
 i A libgeronimo-osgi-support-java   - Java libraries providing OSGi lookup suppo
 i   libgettextpo0                   - GNU Internationalization library          
 i   libgexiv2-1                     - GObject-based wrapper around the Exiv2 lib
+i A libgfortran3                    - Runtime library for GNU Fortran applicatio
 i A libgif4                         - library for GIF images (library)          
 i   libgirepository-1.0-1           - Library for handling GObject introspection
 i   libgksu2-0                      - library providing su and sudo functionalit
 i   libgl1-mesa-dri                 - free implementation of the OpenGL API -- D
 i   libgl1-mesa-glx                 - free implementation of the OpenGL API -- G
+i A libgl2ps0                       - Lib providing high quality vector output f
 i A libglade2-0                     - library to load .glade files at runtime   
 i   libglapi-mesa                   - free implementation of the GL API -- share
 i   libglew1.8                      - OpenGL Extension Wrangler - runtime enviro
@@ -728,6 +733,7 @@ i   libglib2.0-0                    - GLib library of C routines
 i   libglib2.0-bin                  - Programs for the GLib library             
 i   libglib2.0-data                 - Common files for GLib library             
 i   libglibmm-2.4-1c2a              - C++ wrapper for the GLib toolkit (shared l
+i A libglpk0                        - linear programming kit with integer (MIP) 
 i   libglu1-mesa                    - Mesa OpenGL utility library (GLU)         
 i A libgme0                         - Playback library for video game music file
 i   libgmime-2.6-0                  - MIME message parser and creator library - 
@@ -765,6 +771,8 @@ i   libgpm2                         - General Purpose Mouse - shared library
 i   libgpod-common                  - common files for libgpod                  
 i   libgpod4                        - library to read and write songs and artwor
 i   libgrail5                       - Gesture Recognition And Instantiation Libr
+i A libgraphicsmagick++3            - format-independent image processing - C++ 
+i A libgraphicsmagick3              - format-independent image processing - C sh
 i   libgrip0                        - provides multitouch gestures to GTK+ apps 
 i   libgs9                          - interpreter for the PostScript language an
 i   libgs9-common                   - interpreter for the PostScript language an
@@ -804,6 +812,7 @@ i   libgwibber3                     - Gwibber - shared library
 i   libgxps2                        - handling and rendering XPS documents (libr
 i A libhamcrest-java                - library of matchers for building test expr
 i   libhcrypto4-heimdal             - Heimdal Kerberos - crypto library         
+i A libhdf5-7                       - Hierarchical Data Format 5 (HDF5) - runtim
 i   libheimbase1-heimdal            - Heimdal Kerberos - Base library           
 i   libheimntlm0-heimdal            - Heimdal Kerberos - NTLM support library   
 i   libhpmud0                       - HP Multi-Point Transport Driver (hpmud) ru
@@ -823,11 +832,11 @@ i   libhunspell-1.3-0               - spell checker and morphological analyzer (
 i   libhx509-5-heimdal              - Heimdal Kerberos - X509 support library   
 i   libhyphen0                      - ALTLinux hyphenation library - shared libr
 i   libibus-1.0-0                   - Intelligent Input Bus - shared library    
+i A libibverbs1                     - Library for direct userspace use of RDMA (
 i   libical0                        - iCalendar library implementation in C (run
 i A libice-dev                      - X11 Inter-Client Exchange library (develop
 i   libice6                         - X11 Inter-Client Exchange library         
 i   libicu48                        - International Components for Unicode      
-i A libicu4j-java                   - Library for unicode support and internalis
 i A libidl-common                   - library for parsing CORBA IDL files (commo
 i A libidl0                         - library for parsing CORBA IDL files       
 i   libidn11                        - GNU Libidn library, implementation of IETF
@@ -912,6 +921,7 @@ i   libkrb5support0                 - MIT Kerberos runtime libraries - Support l
 i A libkrosscore4                   - Kross Core Library                        
 i A libktexteditor4                 - KTextEditor interfaces for the KDE Platfor
 i A libkxmlrpcclient4               - simple XML-RPC client library             
+i A liblapack3                      - Library of linear algebra routines 3 - sha
 i   liblcms1                        - Little CMS color management library       
 i   liblcms2-2                      - Little CMS 2 color management library     
 i   libldap-2.4-2                   - OpenLDAP libraries                        
@@ -927,7 +937,6 @@ i   liblouis2                       - Braille translation library - shared libs
 i A libltdl-dev                     - A system independent dlopen wrapper for GN
 i   libltdl7                        - A system independent dlopen wrapper for GN
 i   liblua5.1-0                     - Shared library for the Lua interpreter ver
-i A liblucene2-java                 - Full-text search engine library for Java(T
 i   liblvm2app2.2                   - LVM2 application library                  
 i A liblwp-mediatypes-perl          - module to guess media type for a file or a
 i A liblwp-protocol-https-perl      - HTTPS driver for LWP::UserAgent           
@@ -936,7 +945,6 @@ i   liblzma5                        - XZ-format compression library
 i A libmad0                         - MPEG audio decoder library                
 i   libmagic1                       - File type determination library using "mag
 i   libmailtools-perl               - Manipulate email in perl programs         
-i A libmaven-ant-tasks-java         - use Maven's artifact handling features fro
 i A libmaven-parent-java            - Maven metadata for Apache Maven itself    
 i A libmaven-plugin-tools-java      - Maven Plugin Tools Base POM               
 i A libmaven-reporting-impl-java    - Maven Reporting API Implementation        
@@ -1015,6 +1023,7 @@ i   libnuma1                        - Libraries for controlling NUMA policy
 i   libnux-3.0-0                    - Visual rendering toolkit for real-time app
 i   libnux-3.0-common               - Visual rendering toolkit for real-time app
 i   liboauth0                       - C library for implementing OAuth 1.0      
+i A liboctave1                      - Shared libraries of the GNU Octave languag
 i A libofa0                         - Library for acoustic fingerprinting       
 i   libogg0                         - Ogg bitstream library                     
 i A liboil0.3                       - Library of Optimized Inner Loops          
@@ -1025,6 +1034,7 @@ i   libopencc1                      - simplified-traditional chinese conversion
 i A libopencore-amrnb0              - Adaptive Multi Rate speech codec - shared 
 i A libopencore-amrwb0              - Adaptive Multi-Rate - Wideband speech code
 i A libopenexr6                     - runtime files for the OpenEXR image librar
+i A libopenmpi1.3                   - high performance message passing library -
 i   libopenobex1                    - OBEX protocol library                     
 i A libopus0                        - Opus codec runtime library                
 i A liborbit2                       - libraries for ORBit2 - a CORBA ORB        
@@ -1049,6 +1059,7 @@ i   libpango1.0-0                   - Layout and rendering of internationalized
 i   libpangomm-1.4-1                - C++ Wrapper for pango (shared libraries)  
 i   libpaper-utils                  - library for handling paper characteristics
 i   libpaper1                       - library for handling paper characteristics
+i A libparpack2                     - Parallel subroutines to solve large scale 
 i   libparse-debianchangelog-perl   - parse Debian changelogs and output them in
 i   libparted0debian1               - disk partition manipulator - shared librar
 i   libpcap0.8                      - system interface for user-level packet cap
@@ -1116,9 +1127,11 @@ i A libqapt-runtime                 - Runtime components for the QApt library
 i A libqapt1                        - QApt library package                      
 i A libqca2                         - libraries for the Qt Cryptographic Archite
 i A libqdox-java                    - Quickly parses declarations and Javadoc fr
+i A libqhull5                       - calculate convex hulls and related structu
 i A libqimageblitz4                 - QImageBlitz image effects library         
 i   libqjson0                       - Qt-based library that maps JSON data to QV
 i   libqpdf8                        - runtime library for PDF transformation/ins
+i A libqrupdate1                    - Fast updates of QR and Cholesky decomposit
 i   libqt4-dbus                     - Qt 4 D-Bus module                         
 i   libqt4-declarative              - Qt 4 Declarative module                   
 i   libqt4-designer                 - Qt 4 designer module                      
@@ -1171,7 +1184,6 @@ i   libreoffice-writer              - office productivity suite -- word processo
 i   librest-0.7-0                   - REST service access library               
 i A librhino-java                   - Libraries for rhino Java Script Engine    
 i   librhythmbox-core6              - support library for the rhythmbox music pl
-i A librobert-hooke-clojure         - Function wrapper library for Clojure      
 i   libroken18-heimdal              - Heimdal Kerberos - roken support library  
 i   librsvg2-2                      - SAX-based renderer library for SVG files (
 i   librsvg2-common                 - SAX-based renderer library for SVG files (
@@ -1267,6 +1279,7 @@ i A libtinfo-dev                    - developer's library for the low-level term
 i   libtinfo5                       - shared low-level terminfo library for term
 i A libtomcat7-java                 - Servlet and JSP engine -- core libraries  
 i   libtool                         - Generic library support script            
+i A libtorque2                      - shared library for Torque client and serve
 i   libtotem-plparser17             - Totem Playlist Parser library - runtime fi
 i   libtotem0                       - Main library for the Totem media player   
 i A libts-0.0-0                     - touch screen library                      
@@ -1276,6 +1289,7 @@ i   libubuntuoneui-3.0-1            - Ubuntu One widget library
 i   libudev0                        - udev library                              
 i   libudisks2-0                    - GObject based library to access udisks2   
 i   libufe-xidgetter0               - Firefox extension: Unity Integration      
+i A libumfpack5.4.0                 - sparse LU factorization library           
 i   libunistring0                   - Unicode string library for C              
 i   libunity-core-6.0-5             - Core library for the Unity interface.     
 i   libunity-misc4                  - Miscellaneous functions for Unity - shared
@@ -1332,6 +1346,8 @@ i   libwps-0.2-2                    - Works text file format import filter libra
 i   libwrap0                        - Wietse Venema's TCP wrappers library      
 i A libwww-perl                     - simple and consistent interface to the wor
 i A libwww-robotrules-perl          - database of robots.txt-derived permissions
+i A libwxbase2.8-0                  - wxBase library (runtime) - non-GUI support
+i A libwxgtk2.8-0                   - wxWidgets Cross-platform C++ GUI toolkit (
 i   libx11-6                        - X11 client-side library                   
 i   libx11-data                     - X11 client-side library                   
 i A libx11-dev                      - X11 client-side library (development heade
@@ -1395,7 +1411,6 @@ i A libxvidcore4                    - Open source MPEG-4 video codec (library)
 i   libxvmc1                        - X11 Video extension library               
 i   libxxf86dga1                    - X11 Direct Graphics Access extension libra
 i   libxxf86vm1                     - X11 XFree86 video mode extension library  
-i A libxz-java                      - Java library with a complete implementatio
 i   libyajl2                        - Yet Another JSON Library                  
 i A libyaml-0-2                     - Fast YAML 1.1 parser and emitter library  
 i   libyaml-dev                     - Fast YAML 1.1 parser and emitter library (
@@ -1416,10 +1431,14 @@ i   linux-generic                   - Complete Generic Linux kernel and headers
 i   linux-generic-pae               - Transitional package.                     
 i A linux-headers-3.5.0-17          - Header files related to Linux kernel versi
 i A linux-headers-3.5.0-17-generic  - Linux kernel headers for version 3.5.0 on 
+i A linux-headers-3.5.0-21          - Header files related to Linux kernel versi
+i A linux-headers-3.5.0-21-generic  - Linux kernel headers for version 3.5.0 on 
 i   linux-headers-generic           - Generic Linux kernel headers              
 i   linux-headers-generic-pae       - Transitional package                      
 i   linux-image-3.5.0-17-generic    - Linux kernel image for version 3.5.0 on 32
+i A linux-image-3.5.0-21-generic    - Linux kernel image for version 3.5.0 on 32
 i   linux-image-extra-3.5.0-17-gene - Linux kernel image for version 3.5.0 on 32
+i A linux-image-extra-3.5.0-21-gene - Linux kernel image for version 3.5.0 on 32
 i   linux-image-generic             - Generic Linux kernel image                
 i   linux-libc-dev                  - Linux Kernel Headers for development      
 i   linux-sound-base                - base package for ALSA and OSS sound system
@@ -1486,6 +1505,8 @@ i A ntrack-module-libnl-0           - libnl based ntrack module
 i   nux-tools                       - Visual rendering toolkit for real-time app
 i   obex-data-server                - D-Bus service for OBEX client and server s
 i   obexd-client                    - D-Bus OBEX client                         
+i   octave                          - GNU Octave language for numerical computat
+i A octave-common                   - architecture-independent files for octave 
 i A odbcinst                        - Helper program for accessing odbc ini file
 i A odbcinst1debian2                - Support library for accessing odbc ini fil
 i   okular                          - universal document viewer                 
@@ -1685,7 +1706,6 @@ i   rhythmbox-plugin-magnatune      - Magnatune plugin for rhythmbox music playe
 i   rhythmbox-plugin-zeitgeist      - zeitgeist plugin for rhythmbox music playe
 i   rhythmbox-plugins               - plugins for rhythmbox music player        
 i   rhythmbox-ubuntuone             - Ubuntu One Rhythmbox plugin               
-i A rlwrap                          - readline feature command line wrapper     
 i   rsync                           - fast, versatile, remote (and local) file-c
 i   rsyslog                         - reliable system and kernel logging daemon 
 i   rtkit                           - Realtime Policy and Watchdog Daemon       
@@ -1744,6 +1764,7 @@ i   telepathy-mission-control-5     - management daemon for Telepathy real-time
 i   telepathy-salut                 - Link-local XMPP connection manager for the
 i   telnet                          - The telnet client                         
 i   terminator                      - multiple GNOME terminals in one window    
+i A texinfo                         - Documentation system for on-line informati
 i   thin-client-config-agent        - Retrieve the list of remote desktop server
 i   thunderbird                     - Email, RSS and newsgroup client with integ
 i   thunderbird-globalmenu          - Unity appmenu integration for Thunderbird 
