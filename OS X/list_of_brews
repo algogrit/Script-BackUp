@@ -25,6 +25,7 @@ dart
 dotwrp
 drip
 duplicity
+elasticsearch
 emacs
 erlang
 expat
@@ -177,6 +178,7 @@ spidermonkey
 sqlite
 sqliteman
 sqoop
+ssh-copy-id
 storm
 suite-sparse
 swi-prolog
