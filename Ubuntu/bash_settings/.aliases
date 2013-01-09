@@ -1,0 +1,5 @@
+echo '~/bash_settings/.aliases Loaded'
+
+# Generic Aliases
+alias ch="> ~/.bash_history && history -c"
+alias c="clear"
