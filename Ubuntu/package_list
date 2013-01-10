@@ -91,6 +91,7 @@ i   chromium-browser                - Chromium browser
 i A chromium-browser-l10n           - chromium-browser language packages        
 i A chromium-codecs-ffmpeg          - Free ffmpeg codecs for the Chromium Browse
 i   colord                          - system service to manage device colour pro
+i A comerr-dev                      - common error description library - headers
 i   command-not-found               - Suggest installation of packages in intera
 i   command-not-found-data          - Set of data files for command-not-found.  
 i   compiz                          - OpenGL window and compositing manager     
@@ -427,6 +428,7 @@ i   kerneloops-daemon               - kernel oops tracker
 i   keyboard-configuration          - system-wide keyboard preferences          
 i   klibc-utils                     - small utilities built with klibc for early
 i   krb5-locales                    - Internationalization support for MIT Kerbe
+i A krb5-multidev                   - Development files for MIT Kerberos without
 i A kubuntu-debug-installer         - Debug package installer for Kubuntu       
 i   landscape-client-ui-install     - The Landscape administration system client
 i   language-pack-en                - translation updates for language English  
@@ -599,6 +601,7 @@ i   libcupsppdc1                    - Common UNIX Printing System(tm) - PPD mani
 i   libcurl3                        - easy-to-use client-side URL transfer libra
 i   libcurl3-gnutls                 - easy-to-use client-side URL transfer libra
 i   libcurl3-nss                    - easy-to-use client-side URL transfer libra
+i   libcurl4-gnutls-dev             - development files and documentation for li
 i A libcwidget3                     - high-level terminal interface library for 
 i A libcxsparse2.2.3                - concise sparse matrix library (complex, in
 i   libdaemon0                      - lightweight C library for daemons - runtim
@@ -709,6 +712,7 @@ i A libgconf2-4                     - GNOME configuration database system (dummy
 i   libgcr-3-1                      - Library for Crypto UI related task - runti
 i   libgcr-3-common                 - Library for Crypto UI related task - commo
 i   libgcrypt11                     - LGPL Crypto library - runtime library     
+i A libgcrypt11-dev                 - LGPL Crypto library - development files   
 i   libgd2-xpm                      - GD Graphics Library version 2             
 i   libgdata-common                 - Library for accessing GData webservices - 
 i   libgdata13                      - Library for accessing GData webservices - 
@@ -765,11 +769,15 @@ i A libgnomeui-0                    - GNOME user interface library - runtime fil
 i A libgnomeui-common               - GNOME user interface library - common file
 i A libgnomevfs2-0                  - GNOME Virtual File System (runtime librari
 i A libgnomevfs2-common             - GNOME Virtual File System (common files)  
+i A libgnutls-dev                   - GNU TLS library - development files       
+i A libgnutls-openssl27             - GNU TLS library - OpenSSL wrapper         
 i   libgnutls26                     - GNU TLS library - runtime library         
+i A libgnutlsxx27                   - GNU TLS library - C++ runtime library     
 i   libgoa-1.0-0                    - library for GNOME Online Accounts         
 i   libgoa-1.0-common               - library for GNOME Online Accounts - common
 i   libgomp1                        - GCC OpenMP (GOMP) support library         
 i A libgoogle-collections-java      - suite of collections and related goodies f
+i A libgpg-error-dev                - library for common error values and messag
 i   libgpg-error0                   - library for common error values and messag
 i   libgpgme11                      - GPGME - GnuPG Made Easy                   
 i   libgphoto2-2                    - gphoto2 digital camera library            
@@ -789,6 +797,7 @@ i A libgsoap2                       - Runtime libraries for gSOAP
 i   libgssapi-krb5-2                - MIT Kerberos runtime libraries - krb5 GSS-
 i   libgssapi3-heimdal              - Heimdal Kerberos - GSSAPI support library 
 i   libgssdp-1.0-3                  - GObject-based library for SSDP            
+i A libgssrpc4                      - MIT Kerberos runtime libraries - GSS enabl
 i A libgstreamer-plugins-bad0.10-0  - GStreamer shared libraries from the "bad" 
 i   libgstreamer-plugins-base0.10-0 - GStreamer libraries from the "base" set   
 i   libgstreamer0.10-0              - Core GStreamer libraries and elements     
@@ -848,6 +857,7 @@ i   libicu48                        - International Components for Unicode
 i A libidl-common                   - library for parsing CORBA IDL files (commo
 i A libidl0                         - library for parsing CORBA IDL files       
 i   libidn11                        - GNU Libidn library, implementation of IETF
+i A libidn11-dev                    - Development files for GNU Libidn, an IDN l
 i   libido3-0.1-0                   - Shared library providing extra gtk menu it
 i   libiec61883-0                   - an partial implementation of IEC 61883    
 i   libieee1284-3                   - cross-platform library for parallel port a
@@ -894,9 +904,12 @@ i A libjtidy-java                   - JTidy
 i   libk5crypto3                    - MIT Kerberos runtime libraries - Crypto Li
 i A libkactivities-bin              - executables for the KDE Activities        
 i A libkactivities6                 - Activities library                        
+i A libkadm5clnt-mit8               - MIT Kerberos runtime libraries - Administr
+i A libkadm5srv-mit8                - MIT Kerberos runtime libraries - KDC and A
 i A libkate1                        - Kate is a codec for karaoke and text encap
 i A libkatepartinterfaces4          - kate part library                         
 i A libkcmutils4                    - utility classes for using KCM modules     
+i A libkdb5-6                       - MIT Kerberos runtime libraries - Kerberos 
 i A libkde3support4                 - KDE 3 Support Library for the KDE 4 Platfo
 i A libkdeclarative5                - declarative library for plasma            
 i A libkdecore5                     - KDE Platform Core Library                 
@@ -925,6 +938,7 @@ i A libkprintutils4                 - utility classes to deal with printing
 i A libkpty4                        - Pseudo Terminal Library for the KDE Platfo
 i   libkrb5-26-heimdal              - Heimdal Kerberos - libraries              
 i   libkrb5-3                       - MIT Kerberos runtime libraries            
+i A libkrb5-dev                     - Headers and development libraries for MIT 
 i   libkrb5support0                 - MIT Kerberos runtime libraries - Support l
 i A libkrosscore4                   - Kross Core Library                        
 i A libktexteditor4                 - KTextEditor interfaces for the KDE Platfor
@@ -933,6 +947,7 @@ i A liblapack3                      - Library of linear algebra routines 3 - sha
 i   liblcms1                        - Little CMS color management library       
 i   liblcms2-2                      - Little CMS 2 color management library     
 i   libldap-2.4-2                   - OpenLDAP libraries                        
+i A libldap2-dev                    - OpenLDAP development libraries            
 i   liblightdm-gobject-1-0          - LightDM GObject client library            
 i   liblircclient0                  - infra-red remote control support - client 
 i   libllvm3.1                      - Low-Level Virtual Machine (LLVM), runtime 
@@ -1053,6 +1068,7 @@ i A libosgi-compendium-java         - Java OSGi API - Compendium module
 i A libosgi-core-java               - Java OSGi API - Core module               
 i A libosgi-foundation-ee-java      - Java OSGi API - Foundation Execution Envir
 i A libotf0                         - Library for handling OpenType Font - runti
+i A libp11-kit-dev                  - Library for loading and coordinating acces
 i   libp11-kit0                     - Library for loading and coordinating acces
 i   libpackagekit-glib2-14          - Library for accessing PackageKit using GLi
 i   libpam-cap                      - PAM module for implementing capabilities  
@@ -1198,6 +1214,7 @@ i   libroken18-heimdal              - Heimdal Kerberos - roken support library
 i   librsvg2-2                      - SAX-based renderer library for SVG files (
 i   librsvg2-common                 - SAX-based renderer library for SVG files (
 i   librsync1                       - rsync remote-delta algorithm library      
+i A librtmp-dev                     - toolkit for RTMP streams (development file
 i   librtmp0                        - toolkit for RTMP streams (shared library) 
 i   libsamplerate0                  - Audio sample rate conversion library      
 i   libsane                         - API library for scanners                  
@@ -1271,6 +1288,7 @@ i   libtag1-vanilla                 - audio meta-data library - vanilla flavour
 i   libtag1c2a                      - audio meta-data library                   
 i   libtalloc2                      - hierarchical pool based memory allocator  
 i   libtasn1-3                      - Manage ASN.1 structures (runtime)         
+i A libtasn1-3-dev                  - Manage ASN.1 structures (development)     
 i   libtdb1                         - Trivial Database - shared library         
 i   libtelepathy-farstream2         - Glue library between telepathy and farstre
 i   libtelepathy-glib0              - Telepathy framework - GLib library        
