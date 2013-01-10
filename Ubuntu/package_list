@@ -10,6 +10,7 @@ i   account-plugin-twitter          - GNOME Control Center account plugin for si
 i   account-plugin-windows-live     - GNOME Control Center account plugin for si
 i   account-plugin-yahoo            - Messaging account plugin for Yahoo!       
 i   accountsservice                 - query and manipulate user account informat
+i   ack-grep                        - grep-like program specifically for large s
 i   acl                             - Access control list utilities             
 i   acpi-support                    - scripts for handling many ACPI events     
 i   acpid                           - Advanced Configuration and Power Interface
@@ -148,6 +149,12 @@ i   e2fslibs                        - ext2/ext3/ext4 file system libraries
 i   e2fsprogs                       - ext2/ext3/ext4 file system utilities      
 i   ed                              - classic UNIX line editor                  
 i   eject                           - ejects CDs and operates CD-Changers under 
+i   emacs                           - GNU Emacs editor (metapackage)            
+i A emacs23                         - The GNU Emacs editor (with GTK+ user inter
+i A emacs23-bin-common              - The GNU Emacs editor's shared, architectur
+i A emacs23-common                  - The GNU Emacs editor's shared, architectur
+i A emacs23-common-non-dfsg         - GNU Emacs shared, architecture independent
+i A emacsen-common                  - Common facilities for all emacsen         
 i   empathy                         - GNOME multi-protocol chat and call client 
 i   empathy-common                  - GNOME multi-protocol chat and call client 
 i   enchant                         - Wrapper for various spell checker engines 
@@ -669,6 +676,7 @@ i   libfile-desktopentry-perl       - Perl module to handle freedesktop .desktop
 i   libfile-fcntllock-perl          - Perl module for file locking with fcntl(2)
 i A libfile-listing-perl            - module to parse directory listings        
 i   libfile-mimeinfo-perl           - Perl module to determine file types       
+i A libfile-next-perl               - file-finding iterator                     
 i   libflac8                        - Free Lossless Audio Codec - runtime C libr
 i A libflite1                       - Small run-time speech synthesis engine - s
 i A libfltk1.1                      - Fast Light Toolkit - shared libraries     
@@ -942,6 +950,7 @@ i A liblwp-mediatypes-perl          - module to guess media type for a file or a
 i A liblwp-protocol-https-perl      - HTTPS driver for LWP::UserAgent           
 i   liblwres80                      - Lightweight Resolver Library used by BIND 
 i   liblzma5                        - XZ-format compression library             
+i A libm17n-0                       - multilingual text processing library - run
 i A libmad0                         - MPEG audio decoder library                
 i   libmagic1                       - File type determination library using "mag
 i   libmailtools-perl               - Manipulate email in perl programs         
@@ -1043,6 +1052,7 @@ i A liboro-java                     - Regular expression library for Java
 i A libosgi-compendium-java         - Java OSGi API - Compendium module         
 i A libosgi-core-java               - Java OSGi API - Core module               
 i A libosgi-foundation-ee-java      - Java OSGi API - Foundation Execution Envir
+i A libotf0                         - Library for handling OpenType Font - runti
 i   libp11-kit0                     - Library for loading and coordinating acces
 i   libpackagekit-glib2-14          - Library for accessing PackageKit using GLi
 i   libpam-cap                      - PAM module for implementing capabilities  
@@ -1452,6 +1462,8 @@ i   lsb-release                     - Linux Standard Base version reporting util
 i   lshw                            - information about hardware configuration  
 i   lsof                            - Utility to list open files                
 i   ltrace                          - Tracks runtime library calls in dynamicall
+i A m17n-contrib                    - multilingual text processing library - con
+i A m17n-db                         - multilingual text processing library - dat
 i A m4                              - a macro processing language               
 i   make                            - An utility for Directing compilation.     
 i   makedev                         - creates device files in /dev              
@@ -1771,6 +1783,7 @@ i   thunderbird-globalmenu          - Unity appmenu integration for Thunderbird
 i   thunderbird-gnome-support       - Email, RSS and newsgroup client - GNOME su
 i   thunderbird-locale-en           - English language pack for Thunderbird     
 i   thunderbird-locale-en-us        - Transitional English language pack for Thu
+i   tig                             - ncurses-based Git repository browser      
 i   time                            - GNU time program for measuring CPU resourc
 i   tomcat7                         - Servlet and JSP engine                    
 i A tomcat7-common                  - Servlet and JSP engine -- common files    
