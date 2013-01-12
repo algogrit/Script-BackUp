@@ -10,7 +10,8 @@ alias cnmsclj="cd ~/Projects/Client/GruppoPAM/cnms_clj"
 alias tomlog="tail -f /usr/local/Cellar/tomcat/7.0.34/libexec/logs/catalina.out"
 alias clog="> /usr/local/Cellar/tomcat/7.0.34/libexec/logs/catalina.out"
 alias dlog="tail -f /usr/local/var/postgres/server.log"
-alias merlog="tail -f tmp/*.log"
+alias merlog="tail -f /data/services/logs/*.log"
+alias mer2log="tail -f tmp/*.log"
 
 # mvn aliases
 alias rd="mvn tomcat:redeploy -DskipTests"

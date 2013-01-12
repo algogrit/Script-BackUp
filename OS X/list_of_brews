@@ -45,7 +45,9 @@ ghc
 giflib
 git
 giter8
+glew
 glib
+glm
 global
 glpk
 gmp
@@ -205,5 +207,6 @@ winetricks
 wireshark
 xz
 yajl
+youtube-dl
 z
 zookeeper
