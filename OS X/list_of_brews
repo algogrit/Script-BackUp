@@ -157,8 +157,8 @@ pixman
 pkg-config
 postgis
 postgresql
-proctools
 proj
+psgrep
 pyqt
 qhull
 qrupdate
