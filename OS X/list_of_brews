@@ -12,6 +12,7 @@ bash
 bazaar
 beanstalk
 boost
+bsdmake
 c-ares
 cabextract
 cairo
@@ -139,6 +140,7 @@ octave
 oniguruma
 openjpeg
 openssh
+openssl
 ossp-uuid
 osxutils
 p11-kit
@@ -155,6 +157,7 @@ pixman
 pkg-config
 postgis
 postgresql
+proctools
 proj
 pyqt
 qhull
