@@ -31,6 +31,8 @@ elasticsearch
 emacs
 erlang
 expat
+faac
+ffmpeg
 fftw
 flac
 fltk
@@ -212,8 +214,11 @@ wget
 wine
 winetricks
 wireshark
+x264
+xvid
 xz
 yajl
+yasm
 youtube-dl
 z
 zookeeper
