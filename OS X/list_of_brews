@@ -95,8 +95,10 @@ libgcrypt
 libgeotiff
 libgpg-error
 libicns
+libid3tag
 libksba
 libmikmod
+libmp3splt
 libmpc
 libnet
 libogg
@@ -114,12 +116,14 @@ luarocks
 lynx
 lzlib
 macvim
+mad
 make
 mathomatic
 maven
 mercurial
 monetdb
 mongodb
+mp3splt
 mpfr
 msgpack
 multitail
