@@ -1,5 +1,7 @@
+a52dec
 ack
 afflib
+aften
 android-ndk
 android-sdk
 ant
@@ -7,6 +9,7 @@ apple-gcc42
 arping
 autoconf
 automake
+avidemux
 awk
 bash
 bazaar
@@ -32,6 +35,7 @@ emacs
 erlang
 expat
 faac
+faad2
 ffmpeg
 fftw
 flac
@@ -61,6 +65,7 @@ gnu-sed
 gnupg
 gnutls
 go
+gource
 gpp
 gradle
 graphicsmagick
@@ -90,6 +95,7 @@ jq
 json-c
 lame
 leiningen
+libdca
 libevent
 libewf
 libffi
@@ -110,6 +116,7 @@ libtasn1
 libtiff
 libtool
 libvorbis
+libvpx
 little-cms
 little-cms2
 lua
@@ -144,6 +151,7 @@ nspr
 ntfs-3g
 octave
 oniguruma
+opencore-amr
 openjpeg
 openssh
 openssl
@@ -175,6 +183,7 @@ readline
 redis
 riemann
 rsync
+rtmpdump
 s-lang
 s3cmd
 sbt
@@ -192,6 +201,7 @@ sqoop
 ssh-copy-id
 storm
 suite-sparse
+swftools
 swi-prolog
 swig
 synergy
