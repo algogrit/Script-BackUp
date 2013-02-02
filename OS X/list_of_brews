@@ -73,7 +73,6 @@ graphviz
 gremlin
 grep
 groonga
-groovy
 gti
 hadoop
 haskell-platform
@@ -117,6 +116,9 @@ libtiff
 libtool
 libvorbis
 libvpx
+libxml2
+libxslt
+libyaml
 little-cms
 little-cms2
 lua

@@ -16,7 +16,6 @@ export PATH="$HOME/bin:$PATH"
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-export GROOVY_HOME="/usr/local/Cellar/groovy/2.0.5/libexec"
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
 # TOMCAT OPTIONS
