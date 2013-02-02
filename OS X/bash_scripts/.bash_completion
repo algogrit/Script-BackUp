@@ -1,0 +1,10 @@
+echo "~/bash_scripts/.bash_completion Loaded"
+
+# Adding Git 
+if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
+  . /usr/local/git/contrib/completion/git-completion.bash
+fi
+
+# Adding RVM
+[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
+

@@ -15,3 +15,5 @@
 	uncommit = reset HEAD^
 [push]
 	default = current
+[diff]
+	mnemonicprefix = true
