@@ -12,6 +12,7 @@ automake
 avidemux
 awk
 bash
+bash-completion
 bazaar
 beanstalk
 boost

@@ -39,3 +39,5 @@ export EDITOR="$HOME/bin/subl -w"
 # Sourcing Z
 . /usr/local/etc/profile.d/z.sh
 
+# Adding Bash Completion
+source ~/bash_scripts/.bash_completion

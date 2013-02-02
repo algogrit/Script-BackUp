@@ -8,3 +8,8 @@ fi
 # Adding RVM
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
+# Adding Bash Completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
