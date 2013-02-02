@@ -1,5 +1,8 @@
 echo "~/bash_scripts/.bash_load Loaded"
 
+# Formatting bash prompt
+export PS1="\u:\j-\!:\w $ "
+
 # HOMEBREW
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
 
@@ -41,3 +44,4 @@ export EDITOR="$HOME/bin/subl -w"
 
 # Adding Bash Completion
 source ~/bash_scripts/.bash_completion
+
