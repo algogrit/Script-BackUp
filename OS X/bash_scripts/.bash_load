@@ -1,7 +1,7 @@
 echo "~/bash_scripts/.bash_load Loaded"
 
 # Formatting bash prompt
-export PS1="\u:\w \!~> "
+export PS1="\u:\w \! ~> "
 
 # HOMEBREW
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
