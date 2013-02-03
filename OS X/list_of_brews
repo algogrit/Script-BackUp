@@ -48,6 +48,7 @@ fuse4x
 fuse4x-kext
 gd
 gdal
+gdbm
 geos
 gettext
 gfortran
@@ -77,7 +78,6 @@ grep
 groonga
 gti
 hadoop
-harfbuzz
 haskell-platform
 hbase
 hdf5
@@ -200,6 +200,7 @@ sdl_mixer
 sip
 sl
 sleuthkit
+sox
 spidermonkey
 sqlite
 sqliteman
@@ -239,3 +240,4 @@ yasm
 youtube-dl
 z
 zookeeper
+zsh
