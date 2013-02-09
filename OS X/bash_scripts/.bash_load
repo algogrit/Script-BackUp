@@ -53,5 +53,5 @@ function parse_git_branch {
 export PS1="\w:\$(parse_git_branch) $ "
 
 # Show fortune
-[[ "$PS1" ]] && fortune
+fortune
 
