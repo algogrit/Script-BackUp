@@ -1,5 +1,9 @@
 echo "~/bash_scripts/.bash_load Loaded"
 
+# Setting Lang
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
 # Adding Bash Completion
 source ~/bash_scripts/.bash_completion
 
