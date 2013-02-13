@@ -35,7 +35,10 @@ export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 . ~/.nvm/nvm.sh
 . ~/.rvm/scripts/rvm
 . ~/.svm/svm.sh
-[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+
+# Some issues with the below guy:
+# [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+
 export WORKON_HOME=$HOME/.pythonenvs
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
@@ -58,4 +61,3 @@ export PS1="\w:\$(parse_git_branch) $ "
 
 # Show fortune
 fortune
-

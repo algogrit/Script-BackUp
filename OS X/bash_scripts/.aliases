@@ -12,4 +12,3 @@ alias ccp="pbcopy < /dev/null"
 
 # Exported Aliases
 . ~/bash_scripts/.pam_aliases
-

@@ -20,4 +20,3 @@ alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse
 
 # Aliasing switch
 alias nvm49="nvm use v0.4.9"
-
