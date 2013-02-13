@@ -7,7 +7,7 @@ alias alllog="tail -f /data/services/logs/*.log"
 alias tmplog="tail -f tmp/*.log"
 
 # mvn aliases
-alias test="mvn db-migration:reset clean test -Ptest"
+alias prtest="mvn db-migration:reset clean test -Ptest"
 alias pack="mvn clean package -DskipTests"
 alias devpack="mvn clean package -DskipTests -Pdev"
 
