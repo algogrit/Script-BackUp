@@ -10,7 +10,6 @@ arping
 autoconf
 automake
 avidemux
-awk
 bash
 bash-completion
 bazaar
@@ -107,6 +106,7 @@ libgcrypt
 libgeotiff
 libgpg-error
 libicns
+libiconv
 libid3tag
 libksba
 libmikmod
