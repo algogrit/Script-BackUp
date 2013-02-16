@@ -182,6 +182,7 @@ postgresql
 proj
 psgrep
 pyqt
+python
 qhull
 qrupdate
 qscintilla2
@@ -200,6 +201,7 @@ scm-manager
 sdl
 sdl_image
 sdl_mixer
+serf
 sip
 sl
 sleuthkit
@@ -210,6 +212,7 @@ sqliteman
 sqoop
 ssh-copy-id
 storm
+subversion
 suite-sparse
 swftools
 swi-prolog
