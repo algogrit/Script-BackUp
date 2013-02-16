@@ -36,13 +36,6 @@ export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 . ~/.rvm/scripts/rvm
 . ~/.svm/svm.sh
 
-# Some issues with the below guy:
-# [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
-
-export WORKON_HOME=$HOME/.pythonenvs
-export PIP_VIRTUALENV_BASE=$WORKON_HOME
-export PIP_RESPECT_VIRTUALENV=true
-
 # Editor Configuration
 export EDITOR="$HOME/bin/subl -w"
 
