@@ -31,10 +31,9 @@ export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 # ADDING HADOOP ENV
 . /usr/local/Cellar/hadoop/1.1.1/libexec/conf/hadoop-env.sh 
 
-# Programming Version Managers
+# Language Version Managers
 . ~/.nvm/nvm.sh
 . ~/.rvm/scripts/rvm
-. ~/.svm/svm.sh
 
 # Editor Configuration
 export EDITOR="$HOME/bin/subl -w"
