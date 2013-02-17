@@ -39,6 +39,7 @@ faac
 faad2
 ffmpeg
 fftw
+findutils
 flac
 fltk
 fontconfig
