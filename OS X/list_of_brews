@@ -38,6 +38,7 @@ erlang
 expat
 faac
 faad2
+fdk-aac
 ffmpeg
 fftw
 findutils
@@ -47,6 +48,8 @@ fontconfig
 fortune
 fossil
 freexl
+frei0r
+fribidi
 fuse4x
 fuse4x-kext
 gawk
@@ -102,6 +105,7 @@ json-c
 kdiff3
 lame
 leiningen
+libass
 libdca
 libevent
 libewf
@@ -123,6 +127,7 @@ libspatialite
 libtasn1
 libtiff
 libtool
+libvo-aacenc
 libvorbis
 libvpx
 libxml2
@@ -166,6 +171,8 @@ opencore-amr
 openjpeg
 openssh
 openssl
+opus
+orc
 ossp-uuid
 osxutils
 p11-kit
@@ -200,6 +207,7 @@ rtmpdump
 s-lang
 s3cmd
 sbt
+schroedinger
 scm-manager
 sdl
 sdl_image
@@ -210,6 +218,7 @@ sl
 sleuthkit
 solr
 sox
+speex
 spidermonkey
 sqlite
 sqliteman
@@ -225,6 +234,7 @@ szip
 tbb
 texinfo
 the_silver_searcher
+theora
 tig
 tiger-vnc
 tmux
