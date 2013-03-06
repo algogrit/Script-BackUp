@@ -5,6 +5,7 @@ aften
 android-ndk
 android-sdk
 ant
+antlr
 apple-gcc42
 arping
 autoconf
@@ -48,6 +49,7 @@ fossil
 freexl
 fuse4x
 fuse4x-kext
+gawk
 gd
 gdal
 gdbm
@@ -206,6 +208,7 @@ serf
 sip
 sl
 sleuthkit
+solr
 sox
 spidermonkey
 sqlite
@@ -238,6 +241,7 @@ wget
 wine
 winetricks
 wireshark
+wkhtmltopdf
 x264
 xvid
 xz

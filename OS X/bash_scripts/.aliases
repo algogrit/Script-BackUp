@@ -6,7 +6,6 @@ alias euler="cd ~/Projects/Learning/Project\ Euler"
 alias incanter="cd ~/Projects/Learning/Statistics\ \&\ Visualization/learning-incanter"
 
 # Generic Aliases
-alias ch="> ~/.bash_history && history -c"
 alias c="clear"
 alias ccp="pbcopy < /dev/null"
 

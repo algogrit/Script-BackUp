@@ -53,3 +53,6 @@ export PS1="\w:\$(parse_git_branch) $ "
 
 # Show fortune
 fortune
+
+# Clear history
+> ~/.bash_history && history -c
