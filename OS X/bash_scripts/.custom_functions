@@ -2,5 +2,5 @@ echo "~/bash_scripts/.custom_functions Loaded"
 
 # For Git
 function git_diff_commits {
-  git log `git rev-parse --abbrev-ref HEAD`..$1
+  git log --reverse `git rev-parse --abbrev-ref HEAD`..$1
 }
