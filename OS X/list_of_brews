@@ -146,6 +146,7 @@ mad
 make
 mathomatic
 maven
+memcached
 mercurial
 monetdb
 mongodb
