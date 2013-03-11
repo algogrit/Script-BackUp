@@ -1,7 +1,6 @@
 echo "~/bash_scripts/.pam_aliases Loaded"
 
 # Aliasing Log Tails
-alias clog="> /usr/local/Cellar/tomcat/7.0.34/libexec/logs/catalina.out"
 alias dlog="tail -f /usr/local/var/postgres/server.log"
 alias alllog="tail -f /data/services/logs/*.log"
 alias tmplog="tail -f tmp/*.log"
