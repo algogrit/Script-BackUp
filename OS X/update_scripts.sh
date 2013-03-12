@@ -6,6 +6,9 @@ rm .bash_history
 # Copy gitconfig
 cp ~/.gitconfig .
 
+# Copy Custom Git Commands
+cp -r ~/Custom-Git-Commands .
+
 # Copy Leiningen global profile
 cp ~/.lein/profiles.clj ./.lein
 

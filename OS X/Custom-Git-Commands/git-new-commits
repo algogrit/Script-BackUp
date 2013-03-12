@@ -1,0 +1,2 @@
+#!/bin/sh
+git log --reverse `git rev-parse --abbrev-ref HEAD`..origin/`git rev-parse --abbrev-ref HEAD`

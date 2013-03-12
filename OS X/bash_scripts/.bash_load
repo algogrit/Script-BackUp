@@ -29,7 +29,7 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 
 # ADDING HADOOP ENV
-. /usr/local/Cellar/hadoop/1.1.1/libexec/conf/hadoop-env.sh 
+. /usr/local/Cellar/hadoop/1.1.2/libexec/conf/hadoop-env.sh
 
 # Language Version Managers
 . ~/.nvm/nvm.sh
@@ -54,8 +54,9 @@ export PS1="\w:\$(parse_git_branch) $ "
 # Show fortune
 fortune
 
-# Load custom functions
-source ~/bash_scripts/.custom_functions
+# Load custom git commands
+echo "~/Custom-Git-Commands Loaded"
+export PATH="$PATH:$HOME/Custom-Git-Commands"
 
 # Clear history
 > ~/.bash_history && history -c
