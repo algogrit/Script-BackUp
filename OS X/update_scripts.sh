@@ -1,3 +1,8 @@
+# Remove all except update_scripts.sh
+cp update_scripts.sh /tmp
+rm -rf
+cp /tmp/update_scripts.sh .
+
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
 cp ~/.bash* .
@@ -10,7 +15,7 @@ cp ~/.gitconfig .
 cp -r ~/Custom-Git-Commands .
 
 # Copy Leiningen global profile
-cp ~/.lein/profiles.clj ./.lein
+cp -r ~/.lein .
 
 # List of Brew installations
 brew list > list_of_brews

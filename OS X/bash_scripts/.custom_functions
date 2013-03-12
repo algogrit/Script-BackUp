@@ -1,6 +1,0 @@
-echo "~/bash_scripts/.custom_functions Loaded" 
-
-# For Git
-function git_new_commits {
-  git log --reverse `git rev-parse --abbrev-ref HEAD`..$1
-}
