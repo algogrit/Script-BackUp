@@ -1,6 +1,6 @@
 # Remove all except update_scripts.sh
 cp update_scripts.sh /tmp
-rm -rf
+rm -rf *
 cp /tmp/update_scripts.sh .
 
 # Copy all bash scripts, except .bash_history
