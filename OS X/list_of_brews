@@ -161,6 +161,7 @@ nagios
 nagios-plugins
 nano
 nasm
+ncurses
 neo4j
 neon
 nettle
