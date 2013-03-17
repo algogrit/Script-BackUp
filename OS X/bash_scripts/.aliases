@@ -7,7 +7,7 @@ alias incanter="cd ~/Projects/Learning/Statistics\ \&\ Visualization/learning-in
 
 # Generic Aliases
 alias c="clear"
-alias ccp="pbcopy < /dev/null"
+alias ccb="pbcopy < /dev/null"
 
 # Exported Aliases
 . ~/bash_scripts/.pam_aliases
