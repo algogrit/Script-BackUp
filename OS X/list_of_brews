@@ -73,6 +73,7 @@ gmp
 gnu-go
 gnu-prolog
 gnu-sed
+gnu-tar
 gnupg
 gnutls
 go
