@@ -10,6 +10,7 @@ alias devmigrate="mvn db-migration:migrate -Pdev"
 alias prtest="mvn db-migration:reset clean test -Ptest"
 alias pack="mvn clean package -DskipTests"
 alias devpack="mvn clean package -DskipTests -Pdev"
+alias jetstart="mvn jetty:run -Dconfig_file=file:/data/services/configurations/application.properties"
 
 # Git Aliases
 alias gs="git status"
