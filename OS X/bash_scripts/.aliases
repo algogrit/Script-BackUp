@@ -9,5 +9,8 @@ alias incanter="cd ~/Projects/Learning/Statistics\ \&\ Visualization/learning-in
 alias c="clear"
 alias ccb="pbcopy < /dev/null"
 
-# Exported Aliases
+# Remove pesky .DS_Store files
+alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
+
+# Export Other Aliases
 . ~/bash_scripts/.pam_aliases
