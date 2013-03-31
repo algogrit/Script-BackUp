@@ -9,8 +9,9 @@ alias incanter="cd ~/Projects/Learning/Statistics\ \&\ Visualization/learning-in
 alias c="clear"
 alias ccb="pbcopy < /dev/null"
 
-# Remove pesky .DS_Store files
+# Remove pesky Apple Turd files
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
+alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
 
 # Export Other Aliases
 . ~/bash_scripts/.pam_aliases
