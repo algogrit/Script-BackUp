@@ -5,4 +5,3 @@ echo "Stash count: `git stash list | wc -l`"
 git reflog expire --expire=now --all
 git gc --prune=now
 git fsck
-git reset HEAD --hard
