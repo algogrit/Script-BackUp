@@ -206,6 +206,7 @@ r
 rdup
 readline
 redis
+riak
 riemann
 rsync
 rtmpdump
@@ -214,6 +215,7 @@ s3cmd
 sbt
 schroedinger
 scm-manager
+screen
 sdl
 sdl_image
 sdl_mixer
