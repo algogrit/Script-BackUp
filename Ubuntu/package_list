@@ -161,6 +161,7 @@ i   empathy-common                  - GNOME multi-protocol chat and call client
 i   enchant                         - Wrapper for various spell checker engines 
 i   eog                             - Eye of GNOME graphics viewer program      
 i   espeak-data                     - Multi-lingual software speech synthesizer:
+i   everpad                         - Ubuntu integrated evernote client         
 i   evince                          - Document (PostScript, PDF) viewer         
 i   evince-common                   - Document (PostScript, PDF) viewer - common
 i   evolution-data-server           - evolution database backend server         
@@ -345,6 +346,7 @@ i   gstreamer0.10-tools             - Tools for use with GStreamer
 i   gstreamer0.10-x                 - GStreamer plugins for X11 and Pango       
 i   gtk2-engines                    - theme engines for GTK+ 2.x                
 i   gtk2-engines-murrine            - cairo-based gtk+-2.0 theme engine         
+i A gtk2-engines-pixbuf             - pixbuf-based theme for GTK+ 2.x           
 i   gtk3-engines-unico              - Unico Gtk+ 3 theme engine                 
 i   guake                           - Drop-down terminal for GNOME Desktop Envir
 i   gucharmap                       - Unicode character picker and font browser 
@@ -1132,6 +1134,7 @@ i   libpoppler28                    - PDF rendering library
 i   libpopt0                        - lib for parsing cmdline parameters        
 i   libportaudio2                   - Portable audio I/O - shared library       
 i A libpostproc52                   - Libav video postprocessing library        
+i A libpq5                          - PostgreSQL C client library               
 i   libprocps0                      - library for accessing process information 
 i   libprotobuf7                    - protocol buffers C++ library              
 i   libprotoc7                      - protocol buffers compiler library         
@@ -1147,6 +1150,7 @@ i   libpulsedsp                     - PulseAudio OSS pre-load library
 i   libpurple-bin                   - multi-protocol instant messaging library -
 i   libpurple0                      - multi-protocol instant messaging library  
 i   libpwquality1                   - library for password quality checking and 
+i A libpyside1.1                    - Python bindings for Qt 4 (base files)     
 i   libpython2.7                    - Shared Python runtime library (version 2.7
 i   libpython3.2                    - Shared Python runtime library (version 3.2
 i A libqapt-runtime                 - Runtime components for the QApt library   
@@ -1233,6 +1237,7 @@ i A libserf1                        - high-performance asynchronous HTTP client
 i A libservlet2.5-java              - Servlet 2.5 and JSP 2.1 Java API classes  
 i A libservlet3.0-java              - Servlet 3.0 and JSP 2.2 Java API classes  
 i   libsgutils2-2                   - utilities for devices using the SCSI comma
+i A libshiboken1.1                  - CPython bindings generator for C++ librari
 i   libshout3                       - MP3/Ogg Vorbis broadcast streaming library
 i A libsidplay1                     - SID (MOS 6581) emulation library          
 i   libsigc++-2.0-0c2a              - type-safe Signal Framework for C++ - runti
@@ -1300,6 +1305,7 @@ i   libthai-data                    - Data files for Thai language support libra
 i   libthai0                        - Thai language support library             
 i   libtheora0                      - The Theora Video Compression Codec        
 i A libthreadweaver4                - ThreadWeaver Library for the KDE Platform 
+i A libtidy-0.99-0                  - HTML syntax checker and reformatter - libr
 i   libtiff5                        - Tag Image File Format (TIFF) library      
 i   libtimedate-perl                - collection of modules to manipulate date/t
 i   libtimezonemap1                 - GTK+3 timezone map widget                 
@@ -1581,6 +1587,10 @@ i   poppler-data                    - encoding data for the poppler PDF renderin
 i   poppler-utils                   - PDF utilities (based on Poppler)          
 i   popularity-contest              - Vote for your favourite packages automatic
 i A postfix                         - High-performance mail transport agent     
+i   postgresql-9.2                  - object-relational SQL database, version 9.
+i A postgresql-client-9.2           - front-end programs for PostgreSQL 9.2     
+i A postgresql-client-common        - manager for multiple PostgreSQL client ver
+i A postgresql-common               - PostgreSQL database-cluster manager       
 i   powermgmt-base                  - Common utils and configs for power managem
 i   ppp                             - Point-to-Point Protocol (PPP) - daemon    
 i   pppconfig                       - A text menu based utility for configuring 
@@ -1613,9 +1623,11 @@ i   python-apt                      - Python interface to libapt-pkg
 i   python-apt-common               - Python interface to libapt-pkg (locales)  
 i   python-aptdaemon                - Python 2 module for the server and client 
 i   python-aptdaemon.gtk3widgets    - Python 2 GTK+ 3 widgets to run an aptdaemo
+i A python-beautifulsoup            - error-tolerant HTML parser for Python     
 i   python-cairo                    - Python bindings for the Cairo vector graph
 i   python-chardet                  - universal character encoding detector     
 i   python-configglue               - Glues together optparse.OptionParser and C
+i A python-crypto                   - cryptographic algorithms and protocols for
 i   python-cups                     - Python bindings for CUPS                  
 i   python-cupshelpers              - Python modules for printer configuration w
 i   python-dbus                     - simple interprocess messaging system (Pyth
@@ -1624,6 +1636,7 @@ i   python-debian                   - Python modules to work with Debian-related
 i   python-debtagshw                - Match debtags hardware:: tags against the 
 i   python-defer                    - Small framework for asynchronous programmi
 i   python-dirspec                  - Python User Folders Specification Library 
+i A python-feedparser               - Universal Feed Parser for Python          
 i   python-gconf                    - Python bindings for the GConf configuratio
 i   python-gi                       - Python 2.x bindings for gobject-introspect
 i   python-gi-cairo                 - Python Cairo bindings for the GObject libr
@@ -1635,17 +1648,21 @@ i   python-gobject                  - Python 2.x bindings for GObject - transiti
 i   python-gobject-2                - deprecated static Python bindings for the 
 i   python-gst0.10                  - generic media-playing framework (Python bi
 i   python-gtk2                     - Python bindings for the GTK+ widget set   
+i A python-html2text                - Python module for converting HTML to Markd
 i   python-httplib2                 - comprehensive HTTP client library written 
 i   python-ibus                     - Intelligent Input Bus - Python support    
 i   python-imaging                  - Python Imaging Library                    
 i A python-keybinder                - registers global key bindings for applicat
+i A python-keyring                  - store and access your passwords safely    
 i   python-libxml2                  - Python bindings for the GNOME XML library 
 i   python-lxml                     - pythonic binding for the libxml2 and libxs
+i A python-magic                    - File type determination library using "mag
 i   python-mako                     - fast and lightweight templating for the Py
 i   python-markupsafe               - XML/HTML/XHTML Markup safe string for Pyth
 i   python-minimal                  - minimal subset of the Python language (def
 i   python-notify                   - Python bindings for libnotify             
 i   python-oauth                    - Python library implementing of the OAuth p
+i A python-oauth2                   - Library for OAuth version 1.0a (forked fro
 i   python-openssl                  - Python 2 wrapper around the OpenSSL librar
 i   python-pam                      - Python interface to the PAM library       
 i   python-pexpect                  - Python module for automating interactive a
@@ -1656,8 +1673,14 @@ i   python-protobuf                 - Python bindings for protocol buffers
 i   python-pycurl                   - Python bindings to libcurl                
 i   python-pyinotify                - simple Linux inotify Python bindings      
 i A python-pyorbit                  - A Python language binding for the ORBit2 C
+i A python-pyside.qtcore            - Qt 4 core module - Python bindings        
+i A python-pyside.qtgui             - Qt 4 GUI module - Python bindings         
+i A python-pyside.qtnetwork         - Qt 4 network module - Python bindings     
+i A python-pyside.qtwebkit          - Qt 4 WebKit module - Python bindings      
+i A python-pysqlite2                - Python interface to SQLite 3              
 i   python-qt4                      - Python bindings for Qt4                   
 i   python-qt4-dbus                 - D-Bus Support for PyQt4                   
+i A python-regex                    - alternative regular expression module     
 i   python-renderpm                 - python low level render interface         
 i   python-reportlab                - ReportLab library to create PDF documents 
 i   python-reportlab-accel          - C coded extension accelerator for the Repo
@@ -1666,6 +1689,8 @@ i   python-simplejson               - simple, fast, extensible JSON encoder/deco
 i   python-sip                      - Python/C++ bindings generator runtime libr
 i   python-six                      - Python 2 and 3 compatibility library (Pyth
 i   python-smbc                     - Python bindings for Samba clients (libsmbc
+i A python-sqlalchemy               - SQL toolkit and Object Relational Mapper f
+i A python-sqlalchemy-ext           - SQL toolkit and Object Relational Mapper f
 i A python-support                  - automated rebuilding support for Python mo
 i   python-twisted-bin              - Event-based framework for internet applica
 i   python-twisted-core             - Event-based framework for internet applica
@@ -1675,7 +1700,9 @@ i   python-ubuntu-sso-client        - Ubuntu Single Sign-On client - Python libr
 i   python-ubuntuone-client         - Ubuntu One client Python libraries        
 i   python-ubuntuone-control-panel  - Ubuntu One Control Panel - Python Librarie
 i   python-ubuntuone-storageprotoco - Python library for Ubuntu One file storage
+i A python-unity-singlet            - Python library for quickly building simple
 i   python-uno                      - Python-UNO bridge                         
+i A python-utidylib                 - Python wrapper for TidyLib                
 i A python-vte                      - Python bindings for the VTE widget set    
 i   python-xapian                   - Xapian search engine interface for Python 
 i   python-xdg                      - Python 2 library to access freedesktop.org
