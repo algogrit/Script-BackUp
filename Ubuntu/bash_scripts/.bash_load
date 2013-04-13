@@ -1,4 +1,4 @@
-echo "~/bash_scripts/.bash_load Loaded"
+# echo "~/bash_scripts/.bash_load Loaded"
 
 # Setting Lang
 export LC_ALL="en_US.UTF-8"
@@ -17,7 +17,7 @@ export EXPERIMENTAL="/projects/experimental/bin"
 export PATH="$HOME/bin:$PATH"
 
 # Load custom git commands
-echo "~/Custom-Git-Commands Loaded"
+# echo "~/Custom-Git-Commands Loaded"
 export PATH="$PATH:$HOME/Custom-Git-Commands"
 
 # Clear history

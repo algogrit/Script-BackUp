@@ -1,0 +1,7 @@
+#!/bin/sh
+git clean -f
+echo "Reflog commit count: `git reflog | wc -l`"
+echo "Stash count: `git stash list | wc -l`"
+git reflog expire --expire=now --all
+git gc --prune=now
+git fsck

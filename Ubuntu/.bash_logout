@@ -1,4 +1,4 @@
-echo "~/.bash_logout Loaded"
+# echo "~/.bash_logout Loaded"
 
 # when leaving the console clear the screen to increase privacy
 

@@ -1,4 +1,4 @@
-echo '~/bash_scripts/.aliases Loaded'
+# echo '~/bash_scripts/.aliases Loaded'
 
 # Generic Aliases
 alias c="clear"

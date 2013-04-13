@@ -1,4 +1,4 @@
-echo "~/bash_scripts/.bash_original Loaded"
+# echo "~/bash_scripts/.bash_original Loaded"
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return

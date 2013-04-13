@@ -14,8 +14,5 @@ cp ~/.gitconfig .
 # Copy Custom Git Commands
 cp -r ~/Custom-Git-Commands .
 
-# Copy Leiningen global profile
-cp -r ~/.lein .
-
 # Aptitude Package Listings
 aptitude search '~i' > package_list
