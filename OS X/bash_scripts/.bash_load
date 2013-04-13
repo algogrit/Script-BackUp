@@ -41,6 +41,9 @@ export EDITOR="$HOME/bin/subl -w"
 # Sourcing Z
 . /usr/local/etc/profile.d/z.sh
 
+# Set LSCOLORS when CLICOLOR is enabled
+export LSCOLORS="ecfxcxdxbxegedabagacad"
+
 # Show dirty state
 export GIT_PS1_SHOWDIRTYSTATE=true
 
