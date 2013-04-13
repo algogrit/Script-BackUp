@@ -19,4 +19,3 @@ cp -r ~/.lein .
 
 # List of Brew installations
 brew list > list_of_brews
-

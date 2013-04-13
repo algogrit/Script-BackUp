@@ -1,0 +1,24 @@
+echo "~/bash_scripts/.bash_load Loaded"
+
+# Setting Lang
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+# Adding Bash Completion
+source ~/bash_scripts/.bash_original
+
+# Adding Bash Completion
+source ~/bash_scripts/.bash_completion
+
+# Experimental Install Path
+export EXPERIMENTAL="/projects/experimental/bin"
+
+# ADDING ~/bin TO THE PATH
+export PATH="$HOME/bin:$PATH"
+
+# Load custom git commands
+echo "~/Custom-Git-Commands Loaded"
+export PATH="$PATH:$HOME/Custom-Git-Commands"
+
+# Clear history
+> ~/.bash_history && history -c

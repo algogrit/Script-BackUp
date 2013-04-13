@@ -1,4 +1,0 @@
-echo "~/bash_settings/.bash_completion Loaded"
-
-# NVM Completion
-[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
