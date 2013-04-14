@@ -17,5 +17,8 @@ cp -r ~/Custom-Git-Commands .
 # Copy Leiningen global profile
 cp -r ~/.lein .
 
+# Copt tmux configuration
+cp ~/.tmux.conf .
+
 # List of Brew installations
 brew list > list_of_brews
