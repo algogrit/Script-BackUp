@@ -1,6 +1,8 @@
 # Remove all except update_scripts.sh
 cp update_scripts.sh /tmp
+echo "Removing files..."
 ls -A | xargs rm -rv
+echo "Copying fresh files...""
 cp /tmp/update_scripts.sh .
 
 # Copy all bash scripts, except .bash_history
