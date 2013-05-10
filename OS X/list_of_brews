@@ -1,4 +1,5 @@
 a52dec
+ab
 ack
 afflib
 aften
@@ -7,6 +8,7 @@ android-sdk
 ant
 antlr
 apple-gcc42
+apr
 arping
 autoconf
 automake
