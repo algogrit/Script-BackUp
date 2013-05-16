@@ -26,6 +26,7 @@ cabextract
 cairo
 calcurse
 cassandra
+cloog
 cmake
 couchdb
 csvprintf
@@ -35,6 +36,7 @@ dart
 dotwrp
 drip
 duplicity
+ecj
 elasticsearch
 emacs
 erlang
@@ -56,6 +58,7 @@ fribidi
 fuse4x
 fuse4x-kext
 gawk
+gcc48
 gd
 gdal
 gdbm
@@ -63,6 +66,7 @@ geos
 gettext
 gfortran
 ghc
+ghostscript
 giflib
 git
 giter8
@@ -101,6 +105,7 @@ icu4c
 imagemagick
 io
 ioke
+isl
 jasper
 jbig2dec
 jpeg
@@ -110,6 +115,7 @@ json-c
 kdiff3
 lame
 leiningen
+libarchive
 libass
 libdca
 libevent
