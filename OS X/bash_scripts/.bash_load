@@ -33,9 +33,6 @@ export RUBY_HEAP_MIN_SLOTS=1250000
 export RUBY_FREE_MIN=12500
 export RUBY_GC_MALLOC_LIMIT=30000000
 
-# ADDING HADOOP ENV
-. /usr/local/Cellar/hadoop/1.1.2/libexec/conf/hadoop-env.sh
-
 # Language Version Managers
 . ~/.nvm/nvm.sh
 . ~/.rvm/scripts/rvm
