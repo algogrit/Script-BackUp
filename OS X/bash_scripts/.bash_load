@@ -29,9 +29,9 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 
 # RUBY GC Tuning Options
-export RUBY_HEAP_MIN_SLOTS=800000
-export RUBY_FREE_MIN=100000
-export RUBY_GC_MALLOC_LIMIT=79000000
+export RUBY_HEAP_MIN_SLOTS=1250000
+export RUBY_FREE_MIN=12500
+export RUBY_GC_MALLOC_LIMIT=30000000
 
 # ADDING HADOOP ENV
 . /usr/local/Cellar/hadoop/1.1.2/libexec/conf/hadoop-env.sh
