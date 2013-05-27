@@ -18,6 +18,7 @@ bash-completion
 bazaar
 bdw-gc
 beanstalk
+bind
 bison
 boost
 bsdmake
@@ -79,6 +80,7 @@ gmp
 gnu-go
 gnu-prolog
 gnu-sed
+gnu-smalltalk
 gnu-tar
 gnupg
 gnutls
@@ -137,6 +139,7 @@ libmpc
 libnet
 libogg
 librsync
+libsigsegv
 libspatialite
 libtasn1
 libtiff
