@@ -33,6 +33,7 @@ couchdb
 csvprintf
 ctags
 curl
+curl-ca-bundle
 dart
 dotwrp
 drip
