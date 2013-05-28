@@ -19,6 +19,12 @@ export PATH=/opt/subversion/bin:$PATH
 # ADDING ~/bin TO THE PATH
 export PATH="$HOME/bin:$PATH"
 
+# ADDING brew installed python TO THE PATH
+export PATH="/usr/local/share/python:$PATH"
+
+# Set GNU Plot to be used as default
+export GNUTERM=X11
+
 # HOME SWEET HOME
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec

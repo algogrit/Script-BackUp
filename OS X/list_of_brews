@@ -83,7 +83,9 @@ gnu-prolog
 gnu-sed
 gnu-smalltalk
 gnu-tar
+gnu-which
 gnupg
+gnuplot
 gnutls
 go
 gource
@@ -278,6 +280,7 @@ winetricks
 wireshark
 wkhtmltopdf
 x264
+xclip
 xvid
 xz
 yajl
