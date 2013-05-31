@@ -9,6 +9,7 @@ ant
 antlr
 apple-gcc42
 apr
+apr-util
 arping
 autoconf
 automake
@@ -123,6 +124,7 @@ json-c
 kdiff3
 lame
 leiningen
+less
 libarchive
 libass
 libdca
