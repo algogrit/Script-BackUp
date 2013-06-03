@@ -13,6 +13,9 @@ rm .bash_history
 # Copy gitconfig
 cp ~/.gitconfig .
 
+# Copy vimrc
+cp ~/.vimrc .
+
 # Copy Custom Git Commands
 cp -r ~/Custom-Git-Commands .
 
