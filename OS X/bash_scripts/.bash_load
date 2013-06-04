@@ -62,6 +62,9 @@ function parse_git_branch {
 # Formatting bash prompt
 export PS1="\w:\$(parse_git_branch) $ "
 
+# Vimpager
+export PAGER=vimpager
+
 # Show fortune
 fortune
 

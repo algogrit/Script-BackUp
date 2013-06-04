@@ -16,6 +16,9 @@ cp ~/.gitconfig .
 # Copy vimrc
 cp ~/.vimrc .
 
+# Copy vimpagerrc
+cp ~/.vimpagerrc .
+
 # Copy Custom Git Commands
 cp -r ~/Custom-Git-Commands .
 

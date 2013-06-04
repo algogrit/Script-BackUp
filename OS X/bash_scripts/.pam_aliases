@@ -7,6 +7,8 @@ alias tmplog="tail -f tmp/*.log"
 
 # mvn aliases
 alias devmigrate="mvn db-migration:migrate -Pdev"
+alias devdbclean="mvn db-migration:drop db-migration:create db-migration:migrate -P dev"
+alias devdbcreate="mvn db-migration:create db-migration:migrate -P dev"
 alias ptest="mvn db-migration:reset clean test -Ptest"
 alias pack="mvn clean package -DskipTests"
 alias devpack="mvn clean package -DskipTests -Pdev"
