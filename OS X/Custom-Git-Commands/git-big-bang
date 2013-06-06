@@ -1,0 +1,18 @@
+#!/bin/sh
+startt=`date +%s`
+base=$(pwd)
+folder_list=$(find . -type d -maxdepth 2 -name '.git')
+
+folder_size=`echo $folder_list | wc -w`
+count=0
+echo '\n'
+for repo_path in $folder_list
+do
+	let count+=1
+	echo $repo_path
+	cd $(echo $repo_path"/..")
+	echo "Updating $count of $folder_size \r";
+	git pull --stat --progress
+	cd $base
+done
+echo "\nUpdate completed in $((`date +%s` - $startt)) secs. \n"
