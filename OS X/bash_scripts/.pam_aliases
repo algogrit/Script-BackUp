@@ -2,8 +2,9 @@ echo "~/bash_scripts/.pam_aliases Loaded"
 
 # Aliasing Log Tails
 alias dlog="tail -f /usr/local/var/postgres/server.log"
-alias alllog="tail -f /data/services/logs/*.log"
+alias servicelogs="tail -f /data/services/logs/*.log"
 alias tmplog="tail -f tmp/*.log"
+alias railslog="tail -f log/*.log"
 
 # mvn aliases
 alias devmigrate="mvn db-migration:migrate -Pdev"

@@ -192,6 +192,7 @@ nginx
 nspr
 ntfs-3g
 octave
+ohcount
 oniguruma
 opencore-amr
 openjpeg
@@ -224,6 +225,7 @@ qrupdate
 qscintilla2
 qt
 r
+ragel
 rdesktop
 rdup
 readline
