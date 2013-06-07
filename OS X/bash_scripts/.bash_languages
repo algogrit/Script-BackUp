@@ -7,3 +7,6 @@ export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
 export RUBY_HEAP_MIN_SLOTS=1250000
 export RUBY_FREE_MIN=12500
 export RUBY_GC_MALLOC_LIMIT=30000000
+
+# Set GNU Plot to use x11 by default
+export GNUTERM=X11

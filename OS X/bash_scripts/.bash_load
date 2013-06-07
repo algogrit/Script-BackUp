@@ -1,5 +1,8 @@
 echo -e "\e[1;36m~/bash_scripts/.bash_load Loaded\e[0m"
 
+# Show fortune
+fortune
+
 # Sourcing Bash Completion
 source ~/bash_scripts/.bash_completion
 
@@ -17,9 +20,6 @@ source ~/bash_scripts/.aliases
 
 # Sourcing Z
 . /usr/local/etc/profile.d/z.sh
-
-# Show fortune
-fortune
 
 # Clear history
 > ~/.bash_history && history -c

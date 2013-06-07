@@ -7,9 +7,6 @@ export LANG="en_US.UTF-8"
 # Window Name
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
-# Set GNU Plot to be used as default
-export GNUTERM=X11
-
 # Editor Configuration
 export EDITOR="$HOME/bin/subl -w"
 
