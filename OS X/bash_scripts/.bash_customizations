@@ -1,0 +1,30 @@
+echo -e "\e[1;36m~/bash_scripts/.bash_customizations Loaded\e[0m"
+
+# Setting Lang
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+# Window Name
+export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+
+# Set GNU Plot to be used as default
+export GNUTERM=X11
+
+# Editor Configuration
+export EDITOR="$HOME/bin/subl -w"
+
+# Set LSCOLORS when CLICOLOR is enabled
+export LSCOLORS="ecfxcxdxbxegedabagacad"
+
+# Show dirty state
+export GIT_PS1_SHOWDIRTYSTATE=true
+
+function parse_git_branch {
+  echo "$(__git_ps1)"
+}
+
+# Formatting bash prompt
+export PS1="\w:\$(parse_git_branch) $ "
+
+# Vimpager
+export PAGER=vimpager

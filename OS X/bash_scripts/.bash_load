@@ -1,79 +1,25 @@
-echo "~/bash_scripts/.bash_load Loaded"
+echo -e "\e[1;36m~/bash_scripts/.bash_load Loaded\e[0m"
 
-# Setting Lang
-export LC_ALL="en_US.UTF-8"
-export LANG="en_US.UTF-8"
-
-# iTerm Window Name
-export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
-
-# Adding Bash Completion
+# Sourcing Bash Completion
 source ~/bash_scripts/.bash_completion
 
-# HOMEBREW
-export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
+# Sourcing Bash Paths
+source ~/bash_scripts/.bash_paths
 
-# Experimental Install Path
-export EXPERIMENTAL="~/Projects/experimental/bin"
+# Sourcing Bash Customizations
+source ~/bash_scripts/.bash_customizations
 
-# SUBVERSION
-export PATH=/opt/subversion/bin:$PATH
+# Sourcing Bash Languages
+source ~/bash_scripts/.bash_languages
 
-# ADDING ~/bin TO THE PATH
-export PATH="$HOME/bin:$PATH"
-
-# ADDING brew installed python TO THE PATH
-export PATH="/usr/local/share/python:$PATH"
-
-# Set GNU Plot to be used as default
-export GNUTERM=X11
-
-# HOME SWEET HOME
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec
-export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-
-# TOMCAT OPTIONS
-export CATALINA_OPTS="-Xms512m -Xmx2g -XX:PermSize=128m -XX:MaxPermSize=512m"
-
-# RUBY GC Tuning Options
-export RUBY_HEAP_MIN_SLOTS=1250000
-export RUBY_FREE_MIN=12500
-export RUBY_GC_MALLOC_LIMIT=30000000
-
-# Language Version Managers
-. ~/.nvm/nvm.sh
-. ~/.rvm/scripts/rvm
-
-# Editor Configuration
-export EDITOR="$HOME/bin/subl -w"
+# Sourcing Aliases
+source ~/bash_scripts/.aliases
 
 # Sourcing Z
 . /usr/local/etc/profile.d/z.sh
 
-# Set LSCOLORS when CLICOLOR is enabled
-export LSCOLORS="ecfxcxdxbxegedabagacad"
-
-# Show dirty state
-export GIT_PS1_SHOWDIRTYSTATE=true
-
-function parse_git_branch {
-  echo "$(__git_ps1)"
-}
-
-# Formatting bash prompt
-export PS1="\w:\$(parse_git_branch) $ "
-
-# Vimpager
-export PAGER=vimpager
-
 # Show fortune
 fortune
-
-# Load custom git commands
-echo "~/Custom-Git-Commands Loaded"
-export PATH="$PATH:$HOME/Custom-Git-Commands"
 
 # Clear history
 > ~/.bash_history && history -c

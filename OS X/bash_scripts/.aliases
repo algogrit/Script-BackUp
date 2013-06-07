@@ -1,4 +1,4 @@
-echo '~/bash_scripts/.aliases Loaded'
+echo -e "\e[1;36m~/bash_scripts/.aliases Loaded\e[0m"
 
 # Generic Aliases
 alias c="clear"
@@ -9,6 +9,10 @@ alias vp='vimpager'
 # Remove pesky Apple Turd files
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
 alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
+
+# Load custom git commands
+echo -e "\e[1;36m~/Custom-Git-Commands Loaded\e[0m"
+export PATH="$PATH:$HOME/Custom-Git-Commands"
 
 # Export Other Aliases
 . ~/bash_scripts/.pam_aliases

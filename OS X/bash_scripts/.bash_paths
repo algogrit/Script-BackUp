@@ -1,0 +1,26 @@
+echo -e "\e[1;36m~/bash_scripts/.bash_paths Loaded\e[0m"
+
+# HOMEBREW
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
+
+# Experimental Install Path
+export EXPERIMENTAL="~/Projects/experimental/bin"
+
+# SUBVERSION
+export PATH=/opt/subversion/bin:$PATH
+
+# ADDING ~/bin TO THE PATH
+export PATH="$HOME/bin:$PATH"
+
+# ADDING brew installed python TO THE PATH. Related to install-scripts.
+export PATH="/usr/local/share/python:$PATH"
+
+# HOME SWEET HOME
+export JAVA_HOME="$(/usr/libexec/java_home)"
+export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec
+export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+# Language Version Managers
+. ~/.nvm/nvm.sh
+. ~/.rvm/scripts/rvm
