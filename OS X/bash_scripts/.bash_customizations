@@ -24,7 +24,7 @@ function parse_git_branch {
 }
 
 # Formatting bash prompt
-export PS1="\w:\$(parse_git_branch) $ "
+export PS1="\e[1;36m\w:\$(parse_git_branch) $ \e[0m"
 
 # Vimpager
 export PAGER=vimpager
