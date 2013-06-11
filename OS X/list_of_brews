@@ -66,6 +66,7 @@ gcc49
 gd
 gdal
 gdbm
+geoip
 geos
 gettext
 gfortran
