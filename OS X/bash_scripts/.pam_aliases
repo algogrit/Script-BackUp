@@ -27,3 +27,7 @@ alias nvm49="nvm use v0.4.9"
 
 # Alias solr start
 alias solr_start="solr /data/services/configurations/solr"
+
+# Alias db_connections
+alias qapsql="psql -U postgres -h 172.16.20.210 -p 5435"
+alias showpsql="psql -U postgres -h 172.16.20.210 -p 5434"

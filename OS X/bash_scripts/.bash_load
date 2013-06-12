@@ -1,6 +1,6 @@
 echo -e "\e[1;36m~/bash_scripts/.bash_load Loaded\e[0m"
 
-# Show fortune
+# It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. - SH
 fortune
 
 # Sourcing Bash Completion

@@ -30,6 +30,7 @@ calcurse
 cassandra
 cloog
 cmake
+cmatrix
 couchdb
 csvprintf
 ctags
@@ -285,7 +286,6 @@ w3m
 wget
 wine
 winetricks
-wireshark
 wkhtmltopdf
 x264
 xclip
