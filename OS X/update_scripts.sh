@@ -9,6 +9,7 @@ cp /tmp/update_scripts.sh .
 cp -r ~/bash_scripts .
 cp ~/.bash* .
 rm .bash_history
+rm bash_scripts/.pam_secret_aliases
 
 # Copy gitconfig
 cp ~/.gitconfig .

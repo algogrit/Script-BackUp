@@ -16,3 +16,4 @@ export PATH="$PATH:$HOME/Custom-Git-Commands"
 
 # Export Other Aliases
 . ~/bash_scripts/.pam_aliases
+. ~/bash_scripts/.pam_secret_aliases
