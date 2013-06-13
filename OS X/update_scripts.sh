@@ -13,6 +13,10 @@ rm .bash_history
 # Copy gitconfig
 cp ~/.gitconfig .
 
+# Copy RVM global gemsets file
+mkdir .rvm && mkdir .rvm/gemsets
+cp ~/.rvm/gemsets/global.gems .rvm/gemsets
+
 # Copy vimrc
 cp ~/.vimrc .
 
@@ -27,6 +31,9 @@ cp -r ~/.lein .
 
 # Copt tmux configuration
 cp ~/.tmux.conf .
+
+# Copt tmux configuration
+cp -r ~/.tmuxinator .
 
 # List of Brew installations
 brew list > list_of_brews

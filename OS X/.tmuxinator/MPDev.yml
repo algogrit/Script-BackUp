@@ -1,0 +1,24 @@
+# ~/.tmuxinator/MPDev.yml
+# you can make as many tabs as you wish...
+
+project_name: MPDev
+project_root: ~/Projects/Client/GruppoPAM
+tabs:
+  - root:
+  - Console: 
+      layout: main-vertical
+      panes:
+        - cd merchandise_services && git new-commits
+        - cd merchandise_app && git new-commits
+  - Test:
+      layout: main-vertical
+      panes:
+        - cd merchandise_services && ptest
+        - cd merchandise_app/spec/stub && ./start_services.sh && exit
+        - cd merchandise_app && rake && cd spec/stub && ./kill_stubs.sh && cd - && cd ../infrastructure/cas && ./stop_services.sh && cd - && exit
+  - Infrastructure: cd infrastructure && git new-commits
+  - Auxillary:
+        layout: main-vertical
+        panes:
+          - cd infrastructure/cas && ./start_services.sh
+          - cd authorization_service && git new-commits

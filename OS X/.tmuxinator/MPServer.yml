@@ -1,0 +1,21 @@
+# ~/.tmuxinator/MPServer.yml
+# you can make as many tabs as you wish...
+
+project_name: MPServer
+project_root: ~/Projects/Client/GruppoPAM
+tabs:
+  - Server:
+      layout: main-vertical
+      panes:
+        - cd merchandise_services && ./service start_all
+        - cd merchandise_app && rails s
+  - Logs: 
+        layout: main-vertical
+        panes:
+          - servicelogs
+          - tail -f merchandise_app/log/*.log
+  - Auxillary:
+        layout: main-vertical
+        panes:
+          - cd infrastructure/cas && ./start_services.sh
+          - cd authorization_service && ./start_services.sh

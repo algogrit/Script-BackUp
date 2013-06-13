@@ -1,0 +1,9 @@
+# ~/.tmuxinator/ML.yml
+# you can make as many tabs as you wish...
+
+project_name: ML
+project_root: ~/Projects/Learning/Coursera/Machine Learning
+tabs:
+  - root:
+  - Octave: cd Ex4/mlclass-ex4/ && octave
+  - Ex4: cd Ex4 && open ex4.pdf && cd mlclass-ex4/ && subl .
