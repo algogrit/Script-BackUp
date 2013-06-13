@@ -1,0 +1,9 @@
+# ~/.tmuxinator/Titanic.yml
+# you can make as many tabs as you wish...
+
+project_name: Titanic
+project_root: ~/Projects/Kaggle/Titanic
+tabs:
+  - root: git checkout solutions && subl .
+  - Postgres: psql kaggle_titanic
+  - R: cd R && r
