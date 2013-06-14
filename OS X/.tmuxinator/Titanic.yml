@@ -6,7 +6,7 @@ project_root: ~/Projects/Kaggle/Titanic
 tabs:
   - root: git checkout solutions && subl .
   - Initial Data: cd Initial\ Data
-  - Sums & Averages: cd sums_and_averages
+  - Sums & Averages: cd Sums\ and\ Averages
   - Postgres: psql kaggle_titanic
   - R: 
       layout: main-vertical
