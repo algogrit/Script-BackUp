@@ -22,9 +22,4 @@ tabs:
         panes:
           - cd infrastructure/cas && ./start_services.sh
           - cd authorization_service && git new-commits
-  - Postgres:
-        layout: tiled
-        panes:
-          - psql merchandise_master
-          - psql merchandise_statistics
-          - psql merchandise_assortment
+  - Postgres: psql template1
