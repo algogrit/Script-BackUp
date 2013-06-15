@@ -2,7 +2,7 @@
 # you can make as many tabs as you wish...
 
 project_name: ML
-project_root: ~/Projects/Learning/Coursera/Machine Learning
+project_root: ~/Projects/Learning/Coursera/Machine\ Learning
 tabs:
   - root: git checkout solutions
   - Octave: cd Ex4/mlclass-ex4/ && exec octave
