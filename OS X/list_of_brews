@@ -238,6 +238,7 @@ rsync
 rtmpdump
 s-lang
 s3cmd
+sbcl
 sbt
 schroedinger
 screen
