@@ -16,7 +16,7 @@ autoconf
 automake
 avidemux
 bash
-bash-completion
+bash-completion2
 bazaar
 bdw-gc
 beanstalk
