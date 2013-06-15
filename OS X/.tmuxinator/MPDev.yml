@@ -22,4 +22,4 @@ tabs:
         panes:
           - cd infrastructure/cas && ./start_services.sh
           - cd authorization_service && git new-commits
-  - Postgres: psql template1
+  - Postgres: exec psql template1

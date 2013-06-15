@@ -8,7 +8,7 @@ tabs:
       layout: main-vertical
       panes:
         - cd merchandise_services && ./service start_all
-        - cd merchandise_app && rails s
+        - cd merchandise_app && passenger start -d
   - Logs: 
         layout: main-vertical
         panes:
