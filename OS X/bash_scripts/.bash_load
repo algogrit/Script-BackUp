@@ -15,6 +15,9 @@ source ~/bash_scripts/.bash_customizations
 # Sourcing Bash Languages
 source ~/bash_scripts/.bash_languages
 
+# Sourcing Bash Custom Functions
+source ~/bash_scripts/.bash_custom_functions
+
 # Sourcing Aliases
 source ~/bash_scripts/.aliases
 
