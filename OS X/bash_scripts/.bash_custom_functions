@@ -1,5 +1,5 @@
 echo -e "\e[1;36m~/bash_scripts/.bash_custom_functions Loaded\e[0m"
 
-function ssht(){
+function tssh(){
   ssh $* -t 'tmux a || tmux || /bin/bash'
 }
