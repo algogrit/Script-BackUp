@@ -1,0 +1,11 @@
+# ~/.tmuxinator/Amazon.yml
+# you can make as many tabs as you wish...
+
+project_name: AEAC
+project_root: ~/Projects/Kaggle/Amazon\ Employee\ Access\ Challenge
+tabs:
+  - root: git co solutions
+  - Postgres: exec psql kaggle_aeac
+  - R: exec r
+  - Python: exec python
+  - Console: subl .
