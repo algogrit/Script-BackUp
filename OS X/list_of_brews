@@ -1,6 +1,7 @@
 a52dec
 ab
 ack
+activemq
 afflib
 aften
 android-ndk
@@ -229,6 +230,7 @@ qrupdate
 qscintilla2
 qt
 r
+rabbitmq
 ragel
 rdesktop
 rdup
