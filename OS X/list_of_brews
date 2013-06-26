@@ -232,6 +232,7 @@ qt
 r
 rabbitmq
 ragel
+rails-completion
 rdesktop
 rdup
 readline
@@ -281,6 +282,7 @@ torsocks
 ucl
 unrar
 upx
+vagrant-completion
 valgrind
 valkyrie
 vim
