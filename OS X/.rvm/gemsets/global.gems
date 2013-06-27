@@ -2,3 +2,5 @@ rubygems-bundler
 bundler
 rake
 rvm
+interactive_editor
+
