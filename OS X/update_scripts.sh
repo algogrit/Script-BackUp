@@ -21,6 +21,9 @@ cp ~/.rvm/gemsets/global.gems .rvm/gemsets
 # Copy vimrc
 cp ~/.vimrc .
 
+# Copy irbrc 
+cp ~/.irbrc .
+
 # Copy vimpagerrc
 cp ~/.vimpagerrc .
 

@@ -30,6 +30,7 @@ cabextract
 cairo
 calcurse
 cassandra
+cdargs
 cloog
 cmake
 cmatrix
@@ -269,6 +270,7 @@ swig
 synergy
 szip
 tbb
+term
 texinfo
 the_silver_searcher
 theora
