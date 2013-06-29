@@ -164,6 +164,7 @@ libyaml
 little-cms
 little-cms2
 llvm
+lsof
 lua
 luajit
 luarocks
