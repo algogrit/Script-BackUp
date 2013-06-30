@@ -1,0 +1,27 @@
+VAGRANT_VM_NAME_REGEX="_"
+
+function _vagrantbox_status() {
+  NUM_VAGRANT_VMS=`VBoxManage list vms | egrep -e ${VAGRANT_VM_NAME_REGEX} | wc -l`
+  NUM_RUNNING_VAGRANT_VMS=`VBoxManage list runningvms | egrep -e ${VAGRANT_VM_NAME_REGEX} | wc -l`
+
+  echo ${NUM_RUNNING_VAGRANT_VMS} / ${NUM_VAGRANT_VMS} vagrant managed virtualbox VMs running
+}
+
+function _vagrantbox_list() {
+  VBoxManage list vms | cut -d \" -f 2 | egrep -e ${VAGRANT_VM_NAME_REGEX}
+}
+
+function vagrantbox() {
+	case "$1" in
+		status)
+			_vagrantbox_status
+			;;
+		list)
+			_vagrantbox_list
+			;;
+		*)
+			echo "Usage: 
+	vagrantbox status    -    Shows count of running vagrant managed VMs.
+	vagrantbox list      -    Lists all vagrant managed VMs."
+	esac
+}
