@@ -214,6 +214,7 @@ p11-kit
 pango
 parallel
 pcre
+pdfgrep
 perl
 phantomjs
 physfs
@@ -222,6 +223,7 @@ pig
 pigz
 pixman
 pkg-config
+poppler
 postgresql
 proj
 psgrep

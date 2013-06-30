@@ -1,28 +1,36 @@
-VAGRANT_VM_NAME_REGEX="_"
+VAGRANT_MANAGED_VMS="grep -P _\d{10}"
 
-function _vagrantbox_status() {
-  NUM_VAGRANT_VMS=`VBoxManage list vms | egrep -e ${VAGRANT_VM_NAME_REGEX} | wc -l`
-  NUM_RUNNING_VAGRANT_VMS=`VBoxManage list runningvms | egrep -e ${VAGRANT_VM_NAME_REGEX} | wc -l`
+function _vagrantvbox_list() {
+  VBoxManage list vms | cut -d \" -f 2 | ${VAGRANT_MANAGED_VMS}
+}
+
+function _vagrantvbox_running() {
+  VBoxManage list runningvms | cut -d \" -f 2 | ${VAGRANT_MANAGED_VMS}
+}
+
+function _vagrantvbox_status() {
+  NUM_VAGRANT_VMS=`_vagrantvbox_list | wc -l`
+  NUM_RUNNING_VAGRANT_VMS=`_vagrantvbox_running | wc -l`
 
   echo ${NUM_RUNNING_VAGRANT_VMS} / ${NUM_VAGRANT_VMS} vagrant managed virtualbox VMs running
 }
 
-function _vagrantbox_list() {
-  VBoxManage list vms | cut -d \" -f 2 | egrep -e ${VAGRANT_VM_NAME_REGEX}
-}
-
-function vagrantbox() {
+function vagrantvbox() {
 	case "$1" in
 		status)
-			_vagrantbox_status
+			_vagrantvbox_status
 			;;
 		list)
-			_vagrantbox_list
+			_vagrantvbox_list
+			;;
+		running)
+			_vagrantvbox_running
 			;;
 		*)
 			echo "Usage: 
-	vagrantbox status    -    Shows count of running vagrant managed VMs
-	vagrantbox list      -    Lists all vagrant managed VMs
+	vagrantvbox status    -    Shows count of running vagrant managed VMs
+	vagrantvbox list      -    Lists all vagrant managed VMs
+	vagrantvbox running   -    Lists all the running VMs
 
 No detailed help provided."
 	esac
