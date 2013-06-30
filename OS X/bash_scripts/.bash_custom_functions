@@ -19,6 +19,6 @@ function vagrantbox() {
 			;;
 		*)
 			echo "Usage: 
-	vagrantbox status    -    Shows count of running vagrant managed boxes."
+	vagrantbox status    -    Shows count of running vagrant managed VMs."
 	esac
 }
