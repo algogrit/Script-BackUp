@@ -5,5 +5,5 @@ project_name: ML
 project_root: ~/Projects/Learning/Coursera/Machine\ Learning
 tabs:
   - root: git checkout solutions
-  - Octave: cd Ex7/mlclass-ex7/ && exec octave
-  - Ex7: cd Ex7 && open ex7.pdf && cd mlclass-ex7 && subl .
+  - Octave: cd Ex8/mlclass-ex8/ && exec octave
+  - Ex7: cd Ex8 && open ex8.pdf && cd mlclass-ex8 && subl .
