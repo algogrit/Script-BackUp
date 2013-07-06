@@ -11,8 +11,10 @@ do
 	let count+=1
 	echo $repo_path
 	cd $(echo $repo_path"/..")
-	echo "Updating $count of $folder_size \r";
+	echo "\033[1;33mUpdating $count of $folder_size \r\033[0m";
 	git pull --stat --progress
 	cd $base
 done
-echo "\nUpdate completed in $((`date +%s` - $startt)) secs. \n"
+
+echo ""
+echo "\033[1;33mUpdate completed in $((`date +%s` - $startt)) secs.\033[0m"

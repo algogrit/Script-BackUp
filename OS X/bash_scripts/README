@@ -14,3 +14,5 @@ Explains some of the script decisions.
 
 	Background color codes:
 	40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+
+	In MacOSX, using \x1B instead of \e. \033 genrally works for all platforms.
