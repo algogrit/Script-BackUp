@@ -56,7 +56,10 @@ echo "\033[1;31mList all installations...\033[0m"
 brew list > list_of_brews
 
 # List of Custom installations
-ls /Applications ~/Applications > list_of_applications
+echo "Listing /Applications.." > list_of_applications
+ls /Applications | cut -d '.' -f 1 >> list_of_applications
+echo "\nListing User Applications.." >> list_of_applications
+ls ~/Applications | cut -d '.' -f 1 >> list_of_applications
 
 unalias cp
 unalias rm
