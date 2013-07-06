@@ -1,15 +1,23 @@
-# Remove all except update_scripts.sh
-cp update_scripts.sh /tmp
-echo "Removing files..."
-ls -A | xargs rm -rv
-echo "Copying fresh files..."
-cp /tmp/update_scripts.sh .
+alias cp="cp -v"
+alias rm="rm -v"
 
+echo "\033[1;31mBacking up non-system files...\033[0m"
+cp update_scripts.sh /tmp
+cp restore_scripts.sh /tmp
+cp README /tmp
+
+echo "\033[1;31mRemoving files...\033[0m"
+ls -A | xargs rm -vr
+
+echo "\033[1;31mRestoring non-system files...\033[0m"
+cp /tmp/update_scripts.sh .
+cp /tmp/restore_scripts.sh .
+cp /tmp/README .
+
+echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
 cp ~/.bash* .
-rm .bash_history
-rm bash_scripts/.pam_secret_aliases
 
 # Copy gitconfig
 cp ~/.gitconfig .
@@ -33,11 +41,23 @@ cp -r ~/Custom-Git-Commands .
 # Copy Leiningen global profile
 cp -r ~/.lein .
 
-# Copt tmux configuration
+# Copy tmux configuration
 cp ~/.tmux.conf .
 
-# Copt tmux configuration
+# Copy tmux configuration
 cp -r ~/.tmuxinator .
+
+echo "\033[1;31mRemoving bash turd files...\033[0m"
+rm .bash_history
+rm bash_scripts/.pam_secret_aliases
+
+echo "\033[1;31mList all installations...\033[0m"
 
 # List of Brew installations
 brew list > list_of_brews
+
+# List of Custom installations
+ls /Applications ~/Applications > list_of_applications
+
+unalias cp
+unalias rm

@@ -1,0 +1,10 @@
+Mac OS X
+--------
+
+These scripts are used everyday on a Lion. Work well for my purposes, no guarantees though.
+
+Non-System files:
+-----------------
+ # This README.
+ # update_scripts.sh - Use to backup the sytem to this folder.
+ # restore_scripts.sh - Copies scripts from this folder to the original, filesystem locations.
