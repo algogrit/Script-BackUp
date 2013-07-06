@@ -1,4 +1,4 @@
-echo -e "\e[1;36m~/bash_scripts/.bash_completion Loaded\e[0m"
+echo -e "\033[1;36m~/bash_scripts/.bash_completion Loaded\033[0m"
 
 # Adding Git 
 if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then

@@ -1,4 +1,4 @@
-echo -e "\e[1;36m~/bash_scripts/.pam_aliases Loaded\e[0m"
+echo -e "\033[1;36m~/bash_scripts/.pam_aliases Loaded\033[0m"
 
 # Aliasing Log Tails
 alias dlog="tail -f /usr/local/var/postgres/server.log"

@@ -1,4 +1,4 @@
-echo -e "\e[1;36m~/bash_scripts/.bash_customizations Loaded\e[0m"
+echo -e "\033[1;36m~/bash_scripts/.bash_customizations Loaded\033[0m"
 
 # Setting Lang
 export LC_ALL="en_US.UTF-8"
@@ -21,7 +21,7 @@ function parse_git_branch {
 }
 
 # Formatting bash prompt
-export PS1=$"\e[1;36m\]\w:\$(parse_git_branch) $ \e[0m\]"
+export PS1=$"\033[1;36m\]\w:\$(parse_git_branch) $ \033[0m\]"
 
 # Vimpager
 export PAGER=vimpager

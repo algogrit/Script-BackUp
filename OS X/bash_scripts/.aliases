@@ -1,4 +1,4 @@
-echo -e "\e[1;36m~/bash_scripts/.aliases Loaded\e[0m"
+echo -e "\033[1;36m~/bash_scripts/.aliases Loaded\033[0m"
 
 # Generic Aliases
 alias c="clear"
@@ -15,5 +15,5 @@ alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
 . ~/bash_scripts/.pam_secret_aliases
 
 # Load custom git commands
-echo -e "\e[1;36m~/Custom-Git-Commands Loaded\e[0m"
+echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
 export PATH="$PATH:$HOME/Custom-Git-Commands"
