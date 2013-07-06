@@ -9,7 +9,7 @@ git stash
 
 echo "\033[1;31mStarting the restore process...\033[0m"
 
-echo "Sorry I don't do much :-//"
+echo "Sorry I don't do much :-/"
 
 echo "\033[1;31mRestoring git stash after restoring...\033[0m"
 git stash pop
