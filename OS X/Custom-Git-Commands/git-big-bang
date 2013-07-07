@@ -1,20 +1,24 @@
 #!/bin/sh
-startt=`date +%s`
+start_time=`date +%s`
 base=$(pwd)
-folder_list=$(find . -type d -maxdepth 2 -name '.git')
+folder_list=$(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2)
 
 folder_size=`echo $folder_list | wc -w`
 count=0
-echo '\n'
+
+echo "\033[1;33mUpdates the following dirs:\033[0m"
+echo "\033[1;35m$folder_list\033[0m"
+echo "\n"
+
 for repo_path in $folder_list
 do
 	let count+=1
-	echo $repo_path
-	cd $(echo $repo_path"/..")
-	echo "\033[1;33mUpdating $count of $folder_size \r\033[0m";
+	cd $repo_path
+	echo "\033[1;33mUpdating $count of $folder_size - \033[1;35m`basename $(PWD)`\r\033[0m"
 	git pull --stat --progress
 	cd $base
+	echo ""
 done
 
-echo ""
-echo "\033[1;33mUpdate completed in $((`date +%s` - $startt)) secs.\033[0m"
+echo "\n"
+echo "\033[1;31mUpdate completed in $((`date +%s` - $start_time)) secs.\033[0m"
