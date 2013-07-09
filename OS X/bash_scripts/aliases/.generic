@@ -9,3 +9,10 @@ alias vp='vimpager'
 # Remove pesky Apple Turd files
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
 alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
+
+# Git Aliases
+alias gs="git status"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gpr="git pull --rebase"
+alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"

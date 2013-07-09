@@ -15,13 +15,6 @@ alias pack="mvn clean package -DskipTests"
 alias devpack="mvn clean package -DskipTests -Pdev"
 alias jetstart="mvn jetty:run -Dconfig_file=file:/data/services/configurations/application.properties"
 
-# Git Aliases
-alias gs="git status"
-alias gd="git diff"
-alias gdc="git diff --cached"
-alias gpr="git pull --rebase"
-alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
-
 # Aliasing switch
 alias nvm49="nvm use v0.4.9"
 
