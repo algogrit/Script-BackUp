@@ -1,18 +1,10 @@
 echo -e "\033[1;36m~/bash_scripts/.aliases Loaded\033[0m"
 
-# Generic Aliases
-alias c="clear"
-alias ccb="pbcopy < /dev/null"
-alias ls="ls -GAF"
-alias vp='vimpager'
-
-# Remove pesky Apple Turd files
-alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
-alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
-
 # Export Other Aliases
-. ~/bash_scripts/.pam_aliases
-. ~/bash_scripts/.pam_secret_aliases
+. ~/bash_scripts/aliases/.generic
+. ~/bash_scripts/aliases/.pam_dev
+. ~/bash_scripts/aliases/.pam_secret
+. ~/bash_scripts/aliases/.tw_secret
 
 # Load custom git commands
 echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
