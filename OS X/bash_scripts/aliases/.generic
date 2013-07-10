@@ -16,3 +16,6 @@ alias gd="git diff"
 alias gdc="git diff --cached"
 alias gpr="git pull --rebase"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
+
+# Ruby
+alias bx="bundle exec"
