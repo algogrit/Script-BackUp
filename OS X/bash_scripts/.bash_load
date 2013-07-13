@@ -1,8 +1,5 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_load Loaded\033[0m"
 
-# It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. - SH
-fortune
-
 # Sourcing Bash Completion
 source ~/bash_scripts/.bash_completion
 
