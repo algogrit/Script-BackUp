@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Comamnds:
+		big-bang	-	Used to update a whole bunch of repos in current dir (git pull)
+		comet		-	Used to remote update bunch of repos in current dir and show status (git remote update && git status)
+		new-commits	-	Updates the remote HEAD and show log of commits only in remote repo (git remote update && git log)
+		pristine	-	Does a damn good job of cleaning the repository (WARNING: Removes .idea turd files)
+		solar-flare	-	Pristine cleans the repos in current directory (Runs pristine)
+		super-nova	-	Show status of repos in current directory (git status)
+		wash		-	Does a okay job of cleaning the repository"
