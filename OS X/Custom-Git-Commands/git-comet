@@ -1,0 +1,25 @@
+#!/bin/sh
+start_time=`date +%s`
+base=$(pwd)
+folder_list=$(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2)
+
+folder_size=`echo $folder_list | wc -w`
+count=0
+
+echo "\033[1;33mUpdates the following dirs:\033[0m"
+echo "\033[1;35m$folder_list\033[0m"
+echo "\n"
+
+for repo_path in $folder_list
+do
+	let count+=1
+	cd $repo_path
+	echo "\033[1;33mUpdating $count of $folder_size - \033[1;35m`basename $(PWD)`\r\033[0m"
+	git remote update
+	git status
+	cd $base
+	echo ""
+done
+
+echo "\n"
+echo "\033[1;31mUpdate completed in $((`date +%s` - $start_time)) secs.\033[0m"
