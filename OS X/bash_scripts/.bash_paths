@@ -12,6 +12,9 @@ export PATH=/opt/subversion/bin:$PATH
 # ADDING ~/bin TO THE PATH
 export PATH="$HOME/bin:$PATH"
 
+# ADDING snippet_programs TO THE PATH
+export PATH="$HOME/bash_scripts/bin:$PATH"
+
 # HOME SWEET HOME
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export HIVE_HOME=/usr/local/Cellar/hive/0.9.0/libexec

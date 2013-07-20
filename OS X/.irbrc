@@ -1,2 +1,2 @@
-require 'irbtools'
-require 'irbtools/more'
+# require 'irbtools'
+# require 'irbtools/more'

@@ -1,0 +1,22 @@
+#! /usr/bin/env ruby
+
+puts "Renaming files..."
+
+folder_paths = ARGV.empty? ? ["."] : ARGV
+
+folder_paths.each do |folder_path|
+
+	puts "Renaming files in #{folder_path}..."
+
+	mp3_files = Dir.glob("#{folder_path}/*.mp3").reduce({}) do |rename_mapping, mp3_file|
+		rename_mapping[mp3_file] = mp3_file.split('-').last.strip
+		rename_mapping
+	end
+
+	mp3_files.each do |original_name, new_name|
+		puts "\t#{original_name}\t\t=>\t\t#{new_name}"
+		File.rename(original_name, "#{folder_path}/#{new_name}")
+	end
+
+	puts "Renaming complete!"
+end
