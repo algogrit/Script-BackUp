@@ -1,0 +1,3 @@
+function open_all() {
+	find . -depth -name $1 -exec open {} \;
+}

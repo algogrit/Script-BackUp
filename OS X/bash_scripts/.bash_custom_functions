@@ -1,5 +1,6 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_custom_functions Loaded\033[0m"
 
+source ~/bash_scripts/wrapper_functions/.open_all
 source ~/bash_scripts/wrapper_functions/.tmux_ssh
 source ~/bash_scripts/wrapper_functions/.vagrantvbox
 
