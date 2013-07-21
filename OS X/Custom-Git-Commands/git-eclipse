@@ -1,0 +1,33 @@
+#!/bin/sh
+start_time=`date +%s`
+base=$(pwd)
+
+# save and change IFS 
+OLDIFS=$IFS
+IFS=$'\n'
+
+repository_list=($(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2))
+repository_count=${#repository_list[@]}
+
+echo "\033[1;33mCleaning $repository_count repositories:\033[0m"
+for (( i=0; i<${repository_count}; i++ ));
+do
+	echo "	${repository_list[$i]}"
+done
+echo "\n"
+
+for (( i=0; i<${repository_count}; i++ ));
+do
+	cd "${repository_list[$i]}"
+	echo "\033[1;33mOn $[ $i + 1 ] of $repository_count - \033[1;35m`basename $(PWD)`\r\033[0m"
+
+	git wash
+
+	cd $base
+	echo ""
+done
+
+# Restore IFS
+IFS=$OLDIFS
+
+echo "\033[1;31mEclipse lasted for $((`date +%s` - $start_time)) secs.\033[0m"

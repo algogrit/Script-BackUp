@@ -8,5 +8,6 @@ echo "Comamnds:
   Multiple Repos
 	big-bang	-	Used to update a whole bunch of repos in current dir (git pull)
 	comet		-	Used to remote update bunch of repos in current dir and show status (git remote update && git status)
+	eclipse		-	Washes the repos in current directory (Runs wash)
 	solar-flare	-	Pristine cleans the repos in current directory (Runs pristine)
 	super-nova	-	Show status of repos in current directory (git status)"
