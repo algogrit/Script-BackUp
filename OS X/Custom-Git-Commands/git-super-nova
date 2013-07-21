@@ -1,24 +1,33 @@
 #!/bin/sh
 start_time=`date +%s`
 base=$(pwd)
-folder_list=$(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2)
 
-folder_size=`echo $folder_list | wc -w`
-count=0
+# save and change IFS 
+OLDIFS=$IFS
+IFS=$'\n'
 
-echo "\033[1;33mStatus of the following repositories:\033[0m"
-echo "\033[1;35m$folder_list\033[0m"
+repository_list=($(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2))
+repository_count=${#repository_list[@]}
+
+echo "\033[1;33mStatus of $repository_count repositories:\033[0m"
+for (( i=0; i<${repository_count}; i++ ));
+do
+	echo "	${repository_list[$i]}"
+done
 echo "\n"
 
-for repo_path in $folder_list
+for (( i=0; i<${repository_count}; i++ ));
 do
-	let count+=1
-	cd $repo_path
-	echo "\033[1;33mOn $count of $folder_size - \033[1;35m`basename $(PWD)`\r\033[0m"
+	cd "${repository_list[$i]}"
+	echo "\033[1;33mOn $[ $i + 1 ] of $repository_count - \033[1;35m`basename $(PWD)`\r\033[0m"
+
 	git status
+
 	cd $base
 	echo ""
 done
 
-echo "\n"
+# Restore IFS
+IFS=$OLDIFS
+
 echo "\033[1;31mTurned Super Novae in $((`date +%s` - $start_time)) secs.\033[0m"

@@ -20,13 +20,15 @@ for (( i=0; i<${repository_count}; i++ ));
 do
 	cd "${repository_list[$i]}"
 	echo "\033[1;33mOn $[ $i + 1 ] of $repository_count - \033[1;35m`basename $(PWD)`\r\033[0m"
+
 	git remote update
 	git status
+
 	cd $base
 	echo ""
 done
 
+# Restore IFS
 IFS=$OLDIFS
 
-echo "\n"
 echo "\033[1;31mComet has passed in $((`date +%s` - $start_time)) secs.\033[0m"
