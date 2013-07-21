@@ -1,0 +1,3 @@
+function common_words {
+	find . -name $1 | xargs cat | tr -s '[:space:]:#()[]{}\"' '\n' | sort | uniq -c | sort -n
+}
