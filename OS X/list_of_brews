@@ -141,6 +141,7 @@ libffi
 libgcrypt
 libgeotiff
 libgpg-error
+libgphoto2
 libicns
 libiconv
 libid3tag
@@ -156,6 +157,8 @@ libspatialite
 libtasn1
 libtiff
 libtool
+libusb
+libusb-compat
 libvo-aacenc
 libvorbis
 libvpx
@@ -248,6 +251,7 @@ rsync
 rtmpdump
 s-lang
 s3cmd
+sane-backends
 sbt
 schroedinger
 screen
@@ -295,8 +299,6 @@ vimpager
 voldemort
 w3m
 wget
-wine
-winetricks
 wkhtmltopdf
 x264
 xclip

@@ -21,7 +21,7 @@ do
 	cd "${repository_list[$i]}"
 	echo "\033[1;33mOn $[ $i + 1 ] of $repository_count - \033[1;35m`basename $(PWD)`\r\033[0m"
 
-	git pull --stat --progress
+	git pull
 
 	cd $base
 	echo ""
