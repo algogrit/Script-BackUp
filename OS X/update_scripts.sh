@@ -25,7 +25,7 @@ cp ~/.gitconfig .
 # Copy RVM global gemsets file
 mkdir .rvm && mkdir .rvm/gemsets .rvm/hooks
 cp ~/.rvm/gemsets/global.gems .rvm/gemsets
-cp ~/.rvm/hooks/after_cd_load_autoenv .rvm/hooks
+# cp ~/.rvm/hooks/after_cd_load_autoenv .rvm/hooks
 
 # Copy vimrc
 cp ~/.vimrc .
