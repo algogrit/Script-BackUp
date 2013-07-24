@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# https://github.com/kennethreitz/autoenv/issues/45
+autoenv_init

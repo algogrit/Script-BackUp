@@ -14,6 +14,7 @@ apr-util
 arm
 arping
 autoconf
+autoenv
 automake
 avidemux
 bash
@@ -249,6 +250,7 @@ riak
 riemann
 rsync
 rtmpdump
+ruby
 s-lang
 s3cmd
 sane-backends

@@ -21,5 +21,8 @@ source ~/bash_scripts/.aliases
 # Sourcing Z
 . /usr/local/etc/profile.d/z.sh
 
+# Sourcing Autoenv
+source /usr/local/opt/autoenv/activate.sh
+
 # Clear history
 > ~/.bash_history && history -c
