@@ -2,7 +2,10 @@
 git_command_to_run=$*
 
 if [ $git_command_to_run = "help" ]; then
-  echo "Runs the git command on the repositories within the current directory."
+  echo "Runs the git command on the repositories within the current directory.
+  Usage:
+  	\$ git multi status
+  	\$ git multi remote update"
   exit 0
 fi
 
