@@ -45,4 +45,4 @@ done
 # Restore IFS
 IFS=$OLDIFS
 
-echo "\033[1;31mgit multi $git_command_to_run took $((`date +%s` - $start_time)) secs.\033[0m"
+echo "\033[1;31mgit multi $git_command_to_run took $((`date +%s` - $start_time)) sec(s).\033[0m"
