@@ -2,6 +2,7 @@
 
 # Author: Gaurav Agarwal
 # Inspired by https://github.com/livingston/shell-scripts/blob/master/gua.sh
+# "Unix was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things." – Doug Gwyn
 
 git_command_to_run=$*
 
@@ -9,7 +10,8 @@ if [ "$git_command_to_run" = "help" ]; then
   echo "Runs the git command on the repositories within the current directory.
   Usage:
   	\$ git multi status
-  	\$ git multi remote update"
+  	\$ git multi remote update
+  	\$ git multi pull --rebase"
   exit 0
 fi
 
