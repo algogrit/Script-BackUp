@@ -256,6 +256,7 @@ s3cmd
 sane-backends
 sbt
 schroedinger
+scons
 screen
 sdl
 sdl_image

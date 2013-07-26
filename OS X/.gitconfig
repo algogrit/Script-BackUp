@@ -13,6 +13,7 @@
 	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	glog = log --graph --decorate --pretty=oneline --abbrev-commit
 	uncommit = reset HEAD^
+	comet = multi remote update
 [push]
 	default = current
 [diff]
