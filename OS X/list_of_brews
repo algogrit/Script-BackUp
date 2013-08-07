@@ -230,6 +230,7 @@ pigz
 pixman
 pkg-config
 poppler
+popt
 postgresql
 proj
 psgrep
