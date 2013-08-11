@@ -37,6 +37,7 @@ cloog
 cmake
 cmatrix
 couchdb
+cscope
 csvprintf
 ctags
 curl
