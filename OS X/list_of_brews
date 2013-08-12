@@ -34,6 +34,7 @@ cassandra
 cdargs
 checkbashisms
 cloog
+cloog018
 cmake
 cmatrix
 couchdb
@@ -88,6 +89,7 @@ glm
 global
 glpk
 gmp
+gmp4
 gnu-go
 gnu-prolog
 gnu-sed
@@ -123,6 +125,7 @@ imagemagick
 io
 ioke
 isl
+isl011
 jasper
 jbig2dec
 jmeter
@@ -151,6 +154,7 @@ libksba
 libmikmod
 libmp3splt
 libmpc
+libmpc08
 libnet
 libogg
 librsync
@@ -189,6 +193,7 @@ mongodb
 mp3splt
 mp3wrap
 mpfr
+mpfr2
 msgpack
 multitail
 mupdf
