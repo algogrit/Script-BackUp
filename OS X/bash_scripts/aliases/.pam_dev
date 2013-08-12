@@ -21,3 +21,6 @@ alias nvm49="nvm use v0.4.9"
 
 # Alias solr start
 alias solr_start="solr /data/services/configurations/solr"
+
+# Postgres
+alias psql="psql template1"
