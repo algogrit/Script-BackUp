@@ -37,6 +37,7 @@ cloog
 cloog018
 cmake
 cmatrix
+colortail
 couchdb
 cscope
 csvprintf
