@@ -22,5 +22,8 @@ alias nvm49="nvm use v0.4.9"
 # Alias solr start
 alias solr_start="solr /data/services/configurations/solr"
 
+# Alias dev QA app
+alias dev_qa_app="cp config/settings/italy_qa.yml config/settings/development.yml"
+
 # Postgres
 alias psql="psql template1"
