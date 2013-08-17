@@ -14,6 +14,17 @@ cp /tmp/update_scripts.sh .
 cp /tmp/restore_scripts.sh .
 cp /tmp/README .
 
+echo "\033[1;31mList installations...\033[0m"
+
+# List of Brew installations
+brew list > list_of_brews
+
+# List of Custom installations
+echo "Listing /Applications.." > list_of_applications
+ls /Applications | cut -d '.' -f 1 >> list_of_applications
+echo "\nListing User Applications.." >> list_of_applications
+ls ~/Applications | cut -d '.' -f 1 >> list_of_applications
+
 echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
@@ -50,17 +61,6 @@ cp -r ~/.tmuxinator .
 
 echo "\033[1;31mRemoving bash turd files...\033[0m"
 rm .bash_history
-
-echo "\033[1;31mList all installations...\033[0m"
-
-# List of Brew installations
-brew list > list_of_brews
-
-# List of Custom installations
-echo "Listing /Applications.." > list_of_applications
-ls /Applications | cut -d '.' -f 1 >> list_of_applications
-echo "\nListing User Applications.." >> list_of_applications
-ls ~/Applications | cut -d '.' -f 1 >> list_of_applications
 
 unalias cp
 unalias rm
