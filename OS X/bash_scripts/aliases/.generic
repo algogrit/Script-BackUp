@@ -18,6 +18,7 @@ alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse
 
 # Ruby
 alias bx="bundle exec"
+alias rvm_force='rvm use `cat .ruby-version`@`cat .ruby-gemset`'
 
 # Http Server
 alias pyHttpServer="python -m SimpleHTTPServer"
