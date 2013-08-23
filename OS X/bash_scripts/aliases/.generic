@@ -26,3 +26,6 @@ alias pyHttpServer="python -m SimpleHTTPServer"
 # Spotlight
 alias stop_spotlight="sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
 alias start_spotlight="sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
+
+# Youtube Videos
+alias you-down-all='cat downloads.list | xargs youtube-dl'
