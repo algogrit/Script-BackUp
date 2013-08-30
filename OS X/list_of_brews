@@ -139,6 +139,7 @@ leiningen
 less
 libarchive
 libass
+libcaca
 libdca
 libevent
 libewf
