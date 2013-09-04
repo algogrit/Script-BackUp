@@ -32,5 +32,5 @@ export PS1=$"\033[1;36m\]\w:\$(parse_git_branch) $ \033[0m\]"
 # Vimpager
 export PAGER=vimpager
 
-# Bash uses vi by default
-set -o vi
+# Bash uses vi by default (Not for now - Breaks Ctrl-A)
+# set -o vi
