@@ -36,7 +36,7 @@ echo "\033[1;31mLinking Sublime...\033m[0m"
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 
-echo "\033[1;31mRestoring git stash after restoring...\033[0m"
+echo "\033[1;31mPopping git stash after restoring...\033[0m"
 git stash pop
 
 unalias cp
