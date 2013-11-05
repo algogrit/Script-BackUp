@@ -50,10 +50,12 @@ mongodb
 mysql
 nginx
 nmap
+node
 ntfs-3g
 openssl
 pcre
 pkg-config
+pow
 python
 rbenv
 readline
@@ -61,6 +63,7 @@ ruby-build
 scons
 sdl
 sdl_image
+sphinx
 sqlite
 ssh-copy-id
 the_silver_searcher
@@ -70,6 +73,7 @@ tor
 torsocks
 unixodbc
 unrar
+v8
 vim
 vimpager
 wget
