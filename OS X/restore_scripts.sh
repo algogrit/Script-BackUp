@@ -14,7 +14,9 @@ echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/list_of_brews | xargs brew install
 
 echo "\033[1;31mRestoring Bash Scripts...\033m[0m"
-cp -r ~/Script-BackUp/OS\ X/bash_scripts ~/bash_scripts
+if [ ! -d ~/bash_scripts ]; then
+  cp -r ~/Script-BackUp/OS\ X/bash_scripts ~/bash_scripts
+fi
 
 echo "\033[1;31mRestoring bash scripts...\033m[0m"
 cp ~/Script-BackUp/OS\ X/.bash* ~/

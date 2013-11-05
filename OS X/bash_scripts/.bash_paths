@@ -6,9 +6,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PA
 # Experimental Install Path
 export EXPERIMENTAL="~/Projects/experimental/bin"
 
-# SUBVERSION
-# export PATH=/opt/subversion/bin:$PATH
-
 # ADDING ~/bin TO THE PATH
 export PATH="$HOME/bin:$PATH"
 
@@ -18,7 +15,3 @@ export PATH="$HOME/bash_scripts/bin:$PATH"
 # HOME SWEET HOME
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export ANDROID_HOME=/usr/local/opt/android-sdk
-
-# Language Version Managers
-# . ~/.nvm/nvm.sh
-# . ~/.rvm/scripts/rvm
