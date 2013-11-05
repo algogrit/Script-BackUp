@@ -6,7 +6,7 @@
 [core]
 	excludesfile = /Users/gaurav/.gitignore_global
 [alias]
-	st = status
+	st = status -sb
 	co = checkout
 	ribbon = tag --force _ribbon origin/master
 	catchup = log master..origin/master

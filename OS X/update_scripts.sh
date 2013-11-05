@@ -20,6 +20,9 @@ echo "\033[1;31mList installations...\033[0m"
 # List of Brew installations
 brew list > list_of_brews
 
+# List of Brew taps
+brew tap > list_of_brew_taps
+
 # List of Custom installations
 echo "Listing /Applications.." > list_of_applications
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> list_of_applications
