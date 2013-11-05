@@ -1,10 +1,10 @@
 [user]
 	name = Gaurav Agarwal
-	email = gauravag@thoughtworks.com
+	email = gaurav@browserstack.com
 [color]
 	ui = true
 [core]
-	excludesfile = /Users/gauravag/.gitignore_global
+	excludesfile = /Users/gaurav/.gitignore_global
 [alias]
 	st = status
 	co = checkout

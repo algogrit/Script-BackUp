@@ -1,17 +1,11 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_completion Loaded\033[0m"
 
-# Adding Git 
-if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
-  . /usr/local/git/contrib/completion/git-completion.bash
+# Adding Bash Completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
-# Adding RVM
-[[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
-
-# Adding Bash Completion 2
-if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
-  . $(brew --prefix)/share/bash-completion/bash_completion
-fi
+source ~/bash_scripts/.git-prompt.sh
 
 # Adding Homebrew
 . `brew --prefix`/Library/Contributions/brew_bash_completion.sh

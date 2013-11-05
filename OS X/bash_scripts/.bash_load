@@ -19,7 +19,7 @@ source ~/bash_scripts/.bash_custom_functions
 source ~/bash_scripts/.aliases
 
 # Sourcing Z
-. /usr/local/etc/profile.d/z.sh
+. `brew --prefix`/etc/profile.d/z.sh
 
 # Sourcing Autoenv
 # source /usr/local/opt/autoenv/activate.sh
