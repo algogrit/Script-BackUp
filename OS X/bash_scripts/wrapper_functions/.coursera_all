@@ -5,7 +5,7 @@ function coursera_all() {
 		> ~/.bash_history && history -c
 
 		if [ -f download.list ]; then
-			cat download.list | grep -v '#' | xargs coursera-dl -u gauravagarwalr@aol.com -p $COURSERA_PASSWORD
+			cat download.list | grep -v '#' | sort | xargs coursera-dl -u gauravagarwalr@aol.com -p $COURSERA_PASSWORD
 		else
 			echo "Sorry could not find download.list file in current working directory. Please ensure you have created the file."
 		fi

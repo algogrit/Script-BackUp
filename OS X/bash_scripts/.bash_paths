@@ -1,10 +1,11 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
 
 # HOMEBREW
-export PATH=/usr/local/bin:/usr/local/sbin:~/bin:~/Projects/experimental/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Experimental Install Path
 export EXPERIMENTAL="~/Projects/experimental/bin"
+export PATH=$EXPERIMENTAL:$PATH
 
 # ADDING ~/bin TO THE PATH
 export PATH="$HOME/bin:$PATH"

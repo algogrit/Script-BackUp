@@ -11,6 +11,9 @@ git stash
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 
+echo "\033[1;31mTapping brews...\033[0m"
+cat ~/Script-BackUp/OS\ X/list_of_brew_taps | xargs brew tap
+
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/list_of_brews | xargs brew install
 
