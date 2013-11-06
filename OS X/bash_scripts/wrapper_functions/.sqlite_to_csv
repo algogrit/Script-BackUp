@@ -1,0 +1,12 @@
+function sqlite_to_csv {
+
+sqlite3 $1 <<EOF
+.headers on
+.mode csv
+.output $2
+select * from $3;
+EOF
+
+}
+
+# Usage: sqlite_to_csv PATH_TO_DATABASE OUTPUT_FILE TABLE_NAME
