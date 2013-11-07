@@ -9,7 +9,17 @@ folder_paths.each do |folder_path|
 	puts "Renaming files in #{folder_path}..."
 
 	mp3_files = Dir.glob("#{folder_path}/*.mp3").reduce({}) do |rename_mapping, mp3_file|
-		rename_mapping[mp3_file] = mp3_file.split('-').last.strip
+		new_name = mp3_file
+
+		if mp3_file.index("DownloadMing.SE")
+			new_name_list = mp3_file.split('/').last.split("-").drop(1)
+			new_name_list.pop
+			new_name = new_name_list.map(&:strip).join(" - ") + (".mp3")
+		else
+			new_name = mp3_file.split('/').last.split("-")[2..-1].map(&:strip).join(" - ")
+		end
+
+		rename_mapping[mp3_file] = new_name
 		rename_mapping
 	end
 
