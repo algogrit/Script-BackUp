@@ -1,0 +1,18 @@
+function kill_switch() {
+	if [ $# -ne 0 ] && [ $1 == "destruct" ]; then
+		echo "Self destruct sequence initiated..."
+		echo "Self destructing in 1.."
+		echo "Self destructing in 1.. 2.."
+		echo "Self destructing in 1.. 2.. 3.."
+
+		# Remove all incriminating material
+		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
+		rm -rf /Applications/Copy.app
+		rm -rf ~/Copy
+		rm -rf ~/Downloads/Torrents
+		rm rf ~/Downloads/Pirate\ Books
+		rm -rf ~/Downloads/Music
+
+		echo "Goodbye!"
+	fi
+}
