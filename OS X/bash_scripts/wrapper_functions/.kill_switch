@@ -7,11 +7,11 @@ function kill_switch() {
 
 		# Remove all incriminating material
 		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
-		rm -rf /Applications/Copy.app
-		rm -rf ~/Copy
-		rm -rf ~/Downloads/Torrents
-		rm rf ~/Downloads/Pirate\ Books
-		rm -rf ~/Downloads/Music
+		rm -rfv /Applications/Copy.app
+		rm -rfv ~/Copy
+		rm -rfv ~/Downloads/Torrents
+		rm rfv ~/Downloads/Pirate\ Books
+		rm -rfv ~/Downloads/Music
 
 		echo "Goodbye!"
 	fi
