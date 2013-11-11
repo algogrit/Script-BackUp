@@ -1,8 +1,11 @@
 function kill_switch() {
 	if [ $# -ne 0 ] && [ $1 == "detonate" ]; then
 		echo "Self destruct sequence initiated..."
+		sleep 1
 		echo "Self destructing in 1.."
+		sleep 1
 		echo "Self destructing in 1.. 2.."
+		sleep 1
 		echo "Self destructing in 1.. 2.. 3.."
 
 		# Remove all incriminating material

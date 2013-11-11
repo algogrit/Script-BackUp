@@ -31,6 +31,7 @@ cp ~/Script-BackUp/OS\ X/.vimrc ~/
 cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
 cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/
 cp ~/Script-BackUp/OS\ X/.irbrc ~/
+cp ~/Script-BackUp/OS\ X/.powconfig ~/
 
 echo "\033[1;31mRestoring Custom git commands...\033m[0m"
 mkdir -p ~/Custom-Git-Commands

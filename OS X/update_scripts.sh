@@ -46,6 +46,9 @@ cp ~/.irbrc .
 # Copy vimpagerrc
 cp ~/.vimpagerrc .
 
+# Copy .powconfig
+cp ~/.powconfig .
+
 # Copy Custom Git Commands
 cp -r ~/Custom-Git-Commands .
 
