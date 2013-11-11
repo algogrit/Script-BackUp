@@ -23,7 +23,7 @@ NEWIFS=$'\n'
 OLDIFS=$IFS
 IFS=$NEWIFS
 
-repository_list=($(find . -type d -maxdepth 2 -name '.git' | cut -d '/' -f 2))
+repository_list=($(find . -maxdepth 2 -type d -name '.git' | cut -d '/' -f 2))
 repository_count=${#repository_list[@]}
 
 echo "\033[1;33m$repository_count repositories found:\033[0m"
