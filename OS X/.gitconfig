@@ -14,6 +14,9 @@
 	glog = log --graph --decorate --pretty=oneline --abbrev-commit
 	uncommit = reset HEAD^
 	comet = multi remote update
+	big-bang = multi up
+	ru = remote update
+	ll = log --date=local
 [push]
 	default = current
 [diff]

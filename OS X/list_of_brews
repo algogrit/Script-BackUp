@@ -89,6 +89,7 @@ pcre
 pixman
 pkg-config
 pow
+pstree
 python
 qhull
 qrupdate
@@ -111,6 +112,7 @@ tig
 tmux
 tor
 torsocks
+tree
 unixodbc
 unrar
 v8
