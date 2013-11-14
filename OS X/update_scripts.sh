@@ -68,6 +68,6 @@ unalias cp
 unalias rm
 
 # Remove silently
-# rm bash_scripts/aliases/.*_secret
+rm bash_scripts/aliases/.*_secret
 
 echo "\033[1;31mCOMPLETED!\033[0m"
