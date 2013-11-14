@@ -89,6 +89,7 @@ pcre
 pixman
 pkg-config
 pow
+psgrep
 pstree
 python
 qhull
