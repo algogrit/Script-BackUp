@@ -101,6 +101,7 @@ ruby-build
 scons
 sdl
 sdl_image
+siege
 sphinx
 sqlite
 ssh-copy-id
