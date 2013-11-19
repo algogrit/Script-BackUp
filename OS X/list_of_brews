@@ -98,6 +98,7 @@ r
 rbenv
 readline
 ruby-build
+scala
 scons
 sdl
 sdl_image

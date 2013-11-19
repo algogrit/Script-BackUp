@@ -16,7 +16,7 @@ folder_paths.each do |folder_path|
 			new_name_list.pop
 			new_name = new_name_list.map(&:strip).join(" - ") + (".mp3")
 		else
-			new_name = mp3_file.split('/').last.split("-")[2..-1].map(&:strip).join(" - ")
+			new_name = mp3_file.split('/').last.split("-")[1..-1].map(&:strip).join(" - ")
 		end
 
 		rename_mapping[mp3_file] = new_name
