@@ -7,3 +7,4 @@ source ~/bash_scripts/wrapper_functions/.vagrantvbox
 source ~/bash_scripts/wrapper_functions/.coursera_all
 source ~/bash_scripts/wrapper_functions/.sqlite_to_csv
 source ~/bash_scripts/wrapper_functions/.kill_switch
+source ~/bash_scripts/wrapper_functions/.js-spikes-template
