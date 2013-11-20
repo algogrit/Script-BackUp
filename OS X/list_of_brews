@@ -30,6 +30,7 @@ freetype
 fuse4x
 fuse4x-kext
 gawk
+gdb
 gdbm
 gdk-pixbuf
 geoip
