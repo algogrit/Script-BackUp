@@ -86,6 +86,7 @@ ntfs-3g
 openssl
 p11-kit
 pango
+passenger
 pcre
 pixman
 pkg-config
