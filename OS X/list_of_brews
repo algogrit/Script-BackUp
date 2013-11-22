@@ -105,12 +105,14 @@ scons
 sdl
 sdl_image
 siege
+solr
 sphinx
 sqlite
 ssh-copy-id
 suite-sparse
 szip
 tbb
+terminal-notifier
 texinfo
 the_silver_searcher
 tig
