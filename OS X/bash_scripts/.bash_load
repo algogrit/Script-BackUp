@@ -22,8 +22,7 @@ source ~/bash_scripts/.aliases
 . `brew --prefix`/etc/profile.d/z.sh
 
 # Sourcing Autoenv
-# source /usr/local/opt/autoenv/activate.sh
-# autoenv_init
+source /usr/local/opt/autoenv/activate.sh
 
 # Clear history
 > ~/.bash_history && history -c
