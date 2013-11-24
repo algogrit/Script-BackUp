@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+
+git branch -d $1
+git push origin $1
+
+echo "\033[1;33mSuccessfully removed branch $1\033[0m"

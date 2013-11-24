@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+start_time=Time.now
+
+remote_branches = `git branch -r | tail -n +2 | awk '{print $1}'`
+
+remote_branches.split("\n").each do |branch|
+	puts "\033[1;33mOn branch - \033[1;35m#{branch}\033[0m"
+	puts "\033[1;31mLast Updated:\033[0m\t#{`git log --date=local --pretty=format:"%ad" -1 #{branch}`}"
+	puts "\n"
+end
+
+puts "\n\033[1;31mgit swamp took #{Time.now - start_time} sec(s).\033[0m"

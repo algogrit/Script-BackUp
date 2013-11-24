@@ -4,5 +4,7 @@ echo "Comamnds:
 	new-commits	-	Updates the remote HEAD and show log of commits only in remote repo (git remote update && git log)
 	pristine	-	Does a damn good job of cleaning the repository (WARNING: Removes .idea turd files)
 	wash		-	Does a okay job of cleaning the repository
+	nuke		-	Removes the branch from local and also deletes from remote origin
+	swamp		-	List the latest commit's timestamp for each remote branch
 
 	multi		-	See 'git multi help'"
