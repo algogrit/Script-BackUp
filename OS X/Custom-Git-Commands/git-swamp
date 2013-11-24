@@ -4,7 +4,7 @@ start_time=Time.now
 
 require 'time'
 
-remote_branches = (`git branch -r | tail -n +2 | awk '{print $1}'`).split("\n").reduce({}) do |memo, branch|
+remote_branches = (`git branch -r | grep -v "origin/master" | awk '{print $1}'`).split("\n").reduce({}) do |memo, branch|
 	timestamp = Time.parse(`git log --date=local --pretty=format:"%ad" -1 #{branch}`)
 	memo[branch] = timestamp
 	memo
@@ -15,8 +15,11 @@ remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestam
 	puts "\033[1;33mOn branch \033[1;35m#{count += 1}/#{remote_branches.size}\033[1;33m - \033[1;35m#{branch}\033[0m"
 	puts "\033[1;31mLast Updated\t-\033[0m\t#{timestamp}"
 	author = `git log --date=local --pretty=format:"%an" -1 #{branch}`
-	puts "\033[1;35mBy\t-\033[0m\t#{author}"
+	puts "\033[1;31mAuthor\t-\033[0m\t#{author}"
+	ahead_commit_count = `git log --oneline origin/master..#{branch} | wc | awk '{print $1}'`.strip
+	behind_commit_count = `git log --oneline #{branch}..origin/master | wc | awk '{print $1}'`.strip
+	puts "\033[1;31mMaster diff\t-\033[0m\t#{"+" + ahead_commit_count + " / -" + behind_commit_count}"
 	puts "\n"
 end
 
-puts "\n\033[1;31mgit swamp took #{Time.now - start_time} sec(s).\033[0m"
+puts "\033[1;31mgit swamp took #{Time.now - start_time} sec(s).\033[0m"
