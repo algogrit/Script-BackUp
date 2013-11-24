@@ -1,4 +1,5 @@
 #!/bin/sh
+
 git clean -dfx
 echo "\033[1;33mReflog commit count: `git reflog | wc -l`\033[0m"
 echo "\033[1;33mStash count: `git stash list | wc -l`\033[0m"
