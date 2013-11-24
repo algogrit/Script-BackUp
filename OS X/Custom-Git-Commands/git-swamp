@@ -2,11 +2,20 @@
 
 start_time=Time.now
 
-remote_branches = `git branch -r | tail -n +2 | awk '{print $1}'`
+require 'time'
 
-remote_branches.split("\n").each do |branch|
-	puts "\033[1;33mOn branch - \033[1;35m#{branch}\033[0m"
-	puts "\033[1;31mLast Updated:\033[0m\t#{`git log --date=local --pretty=format:"%ad" -1 #{branch}`}"
+remote_branches = (`git branch -r | tail -n +2 | awk '{print $1}'`).split("\n").reduce({}) do |memo, branch|
+	timestamp = Time.parse(`git log --date=local --pretty=format:"%ad" -1 #{branch}`)
+	memo[branch] = timestamp
+	memo
+end
+
+count = 0
+remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestamp|
+	puts "\033[1;33mOn branch \033[1;35m#{count += 1}/#{remote_branches.size}\033[1;33m - \033[1;35m#{branch}\033[0m"
+	puts "\033[1;31mLast Updated\t-\033[0m\t#{timestamp}"
+	author = `git log --date=local --pretty=format:"%an" -1 #{branch}`
+	puts "\033[1;35mBy\t-\033[0m\t#{author}"
 	puts "\n"
 end
 
