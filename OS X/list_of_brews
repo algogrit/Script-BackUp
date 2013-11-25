@@ -46,6 +46,7 @@ gnu-sed
 gnu-tar
 gnu-which
 gnutls
+go
 gobject-introspection
 gource
 gradle
@@ -61,6 +62,7 @@ jmeter
 jpeg
 jq
 leiningen
+less
 libevent
 libffi
 libgcrypt

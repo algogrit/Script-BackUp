@@ -13,12 +13,16 @@ end
 count = 0
 remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestamp|
 	puts "\033[1;33mOn branch \033[1;35m#{count += 1}/#{remote_branches.size}\033[1;33m - \033[1;35m#{branch}\033[0m"
+
 	puts "\033[1;31mLast Updated\t-\033[0m\t#{timestamp}"
+
 	author = `git log --date=local --pretty=format:"%an" -1 #{branch}`
 	puts "\033[1;31mAuthor\t-\033[0m\t#{author}"
+
 	ahead_commit_count = `git log --oneline origin/master..#{branch} | wc | awk '{print $1}'`.strip
 	behind_commit_count = `git log --oneline #{branch}..origin/master | wc | awk '{print $1}'`.strip
 	puts "\033[1;31mMaster diff\t-\033[0m\t#{"+" + ahead_commit_count + " / -" + behind_commit_count}"
+
 	puts "\n"
 end
 
