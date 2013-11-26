@@ -4,6 +4,7 @@ android-sdk
 ant
 antlr
 apple-gcc42
+aria2
 atk
 autoconf
 autoenv
@@ -17,6 +18,7 @@ cmake
 colortail
 cscope
 curl
+curl-ca-bundle
 dotwrp
 drip
 emacs
