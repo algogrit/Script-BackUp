@@ -109,6 +109,7 @@ scala
 scons
 sdl
 sdl_image
+sendemail
 siege
 solr
 sphinx

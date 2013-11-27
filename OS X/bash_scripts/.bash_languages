@@ -12,6 +12,9 @@ export RUBY_GC_MALLOC_LIMIT=30000000
 # Set GNU Plot to use x11 by default
 export GNUTERM=X11
 
+# Setting the GO Path
+export GOPATH=~/.go
+
 # Language Version Managers
 ## rbenv
 export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew

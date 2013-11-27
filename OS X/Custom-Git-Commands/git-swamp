@@ -10,9 +10,8 @@ remote_branches = (`git branch -r | grep -v "origin/master" | awk '{print $1}'`)
 	memo
 end
 
-count = 0
-remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestamp|
-	puts "\033[1;33mOn branch \033[1;35m#{count += 1}/#{remote_branches.size}\033[1;33m - \033[1;35m#{branch}\033[0m"
+def print_branch_details(branch, timestamp, count, size)
+	puts "\033[1;33mOn branch \033[1;35m#{count}/#{size}\033[1;33m - \033[1;35m#{branch}\033[0m"
 
 	puts "\033[1;31mLast Updated\t-\033[0m\t#{timestamp}"
 
@@ -24,6 +23,12 @@ remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestam
 	puts "\033[1;31mMaster diff\t-\033[0m\t#{"+" + ahead_commit_count + " / -" + behind_commit_count}"
 
 	puts "\n"
+end
+
+count = 0
+remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestamp|
+	count += 1
+	print_branch_details(branch, timestamp, count, remote_branches.size)
 end
 
 puts "\033[1;31mgit swamp took #{Time.now - start_time} sec(s).\033[0m"
