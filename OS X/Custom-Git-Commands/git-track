@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+git log `git current-branch`..origin/`git current-branch`

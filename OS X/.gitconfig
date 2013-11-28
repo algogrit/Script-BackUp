@@ -17,6 +17,7 @@
 	big-bang = multi up
 	ru = remote update
 	ll = log --date=local
+	current-branch = rev-parse --abbrev-ref HEAD
 [push]
 	default = current
 [diff]
