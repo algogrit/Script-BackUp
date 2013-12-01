@@ -20,6 +20,9 @@ alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse
 # Ruby
 alias bx="bundle exec"
 
+# RoR
+alias rake_db_reset="rake db:drop db:create db:migrate db:seed"
+
 # Http Server
 alias pyHttpServer="python -m SimpleHTTPServer"
 
