@@ -17,8 +17,9 @@ function kill_switch() {
 
 		echo "Goodbye!"
 	elif [ $# -ne 0 ] && [ $1 == "weaponize" ]; then
-		# Stopping Copy
+		# Stopping Copy and Torrents
 		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
+		ps aux | grep uTorrent | grep -v grep | awk '{print $2}' | xargs kill
 
 		echo "Ready to detonate?"
 	fi

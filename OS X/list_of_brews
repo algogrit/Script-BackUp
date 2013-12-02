@@ -53,6 +53,7 @@ gobject-introspection
 gource
 gradle
 graphicsmagick
+grep
 gtk+
 harfbuzz
 hdf5
