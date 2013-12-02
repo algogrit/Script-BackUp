@@ -9,7 +9,6 @@ function kill_switch() {
 		echo "Self destructing in 1.. 2.. 3.."
 
 		# Remove all incriminating material
-		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
 		rm -rfv /Applications/Copy.app
 		rm -rfv ~/Copy
 		rm -rfv ~/Downloads/Torrents
@@ -17,5 +16,10 @@ function kill_switch() {
 		rm -rfv ~/Downloads/Music
 
 		echo "Goodbye!"
+	elif [ $# -ne 0 ] && [ $1 == "weaponize" ]; then
+		# Stopping Copy
+		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
+
+		echo "Ready to detonate?"
 	fi
 }
