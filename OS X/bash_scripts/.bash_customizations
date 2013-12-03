@@ -29,6 +29,11 @@ function parse_git_branch {
 # Formatting bash prompt
 export PS1=$"\033[1;36m\]\w:\$(parse_git_branch) $ \033[0m\]"
 
+# Sourcing Liquidprompt
+# if [ -f $(brew --prefix)/bin/liquidprompt ]; then
+# 	. $(brew --prefix)/bin/liquidprompt
+# fi
+
 # Vimpager
 export PAGER=vimpager
 

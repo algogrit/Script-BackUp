@@ -89,12 +89,14 @@ nmap
 node
 ntfs-3g
 openssl
+ossp-uuid
 p11-kit
 pango
 passenger
 pcre
 pixman
 pkg-config
+postgresql
 pow
 psgrep
 pstree
