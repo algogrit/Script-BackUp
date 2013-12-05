@@ -6,5 +6,6 @@ echo "Comamnds:
 	wash		-	Does a okay job of cleaning the repository
 	nuke		-	Removes the branch from local and also deletes from remote origin
 	swamp		-	List the latest commit's timestamp for each remote branch
+	track		-	Shows the log of commits by which the current branch is behind
 
 	multi		-	See 'git multi help'"
