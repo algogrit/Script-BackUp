@@ -2,6 +2,7 @@ function coursera_all() {
 	if [ $# -ne 0 ]; then
 		COURSERA_PASSWORD=$1
 
+		osascript -e 'tell application "System Events" to keystroke "k" using command down'
 		> ~/.bash_history && history -c
 
 		if [ -f download.list ]; then
