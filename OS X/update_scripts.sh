@@ -68,6 +68,11 @@ cp -r ~/.tmuxinator .
 mkdir -p Sublime
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings Sublime/packages.list
 
+# Copy files relative to root
+mkdir -p root
+mkdir -p root/etc
+cp /etc/paths root/etc/
+
 echo "\033[1;31mRemoving bash turd files...\033[0m"
 rm .bash_history
 

@@ -25,6 +25,9 @@ fi
 echo "\033[1;31mRestoring bash scripts...\033m[0m"
 cp ~/Script-BackUp/OS\ X/.bash* ~/
 
+echo "\033[1;31mRestoring paths...\033m[0m"
+sudo cp ~/Script-BackUp/OS\ X/root/etc/paths /etc/paths
+
 echo "\033[1;31mRestoring other configs...\033m[0m"
 cp ~/Script-BackUp/OS\ X/.gitconfig ~/
 cp ~/Script-BackUp/OS\ X/.vimrc ~/
