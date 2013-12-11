@@ -18,16 +18,16 @@ cp /tmp/README .
 echo "\033[1;31mList installations...\033[0m"
 
 # List of Brew installations
-brew list > list_of_brews
+brew list > brews.list
 
 # List of Brew taps
-brew tap > list_of_brew_taps
+brew tap > brew_taps.list
 
 # List of Custom installations
-echo "Listing /Applications.." > list_of_applications
-ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> list_of_applications
-echo "\nListing User Applications.." >> list_of_applications
-ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> list_of_applications
+echo "Listing /Applications.." > applications.list
+ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
+echo "\nListing User Applications.." >> applications.list
+ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
@@ -62,7 +62,8 @@ cp ~/.tmux.conf .
 cp -r ~/.tmuxinator .
 
 # Copy List of Sublime Packages
-cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings .
+mkdir -p Sublime
+cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings Sublime/packages.list
 
 echo "\033[1;31mRemoving bash turd files...\033[0m"
 rm .bash_history

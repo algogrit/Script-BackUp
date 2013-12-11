@@ -12,10 +12,10 @@ echo "\033[1;31mStarting the restore process...\033[0m"
 
 
 echo "\033[1;31mTapping brews...\033[0m"
-cat ~/Script-BackUp/OS\ X/list_of_brew_taps | xargs brew tap
+cat ~/Script-BackUp/OS\ X/brew_taps.list | xargs brew tap
 
 echo "\033[1;31mInstalling all brews...\033[0m"
-cat ~/Script-BackUp/OS\ X/list_of_brews | xargs brew install
+cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
 
 echo "\033[1;31mRestoring Bash Scripts...\033m[0m"
 if [ ! -d ~/bash_scripts ]; then
