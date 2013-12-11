@@ -3,6 +3,7 @@ Adium
 Adobe Reader
 Alfred 2
 App Store
+Assistant
 Automator
 Caffeine
 Calculator
@@ -12,6 +13,7 @@ Contacts
 Copy
 DVD Player
 Dashboard
+Designer
 Dictionary
 Dropbox
 Evernote
@@ -25,6 +27,7 @@ Game Center
 Google Chrome
 Google Drive
 HNewsTab
+IDLE
 Image Capture
 IntelliJ IDEA 12 CE
 Kindle
@@ -32,6 +35,8 @@ Kitabu
 Launchpad
 LibreOffice
 LightTable
+Linguist
+MacVim
 Mail
 Maps
 Messages
@@ -43,6 +48,8 @@ Photo Booth
 Pocket
 Preview
 PyCharm CE
+Python Launcher
+QMLViewer
 QuickTime Player
 RStudio
 Reminders
@@ -69,6 +76,8 @@ iBooks
 iGetter 2
 iTerm
 iTunes
+qttracereplay
+terminal-notifier
 uTorrent
 
 Listing User Applications..
