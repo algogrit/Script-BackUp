@@ -8,7 +8,7 @@ cp restore_scripts.sh /tmp
 cp README /tmp
 
 echo "\033[1;31mRemoving files...\033[0m"
-ls -A | xargs rm -vr
+rm -vr *
 
 echo "\033[1;31mRestoring non-system files...\033[0m"
 cp /tmp/update_scripts.sh .
