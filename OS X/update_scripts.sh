@@ -40,7 +40,7 @@ cp ~/.gitconfig .
 # Copy vimrc
 cp ~/.vimrc .
 
-# Copy irbrc 
+# Copy irbrc
 cp ~/.irbrc .
 
 # Copy vimpagerrc
@@ -60,6 +60,9 @@ cp ~/.tmux.conf .
 
 # Copy tmux configuration
 cp -r ~/.tmuxinator .
+
+# Copy List of Sublime Packages
+cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings .
 
 echo "\033[1;31mRemoving bash turd files...\033[0m"
 rm .bash_history
