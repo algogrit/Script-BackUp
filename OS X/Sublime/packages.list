@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"CTags",
 		"Git",
 		"Ruby Slim",
 		"SideBarEnhancements",

@@ -17,13 +17,16 @@ cloog
 cmake
 colortail
 cscope
+ctags
 curl
 curl-ca-bundle
 dotwrp
 drip
+elixir
 emacs
 erlang
 fftw
+figlet
 findutils
 fltk
 fontconfig
@@ -67,6 +70,7 @@ jpeg
 jq
 leiningen
 less
+libcaca
 libevent
 libffi
 libgcrypt

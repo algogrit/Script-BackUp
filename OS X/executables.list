@@ -206,10 +206,18 @@ brew
 browserstack
 bsondump
 c++-4.2
+caca-config
+cacaclock
+cacademo
+cacafire
+cacaplay
+cacaserver
+cacaview
 cairo-trace
 capinfos
 ccmake
 charm
+chkfont
 cjpeg
 cloog
 clusterdb
@@ -229,6 +237,7 @@ createlang
 createuser
 cscope
 ct_run
+ctags
 ctest
 d8
 danetool
@@ -254,6 +263,8 @@ ebrowse
 ecpg
 editcap
 egrep
+elixir
+elixirc
 emacs
 emacs-24.3
 emacsclient
@@ -284,6 +295,8 @@ fftw-wisdom-to-conf
 fftwf-wisdom
 fftwl-wisdom
 fgrep
+figlet
+figlist
 fltk-config
 fluid
 fortune
@@ -393,8 +406,10 @@ identify
 idle
 idle2
 idle2.7
+iex
 ifnames
 igawk
+img2txt
 import
 indexer
 indextool
@@ -436,6 +451,7 @@ macdeployqt
 mate
 memcached
 mergecap
+mix
 mksdcard
 mksnapshot.x64
 moc
@@ -637,6 +653,7 @@ searchd
 sed
 sendEmail
 sexp-conv
+showfigfonts
 siege
 siege.config
 siege2csv.pl
