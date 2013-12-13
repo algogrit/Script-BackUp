@@ -30,7 +30,7 @@ echo "\nListing User Applications.." >> applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 # List of all executables in $PATH
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
 
 echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
