@@ -136,6 +136,7 @@ avconvert
 avmetareadwrite
 awacsd
 awk
+awshell
 b2json
 banner
 base64
@@ -334,7 +335,6 @@ cvt
 cvupdatefs
 cvversions
 cxpm
-d8
 danetool
 dappprof
 dapptrace
@@ -432,6 +432,9 @@ easy_install-2.5
 easy_install-2.6
 easy_install-2.7
 ebrowse
+ec2-gem-example.rb
+ec2-gem-profile.rb
+ec2sh
 echo
 ecpg
 ed
@@ -906,7 +909,6 @@ libnetcfg5.16
 libpng-config
 libpng15-config
 libtool
-lineprocessor
 link
 lint
 lipo
@@ -1032,7 +1034,6 @@ mknod
 mkntfs
 mkpassdb
 mksdcard
-mksnapshot.x64
 mktemp
 mmroff
 mnthome
@@ -1253,12 +1254,6 @@ parl5.16
 parldyn
 parldyn5.12
 parldyn5.16
-passenger
-passenger-config
-passenger-install-apache2-module
-passenger-install-nginx-module
-passenger-memory-stats
-passenger-status
 passwd
 paste
 patch
@@ -1408,12 +1403,10 @@ pppd
 pr
 praudit
 pre-grohtml
-preparser
 priclass.d
 pridist.d
 printenv
 printf
-process
 procmail
 procsystime
 productbuild
@@ -1656,6 +1649,7 @@ setkey
 setquota
 setregion
 setuids.d
+setup.rb
 setxkbmap
 sexp-conv
 sftp
@@ -1949,7 +1943,6 @@ uuto
 uux
 uuxqt
 uxterm
-v8
 vacuumdb
 vacuumlo
 vagrant
