@@ -1254,6 +1254,12 @@ parl5.16
 parldyn
 parldyn5.12
 parldyn5.16
+passenger
+passenger-config
+passenger-install-apache2-module
+passenger-install-nginx-module
+passenger-memory-stats
+passenger-status
 passwd
 paste
 patch
