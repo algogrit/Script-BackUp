@@ -13,7 +13,7 @@ function kill_switch() {
 		rm -rfv ~/Copy
 		rm -rfv ~/Downloads/Torrents
 		rm rfv ~/Downloads/Pirate\ Books
-		rm -rfv ~/Downloads/Music
+		rm -rfv ~/Downloads/Music*
 
 		echo "Goodbye!"
 	elif [ $# -ne 0 ] && [ $1 == "weaponize" ]; then
