@@ -18,6 +18,7 @@
 	ru = remote update
 	ll = log --date=local
 	current-branch = rev-parse --abbrev-ref HEAD
+	standup = log --since=yesterday --author=Gaurav
 [push]
 	default = current
 [diff]

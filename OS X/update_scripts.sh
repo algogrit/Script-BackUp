@@ -29,6 +29,8 @@ ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 echo "\nListing User Applications.." >> applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
+rbenv rehash
+nodenv rehash
 # List of all executables in $PATH
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
 
