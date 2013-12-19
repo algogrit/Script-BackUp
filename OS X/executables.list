@@ -1003,6 +1003,7 @@ manpath
 maruku
 marutex
 mate
+mclient
 mcxquery
 mcxrefresh
 md5
@@ -1039,6 +1040,8 @@ mmroff
 mnthome
 moc
 mogrify
+monetdb
+monetdbd
 mongo
 mongo_console
 mongod
@@ -1078,8 +1081,10 @@ mount_udf
 mount_webdav
 mp2bug
 mpioutil
+mserver5
 msgs
 msql2mysql
+msqldump
 mtree
 mux
 mv
@@ -1759,6 +1764,7 @@ startx
 stat
 stdethers
 stdhosts
+stethoscope
 stream
 strfile
 stringdups
@@ -1866,6 +1872,7 @@ tmuxinator
 tnameserv
 to_erl
 toe
+tomograph
 top
 tops
 topsyscall
