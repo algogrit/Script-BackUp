@@ -2,6 +2,7 @@ echo -e "\033[1;36m~/bash_scripts/.aliases Loaded\033[0m"
 
 # Export Other Aliases
 . ~/bash_scripts/aliases/.generic
+. ~/bash_scripts/aliases/.personal_secret
 . ~/bash_scripts/aliases/.bs_secret
 
 # Load custom git commands

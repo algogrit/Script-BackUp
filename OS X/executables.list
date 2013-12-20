@@ -604,6 +604,8 @@ git-new-commits
 git-nuke
 git-pristine
 git-receive-pack
+git-remote-bzr
+git-remote-hg
 git-shell
 git-subtree
 git-swamp

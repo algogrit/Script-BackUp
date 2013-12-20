@@ -15,6 +15,7 @@ Bundle 'LargeFile'
 Bundle 'bling/vim-airline'
 " Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'w0ng/vim-hybrid'
+Bundle 'scrooloose/nerdtree'
 
 " Other Config
 filetype plugin indent on     " required!
@@ -29,3 +30,7 @@ autocmd CursorMoved * :set relativenumber
 let g:airline#extensions#tabline#enabled = 1
 let g:hybrid_use_Xresources = 1
 colorscheme hybrid
+
+" UI config
+let &t_Co=256
+syntax on
