@@ -13,7 +13,6 @@ Bundle 'LargeFile'
 
 " Vim UI
 Bundle 'bling/vim-airline'
-" Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'w0ng/vim-hybrid'
 Bundle 'scrooloose/nerdtree'
 
