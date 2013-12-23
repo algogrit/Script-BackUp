@@ -1,18 +1,18 @@
-VAGRANT_MANAGED_VMS="grep -P _\d{10}"
+_FILTER_VAGRANT_MANAGED_VMS="grep -P _\d{10}"
 
 function _vagrantvbox_list() {
-  VBoxManage list vms | cut -d \" -f 2 | ${VAGRANT_MANAGED_VMS}
+  VBoxManage list vms | cut -d \" -f 2 | ${_FILTER_VAGRANT_MANAGED_VMS}
 }
 
 function _vagrantvbox_running() {
-  VBoxManage list runningvms | cut -d \" -f 2 | ${VAGRANT_MANAGED_VMS}
+  VBoxManage list runningvms | cut -d \" -f 2 | ${_FILTER_VAGRANT_MANAGED_VMS}
 }
 
 function _vagrantvbox_status() {
-  NUM_VAGRANT_VMS=`_vagrantvbox_list | wc -l`
-  NUM_RUNNING_VAGRANT_VMS=`_vagrantvbox_running | wc -l`
+  _NUM_VAGRANT_VMS=`_vagrantvbox_list | wc -l`
+  _NUM_RUNNING_VAGRANT_VMS=`_vagrantvbox_running | wc -l`
 
-  echo ${NUM_RUNNING_VAGRANT_VMS} / ${NUM_VAGRANT_VMS} vagrant managed virtualbox VMs running
+  echo ${_NUM_RUNNING_VAGRANT_VMS} / ${_NUM_VAGRANT_VMS} vagrant managed virtualbox VMs running
 }
 
 function vagrantvbox() {
@@ -27,7 +27,7 @@ function vagrantvbox() {
 			_vagrantvbox_running
 			;;
 		*)
-			echo "Usage: 
+			echo "Usage:
 	vagrantvbox status    -    Shows count of running vagrant managed VMs
 	vagrantvbox list      -    Lists all vagrant managed VMs
 	vagrantvbox running   -    Lists all the running VMs

@@ -19,6 +19,7 @@
 	ll = log --date=local
 	current-branch = rev-parse --abbrev-ref HEAD
 	standup = log --since=yesterday --author=Gaurav
+	oops = checkout HEAD^
 [push]
 	default = current
 [diff]
