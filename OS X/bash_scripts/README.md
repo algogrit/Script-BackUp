@@ -1,9 +1,11 @@
 Bash Scripts
 ============
-Explains some of the script decisions.
+Explains some of the script decisions. If you are going through the source, please start with .bash_load. 
+
+
 
 # Bash Customizations
----------------------
+
 
 ## Echo colorization
 	Attribute codes:
