@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Clipboard Manager",
 		"CTags",
 		"Git",
 		"Pretty JSON",

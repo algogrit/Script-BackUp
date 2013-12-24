@@ -17,6 +17,14 @@ cat ~/Script-BackUp/OS\ X/brew_taps.list | xargs brew tap
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
 
+echo "\033[1;31mSetting up managers...\033[0m"
+
+echo "Vundle"
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+echo "Nodenv"
+git clone -b v0.2.2 https://github.com/wfarr/nodenv.git ~/.nodenv
+
 echo "\033[1;31mRestoring Bash Scripts...\033m[0m"
 if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/OS\ X/bash_scripts ~/bash_scripts
@@ -35,6 +43,9 @@ cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
 cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/
 cp ~/Script-BackUp/OS\ X/.irbrc ~/
 cp ~/Script-BackUp/OS\ X/.powconfig ~/
+
+echo "\033[1;31mInstall vundle packages...\033m[0m"
+vim +BundleInstall +qall
 
 echo "\033[1;31mCreating directory for GOPATH...\033m[0m"
 mkdir ~/.go

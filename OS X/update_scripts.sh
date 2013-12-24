@@ -29,6 +29,10 @@ ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 echo "\nListing User Applications.." >> applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
+
+rbenv versions > ruby.versions
+nodenv versions > node.versions
+
 rbenv rehash
 nodenv rehash
 # List of all executables in $PATH
