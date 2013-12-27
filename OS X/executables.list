@@ -614,6 +614,7 @@ git-up
 git-upload-archive
 git-upload-pack
 git-wash
+github
 gitk
 glewinfo
 glib-compile-resources
