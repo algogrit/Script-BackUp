@@ -25,6 +25,8 @@ drip
 elixir
 emacs
 erlang
+faac
+ffmpeg
 fftw
 figlet
 findutils
@@ -68,6 +70,7 @@ isl
 jmeter
 jpeg
 jq
+lame
 leiningen
 less
 libcaca
@@ -129,6 +132,7 @@ suite-sparse
 szip
 tbb
 terminal-notifier
+texi2html
 texinfo
 the_silver_searcher
 tig
@@ -141,6 +145,9 @@ unrar
 vim
 vimpager
 wget
+x264
+xvid
 xz
+yasm
 youtube-dl
 z

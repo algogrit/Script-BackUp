@@ -482,6 +482,7 @@ extcheck
 eyapp
 eyapp5.12
 eyapp5.16
+faac
 false
 fastboot
 fax
@@ -499,6 +500,9 @@ fc-validate
 fddist
 fdesetup
 fdisk
+ffmpeg
+ffprobe
+ffserver
 fftw-wisdom
 fftw-wisdom-to-conf
 fftwf-wisdom
@@ -877,6 +881,7 @@ ksh
 kswitch
 ktutil
 lam
+lame
 languagesetup
 last
 lastcomm
@@ -1830,6 +1835,7 @@ testem
 testgdbm
 testrb
 texi2dvi
+texi2html
 texi2pdf
 texindex
 text2pcap
@@ -1980,6 +1986,7 @@ vm_stat
 vmmap
 vpnd
 vsdbutil
+vsyasm
 w
 wait
 wait4path
@@ -2008,6 +2015,7 @@ wsgen
 wsimport
 x11perf
 x11perfcomp
+x264
 x86_64-apple-darwin13.0.0-gfortran
 xar
 xargs
@@ -2116,6 +2124,7 @@ xzgrep
 xzless
 xzmore
 yacc
+yasm
 yes
 youtube-dl
 ypbind
@@ -2124,6 +2133,7 @@ ypmatch
 yppoll
 ypset
 ypwhich
+ytasm
 zcat
 zcmp
 zdiff
