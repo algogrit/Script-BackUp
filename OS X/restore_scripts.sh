@@ -17,6 +17,9 @@ cat ~/Script-BackUp/OS\ X/brew_taps.list | xargs brew tap
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
 
+echo "\033[1;31mInstalling Sack/Sag\033[0m"
+cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
+
 echo "\033[1;31mSetting up managers...\033[0m"
 
 echo "Vundle"
@@ -41,6 +44,7 @@ cp ~/Script-BackUp/OS\ X/.gitconfig ~/
 cp ~/Script-BackUp/OS\ X/.vimrc ~/
 cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
 cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/
+cp ~/Script-BackUp/OS\ X/.sackrc ~/
 cp ~/Script-BackUp/OS\ X/.irbrc ~/
 cp ~/Script-BackUp/OS\ X/.powconfig ~/
 

@@ -10,6 +10,7 @@ CpMac
 DeRez
 DevToolsSecurity
 DirectoryService
+F
 FileStatsAgent
 GetFileInfo
 GraphicsMagick++-config
@@ -1142,6 +1143,7 @@ mysqlslap
 mysqltest
 mysqltest_embedded
 nano
+nanoc
 nasm
 natd
 native2ascii
@@ -1614,6 +1616,8 @@ s2p5.12
 s2p5.16
 s3sh
 sa
+sack
+sag
 sample
 sampleproc
 sandbox-exec

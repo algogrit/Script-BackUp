@@ -55,6 +55,9 @@ cp ~/.irbrc .
 # Copy vimpagerrc
 cp ~/.vimpagerrc .
 
+# Copy Sack/Sag config
+cp ~/.sackrc .
+
 # Copy .powconfig
 cp ~/.powconfig .
 
