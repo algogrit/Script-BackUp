@@ -2,7 +2,7 @@
 #
 # @author Sampson L. Chen (sampson-chen / slchen)
 # @date 2012-10-14
-# 
+#
 # @description
 # - Configuration file for sack
 
@@ -32,37 +32,20 @@ sack__profile_name=no_profile
 sack__profile_preset_flags=""
 sack__profile_preset_directory=""
 #
-sack__profile_name=Aamir
+sack__profile_name=bs
+sack__profile_preset_flags="--ignore"
+sack__profile_preset_directory="./public/assets"
+#
+sack__profile_name=rb
 sack__profile_preset_flags=""
 sack__profile_preset_directory=""
-#
-sack__profile_name=Mike
-sack__profile_preset_flags=""
-sack__profile_preset_directory=""
-#
-sack__profile_name=Tina
-sack__profile_preset_flags=""
-sack__profile_preset_directory=""
-#
-sack__profile_name=David
-sack__profile_preset_flags=""
-sack__profile_preset_directory=""
-#
-sack__profile_name=John
-sack__profile_preset_flags=""
-sack__profile_preset_directory=""
-#
-sack__profile_name=RB
-sack__profile_preset_flags="-i"
-sack__profile_preset_directory="~/src/"
-#
 # sack__beacon_tag_new_profiles
 
 # sack__beacon_tag_current_profile BEGIN
 #
-sack__profile_name=no_profile
-sack__profile_preset_flags=""
-sack__profile_preset_directory=""
+sack__profile_name=bs
+sack__profile_preset_flags="--ignore"
+sack__profile_preset_directory="./public/assets"
 #
 # sack__beacon_tag_current_profile END
 

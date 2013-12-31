@@ -1,0 +1,8 @@
+function extract_mp3() {
+	if [ $# -ne 0 ]; then
+		ffmpeg -i $1 -f mp3 -ab 192000 -vn $2
+	else
+		echo "Usage:
+		extract_mp3 {video_no_spaces.mp4} {audio_no_spaces.mp3}"
+	fi
+}
