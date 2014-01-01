@@ -11,6 +11,7 @@ autoenv
 automake
 bash
 bash-completion
+bdw-gc
 boost
 cairo
 cloog
@@ -84,7 +85,6 @@ libtasn1
 libtiff
 libtool
 libyaml
-lynx
 macvim
 maven
 memcached
@@ -144,6 +144,7 @@ unixodbc
 unrar
 vim
 vimpager
+w3m
 wget
 x264
 xvid

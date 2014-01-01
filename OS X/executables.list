@@ -578,6 +578,9 @@ gccmakedep
 gcov
 gcov-4.2
 gdb
+gdbm_dump
+gdbm_load
+gdbmtool
 gdbus
 gdbus-codegen
 gdiffmk
@@ -977,7 +980,6 @@ lwp-mirror5.16
 lwp-request
 lwp-request5.12
 lwp-request5.16
-lynx
 lzcat
 lzcmp
 lzdiff
@@ -1836,7 +1838,6 @@ terminal-notifier
 test
 test_xauth
 testem
-testgdbm
 testrb
 texi2dvi
 texi2html
@@ -1992,6 +1993,8 @@ vpnd
 vsdbutil
 vsyasm
 w
+w3m
+w3mman
 wait
 wait4path
 wall
