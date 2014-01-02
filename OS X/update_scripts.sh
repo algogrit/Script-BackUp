@@ -81,6 +81,7 @@ cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Contro
 mkdir -p root
 mkdir -p root/etc
 cp /etc/paths root/etc/
+cp /etc/hosts root/etc/
 
 echo "\033[1;31mRemoving bash turd files...\033[0m"
 rm .bash_history
