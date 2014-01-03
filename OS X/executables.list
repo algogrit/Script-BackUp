@@ -225,6 +225,7 @@ chkfont
 chmod
 chown
 chpass
+chrome-stats-to-csv
 chroot
 chsh
 cjpeg

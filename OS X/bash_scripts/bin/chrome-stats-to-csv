@@ -1,0 +1,20 @@
+#! /usr/bin/env ruby
+
+require 'csv'
+
+input_file = ARGV[0] || '/tmp/stats.txt'
+output_file = ARGV[1] || '/tmp/stats.csv'
+
+default_row_count = 8
+
+puts "Reading Text file #{input_file}..."
+
+stats = File.read(input_file).split("\n")
+
+puts "Writing to csv #{output_file}..."
+CSV.open(output_file, 'w') do |csv|
+	stats.each_slice(default_row_count) do |row|
+		row[0] = row[0].split('?').first
+		csv << [row[0], row[6]]
+	end
+end
