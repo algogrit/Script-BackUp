@@ -34,3 +34,6 @@ alias start_spotlight="sudo launchctl load -w /System/Library/LaunchDaemons/com.
 
 # Youtube Videos
 alias you-down-all='cat downloads.list | xargs youtube-dl'
+
+# Generic UNIX utils
+alias cat-without-first-line='awk FNR-1'

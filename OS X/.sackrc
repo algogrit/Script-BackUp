@@ -32,10 +32,6 @@ sack__profile_name=no_profile
 sack__profile_preset_flags=""
 sack__profile_preset_directory=""
 #
-sack__profile_name=bs
-sack__profile_preset_flags="--ignore"
-sack__profile_preset_directory="./public/assets"
-#
 sack__profile_name=rb
 sack__profile_preset_flags=""
 sack__profile_preset_directory=""
@@ -43,9 +39,9 @@ sack__profile_preset_directory=""
 
 # sack__beacon_tag_current_profile BEGIN
 #
-sack__profile_name=bs
-sack__profile_preset_flags="--ignore"
-sack__profile_preset_directory="./public/assets"
+sack__profile_name=no_profile
+sack__profile_preset_flags=""
+sack__profile_preset_directory=""
 #
 # sack__beacon_tag_current_profile END
 
