@@ -5,6 +5,7 @@ ant
 antlr
 apple-gcc42
 aria2
+arpack
 atk
 autoconf
 autoenv
@@ -38,6 +39,7 @@ freetype
 fuse4x
 fuse4x-kext
 gawk
+gd
 gdb
 gdbm
 gdk-pixbuf
@@ -53,6 +55,7 @@ gmp
 gnu-sed
 gnu-tar
 gnu-which
+gnuplot
 gnutls
 go
 gobject-introspection
@@ -86,6 +89,7 @@ libtasn1
 libtiff
 libtool
 libyaml
+lua
 macvim
 maven
 memcached

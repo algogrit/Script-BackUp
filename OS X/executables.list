@@ -146,6 +146,7 @@ bash
 bashbug
 batch
 bc
+bdftogd
 bdftopcf
 bdftruncate
 bg
@@ -578,16 +579,23 @@ gcc-4.2
 gccmakedep
 gcov
 gcov-4.2
+gd2copypal
+gd2togif
+gd2topng
 gdb
 gdbm_dump
 gdbm_load
 gdbmtool
 gdbus
 gdbus-codegen
+gdcmpgif
 gdiffmk
 gdk-pixbuf-csource
 gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
+gdlib-config
+gdparttopng
+gdtopng
 gem
 gen_bridge_metadata
 gencat
@@ -603,6 +611,7 @@ gfortran
 gfortran-4.2
 gif2h5
 gif2tiff
+giftogd2
 gio-querymodules
 git
 git-credential-osxkeychain
@@ -643,6 +652,7 @@ gnuattach
 gnuclient
 gnudoit
 gnumake
+gnuplot
 gnuserv
 gnutls-certtool
 gnutls-cli
@@ -967,6 +977,8 @@ lsbom
 lsm
 lsof
 lsvfs
+lua
+luac
 luit
 lunchy
 lupdate
@@ -1370,6 +1382,8 @@ pltcl_loadmod
 pluginkit
 plutil
 pmset
+pngtogd
+pngtogd2
 pod2html
 pod2html5.12
 pod2html5.16
@@ -2004,6 +2018,7 @@ wc
 wdutil
 weakpass_edit
 weblatency.d
+webpng
 webpromotion
 wget
 what
