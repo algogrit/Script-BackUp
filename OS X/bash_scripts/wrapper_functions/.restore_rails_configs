@@ -1,0 +1,6 @@
+function restore_rails_configs {
+	declare _backup_rails_path="/Users/gaurav/Projects/BrowserStack/Core/Custom-Scripts/other_backups/$1"
+
+	cp "$_backup_rails_path/database.yml" config/
+	cp "$_backup_rails_path/keys.yml" config/initializers/
+}
