@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Clipboard Manager",
 		"CTags",
