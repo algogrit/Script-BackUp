@@ -36,7 +36,6 @@ fltk
 fontconfig
 fortune
 freetype
-fuse4x
 fuse4x-kext
 gawk
 gd
@@ -104,6 +103,7 @@ node
 ntfs-3g
 openssl
 ossp-uuid
+osxfuse
 p11-kit
 pango
 passenger
