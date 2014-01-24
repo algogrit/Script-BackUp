@@ -14,10 +14,12 @@ bash
 bash-completion
 bdw-gc
 boost
+byobu
 cairo
 cloog
 cmake
 colortail
+coreutils
 cscope
 ctags
 curl
@@ -97,6 +99,7 @@ mongodb
 mpfr
 mysql
 nettle
+newt
 nginx
 nmap
 node
@@ -110,6 +113,7 @@ passenger
 pcre
 pixman
 pkg-config
+popt
 postgresql
 pow
 psgrep
@@ -122,6 +126,7 @@ r
 rbenv
 readline
 ruby-build
+s-lang
 sbt
 scala
 scons

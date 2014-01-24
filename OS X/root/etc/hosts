@@ -8,6 +8,8 @@
 255.255.255.255	broadcasthost
 ::1	localhost
 
+# Custom Temporary Routing
+
 # Custom add site blocking
 0.0.0.0 superfish.com
 
