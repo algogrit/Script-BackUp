@@ -3,6 +3,9 @@
 2to3-2
 2to3-2.7
 2to32.6
+7z
+7za
+7zr
 AppleFileServer
 BootCacheControl
 BuildStrings
@@ -171,6 +174,7 @@ bsondump
 bspatch
 btmmdiagnose
 bundle
+bundler
 bunzip2
 byobu
 byobu-config
@@ -470,6 +474,7 @@ ec2sh
 echo
 ecpg
 ed
+edit_json.rb
 editcap
 editres
 edquota
@@ -889,6 +894,7 @@ htmltree5.12
 htmltree5.16
 htop
 htpasswd
+httpclient
 httpd
 httpdstat.d
 httxt2dbm
@@ -1373,6 +1379,7 @@ ntpq
 ntptrace
 nvram
 oclock
+ocra
 ocs
 ocspd
 ocsptool
@@ -1573,6 +1580,7 @@ pppd
 pr
 praudit
 pre-grohtml
+prettify_json.rb
 priclass.d
 pridist.d
 printenv
@@ -1710,6 +1718,7 @@ ree-version
 refer
 reindexdb
 reject
+releasy
 renice
 replace
 repquota

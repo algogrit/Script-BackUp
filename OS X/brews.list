@@ -108,6 +108,7 @@ openssl
 ossp-uuid
 osxfuse
 p11-kit
+p7zip
 pango
 passenger
 pcre
