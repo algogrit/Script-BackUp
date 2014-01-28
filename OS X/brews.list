@@ -1,9 +1,12 @@
+ab
 ack
 android-ndk
 android-sdk
 ant
 antlr
 apple-gcc42
+apr
+apr-util
 aria2
 arpack
 atk
@@ -47,6 +50,7 @@ gdk-pixbuf
 geoip
 gettext
 gfortran
+gist
 git
 glew
 glib
