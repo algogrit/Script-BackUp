@@ -1486,6 +1486,7 @@ pg_upgrade
 pg_xlogdump
 pgbench
 pgrep
+phantomjs
 phar
 phar.phar
 php
