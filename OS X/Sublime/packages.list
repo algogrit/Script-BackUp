@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"BeautifyRuby",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Clipboard Manager",
