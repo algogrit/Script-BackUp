@@ -27,3 +27,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi # Enable shims and a
 ## nodenv
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "(nodenv init -)" > /dev/null
+
+## pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
