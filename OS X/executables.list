@@ -1606,6 +1606,7 @@ prove
 prove5.12
 prove5.16
 pry
+pry-remote
 ps
 psed
 psed5.12
