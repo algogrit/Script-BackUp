@@ -176,6 +176,7 @@ bsondump
 bspatch
 btmmdiagnose
 bundle
+bundler
 bunzip2
 byobu
 byobu-config
@@ -896,6 +897,7 @@ htmltree5.12
 htmltree5.16
 htop
 htpasswd
+httpclient
 httpd
 httpdstat.d
 httxt2dbm
@@ -1388,6 +1390,7 @@ ntpq
 ntptrace
 nvram
 oclock
+ocra
 ocs
 ocspd
 ocsptool
@@ -1397,6 +1400,7 @@ odbcinst
 odutil
 oid2name
 oink
+oletool
 open
 opendiff
 opensnoop
@@ -1746,6 +1750,7 @@ ree-version
 refer
 reindexdb
 reject
+releasy
 renice
 replace
 repquota
@@ -2265,6 +2270,7 @@ xlogo
 xlsatoms
 xlsclients
 xlsfonts
+xlsopcodes
 xmag
 xman
 xmessage
