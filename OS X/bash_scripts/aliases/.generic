@@ -15,7 +15,7 @@ alias gd="git diff"
 alias gdc="git diff --cached"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
-alias open_modified_files="git status | ag modified | awk '{print $2}' | xargs subl"
+alias open_modified_files="git status | ag modified | awk '{print \$2}' | xargs subl"
 
 # Ruby
 alias bx="bundle exec"
