@@ -16,9 +16,11 @@ automake
 bash
 bash-completion
 bdw-gc
+berkeley-db
 boost
 byobu
 cairo
+celt
 cloog
 cmake
 colortail
@@ -37,6 +39,7 @@ ffmpeg
 fftw
 figlet
 findutils
+flac
 fltk
 fontconfig
 fortune
@@ -77,6 +80,7 @@ hub
 icu4c
 imagemagick
 isl
+jack
 jmeter
 jpeg
 jq
@@ -89,10 +93,14 @@ libffi
 libgcrypt
 libgpg-error
 libmpc
+libogg
 libpng
+libsamplerate
+libsndfile
 libtasn1
 libtiff
 libtool
+libvorbis
 libyaml
 lua
 macvim
@@ -147,6 +155,7 @@ sqlite
 ssh-copy-id
 suite-sparse
 szip
+task
 tbb
 terminal-notifier
 texi2html
@@ -156,6 +165,7 @@ tig
 tmux
 tor
 torsocks
+tpp
 tree
 unixodbc
 unrar

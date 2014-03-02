@@ -71,6 +71,9 @@ cp ~/.vimpagerrc .
 # Copy Sack/Sag config
 cp ~/.sackrc .
 
+# Copy taskwarrior config
+cp ~/.taskrc .
+
 # Copy .powconfig
 cp ~/.powconfig .
 

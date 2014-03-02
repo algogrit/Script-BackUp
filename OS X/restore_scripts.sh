@@ -46,6 +46,7 @@ cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
 cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/
 cp ~/Script-BackUp/OS\ X/.sackrc ~/
 cp ~/Script-BackUp/OS\ X/.irbrc ~/
+cp ~/Script-BackUp/OS\ X/.taskrc ~/
 cp ~/Script-BackUp/OS\ X/.powconfig ~/
 
 echo "\033[1;31mInstall vundle packages...\033m[0m"
