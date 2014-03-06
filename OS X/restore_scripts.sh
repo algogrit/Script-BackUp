@@ -26,7 +26,10 @@ echo "Vundle"
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 echo "Nodenv"
-git clone -b v0.2.2 https://github.com/wfarr/nodenv.git ~/.nodenv
+git clone https://github.com/wfarr/nodenv.git ~/.nodenv
+
+echo "Goenv"
+git clone https://github.com/wfarr/goenv.git ~/.goenv
 
 echo "\033[1;31mRestoring Bash Scripts...\033m[0m"
 if [ ! -d ~/bash_scripts ]; then
