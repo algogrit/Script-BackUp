@@ -755,6 +755,8 @@ gnutls-serv
 go
 gobject-query
 god
+godoc
+goenv
 gofmt
 goldfind
 gource
