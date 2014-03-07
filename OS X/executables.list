@@ -1291,6 +1291,7 @@ mount_smbfs
 mount_udf
 mount_webdav
 mp2bug
+mpicalc
 mpioutil
 mserver5
 msgs
