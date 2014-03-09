@@ -2133,6 +2133,7 @@ tops
 topsyscall
 topsysproc
 tor
+tor-ctrl
 tor-gencert
 tor-resolve
 torify
