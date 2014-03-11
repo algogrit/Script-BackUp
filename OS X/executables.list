@@ -639,7 +639,6 @@ gd2copypal
 gd2togif
 gd2topng
 gdate
-gdb
 gdbm_dump
 gdbm_load
 gdbmtool
@@ -2250,6 +2249,8 @@ webpromotion
 wget
 what
 whatis
+whenever
+wheneverize
 whereis
 which
 whiptail

@@ -6,7 +6,6 @@ ant
 antlr
 apple-gcc42
 aria2
-arpack
 atk
 autoconf
 autoenv
@@ -45,7 +44,6 @@ freetype
 fuse4x-kext
 gawk
 gd
-gdb
 gdbm
 gdk-pixbuf
 geoip

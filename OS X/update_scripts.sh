@@ -94,6 +94,7 @@ cp -r ~/.tmuxinator .
 # Copy List of Sublime Packages
 mkdir -p Sublime
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings Sublime/packages.list
+cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings Sublime/
 
 # Copy files relative to root
 mkdir -p root
