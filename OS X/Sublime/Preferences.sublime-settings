@@ -1,13 +1,11 @@
 {
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 12,
-
-	"tab_size": 2,
-	"translate_tabs_to_spaces" : true,
-	"ensure_newline_at_eof_on_save" : true,
-  "trim_trailing_white_space_on_save": true,
-
 	"ignored_packages":
 	[
-	]
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
