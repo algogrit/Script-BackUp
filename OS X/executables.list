@@ -970,13 +970,17 @@ ip2cc
 ip2cc5.12
 ip2cc5.16
 ip6fw
+ipcluster3
 ipconfig
+ipcontroller3
 ipcount
 ipcount5.12
 ipcount5.16
 ipcrm
 ipcs
+ipengine3
 ipfw
+iplogger3
 ipmitool
 ippfind
 ipptool
@@ -984,7 +988,10 @@ iprofiler
 iptab
 iptab5.12
 iptab5.16
+iptest3
+ipython3
 irb
+irunner3
 isql
 iusql
 j2bson
@@ -1677,6 +1684,7 @@ pwd_mkdb
 pwhich
 pwhich5.16
 pwpolicy
+pycolor3
 pydoc
 pydoc2
 pydoc2.5
@@ -2072,6 +2080,7 @@ tcpdump
 tcsh
 tee
 telnet
+term2048
 term_display
 term_mandel
 terminal-notifier
