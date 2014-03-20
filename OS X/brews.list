@@ -88,6 +88,8 @@ libevent
 libffi
 libgcrypt
 libgpg-error
+libid3tag
+libmp3splt
 libmpc
 libogg
 libpng
@@ -100,10 +102,12 @@ libvorbis
 libyaml
 lua
 macvim
+mad
 maven
 memcached
 monetdb
 mongodb
+mp3splt
 mpfr
 mysql
 nettle
