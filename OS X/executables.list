@@ -1752,6 +1752,7 @@ rarpd
 ras2tiff
 raw2tiff
 rawshark
+rb_hash_to_json
 rbenv
 rbenv---version
 rbenv-commands
