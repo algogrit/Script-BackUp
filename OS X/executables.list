@@ -373,6 +373,7 @@ cvmkfs
 cvt
 cvupdatefs
 cvversions
+cwebp
 cxpm
 danetool
 dappprof
@@ -467,6 +468,7 @@ du
 dumpcap
 dumpsexp
 dwarfdump
+dwebp
 dx
 dynamic_pager
 easy_install
@@ -1123,6 +1125,7 @@ libnetcfg5.12
 libnetcfg5.16
 libpng-config
 libpng15-config
+libpng16-config
 libtool
 link
 lint
@@ -1582,6 +1585,8 @@ pltcl_loadmod
 pluginkit
 plutil
 pmset
+png-fix-itxt
+pngfix
 pngtogd
 pngtogd2
 pod2html
@@ -2245,6 +2250,7 @@ vmmap
 vpnd
 vsdbutil
 vsyasm
+vwebp
 w
 w3m
 w3mman
@@ -2255,6 +2261,7 @@ wc
 wdutil
 weakpass_edit
 weblatency.d
+webpmux
 webpng
 webpromotion
 wget
