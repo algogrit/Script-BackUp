@@ -616,6 +616,7 @@ g-ir-compiler
 g-ir-generate
 g-ir-scanner
 g[
+gapplication
 gatherheaderdoc
 gawk
 gawk-4.1.0
