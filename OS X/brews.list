@@ -133,6 +133,7 @@ pow
 psgrep
 pstree
 pyenv
+pyenv-virtualenv
 python
 qhull
 qrupdate

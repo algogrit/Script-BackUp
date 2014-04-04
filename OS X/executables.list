@@ -86,6 +86,7 @@ allmemory
 amt
 android
 animate
+annotate
 ant
 antRun
 antRun.pl
@@ -1701,7 +1702,12 @@ pydoc3
 pydoc3.3
 pyenv
 pyenv-install
+pyenv-sh-activate
+pyenv-sh-deactivate
 pyenv-uninstall
+pyenv-virtualenv
+pyenv-virtualenv-prefix
+pyenv-virtualenvs
 python
 python-build
 python-config
