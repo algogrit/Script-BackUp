@@ -170,6 +170,7 @@ bmp2tiff
 bmtoa
 bnepd
 bombardment
+boot2docker
 bourbon
 brew
 browserstack
@@ -442,6 +443,7 @@ dmtracedump
 dns-sd
 dnsctl
 dnsextd
+docker
 domainname
 dot_clean
 dprofpp

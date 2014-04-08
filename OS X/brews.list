@@ -15,6 +15,7 @@ bash-completion
 bdw-gc
 berkeley-db
 boost
+boot2docker
 byobu
 cairo
 celt
@@ -26,6 +27,7 @@ cscope
 ctags
 curl
 curl-ca-bundle
+docker
 dotwrp
 drip
 elixir
