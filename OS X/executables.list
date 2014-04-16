@@ -622,7 +622,7 @@ g[
 gapplication
 gatherheaderdoc
 gawk
-gawk-4.1.0
+gawk-4.1.1
 gbase64
 gbasename
 gcat
@@ -1900,6 +1900,7 @@ scutil
 sdef
 sdiff
 sdl-config
+sdl2-config
 sdoc
 sdoc-merge
 sdp
