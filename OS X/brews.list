@@ -5,6 +5,8 @@ android-sdk
 ant
 antlr
 apple-gcc42
+apr
+apr-util
 aria2
 atk
 autoconf
