@@ -3059,7 +3059,6 @@
 0.0.0.0 s.moatads.com
 0.0.0.0 thumbs.mochiads.com
 0.0.0.0 ads2.msads.net
-0.0.0.0 cdn.mxpnl.com
 0.0.0.0 rainbow-nl.mythings.com
 0.0.0.0 spd.netconversions.com
 0.0.0.0 adcache.nymag.com
@@ -11453,7 +11452,6 @@
 # [Rackspace.com][AS33070][173.203.0.0 - 173.203.255.255]
 0.0.0.0 stats.articlesbase.com
 0.0.0.0 track.ionicmedia.com
-0.0.0.0 api.mixpanel.com
 0.0.0.0 live.monitus.net
 0.0.0.0 log.olark.com
 0.0.0.0 thesearchagency.net
