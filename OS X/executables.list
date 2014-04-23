@@ -1702,6 +1702,8 @@ pydoc2.7
 pydoc3
 pydoc3.3
 pyenv
+pyenv-activate
+pyenv-deactivate
 pyenv-install
 pyenv-sh-activate
 pyenv-sh-deactivate
@@ -2293,6 +2295,9 @@ write
 wrjpgcom
 wsgen
 wsimport
+wx-config
+wxrc
+wxrc-3.0
 x11perf
 x11perfcomp
 x264
