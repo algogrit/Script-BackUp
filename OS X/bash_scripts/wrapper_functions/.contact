@@ -1,0 +1,8 @@
+function contact {
+  if [ $# -ne 0 ]; then
+    cat ~/Desktop/contacts.txt | ag $1
+  else
+    echo "Usage:
+    contact 'Name'"
+  fi
+}
