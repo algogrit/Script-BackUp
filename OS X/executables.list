@@ -702,6 +702,7 @@ git-cvsserver
 git-multi
 git-new-commits
 git-nuke
+git-open-modified-files
 git-pristine
 git-receive-pack
 git-remote-bzr
@@ -1123,6 +1124,7 @@ less
 lessecho
 lesskey
 lex
+lhm-kill-queue
 libgcrypt-config
 libnetcfg
 libnetcfg5.12

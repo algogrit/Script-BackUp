@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+git status $1 | ag modified | awk '{print $2}' | xargs subl
