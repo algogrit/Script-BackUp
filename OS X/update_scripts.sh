@@ -23,22 +23,11 @@ brew list > brews.list
 # List of Brew taps
 brew tap > brew_taps.list
 
-echo "\033[1;31mBrew info...\033[0m"
-# Brew Info
-brew update
-brew cleanup
-brew doctor | tee brew.info
-brew info | tee -a brew.info
-
-echo "\033[1;31mOutdated brews...\033[0m"
-brew outdated
-
 # List of Custom installations
 echo "Listing /Applications.." > applications.list
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 echo "\nListing User Applications.." >> applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
-
 
 rbenv versions > ruby.versions
 nodenv versions > node.versions
@@ -110,5 +99,15 @@ unalias rm
 
 # Remove silently
 rm bash_scripts/aliases/.*_secret
+
+echo "\033[1;31mBrew info...\033[0m"
+# Brew Info
+brew update
+brew cleanup
+brew doctor | tee brew.info
+brew info | tee -a brew.info
+
+echo "\033[1;31mOutdated brews...\033[0m"
+brew outdated
 
 echo "\033[1;31mCOMPLETED!\033[0m"
