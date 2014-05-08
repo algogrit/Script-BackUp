@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#! /usr/bin/env sh
 
 # Author: Gaurav Agarwal
 # Inspired by https://github.com/livingston/shell-scripts/blob/master/gua.sh

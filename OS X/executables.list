@@ -697,6 +697,7 @@ ginstall
 gio-querymodules
 gist
 git
+git-catchup
 git-credential-osxkeychain
 git-custom-help
 git-cvsserver

@@ -2,4 +2,4 @@
 
 _branch=${1:-`git current-branch`}
 
-git log origin/$_branch..$_branch
+git log $_branch..origin/$_branch

@@ -1,11 +1,12 @@
-#! /usr/bin/env bash
+#! /usr/bin/env sh
 
 echo "Comamnds:
-  new-commits           - Show log of commits only in remote repo
   pristine              - Does a damn good job of cleaning the repository
   wash                  - Does a okay job of cleaning the repository
   nuke                  - Removes the branch from local and also deletes from remote origin
   swamp                 - List the latest commit's timestamp for each remote branch
   open-modified-files   - Opens all the modified files in the repo (or the directory specified)
+  new-commits           - Show log of commits not yet pushed
+  catchup               - Show log of commits only in remote repo
 
   multi                 - See 'git multi help'"

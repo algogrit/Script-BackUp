@@ -8,18 +8,16 @@
 [alias]
 	st = status -sb
 	co = checkout
-	ribbon = tag --force _ribbon origin/master
-	catchup = log master..origin/master
 	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	glog = log --graph --decorate --pretty=oneline --abbrev-commit
+	standup = log --since=yesterday --author=Gaurav
+	ll = log --date=local
 	uncommit = reset HEAD^
+	oops = checkout HEAD^
+	current-branch = rev-parse --abbrev-ref HEAD
+	ru = remote update
 	comet = multi remote update
 	big-bang = multi up
-	ru = remote update
-	ll = log --date=local
-	current-branch = rev-parse --abbrev-ref HEAD
-	standup = log --since=yesterday --author=Gaurav
-	oops = checkout HEAD^
 [push]
 	default = current
 [diff]
