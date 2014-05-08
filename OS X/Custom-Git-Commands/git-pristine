@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /usr/bin/env bash
 
 git clean -dfx
 echo "\033[1;33mReflog commit count: `git reflog | wc -l`\033[0m"

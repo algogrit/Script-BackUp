@@ -1,11 +1,11 @@
-#!/bin/sh
+#! /usr/bin/env bash
 
 echo "Comamnds:
-	new-commits	-	Updates the remote HEAD and show log of commits only in remote repo (git remote update && git log)
-	pristine	-	Does a damn good job of cleaning the repository (WARNING: Removes .idea turd files)
-	wash		-	Does a okay job of cleaning the repository
-	nuke		-	Removes the branch from local and also deletes from remote origin
-	swamp		-	List the latest commit's timestamp for each remote branch
-	track		-	Shows the log of commits by which the current branch is behind
+  new-commits           - Show log of commits only in remote repo
+  pristine              - Does a damn good job of cleaning the repository
+  wash                  - Does a okay job of cleaning the repository
+  nuke                  - Removes the branch from local and also deletes from remote origin
+  swamp                 - List the latest commit's timestamp for each remote branch
+  open-modified-files   - Opens all the modified files in the repo (or the directory specified)
 
-	multi		-	See 'git multi help'"
+  multi                 - See 'git multi help'"

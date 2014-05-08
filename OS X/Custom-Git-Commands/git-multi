@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /usr/bin/env bash
 
 # Author: Gaurav Agarwal
 # Inspired by https://github.com/livingston/shell-scripts/blob/master/gua.sh
@@ -18,7 +18,7 @@ fi
 start_time=`date +%s`
 base=$(pwd)
 
-# save and change IFS 
+# save and change IFS
 NEWIFS=$'\n'
 OLDIFS=$IFS
 IFS=$NEWIFS

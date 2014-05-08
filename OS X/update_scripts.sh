@@ -91,7 +91,7 @@ mkdir -p root/etc
 cp /etc/paths root/etc/
 cp /etc/hosts root/etc/
 
-echo "\033[1;31mRemoving bash turd files...\033[0m"
+echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
 
 unalias cp

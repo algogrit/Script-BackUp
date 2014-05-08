@@ -711,7 +711,6 @@ git-remote-hg
 git-shell
 git-subtree
 git-swamp
-git-track
 git-up
 git-upload-archive
 git-upload-pack
