@@ -4,7 +4,8 @@ echo -e "\033[1;36m~/bash_scripts/aliases/.generic Loaded\033[0m"
 alias c="clear"
 alias ccb="pbcopy < /dev/null"
 alias ls="ls -GAF"
-alias vp='vimpager'
+alias vp="vimpager"
+alias reload="exec bash -l"
 
 # Remove pesky Apple Turd files
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
