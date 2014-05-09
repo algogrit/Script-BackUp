@@ -701,10 +701,11 @@ git-catchup
 git-credential-osxkeychain
 git-custom-help
 git-cvsserver
+git-ls-modified
+git-ls-untracked
 git-multi
 git-new-commits
 git-nuke
-git-open-modified-files
 git-pristine
 git-receive-pack
 git-remote-bzr
