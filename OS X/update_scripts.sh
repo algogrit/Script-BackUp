@@ -23,6 +23,9 @@ brew list > brews.list
 # List of Brew taps
 brew tap > brew_taps.list
 
+# List of Brew Cask Installations
+brew cask list > brew_casks.list
+
 # List of Custom installations
 echo "Listing /Applications.." > applications.list
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
@@ -101,11 +104,14 @@ unalias rm
 rm bash_scripts/aliases/.*_secret
 
 echo "\033[1;31mBrew info...\033[0m"
-# Brew Info
 brew update
 brew cleanup
 brew doctor | tee brew.info
 brew info | tee -a brew.info
+
+echo "\033[1;31mBrew Cask Info...\033[0m"
+brew cask cleanup
+brew cask doctor | tee brew_casks.info
 
 echo "\033[1;31mOutdated brews...\033[0m"
 brew outdated

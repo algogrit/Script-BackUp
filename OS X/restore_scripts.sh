@@ -17,6 +17,9 @@ cat ~/Script-BackUp/OS\ X/brew_taps.list | xargs brew tap
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
 
+echo "\033[1;31mInstalling all brew casks...\033[0m"
+cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install
+
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
 
