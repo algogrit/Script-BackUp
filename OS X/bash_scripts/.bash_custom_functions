@@ -10,6 +10,7 @@ source ~/bash_scripts/wrapper_functions/.sqlite_to_csv
 source ~/bash_scripts/wrapper_functions/.kill_switch
 source ~/bash_scripts/wrapper_functions/.js-spikes-template
 source ~/bash_scripts/wrapper_functions/.extract_mp3
+source ~/bash_scripts/wrapper_functions/.reload
 
 source ~/bash_scripts/wrapper_functions/.backup_rails_configs
 source ~/bash_scripts/wrapper_functions/.restore_rails_configs
