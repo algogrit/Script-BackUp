@@ -565,6 +565,7 @@ file
 filebyproc.d
 filecoordinationd
 filtercalltree
+finch
 find
 find2perl
 find2perl5.12
@@ -1242,6 +1243,7 @@ mdls
 mdutil
 memcached
 memory_pressure
+mencoder
 mergecap
 mesg
 metaflac
@@ -1311,6 +1313,7 @@ mp2bug
 mp3splt
 mpicalc
 mpioutil
+mplayer
 mserver5
 msgs
 msql2mysql
