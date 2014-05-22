@@ -19,7 +19,7 @@ intel-64
 ==> Homebrew-cask Alternate Cask Taps:
 nil
 ==> Homebrew-cask Default Tap Cask Count:
-1535
+1537
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.35.0/rubylib
 /usr/local/Library/Homebrew

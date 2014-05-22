@@ -72,6 +72,7 @@ adb
 addftinfo
 adsf
 afconvert
+affixcompress
 afhash
 afida
 afinfo
@@ -84,6 +85,7 @@ aidl
 alias
 allmemory
 amt
+analyze
 android
 animate
 annotate
@@ -263,6 +265,7 @@ chfn
 chgrp
 chkfont
 chmod
+chmorph
 chown
 chpass
 chrome-stats-to-csv
@@ -921,6 +924,9 @@ httpd
 httpdstat.d
 httxt2dbm
 hub
+hunspell
+hunzip
+hzip
 i686-apple-darwin11-cpp-4.2.1
 i686-apple-darwin11-g++-4.2.1
 i686-apple-darwin11-gcc-4.2.1
@@ -1003,6 +1009,7 @@ iptest3
 ipython3
 irb
 irunner3
+ispellaff2myspell
 isql
 iusql
 j2bson
@@ -1224,6 +1231,7 @@ mailq
 mailstat
 mailx
 make
+makealias
 makedepend
 makeinfo
 malloc_history
@@ -1320,6 +1328,7 @@ msgs
 msql2mysql
 msqldump
 mtree
+munch
 mux
 mv
 mview
@@ -2219,6 +2228,7 @@ units
 universalaccessd
 unlink
 unlzma
+unmunch
 unpack200
 unrar
 unstr
@@ -2299,6 +2309,8 @@ wish
 wish8.4
 wish8.5
 wordbreaker
+wordforms
+wordlist2hunspell
 write
 wrjpgcom
 wsgen

@@ -93,6 +93,7 @@ mkdir -p root
 mkdir -p root/etc
 cp /etc/paths root/etc/
 cp /etc/hosts root/etc/
+cp /etc/irbrc root/etc/
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history

@@ -1,2 +1,1 @@
-# require 'irbtools'
-# require 'irbtools/more'
+IRB.conf[:SAVE_HISTORY] = 1000
