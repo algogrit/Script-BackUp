@@ -4916,7 +4916,7 @@
 # [Chunghwa Telecom][AS3462][210.242.128.0 - 210.242.255.255]
 0.0.0.0 secure-yt.imrworldwide.com
 # [ClaraNET][AS8426][213.221.106.192 - 213.221.106.223]
-0.0.0.0 www.econda-monitor.de
+# 0.0.0.0 www.econda-monitor.de
 # [ClaraNET][AS8426][62.80.0.0 - 62.80.63.255]
 0.0.0.0 www.free-choices.com
 0.0.0.0 piwik.n24.de #[Piwik.Analytics]
