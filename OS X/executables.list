@@ -1031,6 +1031,7 @@ jack_midiseq
 jack_midisine
 jack_monitor_client
 jack_netsource
+jack_property
 jack_samplerate
 jack_server_control
 jack_session_notify

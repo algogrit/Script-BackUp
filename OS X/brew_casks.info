@@ -3,9 +3,9 @@
 ==> Hardware Architecture:
 intel-64
 ==> Ruby Version:
-1.8.7-p358
+2.0.0-p451
 ==> Ruby Path:
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
 0.9.5
 ==> Homebrew Executable Path:
@@ -17,36 +17,36 @@ intel-64
 ==> Homebrew-cask Default Tap Path:
 /usr/local/Library/Taps/caskroom/homebrew-cask
 ==> Homebrew-cask Alternate Cask Taps:
-nil
+
 ==> Homebrew-cask Default Tap Cask Count:
-1558
+1583
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.35.0/rubylib
 /usr/local/Library/Homebrew
-/Library/Ruby/Site/1.8
-/Library/Ruby/Site/1.8/powerpc-darwin13.0
-/Library/Ruby/Site/1.8/universal-darwin13.0
+/Library/Ruby/Site/2.0.0
+/Library/Ruby/Site/2.0.0/x86_64-darwin13
+/Library/Ruby/Site/2.0.0/universal-darwin13
 /Library/Ruby/Site
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/vendor_ruby/1.8
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/vendor_ruby/1.8/universal-darwin13.0
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/vendor_ruby
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/powerpc-darwin13.0
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin13.0
-.
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin13
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin13
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin13
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13
 ==> Contents of $RUBYLIB Environment Variable:
-nil
+
 ==> Contents of $RUBYOPT Environment Variable:
-nil
+
 ==> Contents of $RUBYPATH Environment Variable:
-nil
+
 ==> Contents of $RBENV_VERSION Environment Variable:
-nil
+
 ==> Contents of $GEM_HOME Environment Variable:
-nil
+
 ==> Contents of $GEM_PATH Environment Variable:
-nil
+
 ==> Contents of $BUNDLE_PATH Environment Variable:
-nil
+
 ==> Running As Privileged User:
 No
