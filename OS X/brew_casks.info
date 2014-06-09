@@ -12,16 +12,20 @@ intel-64
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
 /usr/local/Cellar
+==> Homebrew Repository Path:
+/usr/local
+==> Homebrew Origin:
+https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Version:
-0.35.0
+0.36.0
 ==> Homebrew-cask Default Tap Path:
 /usr/local/Library/Taps/caskroom/homebrew-cask
 ==> Homebrew-cask Alternate Cask Taps:
-
+<NONE>
 ==> Homebrew-cask Default Tap Cask Count:
-1588
+1592
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.35.0/rubylib
+/usr/local/Cellar/brew-cask/0.36.0/rubylib
 /usr/local/Library/Homebrew
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin13
@@ -35,18 +39,28 @@ intel-64
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin13
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13
 ==> Contents of $RUBYLIB Environment Variable:
-
+<NONE>
 ==> Contents of $RUBYOPT Environment Variable:
-
+<NONE>
 ==> Contents of $RUBYPATH Environment Variable:
-
+<NONE>
 ==> Contents of $RBENV_VERSION Environment Variable:
-
+<NONE>
+==> Contents of $CHRUBY_VERSION Environment Variable:
+<NONE>
 ==> Contents of $GEM_HOME Environment Variable:
-
+<NONE>
 ==> Contents of $GEM_PATH Environment Variable:
-
+<NONE>
 ==> Contents of $BUNDLE_PATH Environment Variable:
-
+<NONE>
+==> Contents of $PATH Environment Variable:
+PATH="/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Users/gaurav/Custom-Git-Commands:/usr/local/Library/Contributions/cmd"
+==> Contents of $SHELL Environment Variable:
+SHELL="/usr/local/bin/bash"
+==> Contents of Locale Environment Variables:
+LANG="en_US.UTF-8"
+LC_ALL="en_US.UTF-8"
+LC_CTYPE="UTF-8"
 ==> Running As Privileged User:
 No

@@ -36,3 +36,6 @@ alias you-down-all='cat downloads.list | xargs youtube-dl'
 
 # Generic UNIX utils
 alias cat-without-first-line='awk FNR-1'
+
+# Play music
+alias play_music="mplayer -vo caca -loop 0 -shuffle -playlist"
