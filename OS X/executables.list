@@ -1261,6 +1261,7 @@ mib2c
 mib2c-update
 mig
 mix
+mix.ps1
 mkbom
 mkdep
 mkdir
@@ -1727,6 +1728,7 @@ pyenv-sh-activate
 pyenv-sh-deactivate
 pyenv-uninstall
 pyenv-virtualenv
+pyenv-virtualenv-init
 pyenv-virtualenv-prefix
 pyenv-virtualenvs
 python
