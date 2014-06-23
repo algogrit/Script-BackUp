@@ -19,6 +19,7 @@
 	comet = multi remote update
 	big-bang = multi up
 	ls-others = ls-files --other
+	pr = pull --rebase
 [push]
 	default = current
 [diff]
