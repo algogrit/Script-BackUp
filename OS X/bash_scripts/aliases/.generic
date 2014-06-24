@@ -36,6 +36,7 @@ alias you-down-all='cat downloads.list | xargs youtube-dl'
 
 # Generic UNIX utils
 alias cat-without-first-line='awk FNR-1'
+alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
 alias make_playlist="ls *.mp* > playlist.txt"
