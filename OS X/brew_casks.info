@@ -17,9 +17,9 @@ intel-64
 ==> Homebrew Origin:
 https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Version:
-0.37.0
+0.37.1
 ==> Homebrew-cask Install Location:
-/usr/local/Cellar/brew-cask/0.37.0
+/usr/local/Cellar/brew-cask/0.37.1
 ==> Homebrew-cask Cached Downloads:
 /Library/Caches/Homebrew
 /Library/Caches/Homebrew/Casks
@@ -30,9 +30,9 @@ https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Alternate Cask Taps:
 <NONE>
 ==> Homebrew-cask Default Tap Cask Count:
-1636
+1637
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.37.0/rubylib
+/usr/local/Cellar/brew-cask/0.37.1/rubylib
 /usr/local/Library/Homebrew
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin13
