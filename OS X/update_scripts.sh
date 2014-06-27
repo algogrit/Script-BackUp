@@ -7,6 +7,9 @@ cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
 cp README /tmp
 
+echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
+chmod 666 root/etc/irbrc
+
 echo "\033[1;31mRemoving files...\033[0m"
 rm -vr *
 
