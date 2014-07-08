@@ -57,6 +57,7 @@ gettext
 gfortran
 gist
 git
+git-extras
 glew
 glib
 glm
