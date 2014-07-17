@@ -14,6 +14,16 @@
 # Custom blocking
 0.0.0.0 superfish.com
 
+# Please be productive, Gaurav!
+0.0.0.0 youtube.com
+0.0.0.0 quora.com
+0.0.0.0 xvideos.com
+0.0.0.0 xhamster.com
+0.0.0.0 metacafe.com
+0.0.0.0 dailymotion.com
+0.0.0.0 news.ycombinator.com
+0.0.0.0 9gag.com
+
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
 # --------------- Updated: April-22-2014 ----------------- #
