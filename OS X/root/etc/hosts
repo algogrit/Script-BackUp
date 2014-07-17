@@ -24,6 +24,8 @@
 0.0.0.0 dailymotion.com
 0.0.0.0 news.ycombinator.com
 0.0.0.0 9gag.com
+0.0.0.0 xkcd.com
+0.0.0.0 zenpencils.com
 
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
