@@ -855,6 +855,7 @@ gsort
 gsplit
 gssd
 gstat
+gstdbuf
 gstty
 gsum
 gsync
