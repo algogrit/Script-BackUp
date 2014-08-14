@@ -65,6 +65,7 @@ glpk
 gmp
 gnu-sed
 gnu-tar
+gnu-units
 gnu-which
 gnuplot
 gnutls
