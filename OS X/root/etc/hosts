@@ -29,8 +29,8 @@
 # https://www.youtube.com/watch?v=gRJ_QfP2mhU
 0.0.0.0 xvideos.com
 0.0.0.0 xhamster.com
-0.0.0.0 metacafe.com
-0.0.0.0 dailymotion.com
+0.0.0.0 www.metacafe.com
+0.0.0.0 www.dailymotion.com
 
 0.0.0.0 news.ycombinator.com
 0.0.0.0 9gag.com
