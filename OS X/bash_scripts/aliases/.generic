@@ -24,6 +24,8 @@ alias rake_db_reset="rake db:drop db:create db:migrate db:seed"
 alias test_db_reset="RAILS_ENV=test rake db:drop db:create db:migrate db:seed"
 alias railsdb="rails dbconsole"
 
+alias open_app_modified="subl .; git ls-modified app/ | xargs subl"
+
 # Http Server
 alias pyHttpServer="python -m SimpleHTTPServer"
 
