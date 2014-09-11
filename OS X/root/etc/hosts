@@ -15,7 +15,7 @@
 0.0.0.0 superfish.com
 
 # Please be productive, Gaurav!
-0.0.0.0 www.purpleclover.com
+0.0.0.0 news.ycombinator.com
 0.0.0.0 twitter.com
 0.0.0.0 www.youtube.com
 0.0.0.0 en.wikipedia.org
@@ -32,7 +32,6 @@
 0.0.0.0 www.metacafe.com
 0.0.0.0 www.dailymotion.com
 
-0.0.0.0 news.ycombinator.com
 0.0.0.0 9gag.com
 0.0.0.0 www.scoopwhoop.com
 0.0.0.0 www.zergnet.com
@@ -41,6 +40,7 @@
 0.0.0.0 www.rookiestew.com
 0.0.0.0 goweloveit.info
 0.0.0.0 viralstories.in
+0.0.0.0 www.purpleclover.com
 
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
