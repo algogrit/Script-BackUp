@@ -2286,6 +2286,8 @@ uuconv
 uucp
 uudecode
 uuencode
+uuid
+uuid-config
 uuidgen
 uulog
 uuname
