@@ -1227,7 +1227,11 @@ lsm
 lsof
 lsvfs
 lua
+lua-5.2
+lua5.2
 luac
+luac-5.2
+luac5.2
 luit
 lunchy
 lupdate
