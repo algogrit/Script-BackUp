@@ -720,6 +720,7 @@ git-delete-tag
 git-effort
 git-extras
 git-feature
+git-fork
 git-fresh-branch
 git-gh-pages
 git-graft
@@ -727,15 +728,18 @@ git-ignore
 git-info
 git-line-summary
 git-local-commits
+git-lock
 git-ls-modified
 git-ls-new
 git-ls-untracked
+git-missing
 git-multi
 git-new-commits
 git-nuke
 git-obliterate
 git-pristine
 git-pull-request
+git-rebase-patch
 git-receive-pack
 git-refactor
 git-release
@@ -743,6 +747,7 @@ git-remote-bzr
 git-remote-hg
 git-rename-tag
 git-repl
+git-reset-file
 git-setup
 git-shell
 git-show-tree
@@ -752,6 +757,7 @@ git-summary
 git-swamp
 git-touch
 git-undo
+git-unlock
 git-up
 git-upload-archive
 git-upload-pack
