@@ -743,8 +743,6 @@ git-rebase-patch
 git-receive-pack
 git-refactor
 git-release
-git-remote-bzr
-git-remote-hg
 git-rename-tag
 git-repl
 git-reset-file
