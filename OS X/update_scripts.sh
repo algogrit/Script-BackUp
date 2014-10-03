@@ -83,9 +83,6 @@ cp -r ~/.lein .
 # Copy tmux configuration
 cp ~/.tmux.conf .
 
-# Copy tmux configuration
-cp -r ~/.tmuxinator .
-
 # Copy List of Sublime Packages
 mkdir -p Sublime
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings Sublime/packages.list
