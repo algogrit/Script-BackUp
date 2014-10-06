@@ -2175,6 +2175,7 @@ texi2html
 texi2pdf
 texindex
 text2pcap
+textql
 textutil
 tfmtodit
 tftp
@@ -2256,6 +2257,7 @@ type
 typer
 ubcontrol
 ucs2any
+udpflood
 uic
 ul
 ulimit
