@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 
 folder_paths = ARGV
-types = ['mp3', 'm4a']
+types = ['avi', 'mp4']
 
 dry_run = false
 
@@ -18,16 +18,16 @@ end
 def get_new_name(file_name, folder_path, type)
   new_name = file_name
 
-  if file_name.index("DownloadMing.SE")
-    new_name_list = file_name.split('/').last.split("-").drop(1)
-    new_name_list.pop
-    new_name = new_name_list.map(&:strip).join(" - ") + (".#{type}")
-  elsif file_name.index("Songs.PK")
-    cleanup_name = file_name.split('/').last.split("-")[2..-1]
-    if cleanup_name
-      new_name = cleanup_name.map(&:strip).join(" - ")
-      new_name = "#{folder_path}/#{new_name}"
-    end
+  index = file_name.index(/\.S\d\dE\d\d\./) || file_name.index(/\.\d\d\d\./)
+  offset =  file_name.index(/\.S\d\dE\d\d\./).nil? ? 2 : 5
+
+  if index
+    start_index = index + offset
+    end_index = start_index + 1
+
+    episode_number = file_name[start_index..end_index]
+
+    new_name = "#{folder_path}/Episode #{episode_number}.#{type}"
   end
 
   new_name

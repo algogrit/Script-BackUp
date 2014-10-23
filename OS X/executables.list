@@ -512,6 +512,7 @@ encode_keychange
 env
 envvars
 envvars-std
+episodes-rename
 epmd
 eqn
 eqn2graph
