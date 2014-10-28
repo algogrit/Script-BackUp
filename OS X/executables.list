@@ -498,7 +498,7 @@ egrep
 elixir
 elixirc
 emacs
-emacs-24.3
+emacs-24.4
 emacs-undumped
 emacsclient
 emond
@@ -2225,7 +2225,6 @@ tops
 topsyscall
 topsysproc
 tor
-tor-ctrl
 tor-gencert
 tor-resolve
 torify
