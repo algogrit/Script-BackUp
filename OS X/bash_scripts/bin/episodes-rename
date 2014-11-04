@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 
 folder_paths = ARGV
-types = ['avi', 'mp4']
+types = ['avi', 'mp4', 'srt', 'mkv']
 
 dry_run = false
 
@@ -18,8 +18,8 @@ end
 def get_new_name(file_name, folder_path, type)
   new_name = file_name
 
-  index = file_name.index(/\.S\d\dE\d\d\./) || file_name.index(/\.\d\d\d\./)
-  offset =  file_name.index(/\.S\d\dE\d\d\./).nil? ? 2 : 5
+  index = file_name.index(/S\d\dE\d\d/) || file_name.index(/\.\d\d\d\./)
+  offset =  file_name.index(/S\d\dE\d\d/).nil? ? 2 : 4
 
   if index
     start_index = index + offset
