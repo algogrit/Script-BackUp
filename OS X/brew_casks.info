@@ -30,7 +30,7 @@ https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Alternate Cask Taps:
 <NONE>
 ==> Homebrew-cask Default Tap Cask Count:
-2077
+2083
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.38.1/rubylib
 /usr/local/Library/Homebrew
@@ -62,7 +62,7 @@ https://github.com/Homebrew/homebrew.git
 ==> Contents of $BUNDLE_PATH Environment Variable:
 <NONE>
 ==> Contents of $PATH Environment Variable:
-PATH="/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin/:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Users/gaurav/Custom-Git-Commands:/usr/local/Library/ENV/scm"
+PATH="/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Users/gaurav/Custom-Git-Commands:/usr/local/Library/ENV/scm"
 ==> Contents of $SHELL Environment Variable:
 SHELL="/usr/local/bin/bash"
 ==> Contents of Locale Environment Variables:

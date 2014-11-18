@@ -11,7 +11,7 @@ export PATH=$EXPERIMENTAL:$PATH
 export PATH="$HOME/bin:$PATH"
 
 # ADDING go
-export PATH="~/.go/bin/:$PATH"
+export PATH="~/.go/bin:$PATH"
 
 # ADDING snippet_programs TO THE PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"
