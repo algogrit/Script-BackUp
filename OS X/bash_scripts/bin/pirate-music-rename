@@ -28,6 +28,8 @@ def get_new_name(file_name, folder_path, type)
       new_name = cleanup_name.map(&:strip).join(" - ")
       new_name = "#{folder_path}/#{new_name}"
     end
+  elsif file_name.index(/\d\d\.\s/)
+    new_name = file_name.split(" ")[1..-1].join(" ").strip
   end
 
   new_name
