@@ -1143,6 +1143,7 @@ kinit
 klist
 koi8rxterm
 kpasswd
+kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1866,6 +1867,7 @@ rbx
 rcc
 rcov
 rcp
+rdiscount
 rdjpgcom
 rdoc
 read
@@ -1873,6 +1875,7 @@ readlink
 rebase
 reboot
 redcarpet
+redcloth
 redo_prebinding
 ree-version
 refer
