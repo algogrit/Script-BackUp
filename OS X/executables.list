@@ -153,6 +153,7 @@ basename
 bash
 bashbug
 batch
+bayes.rb
 bc
 bdftogd
 bdftopcf
@@ -762,6 +763,7 @@ git-upload-archive
 git-upload-pack
 git-wash
 github
+github-pages
 gitk
 gjoin
 gkill
@@ -1938,6 +1940,7 @@ s2p5.16
 s3sh
 sa
 sack
+safe_yaml
 sag
 sample
 sampleproc
@@ -2126,6 +2129,7 @@ su
 subl
 sudo
 sum
+summarize.rb
 svn
 svnadmin
 svndumpfilter
