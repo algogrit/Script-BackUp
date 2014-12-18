@@ -107,6 +107,7 @@ libsndfile
 libtasn1
 libtiff
 libtool
+libvo-aacenc
 libvorbis
 libyaml
 lua

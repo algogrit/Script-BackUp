@@ -580,7 +580,6 @@ findrule5.16
 finger
 fixproc
 flac
-flac2mp3
 flex
 flex++
 fltk-config
@@ -731,6 +730,7 @@ git-info
 git-line-summary
 git-local-commits
 git-lock
+git-locked
 git-ls-modified
 git-ls-new
 git-ls-untracked
@@ -739,6 +739,7 @@ git-multi
 git-new-commits
 git-nuke
 git-obliterate
+git-pr
 git-pristine
 git-pull-request
 git-rebase-patch
@@ -748,6 +749,7 @@ git-release
 git-rename-tag
 git-repl
 git-reset-file
+git-root
 git-setup
 git-shell
 git-show-tree

@@ -1,5 +1,20 @@
-firefox
-limechat
-screenhero
-subtitles
-xquartz
+Please report this bug:
+    https://github.com/caskroom/homebrew-cask/issues
+<main>:2:in `<class:Limechat>'
+<main>:in `<main>'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/source/path_base.rb:55:in `eval'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/source/path_base.rb:55:in `rescue in load'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/source/path_base.rb:52:in `load'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask.rb:126:in `load'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/scopes.rb:55:in `block in installed'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/scopes.rb:49:in `map'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/scopes.rb:49:in `installed'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/cli/list.rb:48:in `list_installed'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/cli/list.rb:6:in `run'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/cli.rb:80:in `run_command'
+/usr/local/Cellar/brew-cask/0.38.1/rubylib/cask/cli.rb:120:in `process'
+/usr/local/bin/brew-cask.rb:42:in `<top (required)>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+/usr/local/Library/brew.rb:59:in `require?'
+/usr/local/Library/brew.rb:142:in `<main>'
