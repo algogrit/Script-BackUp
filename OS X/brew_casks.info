@@ -17,9 +17,12 @@ intel-64
 ==> Homebrew Origin:
 https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Version:
-0.38.1
+0.51.1
 ==> Homebrew-cask Install Location:
-/usr/local/Cellar/brew-cask/0.38.1
+/usr/local/Cellar/brew-cask/0.51.1
+/usr/local/Cellar/brew-cask/0.38.1 (error: old version. Run "brew cleanup".)
+==> Homebrew-cask Staging Location:
+/opt/homebrew-cask/Caskroom
 ==> Homebrew-cask Cached Downloads:
 /Library/Caches/Homebrew
 /Library/Caches/Homebrew/Casks
@@ -30,10 +33,10 @@ https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Alternate Cask Taps:
 <NONE>
 ==> Homebrew-cask Default Tap Cask Count:
-2174
+2178
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.38.1/rubylib
-/usr/local/Library/Homebrew
+/usr/local/Cellar/brew-cask/0.51.1/rubylib
+/usr/local/Cellar/brew-cask/0.51.1/rubylib/homebrew-fork/Library/Homebrew
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin13
 /Library/Ruby/Site/2.0.0/universal-darwin13

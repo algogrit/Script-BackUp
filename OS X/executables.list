@@ -175,7 +175,7 @@ bombardment
 boot2docker
 bourbon
 brew
-brew-cask.rb
+brew-cask
 browserstack
 bsdtar
 bsondump
