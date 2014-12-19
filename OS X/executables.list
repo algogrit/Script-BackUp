@@ -498,6 +498,16 @@ efix
 egrep
 elixir
 elixirc
+elm-doc
+elm-doc-unwrapped
+elm-make
+elm-make-unwrapped
+elm-package
+elm-package-unwrapped
+elm-reactor
+elm-reactor-unwrapped
+elm-repl
+elm-repl-unwrapped
 emacs
 emacs-24.4
 emacs-undumped
