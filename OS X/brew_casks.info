@@ -20,7 +20,6 @@ https://github.com/Homebrew/homebrew.git
 0.51.1
 ==> Homebrew-cask Install Location:
 /usr/local/Cellar/brew-cask/0.51.1
-/usr/local/Cellar/brew-cask/0.38.1 (error: old version. Run "brew cleanup".)
 ==> Homebrew-cask Staging Location:
 /opt/homebrew-cask/Caskroom
 ==> Homebrew-cask Cached Downloads:
@@ -33,7 +32,7 @@ https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Alternate Cask Taps:
 <NONE>
 ==> Homebrew-cask Default Tap Cask Count:
-2178
+2182
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.51.1/rubylib
 /usr/local/Cellar/brew-cask/0.51.1/rubylib/homebrew-fork/Library/Homebrew
