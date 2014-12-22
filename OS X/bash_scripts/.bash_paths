@@ -16,6 +16,18 @@ export PATH="~/.go/bin:$PATH"
 # ADDING snippet_programs TO THE PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"
 
-# HOME SWEET HOME
-export JAVA_HOME="$(/usr/libexec/java_home)"
-export ANDROID_HOME=/usr/local/opt/android-sdk
+# Language Version Managers
+## rbenv
+export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi # Enable shims and autocompletion
+
+## nodenv
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "(nodenv init -)" > /dev/null
+
+## pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+## goenv
+export PATH="$HOME/.goenv/bin:$PATH"
+eval "$(goenv init -)" > /dev/null

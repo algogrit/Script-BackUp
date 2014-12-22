@@ -1,5 +1,15 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
 
+# HOME SWEET HOME
+export JAVA_HOME="$(/usr/libexec/java_home)"
+export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Setting the Elm Home
+export ELM_HOME=~/.elm
+
+# Setting the GO Path
+export GOPATH=~/.go
+
 # JAVA GC Tuning
 export set JAVA_OPTS="-Xms256m -Xmx1g"
 
@@ -15,22 +25,3 @@ export RUBY_GC_HEAP_FREE_SLOTS=12500
 
 # Set GNU Plot to use x11 by default
 export GNUTERM=X11
-
-# Setting the GO Path
-export GOPATH=~/.go
-
-# Language Version Managers
-## rbenv
-export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi # Enable shims and autocompletion
-
-## nodenv
-export PATH="$HOME/.nodenv/bin:$PATH"
-eval "(nodenv init -)" > /dev/null
-
-## pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-
-## goenv
-export PATH="$HOME/.goenv/bin:$PATH"
-eval "$(goenv init -)" > /dev/null
