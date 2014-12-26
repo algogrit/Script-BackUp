@@ -1,4 +1,9 @@
 {
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -16,6 +21,7 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"nginx",
+		"Package Control",
 		"Pretty JSON",
 		"Rake",
 		"ReactJS",
