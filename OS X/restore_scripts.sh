@@ -26,10 +26,7 @@ cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmo
 echo "\033[1;31mSetting up managers...\033[0m"
 
 echo "Vundle"
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
-echo "Nodenv"
-git clone https://github.com/wfarr/nodenv.git ~/.nodenv
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 
 echo "Goenv"
 git clone https://github.com/wfarr/goenv.git ~/.goenv
