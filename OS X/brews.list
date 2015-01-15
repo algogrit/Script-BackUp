@@ -55,6 +55,7 @@ gdk-pixbuf
 geoip
 gettext
 gfortran
+ghc
 gist
 git
 git-extras

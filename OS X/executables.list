@@ -67,7 +67,7 @@ accept
 accton
 ack
 aclocal
-aclocal-1.14
+aclocal-1.15
 adb
 addftinfo
 adsf
@@ -132,7 +132,7 @@ autodiskmount
 autoheader
 autom4te
 automake
-automake-1.14
+automake-1.15
 automator
 automount
 autoreconf
@@ -701,6 +701,12 @@ gfold
 gfortran
 gfortran-4.2
 ggroups
+ghc
+ghc-7.8.4
+ghc-pkg
+ghc-pkg-7.8.4
+ghci
+ghci-7.8.4
 ghead
 ghostid
 gid
@@ -943,6 +949,8 @@ h5repack
 h5repart
 h5stat
 h5unjam
+haddock
+haddock-ghc-7.8.4
 hakiri
 halt
 hash
@@ -965,8 +973,11 @@ host
 hostinfo
 hostname
 hotspot.d
+hp2ps
+hpc
 hpftodit
 hprof-conv
+hsc2hs
 htcacheclean
 htdbm
 htdigest
@@ -1938,6 +1949,9 @@ ruby-local-exec
 run_erl
 runant.pl
 runant.py
+runghc
+runghc-7.8.4
+runhaskell
 runocc.d
 ruptime
 rvictl
@@ -2175,7 +2189,6 @@ talk
 tar
 task
 taskpolicy
-tasksh
 tbl
 tccutil
 tclsh
