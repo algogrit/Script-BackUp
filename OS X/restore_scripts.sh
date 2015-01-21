@@ -31,18 +31,18 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 echo "Goenv"
 git clone https://github.com/wfarr/goenv.git ~/.goenv
 
-echo "\033[1;31mRestoring Bash Scripts...\033m[0m"
+echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/OS\ X/bash_scripts ~/bash_scripts
 fi
 
-echo "\033[1;31mRestoring bash scripts...\033m[0m"
+echo "\033[1;31mRestoring bash scripts...\033[0m"
 cp ~/Script-BackUp/OS\ X/.bash* ~/
 
-echo "\033[1;31mRestoring paths...\033m[0m"
+echo "\033[1;31mRestoring paths...\033[0m"
 sudo cp ~/Script-BackUp/OS\ X/root/etc/paths /etc/paths
 
-echo "\033[1;31mRestoring other configs...\033m[0m"
+echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/OS\ X/.gitconfig ~/
 cp ~/Script-BackUp/OS\ X/.vimrc ~/
 cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
@@ -52,19 +52,19 @@ cp ~/Script-BackUp/OS\ X/.irbrc ~/
 cp ~/Script-BackUp/OS\ X/.taskrc ~/
 cp ~/Script-BackUp/OS\ X/.powconfig ~/
 
-echo "\033[1;31mInstall vundle packages...\033m[0m"
+echo "\033[1;31mInstall vundle packages...\033[0m"
 vim +BundleInstall +qall
 
-echo "\033[1;31mCreating directory for GOPATH...\033m[0m"
+echo "\033[1;31mCreating directory for GOPATH...\033[0m"
 mkdir ~/.go
 
-echo "\033[1;31mRestoring Custom git commands...\033m[0m"
+echo "\033[1;31mRestoring Custom git commands...\033[0m"
 mkdir -p ~/Custom-Git-Commands
 cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/
 
-echo "\033[1;31mLinking Sublime...\033m[0m"
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-
+echo "\033[1;31mSetting Up Sublime...\033[0m"
+cp Sublime/packages.list ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+cp Sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 echo "\033[1;31mPopping git stash after restoring...\033[0m"
 git stash pop
