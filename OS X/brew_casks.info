@@ -1,5 +1,7 @@
-==> OS X Version:
-10.9.5
+==> OS X Release:
+10.10
+==> OS X Point Release:
+10.10.1
 ==> Hardware Architecture:
 intel-64
 ==> Ruby Version:
@@ -15,11 +17,11 @@ intel-64
 ==> Homebrew Repository Path:
 /usr/local
 ==> Homebrew Origin:
-https://github.com/Homebrew/homebrew.git
+https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Version:
-0.51.1
+0.52.1
 ==> Homebrew-cask Install Location:
-/usr/local/Cellar/brew-cask/0.51.1
+/usr/local/Cellar/brew-cask/0.52.1
 ==> Homebrew-cask Staging Location:
 /opt/homebrew-cask/Caskroom
 ==> Homebrew-cask Cached Downloads:
@@ -30,23 +32,22 @@ https://github.com/Homebrew/homebrew.git
 ==> Homebrew-cask Default Tap Path:
 /usr/local/Library/Taps/caskroom/homebrew-cask
 ==> Homebrew-cask Alternate Cask Taps:
-<NONE>
+/usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-2230
+2242
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.51.1/rubylib
-/usr/local/Cellar/brew-cask/0.51.1/rubylib/homebrew-fork/Library/Homebrew
+/usr/local/Cellar/brew-cask/0.52.1/rubylib
 /Library/Ruby/Site/2.0.0
-/Library/Ruby/Site/2.0.0/x86_64-darwin13
-/Library/Ruby/Site/2.0.0/universal-darwin13
+/Library/Ruby/Site/2.0.0/x86_64-darwin14
+/Library/Ruby/Site/2.0.0/universal-darwin14
 /Library/Ruby/Site
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin13
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin13
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin14
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin14
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin13
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin14
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin14
 ==> Contents of $RUBYLIB Environment Variable:
 <NONE>
 ==> Contents of $RUBYOPT Environment Variable:
@@ -64,7 +65,7 @@ https://github.com/Homebrew/homebrew.git
 ==> Contents of $BUNDLE_PATH Environment Variable:
 <NONE>
 ==> Contents of $PATH Environment Variable:
-PATH="/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Users/gaurav/Custom-Git-Commands:/usr/local/Library/ENV/scm"
+PATH="/usr/local/heroku/bin:/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Users/gaurav/Custom-Git-Commands:/usr/local/Library/ENV/scm"
 ==> Contents of $SHELL Environment Variable:
 SHELL="/usr/local/bin/bash"
 ==> Contents of Locale Environment Variables:

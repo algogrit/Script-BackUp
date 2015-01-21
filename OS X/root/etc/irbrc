@@ -5,13 +5,13 @@ unless defined? ETC_IRBRC_LOADED
 
   # Require RubyGems by default.
   require 'rubygems'
-
+  
   # Activate auto-completion.
   require 'irb/completion'
-
+  
   # Use the simple prompt if possible.
   IRB.conf[:PROMPT_MODE] = :SIMPLE if IRB.conf[:PROMPT_MODE] == :DEFAULT
-
+  
   # Setup permanent history.
   HISTFILE = "~/.irb_history"
   MAXHISTSIZE = 100

@@ -33,3 +33,4 @@ colorscheme hybrid
 " UI config
 let &t_Co=256
 syntax on
+set clipboard=unnamed

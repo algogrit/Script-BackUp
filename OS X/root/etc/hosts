@@ -13,6 +13,7 @@
 
 # Custom blocking
 0.0.0.0 superfish.com
+0.0.0.0 www.superfish.com
 
 # Please be productive, Gaurav!
 0.0.0.0 omegle.com
