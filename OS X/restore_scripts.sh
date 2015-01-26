@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+
 alias cp="cp -v"
 alias rm="rm -v"
 
@@ -11,7 +12,7 @@ git stash
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/.go ~/Custom-Git-Commands
+mkdir -p ~/bin ~/.go ~/Custom-Git-Commands ~/.lein
 
 echo "\033[1;31mTapping brews...\033[0m"
 while read tap; do
@@ -43,6 +44,7 @@ fi
 
 echo "\033[1;31mRestoring bash scripts...\033[0m"
 cp ~/Script-BackUp/OS\ X/.bash* ~/
+touch ~/bash_scripts/aliases/.personal_secret
 
 echo "\033[1;31mRestoring paths...\033[0m"
 sudo cp ~/Script-BackUp/OS\ X/root/etc/paths /etc/paths
