@@ -8,3 +8,10 @@ Non-System files:
  # This README.
  # update_scripts.sh - Use to backup the sytem to this folder.
  # restore_scripts.sh - Copies scripts from this folder to the original, filesystem locations.
+
+Checklist:
+----------
+  - Xcode
+  - Command Line Tools (xcode-select --install)
+  - Brew
+  - git (`git clone git@github.com:gauravagarwalr/Script-BackUp.git`)
