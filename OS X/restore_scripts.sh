@@ -17,7 +17,7 @@ mkdir -p ~/bin ~/.go ~/Custom-Git-Commands ~/.lein
 echo "\033[1;31mTapping brews...\033[0m"
 while read tap; do
   brew tap $tap
-done < "/Users/gaurav/Script-BackUp/OS X/brew_taps.list"
+done < "$HOME/Script-BackUp/OS X/brew_taps.list"
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 brew install brew-cask
