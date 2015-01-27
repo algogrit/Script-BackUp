@@ -48,6 +48,7 @@ touch ~/bash_scripts/aliases/.personal_secret
 
 echo "\033[1;31mRestoring paths...\033[0m"
 sudo cp ~/Script-BackUp/OS\ X/root/etc/paths /etc/paths
+sudo cp ~/Script-BackUp/OS\ X/root/etc/hosts /etc/hosts
 
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/OS\ X/.gitconfig ~/
