@@ -79,7 +79,6 @@ ag
 agentxtrap
 agvtool
 aidl
-airbrake
 airport
 alias
 allmemory
@@ -142,7 +141,6 @@ avbdiagnose
 avconvert
 avmetareadwrite
 awk
-aws-rb
 banner
 base64
 basename
@@ -176,11 +174,9 @@ bsdtar
 bsondump
 bspatch
 btmmdiagnose
-build
 bundle
 bundler
 bunzip2
-byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -242,9 +238,7 @@ cairo-trace
 cal
 calendar
 cancel
-cap
 cap_mkdb
-capify
 captoinfo
 cat
 cc
@@ -277,7 +271,6 @@ cmake
 cmakexbuild
 cmp
 cmpdylib
-coderay
 codesign
 codesign_allocate
 col
@@ -289,7 +282,6 @@ column
 comm
 command
 compare
-compass
 complete-ant-cmd.pl
 composite
 compress
@@ -445,7 +437,6 @@ dns-sd
 dnsextd
 docker
 domainname
-dot2ruby
 dot_clean
 draw9patch
 drip
@@ -517,11 +508,9 @@ epmd
 eqn
 eqn2graph
 erb
-erd
 erl
 erlc
 errinfo
-erubis
 escript
 etags
 etc1tool
@@ -680,7 +669,6 @@ gdu
 gecho
 gegrep
 gem
-gem2gv
 gen_bridge_metadata
 gencat
 genstrings
@@ -782,7 +770,6 @@ git-up
 git-upload-archive
 git-upload-pack
 git-wash
-git2gv
 github
 gitk
 gjoin
@@ -907,7 +894,6 @@ gtrue
 gtruncate
 gtsort
 gtty
-gulp
 guname
 gunexpand
 guniq
@@ -993,8 +979,6 @@ htmltree5.16
 htmltree5.18
 htop
 htpasswd
-httparty
-httpclient
 httpd
 httpdstat.d
 httxt2dbm
@@ -1129,7 +1113,6 @@ jps
 jq
 jrunscript
 jsadebugd
-json-server
 json_pp
 json_pp5.16
 json_pp5.18
@@ -1158,7 +1141,6 @@ kinit
 klist
 koi8rxterm
 kpasswd
-kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1190,7 +1172,6 @@ leaks
 leave
 lein
 less
-lessc
 lessecho
 lesskey
 lex
@@ -1481,7 +1462,6 @@ nmedit
 node
 nodenv
 nohup
-nokogiri
 nologin
 notifyd
 notifyutil
@@ -1521,7 +1501,6 @@ odbc_config
 odbcinst
 odutil
 oid2name
-oletool
 open
 opendiff
 opensnoop
@@ -1725,8 +1704,6 @@ profiles
 prove
 prove5.16
 prove5.18
-pry
-pry-remote
 ps
 psed
 psed5.16
@@ -1815,7 +1792,6 @@ quotacheck
 quotaoff
 quotaon
 qvoronoi
-rackup
 racoon
 raidutil
 rails
@@ -1899,7 +1875,6 @@ rpcgen
 rpcinfo
 rs
 rsh
-rspec
 rsync
 rtadvd
 rtsol
@@ -1907,7 +1882,6 @@ rtsold
 ruby
 ruby-build
 ruby-local-exec
-ruby2gv
 run_erl
 runant.pl
 runant.py
@@ -1929,15 +1903,12 @@ s2p5.16
 s2p5.18
 sa
 sack
-safe_yaml
 sag
 sample
 sampleproc
 sandbox-exec
 sandbox-simplify
 sar
-sass
-sass-convert
 say
 sbt
 sc_auth
@@ -1958,14 +1929,11 @@ screen
 screencapture
 script
 scselect
-scss
 scutil
 sdef
 sdiff
 sdl-config
 sdl2-config
-sdoc
-sdoc-merge
 sdp
 sdx
 searchd
@@ -1985,7 +1953,6 @@ setkey
 setquota
 setregion
 setuids.d
-setup
 setxkbmap
 sexp-conv
 sftp
@@ -2001,8 +1968,6 @@ showfont
 showmount
 showrgb
 shutdown
-sidekiq
-sidekiqctl
 siege
 siege.config
 siege2csv.pl
@@ -2021,7 +1986,6 @@ slapschema
 slaptest
 sleep
 slencheck
-slimrb
 slogin
 slsh
 smbd
@@ -2086,8 +2050,6 @@ splain5.16
 splain5.18
 split
 spray
-spring
-sprockets
 sqlite3
 srm
 srptool
@@ -2172,7 +2134,6 @@ textutil
 tfmtodit
 tftp
 thermal
-thor
 thumbnail
 tic
 tidy
@@ -2192,7 +2153,6 @@ tiffset
 tiffsplit
 tiffutil
 tig
-tilt
 time
 timed
 timedc
@@ -2237,7 +2197,6 @@ troff
 true
 tset
 tsort
-tt
 tty
 twistd
 twm
@@ -2253,8 +2212,6 @@ unalias
 uname
 uncompress
 unexpand
-unicorn
-unicorn_rails
 unifdef
 unifdefall
 uniq
@@ -2332,8 +2289,6 @@ webpromotion
 wget
 what
 whatis
-whenever
-wheneverize
 whereis
 which
 whiptail
@@ -2344,8 +2299,6 @@ wirelessproxd
 wish
 wish8.4
 wish8.5
-with-rspec-2
-with-rspec-3
 wordbreaker
 wordforms
 wordlist2hunspell
@@ -2421,13 +2374,11 @@ xlogo
 xlsatoms
 xlsclients
 xlsfonts
-xlsopcodes
 xmag
 xman
 xmessage
 xmh
 xml2-config
-xml2gv
 xml2man
 xmlcatalog
 xmllint

@@ -22,8 +22,7 @@ export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi # Enable shims and autocompletion
 
 ## nodenv
-export PATH="$HOME/.nodenv/bin:$PATH"
-eval "(nodenv init -)" > /dev/null
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 ## pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi

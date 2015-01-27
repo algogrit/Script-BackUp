@@ -3,6 +3,20 @@
 alias cp="cp -v"
 alias rm="rm -v"
 
+# Defining Resuable functions
+
+function _line_by_line {
+  while read single_arg; do
+    $1 $single_arg
+  done
+}
+
+function _install_languages {
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 install"
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 global"
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep -v set | _line_by_line "$2 install"
+}
+
 echo "\033[1;31mBacking up to git stash before restoring...\033[0m"
 
 ./update_scripts.sh
@@ -12,12 +26,10 @@ git stash
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/.go ~/Custom-Git-Commands ~/.lein
+mkdir -p ~/bin ~/.go/bin ~/Custom-Git-Commands ~/.lein
 
 echo "\033[1;31mTapping brews...\033[0m"
-while read tap; do
-  brew tap $tap
-done < "$HOME/Script-BackUp/OS X/brew_taps.list"
+_line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 brew install brew-cask
@@ -28,6 +40,7 @@ cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
 
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
+cd ~/Script-BackUp/OS\ X
 
 echo "\033[1;31mSetting up managers...\033[0m"
 
@@ -72,7 +85,13 @@ cp ~/Script-BackUp/OS\ X/Sublime/packages.list ~/Library/Application\ Support/Su
 cp ~/Script-BackUp/OS\ X/Sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 echo "\033[1;31mSetup Airport Utility...\033[0m"
-ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
+ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
+
+echo "\033[1;31mInstalling language versions...\033[0m"
+_install_languages ruby rbenv
+_install_languages python pyenv
+_install_languages node nodenv
+_install_languages go goenv
 
 echo "\033[1;31mPopping git stash after restoring...\033[0m"
 git stash pop
