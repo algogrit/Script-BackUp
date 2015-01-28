@@ -281,6 +281,7 @@ coderay
 codesign
 codesign_allocate
 col
+col1
 colcrt
 colldef
 colortail
@@ -341,6 +342,7 @@ csplit
 csreq
 ct_run
 ctags
+ctail
 ctest
 ctf_insert
 cu
@@ -2340,6 +2342,7 @@ whiptail
 who
 whoami
 whois
+wifi-status
 wirelessproxd
 wish
 wish8.4
