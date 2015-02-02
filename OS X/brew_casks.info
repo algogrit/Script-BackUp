@@ -1,7 +1,7 @@
 ==> OS X Release:
 10.10
 ==> OS X Release with Patchlevel:
-10.10.1
+10.10.2
 ==> Hardware Architecture:
 intel-64
 ==> Ruby Version:
@@ -34,7 +34,7 @@ https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-2253
+2265
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.53.0/rubylib
 /Library/Ruby/Site/2.0.0
