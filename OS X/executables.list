@@ -448,6 +448,7 @@ docker
 domainname
 dot2ruby
 dot_clean
+dotenv
 draw9patch
 drip
 dropdb
@@ -2173,6 +2174,7 @@ textutil
 tfmtodit
 tftp
 thermal
+thin
 thor
 thumbnail
 tic
