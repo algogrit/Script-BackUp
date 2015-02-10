@@ -248,6 +248,7 @@ capify
 captoinfo
 cat
 cc
+cc-tddium-post-worker
 ccmake
 cd
 certtool
