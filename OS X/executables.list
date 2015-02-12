@@ -347,6 +347,7 @@ ctail
 ctest
 ctf_insert
 cu
+cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -595,6 +596,7 @@ font_cache
 fontrestore
 fonttosfnt
 footprint
+foreman
 formail
 format-sql
 format-sql5.16
@@ -752,6 +754,7 @@ git-line-summary
 git-local-commits
 git-lock
 git-locked
+git-ls-conflicted
 git-ls-modified
 git-ls-new
 git-ls-untracked
@@ -1176,6 +1179,7 @@ lastwords
 latency
 launchctl
 launchd
+launchy
 lconvert
 ld
 ldapadd
@@ -1549,6 +1553,10 @@ pango-view
 par.pl
 par5.16.pl
 par5.18.pl
+parallel_cucumber
+parallel_rspec
+parallel_spinach
+parallel_test
 parl
 parl5.16
 parl5.18
@@ -1858,6 +1866,7 @@ rbenv-which
 rbox
 rcc
 rcp
+rdebug
 rdjpgcom
 rdoc
 read
@@ -1883,6 +1892,7 @@ resize
 resolveLinks
 resolve_stack_dump
 resolveip
+restclient
 rev
 revnetgroup
 rgb2ycbcr
@@ -2047,6 +2057,7 @@ sndfile-regtest
 sndfile-resample
 sndfile-salvage
 sndiskmove
+sneakers
 snfsdefrag
 snmetadump
 snmp-bridge-mib
@@ -2088,6 +2099,7 @@ splain
 splain5.16
 splain5.18
 split
+spork
 spray
 spring
 sprockets
