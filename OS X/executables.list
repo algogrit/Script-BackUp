@@ -1826,6 +1826,12 @@ quotacheck
 quotaoff
 quotaon
 qvoronoi
+rabbitmq-defaults
+rabbitmq-env
+rabbitmq-plugins
+rabbitmq-server
+rabbitmqadmin
+rabbitmqctl
 rackup
 racoon
 raidutil
