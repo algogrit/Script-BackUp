@@ -1,5 +1,5 @@
 #! /usr/bin/env sh
 
-rbenv local 2.2.0
+rbenv shell 2.2.0
 
 /usr/local/var/rbenv/shims/git-up
