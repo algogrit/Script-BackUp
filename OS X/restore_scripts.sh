@@ -12,9 +12,14 @@ function _line_by_line {
 }
 
 function _install_languages {
+  cd /tmp
+  ACTUAL_WD=$OLDPWD
+
   cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 install"
   cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 global"
   cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep -v set | _line_by_line "$2 install"
+
+  cd "$ACTUAL_WD"
 }
 
 echo "\033[1;31mBacking up to git stash before restoring...\033[0m"
