@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
+set ic
 
 " Load Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -19,11 +20,8 @@ Bundle 'scrooloose/nerdtree'
 " Other Config
 filetype plugin indent on     " required!
 
-" Configure line numbers
-autocmd FocusLost * :set number
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
-autocmd CursorMoved * :set relativenumber
+set relativenumber
+set number
 
 " Turn on plugins
 let g:airline#extensions#tabline#enabled = 1
