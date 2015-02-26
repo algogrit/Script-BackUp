@@ -18,12 +18,13 @@ end
 def get_new_name(file_name, folder_path, type)
   new_name = file_name
 
-  if file_name.index("DownloadMing.SE")
+  if file_name.downcase.index("downloadming.se")
     new_name_list = file_name.split('/').last.split("-").drop(1)
     new_name_list.pop
     new_name = new_name_list.map(&:strip).join(" - ") + (".#{type}")
-  elsif file_name.index("Songs.PK")
+  elsif file_name.downcase.index("songs") && file_name.downcase.index("pk")
     cleanup_name = file_name.split('/').last.split("-")[2..-1]
+    cleanup_name = cleanup_name.map { |name| name.gsub(" [Songspk.name]", '') }
     if cleanup_name
       new_name = cleanup_name.map(&:strip).join(" - ")
       new_name = "#{folder_path}/#{new_name}"

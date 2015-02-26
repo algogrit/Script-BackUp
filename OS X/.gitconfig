@@ -8,8 +8,8 @@
 [alias]
 	st = status -sb
 	co = checkout
-	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
-	glog = log --graph --decorate --pretty=oneline --abbrev-commit
+	gloga = log --graph --decorate --color --pretty=oneline --abbrev-commit --all
+	glog = log --graph --decorate --color --pretty=oneline --abbrev-commit
 	standup = log --since=yesterday --author=Gaurav
 	ll = log --date=local
 	uncommit = reset HEAD^
