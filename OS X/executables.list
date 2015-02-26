@@ -88,6 +88,12 @@ analyze
 android
 animate
 annotate
+ansible
+ansible-doc
+ansible-galaxy
+ansible-playbook
+ansible-pull
+ansible-vault
 ant
 antRun
 antRun.pl
@@ -153,6 +159,7 @@ bc
 bdftogd
 bdftopcf
 bdftruncate
+berks
 bg
 biff
 binhex
