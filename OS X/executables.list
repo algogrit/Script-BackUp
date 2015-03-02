@@ -272,6 +272,8 @@ chmorph
 chown
 chpass
 chrome-stats-to-csv
+chromedriver
+chromedriver-update
 chroot
 chsh
 cjpeg
@@ -521,6 +523,7 @@ enc2xs5.16
 enc2xs5.18
 encode_keychange
 env
+envied
 envvars
 envvars-std
 episodes-rename
@@ -920,6 +923,7 @@ gtrue
 gtruncate
 gtsort
 gtty
+guard
 gulp
 guname
 gunexpand
@@ -1202,6 +1206,7 @@ ldapwhoami
 ldiff
 leaks
 leave
+legato
 lein
 less
 lessc
@@ -1219,6 +1224,7 @@ libtool
 link
 lint
 lipo
+listen
 listres
 lkbib
 lldb
@@ -1363,6 +1369,7 @@ mongos
 mongosniff
 mongostat
 mongotop
+mongrel_rpm
 monitor
 monkeyrunner
 montage
@@ -1480,6 +1487,8 @@ newfs_msdos
 newfs_udf
 newgrp
 newproc.d
+newrelic
+newrelic_cmd
 newsyslog
 nfs4mapid
 nfsd
@@ -1502,6 +1511,7 @@ notifyd
 notifyutil
 nping
 npm
+nrdebug
 nroff
 nslookup
 nsupdate
@@ -1768,6 +1778,8 @@ ptargrep
 ptargrep5.16
 ptargrep5.18
 pubsub
+puma
+pumactl
 purge
 pwd
 pwd_mkdb
