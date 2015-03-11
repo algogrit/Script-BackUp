@@ -54,6 +54,7 @@ Xorg
 Xquartz
 Xvfb
 [
+_guard-core
 a2p
 a2p5.16
 a2p5.18
@@ -245,6 +246,7 @@ cacaplay
 cacaserver
 cacaview
 caffeinate
+cairo-sphinx
 cairo-trace
 cal
 calendar
