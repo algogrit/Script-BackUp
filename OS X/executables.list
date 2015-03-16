@@ -1729,6 +1729,7 @@ postmulti
 postqueue
 postsuper
 pow
+powder
 power_report.sh
 powermetrics
 pp
@@ -2192,7 +2193,6 @@ tabs
 tail
 talk
 tar
-task
 taskinfo
 taskpolicy
 tbl

@@ -172,7 +172,6 @@ sqlite
 ssh-copy-id
 suite-sparse
 szip
-task
 tbb
 terminal-notifier
 texi2html
