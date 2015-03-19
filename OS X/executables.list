@@ -596,6 +596,7 @@ findrule5.16
 findrule5.18
 finger
 firmwarepasswd
+fission
 fixproc
 flac
 flex
@@ -603,6 +604,7 @@ flex++
 fltk-config
 fluid
 fmt
+fog
 fold
 font_cache
 fontrestore
@@ -1413,7 +1415,9 @@ mvim
 mvimdiff
 mvimex
 mvn
+mvn.cmd
 mvnDebug
+mvnDebug.cmd
 mvnyjp
 my_print_defaults
 myisam_ftdump

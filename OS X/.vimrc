@@ -17,11 +17,17 @@ Bundle 'bling/vim-airline'
 Bundle 'w0ng/vim-hybrid'
 Bundle 'scrooloose/nerdtree'
 
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-sensible'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-unimpaired'
+
 " Other Config
 filetype plugin indent on     " required!
 
 set relativenumber
 set number
+set shiftwidth=2 expandtab tabstop=2 softtabstop=2
 
 " Turn on plugins
 let g:airline#extensions#tabline#enabled = 1
