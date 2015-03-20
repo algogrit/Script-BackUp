@@ -21,13 +21,16 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-dispatch'
+Bundle 'tpope/vim-surround'
 
 " Other Config
 filetype plugin indent on     " required!
 
-set relativenumber
+set autoread
 set number
 set shiftwidth=2 expandtab tabstop=2 softtabstop=2
+set hlsearch
 
 " Turn on plugins
 let g:airline#extensions#tabline#enabled = 1
