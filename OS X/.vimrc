@@ -3,7 +3,7 @@ filetype off                  " required!
 set ic
 
 " Load Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -15,14 +15,21 @@ Bundle 'LargeFile'
 " Vim UI
 Bundle 'bling/vim-airline'
 Bundle 'w0ng/vim-hybrid'
-Bundle 'scrooloose/nerdtree'
 
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-eunuch'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-dispatch'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-vinegar'
+Bundle 'tpope/vim-endwise'
+
+Bundle 'kien/ctrlp.vim'
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
+Bundle 'slim-template/vim-slim'
 
 " Other Config
 filetype plugin indent on     " required!
@@ -33,11 +40,20 @@ set shiftwidth=2 expandtab tabstop=2 softtabstop=2
 set hlsearch
 
 " Turn on plugins
-let g:airline#extensions#tabline#enabled = 1
 let g:hybrid_use_Xresources = 1
 colorscheme hybrid
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " UI config
 let &t_Co=256
 syntax on
 set clipboard=unnamed
+
+augroup VimrcEx
+  au!
+
+  autocmd BufWritePost $MYVIMRC so $MYVIMRC
+augroup END
