@@ -638,6 +638,8 @@ funzip
 fuser
 fwkdp
 fwkpfv
+fzf
+fzf-tmux
 g++
 g++-4.2
 g++-4.9

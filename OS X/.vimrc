@@ -6,6 +6,9 @@ set ic
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
+" fzf
+set rtp+=/usr/local/Cellar/fzf/0.9.4-1
+
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 

@@ -71,6 +71,7 @@ sudo cp ~/Script-BackUp/OS\ X/root/etc/shells /etc/shells
 
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/OS\ X/.gitconfig ~/
+cp ~/Script-BackUp/OS\ X/.gitignore ~/
 cp ~/Script-BackUp/OS\ X/.vimrc ~/
 cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
 cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/

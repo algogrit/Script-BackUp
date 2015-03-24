@@ -56,6 +56,7 @@ cp ~/.bash* .
 
 # Copy gitconfig
 cp ~/.gitconfig .
+cp ~/.gitignore .
 
 # Copy vimrc
 cp ~/.vimrc .
