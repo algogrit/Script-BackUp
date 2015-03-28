@@ -391,6 +391,7 @@ cvupdatefs
 cvversions
 cwebp
 cxpm
+d8
 dappprof
 dapptrace
 darwinup
@@ -586,6 +587,7 @@ file
 filebyproc.d
 filecoordinationd
 filevaultRecovery
+filewatcher
 filtercalltree
 find
 find2perl
@@ -1227,6 +1229,7 @@ libpng-config
 libpng15-config
 libpng16-config
 libtool
+lineprocessor
 link
 lint
 lipo
@@ -1355,6 +1358,7 @@ mknod
 mkntfs
 mkpassdb
 mksdcard
+mksnapshot
 mktemp
 mmroff
 mnthome
@@ -1755,6 +1759,7 @@ priclass.d
 pridist.d
 printenv
 printf
+process
 procmail
 procsystime
 productbuild
@@ -2344,6 +2349,7 @@ uuto
 uux
 uuxqt
 uxterm
+v8
 vacuumdb
 vacuumlo
 vagrant
