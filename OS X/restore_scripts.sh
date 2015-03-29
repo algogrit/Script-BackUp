@@ -52,6 +52,10 @@ echo "\033[1;31mSetting up managers...\033[0m"
 echo "Vundle"
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 
+echo "Nodenv"
+git clone https://github.com/OiNutter/nodenv.git ~/.nodenv
+git clone git://github.com/OiNutter/node-build.git ~/.nodenv/plugins/node-build
+
 echo "Goenv"
 git clone https://github.com/wfarr/goenv.git ~/.goenv
 
