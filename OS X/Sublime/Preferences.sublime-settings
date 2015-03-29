@@ -5,6 +5,8 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"Dictionaries",
+		"RSpec"
 	],
 	"reveal-on-activate": true,
 	"tab_size": 2,

@@ -19,9 +19,10 @@ export PATH="$HOME/bash_scripts/bin:$PATH"
 # Language Version Managers
 ## rbenv
 export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi # Enable shims and autocompletion
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 ## nodenv
+export PATH="$HOME/.nodenv/bin:$PATH"
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 ## pyenv
@@ -29,4 +30,4 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 ## goenv
 export PATH="$HOME/.goenv/bin:$PATH"
-eval "$(goenv init -)" > /dev/null
+if which goenv > /dev/null; then eval "$(goenv init -)"; fi

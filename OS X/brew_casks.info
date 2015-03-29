@@ -65,7 +65,7 @@ https://github.com/Homebrew/homebrew
 ==> Contents of $BUNDLE_PATH Environment Variable:
 <NONE>
 ==> Contents of $PATH Environment Variable:
-PATH="/Users/gaurav/Custom-Git-Commands:/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/Cellar/fzf/0.9.4-1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Library/ENV/scm"
+PATH="/Users/gaurav/Custom-Git-Commands:/Users/gaurav/.goenv/shims:/Users/gaurav/.goenv/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/Users/gaurav/bash_scripts/bin:~/.go/bin:/Users/gaurav/bin:~/Projects/experimental/bin:/usr/local/Cellar/fzf/0.9.4-1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Library/ENV/scm"
 ==> Contents of $SHELL Environment Variable:
 SHELL="/usr/local/bin/bash"
 ==> Contents of Locale Environment Variables:
