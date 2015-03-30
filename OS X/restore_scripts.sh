@@ -50,7 +50,7 @@ cd ~/Script-BackUp/OS\ X
 echo "\033[1;31mSetting up managers...\033[0m"
 
 echo "Vundle"
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 echo "Nodenv"
 git clone https://github.com/OiNutter/nodenv.git ~/.nodenv
