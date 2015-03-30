@@ -1,8 +1,6 @@
 {
 	"in_process_packages":
 	[
-		"Dictionaries",
-		"RSpec"
 	],
 	"installed_packages":
 	[
