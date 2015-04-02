@@ -1229,7 +1229,6 @@ libpng-config
 libpng15-config
 libpng16-config
 libtool
-lineprocessor
 link
 lint
 lipo
