@@ -9,6 +9,3 @@ source ~/bash_scripts/custom_completion/.git_commands
 
 # Adding Homebrew
 . `brew --prefix`/Library/Contributions/brew_bash_completion.sh
-
-# Adding fzf
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
