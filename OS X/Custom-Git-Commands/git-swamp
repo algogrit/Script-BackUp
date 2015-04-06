@@ -4,7 +4,17 @@ start_time=Time.now
 
 require 'time'
 
-remote_branches = (`git branch -r | grep -v "origin/master" | awk '{print $1}'`).split("\n").reduce({}) do |memo, branch|
+branch_names = ARGV
+
+branch_names = branch_names.map do |branch_name|
+  "origin/#{branch_name}"
+end
+
+if branch_names.empty?
+  branch_names = (`git branch -r | grep -v "origin/master" | awk '{print $1}'`).split("\n")
+end
+
+remote_branches = branch_names.reduce({}) do |memo, branch|
 	timestamp = Time.parse(`git log --date=local --pretty=format:"%ad" -1 #{branch}`)
 	memo[branch] = timestamp
 	memo
