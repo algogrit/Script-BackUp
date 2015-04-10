@@ -3,18 +3,7 @@ echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
 # HOMEBREW - Editing in the /etc/paths instead
 # export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-# Experimental Install Path
-export EXPERIMENTAL="~/Projects/experimental/bin"
-export PATH=$EXPERIMENTAL:$PATH
-
-# ADDING ~/bin TO THE PATH
-export PATH="$HOME/bin:$PATH"
-
-# ADDING go
-export PATH="~/.go/bin:$PATH"
-
-# ADDING snippet_programs TO THE PATH
-export PATH="$HOME/bash_scripts/bin:$PATH"
+### Languages
 
 # Language Version Managers
 ## rbenv
@@ -31,3 +20,22 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ## goenv
 export PATH="$HOME/.goenv/bin:$PATH"
 if which goenv > /dev/null; then eval "$(goenv init -)"; fi
+
+# ADDING go PATH
+export PATH="~/.go/bin:$PATH"
+
+#### CUSTOM
+
+# Load custom git commands
+echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+export PATH="$HOME/Custom-Git-Commands:$PATH"
+
+# ADDING ~/bin TO THE PATH
+export PATH="$HOME/bin:$PATH"
+
+# ADDING snippet_programs TO THE PATH
+export PATH="$HOME/bash_scripts/bin:$PATH"
+
+# Experimental Install Path
+export EXPERIMENTAL="~/Projects/experimental/bin"
+export PATH=$EXPERIMENTAL:$PATH
