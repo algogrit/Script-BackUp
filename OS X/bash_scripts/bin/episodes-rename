@@ -18,8 +18,8 @@ end
 def get_new_name(file_name, folder_path, type)
   new_name = file_name
 
-  index = file_name.index(/S\d\dE\d\d/) || file_name.index(/\.\d\d\d\./)
-  offset =  file_name.index(/S\d\dE\d\d/).nil? ? 2 : 4
+  index = file_name.index(/S\d\dE\d\d/) || file_name.index(/s\d\de\d\d/) || file_name.index(/\.\d\d\d\./)
+  offset = (file_name.index(/S\d\dE\d\d/) || file_name.index(/s\d\de\d\d/)).nil? ? 2 : 4
 
   if index
     start_index = index + offset

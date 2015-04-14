@@ -110,12 +110,12 @@ rm bash_scripts/aliases/.*_secret
 echo "\033[1;31mBrew info...\033[0m"
 brew update
 brew cleanup
-brew doctor | tee brew.info
-brew info | tee -a brew.info
+brew doctor 2>&1 | tee brew.info
+brew info 2>&1 | tee -a brew.info
 
 echo "\033[1;31mBrew Cask Info...\033[0m"
 brew cask cleanup
-brew cask doctor | tee brew_casks.info
+brew cask doctor 2>&1 | tee brew_casks.info
 
 echo "\033[1;31mOutdated brews...\033[0m"
 brew outdated

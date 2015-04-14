@@ -142,6 +142,7 @@ automator
 automount
 autoreconf
 autoscan
+autospec
 autoupdate
 auval
 auvaltool
@@ -1867,8 +1868,11 @@ rabbitmqctl
 rackup
 racoon
 raidutil
+railroad
 rails
+rails_best_practices
 rake
+rake2thor
 ranlib
 rarpd
 ras2tiff
@@ -1911,6 +1915,7 @@ read
 readlink
 rebase
 reboot
+redcloth
 redis-benchmark
 redis-check-aof
 redis-check-dump
