@@ -21,6 +21,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.4m-config
   /usr/local/var/rbenv/shims/passenger-config
 
-Error: Failed to import: ruby20
-wrong number of arguments (3 for 0..1)
 201 kegs, 162323 files, 7.8G

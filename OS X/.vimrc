@@ -1,6 +1,7 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
 set ic
+set noswapfile
 
 " Load Vundle
 set rtp+=~/.vim/bundle/vundle
