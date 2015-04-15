@@ -613,6 +613,7 @@ font_cache
 fontrestore
 fonttosfnt
 footprint
+footprint_new
 foreman
 formail
 format-sql
@@ -1020,6 +1021,7 @@ htpasswd
 httparty
 httpclient
 httpd
+httpd-wrapper
 httpdstat.d
 httxt2dbm
 hub
