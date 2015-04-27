@@ -40,6 +40,7 @@ fftw
 figlet
 findutils
 flac
+flow
 fltk
 fontconfig
 fortune
@@ -189,6 +190,7 @@ veclibfort
 vim
 vimpager
 w3m
+watchman
 webp
 wget
 wxmac

@@ -13,9 +13,8 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.4-config
   /Users/gaurav/.pyenv/shims/python3.4m-config
-  /usr/local/var/rbenv/shims/passenger-config
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry and just ignore them. Thanks!
 
-201 kegs, 162334 files, 7.8G
+203 kegs, 162279 files, 7.9G
