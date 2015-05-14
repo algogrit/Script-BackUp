@@ -725,10 +725,12 @@ gist
 git
 git-alias
 git-archive-file
+git-authors
 git-back
 git-bug
 git-catchup
 git-changelog
+git-chore
 git-commits-since
 git-contrib
 git-count
@@ -740,6 +742,7 @@ git-delete-branch
 git-delete-merged-branches
 git-delete-submodule
 git-delete-tag
+git-delta
 git-effort
 git-extras
 git-feature
@@ -747,6 +750,7 @@ git-fork
 git-fresh-branch
 git-gh-pages
 git-graft
+git-guilt
 git-ignore
 git-info
 git-line-summary
@@ -757,6 +761,8 @@ git-ls-conflicted
 git-ls-modified
 git-ls-new
 git-ls-untracked
+git-merge-into
+git-merge-repo
 git-missing
 git-multi
 git-new-commits
@@ -773,9 +779,13 @@ git-rename-tag
 git-repl
 git-reset-file
 git-root
+git-rscp
+git-scp
 git-setup
 git-shell
+git-show-merged-branches
 git-show-tree
+git-show-unmerged-branches
 git-squash
 git-subtree
 git-summary
