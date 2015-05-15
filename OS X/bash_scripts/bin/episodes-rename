@@ -44,7 +44,7 @@ folder_paths.each do |folder_path|
       puts "\t#{original_name}\t\t=>\t\t#{new_name}"
 
       unless dry_run
-        File.rename(original_name, "#{folder_path}/#{new_name}")
+        File.rename(original_name, "#{new_name}")
       end
     end
   end
