@@ -110,6 +110,7 @@ libtool
 libvo-aacenc
 libvorbis
 libyaml
+little-cms2
 lua
 macvim
 mad
@@ -129,6 +130,7 @@ ngrok
 nmap
 node
 ntfs-3g
+openjpeg
 openssl
 ossp-uuid
 p11-kit
@@ -139,6 +141,7 @@ pcre
 phantomjs
 pixman
 pkg-config
+poppler
 popt
 postgresql
 pow

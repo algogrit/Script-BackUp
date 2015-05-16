@@ -1038,6 +1038,7 @@ iex
 ifconfig
 ifnames
 igawk
+image_to_j2k
 img2txt
 import
 imptrace
@@ -1090,6 +1091,8 @@ irb
 ispellaff2myspell
 isql
 iusql
+j2k_dump
+j2k_to_image
 jack_alias
 jack_bufsize
 jack_connect
@@ -1139,6 +1142,7 @@ jobs
 join
 jot
 jpegtran
+jpgicc
 jps
 jq
 jrunscript
@@ -1214,6 +1218,7 @@ libpng15-config
 libpng16-config
 libtool
 link
+linkicc
 lint
 lipo
 listres
@@ -1588,7 +1593,18 @@ pcre-config
 pcregrep
 pcretest
 pcsctest
+pdfdetach
+pdffonts
+pdfimages
+pdfinfo
 pdfroff
+pdfseparate
+pdftocairo
+pdftohtml
+pdftoppm
+pdftops
+pdftotext
+pdfunite
 pdisk
 perfdiagnose
 periodic
@@ -1750,6 +1766,7 @@ psed
 psed5.16
 psed5.18
 psgrep
+psicc
 psktool
 psql
 pstopdf
@@ -2211,6 +2228,7 @@ tiffmedian
 tiffset
 tiffsplit
 tiffutil
+tificc
 tig
 tilt
 time
@@ -2247,6 +2265,7 @@ trace
 traceroute
 traceroute6
 traceview
+transicc
 traptoemail
 tree
 treereg
