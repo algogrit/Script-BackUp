@@ -34,7 +34,7 @@ https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-2517
+2520
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.54.0/rubylib
 /Library/Ruby/Site/2.0.0
