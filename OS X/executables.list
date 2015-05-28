@@ -1959,6 +1959,7 @@ runghc
 runghc-7.10.1
 runhaskell
 runocc.d
+runxlrd.py
 ruptime
 rvictl
 rview
