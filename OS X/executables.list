@@ -1504,6 +1504,7 @@ nmap
 nmedit
 node
 node-local-exec
+nodemon
 nodenv
 nohup
 nokogiri

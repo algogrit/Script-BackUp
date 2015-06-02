@@ -2,5 +2,6 @@ caskroom/cask
 caskroom/versions
 homebrew/boneyard
 homebrew/dupes
+homebrew/fuse
 homebrew/science
 homebrew/versions
