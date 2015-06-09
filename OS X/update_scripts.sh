@@ -96,7 +96,7 @@ cp /etc/irbrc root/etc/
 cp /etc/shells root/etc/
 
 # ENV config
-env > env.config
+env | sort > env.config
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
