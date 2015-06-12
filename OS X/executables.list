@@ -527,6 +527,7 @@ erlc
 errinfo
 erubis
 escript
+eslint
 etags
 etc1tool
 event_rpcgen.py

@@ -32,6 +32,8 @@
 		"SCSS",
 		"Select Quoted",
 		"SSH Config",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SyncedSideBar",
 		"SyncedSidebarBg",
 		"TodoReview",
