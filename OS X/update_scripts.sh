@@ -120,6 +120,22 @@ brew cask doctor 2>&1 | tee brew_casks.info
 echo "\033[1;31mOutdated brews...\033[0m"
 brew outdated
 
+ACTUAL_WD=$PWD
+
+echo "\033[1;31mUpdating nodenv with git...\033[0m"
+cd ~/.nodenv && git ru && git st
+
+echo "\033[1;31mUpdating node-build with git...\033[0m"
+cd ~/.nodenv/plugins/node-build && git ru && git st
+
+echo "\033[1;31mUpdating vundle with git...\033[0m"
+cd ~/.vim/bundle/vundle && git ru && git st
+
+echo "\033[1;31mUpdating vundle with git...\033[0m"
+cd ~/.goenv && git ru && git st
+
+cd "$ACTUAL_WD"
+
 echo "\033[1;31m/etc/hosts...\033[0m"
 echo "Current: `cat /etc/hosts | grep Updated | awk '{print $4}'`"
 echo "Latest: `curl http://winhelp2002.mvps.org/hosts.txt > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep Updated | awk '{print $4}'`"
