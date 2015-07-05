@@ -430,7 +430,6 @@ diff3
 diffstat
 dig
 dirname
-discoveryutil
 diskhits
 disklabel
 diskmanagementd
@@ -1271,7 +1270,9 @@ lua5.2
 luac
 luac-5.2
 luac5.2
+luarocks
 luarocks-5.2
+luarocks-admin
 luarocks-admin-5.2
 luit
 lupdate
@@ -1299,6 +1300,8 @@ lzmadec
 lzmainfo
 lzmore
 m4
+mDNSResponder
+mDNSResponderHelper
 macbinary
 macdeployqt
 macerror
@@ -2280,6 +2283,7 @@ treereg
 treereg5.16
 treereg5.18
 trial
+trimforce
 troff
 true
 tset
@@ -2379,6 +2383,7 @@ webpromotion
 wget
 what
 whatis
+wheel
 whenever
 wheneverize
 whereis
