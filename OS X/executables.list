@@ -177,6 +177,7 @@ boot2docker
 brctl
 brew
 brew-cask
+browserify
 bsdtar
 bsondump
 bspatch
