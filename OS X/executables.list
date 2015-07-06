@@ -1909,6 +1909,7 @@ rdoc
 react-native
 read
 readlink
+realpath
 rebase
 reboot
 redis-benchmark
