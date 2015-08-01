@@ -711,11 +711,11 @@ gfortran-5
 ggrep
 ggroups
 ghc
-ghc-7.10.1
+ghc-7.10.2
 ghc-pkg
-ghc-pkg-7.10.1
+ghc-pkg-7.10.2
 ghci
-ghci-7.10.1
+ghci-7.10.2
 ghead
 ghostid
 gid
@@ -971,7 +971,7 @@ h5repart
 h5stat
 h5unjam
 haddock
-haddock-ghc-7.10.1
+haddock-ghc-7.10.2
 halt
 hash
 hb-ot-shape-closure
@@ -1963,7 +1963,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-7.10.1
+runghc-7.10.2
 runhaskell
 runocc.d
 runxlrd.py
