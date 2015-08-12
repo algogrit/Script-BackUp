@@ -23,8 +23,9 @@ def get_new_name(file_name, folder_path, type)
     new_name_list.pop
     new_name = new_name_list.map(&:strip).join(" - ") + (".#{type}")
   elsif file_name.downcase.index("songs") && file_name.downcase.index("pk")
+    songspk_suffix = [" [Songspk.name]", " [Songspk.LINK]"]
     cleanup_name = file_name.split('/').last.split("-")[2..-1]
-    cleanup_name = cleanup_name.map { |name| name.gsub(" [Songspk.name]", '') }
+    cleanup_name = cleanup_name.map { |name| songspk_suffix.reduce(name) {|memo, suffix| memo.gsub(suffix, '') }  }
     if cleanup_name
       new_name = cleanup_name.map(&:strip).join(" - ")
       new_name = "#{folder_path}/#{new_name}"
