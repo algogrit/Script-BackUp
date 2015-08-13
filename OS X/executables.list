@@ -41,6 +41,7 @@ SplitForks
 UnRezWack
 VBoxAutostart
 VBoxBalloonCtrl
+VBoxDTrace
 VBoxHeadless
 VBoxManage
 VBoxVRDP
@@ -54,7 +55,7 @@ Xorg
 Xquartz
 Xvfb
 [
-_mocha
+_guard-core
 a2p
 a2p5.16
 a2p5.18
@@ -80,6 +81,7 @@ ag
 agentxtrap
 agvtool
 aidl
+airbrake
 airport
 alias
 allmemory
@@ -141,6 +143,7 @@ automator
 automount
 autoreconf
 autoscan
+autospec
 autoupdate
 auval
 auvaltool
@@ -148,6 +151,7 @@ avbdiagnose
 avconvert
 avmetareadwrite
 awk
+aws-rb
 banner
 base64
 basename
@@ -158,6 +162,7 @@ bc
 bdftogd
 bdftopcf
 bdftruncate
+berks
 bg
 biff
 binhex
@@ -177,11 +182,11 @@ boot2docker
 brctl
 brew
 brew-cask
-browserify
 bsdtar
 bsondump
 bspatch
 btmmdiagnose
+build
 bundle
 bundler
 bunzip2
@@ -248,10 +253,13 @@ cairo-trace
 cal
 calendar
 cancel
+cap
 cap_mkdb
+capify
 captoinfo
 cat
 cc
+cc-tddium-post-worker
 ccmake
 cd
 certtool
@@ -268,6 +276,8 @@ chmorph
 chown
 chpass
 chrome-stats-to-csv
+chromedriver
+chromedriver-update
 chroot
 chsh
 cjpeg
@@ -294,6 +304,7 @@ column
 comm
 command
 compare
+compass
 complete-ant-cmd.pl
 composite
 compress
@@ -349,6 +360,7 @@ ctail
 ctest
 ctf_insert
 cu
+cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -449,7 +461,9 @@ dns-sd
 dnsextd
 docker
 domainname
+dot2ruby
 dot_clean
+dotenv
 draw9patch
 drip
 dropdb
@@ -491,17 +505,11 @@ egrep
 elixir
 elixirc
 elm
-elm-doc
-elm-doc-unwrapped
 elm-make
-elm-make-unwrapped
 elm-package
-elm-package-unwrapped
 elm-reactor
 elm-reactor-unwrapped
 elm-repl
-elm-repl-unwrapped
-elm-unwrapped
 emacs
 emacs-24.5
 emacs-undumped
@@ -515,6 +523,7 @@ enc2xs5.16
 enc2xs5.18
 encode_keychange
 env
+envied
 envvars
 envvars-std
 episodes-rename
@@ -522,12 +531,12 @@ epmd
 eqn
 eqn2graph
 erb
+erd
 erl
 erlc
 errinfo
 erubis
 escript
-eslint
 etags
 etc1tool
 event_rpcgen.py
@@ -575,6 +584,7 @@ file
 filebyproc.d
 filecoordinationd
 filevaultRecovery
+filewatcher
 filtercalltree
 find
 find2perl
@@ -585,6 +595,7 @@ findrule5.16
 findrule5.18
 finger
 firmwarepasswd
+fission
 fixproc
 flac
 flex
@@ -593,12 +604,14 @@ flow
 fltk-config
 fluid
 fmt
+fog
 fold
 font_cache
 fontrestore
 fonttosfnt
 footprint
 footprint_new
+foreman
 formail
 format-sql
 format-sql5.16
@@ -688,6 +701,7 @@ gdu
 gecho
 gegrep
 gem
+gem2gv
 gen_bridge_metadata
 gencat
 genstrings
@@ -800,6 +814,7 @@ git-up
 git-upload-archive
 git-upload-pack
 git-wash
+git2gv
 github
 gitk
 gjoin
@@ -924,6 +939,8 @@ gtrue
 gtruncate
 gtsort
 gtty
+guard
+gulp
 guname
 gunexpand
 guniq
@@ -976,7 +993,6 @@ halt
 hash
 hb-ot-shape-closure
 hb-shape
-hb-view
 hdid
 hdik
 hdiutil
@@ -1010,6 +1026,7 @@ htmltree5.18
 htop
 htpasswd
 httparty
+httpclient
 httpd
 httpd-wrapper
 httpdstat.d
@@ -1150,6 +1167,7 @@ jps
 jq
 jrunscript
 jsadebugd
+json-server
 json_pp
 json_pp5.16
 json_pp5.18
@@ -1178,6 +1196,7 @@ kinit
 klist
 koi8rxterm
 kpasswd
+kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1192,6 +1211,7 @@ lastwords
 latency
 launchctl
 launchd
+launchy
 lconvert
 ld
 ldapadd
@@ -1207,8 +1227,10 @@ ldapwhoami
 ldiff
 leaks
 leave
+legato
 lein
 less
+lessc
 lessecho
 lesskey
 lex
@@ -1224,6 +1246,7 @@ link
 linkicc
 lint
 lipo
+listen
 listres
 lkbib
 lldb
@@ -1338,6 +1361,7 @@ metaflac
 mib2c
 mib2c-update
 mig
+minitar
 mix
 mkbom
 mkdep
@@ -1358,7 +1382,6 @@ mktemp
 mmroff
 mnthome
 moc
-mocha
 mogrify
 monetdb
 monetdbd
@@ -1375,6 +1398,7 @@ mongos
 mongosniff
 mongostat
 mongotop
+mongrel_rpm
 monitor
 monkeyrunner
 montage
@@ -1494,6 +1518,8 @@ newfs_msdos
 newfs_udf
 newgrp
 newproc.d
+newrelic
+newrelic_cmd
 newsyslog
 nfs4mapid
 nfsd
@@ -1509,7 +1535,6 @@ nmap
 nmedit
 node
 node-local-exec
-nodemon
 nodenv
 nohup
 nokogiri
@@ -1518,6 +1543,7 @@ notifyd
 notifyutil
 nping
 npm
+nrdebug
 nroff
 nslookup
 nsupdate
@@ -1552,6 +1578,7 @@ odbc_config
 odbcinst
 odutil
 oid2name
+oletool
 open
 opendiff
 opensnoop
@@ -1576,6 +1603,10 @@ pango-view
 par.pl
 par5.16.pl
 par5.18.pl
+parallel_cucumber
+parallel_rspec
+parallel_spinach
+parallel_test
 parl
 parl5.16
 parl5.18
@@ -1793,6 +1824,8 @@ ptargrep
 ptargrep5.16
 ptargrep5.18
 pubsub
+puma
+pumactl
 purge
 pwd
 pwd_mkdb
@@ -1868,8 +1901,11 @@ rabbitmqctl
 rackup
 racoon
 raidutil
+railroad
 rails
+rails_best_practices
 rake
+rake2thor
 ranlib
 rarpd
 ras2tiff
@@ -1905,14 +1941,15 @@ rbenv-which
 rbox
 rcc
 rcp
+rdebug
 rdjpgcom
 rdoc
-react-native
 read
 readlink
 realpath
 rebase
 reboot
+redcloth
 redis-benchmark
 redis-check-aof
 redis-check-dump
@@ -1932,6 +1969,7 @@ resize
 resolveLinks
 resolve_stack_dump
 resolveip
+restclient
 rev
 revnetgroup
 rgb2ycbcr
@@ -1959,6 +1997,7 @@ rtsold
 ruby
 ruby-build
 ruby-local-exec
+ruby2gv
 run_erl
 runant.pl
 runant.py
@@ -1966,7 +2005,6 @@ runghc
 runghc-7.10.2
 runhaskell
 runocc.d
-runxlrd.py
 ruptime
 rvictl
 rview
@@ -1981,6 +2019,7 @@ s2p5.16
 s2p5.18
 sa
 sack
+safe_yaml
 sag
 sample
 sampleproc
@@ -2036,6 +2075,7 @@ setkey
 setquota
 setregion
 setuids.d
+setup
 setxkbmap
 sexp-conv
 sftp
@@ -2052,6 +2092,8 @@ showfont
 showmount
 showrgb
 shutdown
+sidekiq
+sidekiqctl
 siege
 siege.config
 siege2csv.pl
@@ -2094,6 +2136,7 @@ sndfile-regtest
 sndfile-resample
 sndfile-salvage
 sndiskmove
+sneakers
 snfsdefrag
 snmetadump
 snmp-bridge-mib
@@ -2135,6 +2178,7 @@ splain
 splain5.16
 splain5.18
 split
+spork
 spray
 spring
 sprockets
@@ -2222,6 +2266,7 @@ textutil
 tfmtodit
 tftp
 thermal
+thin
 thor
 thumbnail
 tic
@@ -2290,6 +2335,7 @@ troff
 true
 tset
 tsort
+tt
 tty
 twistd
 twm
@@ -2305,6 +2351,8 @@ unalias
 uname
 uncompress
 unexpand
+unicorn
+unicorn_rails
 unifdef
 unifdefall
 uniq
@@ -2348,6 +2396,7 @@ v8
 vacuumdb
 vacuumlo
 vagrant
+vbox-img
 vboxwebsrv
 vi
 view
@@ -2400,6 +2449,9 @@ wirelessproxd
 wish
 wish8.4
 wish8.5
+with-rspec-2
+with-rspec-3
+wkhtmltopdf
 wordbreaker
 wordforms
 wordlist2hunspell
@@ -2475,11 +2527,13 @@ xlogo
 xlsatoms
 xlsclients
 xlsfonts
+xlsopcodes
 xmag
 xman
 xmessage
 xmh
 xml2-config
+xml2gv
 xml2man
 xmlcatalog
 xmllint
