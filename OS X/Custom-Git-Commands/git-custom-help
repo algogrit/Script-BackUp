@@ -1,8 +1,8 @@
 #! /usr/bin/env sh
 
 echo "Comamnds:
-  pristine              - Does a damn good job of cleaning the repository
-  wash                  - Does a okay job of cleaning the repository
+  pristine              - Hard cleans the repository (think fresh clone)
+  wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)
   nuke                  - Removes the branch from local and also deletes from remote origin
   swamp                 - List the latest commit's timestamp for each remote branch
   ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
