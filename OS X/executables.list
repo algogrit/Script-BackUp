@@ -485,6 +485,7 @@ dtrace
 dtruss
 du
 dumpsexp
+dvdbackup
 dwarfdump
 dwebp
 dx
@@ -1579,6 +1580,7 @@ odbcinst
 odutil
 oid2name
 oletool
+onig-config
 open
 opendiff
 opensnoop
@@ -1637,7 +1639,6 @@ pdfdetach
 pdffonts
 pdfimages
 pdfinfo
-pdfroff
 pdfseparate
 pdftocairo
 pdftohtml

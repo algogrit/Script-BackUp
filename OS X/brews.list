@@ -31,6 +31,7 @@ curl
 docker
 dotwrp
 drip
+dvdbackup
 elixir
 emacs
 erlang
@@ -94,6 +95,8 @@ leiningen
 less
 libatomic_ops
 libcaca
+libdvdcss
+libdvdread
 libevent
 libffi
 libgcrypt
@@ -131,6 +134,7 @@ ngrok
 nmap
 node
 ntfs-3g
+oniguruma
 openjpeg
 openssl
 ossp-uuid
