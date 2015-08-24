@@ -131,7 +131,7 @@ cd ~/.nodenv/plugins/node-build && git ru > /dev/null && git st && git up
 echo "\033[1;31mUpdating vundle with git...\033[0m"
 cd ~/.vim/bundle/vundle && git ru > /dev/null && git st && git up
 
-echo "\033[1;31mUpdating vundle with git...\033[0m"
+echo "\033[1;31mUpdating goenv with git...\033[0m"
 cd ~/.goenv && git ru > /dev/null && git st && git up
 
 cd "$ACTUAL_WD"
