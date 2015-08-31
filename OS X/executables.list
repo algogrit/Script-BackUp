@@ -178,7 +178,6 @@ bmp2tiff
 bmtoa
 bnepd
 bombardment
-boot2docker
 brctl
 brew
 brew-cask
@@ -460,6 +459,9 @@ dnctl
 dns-sd
 dnsextd
 docker
+docker-compose
+docker-machine
+docker-swarm
 domainname
 dot2ruby
 dot_clean
@@ -579,6 +581,7 @@ fftwl-wisdom
 fg
 fgrep
 fibreconfig
+fig
 figlet
 figlist
 file

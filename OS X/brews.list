@@ -16,7 +16,6 @@ bdw-gc
 berkeley-db
 bison
 boost
-boot2docker
 brew-cask
 byobu
 cairo
@@ -29,6 +28,8 @@ cscope
 ctags
 curl
 docker
+docker-machine
+docker-swarm
 dotwrp
 drip
 dvdbackup
@@ -38,6 +39,7 @@ erlang
 faac
 ffmpeg
 fftw
+fig
 figlet
 findutils
 flac
