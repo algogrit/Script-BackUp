@@ -41,6 +41,9 @@
 # So you just became evil? You end up on my bad list!
 0.0.0.0 sourceforge.net
 
+# Personal Advertising Block List
+0.0.0.0 mackeeperapp.mackeeper.com
+
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
 # --------------- Updated: August-05-2015 ---------------- #
