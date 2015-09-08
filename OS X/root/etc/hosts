@@ -43,6 +43,8 @@
 
 # Personal Advertising Block List
 0.0.0.0 mackeeperapp.mackeeper.com
+0.0.0.0 mackeeperapp2.mackeeper.com
+0.0.0.0 mackeeperapp3.mackeeper.com
 
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
