@@ -178,6 +178,7 @@ bmp2tiff
 bmtoa
 bnepd
 bombardment
+brakeman
 brctl
 brew
 brew-cask
@@ -994,6 +995,7 @@ h5unjam
 haddock
 haddock-ghc-7.10.2
 halt
+haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1896,6 +1898,7 @@ quotacheck
 quotaoff
 quotaon
 qvoronoi
+r2r_show
 rabbitmq-defaults
 rabbitmq-env
 rabbitmq-plugins
@@ -1991,6 +1994,7 @@ rpc.statd
 rpcbind
 rpcgen
 rpcinfo
+rpush
 rs
 rsh
 rspec
@@ -2002,6 +2006,8 @@ ruby
 ruby-build
 ruby-local-exec
 ruby2gv
+ruby_parse
+ruby_parse_extract_error
 run_erl
 runant.pl
 runant.py
