@@ -46,6 +46,9 @@
 0.0.0.0 mackeeperapp2.mackeeper.com
 0.0.0.0 mackeeperapp3.mackeeper.com
 
+# Sites with Paywalls/Subscribe Walls!
+0.0.0.0 www.washingtonpost.com
+
 # Blocking all ads and tracking - Courtesy [http://winhelp2002.mvps.org/hosts.txt]
 
 # --------------- Updated: August-05-2015 ---------------- #
