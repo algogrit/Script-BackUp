@@ -26,6 +26,7 @@ brew list > brews.list
 
 # List of Brew taps
 brew tap > brew_taps.list
+brew tap | xargs brew tap-info > brew_taps.info
 
 # List of Brew Cask Installations
 brew cask list > brew_casks.list

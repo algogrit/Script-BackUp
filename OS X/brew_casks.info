@@ -33,6 +33,7 @@ https://github.com/Homebrew/homebrew
 /usr/local/Library/Taps/caskroom/homebrew-cask
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
+/usr/local/Library/Taps/popcorn-time/homebrew-cask
 ==> Homebrew-cask Default Tap Cask Count:
 2746
 ==> Contents of $LOAD_PATH:
