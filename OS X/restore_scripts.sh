@@ -56,9 +56,6 @@ echo "Nodenv"
 git clone https://github.com/OiNutter/nodenv.git ~/.nodenv
 git clone git://github.com/OiNutter/node-build.git ~/.nodenv/plugins/node-build
 
-echo "Goenv"
-git clone https://github.com/wfarr/goenv.git ~/.goenv
-
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/OS\ X/bash_scripts ~/bash_scripts
@@ -100,7 +97,6 @@ echo "\033[1;31mInstalling language versions...\033[0m"
 _install_languages ruby rbenv
 _install_languages python pyenv
 _install_languages node nodenv
-_install_languages go goenv
 
 echo "\033[1;31mPopping git stash after restoring...\033[0m"
 git stash pop

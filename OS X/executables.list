@@ -3,7 +3,7 @@
 2to3-
 2to3-2
 2to3-2.7
-2to3-3.4
+2to3-3.5
 2to32.6
 7z
 7za
@@ -143,7 +143,6 @@ automator
 automount
 autoreconf
 autoscan
-autospec
 autoupdate
 auval
 auvaltool
@@ -151,7 +150,6 @@ avbdiagnose
 avconvert
 avmetareadwrite
 awk
-aws-rb
 banner
 base64
 basename
@@ -178,7 +176,6 @@ bmp2tiff
 bmtoa
 bnepd
 bombardment
-brakeman
 brctl
 brew
 brew-cask
@@ -186,7 +183,6 @@ bsdtar
 bsondump
 bspatch
 btmmdiagnose
-build
 bundle
 bundler
 bunzip2
@@ -304,7 +300,6 @@ column
 comm
 command
 compare
-compass
 complete-ant-cmd.pl
 composite
 compress
@@ -496,7 +491,7 @@ dynamic_pager
 easy_install
 easy_install-2.6
 easy_install-2.7
-easy_install-3.4
+easy_install-3.5
 ebrowse
 echo
 ecpg
@@ -589,7 +584,6 @@ file
 filebyproc.d
 filecoordinationd
 filevaultRecovery
-filewatcher
 filtercalltree
 find
 find2perl
@@ -600,7 +594,6 @@ findrule5.16
 findrule5.18
 finger
 firmwarepasswd
-fission
 fixproc
 flac
 flex
@@ -609,7 +602,6 @@ flow
 fltk-config
 fluid
 fmt
-fog
 fold
 font_cache
 fontrestore
@@ -748,6 +740,7 @@ git
 git-alias
 git-archive-file
 git-authors
+git-auto-push
 git-back
 git-bug
 git-catchup
@@ -905,6 +898,7 @@ grotty
 groups
 grun
 gruncon
+grunt
 gsed
 gseq
 gsettings
@@ -977,6 +971,7 @@ h2xs
 h2xs5.16
 h2xs5.18
 h52gif
+h5c++
 h5cc
 h5copy
 h5debug
@@ -995,7 +990,6 @@ h5unjam
 haddock
 haddock-ghc-7.10.2
 halt
-haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1058,7 +1052,7 @@ idle2
 idle2.6
 idle2.7
 idle3
-idle3.4
+idle3.5
 idlj
 iex
 ifconfig
@@ -1610,10 +1604,6 @@ pango-view
 par.pl
 par5.16.pl
 par5.18.pl
-parallel_cucumber
-parallel_rspec
-parallel_spinach
-parallel_test
 parl
 parl5.16
 parl5.18
@@ -1712,7 +1702,7 @@ pip
 pip2
 pip2.7
 pip3
-pip3.4
+pip3.5
 pirate-music-rename
 pkcs1-conv
 pkg-config
@@ -1844,7 +1834,7 @@ pydoc2
 pydoc2.6
 pydoc2.7
 pydoc3
-pydoc3.4
+pydoc3.5
 pyenv
 pyenv-activate
 pyenv-deactivate
@@ -1868,16 +1858,16 @@ python2.7
 python2.7-config
 python3
 python3-config
-python3.4
-python3.4-config
-python3.4m
-python3.4m-config
+python3.5
+python3.5-config
+python3.5m
+python3.5m-config
 pythonw
 pythonw2
 pythonw2.6
 pythonw2.7
 pyvenv
-pyvenv-3.4
+pyvenv-3.5
 qc2movie
 qcollectiongenerator
 qconvex
@@ -1898,7 +1888,6 @@ quotacheck
 quotaoff
 quotaon
 qvoronoi
-r2r_show
 rabbitmq-defaults
 rabbitmq-env
 rabbitmq-plugins
@@ -1908,11 +1897,8 @@ rabbitmqctl
 rackup
 racoon
 raidutil
-railroad
 rails
-rails_best_practices
 rake
-rake2thor
 ranlib
 rarpd
 ras2tiff
@@ -1948,15 +1934,14 @@ rbenv-which
 rbox
 rcc
 rcp
-rdebug
 rdjpgcom
 rdoc
+react-native
 read
 readlink
 realpath
 rebase
 reboot
-redcloth
 redis-benchmark
 redis-check-aof
 redis-check-dump
@@ -1994,7 +1979,6 @@ rpc.statd
 rpcbind
 rpcgen
 rpcinfo
-rpush
 rs
 rsh
 rspec
@@ -2006,8 +1990,6 @@ ruby
 ruby-build
 ruby-local-exec
 ruby2gv
-ruby_parse
-ruby_parse_extract_error
 run_erl
 runant.pl
 runant.py
@@ -2188,7 +2170,6 @@ splain
 splain5.16
 splain5.18
 split
-spork
 spray
 spring
 sprockets
@@ -2460,8 +2441,6 @@ wirelessproxd
 wish
 wish8.4
 wish8.5
-with-rspec-2
-with-rspec-3
 wkhtmltopdf
 wordbreaker
 wordforms

@@ -1,0 +1,3 @@
+#! /usr/bin/env sh
+
+git ru && git st && git catchup && git up && git push
