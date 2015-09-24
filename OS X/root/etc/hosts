@@ -40,6 +40,7 @@
 
 # So you just became evil? You end up on my bad list!
 0.0.0.0 sourceforge.net
+0.0.0.0 downloads.sourceforge.net
 
 # Personal Advertising Block List
 0.0.0.0 mackeeperapp.mackeeper.com

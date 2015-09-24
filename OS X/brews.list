@@ -28,6 +28,7 @@ cscope
 ctags
 curl
 docker
+docker-compose
 docker-machine
 docker-swarm
 dotwrp
@@ -39,7 +40,6 @@ erlang
 faac
 ffmpeg
 fftw
-fig
 figlet
 findutils
 flac
