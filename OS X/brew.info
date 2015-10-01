@@ -1,3 +1,7 @@
+Please note that these warnings are just used to help the Homebrew maintainers
+with debugging if you file an issue. If everything you use Homebrew for is
+working fine: please don't worry and just ignore them. Thanks!
+
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
 software packages are installed, and what additional flags to use when
@@ -13,8 +17,4 @@ script of the same name. We found the following "config" scripts:
     /Users/gaurav/.pyenv/shims/python3.5-config
     /Users/gaurav/.pyenv/shims/python3.5m-config
     /usr/local/var/rbenv/shims/passenger-config
-Please note that these warnings are just used to help the Homebrew maintainers
-with debugging if you file an issue. If everything you use Homebrew for is
-working fine: please don't worry and just ignore them. Thanks!
-
-215 kegs, 164659 files, 8.0G
+215 kegs, 164512 files, 7.9G
