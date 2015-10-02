@@ -1175,6 +1175,7 @@ json_pp5.18
 jstack
 jstat
 jstatd
+julia
 jvisualvm
 kadmin
 kadmin.local
