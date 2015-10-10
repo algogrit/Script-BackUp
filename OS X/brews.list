@@ -156,6 +156,7 @@ psgrep
 pstree
 pyenv
 pyenv-virtualenv
+pyqt
 python
 qhull
 qrupdate
@@ -177,6 +178,7 @@ sdl_image
 sendemail
 sha2
 siege
+sip
 sl
 solr
 sphinx

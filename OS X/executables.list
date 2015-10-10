@@ -549,6 +549,7 @@ extcheck
 eyapp
 eyapp5.16
 eyapp5.18
+f2py3.5
 faac
 false
 fastboot
@@ -1542,6 +1543,8 @@ nodenv
 nohup
 nokogiri
 nologin
+nosetests
+nosetests-3.4
 notifyd
 notifyutil
 nping
@@ -1848,6 +1851,8 @@ pyenv-virtualenv
 pyenv-virtualenv-init
 pyenv-virtualenv-prefix
 pyenv-virtualenvs
+pylupdate4
+pyrcc4
 python
 python-build
 python-config
@@ -1868,6 +1873,7 @@ pythonw
 pythonw2
 pythonw2.6
 pythonw2.7
+pyuic4
 pyvenv
 pyvenv-3.5
 qc2movie
@@ -2092,6 +2098,7 @@ siege
 siege.config
 siege2csv.pl
 sigdist.d
+sip
 sips
 size
 sl
