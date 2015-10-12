@@ -281,6 +281,7 @@ cksum
 clang
 clang++
 clear
+cloc
 cloog
 clusterdb
 cmake
