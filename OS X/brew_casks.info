@@ -9,7 +9,7 @@ intel-64
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
-0.9.5 (git revision f3cf4; last commit 2015-10-14)
+0.9.5 (git revision 96fe7; last commit 2015-10-14)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -19,9 +19,9 @@ intel-64
 ==> Homebrew Origin:
 https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Version:
-0.57.0
+0.58.0
 ==> Homebrew-cask Install Location:
-/usr/local/Cellar/brew-cask/0.57.0
+/usr/local/Cellar/brew-cask/0.58.0
 ==> Homebrew-cask Staging Location:
 /opt/homebrew-cask/Caskroom
 ==> Homebrew-cask Cached Downloads:
@@ -37,7 +37,7 @@ https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Default Tap Cask Count:
 2797
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.57.0/rubylib
+/usr/local/Cellar/brew-cask/0.58.0/rubylib
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin14
 /Library/Ruby/Site/2.0.0/universal-darwin14
