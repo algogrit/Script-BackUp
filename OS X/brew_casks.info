@@ -9,7 +9,7 @@ intel-64
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
-0.9.5 (git revision 25a1d; last commit 2015-10-19)
+0.9.5 (git revision 387fe; last commit 2015-10-20)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -35,7 +35,7 @@ https://github.com/Homebrew/homebrew
 /usr/local/Library/Taps/caskroom/homebrew-versions
 /usr/local/Library/Taps/popcorn-time/homebrew-cask
 ==> Homebrew-cask Default Tap Cask Count:
-2807
+2808
 ==> Contents of $LOAD_PATH:
 /usr/local/Cellar/brew-cask/0.58.0/rubylib
 /Library/Ruby/Site/2.0.0

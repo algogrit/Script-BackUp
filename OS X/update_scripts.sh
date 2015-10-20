@@ -95,7 +95,10 @@ cp /etc/irbrc root/etc/
 cp /etc/shells root/etc/
 
 # ENV config
-env | sort > env.config
+_ENV_SENSITIVE_INFO="USER\|PASS"
+echo "\033[1;31mIgnoring from ENV: \033[0m"
+env | grep $_ENV_SENSITIVE_INFO
+env | grep -v $_ENV_SENSITIVE_INFO | sort > env.config
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
