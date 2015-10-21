@@ -6,6 +6,8 @@ alias rm="rm -v"
 echo "\033[1;31mBacking up non-system files...\033[0m"
 cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
+cp read_android_packages.sh /tmp
+cp android_packages.list /tmp
 cp README /tmp
 
 echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
@@ -17,6 +19,8 @@ rm -vr *
 echo "\033[1;31mRestoring non-system files...\033[0m"
 cp /tmp/update_scripts.sh .
 cp /tmp/restore_scripts.sh .
+cp /tmp/read_android_packages.sh .
+cp /tmp/android_packages.list .
 cp /tmp/README .
 
 echo "\033[1;31mList installations...\033[0m"
