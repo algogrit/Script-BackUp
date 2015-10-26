@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, 1 formula
-/usr/local/Library/Taps/caskroom/homebrew-cask (4937 files, 111M)
+/usr/local/Library/Taps/caskroom/homebrew-cask (4991 files, 113M)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Library/Taps/caskroom/homebrew-versions (1130 files, 8.0M)
+/usr/local/Library/Taps/caskroom/homebrew-versions (1139 files, 8.1M)
 From: https://github.com/caskroom/homebrew-versions
 
 homebrew/boneyard: unpinned, 110 formulae, 8 commands
@@ -19,13 +19,13 @@ homebrew/fuse: unpinned, 26 formulae
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 559 formulae
-/usr/local/Library/Taps/homebrew/homebrew-science (3734 files, 29M)
+/usr/local/Library/Taps/homebrew/homebrew-science (3770 files, 30M)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/versions: unpinned, 251 formulae
-/usr/local/Library/Taps/homebrew/homebrew-versions (1503 files, 9.1M)
+/usr/local/Library/Taps/homebrew/homebrew-versions (1520 files, 9.2M)
 From: https://github.com/Homebrew/homebrew-versions
 
 popcorn-time/cask: unpinned, no formulae/commands
-/usr/local/Library/Taps/popcorn-time/homebrew-cask (30 files, 124K)
+/usr/local/Library/Taps/popcorn-time/homebrew-cask (30 files, 120K)
 From: https://git.popcorntime.io/caskroom/homebrew-cask.git
