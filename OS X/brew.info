@@ -20,4 +20,8 @@ script of the same name. We found the following "config" scripts:
     /Users/gaurav/.pyenv/shims/python3.5-config
     /Users/gaurav/.pyenv/shims/python3.5m-config
     /usr/local/var/rbenv/shims/passenger-config
-218 kegs, 165315 files, 8.0G
+
+Warning: Your XQuartz (2.7.7) is outdated
+Please install XQuartz 2.7.8:
+  https://xquartz.macosforge.org
+218 kegs, 165351 files, 8.0G
