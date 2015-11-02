@@ -2427,6 +2427,8 @@ wait
 wait4path
 wall
 watchman
+watchman-make
+watchman-wait
 wc
 wdutil
 weakpass_edit
