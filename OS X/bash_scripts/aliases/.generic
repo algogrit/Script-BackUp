@@ -16,25 +16,12 @@ alias gdc="git diff --cached"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
 
-# Ruby
-alias bx="bundle exec"
-alias bxspec="bundle exec rspec"
-
-alias rake_db_reset="bundle exec rake db:drop db:create db:migrate db:seed"
-alias test_db_reset="RAILS_ENV=test bundle exec rake db:drop db:create db:migrate db:seed"
-alias railsdb="bundle exec rails dbconsole"
-
-alias open_app_modified="subl .; git ls-modified app/ | xargs subl"
-
 # Http Server
 alias pyHttpServer="python -m SimpleHTTPServer"
 
 # Spotlight
 alias stop_spotlight="sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
 alias start_spotlight="sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
-
-# Youtube Videos
-alias you-down-all='cat downloads.list | xargs youtube-dl'
 
 # Generic UNIX utils
 alias cat-without-first-line='awk FNR-1'
