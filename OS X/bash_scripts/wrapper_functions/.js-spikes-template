@@ -1,6 +1,0 @@
-function js-spikes-template() {
-	git clone git@github.com:gauravagarwalr/Javascript-Spikes-Template.git $1
-	cd $1
-	rm -rf .git README.md .gitignore
-	cd ..
-}

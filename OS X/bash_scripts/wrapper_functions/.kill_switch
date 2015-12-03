@@ -2,26 +2,29 @@ function kill_switch() {
 	if [ $# -ne 0 ] && [ $1 == "detonate" ]; then
 		echo "Self destruct sequence initiated..."
 		sleep 1
-		echo "Self destructing in 1.."
+		echo "Self destructing in 3..."
 		sleep 1
-		echo "Self destructing in 1.. 2.."
+		echo "Self destructing in 3... 2..."
 		sleep 1
-		echo "Self destructing in 1.. 2.. 3.."
+		echo "Self destructing in 3... 2... 1..."
 
 		ps aux | grep iTunes | grep -v grep | awk '{print $2}' | xargs kill -9
 
-		# Remove all incriminating material
-		rm -rfv /Applications/Copy.app
-		rm -rfv ~/Copy
+		# Remove all materials
+		rm -rfv ~/oDrive/Copy
+
+		rm -rfv ~/Applications/Transmission.app
 		rm -rfv ~/Downloads/Torrents
-		rm rfv ~/Downloads/Pirate\ Books
+		rm rfv ~/Downloads/New
 		rm -rfv ~/Downloads/Music*
+		rm -rfv ~/Desktop/Workout\ Music
 
 		echo "Goodbye!"
 	elif [ $# -ne 0 ] && [ $1 == "weaponize" ]; then
-		# Stopping Copy and Torrents
-		ps aux | grep Copy | grep -v grep | awk '{print $2}' | xargs kill
-		ps aux | grep uTorrent | grep -v grep | awk '{print $2}' | xargs kill
+		# Killing Transmission
+		ps aux | grep -i Transmission | grep -v grep | awk '{print $2}' | xargs kill
+		ps aux | grep -i VLC | grep -v grep | awk '{print $2}' | xargs kill
+		ps aux | grep -i iTunes | grep -v grep | awk '{print $2}' | xargs kill
 
 		osascript -e "set Volume 0"
 
