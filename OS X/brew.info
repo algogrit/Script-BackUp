@@ -2,6 +2,9 @@ Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry and just ignore them. Thanks!
 
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in the App Store.
+
 Warning: python is symlinked to python3
 This will confuse build scripts and in general lead to subtle breakage.
 
@@ -20,4 +23,8 @@ script of the same name. We found the following "config" scripts:
     /Users/gaurav/.pyenv/shims/python3.5-config
     /Users/gaurav/.pyenv/shims/python3.5m-config
     /usr/local/var/rbenv/shims/passenger-config
-218 kegs, 168932 files, 8.3G
+
+Warning: Your Xcode (7.1.1) is outdated
+Please update to Xcode 7.2.
+Xcode can be updated from the App Store.
+218 kegs, 165959 files, 8.3G

@@ -9,7 +9,7 @@ intel-64
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
-0.9.5 (git revision 0763b; last commit 2015-12-09)
+Homebrew 0.9.5 (git revision 51352; last commit 2015-12-10)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -19,9 +19,9 @@ intel-64
 ==> Homebrew Origin:
 https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Version:
-0.59.0
+0.60.0 (git revision f3921e; last commit 2 hours ago)
 ==> Homebrew-cask Install Location:
-/usr/local/Cellar/brew-cask/0.59.0
+/usr/local/Cellar/brew-cask/0.60.0 (error: legacy install. Run "brew uninstall --force brew-cask".)
 ==> Homebrew-cask Staging Location:
 /opt/homebrew-cask/Caskroom
 ==> Homebrew-cask Cached Downloads:
@@ -34,9 +34,10 @@ https://github.com/Homebrew/homebrew
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-2910
+2911
 ==> Contents of $LOAD_PATH:
-/usr/local/Cellar/brew-cask/0.59.0/rubylib
+/usr/local/Library/Taps/caskroom/homebrew-cask/lib
+/usr/local/Library/Homebrew
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin14
 /Library/Ruby/Site/2.0.0/universal-darwin14
@@ -65,7 +66,7 @@ https://github.com/Homebrew/homebrew
 ==> Contents of $BUNDLE_PATH Environment Variable:
 <NONE>
 ==> Contents of $PATH Environment Variable:
-PATH="~/Projects/experimental/bin:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:/Users/gaurav/Custom-Git-Commands:~/.go/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Library/ENV/scm"
+PATH="~/Projects/experimental/bin:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:/Users/gaurav/Custom-Git-Commands:~/.go/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Library/Taps/caskroom/homebrew-cask/cmd:/usr/local/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Library/ENV/scm"
 ==> Contents of $SHELL Environment Variable:
 SHELL="/usr/local/bin/bash"
 ==> Contents of Locale Environment Variables:
