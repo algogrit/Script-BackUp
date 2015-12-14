@@ -739,11 +739,11 @@ gfortran-5
 ggrep
 ggroups
 ghc
-ghc-7.10.2
+ghc-7.10.3
 ghc-pkg
-ghc-pkg-7.10.2
+ghc-pkg-7.10.3
 ghci
-ghci-7.10.2
+ghci-7.10.3
 ghead
 ghostid
 gid
@@ -1005,7 +1005,7 @@ h5repart
 h5stat
 h5unjam
 haddock
-haddock-ghc-7.10.2
+haddock-ghc-7.10.3
 halt
 hash
 hb-ot-shape-closure
@@ -1331,6 +1331,7 @@ lwp-mirror5.18
 lwp-request
 lwp-request5.16
 lwp-request5.18
+lz4_decompress
 lzcat
 lzcmp
 lzdiff
@@ -2010,7 +2011,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-7.10.2
+runghc-7.10.3
 runhaskell
 runocc.d
 ruptime
@@ -2621,6 +2622,7 @@ zipinfo
 zipnote
 zipsplit
 zless
+zlib_decompress
 zmore
 znew
 zprint
