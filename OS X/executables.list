@@ -1595,6 +1595,7 @@ odutil
 oid2name
 oletool
 onig-config
+oom_solr.sh
 open
 opendiff
 opensnoop
@@ -1764,6 +1765,7 @@ podselect5.16
 podselect5.18
 policytool
 posix-spawn-benchmark
+post
 post-grohtml
 postalias
 postcat
