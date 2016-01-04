@@ -756,6 +756,7 @@ git-bug
 git-catchup
 git-changelog
 git-chore
+git-clear
 git-commits-since
 git-contrib
 git-count
@@ -777,6 +778,7 @@ git-gh-pages
 git-graft
 git-guilt
 git-ignore
+git-ignore-io
 git-info
 git-line-summary
 git-local-commits
@@ -795,6 +797,7 @@ git-nuke
 git-obliterate
 git-pr
 git-pristine
+git-psykorebase
 git-pull-request
 git-rebase-patch
 git-receive-pack
@@ -806,6 +809,7 @@ git-reset-file
 git-root
 git-rscp
 git-scp
+git-sed
 git-setup
 git-shell
 git-show-merged-branches
