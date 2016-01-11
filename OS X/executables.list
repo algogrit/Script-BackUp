@@ -653,7 +653,6 @@ g-ir-compiler
 g-ir-generate
 g-ir-scanner
 g[
-galileod
 gapplication
 gatherheaderdoc
 gawk
