@@ -643,6 +643,7 @@ fstyp_udf
 ftp
 funzip
 fuser
+fuzzy_match
 fwkdp
 fwkpfv
 g++
@@ -1736,6 +1737,7 @@ png-fix-itxt
 pngfix
 pngtogd
 pngtogd2
+pod
 pod2html
 pod2html5.16
 pod2html5.18
@@ -2034,6 +2036,7 @@ sag
 sample
 sampleproc
 sandbox-exec
+sandbox-pod
 sandbox-simplify
 sar
 sass
@@ -2498,6 +2501,7 @@ xclock
 xcmsdb
 xcode-select
 xcodebuild
+xcodeproj
 xcompmgr
 xconsole
 xcrun
