@@ -820,6 +820,7 @@ git-squash
 git-subtree
 git-summary
 git-swamp
+git-sync
 git-touch
 git-undo
 git-unlock
