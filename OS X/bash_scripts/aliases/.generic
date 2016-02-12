@@ -29,3 +29,6 @@ alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
 alias play_music="mplayer -vo caca -loop 0 -shuffle -volume 100"
+
+# Ruby
+alias bx='bundle exec'

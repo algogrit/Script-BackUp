@@ -150,6 +150,7 @@ avbdiagnose
 avconvert
 avmetareadwrite
 awk
+aws-rb
 banner
 base64
 basename
@@ -1919,6 +1920,7 @@ racoon
 raidutil
 rails
 rake
+rake-compiler
 ranlib
 rarpd
 ras2tiff
@@ -2081,6 +2083,7 @@ segedit
 sendEmail
 sendmail
 seq
+sequel
 serialver
 serverinfo
 servertool
