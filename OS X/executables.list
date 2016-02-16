@@ -55,6 +55,7 @@ Xorg
 Xquartz
 Xvfb
 [
+__pycache__
 _guard-core
 a2p
 a2p5.16
@@ -143,6 +144,7 @@ automator
 automount
 autoreconf
 autoscan
+autospec
 autoupdate
 auval
 auvaltool
@@ -345,6 +347,7 @@ crc325.16
 crc325.18
 creatbyproc.d
 createdb
+createfontdatachunk.py
 createhomedir
 createlang
 createuser
@@ -457,6 +460,8 @@ display
 dispqlen.d
 distnoted
 ditto
+django-admin
+django-admin.py
 djpeg
 dltest
 dmesg
@@ -531,6 +536,7 @@ enc2xs
 enc2xs5.16
 enc2xs5.18
 encode_keychange
+enhancer.py
 env
 envied
 envvars
@@ -553,6 +559,7 @@ ex
 execsnoop
 expand
 expect
+explode.py
 expr
 extcheck
 eyapp
@@ -744,6 +751,7 @@ ghostid
 gid
 gif2h5
 gif2tiff
+gifmaker.py
 giftogd2
 ginstall
 gio-querymodules
@@ -1613,6 +1621,7 @@ package-stash-conflicts5.16
 package-stash-conflicts5.18
 pagesize
 pagestuff
+painter.py
 pal2rgb
 pango-view
 par.pl
@@ -1711,6 +1720,11 @@ piconv5.16
 piconv5.18
 pictd
 pidpersec.d
+pilconvert.py
+pildriver.py
+pilfile.py
+pilfont.py
+pilprint.py
 ping
 ping6
 pip
@@ -1728,6 +1742,7 @@ pl
 pl2pm
 pl2pm5.16
 pl2pm5.18
+player.py
 plockstat
 pltcl_delmod
 pltcl_listmod
@@ -2286,6 +2301,7 @@ tftp
 thermal
 thin
 thor
+thresholder.py
 thumbnail
 tic
 tidy
@@ -2419,6 +2435,7 @@ vbox-img
 vboxwebsrv
 vi
 view
+viewer.py
 viewres
 vifs
 vigpg
