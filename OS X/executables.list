@@ -153,6 +153,7 @@ avconvert
 avmetareadwrite
 awk
 aws-rb
+aws.rb
 banner
 base64
 basename
