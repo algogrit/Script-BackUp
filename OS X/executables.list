@@ -791,6 +791,7 @@ git-guilt
 git-ignore
 git-ignore-io
 git-info
+git-latest
 git-line-summary
 git-local-commits
 git-lock
