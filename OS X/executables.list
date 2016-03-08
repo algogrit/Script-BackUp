@@ -2228,7 +2228,6 @@ ssh-keygen
 ssh-keyscan
 sshd
 sso_util
-start.boot
 startx
 stat
 stdethers
