@@ -1887,7 +1887,6 @@ pyrcc4
 python
 python-build
 python-config
-python-local-exec
 python2
 python2-config
 python2.6
