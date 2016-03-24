@@ -1517,8 +1517,10 @@ ncurses5.4-config
 ndiff
 ndisasm
 ndk-build
+ndk-depends
 ndk-gdb
 ndk-stack
+ndk-which
 ndp
 neqn
 net-server
