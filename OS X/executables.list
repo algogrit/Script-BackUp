@@ -1400,7 +1400,6 @@ mkfifo
 mkfile
 mkfontdir
 mkfontscale
-mkfs.ntfs
 mklocale
 mknod
 mkntfs
