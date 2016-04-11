@@ -297,6 +297,7 @@ cmake
 cmakexbuild
 cmp
 cmpdylib
+cmpfillin
 coderay
 codesign
 codesign_allocate
@@ -896,6 +897,7 @@ gperf
 gpg-error
 gpg-error-config
 gpinky
+gpmetis
 gpr
 gprintenv
 gprintf
@@ -904,6 +906,7 @@ gptx
 gpwd
 gradle
 grap2graph
+graphchk
 graphicssession
 greadlink
 grealpath
@@ -1352,6 +1355,7 @@ lzma
 lzmadec
 lzmainfo
 lzmore
+m2gmetis
 m4
 mDNSResponder
 mDNSResponderHelper
@@ -1456,6 +1460,7 @@ mp3splt
 mpicalc
 mpioutil
 mplayer
+mpmetis
 mserver5
 msgs
 msqldump
@@ -1520,6 +1525,7 @@ ndk-depends
 ndk-gdb
 ndk-stack
 ndk-which
+ndmetis
 ndp
 neqn
 net-server
