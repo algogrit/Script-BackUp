@@ -10,7 +10,7 @@ intel-64
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
 Homebrew 0.9.9 (git revision b70e4; last commit 2016-04-14)
-Homebrew/homebrew-core (git revision 018d; last commit 2016-04-14)
+Homebrew/homebrew-core (git revision 98b7; last commit 2016-04-15)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -20,7 +20,7 @@ Homebrew/homebrew-core (git revision 018d; last commit 2016-04-14)
 ==> Homebrew Origin:
 https://github.com/Homebrew/brew.git
 ==> Homebrew-cask Version:
-0.60.0 (git revision 8ed63; last commit 4 hours ago)
+0.60.0 (git revision 04a02; last commit 5 hours ago)
 ==> Homebrew-cask Install Location:
 /usr/local/Cellar/brew-cask/0.60.1 (error: legacy install. Run "brew uninstall --force brew-cask".)
 ==> Homebrew-cask Staging Location:
@@ -34,7 +34,7 @@ https://github.com/Homebrew/brew.git
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-3078
+3079
 ==> Contents of $LOAD_PATH:
 /usr/local/Library/Taps/caskroom/homebrew-cask/lib
 /usr/local/Library/Homebrew
