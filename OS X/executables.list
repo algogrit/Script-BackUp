@@ -264,6 +264,7 @@ cd
 certtool
 cfprefsd
 chat
+check-regexp
 checkgid
 checknr
 chflags
@@ -342,6 +343,7 @@ cpio
 cpp
 cpp-4.2
 cpp-5
+cpp2html
 cpu_profiler.d
 cpuwalk.d
 crc32
@@ -1175,6 +1177,7 @@ jackd
 jar
 jarsigner
 java
+java2html
 javac
 javadoc
 javah
@@ -2208,6 +2211,9 @@ soelim
 softwareupdate
 solr
 sort
+source-highlight
+source-highlight-esc.sh
+source-highlight-settings
 spctl
 spelldump
 spfd
@@ -2225,6 +2231,7 @@ spray
 spring
 sprockets
 sqlite3
+src-hilite-lesspipe.sh
 srm
 srptool
 ssh
@@ -2449,9 +2456,7 @@ viewres
 vifs
 vigpg
 vim
-vimcat
 vimdiff
-vimpager
 vimtutor
 vipw
 vis

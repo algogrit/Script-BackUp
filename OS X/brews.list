@@ -183,6 +183,7 @@ siege
 sip
 sl
 solr
+source-highlight
 sphinx
 sqlite
 ssh-copy-id
@@ -204,7 +205,6 @@ unrar
 v8
 veclibfort
 vim
-vimpager
 w3m
 watchman
 webp
