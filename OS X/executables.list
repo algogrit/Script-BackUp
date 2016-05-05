@@ -1378,6 +1378,7 @@ makedepend
 makeinfo
 malloc_history
 man
+manifest
 manpath
 mclient
 mcxquery
@@ -1869,6 +1870,7 @@ pubsub
 puma
 pumactl
 purge
+purge-old-kernels
 pwd
 pwd_mkdb
 pwhich
