@@ -9,8 +9,8 @@ intel-64
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
-Homebrew 0.9.9 (git revision 656c7; last commit 2016-06-03)
-Homebrew/homebrew-core (git revision 8611; last commit 2016-06-03)
+Homebrew 0.9.9 (git revision 2cd81; last commit 2016-06-05)
+Homebrew/homebrew-core (git revision b13e; last commit 2016-06-06)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -20,7 +20,7 @@ Homebrew/homebrew-core (git revision 8611; last commit 2016-06-03)
 ==> Homebrew Origin:
 https://github.com/Homebrew/brew.git
 ==> Homebrew-cask Version:
-0.60.0 (git revision 9c6ad; last commit 32 minutes ago)
+0.60.0 (git revision 4c3ff; last commit 16 minutes ago)
 ==> Homebrew-cask Install Location:
 <NONE>
 ==> Homebrew-cask Staging Location:
@@ -34,7 +34,7 @@ https://github.com/Homebrew/brew.git
 ==> Homebrew-cask Alternate Cask Taps:
 /usr/local/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-cask Default Tap Cask Count:
-3194
+3202
 ==> Contents of $LOAD_PATH:
 /usr/local/Library/Taps/caskroom/homebrew-cask/lib
 /usr/local/Library/Homebrew
