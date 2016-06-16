@@ -527,7 +527,6 @@ elm
 elm-make
 elm-package
 elm-reactor
-elm-reactor-unwrapped
 elm-repl
 emacs
 emacs-24.5
@@ -726,6 +725,7 @@ gem
 gem2gv
 gen_bridge_metadata
 gencat
+gengal
 genstrings
 genv
 geoiplookup
@@ -2004,6 +2004,8 @@ redis-sentinel
 redis-server
 redo_prebinding
 refer
+regmerge
+regview
 reindexdb
 reject
 renice
@@ -2112,6 +2114,7 @@ sed
 seeksize.d
 segedit
 sendEmail
+senddoc
 sendmail
 seq
 sequel
@@ -2211,6 +2214,7 @@ snmpvacm
 snmpwalk
 sntp
 soelim
+soffice
 softwareupdate
 solr
 sort
@@ -2395,6 +2399,7 @@ twm
 type
 typer
 ucs2any
+ui-previewer
 uic
 ul
 ulimit
@@ -2415,6 +2420,9 @@ universalaccessd
 unlink
 unlzma
 unmunch
+uno
+unoinfo
+unopkg
 unpack200
 unrar
 unsetpassword
@@ -2425,6 +2433,8 @@ unzip
 unzipsfx
 update_dyld_shared_cache
 uptime
+urelibs
+uri-encode
 usbkdp
 usernoted
 users
@@ -2465,6 +2475,7 @@ vipw
 vis
 visualinfo
 visudo
+vlc
 vm_stat
 vmmap
 vpnd
@@ -2601,6 +2612,7 @@ xmore
 xpath
 xpath5.16
 xpath5.18
+xpdfimport
 xpr
 xprop
 xrandr
