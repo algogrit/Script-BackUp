@@ -1758,6 +1758,7 @@ pl
 pl2pm
 pl2pm5.16
 pl2pm5.18
+play
 player.py
 plockstat
 pltcl_delmod
@@ -1996,6 +1997,7 @@ readlink
 realpath
 rebase
 reboot
+rec
 redis-benchmark
 redis-check-aof
 redis-check-rdb
@@ -2221,6 +2223,8 @@ sort
 source-highlight
 source-highlight-esc.sh
 source-highlight-settings
+sox
+soxi
 spctl
 spelldump
 spfd
