@@ -148,6 +148,7 @@ p7zip
 pango
 passenger
 pcre
+perl
 phantomjs
 pixman
 pkg-config
@@ -169,6 +170,7 @@ rabbitmq
 rbenv
 readline
 redis
+ruby
 ruby-build
 s-lang
 sbt

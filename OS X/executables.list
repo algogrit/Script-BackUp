@@ -539,6 +539,7 @@ emulator-x86
 enc2xs
 enc2xs5.16
 enc2xs5.18
+encguess
 encode_keychange
 enhancer.py
 env
@@ -1686,6 +1687,7 @@ periodic
 perl
 perl5.16
 perl5.18
+perl5.24.0
 perlbug
 perlbug5.16
 perlbug5.18
