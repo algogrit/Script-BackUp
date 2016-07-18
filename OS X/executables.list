@@ -1463,6 +1463,7 @@ mount_smbfs
 mount_udf
 mount_webdav
 mp3splt
+mp3wrap
 mpicalc
 mpioutil
 mplayer
@@ -2487,7 +2488,6 @@ vmmap
 vpnd
 vsdbutil
 vsyasm
-vwebp
 w
 w3m
 w3mman
