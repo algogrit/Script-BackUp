@@ -1,17 +1,17 @@
 caskroom/cask: unpinned, 1 formula, 1 command
-/usr/local/Library/Taps/caskroom/homebrew-cask (6,880 files, 144.7M)
+/usr/local/Library/Taps/caskroom/homebrew-cask (6,978 files, 146.9M)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Library/Taps/caskroom/homebrew-versions (1,499 files, 6.9M)
+/usr/local/Library/Taps/caskroom/homebrew-versions (1,546 files, 7.0M)
 From: https://github.com/caskroom/homebrew-versions
 
 homebrew/boneyard: unpinned, 177 formulae, 8 commands
 /usr/local/Library/Taps/homebrew/homebrew-boneyard (812 files, 1.4M)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 3594 formulae
-/usr/local/Library/Taps/homebrew/homebrew-core (4,126 files, 24.6M)
+homebrew/core: unpinned, 3595 formulae
+/usr/local/Library/Taps/homebrew/homebrew-core (4,129 files, 24.7M)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 38 formulae
@@ -23,7 +23,7 @@ homebrew/fuse: unpinned, 27 formulae
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 594 formulae
-/usr/local/Library/Taps/homebrew/homebrew-science (912 files, 9.1M)
+/usr/local/Library/Taps/homebrew/homebrew-science (918 files, 9.2M)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/versions: unpinned, 212 formulae
