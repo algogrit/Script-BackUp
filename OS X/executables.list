@@ -482,6 +482,7 @@ domainname
 dot2ruby
 dot_clean
 dotenv
+doxygen
 draw9patch
 drip
 dropdb
@@ -1092,7 +1093,6 @@ iex
 ifconfig
 ifnames
 igawk
-image_to_j2k
 img2txt
 import
 imptrace
@@ -1145,8 +1145,6 @@ irb
 ispellaff2myspell
 isql
 iusql
-j2k_dump
-j2k_to_image
 jack_alias
 jack_bufsize
 jack_connect
@@ -1624,6 +1622,9 @@ open
 opendiff
 opensnoop
 openssl
+opj_compress
+opj_decompress
+opj_dump
 orbd
 osacompile
 osadecompile

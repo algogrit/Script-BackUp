@@ -33,6 +33,7 @@ docker-compose
 docker-machine
 docker-swarm
 dotwrp
+doxygen
 drip
 dvdbackup
 elixir
