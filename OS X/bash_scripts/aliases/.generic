@@ -17,7 +17,7 @@ alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
 
 # Http Server
-alias pyHttpServer="python -m SimpleHTTPServer"
+alias pyHttpServer="python -m http.server"
 
 # Spotlight
 alias stop_spotlight="sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
