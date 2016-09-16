@@ -5,6 +5,8 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Better CoffeeScript",
+		"Jade"
 	],
 	"reveal-on-activate": true,
 	"tab_size": 2,
