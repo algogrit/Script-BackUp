@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Better CoffeeScript",
-		"Jade"
 	],
 	"installed_packages":
 	[
