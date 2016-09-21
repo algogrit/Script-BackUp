@@ -2066,6 +2066,7 @@ runghc
 runghc-8.0.1
 runhaskell
 runocc.d
+rvictl
 rview
 rvim
 rwbypid.d
