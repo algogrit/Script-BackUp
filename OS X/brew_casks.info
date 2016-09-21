@@ -1,9 +1,9 @@
 ==> macOS Release:
-10.10.5
+10.12
 ==> Hardware Architecture:
 intel-64
 ==> Ruby Version:
-2.0.0-p481
+2.0.0-p648
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
@@ -18,7 +18,7 @@ Homebrew/homebrew-core (git revision bcb5c; last commit 2016-08-10)
 ==> Homebrew Origin:
 https://github.com/Homebrew/brew.git
 ==> Homebrew-Cask Version:
-0.60.0 (git revision e2834; last commit 5 weeks ago)
+0.60.0 (git revision e2834; last commit 6 weeks ago)
 ==> Homebrew-Cask Install Location:
 <NONE>
 ==> Homebrew-Cask Staging Location:
@@ -36,16 +36,16 @@ https://github.com/Homebrew/brew.git
 /usr/local/Library/Taps/caskroom/homebrew-cask/lib
 /usr/local/Library/Homebrew
 /Library/Ruby/Site/2.0.0
-/Library/Ruby/Site/2.0.0/x86_64-darwin14
-/Library/Ruby/Site/2.0.0/universal-darwin14
+/Library/Ruby/Site/2.0.0/x86_64-darwin16
+/Library/Ruby/Site/2.0.0/universal-darwin16
 /Library/Ruby/Site
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin14
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin14
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin16
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin16
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin14
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin14
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin16
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin16
 ==> Contents of $RUBYLIB Environment Variable:
 <NONE>
 ==> Contents of $RUBYOPT Environment Variable:
