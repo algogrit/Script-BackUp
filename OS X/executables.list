@@ -186,6 +186,7 @@ bmp2tiff
 bmtoa
 bnepd
 bombardment
+brakeman
 brctl
 brew
 bsdtar
@@ -305,6 +306,7 @@ cmakexbuild
 cmp
 cmpdylib
 cmpfillin
+codeclimate-test-reporter
 coderay
 codesign
 codesign_allocate
