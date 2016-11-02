@@ -5,6 +5,7 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Dictionaries"
 	],
 	"reveal-on-activate": true,
 	"tab_size": 2,

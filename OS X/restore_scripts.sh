@@ -38,10 +38,13 @@ _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 brew install brew-cask
-cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install
+cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install || exit 1
 
 echo "\033[1;31mInstalling all brews...\033[0m"
-cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install
+cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || exit 1
+
+echo "\033[1;31mChanging Shell...\033[0m"
+chsh -s /usr/local/bin/bash
 
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh

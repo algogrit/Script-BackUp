@@ -21,6 +21,8 @@ java7
 julia
 libreoffice
 nosleep
+odrive
+osxfuse
 postman
 rstudio
 screenhero
@@ -29,7 +31,7 @@ skype
 slack
 spectacle
 spotify
-sublime-text3
+sublime-text
 the-unarchiver
 thunderbird
 torbrowser
@@ -38,3 +40,4 @@ vagrant
 virtualbox
 vlc
 xquartz
+yujitach-menumeters

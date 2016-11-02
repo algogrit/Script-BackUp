@@ -1,5 +1,5 @@
 ==> macOS Release:
-10.12
+10.12.1
 ==> Hardware Architecture:
 intel-64
 ==> Ruby Version:
@@ -7,18 +7,19 @@ intel-64
 ==> Ruby Path:
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
-Homebrew 0.9.9 (git revision 06fe3; last commit 2016-08-10)
-Homebrew/homebrew-core (git revision bcb5c; last commit 2016-08-10)
+Homebrew 1.0.9
+Homebrew/homebrew-core (git revision ba9b; last commit 2016-11-02)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
 /usr/local/Cellar
 ==> Homebrew Repository Path:
-/usr/local
+/usr/local/Homebrew
 ==> Homebrew Origin:
-https://github.com/Homebrew/brew.git
+https://github.com/Homebrew/brew
 ==> Homebrew-Cask Version:
-0.60.0 (git revision e2834; last commit 3 months ago)
+Homebrew-Cask 1.0.9
+caskroom/homebrew-cask (git revision 24318; last commit 2016-11-02)
 ==> Homebrew-Cask Install Location:
 <NONE>
 ==> Homebrew-Cask Staging Location:
@@ -27,14 +28,14 @@ https://github.com/Homebrew/brew.git
 /Users/gaurav/Library/Caches/Homebrew/Cask
 0 files, 0B
 ==> Homebrew-Cask Default Tap Path:
-/usr/local/Library/Taps/caskroom/homebrew-cask
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask
 ==> Homebrew-Cask Alternate Cask Taps:
-<NONE>
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions
 ==> Homebrew-Cask Default Tap Cask Count:
-3261
+3424
 ==> Contents of $LOAD_PATH:
-/usr/local/Library/Taps/caskroom/homebrew-cask/lib
-/usr/local/Library/Homebrew
+/usr/local/Homebrew/Library/Homebrew/cask/lib
+/usr/local/Homebrew/Library/Homebrew
 /Library/Ruby/Site/2.0.0
 /Library/Ruby/Site/2.0.0/x86_64-darwin16
 /Library/Ruby/Site/2.0.0/universal-darwin16
@@ -63,7 +64,7 @@ https://github.com/Homebrew/brew.git
 ==> Contents of $BUNDLE_PATH Environment Variable:
 <NONE>
 ==> Contents of $PATH Environment Variable:
-PATH="~/Projects/experimental/bin:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:/Users/gaurav/Custom-Git-Commands:~/.go/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Library/Taps/caskroom/homebrew-cask/cmd:/usr/local/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Library/Homebrew/shims/scm"
+PATH="~/Projects/experimental/bin:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:/Users/gaurav/Custom-Git-Commands:~/.go/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Homebrew/Library/Homebrew/cask/cmd:/usr/local/Homebrew/Library/Homebrew/shims/scm"
 ==> Contents of $SHELL Environment Variable:
 SHELL="/usr/local/bin/bash"
 ==> Contents of Locale Environment Variables:

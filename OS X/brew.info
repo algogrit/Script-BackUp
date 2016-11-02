@@ -13,16 +13,10 @@ compiling and linking.
 Having additional scripts in your path can confuse software installed via
 Homebrew if the config script overrides a system or Homebrew provided
 script of the same name. We found the following "config" scripts:
-    /Users/gaurav/.pyenv/shims/python-config
-    /Users/gaurav/.pyenv/shims/python2-config
-    /Users/gaurav/.pyenv/shims/python2.7-config
-    /Users/gaurav/.pyenv/shims/python3-config
-    /Users/gaurav/.pyenv/shims/python3.5-config
-    /Users/gaurav/.pyenv/shims/python3.5m-config
-    /usr/local/var/rbenv/shims/passenger-config
-
-Warning: You are using OS X 10.12.
-We do not provide support for this pre-release version.
-You may encounter build failures or other breakages.
-Please create pull-requests instead of filing issues.
-224 kegs, 190,320 files, 8.8G
+  /Users/gaurav/.pyenv/shims/python-config
+  /Users/gaurav/.pyenv/shims/python2-config
+  /Users/gaurav/.pyenv/shims/python2.7-config
+  /Users/gaurav/.pyenv/shims/python3-config
+  /Users/gaurav/.pyenv/shims/python3.5-config
+  /Users/gaurav/.pyenv/shims/python3.5m-config
+225 kegs, 198,170 files, 8.1G

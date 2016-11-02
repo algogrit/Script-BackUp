@@ -83,7 +83,6 @@ gtk+
 harfbuzz
 hdf5
 heroku
-heroku-toolbelt
 hicolor-icon-theme
 htop-osx
 hub
@@ -144,6 +143,7 @@ ntfs-3g
 oniguruma
 openjpeg
 openssl
+openssl@1.1
 ossp-uuid
 p11-kit
 p7zip
@@ -182,6 +182,7 @@ sdl2_image
 sdl_image
 sendemail
 sha2
+shared-mime-info
 siege
 sip
 sl
@@ -206,6 +207,7 @@ tpp
 tree
 unixodbc
 unrar
+utf8proc
 v8
 veclibfort
 vim
