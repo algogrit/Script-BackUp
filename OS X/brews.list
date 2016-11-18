@@ -5,6 +5,8 @@ ansible
 ant
 antlr
 apple-gcc42
+apr
+apr-util
 aria2
 atk
 autoconf
@@ -122,6 +124,7 @@ little-cms2
 lua
 macvim
 mad
+mas
 maven
 memcached
 mercurial
