@@ -1,17 +1,3 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> New Formulae
-recon-ng
-tarsnapper
-wu
-==> Updated Formulae
-aws-sdk-cpp
-awscli
-elixirscript
-freetds
-gst-plugins-base
-gstreamer
-
 caskroom/cask
 caskroom/versions
 homebrew/boneyard
