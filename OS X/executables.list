@@ -176,7 +176,6 @@ bitmap
 bless
 blued
 bluetoothaudiod
-bmp2tiff
 bmtoa
 bnepd
 bombardment
@@ -734,7 +733,6 @@ ghead
 ghostid
 gid
 gif2h5
-gif2tiff
 giftogd2
 ginstall
 gio
@@ -999,6 +997,7 @@ h5unjam
 haddock
 haddock-ghc-8.0.1.20161114
 halt
+haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1029,6 +1028,7 @@ hsc2hs
 htcacheclean
 htdbm
 htdigest
+html2haml
 htmldiff
 htmltree
 htmltree5.16
@@ -1241,6 +1241,7 @@ leaks32
 leave
 lein
 less
+lessc
 lessecho
 lesskey
 lex
@@ -1906,7 +1907,6 @@ rails
 rake
 ranlib
 rarpd
-ras2tiff
 raw2tiff
 rb_hash_to_json
 rbenv
@@ -1968,7 +1968,6 @@ resolveLinks
 resolve_stack_dump
 resolveip
 rev
-rgb2ycbcr
 ri
 rm
 rmdir
@@ -1990,6 +1989,8 @@ rtsold
 ruby
 ruby-build
 ruby-local-exec
+ruby_parse
+ruby_parse_extract_error
 run_erl
 runant.pl
 runant.py
@@ -2261,7 +2262,6 @@ tfmtodit
 tftp
 thermal
 thor
-thumbnail
 tic
 tidy
 tiff2bw
