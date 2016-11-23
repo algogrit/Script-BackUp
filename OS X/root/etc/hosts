@@ -18,6 +18,16 @@
 0.0.0.0 superfish.com
 0.0.0.0 www.superfish.com
 
+0.0.0.0 extsgo.com
+0.0.0.0 cas.criteo.com
+0.0.0.0 cdn.user-api.com
+0.0.0.0 log.user-api.com
+0.0.0.0 n.ads5-adnow.com
+0.0.0.0 st-n.ads5-adnow.com
+0.0.0.0 st.n.ads5-adnow.com
+0.0.0.0 sync.user-api.com
+0.0.0.0 sync.users-api.com
+
 0.0.0.0 www.scoopwhoop.com
 0.0.0.0 the9gag.com
 0.0.0.0 www.zergnet.com
