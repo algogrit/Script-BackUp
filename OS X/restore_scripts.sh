@@ -22,12 +22,6 @@ function _install_languages {
   cd "$ACTUAL_WD"
 }
 
-echo "\033[1;31mBacking up to git stash before restoring...\033[0m"
-
-./update_scripts.sh
-git add -A
-git stash
-
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
@@ -41,10 +35,7 @@ brew install brew-cask
 cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install || exit 1
 
 echo "\033[1;31mInstalling all brews...\033[0m"
-cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || exit 1
-
-echo "\033[1;31mChanging Shell...\033[0m"
-chsh -s /usr/local/bin/bash
+cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade || exit 1
 
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
@@ -73,6 +64,9 @@ sudo cp ~/Script-BackUp/OS\ X/root/etc/paths /etc/paths
 sudo cp ~/Script-BackUp/OS\ X/root/etc/hosts /etc/hosts
 sudo cp ~/Script-BackUp/OS\ X/root/etc/shells /etc/shells
 
+echo "\033[1;31mChanging Shell...\033[0m"
+chsh -s /usr/local/bin/bash
+
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/OS\ X/.gitconfig ~/
 cp ~/Script-BackUp/OS\ X/.gitignore ~/
@@ -100,9 +94,6 @@ echo "\033[1;31mInstalling language versions...\033[0m"
 _install_languages ruby rbenv
 _install_languages python pyenv
 _install_languages node nodenv
-
-echo "\033[1;31mPopping git stash after restoring...\033[0m"
-git stash pop
 
 unalias cp
 unalias rm
