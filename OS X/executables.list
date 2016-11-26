@@ -1091,7 +1091,6 @@ ioalloccount
 ioclasscount
 iofile.d
 iofileb.d
-iojs
 iopattern
 iopending
 ioreg

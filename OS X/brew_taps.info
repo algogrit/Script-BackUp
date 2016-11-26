@@ -7,11 +7,11 @@ caskroom/versions: unpinned, no formulae/commands
 From: https://github.com/caskroom/homebrew-versions
 
 homebrew/boneyard: unpinned, 265 formulae, 8 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (339 files, 698.9K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (344 files, 714.5K)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 3643 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,019 files, 17M)
+homebrew/core: unpinned, 3645 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,023 files, 17.3M)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 38 formulae
