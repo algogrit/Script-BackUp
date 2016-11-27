@@ -169,6 +169,7 @@ biff
 binhex
 binhex.pl
 binhex5.18.pl
+bioutil
 bison
 bitesize.d
 bitmap
@@ -184,7 +185,10 @@ bsdtar
 bsondump
 bspatch
 btmmdiagnose
+bundle
+bundler
 bunzip2
+byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -532,6 +536,7 @@ erb
 erl
 erlc
 errinfo
+erubis
 escript
 etags
 etc1tool
@@ -627,6 +632,7 @@ fstyp_udf
 ftp
 funzip
 fuser
+fuzzy_match
 fwkdp
 fwkpfv
 g++
@@ -991,6 +997,7 @@ h5unjam
 haddock
 haddock-ghc-8.0.1.20161117
 halt
+haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1021,6 +1028,7 @@ hsc2hs
 htcacheclean
 htdbm
 htdigest
+html2haml
 htmldiff
 htmltree
 htmltree5.16
@@ -1232,6 +1240,7 @@ leaks32
 leave
 lein
 less
+lessc
 lessecho
 lesskey
 lex
@@ -1246,6 +1255,7 @@ link
 linkicc
 lint
 lipo
+listen
 listres
 lkbib
 lldb
@@ -1536,6 +1546,7 @@ nmedit
 node
 nodenv
 nohup
+nokogiri
 nologin
 notifyd
 notifyutil
@@ -1724,6 +1735,7 @@ png-fix-itxt
 pngfix
 pngtogd
 pngtogd2
+pod
 pod2html
 pod2html5.16
 pod2html5.18
@@ -1818,6 +1830,8 @@ ptargrep
 ptargrep5.16
 ptargrep5.18
 pubsub
+puma
+pumactl
 purge
 purge-old-kernels
 pwd
@@ -1885,6 +1899,7 @@ rabbitmq-plugins
 rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
+rackup
 racoon
 raidutil
 rails
@@ -1972,6 +1987,8 @@ rtsol
 rtsold
 ruby
 ruby-build
+ruby_parse
+ruby_parse_extract_error
 run_erl
 runant.pl
 runant.py
@@ -1979,6 +1996,7 @@ runghc
 runghc-8.0.1.20161117
 runhaskell
 runocc.d
+rvictl
 rview
 rvim
 rwbypid.d
@@ -1994,6 +2012,9 @@ sag
 sample
 sampleproc
 sandbox-exec
+sandbox-pod
+sass
+sass-convert
 say
 sbt
 sc_auth
@@ -2015,6 +2036,7 @@ screen
 screencapture
 script
 scselect
+scss
 scutil
 sdef
 sdiff
@@ -2151,6 +2173,8 @@ splain5.16
 splain5.18
 split
 spray
+spring
+sprockets
 sqlite3
 src-hilite-lesspipe.sh
 srptool
@@ -2235,6 +2259,7 @@ textutil
 tfmtodit
 tftp
 thermal
+thor
 tic
 tidy
 tiff2bw
@@ -2254,6 +2279,7 @@ tiffsplit
 tiffutil
 tificc
 tig
+tilt
 time
 timed
 timedc
@@ -2437,6 +2463,7 @@ x86_64-apple-darwin16.0.0-gcc-ranlib-6
 x86_64-apple-darwin16.0.0-gfortran-6
 xar
 xargs
+xartutil
 xattr
 xattr-2.6
 xattr-2.7
@@ -2448,6 +2475,7 @@ xclock
 xcmsdb
 xcode-select
 xcodebuild
+xcodeproj
 xcompmgr
 xconsole
 xcrun

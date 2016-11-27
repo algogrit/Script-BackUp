@@ -25,6 +25,10 @@ cp /tmp/README .
 
 echo "\033[1;31mList installations...\033[0m"
 
+# Updating brew prior to any brew operations
+brew update
+brew cleanup
+
 # List of Brew installations
 brew list > brews.list
 
@@ -114,8 +118,6 @@ unalias rm
 rm bash_scripts/aliases/.*_secret
 
 echo "\033[1;31mBrew info...\033[0m"
-brew update
-brew cleanup
 brew doctor 2>&1 | tee brew.info
 brew info 2>&1 | tee -a brew.info
 

@@ -193,6 +193,7 @@ solr
 source-highlight
 sox
 sphinx
+sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
