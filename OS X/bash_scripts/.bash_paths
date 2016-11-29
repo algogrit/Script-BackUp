@@ -20,6 +20,9 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # ADDING go PATH
 export PATH="~/.go/bin:$PATH"
 
+# Adding fastlane
+export PATH="~/.fastlane/bin:$PATH"
+
 #### CUSTOM
 
 # Load custom git commands

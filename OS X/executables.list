@@ -47,6 +47,7 @@ VBoxDTrace
 VBoxHeadless
 VBoxManage
 VBoxVRDP
+VERSION
 VirtualBox
 Wand-config
 WirelessRadioManagerd
@@ -186,6 +187,7 @@ bsondump
 bspatch
 btmmdiagnose
 bundle
+bundle_update_checker.rb
 bundler
 bunzip2
 byebug
@@ -257,6 +259,7 @@ cat
 cc
 ccmake
 cd
+cert
 certtool
 cfprefsd
 chat
@@ -437,6 +440,8 @@ debinhex.pl
 debinhex5.18.pl
 defaults
 defragcli
+deliver
+dependencies
 desdp
 dev_mkdb
 dexdump
@@ -553,6 +558,7 @@ eyapp5.18
 faac
 false
 fastboot
+fastlane
 fax2ps
 fax2tiff
 fc
@@ -611,6 +617,7 @@ format-sql
 format-sql5.16
 format-sql5.18
 fortune
+frameit
 freetype-config
 from
 fs_usage
@@ -947,6 +954,7 @@ gtrue
 gtruncate
 gtsort
 gtty
+gulp
 guname
 gunexpand
 guniq
@@ -968,6 +976,7 @@ gwho
 gwhoami
 gxargs
 gyes
+gym
 gzcat
 gzexe
 gzip
@@ -1354,6 +1363,7 @@ man
 manifest
 manpath
 mas
+match
 mclient
 mcxquery
 mcxrefresh
@@ -1621,6 +1631,7 @@ parl5.18
 parldyn
 parldyn5.16
 parldyn5.18
+parse_env.rb
 passenger
 passenger-config
 passenger-install-apache2-module
@@ -1652,6 +1663,7 @@ pdftops
 pdftotext
 pdfunite
 pdisk
+pem
 periodic
 perl
 perl5.16
@@ -1801,6 +1813,7 @@ printenv
 printf
 process
 procsystime
+produce
 productbuild
 productsign
 profiles
@@ -2023,6 +2036,7 @@ scala
 scalac
 scaladoc
 scalap
+scan
 scandeps.pl
 scandeps5.16.pl
 scandeps5.18.pl
@@ -2083,6 +2097,7 @@ siege
 siege.config
 siege2csv.pl
 sigdist.d
+sigh
 sip
 sips
 size
@@ -2109,6 +2124,7 @@ smtpd.py
 smtpd2.6.py
 smtpd2.7.py
 smtpd2.py
+snapshot
 sncfginstall
 sncfgquery
 sncfgremove
