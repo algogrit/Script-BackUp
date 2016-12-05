@@ -5,4 +5,5 @@ homebrew/core
 homebrew/dupes
 homebrew/fuse
 homebrew/science
+homebrew/services
 homebrew/versions

@@ -1,17 +1,17 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,064 files, 68M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,085 files, 68.5M)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (617 files, 55.9M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (619 files, 55.9M)
 From: https://github.com/caskroom/homebrew-versions
 
 homebrew/boneyard: unpinned, 265 formulae, 8 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (344 files, 714.4K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (349 files, 731.4K)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 3647 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,123 files, 20.2M)
+homebrew/core: unpinned, 3656 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,198 files, 22.2M)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 38 formulae
@@ -19,13 +19,17 @@ homebrew/dupes: unpinned, 38 formulae
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, 25 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (82 files, 68.7K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (88 files, 70.8K)
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 636 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,049 files, 10M)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,115 files, 10.4M)
 From: https://github.com/Homebrew/homebrew-science
 
-homebrew/versions: unpinned, 212 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-versions (341 files, 1.2M)
+homebrew/services: unpinned, 1 command
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (39 files, 48.6K)
+From: https://github.com/Homebrew/homebrew-services
+
+homebrew/versions: unpinned, 202 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-versions (361 files, 1.3M)
 From: https://github.com/Homebrew/homebrew-versions

@@ -655,6 +655,7 @@ gapplication
 gatherheaderdoc
 gawk
 gawk-4.1.4
+gb2sum
 gbase32
 gbase64
 gbasename
@@ -762,6 +763,7 @@ git-commits-since
 git-contrib
 git-count
 git-create-branch
+git-credential-netrc
 git-credential-osxkeychain
 git-custom-help
 git-cvsserver
@@ -1413,7 +1415,6 @@ mongooplog
 mongoperf
 mongorestore
 mongos
-mongosniff
 mongostat
 mongotop
 monitor
