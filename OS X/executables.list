@@ -155,6 +155,7 @@ avbutil
 avconvert
 avmetareadwrite
 awk
+aws-rb
 banner
 base64
 basename
@@ -255,6 +256,7 @@ calendar
 cancel
 cap_mkdb
 captoinfo
+carthage
 cat
 cc
 ccmake
@@ -307,6 +309,7 @@ colrm
 column
 comm
 command
+commander
 compare
 complete-ant-cmd.pl
 composite
@@ -473,6 +476,7 @@ docker-machine
 docker-swarm
 domainname
 dot_clean
+dotenv
 doxygen
 draw9patch
 drip
@@ -1111,6 +1115,7 @@ iotop
 ip2cc
 ip2cc5.16
 ip2cc5.18
+ipa
 ipconfig
 ipcount
 ipcount5.16
@@ -2587,6 +2592,8 @@ xzgrep
 xzless
 xzmore
 yacc
+yarn
+yarnpkg
 yasm
 yes
 youtube-dl
