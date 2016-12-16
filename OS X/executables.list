@@ -32,6 +32,7 @@ MvMac
 NetBootClientStatus
 PasswordService
 R
+README.md
 ResMerger
 Rez
 RezDet
@@ -565,6 +566,8 @@ fastboot
 fastlane
 fax2ps
 fax2tiff
+fbsimctl
+fbsimrecord
 fc
 fc-cache
 fc-cat
@@ -705,6 +708,7 @@ gdirname
 gdk-pixbuf-csource
 gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 gdlib-config
 gdparttopng
 gdtopng
@@ -1177,6 +1181,8 @@ jconsole
 jcontrol
 jdb
 jdeps
+jenkins
+jenkins-cli
 jhat
 jhsdb
 jimage

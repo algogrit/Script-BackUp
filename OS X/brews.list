@@ -43,6 +43,7 @@ elixir
 emacs
 erlang
 faac
+fbsimctl
 ffmpeg
 fftw
 figlet
@@ -94,6 +95,7 @@ icu4c
 imagemagick
 isl
 jack
+jenkins
 jmeter
 jpeg
 jq
