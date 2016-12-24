@@ -139,6 +139,7 @@ mp3wrap
 mpfr
 mplayer
 mysql
+nethogs
 nettle
 newt
 nginx
@@ -224,6 +225,7 @@ webp
 wget
 wxmac
 x264
+xctool
 xvid
 xz
 yasm

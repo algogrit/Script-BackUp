@@ -19,9 +19,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python3.5m-config
-
-Warning: Your Xcode (8.1) is outdated.
-Please update to Xcode 8.2 (or delete it).
-Xcode can be updated from the App Store.
-
-232 kegs, 201,907 files, 8.3G
+234 kegs, 214,203 files, 8.4G

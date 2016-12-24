@@ -48,7 +48,6 @@ VBoxDTrace
 VBoxHeadless
 VBoxManage
 VBoxVRDP
-VERSION
 VirtualBox
 Wand-config
 WirelessRadioManagerd
@@ -169,6 +168,7 @@ bdftopcf
 bdftruncate
 bg
 biff
+bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
@@ -189,7 +189,6 @@ bsondump
 bspatch
 btmmdiagnose
 bundle
-bundle_update_checker.rb
 bundler
 bunzip2
 byebug
@@ -262,7 +261,6 @@ cat
 cc
 ccmake
 cd
-cert
 certtool
 cfprefsd
 chat
@@ -444,8 +442,6 @@ debinhex.pl
 debinhex5.18.pl
 defaults
 defragcli
-deliver
-dependencies
 desdp
 dev_mkdb
 dexdump
@@ -624,7 +620,6 @@ format-sql
 format-sql5.16
 format-sql5.18
 fortune
-frameit
 freetype-config
 from
 fs_usage
@@ -718,6 +713,7 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
+generate-api
 gengal
 genstrings
 genv
@@ -740,11 +736,11 @@ gfortran-6
 ggrep
 ggroups
 ghc
-ghc-8.0.1.20161117
+ghc-8.0.1.20161213
 ghc-pkg
-ghc-pkg-8.0.1.20161117
+ghc-pkg-8.0.1.20161213
 ghci
-ghci-8.0.1.20161117
+ghci-8.0.1.20161213
 ghead
 ghostid
 gid
@@ -804,6 +800,7 @@ git-merge-into
 git-merge-repo
 git-missing
 git-multi
+git-multi-sh
 git-new-commits
 git-nuke
 git-obliterate
@@ -986,7 +983,6 @@ gwho
 gwhoami
 gxargs
 gyes
-gym
 gzcat
 gzexe
 gzip
@@ -1014,7 +1010,7 @@ h5repart
 h5stat
 h5unjam
 haddock
-haddock-ghc-8.0.1.20161117
+haddock-ghc-8.0.1.20161213
 halt
 haml
 hash
@@ -1054,6 +1050,7 @@ htmltree5.16
 htmltree5.18
 htop
 htpasswd
+httpclient
 httpd
 httpd-wrapper
 httpdstat.d
@@ -1376,7 +1373,6 @@ man
 manifest
 manpath
 mas
-match
 mclient
 mcxquery
 mcxrefresh
@@ -1538,6 +1534,7 @@ net-snmp-cert
 net-snmp-config
 net-snmp-create-v3-user
 netbiosd
+nethogs
 netstat
 nettle-hash
 nettle-lfib-stream
@@ -1643,7 +1640,6 @@ parl5.18
 parldyn
 parldyn5.16
 parldyn5.18
-parse_env.rb
 passenger
 passenger-config
 passenger-install-apache2-module
@@ -1675,7 +1671,6 @@ pdftops
 pdftotext
 pdfunite
 pdisk
-pem
 periodic
 perl
 perl5.16
@@ -1825,7 +1820,6 @@ printenv
 printf
 process
 procsystime
-produce
 productbuild
 productsign
 profiles
@@ -1999,6 +1993,7 @@ rmic
 rmid
 rmiregistry
 rotatelogs
+rougify
 route
 rpc.lockd
 rpc.statd
@@ -2018,7 +2013,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-8.0.1.20161117
+runghc-8.0.1.20161213
 runhaskell
 runocc.d
 rvictl
@@ -2048,7 +2043,6 @@ scala
 scalac
 scaladoc
 scalap
-scan
 scandeps.pl
 scandeps5.16.pl
 scandeps5.18.pl
@@ -2109,7 +2103,6 @@ siege
 siege.config
 siege2csv.pl
 sigdist.d
-sigh
 sip
 sips
 size
@@ -2136,7 +2129,6 @@ smtpd.py
 smtpd2.6.py
 smtpd2.7.py
 smtpd2.py
-snapshot
 sncfginstall
 sncfgquery
 sncfgremove
@@ -2475,20 +2467,21 @@ write
 wrjpgcom
 wsgen
 wsimport
+ww
 wx-config
 wxrc
 wxrc-3.0
 x11perf
 x11perfcomp
 x264
-x86_64-apple-darwin16.0.0-c++-6
-x86_64-apple-darwin16.0.0-g++-6
-x86_64-apple-darwin16.0.0-gcc-6
-x86_64-apple-darwin16.0.0-gcc-6.2.0
-x86_64-apple-darwin16.0.0-gcc-ar-6
-x86_64-apple-darwin16.0.0-gcc-nm-6
-x86_64-apple-darwin16.0.0-gcc-ranlib-6
-x86_64-apple-darwin16.0.0-gfortran-6
+x86_64-apple-darwin16.3.0-c++-6
+x86_64-apple-darwin16.3.0-g++-6
+x86_64-apple-darwin16.3.0-gcc-6
+x86_64-apple-darwin16.3.0-gcc-6.3.0
+x86_64-apple-darwin16.3.0-gcc-ar-6
+x86_64-apple-darwin16.3.0-gcc-nm-6
+x86_64-apple-darwin16.3.0-gcc-ranlib-6
+x86_64-apple-darwin16.3.0-gfortran-6
 xar
 xargs
 xartutil
@@ -2506,11 +2499,15 @@ xcodebuild
 xcodeproj
 xcompmgr
 xconsole
+xcpretty
+xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose
+xctool
 xcursorgen
 xcutsel
+xde
 xditview
 xdm
 xdmshell

@@ -5,7 +5,7 @@ caffeine
 dash
 dropbox
 elm-platform
-fastlane
+exponent-xde
 firefox
 flash-player
 flux
@@ -43,3 +43,4 @@ virtualbox
 vlc
 xquartz
 yujitach-menumeters
+zeplin
