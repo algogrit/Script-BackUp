@@ -42,5 +42,11 @@ export PAGER=less
 export LESS=-R
 export LESSOPEN="/usr/local/bin/src-hilite-lesspipe.sh %s"
 
+# Homebrew
+export HOMEBREW_NO_ANALYTICS=true
+export HOMEBREW_NO_AUTO_UPDATE=true
+export HOMEBREW_NO_INSECURE_REDIRECT=true
+export HOMEBREW_AUTO_UPDATE_SECS=86400
+
 # Bash uses vi by default (Not for now - Breaks Ctrl-A)
 # set -o vi
