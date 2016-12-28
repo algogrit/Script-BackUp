@@ -20,6 +20,7 @@
 	big-bang = multi up
 	ls-others = ls-files --other
 	pr = pull --rebase
+	add-ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [push]
 	default = current
 [diff]
