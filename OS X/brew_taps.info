@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,226 files, 72.5M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,317 files, 74.9M)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (902 files, 56.4M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (936 files, 56.5M)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -14,24 +14,24 @@ homebrew/boneyard: unpinned, 271 formulae, 8 commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (378 files, 813.3K)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 3677 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,675 files, 35.9M)
+homebrew/core: unpinned, 3678 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,761 files, 38.2M)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 38 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (159 files, 169.6K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (159 files, 168.7K)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, 25 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (108 files, 85.8K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (108 files, 84.9K)
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 643 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,372 files, 12.2M)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,378 files, 12.2M)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (58 files, 75.3K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (58 files, 74.4K)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, 201 formulae
