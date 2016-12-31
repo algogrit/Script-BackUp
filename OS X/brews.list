@@ -95,7 +95,6 @@ icu4c
 imagemagick
 isl
 jack
-jenkins
 jmeter
 jpeg
 jq
@@ -139,7 +138,6 @@ mp3wrap
 mpfr
 mplayer
 mysql
-nethogs
 nettle
 newt
 nginx
@@ -197,7 +195,6 @@ solr
 source-highlight
 sox
 sphinx
-sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse

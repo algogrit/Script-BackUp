@@ -155,7 +155,6 @@ avbutil
 avconvert
 avmetareadwrite
 awk
-aws-rb
 banner
 base64
 basename
@@ -168,11 +167,9 @@ bdftopcf
 bdftruncate
 bg
 biff
-bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
-bioutil
 bison
 bitesize.d
 bitmap
@@ -308,7 +305,6 @@ colrm
 column
 comm
 command
-commander
 compare
 complete-ant-cmd.pl
 composite
@@ -473,7 +469,6 @@ docker-machine
 docker-swarm
 domainname
 dot_clean
-dotenv
 doxygen
 draw9patch
 drip
@@ -559,7 +554,6 @@ eyapp5.18
 faac
 false
 fastboot
-fastlane
 fax2ps
 fax2tiff
 fbsimctl
@@ -641,7 +635,6 @@ fstyp_udf
 ftp
 funzip
 fuser
-fuzzy_match
 fwkdp
 fwkpfv
 g++
@@ -713,7 +706,6 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
-generate-api
 gengal
 genstrings
 genv
@@ -961,7 +953,6 @@ gtrue
 gtruncate
 gtsort
 gtty
-gulp
 guname
 gunexpand
 guniq
@@ -1050,7 +1041,6 @@ htmltree5.16
 htmltree5.18
 htop
 htpasswd
-httpclient
 httpd
 httpd-wrapper
 httpdstat.d
@@ -1116,7 +1106,6 @@ iotop
 ip2cc
 ip2cc5.16
 ip2cc5.18
-ipa
 ipconfig
 ipcount
 ipcount5.16
@@ -1178,8 +1167,6 @@ jconsole
 jcontrol
 jdb
 jdeps
-jenkins
-jenkins-cli
 jhat
 jhsdb
 jimage
@@ -1534,7 +1521,6 @@ net-snmp-cert
 net-snmp-config
 net-snmp-create-v3-user
 netbiosd
-nethogs
 netstat
 nettle-hash
 nettle-lfib-stream
@@ -1623,6 +1609,7 @@ osalang
 osascript
 otool
 p11-kit
+p11tool
 pack200
 package-stash-conflicts
 package-stash-conflicts5.16
@@ -1754,7 +1741,6 @@ png-fix-itxt
 pngfix
 pngtogd
 pngtogd2
-pod
 pod2html
 pod2html5.16
 pod2html5.18
@@ -1993,7 +1979,6 @@ rmic
 rmid
 rmiregistry
 rotatelogs
-rougify
 route
 rpc.lockd
 rpc.statd
@@ -2032,7 +2017,6 @@ sag
 sample
 sampleproc
 sandbox-exec
-sandbox-pod
 sass
 sass-convert
 say
@@ -2467,7 +2451,6 @@ write
 wrjpgcom
 wsgen
 wsimport
-ww
 wx-config
 wxrc
 wxrc-3.0
@@ -2484,7 +2467,6 @@ x86_64-apple-darwin16.3.0-gcc-ranlib-6
 x86_64-apple-darwin16.3.0-gfortran-6
 xar
 xargs
-xartutil
 xattr
 xattr-2.6
 xattr-2.7
@@ -2496,18 +2478,14 @@ xclock
 xcmsdb
 xcode-select
 xcodebuild
-xcodeproj
 xcompmgr
 xconsole
-xcpretty
-xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose
 xctool
 xcursorgen
 xcutsel
-xde
 xditview
 xdm
 xdmshell
