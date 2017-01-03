@@ -70,6 +70,7 @@ glib
 glm
 glpk
 gmp
+gmp@4
 gnu-sed
 gnu-tar
 gnu-units
@@ -94,7 +95,9 @@ hunspell
 icu4c
 imagemagick
 isl
+isl@0.12
 jack
+jenkins
 jmeter
 jpeg
 jq
@@ -138,6 +141,7 @@ mp3wrap
 mpfr
 mplayer
 mysql
+nethogs
 nettle
 newt
 nginx
@@ -195,6 +199,7 @@ solr
 source-highlight
 sox
 sphinx
+sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
