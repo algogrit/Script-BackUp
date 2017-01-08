@@ -18,7 +18,6 @@ bdw-gc
 berkeley-db
 bison
 boost
-buck
 byobu
 cairo
 carthage
@@ -141,12 +140,10 @@ mp3wrap
 mpfr
 mplayer
 mysql
-nethogs
 nettle
 newt
 nginx
 ngrok
-ninja
 nmap
 node
 ntfs-3g
@@ -200,11 +197,9 @@ solr
 source-highlight
 sox
 sphinx
-sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
-swiftlint
 szip
 tbb
 terminal-notifier
