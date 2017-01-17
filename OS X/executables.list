@@ -31,7 +31,6 @@ IronRuby.Tests
 KernelEventAgent
 Libraries
 Magick++-config
-Magick-config
 MagickCore-config
 MagickWand-config
 MergePef
@@ -60,7 +59,6 @@ VBoxHeadless
 VBoxManage
 VBoxVRDP
 VirtualBox
-Wand-config
 WirelessRadioManagerd
 X
 Xephyr
@@ -119,6 +117,7 @@ antRun.pl
 antlr4
 apachectl
 apfs_hfs_convert
+appium
 applesingle
 appletviewer
 apply
@@ -128,6 +127,7 @@ apropos
 apt
 apxs
 ar
+arc
 arch
 aria2c
 arp
@@ -332,6 +332,7 @@ cmakexbuild
 cmp
 cmpdylib
 cmpfillin
+coderay
 codesign
 codesign_allocate
 col
@@ -802,11 +803,11 @@ gfortran-6
 ggrep
 ggroups
 ghc
-ghc-8.0.1.20161213
+ghc-8.0.2
 ghc-pkg
-ghc-pkg-8.0.1.20161213
+ghc-pkg-8.0.2
 ghci
-ghci-8.0.1.20161213
+ghci-8.0.2
 ghead
 ghostid
 gid
@@ -1076,7 +1077,7 @@ h5repart
 h5stat
 h5unjam
 haddock
-haddock-ghc-8.0.1.20161213
+haddock-ghc-8.0.2
 halt
 haml
 hash
@@ -1460,6 +1461,8 @@ macerror5.16
 macerror5.18
 machine
 macpack
+magick
+magick-script
 mail
 mailq
 mailx
@@ -1981,6 +1984,7 @@ profiles
 prove
 prove5.16
 prove5.18
+pry
 ps
 psed
 psed5.16
@@ -2158,6 +2162,7 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rspec
 rsync
 rtadvd
 rtsol
@@ -2171,7 +2176,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-8.0.1.20161213
+runghc-8.0.2
 runhaskell
 runocc.d
 rvictl

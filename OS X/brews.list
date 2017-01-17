@@ -122,6 +122,7 @@ libsndfile
 libtasn1
 libtiff
 libtool
+libunistring
 libvo-aacenc
 libvorbis
 libyaml
