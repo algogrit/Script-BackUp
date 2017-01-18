@@ -8,7 +8,7 @@ intel-64
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
 Homebrew 1.1.7
-Homebrew/homebrew-core (git revision 7af1a; last commit 2017-01-17)
+Homebrew/homebrew-core (git revision 80055; last commit 2017-01-17)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
@@ -19,7 +19,7 @@ Homebrew/homebrew-core (git revision 7af1a; last commit 2017-01-17)
 https://github.com/Homebrew/brew
 ==> Homebrew-Cask Version:
 Homebrew-Cask 1.1.7
-caskroom/homebrew-cask (git revision aa48e; last commit 2017-01-17)
+caskroom/homebrew-cask (git revision 977049; last commit 2017-01-18)
 ==> Homebrew-Cask Install Location:
 <NONE>
 ==> Homebrew-Cask Staging Location:
