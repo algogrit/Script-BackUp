@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,546 files, 80.3M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,559 files, 80.6M)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (1,226 files, 57.0M)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (1,234 files, 57M)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -14,8 +14,8 @@ homebrew/boneyard: unpinned, 276 formulae, 8 commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (440 files, 997.8K)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 3711 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,054 files, 46.9M)
+homebrew/core: unpinned, 3725 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,070 files, 47.4M)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 36 formulae
@@ -26,14 +26,14 @@ homebrew/fuse: unpinned, 25 formulae
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (108 files, 85.8K)
 From: https://github.com/Homebrew/homebrew-fuse
 
-homebrew/science: unpinned, 644 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,645 files, 14.0M)
+homebrew/science: unpinned, 648 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (1,651 files, 14M)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (77 files, 100.5K)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (82 files, 107.8K)
 From: https://github.com/Homebrew/homebrew-services
 
-homebrew/versions: unpinned, 97 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-versions (331 files, 1.2M)
+homebrew/versions: unpinned, 96 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-versions (333 files, 1.2M)
 From: https://github.com/Homebrew/homebrew-versions
