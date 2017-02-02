@@ -104,6 +104,7 @@ jq
 lame
 leiningen
 less
+libarchive
 libatomic_ops
 libcaca
 libdvdcss
@@ -176,11 +177,13 @@ pyenv-virtualenv
 python
 qhull
 qrupdate
+qt5
 r
 rabbitmq
 rbenv
 readline
 redis
+ripgrep
 ruby
 ruby-build
 s-lang

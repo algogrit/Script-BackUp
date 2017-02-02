@@ -1,13 +1,20 @@
 #! /usr/bin/env sh
 
 echo "Comamnds:
-  pristine              - Hard cleans the repository (think fresh clone)
-  wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)
-  nuke                  - Removes the branch from local and also deletes from remote origin
-  swamp                 - List the latest commit's timestamp for each remote branch
-  ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
-  ls-modified           - Lists all the untracked files in the repo (or) the director(y|ies) specified
-  new-commits           - Show log of commits not yet pushed
+  add-nw                -
+  auto-push             -
   catchup               - Show log of commits only in remote repo
-
-  multi                 - See 'git multi help'"
+  latest                -
+  ls-conflicted         -
+  ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
+  ls-new                -
+  ls-untracked          - Lists all the untracked files in the repo (or) the director(y|ies) specified
+  multi                 - See 'git multi help'
+    `git multi help`
+  multi-sh              -
+  new-commits           - Show log of commits not yet pushed
+  nuke                  - Removes the branch from local and also deletes from remote origin
+  pristine              - Hard cleans the repository (think fresh clone)
+  swamp                 - List the latest commit's timestamp for each remote branch
+  up                    -
+  wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)"

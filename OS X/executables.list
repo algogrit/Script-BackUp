@@ -21,6 +21,7 @@ DartConfiguration.tcl
 DeRez
 DevToolsSecurity
 DirectoryService
+F
 FileStatsAgent
 GetFileInfo
 GraphicsMagick++-config
@@ -117,6 +118,7 @@ antRun.pl
 antlr4
 apachectl
 apfs_hfs_convert
+apm
 appium
 applesingle
 appletviewer
@@ -145,6 +147,7 @@ asr
 assetutil
 at
 atobm
+atom
 atos
 atq
 atrm
@@ -1153,6 +1156,7 @@ igawk
 ikdasm
 ilasm
 img2txt
+img2webp
 import
 imptrace
 indent
@@ -2147,6 +2151,7 @@ resolveLinks
 resolve_stack_dump
 resolveip
 rev
+rg
 ri
 rm
 rmdir
