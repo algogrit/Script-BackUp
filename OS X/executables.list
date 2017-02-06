@@ -1065,10 +1065,12 @@ h2xs5.18
 h52gif
 h5c++
 h5cc
+h5clear
 h5copy
 h5debug
 h5diff
 h5dump
+h5format_convert
 h5import
 h5jam
 h5ls
@@ -1079,6 +1081,7 @@ h5repack
 h5repart
 h5stat
 h5unjam
+h5watch
 haddock
 haddock-ghc-8.0.2
 halt
