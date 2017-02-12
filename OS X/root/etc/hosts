@@ -10,9 +10,6 @@
 
 # Custom Temporary Routing
 
-# EAM360
-192.168.1.180 eam360-jenkins.com
-
 # Productivity Hack
 0.0.0.0 imgur.com
 0.0.0.0 www.quora.com
