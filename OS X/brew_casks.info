@@ -8,7 +8,7 @@ intel-64
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
 ==> Homebrew Version:
 Homebrew 1.1.9
-Homebrew/homebrew-core (git revision 37c63; last commit 2017-02-12)
+Homebrew/homebrew-core (git revision a900; last commit 2017-02-13)
 ==> Homebrew Executable Path:
 /usr/local/bin/brew
 ==> Homebrew Cellar Path:
