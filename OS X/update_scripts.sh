@@ -102,6 +102,10 @@ cp /etc/hosts root/etc/
 cp /etc/irbrc root/etc/
 cp /etc/shells root/etc/
 
+# Copy ssh config
+mkdir -p .ssh
+cp ~/.ssh/config .ssh/
+
 # ENV config
 _ENV_SENSITIVE_INFO="USER\|PASS"
 echo "\033[1;31mIgnoring from ENV: \033[0m"

@@ -1,39 +1,16 @@
-==> macOS Release:
-10.12.2
-==> Hardware Architecture:
-intel-64
-==> Ruby Version:
-2.0.0-p648
-==> Ruby Path:
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby
-==> Homebrew Version:
-Homebrew 1.1.9
-Homebrew/homebrew-core (git revision a900; last commit 2017-02-13)
-==> Homebrew Executable Path:
-/usr/local/bin/brew
-==> Homebrew Cellar Path:
-/usr/local/Cellar
-==> Homebrew Repository Path:
-/usr/local/Homebrew
-==> Homebrew Origin:
-https://github.com/Homebrew/brew
-==> Homebrew-Cask Version:
-Homebrew-Cask 1.1.9
-caskroom/homebrew-cask (git revision 6c849; last commit 2017-02-13)
-==> Homebrew-Cask Install Location:
+==> Homebrew-Cask Version
+Homebrew-Cask 1.1.10
+caskroom/homebrew-cask (git revision 02f09; last commit 2017-02-20)
+==> Homebrew-Cask Install Location
 <NONE>
-==> Homebrew-Cask Staging Location:
+==> Homebrew-Cask Staging Location
 /usr/local/Caskroom
-==> Homebrew-Cask Cached Downloads:
-/Users/gaurav/Library/Caches/Homebrew/Cask
-0 files, 0B
-==> Homebrew-Cask Default Tap Path:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask
-==> Homebrew-Cask Alternate Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions
-==> Homebrew-Cask Default Tap Cask Count:
-3544
-==> Contents of $LOAD_PATH:
+==> Homebrew-Cask Cached Downloads
+~/Library/Caches/Homebrew/Cask
+==> Homebrew-Cask Taps:
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3562 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (163 casks)
+==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
 /usr/local/Homebrew/Library/Homebrew
 /Library/Ruby/Site/2.0.0
@@ -47,27 +24,9 @@ caskroom/homebrew-cask (git revision 6c849; last commit 2017-02-13)
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin16
 /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin16
-==> Contents of $RUBYLIB Environment Variable:
-<NONE>
-==> Contents of $RUBYOPT Environment Variable:
-<NONE>
-==> Contents of $RUBYPATH Environment Variable:
-<NONE>
-==> Contents of $RBENV_VERSION Environment Variable:
-<NONE>
-==> Contents of $CHRUBY_VERSION Environment Variable:
-<NONE>
-==> Contents of $GEM_HOME Environment Variable:
-<NONE>
-==> Contents of $GEM_PATH Environment Variable:
-<NONE>
-==> Contents of $BUNDLE_PATH Environment Variable:
-<NONE>
-==> Contents of $PATH Environment Variable:
-PATH="/Users/gaurav/Developer/OSS/xcbuild/build:/Users/gaurav/bash_scripts/bin:/Users/gaurav/bin:/Users/gaurav/Custom-Git-Commands:~/.go/bin:/Users/gaurav/.pyenv/shims:/Users/gaurav/.nodenv/shims:/Users/gaurav/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services/cmd:/usr/local/Homebrew/Library/Homebrew/cask/cmd:/usr/local/Homebrew/Library/Homebrew/shims/scm"
-==> Contents of $SHELL Environment Variable:
-SHELL="/usr/local/bin/bash"
-==> Contents of Locale Environment Variables:
+==> Environment Variables
 LANG="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 LC_CTYPE="UTF-8"
+PATH="~/Developer/OSS/xcbuild/build:~/bash_scripts/bin:~/bin:~/Custom-Git-Commands:~/.go/bin:~/.pyenv/shims:~/.nodenv/shims:~/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard/cmd:/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services/cmd:/usr/local/Homebrew/Library/Homebrew/cask/cmd:/usr/local/Homebrew/Library/Homebrew/shims/scm"
+SHELL="/usr/local/bin/bash"
