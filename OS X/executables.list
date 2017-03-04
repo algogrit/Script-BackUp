@@ -638,6 +638,7 @@ fastcgi-mono-server4
 fastlane
 fax2ps
 fax2tiff
+fbdevicerecord
 fbsimctl
 fbsimrecord
 fc
@@ -1324,6 +1325,7 @@ kill.d
 killall
 kinit
 klist
+knex
 koi8rxterm
 kpasswd
 krb5-config
@@ -1856,7 +1858,7 @@ periodic
 perl
 perl5.16
 perl5.18
-perl5.24.0
+perl5.24.1
 perlbug
 perlbug5.16
 perlbug5.18
