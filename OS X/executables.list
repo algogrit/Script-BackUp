@@ -72,7 +72,6 @@ Xvfb
 a2p
 a2p5.16
 a2p5.18
-aapt
 ab
 ac
 accept
@@ -81,7 +80,6 @@ ack
 aclocal
 aclocal-1.15
 actool
-adb
 addftinfo
 afclip
 afconvert
@@ -95,14 +93,12 @@ afscexpand
 ag
 agentxtrap
 agvtool
-aidl
 airport
 al
 al2
 alias
 amt
 analyze
-android
 animate
 annotate
 ansible
@@ -489,7 +485,6 @@ dbsessmgr4
 dbsql
 dc
 dd
-ddms
 ddns-confgen
 debinhex.pl
 debinhex5.18.pl
@@ -498,7 +493,6 @@ defragcli
 dependency-info-tool
 desdp
 dev_mkdb
-dexdump
 df
 dialyzer
 diff
@@ -519,7 +513,6 @@ djpeg
 dltest
 dmcs
 dmesg
-dmtracedump
 dnctl
 dns-sd
 dnsextd
@@ -531,7 +524,6 @@ domainname
 dot_clean
 dotenv
 doxygen
-draw9patch
 drip
 dropdb
 droplang
@@ -566,7 +558,6 @@ dumpsexp
 dvdbackup
 dwarfdump
 dwebp
-dx
 dynamic_pager
 easy_install
 easy_install-2.6
@@ -597,9 +588,7 @@ emacs-25.1
 emacs-undumped
 emacsclient
 emond
-emulator
-emulator-arm
-emulator-x86
+emulator-check
 enc2xs
 enc2xs5.16
 enc2xs5.18
@@ -618,7 +607,6 @@ errinfo
 erubis
 escript
 etags
-etc1tool
 event_rpcgen.py
 ex
 execsnoop
@@ -631,7 +619,6 @@ eyapp5.16
 eyapp5.18
 faac
 false
-fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
@@ -1117,7 +1104,6 @@ heroku
 hexdump
 hg
 hidutil
-hierarchyviewer
 hiutil
 hmac256
 host
@@ -1127,7 +1113,6 @@ hotspot.d
 hp2ps
 hpc
 hpftodit
-hprof-conv
 hsc2hs
 htcacheclean
 htdbm
@@ -1396,7 +1381,6 @@ libxcsdk.dylib
 libxcworkspace.dylib
 link
 linkicc
-lint
 lipo
 listen
 listres
@@ -1404,7 +1388,6 @@ lkbib
 lldb
 llvm-g++
 llvm-gcc
-llvm-rs-cc
 ln
 lndir
 loads.d
@@ -1547,7 +1530,6 @@ mklocale
 mknod
 mkntfs
 mkpassdb
-mksdcard
 mksnapshot
 mktemp
 mmroff
@@ -1571,8 +1553,6 @@ mongorestore
 mongos
 mongostat
 mongotop
-monitor
-monkeyrunner
 mono
 mono-api-html
 mono-api-info
@@ -2252,6 +2232,7 @@ scss
 scutil
 sdef
 sdiff
+sdkmanager
 sdl-config
 sdl2-config
 sdp
@@ -2588,7 +2569,6 @@ tr
 trace
 traceroute
 traceroute6
-traceview
 transicc
 traptoemail
 tree
@@ -2884,7 +2864,6 @@ zforce
 zgrep
 zic
 zip
-zipalign
 zipcloak
 zipdetails
 zipdetails5.16
