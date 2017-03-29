@@ -15,7 +15,7 @@ homebrew/boneyard: unpinned, 293 formulae, 8 commands
 From: https://github.com/Homebrew/homebrew-boneyard
 
 homebrew/core: unpinned, 4094 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,458 files, 28.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,510 files, 30.3MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, 37 formulae
@@ -27,7 +27,7 @@ homebrew/fuse: unpinned, 28 formulae
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 669 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (2,375 files, 19.5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (2,384 files, 19.5MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
