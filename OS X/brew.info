@@ -19,5 +19,11 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python3.5m-config
+
+Warning: You have unlinked kegs in your Cellar
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  android-ndk
+  android-sdk
 Error: No available formula with the name "android-sdk" 
-241 kegs, 218,202 files, 9GB
+236 kegs, 210,828 files, 8.9GB
