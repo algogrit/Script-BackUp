@@ -2,6 +2,10 @@ Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry and just ignore them. Thanks!
 
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in the App Store.
+
+
 Warning: python is symlinked to python3
 This will confuse build scripts and in general lead to subtle breakage.
 
@@ -20,10 +24,8 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python3.5m-config
 
-Warning: You have unlinked kegs in your Cellar
-Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
-those kegs to fail to run properly once built. Run `brew link` on these:
-  android-ndk
-  android-sdk
-Error: No available formula with the name "android-sdk" 
-236 kegs, 210,828 files, 8.9GB
+Warning: Your Xcode (8.2.1) is outdated.
+Please update to Xcode 8.3 (or delete it).
+Xcode can be updated from the App Store.
+
+241 kegs, 218,165 files, 9GB
