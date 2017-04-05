@@ -588,6 +588,7 @@ extcheck
 eyapp
 eyapp5.16
 eyapp5.18
+f2py
 faac
 false
 fastcgi-mono-server
@@ -1179,8 +1180,12 @@ iprofiler
 iptab
 iptab5.16
 iptab5.18
+iptest
+iptest3
 ipy
 ipy64
+ipython
+ipython3
 ipyw
 ipyw64
 ir
@@ -1257,10 +1262,23 @@ jshell
 json_pp
 json_pp5.16
 json_pp5.18
+jsonschema
 jstack
 jstat
 jstatd
 julia
+jupyter
+jupyter-console
+jupyter-kernelspec
+jupyter-migrate
+jupyter-nbconvert
+jupyter-nbextension
+jupyter-notebook
+jupyter-qtconsole
+jupyter-run
+jupyter-serverextension
+jupyter-troubleshoot
+jupyter-trust
 jvisualvm
 kadmin
 kadmin.local
@@ -1993,6 +2011,7 @@ pyenv-virtualenv-delete
 pyenv-virtualenv-init
 pyenv-virtualenv-prefix
 pyenv-virtualenvs
+pygmentize
 python
 python-build
 python-config
@@ -2399,6 +2418,7 @@ tcpdump
 tcsh
 tee
 telnet
+tensorboard
 terminal-notifier
 test
 testrb
@@ -2409,6 +2429,8 @@ texindex
 textutil
 tfmtodit
 tftp
+theano-cache
+theano-nose
 thermal
 thor
 tic
@@ -2553,6 +2575,7 @@ vim
 vimdiff
 vimtutor
 vipw
+virtualenv
 vis
 visualinfo
 visudo
