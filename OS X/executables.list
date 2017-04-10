@@ -9,7 +9,9 @@
 7za
 7zr
 AppleFileServer
+AssetCacheActivatorUtil
 AssetCacheLocatorUtil
+AssetCacheTetheratorUtil
 BootCacheControl
 BuildStrings
 ClassInitGenerator
@@ -337,12 +339,14 @@ compare
 complete-ant-cmd.pl
 composite
 compress
+compression_tool
 config_data
 config_data5.16
 config_data5.18
 conjure
 convert
 coreaudiod
+corebrightnessdiag
 corelist
 corelist5.16
 corelist5.18
@@ -1085,6 +1089,7 @@ hotspot.d
 hp2ps
 hpc
 hpftodit
+hpmdiagnose
 hsc2hs
 htcacheclean
 htdbm
@@ -2400,6 +2405,7 @@ systemkeychain
 systemsetup
 systemsoundserverd
 systemstats
+systriage
 tab2space
 tabs
 tachograph
@@ -2410,6 +2416,7 @@ tar
 taskinfo
 taskpolicy
 tbl
+tbtdiagnose
 tccutil
 tclsh
 tclsh8.4
@@ -2422,6 +2429,7 @@ tensorboard
 terminal-notifier
 test
 testrb
+tethered-caching
 texi2dvi
 texi2html
 texi2pdf
