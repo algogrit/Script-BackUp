@@ -76,10 +76,11 @@ cp ~/Script-BackUp/OS\ X/.gitconfig ~/
 cp ~/Script-BackUp/OS\ X/.gitignore ~/
 cp ~/Script-BackUp/OS\ X/.vimrc ~/
 cp ~/Script-BackUp/OS\ X/.tmux.conf ~/
-cp ~/Script-BackUp/OS\ X/.vimpagerrc ~/
 cp ~/Script-BackUp/OS\ X/.sackrc ~/
 cp ~/Script-BackUp/OS\ X/.irbrc ~/
+cp ~/Script-BackUp/OS\ X/.gemrc ~/
 cp ~/Script-BackUp/OS\ X/.powconfig ~/
+cp ~/Script-BackUp/OS\ X/.lein/* ~/.lein
 
 echo "\033[1;31mInstall vundle packages...\033[0m"
 vim +BundleInstall +qall

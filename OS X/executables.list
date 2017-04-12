@@ -62,6 +62,7 @@ Xorg
 Xquartz
 Xvfb
 [
+_guard-core
 a2p
 a2p5.16
 a2p5.18
@@ -193,6 +194,7 @@ bnepd
 bombardment
 brctl
 brew
+briar
 bsdtar
 bsondump
 bspatch
@@ -398,6 +400,7 @@ ctail
 ctest
 ctf_insert
 cu
+cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -766,6 +769,7 @@ gengal
 genstrings
 genv
 genxs
+geocode
 geoiplookup
 geoiplookup6
 getconf
@@ -791,6 +795,7 @@ ghc-pkg-8.0.2
 ghci
 ghci-8.0.2
 ghead
+gherkin-ruby
 ghostid
 gid
 gif2h5
@@ -1010,6 +1015,7 @@ gtrue
 gtruncate
 gtsort
 gtty
+guard
 gulp
 guname
 gunexpand
@@ -1408,6 +1414,7 @@ luarocks
 luarocks-5.2
 luarocks-admin
 luarocks-admin-5.2
+luffa
 luit
 lwp-download
 lwp-download5.16
@@ -2428,6 +2435,7 @@ telnet
 tensorboard
 terminal-notifier
 test
+test-cloud
 testrb
 tethered-caching
 texi2dvi

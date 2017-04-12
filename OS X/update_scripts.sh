@@ -68,11 +68,9 @@ cp ~/.gitignore .
 # Copy vimrc
 cp ~/.vimrc .
 
-# Copy irbrc
+# Copy ruby related files
 cp ~/.irbrc .
-
-# Copy vimpagerrc
-cp ~/.vimpagerrc .
+cp ~/.gemrc .
 
 # Copy Sack/Sag config
 cp ~/.sackrc .
@@ -85,6 +83,7 @@ cp -r ~/Custom-Git-Commands .
 
 # Copy Leiningen global profile
 cp -r ~/.lein .
+rm -f .lein/repl-history
 
 # Copy tmux configuration
 cp ~/.tmux.conf .
