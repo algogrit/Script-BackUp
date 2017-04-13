@@ -264,6 +264,7 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
+calabash-ios
 calendar
 calibre
 calibre-complete
@@ -2259,6 +2260,7 @@ siege.config
 siege2csv.pl
 sigdist.d
 signcode
+sim_launcher
 sip
 sips
 size
