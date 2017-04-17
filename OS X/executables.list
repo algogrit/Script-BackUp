@@ -665,6 +665,7 @@ format-sql
 format-sql5.16
 format-sql5.18
 fortune
+frank-calabash
 freetype-config
 from
 fs_usage
@@ -2161,6 +2162,7 @@ ruby
 ruby-build
 ruby_parse
 ruby_parse_extract_error
+run-loop
 run_erl
 runant.pl
 runant.py
