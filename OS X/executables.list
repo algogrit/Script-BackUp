@@ -95,6 +95,7 @@ analyze
 animate
 annotate
 ansible
+ansible-connection
 ansible-console
 ansible-doc
 ansible-galaxy
@@ -1714,8 +1715,6 @@ nslookup
 nsupdate
 ntfs-3g
 ntfs-3g.probe
-ntfs-3g.secaudit
-ntfs-3g.usermap
 ntfscat
 ntfsclone
 ntfscluster

@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.1.13
-caskroom/homebrew-cask (git revision f15ba; last commit 2017-04-18)
+caskroom/homebrew-cask (git revision f098; last commit 2017-04-20)
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
@@ -8,8 +8,8 @@ caskroom/homebrew-cask (git revision f15ba; last commit 2017-04-18)
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3630 casks)
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (176 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3638 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (160 casks)
 /usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (0 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (0 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
