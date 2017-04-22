@@ -19,4 +19,15 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python3.5m-config
-241 kegs, 204,133 files, 8.9GB
+
+Warning: You have unlinked kegs in your Cellar
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  android-ndk
+  android-sdk
+
+Warning: Your Xcode (8.2) is outdated.
+Please update to Xcode 8.3.1 (or delete it).
+Xcode can be updated from the App Store.
+
+236 kegs, 196,869 files, 8.8GB
