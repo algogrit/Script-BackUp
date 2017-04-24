@@ -6,3 +6,5 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 source ~/bash_scripts/custom_completion/.git_commands
+
+. ~/.fastlane/completions/completion.sh
