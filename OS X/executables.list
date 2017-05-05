@@ -822,6 +822,7 @@ git-authors
 git-auto-push
 git-back
 git-bug
+git-bulk
 git-catchup
 git-changelog
 git-chore
@@ -843,6 +844,7 @@ git-delta
 git-effort
 git-extras
 git-feature
+git-force-clone
 git-fork
 git-fresh-branch
 git-gh-pages
@@ -891,6 +893,7 @@ git-show-merged-branches
 git-show-tree
 git-show-unmerged-branches
 git-squash
+git-stamp
 git-standup
 git-subtree
 git-summary
