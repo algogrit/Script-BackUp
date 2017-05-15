@@ -1,6 +1,5 @@
 ack
 android-ndk
-android-sdk
 ansible
 ant
 antlr
@@ -18,7 +17,7 @@ bdw-gc
 berkeley-db
 bison
 boost
-brightness
+buck
 byobu
 cairo
 carthage
@@ -63,7 +62,6 @@ gdk-pixbuf
 geoip
 gettext
 ghc
-ghostscript
 gist
 git
 git-extras
@@ -99,14 +97,14 @@ imagemagick
 isl
 isl@0.12
 jack
-jasper
 jmeter
 jpeg
 jq
+kafka
 lame
-latex2html
 leiningen
 less
+libarchive
 libatomic_ops
 libcaca
 libdvdcss
@@ -145,11 +143,12 @@ mp3wrap
 mpfr
 mplayer
 mysql
-netpbm
+nethogs
 nettle
 newt
 nginx
 ngrok
+ninja
 nmap
 node
 ntfs-3g
@@ -178,11 +177,14 @@ pyenv-virtualenv
 python
 qhull
 qrupdate
+qt
+qt5
 r
 rabbitmq
 rbenv
 readline
 redis
+ripgrep
 ruby
 ruby-build
 s-lang
@@ -207,6 +209,7 @@ sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
+swiftlint
 szip
 tbb
 terminal-notifier
@@ -238,3 +241,4 @@ yasm
 youtube-dl
 z
 zlib
+zookeeper

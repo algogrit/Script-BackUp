@@ -31,7 +31,3 @@ export PATH="$HOME/bin:$PATH"
 
 # ADDING snippet_programs TO THE PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"
-
-# Experimental Install Path
-export EXPERIMENTAL="~/Projects/experimental/bin"
-export PATH=$EXPERIMENTAL:$PATH
