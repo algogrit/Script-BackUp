@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Clipboard Manager",
 		"Cucumber",
