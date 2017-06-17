@@ -82,6 +82,7 @@ gobject-introspection
 gource
 gradle
 graphicsmagick
+graphite2
 grep
 gti
 gtk+
