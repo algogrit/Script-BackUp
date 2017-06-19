@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,863 files, 94.5MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,867 files, 94.6MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (2,858 files, 59.9MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (2,896 files, 60.0MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -14,24 +14,24 @@ homebrew/boneyard: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.8KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4241 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,698 files, 31.1MB)
+homebrew/core: unpinned, 4243 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,728 files, 32.0MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.8KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 90.4KB)
 From: https://github.com/Homebrew/homebrew-fuse
 
-homebrew/science: unpinned, 673 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (3,901 files, 29.9MB)
+homebrew/science: unpinned, 672 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (3,939 files, 30.1MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (193 files, 264.6KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (193 files, 264.5KB)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, no formulae/commands
