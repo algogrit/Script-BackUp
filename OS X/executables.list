@@ -1828,6 +1828,7 @@ pathopens.d
 pax
 pbcopy
 pbpaste
+pbr
 pcap-config
 pcre-config
 pcregrep
@@ -1851,7 +1852,7 @@ periodic
 perl
 perl5.16
 perl5.18
-perl5.24.1
+perl5.26.0
 perlbug
 perlbug5.16
 perlbug5.18
@@ -2555,7 +2556,6 @@ tsort
 tty
 twm
 type
-typer
 uasysdiagnose
 ucs2any
 ui-previewer
@@ -2631,6 +2631,9 @@ vimdiff
 vimtutor
 vipw
 virtualenv
+virtualenv-clone
+virtualenvwrapper.sh
+virtualenvwrapper_lazy.sh
 vis
 visualinfo
 visudo
