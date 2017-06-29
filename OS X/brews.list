@@ -39,6 +39,7 @@ dotwrp
 doxygen
 drip
 dvdbackup
+eigen
 elixir
 emacs
 erlang
@@ -60,6 +61,7 @@ gcc
 gd
 gdbm
 gdk-pixbuf
+gdrive
 geoip
 gettext
 ghc
@@ -95,6 +97,7 @@ htop-osx
 hub
 hunspell
 icu4c
+ilmbase
 imagemagick
 isl
 isl@0.12
@@ -155,6 +158,7 @@ nmap
 node
 ntfs-3g
 oniguruma
+openexr
 openjpeg
 openssl
 openssl@1.1
@@ -177,6 +181,7 @@ pstree
 pyenv
 pyenv-virtualenv
 python
+python3
 qhull
 qrupdate
 qt

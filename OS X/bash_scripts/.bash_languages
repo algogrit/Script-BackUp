@@ -10,21 +10,21 @@ export ELM_HOME=~/.elm
 # Setting the GO Path
 export GOPATH=~/.go
 
-# JAVA GC Tuning
-export set JAVA_OPTS="-Xms256m -Xmx1g"
+# # JAVA GC Tuning
+# export set JAVA_OPTS="-Xms256m -Xmx1g"
 
-# RUBY GC Tuning Options
-## Optimized for Ruby 2
-export RUBY_HEAP_MIN_SLOTS=1250000
-export RUBY_FREE_MIN=12500
-export RUBY_GC_MALLOC_LIMIT=30000000
+# # RUBY GC Tuning Options
+# ## Optimized for Ruby 2
+# export RUBY_HEAP_MIN_SLOTS=1250000
+# export RUBY_FREE_MIN=12500
+# export RUBY_GC_MALLOC_LIMIT=30000000
 
-## For 2.1
-export RUBY_GC_HEAP_INIT_SLOTS=1250000
-export RUBY_GC_HEAP_FREE_SLOTS=12500
+# ## For 2.1
+# export RUBY_GC_HEAP_INIT_SLOTS=1250000
+# export RUBY_GC_HEAP_FREE_SLOTS=12500
 
 ## RAILS SPRING SUCKS
-export DISABLE_SPRING=true
+# export DISABLE_SPRING=true
 
 # Set GNU Plot to use x11 by default
 export GNUTERM=X11
