@@ -1773,6 +1773,13 @@ oid2name
 onig-config
 oom_solr.sh
 open
+opencv_annotation
+opencv_createsamples
+opencv_interactive-calibration
+opencv_traincascade
+opencv_version
+opencv_visualisation
+opencv_waldboost_detector
 opendiff
 opensnoop
 openssl
