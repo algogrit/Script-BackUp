@@ -123,7 +123,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/opt/solr@6.5
 251 kegs, 214,878 files, 9.4GB
