@@ -609,6 +609,7 @@ extcheck
 eyapp
 eyapp5.16
 eyapp5.18
+f2py
 faac
 false
 fastcgi-mono-server
