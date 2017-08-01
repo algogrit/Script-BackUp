@@ -2,6 +2,24 @@ Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry and just ignore them. Thanks!
 
+Warning: python is symlinked to python3
+This will confuse build scripts and in general lead to subtle breakage.
+
+Warning: "config" scripts exist outside your system or Homebrew directories.
+`./configure` scripts often look for *-config scripts to determine if
+software packages are installed, and what additional flags to use when
+compiling and linking.
+
+Having additional scripts in your path can confuse software installed via
+Homebrew if the config script overrides a system or Homebrew provided
+script of the same name. We found the following "config" scripts:
+  /Users/gaurav/.pyenv/shims/python-config
+  /Users/gaurav/.pyenv/shims/python2-config
+  /Users/gaurav/.pyenv/shims/python2.7-config
+  /Users/gaurav/.pyenv/shims/python3-config
+  /Users/gaurav/.pyenv/shims/python3.5-config
+  /Users/gaurav/.pyenv/shims/python3.5m-config
+
 Warning: Unbrewed dylibs were found in /usr/local/lib.
 If you didn't put them there on purpose they could cause problems when
 building Homebrew formulae, and may need to be deleted.
@@ -123,4 +141,25 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
-251 kegs, 213,836 files, 9.4GB
+
+Warning: You have unlinked kegs in your Cellar
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  docker-compose
+Warning: Calling fails_with :llvm is deprecated!
+There is no replacement.
+/usr/local/Homebrew/Library/Homebrew/formula.rb:2373:in `fails_with'
+
+Warning: Calling fails_with :llvm is deprecated!
+There is no replacement.
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+
+Warning: Calling fails_with :llvm is deprecated!
+There is no replacement.
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+
+Warning: Calling fails_with :llvm is deprecated!
+There is no replacement.
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+
+252 kegs, 214,418 files, 9.3GB

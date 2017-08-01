@@ -2,6 +2,7 @@
 2to3-
 2to3-2
 2to3-2.7
+2to3-3.5
 2to3-3.6
 2to32.6
 7z
@@ -72,6 +73,10 @@ accton
 ack
 aclocal
 aclocal-1.15
+activate
+activate.csh
+activate.fish
+activate_this.py
 addftinfo
 afclip
 afconvert
@@ -289,6 +294,7 @@ cert2spc
 certmgr
 certtool
 cfprefsd
+chardetect
 chat
 check-regexp
 checkgid
@@ -481,6 +487,7 @@ dbsql
 dc
 dd
 ddns-confgen
+deactivate
 debinhex.pl
 debinhex5.18.pl
 defaults
@@ -512,6 +519,7 @@ dns-sd
 dnsextd
 docker
 docker-compose
+docker-credential-osxkeychain
 docker-machine
 docker-swarm
 domainname
@@ -547,6 +555,7 @@ dynamic_pager
 easy_install
 easy_install-2.6
 easy_install-2.7
+easy_install-3.5
 easy_install-3.6
 ebook-convert
 ebook-device
@@ -806,11 +815,11 @@ gfortran-7
 ggrep
 ggroups
 ghc
-ghc-8.0.2
+ghc-8.2.1
 ghc-pkg
-ghc-pkg-8.0.2
+ghc-pkg-8.2.1
 ghci
-ghci-8.0.2
+ghci-8.2.1
 ghead
 gherkin-ruby
 ghostid
@@ -1091,7 +1100,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-8.0.2
+haddock-ghc-8.2.1
 halt
 haml
 hash
@@ -1139,6 +1148,7 @@ httxt2dbm
 hub
 hunspell
 hunzip
+hyperkit
 hzip
 i686-apple-darwin11-cpp-4.2.1
 i686-apple-darwin11-g++-4.2.1
@@ -1157,6 +1167,7 @@ idle2
 idle2.6
 idle2.7
 idle3
+idle3.5
 idle3.6
 idlj
 iex
@@ -1216,10 +1227,12 @@ iptab5.16
 iptab5.18
 iptest
 iptest2
+iptest3
 ipy
 ipy64
 ipython
 ipython2
+ipython3
 ipyw
 ipyw64
 ir
@@ -1351,6 +1364,7 @@ kextstat
 kextunload
 kextutil
 keytool
+kg
 kgetcred
 kill
 kill.d
@@ -1750,10 +1764,12 @@ nodenv
 nohup
 nokogiri
 nologin
+notary
 notifyd
 notifyutil
 nping
 npm
+npx
 nroff
 nscurl
 nslookup
@@ -1925,9 +1941,11 @@ pictd
 pidpersec.d
 ping
 ping6
+pip
 pip2
 pip2.7
 pip3
+pip3.5
 pip3.6
 pirate-music-rename
 pkcs1-conv
@@ -2063,6 +2081,7 @@ pydoc2
 pydoc2.6
 pydoc2.7
 pydoc3
+pydoc3.5
 pydoc3.6
 pyenv
 pyenv-activate
@@ -2070,12 +2089,16 @@ pyenv-deactivate
 pyenv-install
 pyenv-sh-activate
 pyenv-sh-deactivate
+pyenv-sh-virtualenvwrapper
+pyenv-sh-virtualenvwrapper_lazy
 pyenv-uninstall
 pyenv-virtualenv
 pyenv-virtualenv-delete
 pyenv-virtualenv-init
 pyenv-virtualenv-prefix
 pyenv-virtualenvs
+pyenv-virtualenvwrapper
+pyenv-virtualenvwrapper_lazy
 pygmentize
 python
 python-build
@@ -2088,6 +2111,10 @@ python2.7
 python2.7-config
 python3
 python3-config
+python3.5
+python3.5-config
+python3.5m
+python3.5m-config
 python3.6
 python3.6-config
 python3.6m
@@ -2097,6 +2124,7 @@ pythonw2
 pythonw2.6
 pythonw2.7
 pyvenv
+pyvenv-3.5
 pyvenv-3.6
 qc2movie
 qconvex
@@ -2218,7 +2246,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-8.0.2
+runghc-8.2.1
 runhaskell
 runocc.d
 rvictl
@@ -2490,6 +2518,7 @@ tcpdump
 tcsh
 tee
 telnet
+tensorboard
 terminal-notifier
 test
 test-cloud
@@ -2502,6 +2531,8 @@ texindex
 textutil
 tfmtodit
 tftp
+theano-cache
+theano-nose
 thermal
 thor
 tic
@@ -2657,6 +2688,7 @@ vm_stat
 vmmap
 vmmap32
 vpnd
+vpnkit
 vsdbutil
 vsyasm
 w
@@ -2678,6 +2710,7 @@ webpng
 wget
 what
 whatis
+wheel
 wheel3
 whereis
 which

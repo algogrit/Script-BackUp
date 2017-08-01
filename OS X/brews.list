@@ -180,6 +180,7 @@ psgrep
 pstree
 pyenv
 pyenv-virtualenv
+pyenv-virtualenvwrapper
 python
 python3
 qhull
