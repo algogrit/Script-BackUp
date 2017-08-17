@@ -1596,6 +1596,7 @@ mongofiles
 mongoimport
 mongooplog
 mongoperf
+mongoreplay
 mongorestore
 mongos
 mongostat
