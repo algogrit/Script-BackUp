@@ -152,14 +152,14 @@ There is no replacement.
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/software_spec.rb:197:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
-252 kegs, 214,418 files, 9.3GB
+252 kegs, 221,072 files, 9.4GB

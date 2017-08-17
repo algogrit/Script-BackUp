@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,104 files, 102.2MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,180 files, 104.0MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,262 files, 60.7MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,292 files, 60.8MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -11,27 +11,27 @@ facebook/fb: unpinned, 3 formulae
 From: https://github.com/facebook/homebrew-fb
 
 homebrew/boneyard: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.8KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.7KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4285 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,962 files, 41.3MB)
+homebrew/core: unpinned, 4306 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,989 files, 43.6MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.8KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 90.4KB)
 From: https://github.com/Homebrew/homebrew-fuse
 
-homebrew/science: unpinned, 661 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,361 files, 33.2MB)
+homebrew/science: unpinned, 647 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,373 files, 33.5MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (198 files, 267.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (198 files, 267.3KB)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, no formulae/commands

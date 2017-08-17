@@ -93,6 +93,7 @@ agvtool
 airport
 al
 al2
+alembic
 alias
 amt
 analyze
@@ -619,6 +620,7 @@ eyapp
 eyapp5.16
 eyapp5.18
 f2py
+f2py2.7
 faac
 false
 fastcgi-mono-server
@@ -1087,6 +1089,7 @@ h5copy
 h5debug
 h5diff
 h5dump
+h5fc
 h5format_convert
 h5import
 h5jam
@@ -1327,6 +1330,8 @@ jupyter-run
 jupyter-serverextension
 jupyter-troubleshoot
 jupyter-trust
+jupyterhub
+jupyterhub-singleuser
 jvisualvm
 kadmin
 kadmin.local
@@ -1522,6 +1527,7 @@ makealias
 makecert
 makedepend
 makeinfo
+mako-render
 malloc_history
 malloc_history32
 man
@@ -2739,14 +2745,14 @@ wxrc-3.0
 x11perf
 x11perfcomp
 x264
-x86_64-apple-darwin16.5.0-c++-7
-x86_64-apple-darwin16.5.0-g++-7
-x86_64-apple-darwin16.5.0-gcc-7
-x86_64-apple-darwin16.5.0-gcc-7.1.0
-x86_64-apple-darwin16.5.0-gcc-ar-7
-x86_64-apple-darwin16.5.0-gcc-nm-7
-x86_64-apple-darwin16.5.0-gcc-ranlib-7
-x86_64-apple-darwin16.5.0-gfortran-7
+x86_64-apple-darwin16.7.0-c++-7
+x86_64-apple-darwin16.7.0-g++-7
+x86_64-apple-darwin16.7.0-gcc-7
+x86_64-apple-darwin16.7.0-gcc-7.2.0
+x86_64-apple-darwin16.7.0-gcc-ar-7
+x86_64-apple-darwin16.7.0-gcc-nm-7
+x86_64-apple-darwin16.7.0-gcc-ranlib-7
+x86_64-apple-darwin16.7.0-gfortran-7
 xar
 xargs
 xartutil
