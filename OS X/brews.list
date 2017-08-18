@@ -106,6 +106,7 @@ jmeter
 jpeg
 jq
 kafka
+kubernetes-cli
 lame
 leiningen
 less
