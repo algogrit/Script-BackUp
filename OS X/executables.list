@@ -62,6 +62,7 @@ Xorg
 Xquartz
 Xvfb
 [
+__pycache__
 _guard-core
 a2p
 a2p5.16
@@ -291,6 +292,10 @@ cccheck
 ccmake
 ccrewrite
 cd
+celery
+celerybeat
+celeryd
+celeryd-multi
 cert2spc
 certmgr
 certtool
@@ -622,6 +627,7 @@ eyapp5.18
 f2py
 f2py2.7
 faac
+fabmanager
 false
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -674,9 +680,11 @@ finger
 firmwarepasswd
 fixproc
 flac
+flask
 flex
 flex++
 flow
+flower
 fltk-config
 fluid
 fmt
@@ -713,6 +721,7 @@ fstyp_udf
 ftp
 funzip
 fuser
+futurize
 fuzzy_match
 fwkdp
 fwkpfv
@@ -1053,6 +1062,8 @@ guard
 gulp
 guname
 gunexpand
+gunicorn
+gunicorn_paster
 guniq
 gunits
 gunits_cur
@@ -1302,6 +1313,7 @@ jmeter
 jobs
 join
 jot
+jp.py
 jpegtran
 jpgicc
 jps
@@ -1535,6 +1547,7 @@ man
 manifest
 manpath
 markdown-calibre
+markdown_py
 mas
 mclient
 mconfig
@@ -1865,6 +1878,7 @@ passenger-memory-stats
 passenger-status
 passwd
 paste
+pasteurize
 patch
 pathchk
 pathopens.d
@@ -1932,6 +1946,7 @@ pg_test_timing
 pg_upgrade
 pg_xlogdump
 pgbench
+pgfutter
 pgrep
 phantomjs
 phar
@@ -2084,6 +2099,7 @@ pwhich
 pwhich5.16
 pwhich5.18
 pwpolicy
+pybabel
 pydoc
 pydoc2
 pydoc2.6
@@ -2241,6 +2257,18 @@ rpcgen
 rpcinfo
 rs
 rspec
+rst2html.py
+rst2html4.py
+rst2html5.py
+rst2latex.py
+rst2man.py
+rst2odt.py
+rst2odt_prepstyles.py
+rst2pseudoxml.py
+rst2s5.py
+rst2xetex.py
+rst2xml.py
+rstpep2html.py
 rsync
 rtadvd
 rtsol
@@ -2444,6 +2472,7 @@ split
 spray
 spring
 sprockets
+sqlformat
 sqlite3
 sqlmetal
 sqlsharp
@@ -2474,6 +2503,7 @@ su
 subl
 sudo
 sum
+superset
 svcutil
 svn
 svnadmin

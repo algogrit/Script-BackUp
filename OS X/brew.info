@@ -145,10 +145,11 @@ Unexpected .pc files:
 Warning: You have unlinked kegs in your Cellar
 Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
+  docker
   docker-compose
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/formula.rb:2373:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/formula.rb:2379:in `fails_with'
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
@@ -162,4 +163,4 @@ Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
 /usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
-253 kegs, 214,695 files, 9.4GB
+253 kegs, 215,347 files, 9.4GB
