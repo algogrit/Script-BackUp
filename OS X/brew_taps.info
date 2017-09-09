@@ -1,25 +1,25 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,348 files, 108.2MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,361 files, 108.6MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,309 files, 60.9MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,385 files, 61.0MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (61 files, 50.9KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (64 files, 53.3KB)
 From: https://github.com/facebook/homebrew-fb
 
 homebrew/boneyard: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.8KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.7KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4341 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,085 files, 130.8MB)
+homebrew/core: unpinned, 4344 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,102 files, 132.5MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.8KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
@@ -27,7 +27,7 @@ homebrew/fuse: unpinned, no formulae/commands
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 625 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,403 files, 34.0MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,457 files, 34.3MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command

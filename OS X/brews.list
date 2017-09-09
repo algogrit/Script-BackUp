@@ -179,6 +179,7 @@ postgresql
 pow
 psgrep
 pstree
+pv
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper

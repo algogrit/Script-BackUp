@@ -680,6 +680,7 @@ finger
 firmwarepasswd
 fixproc
 flac
+flash
 flask
 flex
 flex++
@@ -2093,6 +2094,7 @@ puma
 pumactl
 purge
 purge-old-kernels
+pv
 pwd
 pwd_mkdb
 pwhich
