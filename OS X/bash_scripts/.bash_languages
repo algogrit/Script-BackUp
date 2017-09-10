@@ -23,7 +23,7 @@ export GOPATH=~/.go
 # export RUBY_GC_HEAP_INIT_SLOTS=1250000
 # export RUBY_GC_HEAP_FREE_SLOTS=12500
 
-## RAILS SPRING SUCKS
+# ## RAILS SPRING SUCKS
 # export DISABLE_SPRING=true
 
 # Set GNU Plot to use x11 by default

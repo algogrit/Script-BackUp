@@ -17,7 +17,7 @@ if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 # Brew Python
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
-# ### pyenv
+## pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; eval "$(pyenv virtualenv-init -)"; fi
 
 # ADDING go PATH

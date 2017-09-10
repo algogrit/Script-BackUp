@@ -47,7 +47,7 @@ ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 rbenv versions > ruby.versions
 nodenv versions > node.versions
-pyenv versions > python.versions
+pyenv versions | grep -v "-" > python.versions
 
 rbenv rehash
 nodenv rehash
@@ -106,7 +106,7 @@ mkdir -p .ssh
 cp ~/.ssh/config .ssh/
 
 # ENV config
-_ENV_SENSITIVE_INFO="USER\|PASS"
+_ENV_SENSITIVE_INFO="USER\|PASS\|SECRET"
 echo "\033[1;31mIgnoring from ENV: \033[0m"
 env | grep $_ENV_SENSITIVE_INFO
 env | grep -v $_ENV_SENSITIVE_INFO | sort > env.config
