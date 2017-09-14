@@ -585,7 +585,7 @@ elm-package
 elm-reactor
 elm-repl
 emacs
-emacs-25.2
+emacs-25.3
 emacs-undumped
 emacsclient
 emond
