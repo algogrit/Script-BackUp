@@ -105,6 +105,10 @@ cp /etc/shells root/etc/
 mkdir -p .ssh
 cp ~/.ssh/config .ssh/
 
+# Copy bin executables
+mkdir -p bin
+cp ~/bin/howdoi bin/
+
 # ENV config
 _ENV_SENSITIVE_INFO="USER\|PASS\|SECRET\|APPLE_ID"
 echo "\033[1;31mIgnoring from ENV: \033[0m"

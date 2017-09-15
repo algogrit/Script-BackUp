@@ -92,6 +92,11 @@ echo "\033[1;31mSetting Up Sublime...\033[0m"
 cp ~/Script-BackUp/OS\ X/Sublime/packages.list ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
 cp ~/Script-BackUp/OS\ X/Sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
+echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
+wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/$(uname -s)/flash
+chmod +x ~/bin/flash
+cp ~/Script-BackUp/OS\ X/bin/* ~/bin
+
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
 

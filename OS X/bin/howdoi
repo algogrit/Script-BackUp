@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+PYENV_VERSION=3.5.0 /Users/gaurav/.pyenv/shims/howdoi -a $@
