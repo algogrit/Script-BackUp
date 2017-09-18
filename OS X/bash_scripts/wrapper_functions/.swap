@@ -1,6 +1,6 @@
 function swap()
 {
-    local TMPFILE=/tmp/tmp.$$
+    local TMPFILE=/tmp/tmpy-swappy-filey.$$
     mv "$1" $TMPFILE
     mv "$2" "$1"
     mv $TMPFILE "$2"

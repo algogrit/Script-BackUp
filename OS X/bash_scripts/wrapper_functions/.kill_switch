@@ -15,6 +15,7 @@ function kill_switch() {
 
 		rm -rfv ~/Applications/Transmission.app
 		rm -rfv ~/Downloads/Torrents
+		rm -rfv ~/Downloads/Illegal*
 		rm rfv ~/Downloads/New
 		rm -rfv ~/Downloads/Music*
 		rm -rfv ~/Desktop/Workout\ Music
