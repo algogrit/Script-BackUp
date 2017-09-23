@@ -81,6 +81,7 @@ gnuplot
 gnutls
 go
 gobject-introspection
+goenv
 gource
 gradle
 graphicsmagick

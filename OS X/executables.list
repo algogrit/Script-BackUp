@@ -1,3 +1,4 @@
+
 2to3
 2to3-
 2to3-2
@@ -981,9 +982,13 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
+go-build
 gobject-query
 god
 godoc
+goenv
+goenv-install
+goenv-uninstall
 gofmt
 gotour
 gource
