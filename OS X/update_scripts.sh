@@ -48,10 +48,12 @@ ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 rbenv versions > ruby.versions
 nodenv versions > node.versions
 pyenv versions | grep -v "-" > python.versions
+goenv versions > go.versions
 
 rbenv rehash
 nodenv rehash
 pyenv rehash
+goenv rehash
 
 # List of all executables in $PATH
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list

@@ -324,6 +324,7 @@ cefspdflatex
 certtool
 cfftot1
 cfprefsd
+chardetect
 chat
 check-regexp
 checkcites
@@ -1225,6 +1226,7 @@ host
 hostinfo
 hostname
 hotspot.d
+howdoi
 hp2ps
 hpc
 hpcdtoppm
@@ -2581,6 +2583,7 @@ pyenv-virtualenv-init
 pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pygmentex
+pygmentize
 python
 python-build
 python-config

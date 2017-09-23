@@ -104,6 +104,7 @@ echo "\033[1;31mInstalling language versions...\033[0m"
 _install_languages ruby rbenv
 _install_languages python pyenv
 _install_languages node nodenv
+_install_languages go goenv
 
 unalias cp
 unalias rm
