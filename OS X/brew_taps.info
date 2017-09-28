@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,286 files, 78.8MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,296 files, 79.1MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,682 files, 61.5MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (3,775 files, 61.6MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -14,8 +14,8 @@ homebrew/boneyard: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 805.9KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4363 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,704 files, 117.5MB)
+homebrew/core: unpinned, 4366 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,751 files, 120.3MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
@@ -23,15 +23,15 @@ homebrew/dupes: unpinned, no formulae/commands
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 90.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 89.5KB)
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 622 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,703 files, 35.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (4,748 files, 36.1MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (203 files, 275.2KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (203 files, 274.3KB)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, no formulae/commands
