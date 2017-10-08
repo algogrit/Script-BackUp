@@ -26,7 +26,7 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   ghostscript
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/formula.rb:2379:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/formula.rb:2381:in `fails_with'
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
