@@ -8,3 +8,5 @@ fi
 complete -F _ssh tssh
 
 source ~/bash_scripts/custom_completion/.git_commands
+
+. ~/.fastlane/completions/completion.sh
