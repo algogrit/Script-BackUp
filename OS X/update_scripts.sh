@@ -57,6 +57,7 @@ goenv rehash
 
 # List of all executables in $PATH
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list
 
 echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
