@@ -400,7 +400,6 @@ creatbyproc.d
 create-react-app
 createdb
 createhomedir
-createlang
 createuser
 crlrefresh
 cron
@@ -537,7 +536,6 @@ dotenv
 doxygen
 drip
 dropdb
-droplang
 dropuser
 drutil
 dscacheutil
@@ -746,7 +744,7 @@ gapi2-parser
 gapplication
 gatherheaderdoc
 gawk
-gawk-4.1.4
+gawk-4.2.0
 gb2sum
 gbase32
 gbase64
@@ -1196,7 +1194,6 @@ idlj
 iex
 ifconfig
 ifnames
-igawk
 ikdasm
 ilasm
 img2txt
@@ -1944,16 +1941,16 @@ pg_ctl
 pg_dump
 pg_dumpall
 pg_isready
-pg_receivexlog
+pg_receivewal
 pg_recvlogical
-pg_resetxlog
+pg_resetwal
 pg_restore
 pg_rewind
 pg_standby
 pg_test_fsync
 pg_test_timing
 pg_upgrade
-pg_xlogdump
+pg_waldump
 pgbench
 pgfutter
 pgrep
@@ -1991,9 +1988,6 @@ pl2pm5.16
 pl2pm5.18
 play
 plockstat
-pltcl_delmod
-pltcl_listmod
-pltcl_loadmod
 pluginkit
 plutil
 pmset
