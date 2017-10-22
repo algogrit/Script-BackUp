@@ -812,6 +812,7 @@ geocode
 geoiplookup
 geoiplookup6
 getconf
+geth
 getopt
 getopts
 gexpand
@@ -2565,6 +2566,7 @@ terminal-notifier
 test
 test-cloud
 testrb
+testrpc
 tethered-caching
 texi2dvi
 texi2html
