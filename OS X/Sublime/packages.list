@@ -40,6 +40,8 @@
 		"Text Pastry",
 		"TodoReview",
 		"Tomorrow Color Schemes",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Vue Syntax Highlight",
+		"VueFormatter"
 	]
 }

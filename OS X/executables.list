@@ -1692,9 +1692,7 @@ mvim
 mvimdiff
 mvimex
 mvn
-mvn.cmd
 mvnDebug
-mvnDebug.cmd
 mvnyjp
 my_print_defaults
 myisam_ftdump
@@ -2736,6 +2734,9 @@ vpnd
 vpnkit
 vsdbutil
 vsyasm
+vue
+vue-init
+vue-list
 w
 w3m
 w3mman
