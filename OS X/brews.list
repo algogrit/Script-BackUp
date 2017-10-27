@@ -101,6 +101,7 @@ hunspell
 icu4c
 ilmbase
 imagemagick
+imagemagick@6
 isl
 isl@0.12
 jack
@@ -115,6 +116,7 @@ less
 libarchive
 libatomic_ops
 libcaca
+libcroco
 libdvdcss
 libdvdread
 libevent
@@ -126,6 +128,7 @@ libmp3splt
 libmpc
 libogg
 libpng
+librsvg
 libsamplerate
 libsndfile
 libtasn1

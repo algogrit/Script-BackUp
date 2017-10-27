@@ -402,6 +402,7 @@ createdb
 createhomedir
 createuser
 crlrefresh
+croco-0.6-config
 cron
 crontab
 csc
@@ -414,6 +415,7 @@ csi
 csplit
 csreq
 csrutil
+csslint-0.6
 ct_run
 ctags
 ctail
@@ -2272,6 +2274,7 @@ rst2s5.py
 rst2xetex.py
 rst2xml.py
 rstpep2html.py
+rsvg-convert
 rsync
 rtadvd
 rtsol
