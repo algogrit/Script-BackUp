@@ -157,4 +157,4 @@ Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
 /usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
-258 kegs, 218,907 files, 9.5GB
+257 kegs, 218,432 files, 9.4GB

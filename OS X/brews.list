@@ -203,7 +203,6 @@ ripgrep
 ruby
 ruby-build
 s-lang
-sbt
 scala
 scons
 sdl
