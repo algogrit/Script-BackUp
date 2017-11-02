@@ -200,6 +200,7 @@ rbenv
 readline
 redis
 ripgrep
+rsync
 ruby
 ruby-build
 s-lang
