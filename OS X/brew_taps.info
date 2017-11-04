@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,789 files, 92.7MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,801 files, 93.0MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (4,126 files, 62.2MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (4,166 files, 62.3MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -14,12 +14,12 @@ homebrew/boneyard: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.7KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4393 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,210 files, 146.8MB)
+homebrew/core: unpinned, 4397 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,228 files, 148MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.8KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
@@ -27,11 +27,11 @@ homebrew/fuse: unpinned, no formulae/commands
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, 617 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (5,009 files, 37.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (5,027 files, 38MB)
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (213 files, 290.3KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (221 files, 294.9KB)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, no formulae/commands
