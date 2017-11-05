@@ -5,6 +5,12 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
+		"Elixir",
+		"GitGutter",
+		"JSX",
+		"LESS",
+		"SublimeLinter"
 	],
 	"reveal-on-activate": true,
 	"tab_size": 2,
