@@ -2,12 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"BracketHighlighter",
-		"Elixir",
-		"GitGutter",
-		"JSX",
-		"LESS",
-		"SublimeLinter"
 	],
 	"installed_packages":
 	[
