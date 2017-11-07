@@ -55,6 +55,7 @@ VBoxManage
 VBoxVRDP
 VirtualBox
 WirelessRadioManagerd
+Wireshark
 X
 Xephyr
 Xfake
@@ -286,7 +287,9 @@ calibre-smtp
 calibredb
 cancel
 cap_mkdb
+capinfos
 captoinfo
+captype
 carthage
 caspol
 cat
@@ -505,6 +508,7 @@ defragcli
 desdp
 dev_mkdb
 df
+dftest
 dialyzer
 diff
 diff3
@@ -556,6 +560,7 @@ dtd2xsd
 dtrace
 dtruss
 du
+dumpcap
 dumpsexp
 dvdbackup
 dwarfdump
@@ -576,6 +581,7 @@ ebrowse
 echo
 ecpg
 ed
+editcap
 editres
 edquota
 egrep
@@ -623,6 +629,7 @@ exrmaketiled
 exrmultipart
 exrmultiview
 exrstdattr
+extcap
 extcheck
 eyapp
 eyapp5.16
@@ -1242,6 +1249,7 @@ ipcount5.16
 ipcount5.18
 ipcrm
 ipcs
+ipmap.html
 ippfind
 ipptool
 iprofiler
@@ -1581,6 +1589,7 @@ mdvalidater
 memcached
 memory_pressure
 mencoder
+mergecap
 mesg
 metaflac
 mib2c
@@ -2180,9 +2189,11 @@ racoon
 raidutil
 rails
 rake
+randpkt
 ranlib
 rarpd
 raw2tiff
+rawshark
 rb_hash_to_json
 rbenv
 rbenv---version
@@ -2234,6 +2245,7 @@ regview
 reindexdb
 reject
 renice
+reordercap
 repairHomePermissions
 replace
 repquota
@@ -2368,6 +2380,7 @@ sh
 sha2
 shar
 sharing
+sharkd
 shasum
 shasum5.16
 shasum5.18
@@ -2572,8 +2585,10 @@ texi2dvi
 texi2html
 texi2pdf
 texindex
+text2pcap
 textutil
 tfmtodit
+tfshark
 tftp
 theano-cache
 theano-nose
@@ -2643,6 +2658,7 @@ troff
 true
 truffle
 tset
+tshark
 tsort
 tty
 twm
@@ -2768,6 +2784,7 @@ whoami
 whois
 wifi-status
 wirelessproxd
+wireshark
 wish
 wish8.4
 wish8.5
