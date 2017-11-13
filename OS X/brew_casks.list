@@ -5,8 +5,6 @@ android-file-transfer
 android-sdk
 android-studio
 caffeine
-calibre
-dash
 dropbox
 elm-platform
 evernote
@@ -34,12 +32,9 @@ parsehub
 postman
 provisioning
 rstudio
-scrivener
 skype
 slack
 spectacle
-spotify
-steam
 sublime-text
 teamviewer
 the-unarchiver
@@ -54,4 +49,3 @@ vnc-viewer
 wireshark
 xquartz
 yujitach-menumeters
-zeplin

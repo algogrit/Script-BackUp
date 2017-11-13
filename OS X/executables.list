@@ -279,14 +279,6 @@ cairo-trace
 cal
 calabash-ios
 calendar
-calibre
-calibre-complete
-calibre-customize
-calibre-debug
-calibre-parallel
-calibre-server
-calibre-smtp
-calibredb
 cancel
 cap_mkdb
 capinfos
@@ -573,12 +565,6 @@ easy_install-2.6
 easy_install-2.7
 easy_install-3.5
 easy_install-3.6
-ebook-convert
-ebook-device
-ebook-edit
-ebook-meta
-ebook-polish
-ebook-viewer
 ebrowse
 echo
 ecpg
@@ -667,7 +653,6 @@ fddist
 fdesetup
 fdisk
 feathers
-fetch-ebook-metadata
 ffmpeg
 ffprobe
 ffserver
@@ -1494,9 +1479,6 @@ lpq
 lpr
 lprm
 lpstat
-lrf2lrs
-lrfviewer
-lrs2lrf
 ls
 lsappinfo
 lsbom
@@ -1567,7 +1549,6 @@ malloc_history32
 man
 manifest
 manpath
-markdown-calibre
 markdown_py
 mas
 mclient
@@ -2775,7 +2756,6 @@ watchman-wait
 wc
 wdutil
 weakpass_edit
-web2disk
 weblatency.d
 webpmux
 webpng
