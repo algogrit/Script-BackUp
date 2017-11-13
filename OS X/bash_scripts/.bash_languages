@@ -1,5 +1,9 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
 
+# Set Flags for compiling with Brew's OpenSSL
+export CPPFLAGS=-I$(brew --prefix openssl)/include
+export LDFLAGS=-L$(brew --prefix openssl)/lib
+
 # HOME SWEET HOME
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export ANDROID_HOME=/usr/local/opt/android-sdk
