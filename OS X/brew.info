@@ -141,9 +141,14 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
+
+Warning: Your Xcode (9.0) is outdated.
+Please update to Xcode 9.1 (or delete it).
+Xcode can be updated from the App Store.
+
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
-/usr/local/Homebrew/Library/Homebrew/formula.rb:2380:in `fails_with'
+/usr/local/Homebrew/Library/Homebrew/formula.rb:2363:in `fails_with'
 
 Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
@@ -157,4 +162,4 @@ Warning: Calling fails_with :llvm is deprecated!
 There is no replacement.
 /usr/local/Homebrew/Library/Homebrew/software_spec.rb:207:in `fails_with'
 
-258 kegs, 219,906 files, 9.4GB
+258 kegs, 219,916 files, 9.6GB

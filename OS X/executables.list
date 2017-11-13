@@ -70,6 +70,7 @@ a2p
 a2p5.16
 a2p5.18
 ab
+abigen
 ac
 accept
 accton
@@ -201,6 +202,7 @@ bmtoa
 bnepd
 bokeh
 bombardment
+bootnode
 bower
 brctl
 brew
@@ -617,7 +619,9 @@ erubis
 escript
 etags
 event_rpcgen.py
+evm
 ex
+examples
 execsnoop
 expand
 expect
@@ -643,6 +647,7 @@ fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
 fastlane
+faucet
 fax2ps
 fax2tiff
 fbdevicerecord
@@ -1869,6 +1874,7 @@ osascript
 otool
 p11-kit
 p11tool
+p2psim
 pack200
 package-stash-conflicts
 package-stash-conflicts5.16
@@ -2104,6 +2110,7 @@ ptargrep5.18
 pubsub
 puma
 pumactl
+puppeth
 purge
 purge-old-kernels
 pv
@@ -2259,6 +2266,7 @@ resolveip
 rev
 rg
 ri
+rlpdump
 rm
 rmdir
 rmic
@@ -2531,6 +2539,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swarm
 swift
 swiftc
 swiftlint
@@ -2788,6 +2797,7 @@ wireshark
 wish
 wish8.4
 wish8.5
+wnode
 wordbreaker
 wordforms
 wordlist2hunspell
