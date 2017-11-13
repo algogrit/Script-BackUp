@@ -118,7 +118,6 @@ antRun.pl
 antlr4
 apachectl
 apfs_hfs_convert
-appium
 applesingle
 appletviewer
 apply
@@ -128,7 +127,6 @@ apropos
 apt
 apxs
 ar
-arc
 arch
 aria2c
 arp
@@ -186,7 +184,6 @@ bdftopcf
 bdftruncate
 bg
 biff
-bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
@@ -202,7 +199,6 @@ bnepd
 bokeh
 bombardment
 bootnode
-bower
 brctl
 brew
 briar
@@ -215,7 +211,6 @@ buck
 bundle
 bundler
 bunzip2
-byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -275,7 +270,6 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
-calabash-ios
 calendar
 cancel
 cap_mkdb
@@ -598,7 +592,6 @@ erb
 erl
 erlc
 errinfo
-erubis
 escript
 etags
 event_rpcgen.py
@@ -622,14 +615,12 @@ eyapp
 eyapp5.16
 eyapp5.18
 f2py
-f2py2.7
 faac
 fabmanager
 false
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
-fastlane
 faucet
 fax2ps
 fax2tiff
@@ -692,7 +683,6 @@ format-sql
 format-sql5.16
 format-sql5.18
 fortune
-frank-calabash
 freetype-config
 from
 fs_usage
@@ -793,7 +783,6 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
-generate-api
 gengal
 genstrings
 genv
@@ -1054,7 +1043,6 @@ gtruncate
 gtsort
 gtty
 guard
-gulp
 guname
 gunexpand
 gunicorn
@@ -1111,7 +1099,6 @@ h5watch
 haddock
 haddock-ghc-8.2.1
 halt
-haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1142,7 +1129,6 @@ hsc2hs
 htcacheclean
 htdbm
 htdigest
-html2haml
 htmldiff
 htmltree
 htmltree5.16
@@ -1380,7 +1366,6 @@ kill.d
 killall
 kinit
 klist
-knex
 koi8rxterm
 kpasswd
 krb5-config
@@ -1417,7 +1402,6 @@ leaks32
 leave
 lein
 less
-lessc
 lessecho
 lesskey
 lex
@@ -2068,8 +2052,6 @@ ptargrep
 ptargrep5.16
 ptargrep5.18
 pubsub
-puma
-pumactl
 puppeth
 purge
 purge-old-kernels
@@ -2261,9 +2243,6 @@ rtsol
 rtsold
 ruby
 ruby-build
-ruby_parse
-ruby_parse_extract_error
-run-loop
 run_erl
 runant.pl
 runant.py
@@ -2288,8 +2267,6 @@ sample
 sampleproc
 sandbox-exec
 sandbox-pod
-sass
-sass-convert
 say
 sc_auth
 sc_usage
@@ -2310,7 +2287,6 @@ screen
 screencapture
 script
 scselect
-scss
 scutil
 sdef
 sdiff
@@ -2363,7 +2339,6 @@ siege.config
 siege2csv.pl
 sigdist.d
 signcode
-sim_launcher
 sip
 sips
 size
@@ -2456,8 +2431,6 @@ splain5.16
 splain5.18
 split
 spray
-spring
-sprockets
 sqlformat
 sqlite3
 sqlmetal
@@ -2766,7 +2739,6 @@ wsdl
 wsdl2
 wsgen
 wsimport
-ww
 wx-config
 wxrc
 wxrc-3.0
@@ -2800,7 +2772,6 @@ xcodeproj
 xcompmgr
 xconsole
 xcpretty
-xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose
