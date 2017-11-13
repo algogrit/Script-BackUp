@@ -1,9 +1,7 @@
 ack
-android-ndk
 ansible
 ant
 antlr
-apple-gcc42
 apr
 apr-util
 aria2
@@ -22,7 +20,6 @@ buck
 byobu
 cairo
 carthage
-celt
 chicken
 cloc
 cloog
@@ -44,7 +41,6 @@ emacs
 erlang
 erlang@19
 faac
-fbsimctl
 ffmpeg
 fftw
 figlet
@@ -158,7 +154,6 @@ nethogs
 nettle
 newt
 nginx
-ngrok
 ninja
 nmap
 node

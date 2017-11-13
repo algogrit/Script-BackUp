@@ -37,7 +37,6 @@ MvMac
 NetBootClientStatus
 PasswordService
 R
-README.md
 ResMerger
 Rez
 RezDet
@@ -257,7 +256,6 @@ bzip2recover
 bzless
 bzmore
 c++
-c++-4.2
 c++-7
 c++filt
 c2ph
@@ -385,7 +383,6 @@ cpanp5.16
 cpanp5.18
 cpio
 cpp
-cpp-4.2
 cpp-7
 cpp2html
 cpu_profiler.d
@@ -636,9 +633,6 @@ fastlane
 faucet
 fax2ps
 fax2tiff
-fbdevicerecord
-fbsimctl
-fbsimrecord
 fc
 fc-cache
 fc-cat
@@ -727,7 +721,6 @@ fuzzy_match
 fwkdp
 fwkpfv
 g++
-g++-4.2
 g++-7
 g-ir-annotation-tool
 g-ir-compiler
@@ -750,7 +743,6 @@ gbase64
 gbasename
 gcat
 gcc
-gcc-4.2
 gcc-7
 gcc-ar-7
 gcc-nm-7
@@ -765,7 +757,6 @@ gcksum
 gcomm
 gcore
 gcov
-gcov-4.2
 gcov-7
 gcov-dump-7
 gcov-tool-7
@@ -823,7 +814,6 @@ gfind
 gfmt
 gfold
 gfortran
-gfortran-4.2
 gfortran-7
 ggrep
 ggroups
@@ -1170,10 +1160,6 @@ hunspell
 hunzip
 hyperkit
 hzip
-i686-apple-darwin11-cpp-4.2.1
-i686-apple-darwin11-g++-4.2.1
-i686-apple-darwin11-gcc-4.2.1
-i686-apple-darwin11-gfortran-4.2.1
 ibtool
 iceauth
 ico
@@ -1737,11 +1723,6 @@ nclist
 ncurses5.4-config
 ndiff
 ndisasm
-ndk-build
-ndk-depends
-ndk-gdb
-ndk-stack
-ndk-which
 ndmetis
 ndp
 neqn
@@ -1773,7 +1754,6 @@ nfsd
 nfsiod
 nfsstat
 nginx
-ngrok
 nice
 ninja
 nl
