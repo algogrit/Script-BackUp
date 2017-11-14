@@ -141,9 +141,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
-
-Warning: Your Xcode (9.0) is outdated.
-Please update to Xcode 9.1 (or delete it).
-Xcode can be updated from the App Store.
-
 252 kegs, 161,666 files, 6.8GB
