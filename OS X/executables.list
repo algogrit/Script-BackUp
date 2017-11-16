@@ -331,6 +331,7 @@ cmakexbuild
 cmp
 cmpdylib
 cmpfillin
+code
 coderay
 codesign
 codesign_allocate
