@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 
 folder_paths = ARGV
-types = ['avi', 'mp4', 'srt', 'mkv']
+types = ['avi', 'mp4', 'srt', 'mkv', 'ass']
 
 dry_run = false
 
