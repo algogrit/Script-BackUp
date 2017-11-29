@@ -136,6 +136,7 @@ libvorbis
 libyaml
 little-cms2
 lua
+lynx
 macvim
 mad
 mas
@@ -166,6 +167,7 @@ openssl@1.1
 ossp-uuid
 p11-kit
 p7zip
+pandoc
 pango
 passenger
 pcre

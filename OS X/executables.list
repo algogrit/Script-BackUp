@@ -927,6 +927,7 @@ glib-gettextize
 glib-mkenums
 glibtool
 glibtoolize
+glide
 glink
 gln
 glocate
@@ -1482,6 +1483,7 @@ lwp-mirror5.18
 lwp-request
 lwp-request5.16
 lwp-request5.18
+lynx
 lz4_decompress
 lzcat
 lzcmp
@@ -1827,6 +1829,7 @@ package-stash-conflicts5.18
 pagesize
 pagestuff
 pal2rgb
+pandoc
 pango-view
 par.pl
 par5.16.pl
@@ -2712,6 +2715,7 @@ wc
 wdutil
 weakpass_edit
 weblatency.d
+webpinfo
 webpmux
 webpng
 wget
