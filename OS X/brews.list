@@ -91,7 +91,6 @@ hdf5
 heroku
 hicolor-icon-theme
 htop
-htop-osx
 hub
 hunspell
 icu4c
@@ -190,7 +189,6 @@ python3
 qhull
 qrupdate
 qt
-qt5
 r
 rabbitmq
 rbenv
