@@ -75,6 +75,8 @@ ack
 aclocal
 aclocal-1.15
 activate
+activate.csh
+activate.fish
 adb
 addftinfo
 afclip
