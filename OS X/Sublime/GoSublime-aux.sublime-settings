@@ -1,0 +1,18 @@
+{
+	"9o.hist./Users/gaurav/.go/src/github.com/gauravagarwalr/Yet-Another-Expense-Splitter":
+	[
+		"help"
+	],
+	"9o.hist./Users/gaurav/Library/Application Support/Sublime Text 3/Packages/GoSublime":
+	[
+		"sh echo $GOPATH",
+		"sh echo $PATH",
+		"$Path",
+		"$_wd",
+		"exit",
+		"clear"
+	],
+	"ann": "a17.11.27-1",
+	"install_version": "r17.11.27-1",
+	"version": "r17.11.27-1"
+}

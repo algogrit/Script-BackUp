@@ -908,6 +908,7 @@ glib-gettextize
 glib-mkenums
 glibtool
 glibtoolize
+glide
 glink
 gln
 glocate
@@ -944,6 +945,7 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+goimports
 gource
 gpaste
 gpathchk

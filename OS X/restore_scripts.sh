@@ -92,8 +92,7 @@ echo "\033[1;31mRestoring Custom git commands...\033[0m"
 cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/
 
 echo "\033[1;31mSetting Up Sublime...\033[0m"
-cp ~/Script-BackUp/OS\ X/Sublime/packages.list ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
-cp ~/Script-BackUp/OS\ X/Sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/$(uname -s)/flash

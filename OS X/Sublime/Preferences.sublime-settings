@@ -1,13 +1,13 @@
 {
-  "color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night-Italics (SL).tmTheme",
-  "ensure_newline_at_eof_on_save": true,
-  "font_size": 14,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "tab_size": 2,
-  "theme": "Default.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night-Italics (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }

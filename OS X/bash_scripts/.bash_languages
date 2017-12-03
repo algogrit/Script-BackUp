@@ -14,6 +14,9 @@ export ELM_HOME=~/.elm
 # Setting the GO Path
 export GOPATH=~/.go
 
+# ADDING $GOPATH TO THE PATH
+export PATH="$GOPATH/bin:$PATH"
+
 # # JAVA GC Tuning
 # export set JAVA_OPTS="-Xms256m -Xmx1g"
 

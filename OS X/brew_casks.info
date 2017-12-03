@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.3.8
-caskroom/homebrew-cask (git revision bee55; last commit 2017-12-02)
+caskroom/homebrew-cask (git revision 533a6; last commit 2017-12-03)
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
@@ -8,8 +8,8 @@ caskroom/homebrew-cask (git revision bee55; last commit 2017-12-02)
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3849 casks)
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (175 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3851 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (173 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
 /usr/local/Homebrew/Library/Homebrew
@@ -29,5 +29,5 @@ caskroom/homebrew-cask (git revision bee55; last commit 2017-12-02)
 LANG="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 LC_CTYPE="UTF-8"
-PATH="~/bash_scripts/bin:~/bin:~/Custom-Git-Commands:~/.goenv/shims:~/.goenv/bin:~/.go/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.1/shims:~/.pyenv/shims:/usr/local/opt/python/libexec/bin:~/.nodenv/shims:~/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/Homebrew/Library/Homebrew/shims/scm"
+PATH="~/.go/bin:~/bash_scripts/bin:~/bin:~/Custom-Git-Commands:~/.goenv/shims:~/.goenv/bin:~/.go/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.1/shims:~/.pyenv/shims:/usr/local/opt/python/libexec/bin:~/.nodenv/shims:~/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/Homebrew/Library/Homebrew/shims/scm"
 SHELL="/usr/local/bin/bash"

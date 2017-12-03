@@ -40,9 +40,9 @@ brew tap | xargs brew tap-info > brew_taps.info
 brew cask list > brew_casks.list
 
 # List of Custom installations
-echo "Listing /Applications.." > applications.list
+echo "Listing /Applications.." | tee applications.list
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
-echo "\nListing User Applications.." >> applications.list
+echo "\nListing User Applications.." | tee -a applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 rbenv versions > ruby.versions
@@ -93,8 +93,7 @@ cp ~/.tmux.conf .
 
 # Copy List of Sublime Packages
 mkdir -p Sublime
-cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings Sublime/packages.list
-cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings Sublime/
+cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings Sublime/
 
 # Copy files relative to root
 mkdir -p root
