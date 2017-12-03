@@ -94,6 +94,7 @@ cp ~/.tmux.conf .
 # Copy List of Sublime Packages
 mkdir -p Sublime
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings Sublime/
+rm Sublime/GoSublime-aux.sublime-settings
 
 # Copy files relative to root
 mkdir -p root
