@@ -20,11 +20,9 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 ## pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; eval "$(pyenv virtualenv-init -)"; fi
 
-# Brew go
-export PATH="~/.go/bin:$PATH"
-
 ## goenv
 export GOENV_ROOT="$HOME/.goenv"
+export GOPATH=$GOENV_ROOT
 export PATH="$GOENV_ROOT/bin:$PATH"
 eval "$(goenv init -)"
 

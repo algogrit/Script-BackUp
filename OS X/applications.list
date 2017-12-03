@@ -1,4 +1,4 @@
-Listing /Applications..
+[1;31mListing /Applications...[0m
 Adobe
 Adobe Acrobat Reader DC
 Android File Transfer
@@ -70,6 +70,5 @@ iBooks
 iTerm
 iTunes
 odrive
-
-Listing User Applications..
+[1;31mListing User Applications...[0m
 Chrome Apps

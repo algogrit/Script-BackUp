@@ -40,9 +40,9 @@ brew tap | xargs brew tap-info > brew_taps.info
 brew cask list > brew_casks.list
 
 # List of Custom installations
-echo "Listing /Applications.." | tee applications.list
+echo "\033[1;31mListing /Applications...\033[0m" | tee applications.list
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
-echo "\nListing User Applications.." | tee -a applications.list
+echo "\033[1;31mListing User Applications...\033[0m" | tee -a applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 rbenv versions > ruby.versions
