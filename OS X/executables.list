@@ -938,6 +938,7 @@ gnutls-serv
 go
 go-build
 gobject-query
+gocode
 god
 godoc
 goenv
@@ -945,6 +946,8 @@ goenv-install
 goenv-uninstall
 gofmt
 goimports
+golint
+gorename
 gource
 gpaste
 gpathchk
@@ -1029,6 +1032,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gvdir
 gview

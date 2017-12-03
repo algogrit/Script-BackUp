@@ -3,6 +3,13 @@
 	[
 		"help"
 	],
+	"9o.hist./Users/gaurav/.goenv/src/github.com/gauravagarwalr/Yet-Another-Expense-Splitter":
+	[
+		"build",
+		"exit",
+		"run",
+		"clear"
+	],
 	"9o.hist./Users/gaurav/Library/Application Support/Sublime Text 3/Packages/GoSublime":
 	[
 		"sh echo $GOPATH",
