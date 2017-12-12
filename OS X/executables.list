@@ -1183,6 +1183,7 @@ initdb
 innochecksum
 install
 install-info
+install_compass
 install_name_tool
 installer
 installvst
@@ -1582,7 +1583,6 @@ mongodump
 mongoexport
 mongofiles
 mongoimport
-mongooplog
 mongoperf
 mongoreplay
 mongorestore

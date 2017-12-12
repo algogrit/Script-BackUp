@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
-Homebrew-Cask 1.3.9
-caskroom/homebrew-cask (git revision 2a573; last commit 2017-12-11)
+Homebrew-Cask 1.4.0
+caskroom/homebrew-cask (git revision e134c; last commit 2017-12-12)
 ==> macOS
 10.12.6
 ==> Java
@@ -12,7 +12,7 @@ caskroom/homebrew-cask (git revision 2a573; last commit 2017-12-11)
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3856 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3860 casks)
 /usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (175 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
@@ -30,8 +30,6 @@ caskroom/homebrew-cask (git revision 2a573; last commit 2017-12-11)
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/2.3.0/x86_64-darwin9.0
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/2.3.0/universal-darwin9.0
 ==> Environment Variables
-LANG="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
-LC_CTYPE="UTF-8"
-PATH="~/bash_scripts/bin:~/bin:~/Custom-Git-Commands:~/.goenv/shims:~/.goenv/bin:/usr/local/Cellar/pyenv-virtualenv/1.1.1/shims:~/.pyenv/shims:/usr/local/opt/python/libexec/bin:~/.nodenv/shims:~/.nodenv/bin:/usr/local/var/rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/Homebrew/Library/Homebrew/shims/scm"
+PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Homebrew/Library/Homebrew/shims/scm"
 SHELL="/usr/local/bin/bash"

@@ -1,9 +1,10 @@
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
-working fine: please don't worry and just ignore them. Thanks!
+working fine: please don't worry or file an issue; just ignore this. Thanks!
 
-Warning: python is symlinked to python3
-This will confuse build scripts and in general lead to subtle breakage.
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in the App Store.
+
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
@@ -141,4 +142,9 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
+
+Warning: Your Xcode (9.1) is outdated.
+Please update to Xcode 9.2 (or delete it).
+Xcode can be updated from the App Store.
+
 256 kegs, 160,915 files, 6.9GB
