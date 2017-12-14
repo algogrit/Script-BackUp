@@ -425,6 +425,7 @@ cupstestppd
 curl
 curl-config
 cut
+cuttlefish
 cvadmin
 cvaffinity
 cvcp
@@ -2130,6 +2131,7 @@ quotaoff
 quotaon
 qvoronoi
 rabbitmq-defaults
+rabbitmq-diagnostics
 rabbitmq-env
 rabbitmq-plugins
 rabbitmq-server
