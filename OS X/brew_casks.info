@@ -1,10 +1,10 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.4.0
-caskroom/homebrew-cask (git revision c9284; last commit 2017-12-15)
+caskroom/homebrew-cask (git revision c2c6e; last commit 2017-12-16)
 ==> macOS
-10.12.6
+10.13.1
 ==> Java
-9.0.1
+9.0.1, 1.8.0_152
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
@@ -12,23 +12,23 @@ caskroom/homebrew-cask (git revision c9284; last commit 2017-12-15)
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3857 casks)
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (174 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3859 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (175 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
 /usr/local/Homebrew/Library/Homebrew
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/site_ruby/2.3.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/site_ruby/2.3.0/x86_64-darwin9.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/site_ruby/2.3.0/universal-darwin9.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/site_ruby
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/vendor_ruby/2.3.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin9.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/vendor_ruby/2.3.0/universal-darwin9.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/vendor_ruby
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/2.3.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/2.3.0/x86_64-darwin9.0
-/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.3/lib/ruby/2.3.0/universal-darwin9.0
+/Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
+/Library/Ruby/Site/2.3.0
+/Library/Ruby/Site/2.3.0/x86_64-darwin17
+/Library/Ruby/Site/2.3.0/universal-darwin17
+/Library/Ruby/Site
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin17
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/universal-darwin17
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/x86_64-darwin17
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/universal-darwin17
 ==> Environment Variables
 LC_ALL="en_US.UTF-8"
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Homebrew/Library/Homebrew/shims/scm"
