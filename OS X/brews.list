@@ -90,8 +90,10 @@ gtk+
 harfbuzz
 hdf5
 heroku
+heroku-node
 hicolor-icon-theme
 htop
+htop-osx
 hub
 hunspell
 icu4c
@@ -120,6 +122,7 @@ libffi
 libgcrypt
 libgpg-error
 libid3tag
+libidn2
 libmp3splt
 libmpc
 libogg
@@ -190,6 +193,7 @@ python3
 qhull
 qrupdate
 qt
+qt5
 r
 rabbitmq
 rbenv
