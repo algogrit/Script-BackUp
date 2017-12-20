@@ -32,3 +32,8 @@ alias play_music="mplayer -novideo -loop 0 -shuffle -volume 100"
 
 # Ruby
 alias bx='bundle exec'
+
+# Project Resources
+export PROJECT_RESOURCES_REPO="git@bitbucket.org:gauravagarwalr/project-resources.git"
+alias gcpr="git clone $PROJECT_RESOURCES_REPO"
+alias grapr="git remote add origin $PROJECT_RESOURCES_REPO"

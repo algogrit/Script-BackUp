@@ -593,6 +593,7 @@ erb
 erl
 erlc
 errinfo
+erubis
 escript
 etags
 event_rpcgen.py
@@ -1100,6 +1101,7 @@ h5watch
 haddock
 haddock-ghc-8.2.2
 halt
+haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1371,6 +1373,7 @@ kinit
 klist
 koi8rxterm
 kpasswd
+kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1553,6 +1556,7 @@ mesg
 metaflac
 mib2c
 mib2c-update
+middleman
 mig
 mix
 mkbom
@@ -2272,6 +2276,8 @@ sample
 sampleproc
 sandbox-exec
 sandbox-pod
+sass
+sass-convert
 say
 sc_auth
 sc_usage
@@ -2292,6 +2298,7 @@ screen
 screencapture
 script
 scselect
+scss
 scutil
 sdef
 sdiff
