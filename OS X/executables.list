@@ -826,8 +826,6 @@ git-commits-since
 git-contrib
 git-count
 git-create-branch
-git-credential-netrc
-git-credential-osxkeychain
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -890,7 +888,6 @@ git-show-unmerged-branches
 git-squash
 git-stamp
 git-standup
-git-subtree
 git-summary
 git-swamp
 git-sync
@@ -2360,6 +2357,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swagger
 swarm
 swift
 swiftc
