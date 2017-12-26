@@ -5,6 +5,7 @@ antlr
 apr
 apr-util
 aria2
+asciinema
 atk
 autoconf
 autoenv
