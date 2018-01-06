@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.4.2
-caskroom/homebrew-cask (git revision ac0e9; last commit 2018-01-05)
+caskroom/homebrew-cask (git revision a5c13; last commit 2018-01-06)
 ==> macOS
 10.13.2
 ==> Java
@@ -12,7 +12,7 @@ caskroom/homebrew-cask (git revision ac0e9; last commit 2018-01-05)
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3882 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3883 casks)
 /usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (176 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
