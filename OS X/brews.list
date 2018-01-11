@@ -131,6 +131,7 @@ libpng
 librsvg
 libsamplerate
 libsndfile
+libssh2
 libtasn1
 libtiff
 libtool
@@ -204,6 +205,7 @@ ripgrep
 rsync
 ruby
 ruby-build
+rust
 s-lang
 scala
 scons

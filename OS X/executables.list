@@ -276,6 +276,7 @@ cap_mkdb
 capinfos
 captoinfo
 captype
+cargo
 carthage
 caspol
 cat
@@ -2258,6 +2259,10 @@ runghc
 runghc-8.2.2
 runhaskell
 runocc.d
+rust-gdb
+rust-lldb
+rustc
+rustdoc
 rvictl
 rview
 rvim
