@@ -1336,9 +1336,9 @@ kafka-configs
 kafka-console-consumer
 kafka-console-producer
 kafka-consumer-groups
-kafka-consumer-offset-checker
 kafka-consumer-perf-test
 kafka-delete-records
+kafka-log-dirs
 kafka-mirror-maker
 kafka-preferred-replica-election
 kafka-producer-perf-test
@@ -2615,6 +2615,7 @@ treereg5.16
 treereg5.18
 trimforce
 troff
+trogdor
 true
 truffle
 tset
