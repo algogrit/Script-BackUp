@@ -946,6 +946,7 @@ go-build
 gobject-query
 gocode
 god
+godep
 godoc
 goenv
 goenv-install
@@ -1125,6 +1126,7 @@ httpd-wrapper
 httpdstat.d
 httxt2dbm
 hub
+hugo
 hunspell
 hunzip
 hyperkit
