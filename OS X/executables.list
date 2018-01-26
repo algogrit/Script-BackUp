@@ -2371,6 +2371,7 @@ slapschema
 slaptest
 sleep
 slencheck
+slit
 slogin
 slsh
 smbd
@@ -2768,7 +2769,7 @@ x264
 x86_64-apple-darwin16.7.0-c++-7
 x86_64-apple-darwin16.7.0-g++-7
 x86_64-apple-darwin16.7.0-gcc-7
-x86_64-apple-darwin16.7.0-gcc-7.2.0
+x86_64-apple-darwin16.7.0-gcc-7.3.0
 x86_64-apple-darwin16.7.0-gcc-ar-7
 x86_64-apple-darwin16.7.0-gcc-nm-7
 x86_64-apple-darwin16.7.0-gcc-ranlib-7
