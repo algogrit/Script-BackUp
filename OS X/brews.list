@@ -10,6 +10,7 @@ atk
 autoconf
 autoenv
 automake
+awscli
 bash
 bash-completion
 bdw-gc
@@ -26,6 +27,7 @@ cloc
 cloog
 cmake
 colortail
+conjure-up
 coreutils
 cscope
 ctags
@@ -107,6 +109,8 @@ jack
 jmeter
 jpeg
 jq
+juju
+juju-wait
 kafka
 kubernetes-cli
 lame
@@ -187,6 +191,7 @@ pow
 psgrep
 pstree
 pv
+pwgen
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper

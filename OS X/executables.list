@@ -171,7 +171,9 @@ avbutil
 avconvert
 avmetareadwrite
 awk
+aws
 aws-rb
+aws_completer
 banner
 base64
 basename
@@ -199,6 +201,7 @@ bnepd
 bokeh
 bombardment
 bootnode
+bq
 brctl
 brew
 briar
@@ -355,6 +358,8 @@ config_data
 config_data5.16
 config_data5.18
 conjure
+conjure-down
+conjure-up
 connect-distributed
 connect-standalone
 convert
@@ -748,6 +753,7 @@ gchmod
 gchown
 gchroot
 gcksum
+gcloud
 gcomm
 gcore
 gcov
@@ -845,6 +851,7 @@ git-commits-since
 git-contrib
 git-count
 git-create-branch
+git-credential-gcloud
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -1023,6 +1030,7 @@ gstat
 gstdbuf
 gstty
 gsum
+gsutil
 gsync
 gtac
 gtail
@@ -1311,6 +1319,9 @@ jsonschema
 jstack
 jstat
 jstatd
+juju
+juju-metadata
+juju-wait
 julia
 jupyter
 jupyter-bundlerextension
@@ -1380,6 +1391,7 @@ ksh
 kswitch
 ktutil
 kubectl
+kv-cli
 lam
 lame
 languagesetup
@@ -1558,6 +1570,7 @@ mib2c
 mib2c-update
 middleman
 mig
+minikube
 mix
 mkbom
 mkbundle
@@ -2066,6 +2079,7 @@ purge-old-kernels
 pv
 pwd
 pwd_mkdb
+pwgen
 pwhich
 pwhich5.16
 pwhich5.18
