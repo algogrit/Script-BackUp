@@ -37,3 +37,7 @@ alias bx='bundle exec'
 export PROJECT_RESOURCES_REPO="git@bitbucket.org:gauravagarwalr/project-resources.git"
 alias gcpr="git clone $PROJECT_RESOURCES_REPO"
 alias grapr="git remote add origin $PROJECT_RESOURCES_REPO"
+
+# Node modules
+alias find_all_node_modules="find . -name 'node_modules'"
+alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"

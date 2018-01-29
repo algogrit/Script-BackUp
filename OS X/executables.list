@@ -392,7 +392,6 @@ crc32
 crc325.16
 crc325.18
 creatbyproc.d
-create-react-app
 createdb
 createhomedir
 createuser
@@ -2555,7 +2554,6 @@ terminal-notifier
 test
 test-cloud
 testrb
-testrpc
 tethered-caching
 texi2dvi
 texi2html
@@ -2632,7 +2630,6 @@ trimforce
 troff
 trogdor
 true
-truffle
 tset
 tshark
 tsort
@@ -2728,9 +2725,6 @@ vpnd
 vpnkit
 vsdbutil
 vsyasm
-vue
-vue-init
-vue-list
 w
 w3m
 w3mman
