@@ -50,8 +50,8 @@ echo "Vundle"
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 echo "Nodenv"
-git clone https://github.com/OiNutter/nodenv.git ~/.nodenv
-git clone git://github.com/OiNutter/node-build.git ~/.nodenv/plugins/node-build
+git clone https://github.com/nodenv/nodenv.git ~/.nodenv
+git clone git://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
