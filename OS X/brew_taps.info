@@ -1,33 +1,33 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,708 files, 90.7MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (4,710 files, 90.9MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (5,712 files, 65.0MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (5,716 files, 65MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (79 files, 64.9KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (79 files, 65.7KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (153 files, 67.9KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (161 files, 72.0KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/boneyard: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 805.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (226 files, 806.7KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4438 formulae, 2 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,977 files, 158.4MB)
+homebrew/core: unpinned, 4440 formulae, 2 commands
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,983 files, 158.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.0KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 89.5KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (134 files, 90.4KB)
 From: https://github.com/Homebrew/homebrew-fuse
 
 homebrew/science: unpinned, no formulae/commands
@@ -35,7 +35,7 @@ homebrew/science: unpinned, no formulae/commands
 From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (221 files, 294KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (221 files, 294.9KB)
 From: https://github.com/Homebrew/homebrew-services
 
 homebrew/versions: unpinned, no formulae/commands

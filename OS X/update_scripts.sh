@@ -70,6 +70,9 @@ cp ~/.bash* .
 cp ~/.gitconfig .
 cp ~/.gitignore .
 
+# Copy tigrc
+cp ~/.tigrc .
+
 # Copy vimrc
 cp ~/.vimrc .
 
