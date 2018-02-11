@@ -1164,6 +1164,8 @@ ikdasm
 ilasm
 img2txt
 img2webp
+imgcmp
+imginfo
 import
 imptrace
 indent
@@ -1252,6 +1254,7 @@ jack_wait
 jackd
 jar
 jarsigner
+jasper
 java
 java2html
 javac
@@ -1269,6 +1272,7 @@ jhat
 jhsdb
 jimage
 jinfo
+jiv
 jjs
 jmap
 jmc
