@@ -497,6 +497,7 @@ debinhex.pl
 debinhex5.18.pl
 defaults
 defragcli
+dep
 desdp
 dev_mkdb
 df
