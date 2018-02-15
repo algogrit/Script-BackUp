@@ -392,6 +392,7 @@ crc32
 crc325.16
 crc325.18
 creatbyproc.d
+create-react-native-app
 createdb
 createhomedir
 createuser
@@ -603,6 +604,7 @@ errinfo
 erubis
 escript
 etags
+ethkey
 event_rpcgen.py
 evm
 ex
@@ -2510,6 +2512,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swagger
 swarm
 swift
 swiftc
