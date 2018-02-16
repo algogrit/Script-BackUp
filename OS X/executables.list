@@ -186,6 +186,7 @@ bdftopcf
 bdftruncate
 bg
 biff
+bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
@@ -273,6 +274,7 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
+calabash-ios
 calendar
 cancel
 cap_mkdb
@@ -632,6 +634,7 @@ false
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
+fastlane
 faucet
 fax2ps
 fax2tiff
@@ -694,6 +697,7 @@ format-sql
 format-sql5.16
 format-sql5.18
 fortune
+frank-calabash
 freetype-config
 from
 fs_usage
@@ -795,6 +799,7 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
+generate-api
 gengal
 genstrings
 genv
@@ -2272,6 +2277,7 @@ rtsol
 rtsold
 ruby
 ruby-build
+run-loop
 run_erl
 runant.pl
 runant.py
@@ -2776,6 +2782,7 @@ wsdl
 wsdl2
 wsgen
 wsimport
+ww
 wx-config
 wxrc
 wxrc-3.0
@@ -2809,6 +2816,7 @@ xcodeproj
 xcompmgr
 xconsole
 xcpretty
+xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose
