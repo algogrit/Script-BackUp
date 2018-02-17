@@ -1,6 +1,7 @@
 adobe-acrobat-reader
 adobe-air
 android-file-transfer
+android-ndk
 android-sdk
 android-studio
 balsamiq-mockups
@@ -25,7 +26,6 @@ java8
 julia
 kicad
 kindle
-krita
 libreoffice
 licecap
 minikube
