@@ -41,3 +41,6 @@ alias grapr="git remote add origin $PROJECT_RESOURCES_REPO"
 # Node modules
 alias find_all_node_modules="find . -name 'node_modules'"
 alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"
+
+# Docker
+alias docker-rmi-dangling="docker images -f 'dangling=true' -q | xargs docker rmi"
