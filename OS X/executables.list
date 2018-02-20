@@ -2363,6 +2363,7 @@ sendmail
 seq
 serialver
 serverinfo
+serverless
 servertool
 sessreg
 setkey
@@ -2412,7 +2413,9 @@ sleep
 slencheck
 slit
 slogin
+sls
 slsh
+slss
 smbd
 smbdiagnose
 smbutil

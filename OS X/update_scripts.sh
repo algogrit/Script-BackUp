@@ -118,7 +118,7 @@ mkdir -p bin
 cp ~/bin/howdoi bin/
 
 # ENV config
-_ENV_SENSITIVE_INFO="USER\|PASS\|SECRET\|APPLE_ID"
+_ENV_SENSITIVE_INFO="USER\|PASS\|SECRET\|ACCESS\|APPLE_ID"
 echo "\033[1;31mIgnoring from ENV: \033[0m"
 env | grep $_ENV_SENSITIVE_INFO
 env | grep -v $_ENV_SENSITIVE_INFO | sort > env.config
