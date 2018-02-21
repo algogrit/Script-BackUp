@@ -64,7 +64,6 @@ geoip
 geth
 gettext
 ghc
-gifsicle
 gist
 git
 git-extras
@@ -94,8 +93,10 @@ gtk+
 harfbuzz
 hdf5
 heroku
+heroku-node
 hicolor-icon-theme
 htop
+htop-osx
 hub
 hunspell
 icu4c
@@ -200,6 +201,7 @@ python3
 qhull
 qrupdate
 qt
+qt5
 r
 rabbitmq
 rbenv
@@ -223,6 +225,7 @@ shared-mime-info
 siege
 sip
 sl
+snowboard
 solr
 source-highlight
 sox
