@@ -142,4 +142,4 @@ Unexpected .pc files:
 Warning: Broken symlinks were found. Remove them with `brew prune`:
   /usr/local/bin/xde
   /usr/local/etc/bash_completion.d/_brew_services
-268 kegs, 182,485 files, 7.8GB
+268 kegs, 195,379 files, 7.8GB
