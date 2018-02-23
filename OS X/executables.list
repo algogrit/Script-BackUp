@@ -332,6 +332,7 @@ clang++
 clear
 cli_mt
 cli_st
+client-gen
 cloc
 cloog
 clusterdb
@@ -398,6 +399,7 @@ crc325.16
 crc325.18
 creatbyproc.d
 create-react-native-app
+create-update-delete-deployment
 createdb
 createhomedir
 createuser
@@ -501,6 +503,8 @@ ddns-confgen
 deactivate
 debinhex.pl
 debinhex5.18.pl
+deepcopy-gen
+defaulter-gen
 defaults
 defragcli
 dep
@@ -978,6 +982,7 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-getting-started
 gobject-query
 god
 godoc
@@ -1130,6 +1135,7 @@ head
 headerdoc2html
 heap
 heap32
+hellocontroller
 heroku
 hexdump
 hg
@@ -1194,6 +1200,7 @@ imgcmp
 imginfo
 import
 imptrace
+in-cluster-client-configuration
 indent
 indexer
 indextool
@@ -1201,6 +1208,7 @@ indxbib
 info
 infocmp
 infokey
+informer-gen
 infotocap
 initdb
 innochecksum
@@ -1449,6 +1457,7 @@ linkicc
 lint
 lipo
 listen
+lister-gen
 listres
 lkbib
 lldb
@@ -1859,6 +1868,7 @@ osadecompile
 osalang
 osascript
 otool
+out-of-cluster-client-configuration
 p11-kit
 p11tool
 p2psim
@@ -2796,6 +2806,7 @@ wnode
 wordbreaker
 wordforms
 wordlist2hunspell
+workqueue
 write
 wrjpgcom
 wsdl
