@@ -1137,6 +1137,7 @@ head
 headerdoc2html
 heap
 heap32
+hello-universe
 hellocontroller
 heroku
 hexdump
@@ -2779,6 +2780,7 @@ w3mman
 wait
 wait4path
 wall
+watch
 watchman
 watchman-make
 watchman-wait
@@ -2858,7 +2860,6 @@ xcsdiagnose
 xctool
 xcursorgen
 xcutsel
-xde
 xditview
 xdm
 xdmshell

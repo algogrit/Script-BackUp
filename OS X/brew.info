@@ -138,8 +138,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/bin/xde
-  /usr/local/etc/bash_completion.d/_brew_services
-268 kegs, 200,388 files, 7.8GB
+269 kegs, 200,451 files, 7.8GB
