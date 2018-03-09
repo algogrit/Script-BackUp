@@ -1129,6 +1129,7 @@ haml
 hash
 hb-ot-shape-closure
 hb-shape
+hb-subset
 hdid
 hdik
 hdiutil
