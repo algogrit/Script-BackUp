@@ -1417,6 +1417,8 @@ ksh
 kswitch
 ktutil
 kubectl
+kubectx
+kubens
 kv-cli
 lam
 lame
