@@ -1,5 +1,5 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,373 files, 110.4MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,405 files, 111.2MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
@@ -19,11 +19,11 @@ homebrew/boneyard: unpinned, no formulae/commands
 From: https://github.com/Homebrew/homebrew-boneyard
 
 homebrew/core: unpinned, 4488 formulae, 2 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,895 files, 155MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,897 files, 155.7MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (335 files, 288.8KB)
 From: https://github.com/Homebrew/homebrew-dupes
 
 homebrew/fuse: unpinned, no formulae/commands
