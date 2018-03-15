@@ -706,6 +706,7 @@ format-sql5.18
 fortune
 frank-calabash
 freetype-config
+fribidi
 from
 fs_usage
 fsc
@@ -991,6 +992,7 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+gosh
 gource
 gpaste
 gpathchk

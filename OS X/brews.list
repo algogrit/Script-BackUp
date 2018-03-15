@@ -54,6 +54,7 @@ fltk
 fontconfig
 fortune
 freetype
+fribidi
 gawk
 gcc
 gd
