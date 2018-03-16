@@ -117,12 +117,6 @@ cp ~/.ssh/config .ssh/
 mkdir -p bin
 cp ~/bin/howdoi bin/
 
-# ENV config
-_ENV_SENSITIVE_INFO="USER\|EMAIL\|PASS\|SECRET\|ACCESS\|APPLE_ID"
-echo "\033[1;31mIgnoring from ENV: \033[0m"
-env | grep $_ENV_SENSITIVE_INFO
-env | grep -v $_ENV_SENSITIVE_INFO | sort > env.config
-
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
 
