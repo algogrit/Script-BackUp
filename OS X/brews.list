@@ -100,9 +100,11 @@ htop
 hub
 hunspell
 icu4c
+ideviceinstaller
 ilmbase
 imagemagick
 imagemagick@6
+ios-deploy
 isl
 isl@0.12
 jack
@@ -130,9 +132,11 @@ libgcrypt
 libgpg-error
 libid3tag
 libidn2
+libimobiledevice
 libmp3splt
 libmpc
 libogg
+libplist
 libpng
 librsvg
 libsamplerate
@@ -142,9 +146,12 @@ libtasn1
 libtiff
 libtool
 libunistring
+libusb
 libvo-aacenc
 libvorbis
+libxml2
 libyaml
+libzip
 little-cms2
 lua
 lynx
@@ -250,6 +257,7 @@ torsocks
 tree
 unixodbc
 unrar
+usbmuxd
 utf8proc
 v8
 veclibfort
