@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Six"
 	],
 	"installed_packages":
 	[
@@ -11,7 +10,6 @@
 		"BracketHighlighter",
 		"Clipboard Manager",
 		"CTags",
-		"Dart",
 		"DictionaryAutoComplete",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
@@ -19,6 +17,7 @@
 		"Elm Language Support",
 		"ESLint",
 		"ExpandRegion",
+		"F#",
 		"Git",
 		"GitGutter",
 		"GoSublime",
@@ -28,6 +27,8 @@
 		"Package Control",
 		"Prolog",
 		"Protobuf Syntax Hightlighting",
+		"Pug",
+		"React Native Autocomplete",
 		"RSpec",
 		"Sass",
 		"Select Quoted",
@@ -39,6 +40,7 @@
 		"SyncedSideBar",
 		"SyncedSidebarBg",
 		"Text Pastry",
+		"TOML",
 		"Tomorrow Night Italics Color Scheme",
 		"TrailingSpaces",
 		"Vue Syntax Highlight"
