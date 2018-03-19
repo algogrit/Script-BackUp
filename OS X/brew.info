@@ -16,6 +16,12 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python3.5m-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/croco-0.6-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/freetype-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/libpng-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/libpng14-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/pkg-config
+  /Library/Frameworks/Mono.framework/Versions/Current/bin/xml2-config
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
 If you didn't put them there on purpose they could cause problems when
@@ -138,4 +144,7 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
+
+Warning: Broken symlinks were found. Remove them with `brew prune`:
+  /usr/local/share/man/man1/prj2make.1
 271 kegs, 202,573 files, 7.9GB
