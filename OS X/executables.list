@@ -1203,6 +1203,7 @@ heap
 heap32
 hello-universe
 hellocontroller
+helm
 heroku
 hexdump
 hg
@@ -2841,6 +2842,7 @@ tiffsplit64
 tiffutil
 tificc
 tig
+tiller
 tilt
 time
 timed
@@ -2904,7 +2906,6 @@ uncompress
 unexpand
 unifdef
 unifdefall
-uninstall_ndiff
 uniq
 units
 universalaccessd
