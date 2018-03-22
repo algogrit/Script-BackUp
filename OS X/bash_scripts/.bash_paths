@@ -33,9 +33,6 @@ eval "$(goenv init -)"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-##### TODO: Fix jenv to update JAVA_HOME properly
-export JAVA_HOME=`/usr/libexec/java_home -v1.8`
-
 ### Platforms
 ## Android
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"

@@ -108,6 +108,7 @@ _install_languages ruby rbenv
 _install_languages python pyenv
 _install_languages node nodenv
 _install_languages go goenv
+jenv enable-plugin export
 
 unalias cp
 unalias rm

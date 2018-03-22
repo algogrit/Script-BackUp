@@ -552,6 +552,7 @@ dwebp
 dx
 dynamic_pager
 e2fsck
+e2fsdroid
 easy_install
 easy_install-2.7
 easy_install-3.5
@@ -1519,6 +1520,7 @@ mailq
 mailx
 mainDexClasses
 make
+make_f2fs
 makealias
 makecert
 makedepend
@@ -1565,6 +1567,8 @@ mkbom
 mkbundle
 mkdep
 mkdir
+mke2fs
+mke2fs.conf
 mkextunpack
 mkfifo
 mkfile
@@ -2319,6 +2323,7 @@ slapschema
 slaptest
 sleep
 slencheck
+sload_f2fs
 slogin
 slsh
 smbd
