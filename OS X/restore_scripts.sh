@@ -25,7 +25,7 @@ function _install_languages {
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein
+mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.elm
 
 echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"

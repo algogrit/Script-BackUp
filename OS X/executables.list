@@ -1,3 +1,4 @@
+
 2to3
 2to3-
 2to3-2
@@ -31,6 +32,7 @@ MagickCore-config
 MagickWand-config
 MergePef
 MvMac
+NOTICE.txt
 NetBootClientStatus
 PasswordService
 R
@@ -117,6 +119,7 @@ antRun.pl
 antlr4
 apachectl
 apfs_hfs_convert
+api
 applesingle
 appletviewer
 apply
@@ -188,6 +191,7 @@ bdftopcf
 bdftruncate
 bg
 biff
+bin
 bin-proxy
 binhex
 binhex.pl
@@ -1284,6 +1288,7 @@ java
 java2html
 javac
 javadoc
+javafxpackager
 javah
 javap
 javapackager
@@ -1292,16 +1297,20 @@ jcmd
 jconsole
 jcontrol
 jdb
+jdeprscan
 jdeps
+jenv
 jhat
 jhsdb
 jimage
 jinfo
 jiv
 jjs
+jlink
 jmap
 jmc
 jmeter
+jmod
 jobb
 jobs
 join
@@ -1323,6 +1332,7 @@ juju-metadata
 juju-wait
 julia
 jvisualvm
+jweblauncher
 kadmin
 kadmin.local
 kafka-acls
@@ -1408,6 +1418,7 @@ less
 lessecho
 lesskey
 lex
+lib
 libgcrypt-config
 libnetcfg
 libnetcfg5.18
@@ -1820,6 +1831,7 @@ p2psim
 pack200
 package-stash-conflicts
 package-stash-conflicts5.18
+package.xml
 pagesize
 pagestuff
 pal2rgb
@@ -2001,6 +2013,7 @@ procsystime
 productbuild
 productsign
 profiles
+proguard
 prove
 prove5.18
 ps
@@ -2365,6 +2378,7 @@ sort
 source-highlight
 source-highlight-esc.sh
 source-highlight-settings
+source.properties
 sox
 soxi
 spctl
@@ -2410,6 +2424,7 @@ su
 subl
 sudo
 sum
+support
 svcutil
 svn
 svnadmin
@@ -2444,6 +2459,7 @@ systemkeychain
 systemsetup
 systemsoundserverd
 systemstats
+systrace
 systrace.py
 systriage
 tab2space

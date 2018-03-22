@@ -5,6 +5,12 @@ echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
 
 ### Languages
 
+# Brew Python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# Elm
+export ELM_HOME=~/.elm
+
 # Language Version Managers
 ## rbenv
 export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
@@ -13,9 +19,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ## nodenv
 export PATH="$HOME/.nodenv/bin:$PATH"
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
-
-# Brew Python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 ## pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; eval "$(pyenv virtualenv-init -)"; fi
@@ -26,10 +29,20 @@ export GOPATH=$GOENV_ROOT
 export PATH="$GOENV_ROOT/bin:$PATH"
 eval "$(goenv init -)"
 
+## jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+##### TODO: Fix jenv to update JAVA_HOME properly
+export JAVA_HOME=`/usr/libexec/java_home -v1.8`
+
 ### Platforms
 ## Android
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
+
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
 #### CUSTOM
 
