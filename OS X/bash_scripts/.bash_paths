@@ -26,9 +26,6 @@ export GOPATH=$GOENV_ROOT
 export PATH="$GOENV_ROOT/bin:$PATH"
 eval "$(goenv init -)"
 
-## F#
-export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin
-
 ### Platforms
 ## Android
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"

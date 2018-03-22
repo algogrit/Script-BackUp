@@ -4,6 +4,7 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"Six",
 		"Vintage"
 	],
 	"tab_size": 2,

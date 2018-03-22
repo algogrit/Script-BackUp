@@ -26,6 +26,7 @@ java8
 julia
 kicad
 kindle
+krita
 libreoffice
 licecap
 minikube
@@ -36,7 +37,6 @@ osxfuse
 postman
 provisioning
 rstudio
-simplemoviex
 skype
 slack
 soundflower
@@ -57,4 +57,3 @@ vnc-viewer
 wireshark
 xquartz
 yujitach-menumeters
-zeplin
