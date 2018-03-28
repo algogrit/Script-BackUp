@@ -6,7 +6,7 @@ require 'time'
 
 comparing_branch = ARGV.first || "master"
 
-branch_names = (`git branch -r | grep -v "origin/#{comparing_branch}" | awk '{print $1}'`).split("\n")
+branch_names = (`git branch -r | grep -v "origin/#{comparing_branch}\$" | grep -v "origin/HEAD" | awk '{print $1}'`).split("\n")
 
 remote_branches = branch_names.reduce({}) do |memo, branch|
 	timestamp = Time.parse(`git log --date=local --pretty=format:"%ad" -1 #{branch}`)
