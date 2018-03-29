@@ -138,7 +138,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected .pc files:
   /usr/local/lib/pkgconfig/opencv.pc
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/share/man/man1/prj2make.1
-281 kegs, 224,375 files, 8.4GB
+281 kegs, 224,418 files, 8.5GB

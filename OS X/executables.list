@@ -545,9 +545,12 @@ dns-sd
 dnsextd
 docker
 docker-compose
+docker-compose.backup
 docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
+docker.backup
 domainname
 dot_clean
 dotenv
