@@ -35,15 +35,11 @@ eval "$(jenv init -)"
 
 ### Platforms
 ## Android
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk/"
-export ANDROID_NDK_HOME="/usr/local/share/android-ndk/"
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 
 export ANDROID_HOME=$ANDROID_SDK_ROOT
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-
-## Flutter
-export FLUTTER_HOME="$HOME/Developer/experimental/sdk/flutter"
-export PATH="$FLUTTER_HOME/bin:$PATH"
 
 #### CUSTOM
 

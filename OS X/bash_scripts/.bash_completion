@@ -12,10 +12,3 @@ source ~/bash_scripts/custom_completion/.git_commands
 if [ -f ~/.fastlane/completions/completion.sh ]; then
   . ~/.fastlane/completions/completion.sh
 fi
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[ -f /Users/gaurav/.nodenv/versions/9.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /Users/gaurav/.nodenv/versions/9.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[ -f /Users/gaurav/.nodenv/versions/9.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/gaurav/.nodenv/versions/9.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
