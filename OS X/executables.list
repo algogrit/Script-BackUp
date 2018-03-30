@@ -65,9 +65,6 @@ Yet-Another-Expense-Splitter
 [
 a2p
 a2p5.18
-aapt
-aapt2
-aarch64-linux-android-ld
 ab
 abigen
 ac
@@ -93,7 +90,6 @@ afscexpand
 ag
 agentxtrap
 agvtool
-aidl
 airport
 al
 al2
@@ -120,6 +116,7 @@ antlr4
 apachectl
 apfs_hfs_convert
 api
+apkanalyzer
 applesingle
 appletviewer
 apply
@@ -131,7 +128,6 @@ ar
 arch
 archquery
 aria2c
-arm-linux-androideabi-ld
 arp
 as
 asa
@@ -185,7 +181,6 @@ bash
 bashbug
 batch
 bc
-bcc_compat
 bdftogd
 bdftopcf
 bdftruncate
@@ -272,6 +267,7 @@ cacafire
 cacaplay
 cacaserver
 cacaview
+cache
 caffeinate
 cairo-sphinx
 cairo-trace
@@ -487,7 +483,6 @@ defragcli
 dep
 desdp
 dev_mkdb
-dexdump
 df
 dftest
 diagnose-fu
@@ -549,9 +544,7 @@ dumpsexp
 dvdbackup
 dwarfdump
 dwebp
-dx
 dynamic_pager
-e2fsck
 e2fsdroid
 easy_install
 easy_install-2.7
@@ -579,10 +572,6 @@ emacsclient
 emond
 emulator
 emulator-check
-emulator64-arm
-emulator64-crash-service
-emulator64-mips
-emulator64-x86
 enc2xs
 enc2xs5.18
 encguess
@@ -676,6 +665,8 @@ flex++
 flow
 fltk-config
 fluid
+flutter
+flutter.bat
 fmt
 fold
 font_cache
@@ -691,7 +682,6 @@ from
 fs_usage
 fsc
 fsck
-fsck.ext4
 fsck_apfs
 fsck_cs
 fsck_exfat
@@ -1150,7 +1140,6 @@ hunspell
 hunzip
 hyperkit
 hzip
-i686-linux-android-ld
 ibtool
 iceauth
 ico
@@ -1216,6 +1205,7 @@ installvst
 instmodsh
 instmodsh5.18
 instruments
+internal
 ioalloccount
 ioclasscount
 iofile.d
@@ -1436,7 +1426,6 @@ lkbib
 lldb
 llvm-g++
 llvm-gcc
-llvm-rs-cc
 ln
 lndir
 load_gen
@@ -1519,7 +1508,6 @@ magick-script
 mail
 mailq
 mailx
-mainDexClasses
 make
 make_f2fs
 makealias
@@ -1562,7 +1550,6 @@ mib2c
 mib2c-update
 mig
 minikube
-mipsel-linux-android-ld
 mix
 mkbom
 mkbundle
@@ -1575,7 +1562,6 @@ mkfifo
 mkfile
 mkfontdir
 mkfontscale
-mkfs.ext4
 mklocale
 mknod
 mkntfs
@@ -2185,7 +2171,6 @@ reset
 resgen
 resgen2
 resize
-resize2fs
 resolveLinks
 resolve_stack_dump
 resolveip
@@ -2402,7 +2387,6 @@ spindump
 splain
 splain5.18
 split
-split-select
 spray
 sqlite3
 sqlmetal
@@ -2469,7 +2453,6 @@ systemsetup
 systemsoundserverd
 systemstats
 systrace
-systrace.py
 systriage
 tab2space
 tabs
@@ -2565,7 +2548,6 @@ ttygif
 ttyplay
 ttyrec
 ttytime
-tune2fs
 twm
 type
 uasysdiagnose
@@ -2710,7 +2692,6 @@ x86_64-apple-darwin17.3.0-gcc-ar-7
 x86_64-apple-darwin17.3.0-gcc-nm-7
 x86_64-apple-darwin17.3.0-gcc-ranlib-7
 x86_64-apple-darwin17.3.0-gfortran-7
-x86_64-linux-android-ld
 xar
 xargs
 xartutil
@@ -2845,7 +2826,6 @@ zforce
 zgrep
 zic
 zip
-zipalign
 zipcloak
 zipcmp
 zipdetails
