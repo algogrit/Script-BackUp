@@ -25,12 +25,13 @@ java8
 julia
 kicad
 kindle
-krita
 libreoffice
 licecap
 minikube
 mono-mdk
+ngrok
 nosleep
+obs
 odrive
 osxfuse
 postman
@@ -56,3 +57,4 @@ vnc-viewer
 wireshark
 xquartz
 yujitach-menumeters
+zeplin

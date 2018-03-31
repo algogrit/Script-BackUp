@@ -65,7 +65,6 @@ geoip
 geth
 gettext
 ghc
-gifsicle
 gist
 git
 git-extras
@@ -95,8 +94,10 @@ gtk+
 harfbuzz
 hdf5
 heroku
+heroku-node
 hicolor-icon-theme
 htop
+htop-osx
 hub
 hunspell
 icu4c
@@ -118,6 +119,7 @@ juju-wait
 kafka
 kubectx
 kubernetes-cli
+kubernetes-helm
 lame
 leiningen
 less
@@ -211,6 +213,7 @@ python@2
 qhull
 qrupdate
 qt
+qt5
 r
 rabbitmq
 rbenv
@@ -234,6 +237,7 @@ shared-mime-info
 siege
 sip
 sl
+snowboard
 solr
 source-highlight
 sox
@@ -256,8 +260,6 @@ tmux
 tor
 torsocks
 tree
-ttygif
-ttyrec
 unixodbc
 unrar
 usbmuxd
@@ -266,6 +268,7 @@ v8
 veclibfort
 vim
 w3m
+watch
 watchman
 webp
 wget
