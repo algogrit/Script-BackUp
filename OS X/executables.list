@@ -378,6 +378,7 @@ conjure-up
 connect-distributed
 connect-standalone
 convert
+convert-keyring
 coreaudiod
 corebrightnessdiag
 corelist
@@ -526,6 +527,8 @@ diff
 diff3
 diffstat
 dig
+dirmngr
+dirmngr-client
 dirname
 disco
 diskhits
@@ -1016,8 +1019,19 @@ gource
 gpaste
 gpathchk
 gperf
+gpg
+gpg-agent
+gpg-connect-agent
 gpg-error
 gpg-error-config
+gpg-zip
+gpg2
+gpgconf
+gpgparsemail
+gpgsm
+gpgsplit
+gpgtar
+gpgv
 gpinky
 gpmetis
 gpr
@@ -1150,6 +1164,7 @@ hash
 hb-ot-shape-closure
 hb-shape
 hb-subset
+hb-view
 hdid
 hdik
 hdiutil
@@ -1440,6 +1455,7 @@ kafka-streams-application-reset
 kafka-topics
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kbxutil
 kcc
 kdcsetup
 kdestroy
@@ -2850,6 +2866,7 @@ wait
 wait4path
 wall
 watch
+watchgnupg
 watchman
 watchman-make
 watchman-wait
