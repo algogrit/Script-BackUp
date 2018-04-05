@@ -16,10 +16,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/bin/docker-credential-osxkeychain.backup
-  /usr/local/bin/hyperkit.backup
-  /usr/local/bin/notary.backup
-  /usr/local/bin/vpnkit.backup
-280 kegs, 226,771 files, 8.3GB
+281 kegs, 226,822 files, 8.4GB

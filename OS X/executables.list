@@ -514,7 +514,6 @@ docker
 docker-compose
 docker-compose.backup
 docker-credential-osxkeychain
-docker-credential-osxkeychain.backup
 docker-machine
 docker-machine.backup
 docker-swarm
@@ -1108,6 +1107,7 @@ head
 headerdoc2html
 heap
 heap32
+helm
 heroku
 hexdump
 hg
@@ -1144,7 +1144,6 @@ hugo
 hunspell
 hunzip
 hyperkit
-hyperkit.backup
 hzip
 ibtool
 iceauth
@@ -1752,6 +1751,7 @@ nfsd
 nfsiod
 nfsstat
 nginx
+ngrok
 nice
 ninja
 nl
@@ -1764,7 +1764,6 @@ nodenv
 nohup
 nologin
 notary
-notary.backup
 notifyd
 notifyutil
 nping
@@ -2509,6 +2508,7 @@ tiffsplit
 tiffutil
 tificc
 tig
+tiller
 time
 timer_analyser.d
 timerfires
@@ -2639,7 +2639,6 @@ vmmap
 vmmap32
 vpnd
 vpnkit
-vpnkit.backup
 vsdbutil
 vsyasm
 w

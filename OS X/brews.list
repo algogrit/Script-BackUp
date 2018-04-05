@@ -118,6 +118,7 @@ juju-wait
 kafka
 kubectx
 kubernetes-cli
+kubernetes-helm
 lame
 leiningen
 less
