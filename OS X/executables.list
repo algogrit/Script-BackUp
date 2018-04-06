@@ -41,6 +41,7 @@ Rez
 RezDet
 RezWack
 Rscript
+SafeEjectGPU
 SetFile
 SplitForks
 UnRezWack
@@ -480,6 +481,7 @@ debinhex.pl
 debinhex5.18.pl
 defaults
 defragcli
+delv
 dep
 desdp
 dev_mkdb
@@ -2549,6 +2551,7 @@ trogdor
 true
 tset
 tshark
+tsig-keygen
 tsort
 tty
 ttygif
