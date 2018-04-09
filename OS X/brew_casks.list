@@ -18,7 +18,6 @@ gimp
 google-chrome
 google-cloud-sdk
 google-hangouts
-gpg-suite
 intellij-idea-ce
 iterm2
 java
@@ -26,6 +25,7 @@ java8
 julia
 kicad
 kindle
+krita
 libreoffice
 licecap
 minikube
@@ -51,13 +51,10 @@ torbrowser
 transmission
 unity
 vagrant
-vidcutter
 virtualbox
 visual-studio-code
 vlc
 vnc-viewer
-vysor
 wireshark
 xquartz
 yujitach-menumeters
-zeplin
