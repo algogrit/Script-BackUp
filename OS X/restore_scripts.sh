@@ -31,7 +31,6 @@ echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
-brew install brew-cask
 cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install || exit 1
 
 echo "\033[1;31mInstalling all brews...\033[0m"
