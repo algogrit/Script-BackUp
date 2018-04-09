@@ -34,7 +34,6 @@ ctags
 curl
 docker-machine
 docker-swarm
-dotwrp
 doxygen
 drip
 dvdbackup
@@ -75,7 +74,6 @@ glide
 glm
 glpk
 gmp
-gmp@4
 gnu-sed
 gnu-tar
 gnu-units
@@ -106,7 +104,6 @@ imagemagick
 imagemagick@6
 ios-deploy
 isl
-isl@0.12
 jack
 jasper
 jenv
