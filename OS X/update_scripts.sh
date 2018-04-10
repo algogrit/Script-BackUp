@@ -53,6 +53,13 @@ pyenv versions | grep -v "-" > python.versions
 goenv versions > go.versions
 jenv versions > java.versions
 
+mkdir -p global-language-versions
+cp /usr/local/var/rbenv/version global-language-versions/rbenv-version
+cp ~/.nodenv/version global-language-versions/nodenv-version
+cp ~/.pyenv/version global-language-versions/pyenv-version
+cp ~/.goenv/version global-language-versions/goenv-version
+cp ~/.jenv/version global-language-versions/jenv-version
+
 rbenv rehash
 nodenv rehash
 pyenv rehash

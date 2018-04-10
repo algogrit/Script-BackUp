@@ -25,7 +25,7 @@ function _install_languages {
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.elm
+mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.elm
 
 echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
@@ -103,11 +103,16 @@ echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
 
 echo "\033[1;31mInstalling language versions...\033[0m"
-_install_languages ruby rbenv
+RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
 _install_languages python pyenv
 _install_languages node nodenv
 _install_languages go goenv
 jenv enable-plugin export
+
+echo "\033[1;31mInstalling flutter...\033[0m"
+FLUTER_INSTALL_PATH=~/Developer/experimental/sdk
+mkdir -p $FLUTER_INSTALL_PATH
+git clone git@github.com:flutter/flutter.git $FLUTER_INSTALL_PATH/flutter
 
 unalias cp
 unalias rm
