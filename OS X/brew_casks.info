@@ -1,12 +1,12 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.6.0
-caskroom/homebrew-cask (git revision 1971f; last commit 2018-04-10)
+caskroom/homebrew-cask (git revision 23b42; last commit 2018-04-10)
 ==> macOS
 10.13.4
 ==> SIP
-Enabled
+Disabled
 ==> Java
-9.0.1, 1.8.0_152
+10, 1.8.0_162
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
