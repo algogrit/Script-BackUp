@@ -1,9 +1,9 @@
 caskroom/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,648 files, 105.7MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (5,650 files, 105.8MB)
 From: https://github.com/caskroom/homebrew-cask
 
 caskroom/versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (1,848 files, 58.3MB)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (1,878 files, 58.3MB)
 From: https://github.com/caskroom/homebrew-versions
 
 facebook/fb: unpinned, 3 formulae
@@ -11,28 +11,16 @@ facebook/fb: unpinned, 3 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (113 files, 52.9KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (125 files, 57.4KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/boneyard: unpinned, no formulae/commands
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (30 files, 23.3KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/core: unpinned, 4516 formulae, 2 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (4,966 files, 28.2MB)
+homebrew/core: unpinned, 4518 formulae, 2 commands
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,010 files, 29.6MB)
 From: https://github.com/Homebrew/homebrew-core
-
-homebrew/dupes: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-dupes (32 files, 24.5KB)
-From: https://github.com/Homebrew/homebrew-dupes
-
-homebrew/fuse: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-fuse (32 files, 24.5KB)
-From: https://github.com/Homebrew/homebrew-fuse
-
-homebrew/science: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-science (409 files, 8.9MB)
-From: https://github.com/Homebrew/homebrew-science
 
 homebrew/services: unpinned, 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (73 files, 83.2KB)
