@@ -175,6 +175,8 @@ nginx
 ninja
 nmap
 node
+node-build
+nodenv
 ntfs-3g
 oniguruma
 openexr

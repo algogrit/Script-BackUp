@@ -148,12 +148,6 @@ brew outdated
 
 ACTUAL_WD=$PWD
 
-echo "\033[1;31mUpdating nodenv with git...\033[0m"
-cd ~/.nodenv && git ru > /dev/null && git st && git up
-
-echo "\033[1;31mUpdating node-build with git...\033[0m"
-cd ~/.nodenv/plugins/node-build && git ru > /dev/null && git st && git up
-
 echo "\033[1;31mUpdating vundle with git...\033[0m"
 cd ~/.vim/bundle/vundle && git ru > /dev/null && git st && git up
 

@@ -475,6 +475,7 @@ debinhex5.18.pl
 defaults
 defragcli
 delv
+dep
 desdp
 dev_mkdb
 df
@@ -1114,6 +1115,7 @@ httpd-wrapper
 httpdstat.d
 httxt2dbm
 hub
+hugo
 hunspell
 hunzip
 hyperkit
@@ -1730,7 +1732,10 @@ nm
 nmap
 nmedit
 node
+node-build
 nodenv
+nodenv-install
+nodenv-uninstall
 nohup
 nologin
 notary
@@ -1798,6 +1803,7 @@ p2psim
 pack200
 package-stash-conflicts
 package-stash-conflicts5.18
+package.xml
 pagesize
 pagestuff
 pal2rgb

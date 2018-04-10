@@ -25,7 +25,7 @@ function _install_languages {
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.elm
+mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm
 
 echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
@@ -47,10 +47,6 @@ echo "\033[1;31mSetting up managers...\033[0m"
 
 echo "Vundle"
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-
-echo "Nodenv"
-git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-git clone git://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
 
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
