@@ -1829,6 +1829,7 @@ pathopens.d
 pax
 pbcopy
 pbpaste
+pbr
 pcap-config
 pcre-config
 pcregrep
@@ -2604,6 +2605,10 @@ vim
 vimdiff
 vimtutor
 vipw
+virtualenv
+virtualenv-clone
+virtualenvwrapper.sh
+virtualenvwrapper_lazy.sh
 vis
 visualinfo
 visudo

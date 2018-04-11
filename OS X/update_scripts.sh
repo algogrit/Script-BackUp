@@ -151,6 +151,9 @@ ACTUAL_WD=$PWD
 echo "\033[1;31mUpdating vundle with git...\033[0m"
 cd ~/.vim/bundle/vundle && git ru > /dev/null && git st && git up
 
+FLUTER_PATH=~/Developer/experimental/sdk/flutter
+cd $FLUTER_PATH && git branch > ~/Script-BackUp/OS\ X/flutter.branch
+
 cd "$ACTUAL_WD"
 
 echo "\033[1;31m/etc/hosts...\033[0m"
