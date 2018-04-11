@@ -47,18 +47,19 @@ ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 echo "\033[1;31mListing User Applications...\033[0m" | tee -a applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
+echo "\033[1;31mCopying over version manager configs...\033[0m"
 rbenv versions > ruby.versions
 nodenv versions > node.versions
 pyenv versions | grep -v "-" > python.versions
 goenv versions > go.versions
 jenv versions > java.versions
 
-mkdir -p global-language-versions
-cp /usr/local/var/rbenv/version global-language-versions/rbenv-version
-cp ~/.nodenv/version global-language-versions/nodenv-version
-cp ~/.pyenv/version global-language-versions/pyenv-version
-cp ~/.goenv/version global-language-versions/goenv-version
-cp ~/.jenv/version global-language-versions/jenv-version
+mkdir -p version-manager-config
+cp /usr/local/var/rbenv/version version-manager-config/rbenv-version
+cp ~/.nodenv/version version-manager-config/nodenv-version
+cp ~/.pyenv/version version-manager-config/pyenv-version
+cp ~/.goenv/version version-manager-config/goenv-version
+cp ~/.jenv/version version-manager-config/jenv-version
 
 rbenv rehash
 nodenv rehash
@@ -66,7 +67,7 @@ pyenv rehash
 goenv rehash
 jenv rehash
 
-# List of all executables in $PATH
+echo "\033[1;31mListing all executables in \$PATH...\033[0m"
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list
 

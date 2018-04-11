@@ -74,6 +74,7 @@ ack
 aclocal
 aclocal-1.16
 activate
+adb
 addftinfo
 afclip
 afconvert
@@ -112,6 +113,8 @@ antRun.pl
 antlr4
 apachectl
 apfs_hfs_convert
+api
+apkanalyzer
 applesingle
 appletviewer
 apply
@@ -501,6 +504,7 @@ dltest
 dmc
 dmcs
 dmesg
+dmtracedump
 dnctl
 dns-sd
 dnsextd
@@ -539,6 +543,7 @@ dvdbackup
 dwarfdump
 dwebp
 dynamic_pager
+e2fsdroid
 easy_install
 easy_install-2.7
 easy_install-3.5
@@ -581,6 +586,7 @@ erlc
 errinfo
 escript
 etags
+etc1tool
 ethkey
 event_rpcgen.py
 evm
@@ -603,6 +609,7 @@ eyapp
 eyapp5.18
 faac
 false
+fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
@@ -1100,6 +1107,7 @@ hp2ps
 hpc
 hpftodit
 hpmdiagnose
+hprof-conv
 hsc2hs
 htcacheclean
 htdbm
@@ -1489,6 +1497,7 @@ mail
 mailq
 mailx
 make
+make_f2fs
 makealias
 makecert
 makedepend
@@ -1534,6 +1543,8 @@ mkbom
 mkbundle
 mkdep
 mkdir
+mke2fs
+mke2fs.conf
 mkextunpack
 mkfifo
 mkfile
@@ -2294,6 +2305,7 @@ slapschema
 slaptest
 sleep
 slencheck
+sload_f2fs
 slogin
 slsh
 smbd
@@ -2432,6 +2444,7 @@ systemkeychain
 systemsetup
 systemsoundserverd
 systemstats
+systrace
 systriage
 tab2space
 tabs

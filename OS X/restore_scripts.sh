@@ -98,6 +98,8 @@ cp ~/Script-BackUp/OS\ X/bin/* ~/bin
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
 
+source ${HOME}/.bash_scripts/.bash_load
+
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
 _install_languages python pyenv
@@ -109,6 +111,10 @@ echo "\033[1;31mInstalling flutter...\033[0m"
 FLUTER_INSTALL_PATH=~/Developer/experimental/sdk
 mkdir -p $FLUTER_INSTALL_PATH
 git clone git@github.com:flutter/flutter.git $FLUTER_INSTALL_PATH/flutter
+
+echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
+echo y | sdkmanager "tools"
+echo y | sdkmanager "platform-tools"
 
 unalias cp
 unalias rm
