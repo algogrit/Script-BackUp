@@ -25,12 +25,13 @@ cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
 cp /tmp/README .
 
-echo "\033[1;31mList installations...\033[0m"
+echo "\033[1;31mUpdating brew...\033[0m"
 
 # Updating brew prior to any brew operations
 brew update
 brew cleanup
 
+echo "\033[1;31mList brew related stuff...\033[0m"
 # List of Brew installations
 brew list > brews.list
 
@@ -66,10 +67,6 @@ nodenv rehash
 pyenv rehash
 goenv rehash
 jenv rehash
-
-echo "\033[1;31mListing all executables in \$PATH...\033[0m"
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list
 
 echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
@@ -135,6 +132,10 @@ unalias rm
 
 # Remove silently
 rm bash_scripts/aliases/.*_secret
+
+echo "\033[1;31mListing all executables in \$PATH...\033[0m"
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null
 
 echo "\033[1;31mBrew info...\033[0m"
 brew doctor 2>&1 | tee brew.info
