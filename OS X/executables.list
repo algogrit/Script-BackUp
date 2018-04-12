@@ -62,6 +62,7 @@ Xnest
 Xorg
 Xquartz
 Xvfb
+Yet-Another-Expense-Splitter
 [
 a2p
 a2p5.18
@@ -713,6 +714,7 @@ gapi2-fixup
 gapi2-parser
 gapplication
 gatherheaderdoc
+gatsby
 gawk
 gawk-4.2.1
 gb2sum
@@ -2420,6 +2422,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swagger
 swarm
 swift
 swiftc
@@ -2802,6 +2805,8 @@ xzless
 xzmore
 yaa
 yacc
+yarn
+yarnpkg
 yasm
 yes
 youtube-dl
