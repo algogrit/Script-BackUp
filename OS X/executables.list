@@ -961,6 +961,7 @@ gpathchk
 gperf
 gpg-error
 gpg-error-config
+gpgrt-config
 gpinky
 gpmetis
 gpr
@@ -2811,6 +2812,7 @@ yacc
 yarn
 yarnpkg
 yasm
+yat2m
 yes
 youtube-dl
 ypbind
