@@ -4,7 +4,7 @@ caskroom/homebrew-cask (git revision 72a884; last commit 2018-04-15)
 ==> macOS
 10.13.4
 ==> SIP
-Enabled
+Disabled
 ==> Java
 10, 1.8.0_162
 ==> Homebrew-Cask Install Location
