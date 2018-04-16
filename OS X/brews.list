@@ -206,6 +206,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 python
+python3
 python@2
 qhull
 qrupdate
