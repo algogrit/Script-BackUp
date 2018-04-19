@@ -2430,6 +2430,8 @@ svnsync
 svnversion
 sw_vers
 swagger
+swagger-cli
+swagger-codegen
 swarm
 swift
 swiftc

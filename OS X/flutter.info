@@ -1,8 +1,8 @@
-[✓] Flutter (Channel master, v0.3.1-pre.27, on Mac OS X 10.13.4 17E199, locale en-IN)
-    • Flutter version 0.3.1-pre.27 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 09ca3c187d (3 hours ago), 2018-04-18 01:21:33 -0700
-    • Engine revision 5822b6e578
-    • Dart version 2.0.0-dev.48.0.flutter-f76dad0adc
+[✓] Flutter (Channel master, v0.3.1-pre.35, on Mac OS X 10.13.4 17E199, locale en-IN)
+    • Flutter version 0.3.1-pre.35 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 7b163c7c0b (7 hours ago), 2018-04-18 20:31:45 -0700
+    • Engine revision 3cc8d82895
+    • Dart version 2.0.0-dev.48.0.flutter-fe606f890b
 
 [✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
     • Android SDK at /usr/local/share/android-sdk/

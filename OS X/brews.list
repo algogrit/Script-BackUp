@@ -242,6 +242,7 @@ sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
+swagger-codegen
 swi-prolog
 swiftlint
 szip
