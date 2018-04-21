@@ -189,6 +189,7 @@ bdftruncate
 bg
 biff
 bin
+bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
@@ -273,6 +274,7 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
+calabash-ios
 calendar
 cancel
 cap_mkdb
@@ -335,6 +337,7 @@ cmp
 cmpdylib
 cmpfillin
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -406,6 +409,7 @@ ctail
 ctest
 ctf_insert
 cu
+cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -521,6 +525,7 @@ docker-machine.backup
 docker-swarm
 domainname
 dot_clean
+dotenv
 doxygen
 drip
 dropdb
@@ -618,6 +623,7 @@ fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
+fastlane
 faucet
 fax2ps
 fax2tiff
@@ -677,6 +683,7 @@ footprint
 format-sql
 format-sql5.18
 fortune
+frank-calabash
 freetype-config
 fribidi
 from
@@ -778,10 +785,12 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
+generate-api
 gengal
 genstrings
 genv
 genxs
+geocode
 geoiplookup
 geoiplookup6
 getconf
@@ -807,6 +816,7 @@ ghc-pkg-8.4.2
 ghci
 ghci-8.4.2
 ghead
+gherkin-ruby
 ghostid
 gid
 gif2h5
@@ -1125,6 +1135,7 @@ htmltree5.18
 htop
 htpasswd
 httpcfg
+httpclient
 httpd
 httpd-wrapper
 httpdstat.d
@@ -1537,6 +1548,7 @@ mdoc-update
 mdoc-validate
 mdutil
 mdvalidater
+medium
 memcached
 memory_pressure
 mencoder
@@ -2009,6 +2021,7 @@ profiles
 proguard
 prove
 prove5.18
+pry
 ps
 psed
 psed5.18
@@ -2175,6 +2188,7 @@ resize
 resolveLinks
 resolve_stack_dump
 resolveip
+restclient
 rev
 rg
 ri
@@ -2185,6 +2199,7 @@ rmic
 rmid
 rmiregistry
 rotatelogs
+rougify
 route
 rpc.lockd
 rpc.statd
@@ -2192,6 +2207,7 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rspec
 rsvg-convert
 rsync
 rtadvd
@@ -2199,6 +2215,7 @@ rtsol
 rtsold
 ruby
 ruby-build
+run-loop
 run_erl
 runant.pl
 runant.py
@@ -2210,6 +2227,7 @@ rust-gdb
 rust-lldb
 rustc
 rustdoc
+rustup-init
 rvictl
 rview
 rvim
@@ -2487,6 +2505,7 @@ tfmtodit
 tfshark
 tftp
 thermal
+thor
 tic
 tidy
 tiff2bw
@@ -2689,6 +2708,7 @@ wsdl
 wsdl2
 wsgen
 wsimport
+ww
 wx-config
 wxrc
 wxrc-3.0
@@ -2720,6 +2740,8 @@ xcodebuild
 xcodeproj
 xcompmgr
 xconsole
+xcpretty
+xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose

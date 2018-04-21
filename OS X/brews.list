@@ -221,6 +221,7 @@ rsync
 ruby
 ruby-build
 rust
+rustup-init
 s-lang
 scala
 scons
