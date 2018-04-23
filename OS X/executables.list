@@ -1550,6 +1550,7 @@ mdoc-update
 mdoc-validate
 mdutil
 mdvalidater
+medium
 memcached
 memory_pressure
 mencoder
