@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.6.3
-caskroom/homebrew-cask (git revision a598dc6; last commit 2018-05-07)
+caskroom/homebrew-cask (git revision a446d; last commit 2018-05-08)
 ==> macOS
 10.13.4
 ==> SIP
@@ -14,7 +14,7 @@ Disabled
 ==> Homebrew-Cask Cached Downloads
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3958 casks)
+/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask (3961 casks)
 /usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions (176 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/cask/lib
