@@ -77,6 +77,7 @@ aclocal-1.16
 activate
 activate.csh
 activate.fish
+activate_this.py
 adb
 addftinfo
 afclip
@@ -273,6 +274,7 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
+calabash-ios
 calendar
 cancel
 cap_mkdb
@@ -335,6 +337,7 @@ cmp
 cmpdylib
 cmpfillin
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -406,6 +409,7 @@ ctail
 ctest
 ctf_insert
 cu
+cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -515,12 +519,10 @@ dns-sd
 dnsextd
 docker
 docker-compose
-docker-compose.backup
 docker-credential-osxkeychain
 docker-machine
 docker-machine.backup
 docker-swarm
-docker.backup
 domainname
 dot_clean
 dotenv
@@ -681,6 +683,7 @@ footprint
 format-sql
 format-sql5.18
 fortune
+frank-calabash
 freetype-config
 fribidi
 from
@@ -787,6 +790,7 @@ gengal
 genstrings
 genv
 genxs
+geocode
 geoiplookup
 geoiplookup6
 getconf
@@ -812,14 +816,13 @@ ghc-pkg-8.4.2
 ghci
 ghci-8.4.2
 ghead
+gherkin-ruby
 ghostid
 gid
 gif2h5
 gifdiff
 gifsicle
 giftogd2
-gin
-ginkgo
 ginstall
 gio
 gio-querymodules
@@ -957,17 +960,12 @@ gnutls-serv
 go
 go-build
 gobject-query
-gocode
 god
-godep
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
-goimports
-golint
-gorename
 gource
 gpaste
 gpathchk
@@ -1054,7 +1052,6 @@ gunlink
 gunzip
 gupdatedb
 guptime
-guru
 gusers
 gvdir
 gview
@@ -1233,7 +1230,6 @@ ipcount
 ipcount5.18
 ipcrm
 ipcs
-ipmap.html
 ippfind
 ipptool
 iprofiler
@@ -1531,6 +1527,7 @@ malloc_history32
 man
 manifest
 manpath
+markdown-pdf
 mas
 mclient
 mconfig
@@ -1865,6 +1862,7 @@ pathopens.d
 pax
 pbcopy
 pbpaste
+pbr
 pcap-config
 pcre-config
 pcregrep
@@ -2016,7 +2014,6 @@ priclass.d
 pridist.d
 printenv
 printf
-prj2make
 process
 procsystime
 productbuild
@@ -2025,6 +2022,7 @@ profiles
 proguard
 prove
 prove5.18
+pry
 ps
 psed
 psed5.18
@@ -2191,6 +2189,7 @@ resize
 resolveLinks
 resolve_stack_dump
 resolveip
+restclient
 rev
 rg
 ri
@@ -2209,6 +2208,7 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rspec
 rsvg-convert
 rsync
 rtadvd
@@ -2216,6 +2216,7 @@ rtsol
 rtsold
 ruby
 ruby-build
+run-loop
 run_erl
 runant.pl
 runant.py
@@ -2227,6 +2228,7 @@ rust-gdb
 rust-lldb
 rustc
 rustdoc
+rustup-init
 rvictl
 rview
 rvim
@@ -2236,7 +2238,9 @@ rwsnoop
 s2p
 s2p5.18
 sa
+sack
 safaridriver
+sag
 sample
 sampleproc
 sandbox-exec
@@ -2445,6 +2449,8 @@ svnsync
 svnversion
 sw_vers
 swagger
+swagger-cli
+swagger-codegen
 swarm
 swift
 swiftc
@@ -2500,6 +2506,7 @@ tfmtodit
 tfshark
 tftp
 thermal
+thor
 tic
 tidy
 tiff2bw
@@ -2583,6 +2590,7 @@ uncompress
 unexpand
 unifdef
 unifdefall
+uninstall-wkhtmltox
 uniq
 units
 universalaccessd
@@ -2590,6 +2598,7 @@ unlink
 unlzma
 unmunch
 uno
+unoinfo
 unopkg
 unpack200
 unrar
@@ -2602,7 +2611,6 @@ unzipsfx
 update-mime-database
 update_dyld_shared_cache
 uptime
-urelibs
 uri-encode
 usbkdp
 usernoted
@@ -2629,6 +2637,7 @@ v8
 vacuumdb
 vacuumlo
 vagrant
+vbc
 vbnc
 vbnc2
 vbox-img
@@ -2642,6 +2651,10 @@ vim
 vimdiff
 vimtutor
 vipw
+virtualenv
+virtualenv-clone
+virtualenvwrapper.sh
+virtualenvwrapper_lazy.sh
 vis
 visualinfo
 visudo
@@ -2825,6 +2838,8 @@ xzless
 xzmore
 yaa
 yacc
+yarn
+yarnpkg
 yasm
 yat2m
 yes
