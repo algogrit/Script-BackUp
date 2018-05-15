@@ -207,6 +207,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 python
+python3
 python@2
 qhull
 qrupdate
@@ -221,7 +222,6 @@ rsync
 ruby
 ruby-build
 rust
-rustup-init
 s-lang
 scala
 scons
@@ -244,7 +244,6 @@ sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
-swagger-codegen
 swi-prolog
 swiftlint
 szip
