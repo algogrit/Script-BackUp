@@ -665,6 +665,7 @@ findrule
 findrule5.18
 finger
 firmwarepasswd
+fix-qdf
 fixproc
 flac
 flash
@@ -2105,6 +2106,7 @@ qdelaunay
 qhalf
 qhull
 qlmanage
+qpdf
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2878,6 +2880,7 @@ zkCleanup
 zkCli
 zkServer
 zless
+zlib-flate
 zlib_decompress
 zmore
 znew
