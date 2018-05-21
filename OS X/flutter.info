@@ -1,17 +1,17 @@
-[✓] Flutter (Channel master, v0.4.5-pre.52, on Mac OS X 10.13.4 17E199, locale en-IN)
-    • Flutter version 0.4.5-pre.52 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 8717a5e6f7 (32 hours ago), 2018-05-19 03:19:35 +0300
+[✓] Flutter (Channel master, v0.4.5-pre.54, on Mac OS X 10.13.4 17E199, locale en-IN)
+    • Flutter version 0.4.5-pre.54 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision bb2f63f2cd (81 minutes ago), 2018-05-20 20:59:10 -0700
     • Engine revision 1179c38a42
     • Dart version 2.0.0-dev.55.0.flutter-43635d3372
 
-[!] Android toolchain - develop for Android devices (Android SDK 27.0.3)
+[✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
     • Android SDK at /usr/local/share/android-sdk/
     • Android NDK location not configured (optional; useful for native profiling support)
     • Platform android-27, build-tools 27.0.3
     • ANDROID_HOME = /usr/local/share/android-sdk/
     • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
     • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
-    ✗ Android license status unknown.
+    • All Android licenses accepted.
 
 [✓] iOS toolchain - develop for iOS devices (Xcode 9.3.1)
     • Xcode at /Applications/Xcode.app/Contents/Developer
@@ -37,4 +37,4 @@
 [!] Connected devices
     ! No devices available
 
-! Doctor found issues in 2 categories.
+! Doctor found issues in 1 category.
