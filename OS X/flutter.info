@@ -1,14 +1,14 @@
-[✓] Flutter (Channel master, v0.4.5-pre.77, on Mac OS X 10.13.4 17E202, locale en-IN)
-    • Flutter version 0.4.5-pre.77 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 54899c7638 (2 hours ago), 2018-05-24 04:03:05 +0200
+[✓] Flutter (Channel master, v0.4.5-pre.78, on Mac OS X 10.13.4 17E202, locale en-IN)
+    • Flutter version 0.4.5-pre.78 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision ca300100b8 (2 hours ago), 2018-05-24 08:49:17 +0200
     • Engine revision 86d96fd0ce
     • Dart version 2.0.0-dev.55.0.flutter-97b6c2e09d
 
 [✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
-    • Android SDK at /usr/local/share/android-sdk/
+    • Android SDK at /Users/gaurav/Library/Android/sdk/
     • Android NDK location not configured (optional; useful for native profiling support)
     • Platform android-27, build-tools 27.0.3
-    • ANDROID_HOME = /usr/local/share/android-sdk/
+    • ANDROID_HOME = /Users/gaurav/Library/Android/sdk/
     • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
     • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
     • All Android licenses accepted.
