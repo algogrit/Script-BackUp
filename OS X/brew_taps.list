@@ -1,7 +1,7 @@
-caskroom/cask
-caskroom/versions
 facebook/fb
 heroku/brew
 homebrew/boneyard
+homebrew/cask
+homebrew/cask-versions
 homebrew/core
 homebrew/services
