@@ -91,7 +91,7 @@ echo "\033[1;31mSetting Up Sublime...\033[0m"
 cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
-wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/$(uname -s)/flash
+wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash
 cp ~/Script-BackUp/OS\ X/bin/* ~/bin
 
