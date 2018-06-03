@@ -2678,6 +2678,7 @@ w3mman
 wait
 wait4path
 wall
+watch
 watchman
 watchman-make
 watchman-wait
