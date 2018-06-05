@@ -1,6 +1,6 @@
-[✓] Flutter (Channel master, v0.5.2-pre.42, on Mac OS X 10.13.4 17E202, locale en-IN)
-    • Flutter version 0.5.2-pre.42 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 4cd5870ece (2 days ago), 2018-06-01 15:57:01 -0700
+[✓] Flutter (Channel master, v0.5.2-pre.55, on Mac OS X 10.13.5 17F77, locale en-IN)
+    • Flutter version 0.5.2-pre.55 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 09276bea25 (45 minutes ago), 2018-06-05 08:50:40 +0200
     • Engine revision 6cef519598
     • Dart version 2.0.0-dev.59.0.flutter-1a185867a9
 
@@ -13,9 +13,9 @@
     • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
     • All Android licenses accepted.
 
-[✓] iOS toolchain - develop for iOS devices (Xcode 9.3.1)
+[✓] iOS toolchain - develop for iOS devices (Xcode 9.4)
     • Xcode at /Applications/Xcode.app/Contents/Developer
-    • Xcode 9.3.1, Build version 9E501
+    • Xcode 9.4, Build version 9F1027a
     • ios-deploy 1.9.2
     • CocoaPods version 1.5.0
 
