@@ -12,16 +12,17 @@ elm-platform
 evernote
 firefox
 flash-player
-flux
 gimp
 google-chrome
 google-cloud-sdk
 google-hangouts
 grammarly
+hipchat
 intellij-idea-ce
 iterm2
 java
 java8
+joinme
 julia
 kicad
 kindle
@@ -39,6 +40,7 @@ osxfuse
 postman
 provisioning
 rstudio
+sketch
 skype
 slack
 soundflower
@@ -58,3 +60,4 @@ vnc-viewer
 wireshark
 xquartz
 yujitach-menumeters
+zeplin
