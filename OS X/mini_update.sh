@@ -1,5 +1,9 @@
 #! /usr/bin/env sh
 
+# Show any remote only commits
+git ru
+git status
+
 # Updating brew prior to any brew operations
 brew update
 brew cleanup
