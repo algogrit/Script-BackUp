@@ -4,7 +4,7 @@ Homebrew/homebrew-cask (git revision 28c4b; last commit 2018-06-08)
 ==> macOS
 10.13.5
 ==> SIP
-Disabled
+Enabled
 ==> Java
 10, 1.8.0_162
 ==> Homebrew-Cask Install Location
