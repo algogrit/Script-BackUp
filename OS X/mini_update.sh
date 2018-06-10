@@ -3,6 +3,7 @@
 # Show any remote only commits
 git ru
 git status
+git up
 
 # Updating brew prior to any brew operations
 brew update
