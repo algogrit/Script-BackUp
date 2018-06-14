@@ -1153,6 +1153,7 @@ hunspell
 hunzip
 hyperkit
 hzip
+ibd2sdi
 ibtool
 iceauth
 ico
@@ -1692,12 +1693,8 @@ myisampack
 mysql
 mysql.server
 mysql_client_test
-mysql_client_test_embedded
 mysql_config
 mysql_config_editor
-mysql_embedded
-mysql_install_db
-mysql_plugin
 mysql_secure_installation
 mysql_ssl_rsa_setup
 mysql_tzinfo_to_sql
@@ -1715,7 +1712,6 @@ mysqlpump
 mysqlshow
 mysqlslap
 mysqltest
-mysqltest_embedded
 mysqlxtest
 nano
 nasm
@@ -2192,7 +2188,6 @@ reject
 renice
 reordercap
 repairHomePermissions
-replace
 repquota
 reset
 resgen
