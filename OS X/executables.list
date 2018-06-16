@@ -462,7 +462,6 @@ db_log_verify
 db_printlog
 db_recover
 db_replicate
-db_sql_codegen
 db_stat
 db_tuner
 db_upgrade
