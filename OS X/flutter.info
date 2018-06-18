@@ -1,36 +1,36 @@
-[✓] Flutter (Channel master, v0.5.5-pre.44, on Mac OS X 10.13.5 17F77, locale en-IN)
-    • Flutter version 0.5.5-pre.44 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 3f79f8cba5 (9 hours ago), 2018-06-16 12:54:02 -0700
+[✓] Flutter (Channel master, v0.5.5-pre.45, on Mac OS X 10.13.5 17F77, locale en-IN)
+    • Flutter version 0.5.5-pre.45 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 592c5ba91a (2 hours ago), 2018-06-18 06:37:01 +0100
     • Engine revision c3976b3c71
     • Dart version 2.0.0-dev.61.0.flutter-c95617b19c
 
 [✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
-    • Android SDK at /usr/local/share/android-sdk/
+    • Android SDK at /Users/gaurav/Library/Android/sdk/
     • Android NDK location not configured (optional; useful for native profiling support)
     • Platform android-27, build-tools 27.0.3
-    • ANDROID_HOME = /usr/local/share/android-sdk/
+    • ANDROID_HOME = /Users/gaurav/Library/Android/sdk/
     • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
-    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-915-b08)
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
     • All Android licenses accepted.
 
-[✓] iOS toolchain - develop for iOS devices (Xcode 9.4)
+[✓] iOS toolchain - develop for iOS devices (Xcode 9.4.1)
     • Xcode at /Applications/Xcode.app/Contents/Developer
-    • Xcode 9.4, Build version 9F1027a
+    • Xcode 9.4.1, Build version 9F2000
     • ios-deploy 1.9.2
     • CocoaPods version 1.5.0
 
-[✓] Android Studio (version 3.0)
+[✓] Android Studio (version 3.1)
     • Android Studio at /Applications/Android Studio.app/Contents
-    • Flutter plugin version 22.2.1
-    • Dart plugin version 171.4424
-    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-915-b08)
-
-[✓] IntelliJ IDEA Community Edition (version 2017.3.5)
-    • IntelliJ at /Applications/IntelliJ IDEA CE.app
-    • Flutter plugin version 22.2.2
+    • Flutter plugin version 23.2.2
     • Dart plugin version 173.4700
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
 
-[!] VS Code (version 1.21.1)
+[✓] IntelliJ IDEA Community Edition (version 2018.1)
+    • IntelliJ at /Applications/IntelliJ IDEA CE.app
+    • Flutter plugin version 23.1.3
+    • Dart plugin version 181.4203.498
+
+[!] VS Code (version 1.22.1)
     • VS Code at /Applications/Visual Studio Code.app/Contents
     • Flutter extension not installed; install from
       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
