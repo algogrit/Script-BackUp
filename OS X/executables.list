@@ -522,6 +522,7 @@ docker
 docker-compose
 docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
 domainname
 dot_clean
