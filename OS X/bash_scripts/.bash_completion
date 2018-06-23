@@ -12,3 +12,7 @@ source ~/bash_scripts/custom_completion/.git_commands
 if [ -f ~/.fastlane/completions/completion.sh ]; then
   . ~/.fastlane/completions/completion.sh
 fi
+
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi

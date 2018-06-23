@@ -87,6 +87,10 @@ vim +BundleInstall +qall
 echo "\033[1;31mRestoring Custom git commands...\033[0m"
 cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/
 
+echo "\033[1;31mSetting up exercism...\033[0m"
+mkdir -p ~/Developer/exercism ~/.config/exercism/
+curl http://cli.exercism.io/shell/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
+
 echo "\033[1;31mSetting Up Sublime...\033[0m"
 cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
