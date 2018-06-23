@@ -20,6 +20,7 @@
 
 # Productivity Hack - It's not difficult to make the choices. The hard part is to actually live with them.
 0.0.0.0 airma.sh
+0.0.0.0 imgur.com
 
 # Custom blocking
 0.0.0.0 www.hicpm10.com

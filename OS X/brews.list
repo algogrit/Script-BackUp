@@ -196,6 +196,7 @@ perl
 phantomjs
 pixman
 pkg-config
+pngcrush
 poppler
 popt
 postgresql
@@ -208,9 +209,9 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 python
+python3
 python@2
 qhull
-qpdf
 qrupdate
 qt
 r
@@ -223,7 +224,6 @@ rsync
 ruby
 ruby-build
 rust
-rustup-init
 s-lang
 scala
 scons
@@ -246,7 +246,6 @@ sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
-swagger-codegen
 swi-prolog
 swiftlint
 szip
@@ -270,7 +269,6 @@ v8
 veclibfort
 vim
 w3m
-watch
 watchman
 webp
 wget
