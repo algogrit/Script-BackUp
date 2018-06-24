@@ -32,6 +32,7 @@ coreutils
 cscope
 ctags
 curl
+dart
 docker-machine
 docker-swarm
 doxygen

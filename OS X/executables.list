@@ -442,6 +442,12 @@ cxpm
 d8
 dappprof
 dapptrace
+dart
+dart2js
+dartanalyzer
+dartdevc
+dartdoc
+dartfmt
 darwinup
 date
 db_archive
@@ -2040,6 +2046,7 @@ ptardiff
 ptardiff5.18
 ptargrep
 ptargrep5.18
+pub
 pubsub
 puppeth
 purge
