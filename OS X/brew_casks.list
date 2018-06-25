@@ -9,7 +9,6 @@ caffeine
 docker
 dropbox
 elm-platform
-emin-webpquicklook
 evernote
 firefox
 flash-player
@@ -19,10 +18,12 @@ google-chrome
 google-cloud-sdk
 google-hangouts
 grammarly
+hipchat
 intellij-idea-ce
 iterm2
 java
 java8
+joinme
 julia
 kicad
 kindle
@@ -40,6 +41,7 @@ osxfuse
 postman
 provisioning
 rstudio
+sketch
 skype
 slack
 soundflower
@@ -51,6 +53,7 @@ thunderbird
 torbrowser
 transmission
 unity
+usage
 vagrant
 virtualbox
 visual-studio-code
@@ -59,3 +62,4 @@ vnc-viewer
 wireshark
 xquartz
 yujitach-menumeters
+zeplin

@@ -89,6 +89,7 @@ cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/
 
 echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
+exercism configure --dir=$HOME/Developer/exercism/
 curl http://cli.exercism.io/shell/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
 
 echo "\033[1;31mSetting Up Sublime...\033[0m"
