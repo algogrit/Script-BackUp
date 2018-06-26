@@ -226,6 +226,7 @@ ruby-build
 rust
 rustup-init
 s-lang
+sbt
 scala
 scons
 sdl

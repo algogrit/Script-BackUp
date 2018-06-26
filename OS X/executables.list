@@ -2255,6 +2255,7 @@ sandbox-pod
 sass
 sass-convert
 say
+sbt
 sc_auth
 sc_usage
 scala

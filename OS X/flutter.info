@@ -1,6 +1,6 @@
-[✓] Flutter (Channel master, v0.5.6-pre.61, on Mac OS X 10.13.5 17F77, locale en-IN)
-    • Flutter version 0.5.6-pre.61 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 2e559584e2 (2 days ago), 2018-06-22 16:32:32 -0700
+[✓] Flutter (Channel master, v0.5.6-pre.74, on Mac OS X 10.13.5 17F77, locale en-IN)
+    • Flutter version 0.5.6-pre.74 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 3351423a42 (2 hours ago), 2018-06-25 19:28:42 -0700
     • Engine revision 549c855e89
     • Dart version 2.0.0-dev.63.0.flutter-4c9689c1d2
 
@@ -35,7 +35,7 @@
     • Flutter extension not installed; install from
       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 
-[✓] Connected devices (1 available)
-    • iPhone 7 • 7D0ED702-CD44-4166-BF33-75980ED660C2 • ios • iOS 11.4 (simulator)
+[!] Connected devices
+    ! No devices available
 
-! Doctor found issues in 1 category.
+! Doctor found issues in 2 categories.
