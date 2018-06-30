@@ -19,7 +19,6 @@ CpMac
 DeRez
 DevToolsSecurity
 DirectoryService
-F
 FileStatsAgent
 GetFileInfo
 GraphicsMagick++-config
@@ -78,7 +77,6 @@ aclocal-1.16
 activate
 activate.csh
 activate.fish
-activate_this.py
 adb
 addftinfo
 afclip
@@ -275,7 +273,6 @@ caffeinate
 cairo-sphinx
 cairo-trace
 cal
-calabash-ios
 calendar
 cancel
 cap_mkdb
@@ -338,7 +335,6 @@ cmp
 cmpdylib
 cmpfillin
 code
-coderay
 codesign
 codesign_allocate
 col
@@ -363,7 +359,6 @@ conjure-up
 connect-distributed
 connect-standalone
 convert
-cordova
 coreaudiod
 corebrightnessdiag
 corelist
@@ -411,7 +406,6 @@ ctail
 ctest
 ctf_insert
 cu
-cucumber
 cups-config
 cupsaccept
 cupsaddsmb
@@ -448,6 +442,12 @@ cxpm
 d8
 dappprof
 dapptrace
+dart
+dart2js
+dartanalyzer
+dartdevc
+dartdoc
+dartfmt
 darwinup
 date
 db_archive
@@ -520,10 +520,12 @@ dns-sd
 dnsextd
 docker
 docker-compose
+docker-compose.backup
 docker-credential-osxkeychain
 docker-machine
 docker-machine.backup
 docker-swarm
+docker.backup
 domainname
 dot_clean
 dotenv
@@ -595,7 +597,6 @@ erb
 erl
 erlc
 errinfo
-erubis
 escript
 etags
 etc1tool
@@ -667,7 +668,6 @@ findrule
 findrule5.18
 finger
 firmwarepasswd
-fix-qdf
 fixproc
 flac
 flash
@@ -687,7 +687,6 @@ footprint
 format-sql
 format-sql5.18
 fortune
-frank-calabash
 freetype-config
 fribidi
 from
@@ -780,7 +779,6 @@ gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 gdlib-config
-gdm
 gdparttopng
 gdrive
 gdtopng
@@ -795,7 +793,6 @@ gengal
 genstrings
 genv
 genxs
-geocode
 geoiplookup
 geoiplookup6
 getconf
@@ -821,13 +818,14 @@ ghc-pkg-8.4.3
 ghci
 ghci-8.4.3
 ghead
-gherkin-ruby
 ghostid
 gid
 gif2h5
 gifdiff
 gifsicle
 giftogd2
+gin
+ginkgo
 ginstall
 gio
 gio-querymodules
@@ -965,13 +963,18 @@ gnutls-serv
 go
 go-build
 gobject-query
+gobot-ble-example
+gocode
 god
+godep
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
+goimports
 golint
+gorename
 gource
 gpaste
 gpathchk
@@ -1058,6 +1061,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gvdir
 gview
@@ -1101,7 +1105,6 @@ h5watch
 haddock
 haddock-ghc-8.4.3
 halt
-haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1238,6 +1241,7 @@ ipcount
 ipcount5.18
 ipcrm
 ipcs
+ipmap.html
 ippfind
 ipptool
 iprofiler
@@ -1384,7 +1388,6 @@ kinit
 klist
 koi8rxterm
 kpasswd
-kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1437,7 +1440,6 @@ link
 linkicc
 lint
 lipo
-listen
 listres
 lkbib
 lldb
@@ -1537,7 +1539,6 @@ malloc_history32
 man
 manifest
 manpath
-markdown-pdf
 mas
 mclient
 mconfig
@@ -1568,7 +1569,6 @@ mesg
 metaflac
 mib2c
 mib2c-update
-middleman
 mig
 minikube
 mix
@@ -1868,7 +1868,6 @@ pathopens.d
 pax
 pbcopy
 pbpaste
-pbr
 pcap-config
 pcre-config
 pcregrep
@@ -1962,6 +1961,7 @@ pluginkit
 plutil
 pmset
 png-fix-itxt
+pngcrush
 pngfix
 pngtogd
 pngtogd2
@@ -2020,6 +2020,7 @@ priclass.d
 pridist.d
 printenv
 printf
+prj2make
 process
 procsystime
 productbuild
@@ -2028,7 +2029,6 @@ profiles
 proguard
 prove
 prove5.18
-pry
 ps
 psed
 psed5.18
@@ -2046,6 +2046,7 @@ ptardiff
 ptardiff5.18
 ptargrep
 ptargrep5.18
+pub
 pubsub
 puppeth
 purge
@@ -2108,7 +2109,6 @@ qdelaunay
 qhalf
 qhull
 qlmanage
-qpdf
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2125,7 +2125,6 @@ rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
 racer
-rackup
 racoon
 raidutil
 rails
@@ -2196,7 +2195,6 @@ resize
 resolveLinks
 resolve_stack_dump
 resolveip
-restclient
 rev
 rg
 ri
@@ -2215,7 +2213,6 @@ rpcbind
 rpcgen
 rpcinfo
 rs
-rspec
 rsvg-convert
 rsync
 rtadvd
@@ -2223,7 +2220,6 @@ rtsol
 rtsold
 ruby
 ruby-build
-run-loop
 run_erl
 runant.pl
 runant.py
@@ -2235,7 +2231,6 @@ rust-gdb
 rust-lldb
 rustc
 rustdoc
-rustup-init
 rvictl
 rview
 rvim
@@ -2245,17 +2240,12 @@ rwsnoop
 s2p
 s2p5.18
 sa
-sack
 safaridriver
-sag
 sample
 sampleproc
 sandbox-exec
 sandbox-pod
-sass
-sass-convert
 say
-sbt
 sc_auth
 sc_usage
 scala
@@ -2275,7 +2265,6 @@ screencapture
 screenshot2
 script
 scselect
-scss
 scutil
 sdef
 sdiff
@@ -2460,8 +2449,6 @@ svnsync
 svnversion
 sw_vers
 swagger
-swagger-cli
-swagger-codegen
 swarm
 swift
 swiftc
@@ -2517,7 +2504,6 @@ tfmtodit
 tfshark
 tftp
 thermal
-thor
 tic
 tidy
 tiff2bw
@@ -2538,7 +2524,6 @@ tiffutil
 tificc
 tig
 tiller
-tilt
 time
 timer_analyser.d
 timerfires
@@ -2603,7 +2588,6 @@ uncompress
 unexpand
 unifdef
 unifdefall
-uninstall-wkhtmltox
 uniq
 units
 universalaccessd
@@ -2611,7 +2595,6 @@ unlink
 unlzma
 unmunch
 uno
-unoinfo
 unopkg
 unpack200
 unrar
@@ -2624,6 +2607,7 @@ unzipsfx
 update-mime-database
 update_dyld_shared_cache
 uptime
+urelibs
 uri-encode
 usbkdp
 usernoted
@@ -2650,7 +2634,6 @@ v8
 vacuumdb
 vacuumlo
 vagrant
-vbc
 vbnc
 vbnc2
 vbox-img
@@ -2664,10 +2647,6 @@ vim
 vimdiff
 vimtutor
 vipw
-virtualenv
-virtualenv-clone
-virtualenvwrapper.sh
-virtualenvwrapper_lazy.sh
 vis
 visualinfo
 visudo
@@ -2685,7 +2664,6 @@ w3mman
 wait
 wait4path
 wall
-watch
 watchman
 watchman-make
 watchman-wait
@@ -2852,8 +2830,6 @@ xzless
 xzmore
 yaa
 yacc
-yarn
-yarnpkg
 yasm
 yat2m
 yes
@@ -2889,7 +2865,6 @@ zkCleanup
 zkCli
 zkServer
 zless
-zlib-flate
 zlib_decompress
 zmore
 znew
