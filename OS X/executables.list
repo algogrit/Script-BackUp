@@ -2326,6 +2326,7 @@ siege.config
 siege2csv.pl
 sigdist.d
 signcode
+simulations
 sip
 sips
 size
@@ -2462,6 +2463,7 @@ swagger
 swagger-cli
 swagger-codegen
 swarm
+swarm-smoke
 swift
 swiftc
 swiftlint
