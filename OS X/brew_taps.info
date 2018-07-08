@@ -1,31 +1,27 @@
-dart-lang/dart: unpinned, 3 formulae
-/usr/local/Homebrew/Library/Taps/dart-lang/homebrew-dart (51 files, 42.8KB)
-From: https://github.com/dart-lang/homebrew-dart
-
 facebook/fb: unpinned, 4 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (65 files, 55.7KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (50 files, 43.5KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (509 files, 202.3KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (512 files, 195.4KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/boneyard: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (30 files, 23.3KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (30 files, 23.6KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
 homebrew/cask: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,614 files, 81.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,170 files, 63.8MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-versions: unpinned, no formulae/commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,735 files, 60.0MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,682 files, 57.6MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 4586 formulae, 2 commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,628 files, 56.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,101 files, 27MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (83 files, 99KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (58 files, 72.5KB)
 From: https://github.com/Homebrew/homebrew-services
