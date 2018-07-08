@@ -1209,7 +1209,7 @@ MD5 (/usr/sbin/httpd) = 7f9e06c766b69c405f0f22b9396dcf88
 MD5 (/usr/sbin/httpd-wrapper) = b064690b2f77097592e8d5c914efc200
 MD5 (/usr/bin/httpdstat.d) = 38fe1b0e73c0915e4ff0c4ca12415845
 MD5 (/usr/sbin/httxt2dbm) = 965525531475101e27d37410f834d5ba
-MD5 (/usr/local/bin/hub) = 152c89afd2aa70e5394ea55941b654b8
+MD5 (/usr/local/bin/hub) = f67e3ddeb22146c8288bfb8061092785
 MD5 (/Users/gaurav/.goenv/bin/hugo) = 3e68b2689b4b3be077a52ae793d9c44b
 MD5 (/usr/local/bin/hunspell) = 880b1ff962117772e9c3bcbe4b88c194
 MD5 (/usr/local/bin/hunzip) = b891a32fb4f07fd1be082a3f64e34753
@@ -1664,7 +1664,7 @@ MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdoc-validate)
 MD5 (/usr/bin/mdutil) = 471127e6650bb6242934c5717ce60c6e
 MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdvalidater) = 963f8161a043c5191545f1a1a198cdd9
 MD5 (/Users/gaurav/.nodenv/shims/medium) = b2f752302d8460931e119ff44b7021f0
-MD5 (/usr/local/bin/memcached) = 543259203284c3b89a794efe666e67e5
+MD5 (/usr/local/bin/memcached) = bfa20b3b7098fc000b2693bb84e09762
 MD5 (/usr/bin/memory_pressure) = 14b8f743b4ae21a87c245dd07a7e9954
 MD5 (/usr/local/bin/mencoder) = 145657bbf61cb863195ba0c8ccdf3cf8
 MD5 (/usr/local/bin/mergecap) = 008ac39bda3c5e506de7dac00c85c11a
