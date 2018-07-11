@@ -7,6 +7,7 @@ alias rm="rm -v"
 
 function _line_by_line {
   while read single_arg; do
+    echo $1 $single_arg
     $1 $single_arg
   done
 }
@@ -31,7 +32,7 @@ echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
-cat ~/Script-BackUp/OS\ X/brew_casks.list | xargs brew cask install || exit 1
+_line_by_line "brew cask install" < "$HOME/Script-BackUp/OS X/brew_casks.list" || exit 1
 
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade || exit 1
