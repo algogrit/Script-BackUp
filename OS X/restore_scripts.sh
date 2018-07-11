@@ -8,7 +8,7 @@ alias rm="rm -v"
 function _line_by_line {
   while read single_arg; do
     echo $1 $single_arg
-    $1 $single_arg
+    $1 $single_arg || exit 1
   done
 }
 
@@ -104,7 +104,7 @@ cp ~/Script-BackUp/OS\ X/bin/* ~/bin
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
 
-source ${HOME}/.bash_scripts/.bash_load
+source ${HOME}/bash_scripts/.bash_load
 
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
