@@ -1,36 +1,38 @@
-[✓] Flutter (Channel master, v0.5.7-pre.105, on Mac OS X 10.13.5 17F77, locale en-IN)
+[✓] Flutter (Channel master, v0.5.7-pre.105, on Mac OS X 10.13.6 17G65, locale en-IN)
     • Flutter version 0.5.7-pre.105 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision cc122f1672 (2 hours ago), 2018-07-11 19:52:28 -0700
+    • Framework revision cc122f1672 (3 hours ago), 2018-07-11 19:52:28 -0700
     • Engine revision ce06bbac58
     • Dart version 2.0.0-dev.63.0.flutter-4c9689c1d2
 
-[✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
-    • Android SDK at /usr/local/share/android-sdk/
+[✓] Android toolchain - develop for Android devices (Android SDK 28.0.1)
+    • Android SDK at /Users/gaurav/Library/Android/sdk/
     • Android NDK location not configured (optional; useful for native profiling support)
-    • Platform android-27, build-tools 27.0.3
-    • ANDROID_HOME = /usr/local/share/android-sdk/
+    • Platform android-28, build-tools 28.0.1
+    • ANDROID_HOME = /Users/gaurav/Library/Android/sdk/
     • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
-    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-915-b08)
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
     • All Android licenses accepted.
 
 [✓] iOS toolchain - develop for iOS devices (Xcode 9.4.1)
     • Xcode at /Applications/Xcode.app/Contents/Developer
     • Xcode 9.4.1, Build version 9F2000
     • ios-deploy 1.9.2
-    • CocoaPods version 1.5.0
+    • CocoaPods version 1.5.3
 
-[✓] Android Studio (version 3.0)
+[✓] Android Studio (version 3.1)
     • Android Studio at /Applications/Android Studio.app/Contents
-    • Flutter plugin version 22.2.1
-    • Dart plugin version 171.4424
-    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-915-b08)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
 
-[✓] IntelliJ IDEA Community Edition (version 2017.3.5)
+[!] IntelliJ IDEA Community Edition (version 2018.1.5)
     • IntelliJ at /Applications/IntelliJ IDEA CE.app
-    • Flutter plugin version 22.2.2
-    • Dart plugin version 173.4700
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • For information about installing plugins, see
+      https://flutter.io/intellij-setup/#installing-the-plugins
 
-[!] VS Code (version 1.21.1)
+[!] VS Code (version 1.25.0)
     • VS Code at /Applications/Visual Studio Code.app/Contents
     • Flutter extension not installed; install from
       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
@@ -38,4 +40,4 @@
 [!] Connected devices
     ! No devices available
 
-! Doctor found issues in 2 categories.
+! Doctor found issues in 3 categories.

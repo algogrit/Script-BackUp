@@ -2,11 +2,11 @@
 Homebrew-Cask 1.6.14
 Homebrew/homebrew-cask (git revision 5271f; last commit 2018-07-12)
 ==> macOS
-10.13.5
+10.13.6
 ==> SIP
 Enabled
 ==> Java
-10, 1.8.0_162
+10.0.1, 1.8.0_172
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
