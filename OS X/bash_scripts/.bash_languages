@@ -4,9 +4,6 @@ echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
 export CPPFLAGS=-I$(brew --prefix openssl)/include
 export LDFLAGS=-L$(brew --prefix openssl)/lib
 
-# Homebrew
-export HOMEBREW_NO_AUTO_UPDATE=1
-
 # # JAVA GC Tuning
 # export set JAVA_OPTS="-Xms256m -Xmx1g"
 

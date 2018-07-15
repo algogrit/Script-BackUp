@@ -2,11 +2,11 @@
 Homebrew-Cask 1.6.17
 Homebrew/homebrew-cask (git revision 7b1fe; last commit 2018-07-15)
 ==> macOS
-10.13.6
+10.13.5
 ==> SIP
 Enabled
 ==> Java
-10.0.1, 1.8.0_172
+10, 1.8.0_162
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
@@ -19,18 +19,18 @@ Enabled
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew
 /usr/local/Homebrew/Library/Homebrew/cask/lib
-/Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
-/Library/Ruby/Site/2.3.0
-/Library/Ruby/Site/2.3.0/x86_64-darwin17
-/Library/Ruby/Site/2.3.0/universal-darwin17
-/Library/Ruby/Site
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/universal-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/universal-darwin17
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0/universal-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0/universal-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0/universal-darwin9.0
 ==> Environment Variables
 LC_ALL="en_US.UTF-8"
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Homebrew/Library/Homebrew/shims/scm"

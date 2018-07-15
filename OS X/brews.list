@@ -32,6 +32,7 @@ coreutils
 cscope
 ctags
 curl
+dart
 docker-machine
 docker-swarm
 doxygen
@@ -64,6 +65,7 @@ gdbm
 gdk-pixbuf
 gdrive
 geoip
+geth
 gettext
 ghc
 gifsicle
@@ -196,6 +198,7 @@ perl
 phantomjs
 pixman
 pkg-config
+pngcrush
 poppler
 popt
 postgresql
@@ -208,9 +211,9 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 python
+python3
 python@2
 qhull
-qpdf
 qrupdate
 qt
 r
@@ -223,9 +226,7 @@ rsync
 ruby
 ruby-build
 rust
-rustup-init
 s-lang
-sbt
 scala
 scons
 sdl
@@ -247,7 +248,6 @@ sphinx-doc
 sqlite
 ssh-copy-id
 suite-sparse
-swagger-codegen
 swi-prolog
 swiftlint
 szip
@@ -271,7 +271,6 @@ v8
 veclibfort
 vim
 w3m
-watch
 watchman
 webp
 wget
