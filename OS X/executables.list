@@ -55,6 +55,7 @@ VBoxVRDP
 VirtualBox
 WirelessRadioManagerd
 Wireshark
+Wireshark.dSYM
 X
 Xephyr
 Xfake
@@ -62,7 +63,6 @@ Xnest
 Xorg
 Xquartz
 Xvfb
-Yet-Another-Expense-Splitter
 [
 a2p
 a2p5.18
@@ -188,7 +188,6 @@ bdftruncate
 bg
 biff
 bin
-bin-proxy
 binhex
 binhex.pl
 binhex5.18.pl
@@ -277,8 +276,10 @@ calendar
 cancel
 cap_mkdb
 capinfos
+capinfos.dSYM
 captoinfo
 captype
+captype.dSYM
 cargo
 carthage
 caspol
@@ -442,12 +443,6 @@ cxpm
 d8
 dappprof
 dapptrace
-dart
-dart2js
-dartanalyzer
-dartdevc
-dartdoc
-dartfmt
 darwinup
 date
 db_archive
@@ -488,11 +483,11 @@ debinhex5.18.pl
 defaults
 defragcli
 delv
-dep
 desdp
 dev_mkdb
 df
 dftest
+dftest.dSYM
 diagnose-fu
 dialyzer
 diff
@@ -518,17 +513,11 @@ dmtracedump
 dnctl
 dns-sd
 dnsextd
-docker
-docker-compose
-docker-compose.backup
-docker-credential-osxkeychain
+docker-credential-gcloud
 docker-machine
-docker-machine.backup
 docker-swarm
-docker.backup
 domainname
 dot_clean
-dotenv
 doxygen
 drip
 dropdb
@@ -551,6 +540,7 @@ dtrace
 dtruss
 du
 dumpcap
+dumpcap.dSYM
 dumpsexp
 dvdbackup
 dwarfdump
@@ -566,16 +556,12 @@ echo
 ecpg
 ed
 editcap
+editcap.dSYM
 editres
 edquota
 egrep
 elixir
 elixirc
-elm
-elm-make
-elm-package
-elm-reactor
-elm-repl
 emacs
 emacs-26.1
 emacs-undumped
@@ -627,7 +613,6 @@ fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
-fastlane
 faucet
 fax2ps
 fax2tiff
@@ -668,6 +653,7 @@ findrule
 findrule5.18
 finger
 firmwarepasswd
+fix-qdf
 fixproc
 flac
 flash
@@ -710,6 +696,8 @@ fstyp_ntfs
 fstyp_udf
 funzip
 fuser
+fuzzshark
+fuzzshark.dSYM
 fuzzy_match
 fwkdp
 fwkpfv
@@ -728,7 +716,6 @@ gapi2-fixup
 gapi2-parser
 gapplication
 gatherheaderdoc
-gatsby
 gawk
 gawk-4.2.1
 gb2sum
@@ -788,7 +775,6 @@ gegrep
 gem
 gen_bridge_metadata
 gencat
-generate-api
 gengal
 genstrings
 genv
@@ -824,8 +810,6 @@ gif2h5
 gifdiff
 gifsicle
 giftogd2
-gin
-ginkgo
 ginstall
 gio
 gio-querymodules
@@ -963,18 +947,12 @@ gnutls-serv
 go
 go-build
 gobject-query
-gobot-ble-example
-gocode
 god
-godep
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
-goimports
-golint
-gorename
 gource
 gpaste
 gpathchk
@@ -1061,7 +1039,6 @@ gunlink
 gunzip
 gupdatedb
 guptime
-guru
 gusers
 gvdir
 gview
@@ -1145,16 +1122,13 @@ htmltree5.18
 htop
 htpasswd
 httpcfg
-httpclient
 httpd
 httpd-wrapper
 httpdstat.d
 httxt2dbm
 hub
-hugo
 hunspell
 hunzip
-hyperkit
 hzip
 ibd2sdi
 ibtool
@@ -1164,7 +1138,6 @@ iconutil
 iconv
 ictool
 id
-idea
 identify
 idevice_id
 idevicebackup
@@ -1184,6 +1157,8 @@ idevicepair
 ideviceprovision
 idevicescreenshot
 idevicesyslog
+idl2wrs
+idl2wrs.dSYM
 idle
 idle2
 idle2.7
@@ -1197,6 +1172,7 @@ ifconfig
 ifnames
 ikdasm
 ilasm
+illinkanalyzer
 img2txt
 img2webp
 imgcmp
@@ -1241,7 +1217,6 @@ ipcount
 ipcount5.18
 ipcrm
 ipcs
-ipmap.html
 ippfind
 ipptool
 iprofiler
@@ -1560,11 +1535,11 @@ mdoc-update
 mdoc-validate
 mdutil
 mdvalidater
-medium
 memcached
 memory_pressure
 mencoder
 mergecap
+mergecap.dSYM
 mesg
 metaflac
 mib2c
@@ -1590,6 +1565,8 @@ mkpassdb
 mksdcard
 mksnapshot
 mktemp
+mmdbresolve
+mmdbresolve.dSYM
 mmroff
 mnthome
 mod
@@ -1776,7 +1753,6 @@ nodenv-install
 nodenv-uninstall
 nohup
 nologin
-notary
 notifyd
 notifyutil
 nping
@@ -1960,7 +1936,6 @@ pluginkit
 plutil
 pmset
 png-fix-itxt
-pngcrush
 pngfix
 pngtogd
 pngtogd2
@@ -2019,7 +1994,6 @@ priclass.d
 pridist.d
 printenv
 printf
-prj2make
 process
 procsystime
 productbuild
@@ -2045,7 +2019,6 @@ ptardiff
 ptardiff5.18
 ptargrep
 ptargrep5.18
-pub
 pubsub
 puppeth
 purge
@@ -2108,6 +2081,7 @@ qdelaunay
 qhalf
 qhull
 qlmanage
+qpdf
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2129,10 +2103,12 @@ raidutil
 rails
 rake
 randpkt
+randpkt.dSYM
 ranlib
 rarpd
 raw2tiff
 rawshark
+rawshark.dSYM
 rb_hash_to_json
 rbenv
 rbenv---version
@@ -2185,6 +2161,7 @@ reindexdb
 reject
 renice
 reordercap
+reordercap.dSYM
 repairHomePermissions
 repquota
 reset
@@ -2204,7 +2181,6 @@ rmic
 rmid
 rmiregistry
 rotatelogs
-rougify
 route
 rpc.lockd
 rpc.statd
@@ -2230,6 +2206,7 @@ rust-gdb
 rust-lldb
 rustc
 rustdoc
+rustup-init
 rvictl
 rview
 rvim
@@ -2239,12 +2216,15 @@ rwsnoop
 s2p
 s2p5.18
 sa
+sack
 safaridriver
+sag
 sample
 sampleproc
 sandbox-exec
 sandbox-pod
 say
+sbt
 sc_auth
 sc_usage
 scala
@@ -2302,6 +2282,7 @@ sha2
 shar
 sharing
 sharkd
+sharkd.dSYM
 shasum
 shasum5.18
 shlock
@@ -2448,7 +2429,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
-swagger
+swagger-codegen
 swarm
 swarm-smoke
 swift
@@ -2500,9 +2481,9 @@ texi2html
 texi2pdf
 texindex
 text2pcap
+text2pcap.dSYM
 textutil
 tfmtodit
-tfshark
 tftp
 thermal
 tic
@@ -2565,6 +2546,7 @@ trogdor
 true
 tset
 tshark
+tshark.dSYM
 tsig-keygen
 tsort
 tty
@@ -2596,6 +2578,7 @@ unlink
 unlzma
 unmunch
 uno
+unoinfo
 unopkg
 unpack200
 unrar
@@ -2608,7 +2591,6 @@ unzipsfx
 update-mime-database
 update_dyld_shared_cache
 uptime
-urelibs
 uri-encode
 usbkdp
 usernoted
@@ -2635,6 +2617,7 @@ v8
 vacuumdb
 vacuumlo
 vagrant
+vbc
 vbnc
 vbnc2
 vbox-img
@@ -2656,7 +2639,6 @@ vm_stat
 vmmap
 vmmap32
 vpnd
-vpnkit
 vsdbutil
 vsyasm
 w
@@ -2665,6 +2647,7 @@ w3mman
 wait
 wait4path
 wall
+watch
 watchman
 watchman-make
 watchman-wait
@@ -2702,7 +2685,6 @@ wsdl
 wsdl2
 wsgen
 wsimport
-ww
 wx-config
 wxrc
 wxrc-3.0
@@ -2734,8 +2716,6 @@ xcodebuild
 xcodeproj
 xcompmgr
 xconsole
-xcpretty
-xcpretty-travis-formatter
 xcrun
 xcscontrol
 xcsdiagnose
@@ -2831,6 +2811,8 @@ xzless
 xzmore
 yaa
 yacc
+yarn
+yarnpkg
 yasm
 yat2m
 yes
@@ -2866,6 +2848,7 @@ zkCleanup
 zkCli
 zkServer
 zless
+zlib-flate
 zlib_decompress
 zmore
 znew
