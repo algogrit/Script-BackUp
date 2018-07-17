@@ -483,6 +483,7 @@ debinhex5.18.pl
 defaults
 defragcli
 delv
+dep
 desdp
 dev_mkdb
 df
@@ -2811,6 +2812,7 @@ xzless
 xzmore
 yaa
 yacc
+yaes-server
 yarn
 yarnpkg
 yasm
