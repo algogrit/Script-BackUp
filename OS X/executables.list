@@ -909,6 +909,7 @@ git-wash
 gitk
 gjoin
 gkill
+glances
 glewinfo
 glib-compile-resources
 glib-compile-schemas
