@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.7.0
-Homebrew/homebrew-cask (git revision c9090; last commit 2018-07-22)
+Homebrew/homebrew-cask (git revision 7a185d; last commit 2018-07-22)
 ==> macOS
 10.13.6
 ==> SIP
@@ -15,7 +15,7 @@ Enabled
 ~/Library/Caches/Homebrew/Cask
 ==> Homebrew-Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3998 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (186 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (187 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew
 /usr/local/Homebrew/Library/Homebrew/cask/lib
