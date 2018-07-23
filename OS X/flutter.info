@@ -1,6 +1,6 @@
-[✓] Flutter (Channel master, v0.5.8-pre.108, on Mac OS X 10.13.6 17G65, locale en-IN)
-    • Flutter version 0.5.8-pre.108 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 1cb2677234 (28 hours ago), 2018-07-21 15:30:53 -0700
+[✓] Flutter (Channel master, v0.5.8-pre.109, on Mac OS X 10.13.6 17G65, locale en-IN)
+    • Flutter version 0.5.8-pre.109 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 27018359d2 (4 hours ago), 2018-07-23 08:31:48 +0200
     • Engine revision 96f5f5b96c
     • Dart version 2.0.0-dev.69.0.flutter-937ee2e8ca
 
@@ -21,23 +21,20 @@
 
 [✓] Android Studio (version 3.1)
     • Android Studio at /Applications/Android Studio.app/Contents
-    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
-    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • Flutter plugin version 26.0.1
+    • Dart plugin version 173.4700
     • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
 
-[!] IntelliJ IDEA Community Edition (version 2018.1.5)
+[✓] IntelliJ IDEA Community Edition (version 2018.1.5)
     • IntelliJ at /Applications/IntelliJ IDEA CE.app
-    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
-    ✗ Dart plugin not installed; this adds Dart specific functionality.
-    • For information about installing plugins, see
-      https://flutter.io/intellij-setup/#installing-the-plugins
+    • Flutter plugin version 26.0.2
+    • Dart plugin version 181.4892.1
 
-[!] VS Code (version 1.25.0)
+[✓] VS Code (version 1.25.1)
     • VS Code at /Applications/Visual Studio Code.app/Contents
-    • Flutter extension not installed; install from
-      https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+    • Flutter extension version 2.16.0
 
 [!] Connected devices
     ! No devices available
 
-! Doctor found issues in 3 categories.
+! Doctor found issues in 1 category.

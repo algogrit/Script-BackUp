@@ -363,6 +363,7 @@ MD5 (/usr/local/bin/conjure-up) = bdf3eec3d2fe20ab0c21b87eb12ec727
 MD5 (/usr/local/bin/connect-distributed) = 1ebaf5f1a7186fcde3cf8e9c73da225d
 MD5 (/usr/local/bin/connect-standalone) = 32d28f57382ab6f4febf31a228625036
 MD5 (/usr/local/bin/convert) = f939fbd5118fea33811adcfdcd0aa582
+MD5 (/Users/gaurav/.nodenv/shims/cordova) = b2f752302d8460931e119ff44b7021f0
 MD5 (/usr/sbin/coreaudiod) = f1fc7e457aa4e32b628ce6f042425740
 MD5 (/usr/bin/corebrightnessdiag) = 2bb1c3bf0ffca057cf4cdeab1e92a175
 MD5 (/usr/local/bin/corelist) = 7c741dd7bcf413ce3dc44d0d8dc149c7
