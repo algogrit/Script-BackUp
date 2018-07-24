@@ -1,5 +1,5 @@
 facebook/fb: unpinned, 4 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (50 files, 41.7KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (53 files, 44.3KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
@@ -10,16 +10,16 @@ homebrew/boneyard: unpinned, no commands/casks/formulae
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (30 files, 23.5KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/cask: unpinned, 3998 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,474 files, 66.4MB)
+homebrew/cask: unpinned, 3997 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,475 files, 66.6MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-versions: unpinned, 187 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (545 files, 55.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (554 files, 55.8MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4590 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,133 files, 22.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,189 files, 24.2MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
