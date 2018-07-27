@@ -26,7 +26,7 @@ function _install_languages {
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm
+mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
 echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
@@ -46,8 +46,8 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 echo "\033[1;31mSetting up managers...\033[0m"
 
-echo "Vundle"
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+echo "\033[1;31mVim plugin manager...\033[0m"
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
@@ -83,7 +83,7 @@ cp ~/Script-BackUp/OS\ X/.powconfig ~/
 cp ~/Script-BackUp/OS\ X/.lein/* ~/.lein
 
 echo "\033[1;31mInstall vundle packages...\033[0m"
-vim +BundleInstall +qall
+vim +PlugInstall +qall
 
 echo "\033[1;31mRestoring Custom git commands...\033[0m"
 cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/

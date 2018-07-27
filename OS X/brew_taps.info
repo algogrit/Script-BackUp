@@ -19,9 +19,9 @@ homebrew/cask-versions: unpinned, 187 casks
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4592 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,217 files, 25.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,301 files, 28MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (45 files, 56.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (53 files, 64.6KB)
 From: https://github.com/Homebrew/homebrew-services

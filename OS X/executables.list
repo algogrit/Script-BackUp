@@ -1288,7 +1288,10 @@ jcontrol
 jdb
 jdeprscan
 jdeps
+jemalloc-config
+jemalloc.sh
 jenv
+jeprof
 jhat
 jhsdb
 jimage
@@ -1466,6 +1469,8 @@ lua5.3
 luac
 luac-5.3
 luac5.3
+luajit
+luajit-2.0.5
 luarocks
 luarocks-5.3
 luarocks-admin
@@ -1789,6 +1794,7 @@ nuget
 nunit-console
 nunit-console2
 nunit-console4
+nvim
 nvram
 objdump
 oclock
@@ -2589,6 +2595,7 @@ unpack200
 unrar
 unsetpassword
 unstr
+unterm
 unvis
 unxz
 unzip
@@ -2633,7 +2640,9 @@ viewres
 vifs
 vigpg
 vim
+vimcat
 vimdiff
+vimpager
 vimtutor
 vipw
 vis
@@ -2646,6 +2655,8 @@ vmmap32
 vpnd
 vsdbutil
 vsyasm
+vterm-ctrl
+vterm-dump
 w
 w3m
 w3mman
