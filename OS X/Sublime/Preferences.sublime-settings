@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 14,
 	"ignored_packages":
@@ -7,7 +7,7 @@
 		"Vintage"
 	],
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "OneDarkMaterial.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
