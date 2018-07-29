@@ -1,6 +1,6 @@
 [✓] Flutter (Channel master, v0.5.8-pre.163, on Mac OS X 10.13.6 17G65, locale en-IN)
     • Flutter version 0.5.8-pre.163 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 29410abbe7 (42 minutes ago), 2018-07-27 22:10:39 -0700
+    • Framework revision 29410abbe7 (23 hours ago), 2018-07-27 22:10:39 -0700
     • Engine revision 72a38a6b13
     • Dart version 2.0.0-dev.69.3.flutter-937ee2e8ca
 
@@ -34,7 +34,7 @@
     • VS Code at /Applications/Visual Studio Code.app/Contents
     • Flutter extension version 2.16.0
 
-[!] Connected devices
-    ! No devices available
+[✓] Connected devices (1 available)
+    • Android SDK built for x86 • emulator-5554 • android-x86 • Android 9 (API 28) (emulator)
 
-! Doctor found issues in 1 category.
+• No issues found!
