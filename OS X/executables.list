@@ -515,8 +515,12 @@ dmtracedump
 dnctl
 dns-sd
 dnsextd
+docker
+docker-compose
 docker-credential-gcloud
+docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
 domainname
 dot_clean
@@ -957,6 +961,7 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+gotraining
 gource
 gpaste
 gpathchk
@@ -1133,6 +1138,7 @@ httxt2dbm
 hub
 hunspell
 hunzip
+hyperkit
 hzip
 ibd2sdi
 ibtool
@@ -1763,6 +1769,7 @@ nodenv-install
 nodenv-uninstall
 nohup
 nologin
+notary
 notifyd
 notifyutil
 nping
@@ -2654,6 +2661,7 @@ vm_stat
 vmmap
 vmmap32
 vpnd
+vpnkit
 vsdbutil
 vsyasm
 vterm-ctrl
