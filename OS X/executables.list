@@ -568,6 +568,12 @@ edquota
 egrep
 elixir
 elixirc
+elm
+elm-make
+elm-package
+elm-reactor
+elm-repl
+elm-test
 emacs
 emacs-26.1
 emacs-undumped
