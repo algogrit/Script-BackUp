@@ -2855,6 +2855,7 @@ ypmatch
 yppoll
 ypset
 ypwhich
+yq
 ytasm
 zcat
 zcmp
