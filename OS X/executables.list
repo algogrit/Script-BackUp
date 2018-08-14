@@ -214,6 +214,7 @@ buck
 bundle
 bundler
 bunzip2
+byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -315,6 +316,8 @@ chmorph
 chown
 chpass
 chrome-stats-to-csv
+chromedriver
+chromedriver-update
 chroot
 chsh
 cjpeg
@@ -1435,6 +1438,7 @@ link
 linkicc
 lint
 lipo
+listen
 listres
 lkbib
 lldb
@@ -1585,7 +1589,6 @@ mknod
 mkntfs
 mkpassdb
 mksdcard
-mksnapshot
 mktemp
 mmdbresolve
 mmdbresolve.dSYM
@@ -1774,6 +1777,7 @@ nodenv
 nodenv-install
 nodenv-uninstall
 nohup
+nokogiri
 nologin
 notary
 notifyd
@@ -2019,7 +2023,6 @@ priclass.d
 pridist.d
 printenv
 printf
-process
 procsystime
 productbuild
 productsign
@@ -2045,6 +2048,8 @@ ptardiff5.18
 ptargrep
 ptargrep5.18
 pubsub
+puma
+pumactl
 puppeth
 purge
 purge-old-kernels
@@ -2123,6 +2128,7 @@ rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
 racer
+rackup
 racoon
 raidutil
 rails
@@ -2248,6 +2254,8 @@ sample
 sampleproc
 sandbox-exec
 sandbox-pod
+sass
+sass-convert
 say
 sbt
 sc_auth
@@ -2269,6 +2277,7 @@ screencapture
 screenshot2
 script
 scselect
+scss
 scutil
 sdef
 sdiff
@@ -2415,6 +2424,8 @@ splain
 splain5.18
 split
 spray
+spring
+sprockets
 sqlite3
 sqlmetal
 sqlsharp
@@ -2511,6 +2522,7 @@ textutil
 tfmtodit
 tftp
 thermal
+thor
 tic
 tidy
 tiff2bw
@@ -2531,6 +2543,7 @@ tiffutil
 tificc
 tig
 tiller
+tilt
 time
 timer_analyser.d
 timerfires
@@ -2639,7 +2652,6 @@ uuto
 uux
 uuxqt
 uxterm
-v8
 vacuumdb
 vacuumlo
 vagrant
