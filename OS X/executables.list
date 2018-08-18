@@ -211,6 +211,7 @@ bsondump
 bspatch
 btmmdiagnose
 buck
+build
 bundle
 bundler
 bunzip2
@@ -339,6 +340,7 @@ cmp
 cmpdylib
 cmpfillin
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -2029,6 +2031,7 @@ profiles
 proguard
 prove
 prove5.18
+pry
 ps
 psed
 psed5.18
@@ -2298,6 +2301,7 @@ senddoc
 sendmail
 seq
 serialver
+serve
 serverinfo
 servertool
 sessreg
@@ -2325,6 +2329,8 @@ showfont
 showmount
 showrgb
 shutdown
+sidekiq
+sidekiqctl
 siege
 siege.config
 siege2csv.pl
