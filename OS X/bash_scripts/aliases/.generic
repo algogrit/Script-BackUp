@@ -28,7 +28,7 @@ alias cat-without-first-line='awk FNR-1'
 alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
-alias play_music="mplayer -novideo -loop 0 -shuffle -volume 100"
+alias play_music="mplayer -novideo -loop 0 -shuffle"
 
 # Ruby
 alias bx='bundle exec'
