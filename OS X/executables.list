@@ -1489,10 +1489,6 @@ luac-5.3
 luac5.3
 luajit
 luajit-2.0.5
-luarocks
-luarocks-5.3
-luarocks-admin
-luarocks-admin-5.3
 luit
 lwp-download
 lwp-download5.18
