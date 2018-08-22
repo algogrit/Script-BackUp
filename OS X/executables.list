@@ -919,7 +919,6 @@ git-sync
 git-touch
 git-undo
 git-unlock
-git-up
 git-upload-archive
 git-upload-pack
 git-wash

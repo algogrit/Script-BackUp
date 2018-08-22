@@ -963,7 +963,6 @@ MD5 (/usr/local/bin/git-sync) = 9d821c3ac3c7ce0ff53dce2f291e2c64
 MD5 (/usr/local/bin/git-touch) = 3531405411d2f0461f6c08751604bac6
 MD5 (/usr/local/bin/git-undo) = 5870f3118273115a6d268759bb701862
 MD5 (/usr/local/bin/git-unlock) = 4fac1b524f4e9f0067e5c14d2795f4e0
-MD5 (/usr/local/var/rbenv/shims/git-up) = 30fea4fb2434c4a27f1d1b92b52b2725
 MD5 (/usr/local/bin/git-upload-archive) = 912c97ae7228312bb94f270eb5fc27e7
 MD5 (/usr/bin/git-upload-archive) = 1086e1a455e7013c67abd39c891a2f6a
 MD5 (/usr/local/bin/git-upload-pack) = 912c97ae7228312bb94f270eb5fc27e7
