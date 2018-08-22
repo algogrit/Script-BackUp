@@ -93,8 +93,12 @@ mkdir -p ~/Developer/exercism ~/.config/exercism/
 exercism configure --dir=$HOME/Developer/exercism/
 curl http://cli.exercism.io/shell/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
 
-echo "\033[1;31mSetting Up Sublime...\033[0m"
+echo "\033[1;31mSetting up Sublime...\033[0m"
 cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+
+echo "\033[1;31mSetting up VSCode...\033[0m"
+cp ~/Script-BackUp/OS\ X/VSCode/settings.json ~/Library/Application\ Support/Code/User/
+cat ~/Script-BackUp/OS\ X/VSCode/extensions.list | xargs -n 1 code --install-extension
 
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash

@@ -513,6 +513,7 @@ distnoted
 ditto
 djpeg
 dltest
+dlv
 dmc
 dmcs
 dmesg
@@ -964,13 +965,21 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-outline
+go-symbols
 gobject-query
+gocode
 god
+godef
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
+golint
+gopkgs
+gorename
+goreturns
 gotraining
 gource
 gpaste
@@ -1058,6 +1067,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gvdir
 gview

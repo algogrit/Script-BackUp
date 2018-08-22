@@ -103,10 +103,15 @@ rm -f .lein/repl-history
 # Copy tmux configuration
 cp ~/.tmux.conf .
 
-# Copy List of Sublime Packages
+# Copy Sublime settings
 mkdir -p Sublime
 cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/*.sublime-settings Sublime/
 rm -f Sublime/GoSublime-aux.sublime-settings Sublime/TextPastryHistory.sublime-settings
+
+# Copy VSCode settings
+mkdir -p VSCode
+cp ~/Library/Application\ Support/Code/User/settings.json VSCode
+code --list-extensions > VSCode/extensions.list
 
 # Copy files relative to root
 mkdir -p root
