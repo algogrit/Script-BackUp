@@ -2223,8 +2223,11 @@ rsync
 rtadvd
 rtsol
 rtsold
+rubocop
 ruby
 ruby-build
+ruby-parse
+ruby-rewrite
 run_erl
 runant.pl
 runant.py
