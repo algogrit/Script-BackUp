@@ -98,6 +98,7 @@ cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Suppo
 
 echo "\033[1;31mSetting up VSCode...\033[0m"
 cp ~/Script-BackUp/OS\ X/VSCode/settings.json ~/Library/Application\ Support/Code/User/
+cp ~/Script-BackUp/OS\ X/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
 cat ~/Script-BackUp/OS\ X/VSCode/extensions.list | xargs -n 1 code --install-extension
 
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"

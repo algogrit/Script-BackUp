@@ -111,6 +111,7 @@ rm -f Sublime/GoSublime-aux.sublime-settings Sublime/TextPastryHistory.sublime-s
 # Copy VSCode settings
 mkdir -p VSCode
 cp ~/Library/Application\ Support/Code/User/settings.json VSCode
+cp ~/Library/Application\ Support/Code/User/keybindings.json VSCode
 code --list-extensions > VSCode/extensions.list
 
 # Copy files relative to root

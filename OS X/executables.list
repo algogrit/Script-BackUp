@@ -920,6 +920,7 @@ git-sync
 git-touch
 git-undo
 git-unlock
+git-up
 git-upload-archive
 git-upload-pack
 git-wash
@@ -1566,6 +1567,7 @@ mdoc-export-msxdoc
 mdoc-update
 mdoc-validate
 mdutil
+mdv
 mdvalidater
 memcached
 memory_pressure

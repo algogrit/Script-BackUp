@@ -964,6 +964,8 @@ MD5 (/usr/local/bin/git-sync) = 9d821c3ac3c7ce0ff53dce2f291e2c64
 MD5 (/usr/local/bin/git-touch) = 3531405411d2f0461f6c08751604bac6
 MD5 (/usr/local/bin/git-undo) = 5870f3118273115a6d268759bb701862
 MD5 (/usr/local/bin/git-unlock) = 4fac1b524f4e9f0067e5c14d2795f4e0
+MD5 (/Users/gaurav/Custom-Git-Commands/git-up) = fde8bb98c76929787f71b4a53ffa22aa
+MD5 (/usr/local/var/rbenv/shims/git-up) = 30fea4fb2434c4a27f1d1b92b52b2725
 MD5 (/usr/local/bin/git-upload-archive) = 912c97ae7228312bb94f270eb5fc27e7
 MD5 (/usr/bin/git-upload-archive) = 1086e1a455e7013c67abd39c891a2f6a
 MD5 (/usr/local/bin/git-upload-pack) = 912c97ae7228312bb94f270eb5fc27e7
@@ -1661,6 +1663,7 @@ MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdoc-export-ms
 MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdoc-update) = 3e6d068e351e6c1acb824cfca5a87c3f
 MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdoc-validate) = f3818dfe43d05f4a66b5d5b507fe51f2
 MD5 (/usr/bin/mdutil) = f2d3e59971d177a824b327cabef1750f
+MD5 (/usr/local/bin/mdv) = aeeb4a340b1f50f170e838a9935e6555
 MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/mdvalidater) = 963f8161a043c5191545f1a1a198cdd9
 MD5 (/usr/local/bin/memcached) = def898f678444545abb08391e4720288
 MD5 (/usr/bin/memory_pressure) = 14b8f743b4ae21a87c245dd07a7e9954

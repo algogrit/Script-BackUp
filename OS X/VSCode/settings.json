@@ -1,9 +1,12 @@
 {
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "window.zoomLevel": 0,
   "[go]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": false
