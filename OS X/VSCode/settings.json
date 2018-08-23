@@ -9,6 +9,9 @@
     "editor.insertSpaces": false
   },
   "[rust]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4
   }
 }
