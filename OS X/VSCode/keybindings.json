@@ -7,5 +7,9 @@
   {
     "key": "cmd+k cmd+u",
     "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+alt+1",
+    "command": "workbench.action.joinAllGroups"
   }
 ]
