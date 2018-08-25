@@ -5,6 +5,7 @@ Dart-Code.flutter
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 eg2.tslint
+howardzuo.vscode-git-blamer
 JakeBecker.elixir-ls
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
