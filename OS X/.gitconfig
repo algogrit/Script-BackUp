@@ -21,7 +21,6 @@
 	ls-others = ls-files --other
 	pr = pull --rebase
 	add-ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-	up = pull --all --rebase --autostash
 [push]
 	default = current
 [diff]

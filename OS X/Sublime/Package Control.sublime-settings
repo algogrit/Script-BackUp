@@ -26,14 +26,11 @@
 		"LESS",
 		"MarkdownPreview",
 		"nginx",
-		"One Dark Material - Theme",
 		"Package Control",
 		"Prolog",
 		"Protobuf Syntax Hightlighting",
 		"Pug",
-		"Reason",
 		"RSpec",
-		"RuboCop",
 		"Sass",
 		"Select Quoted",
 		"SideBarEnhancements",
@@ -47,8 +44,6 @@
 		"TOML",
 		"Tomorrow Night Italics Color Scheme",
 		"TrailingSpaces",
-		"TypeScript",
-		"TypeScript Syntax",
 		"Vue Syntax Highlight"
 	]
 }

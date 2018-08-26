@@ -1,32 +1,32 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.7.2
-Homebrew/homebrew-cask (git revision cc3c4; last commit 2018-08-26)
+Homebrew/homebrew-cask (git revision f8638; last commit 2018-08-26)
 ==> macOS
 10.13.6
 ==> SIP
 Enabled
 ==> Java
-10.0.1, 1.8.0_172
+10, 1.8.0_162
 ==> Homebrew-Cask Install Location
 <NONE>
 ==> Homebrew-Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew-Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4037 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (193 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (194 casks)
 ==> Contents of $LOAD_PATH
-/Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
-/Library/Ruby/Site/2.3.0
-/Library/Ruby/Site/2.3.0/x86_64-darwin17
-/Library/Ruby/Site/2.3.0/universal-darwin17
-/Library/Ruby/Site
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/universal-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/universal-darwin17
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby/2.3.0/universal-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/site_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby/2.3.0/universal-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/vendor_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0/x86_64-darwin9.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.3.7/lib/ruby/2.3.0/universal-darwin9.0
 /usr/local/Homebrew/Library/Homebrew/cask/lib
 /usr/local/Homebrew/Library/Homebrew
 ==> Environment Variables

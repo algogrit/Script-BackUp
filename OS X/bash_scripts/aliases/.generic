@@ -28,13 +28,10 @@ alias cat-without-first-line='awk FNR-1'
 alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
-alias play_music="mplayer -novideo -loop 0 -shuffle"
+alias play_music="mplayer -novideo -loop 0 -shuffle -volume 100"
 
 # Ruby
 alias bx='bundle exec'
-alias rails_db_reset="bundle exec rake db:drop db:create db:migrate db:seed"
-alias test_db_reset="RAILS_ENV=test bundle exec rake db:drop db:create db:migrate db:seed"
-alias railsdb="bundle exec rails dbconsole"
 
 # Project Resources
 export PROJECT_RESOURCES_REPO="git@bitbucket.org:gauravagarwalr/project-resources.git"
@@ -42,15 +39,9 @@ alias gcpr="git clone $PROJECT_RESOURCES_REPO"
 alias gcprb="cat project-resources.branch | xargs -n 1 git clone $PROJECT_RESOURCES_REPO -b"
 alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
 
-# Presentation Template
-export PRESENTATION_TEMPLATE_REPO="git@github.com:gauravagarwalr/presentation-template.git"
-alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
-
 # Node modules
 alias find_all_node_modules="find . -name 'node_modules'"
 alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"
 
 # Docker
-alias docker-rm-exited="docker ps -aq --no-trunc -f status=exited | xargs docker rm"
 alias docker-rmi-dangling="docker images -f 'dangling=true' -q | xargs docker rmi"
-alias docker-clean-up="docker-rm-exited && docker-rmi-dangling"

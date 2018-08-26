@@ -38,7 +38,7 @@ export PS1=$"\[\033[1;36m\]\w:\$(parse_git_branch) $ \[\033[0m\]"
 # fi
 
 # Vimpager
-export PAGER=vimpager
+export PAGER=less
 export LESS=-R
 export LESSOPEN="/usr/local/bin/src-hilite-lesspipe.sh %s"
 
