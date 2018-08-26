@@ -11,5 +11,21 @@
   {
     "key": "ctrl+alt+1",
     "command": "workbench.action.joinAllGroups"
+  },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "workbench.action.navigateEditorGroups"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "workbench.action.maximizeEditor"
+  },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "cmd+numpad0",
+    "command": "-workbench.action.zoomReset"
   }
 ]

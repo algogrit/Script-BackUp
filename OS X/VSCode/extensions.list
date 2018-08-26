@@ -7,6 +7,7 @@ dbaeumer.vscode-eslint
 eg2.tslint
 howardzuo.vscode-git-blamer
 JakeBecker.elixir-ls
+jpotterm.simple-vim
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-vscode.Go
@@ -16,4 +17,3 @@ redhat.vscode-yaml
 rust-lang.rust
 shakram02.bash-beautify
 shanoor.vscode-nginx
-vscodevim.vim
