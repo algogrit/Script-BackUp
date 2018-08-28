@@ -6,6 +6,8 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
   "window.zoomLevel": 0,
   "[go]": {
     "editor.tabSize": 4,
