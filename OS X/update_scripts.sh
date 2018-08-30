@@ -93,8 +93,9 @@ cp ~/.sackrc .
 # Copy .powconfig
 cp ~/.powconfig .
 
-# Copy Custom Git Commands
+# Copy Git Customizations
 cp -r ~/Custom-Git-Commands .
+cp -r ~/git-hooks .
 
 # Copy Leiningen global profile
 cp -r ~/.lein .

@@ -26,7 +26,7 @@ function _install_languages {
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
+mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hook ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
 echo "\033[1;31mTapping brews...\033[0m"
 _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
@@ -85,8 +85,9 @@ cp ~/Script-BackUp/OS\ X/.lein/* ~/.lein
 echo "\033[1;31mInstall vundle packages...\033[0m"
 vim +PlugInstall +qall
 
-echo "\033[1;31mRestoring Custom git commands...\033[0m"
+echo "\033[1;31mRestoring git customizations...\033[0m"
 cp ~/Script-BackUp/OS\ X/Custom-Git-Commands/* ~/Custom-Git-Commands/
+cp ~/Script-BackUp/OS\ X/git-hooks/* ~/git-hooks/
 
 echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/

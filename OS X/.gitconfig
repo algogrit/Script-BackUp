@@ -5,6 +5,7 @@
 	ui = true
 [core]
 	excludesfile = ~/.gitignore
+	hooksPath = /Users/gaurav/git-hooks/
 [alias]
 	st = status -sb
 	co = checkout
