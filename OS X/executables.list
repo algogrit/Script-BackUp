@@ -659,6 +659,7 @@ figlist
 file
 filebyproc.d
 filecoordinationd
+fillstruct
 filtercalltree
 find
 find2perl
@@ -974,9 +975,12 @@ goenv-install
 goenv-uninstall
 gofmt
 golint
+gomodifytags
 gopkgs
+goplay
 gorename
 goreturns
+gotests
 gotraining
 gource
 gpaste
@@ -1205,6 +1209,7 @@ img2txt
 img2webp
 imgcmp
 imginfo
+impl
 import
 imptrace
 indent
