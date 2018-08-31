@@ -530,6 +530,7 @@ docker-machine.backup
 docker-swarm
 domainname
 dot_clean
+dotenv
 doxygen
 drip
 dropdb
@@ -597,6 +598,7 @@ erb
 erl
 erlc
 errinfo
+erubis
 escript
 etags
 etc1tool
@@ -1112,6 +1114,7 @@ h5watch
 haddock
 haddock-ghc-8.4.3
 halt
+haml
 hash
 hb-ot-shape-closure
 hb-shape
@@ -1398,6 +1401,7 @@ kinit
 klist
 koi8rxterm
 kpasswd
+kramdown
 krb5-config
 krbservicesetup
 ksh
@@ -1579,6 +1583,7 @@ mesg
 metaflac
 mib2c
 mib2c-update
+middleman
 mig
 minikube
 mix
@@ -2223,6 +2228,7 @@ rmic
 rmid
 rmiregistry
 rotatelogs
+rougify
 route
 rpc.lockd
 rpc.statd
