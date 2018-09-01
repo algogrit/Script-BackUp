@@ -25,7 +25,7 @@
     "command": "workbench.action.zoomReset"
   },
   {
-    "key": "cmd+numpad0",
-    "command": "-workbench.action.zoomReset"
+    "key": "cmd+t",
+    "command": "workbench.action.quickOpen"
   }
 ]
