@@ -13,6 +13,7 @@ automake
 awscli
 bash
 bash-completion
+bat
 bdw-gc
 berkeley-db
 bison
@@ -47,6 +48,7 @@ erlang@20
 ethereum
 exercism
 faac
+fd
 ffmpeg
 fftw
 figlet
