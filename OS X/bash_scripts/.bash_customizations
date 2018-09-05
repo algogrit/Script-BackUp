@@ -17,7 +17,7 @@ export LANG="en_US.UTF-8"
 export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 # Editor Configuration
-export EDITOR="/usr/local/bin/subl -w"
+export EDITOR="/usr/local/bin/code -w"
 
 # Set LSCOLORS when CLICOLOR is enabled
 export LSCOLORS="ecfxcxdxbxegedabagacad"

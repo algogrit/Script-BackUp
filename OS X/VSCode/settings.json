@@ -18,5 +18,6 @@
   },
   "[python]": {
     "editor.tabSize": 4
-  }
+  },
+  "explorer.confirmDelete": false
 }
