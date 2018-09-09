@@ -1890,6 +1890,9 @@ pbcopy
 pbpaste
 pcap-config
 pcre-config
+pcre2-config
+pcre2grep
+pcre2test
 pcregrep
 pcretest
 pcsctest

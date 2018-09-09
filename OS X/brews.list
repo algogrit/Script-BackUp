@@ -204,6 +204,7 @@ pandoc
 pango
 passenger
 pcre
+pcre2
 perl
 phantomjs
 pixman
