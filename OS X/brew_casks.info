@@ -1,6 +1,6 @@
 ==> Homebrew-Cask Version
 Homebrew-Cask 1.7.3
-Homebrew/homebrew-cask (git revision ac1ca2; last commit 2018-09-10)
+Homebrew/homebrew-cask (git revision 1637d; last commit 2018-09-10)
 ==> macOS
 10.13.6
 ==> SIP
@@ -12,7 +12,7 @@ Enabled
 ==> Homebrew-Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew-Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4050 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4051 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (195 casks)
 ==> Contents of $LOAD_PATH
 /Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
