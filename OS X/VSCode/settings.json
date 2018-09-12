@@ -3,6 +3,8 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
