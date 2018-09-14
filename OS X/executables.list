@@ -207,9 +207,12 @@ bq
 brctl
 brew
 brightness
+bsb
+bsc
 bsdtar
 bsondump
 bspatch
+bsrefmt
 btmmdiagnose
 buck
 build
@@ -601,6 +604,7 @@ erlc
 errinfo
 erubis
 escript
+eslint
 etags
 etc1tool
 ethkey
