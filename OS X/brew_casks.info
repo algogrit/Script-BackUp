@@ -13,7 +13,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4054 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4050 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (195 casks)
 ==> Contents of $LOAD_PATH
 /Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
