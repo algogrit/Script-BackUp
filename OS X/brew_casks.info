@@ -1,5 +1,5 @@
 ==> Homebrew Version
-1.7.4
+1.7.5
 ==> macOS
 10.13.6
 ==> SIP
@@ -13,9 +13,19 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4041 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4040 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (195 casks)
 ==> Contents of $LOAD_PATH
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/plist-3.4.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/backports-3.11.4/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/activesupport-5.2.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/tzinfo-1.2.5/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/thread_safe-0.3.6/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/minitest-5.11.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/i18n-1.1.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/concurrent-ruby-1.0.5/lib
 /Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
 /Library/Ruby/Site/2.3.0
 /Library/Ruby/Site/2.3.0/x86_64-darwin17
