@@ -27,5 +27,18 @@
   {
     "key": "cmd+t",
     "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+k left",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "cmd+k right",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "cmd+k cmd+f12",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   }
 ]
