@@ -3,3 +3,4 @@
 .vscode
 project-resources
 devops/heroku/
+git-bisect-run.sh
