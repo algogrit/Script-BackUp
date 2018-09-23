@@ -1,5 +1,5 @@
 ==> Homebrew Version
-1.7.5
+1.7.6
 ==> macOS
 10.13.6
 ==> SIP
@@ -13,8 +13,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4044 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (196 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4033 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (198 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/plist-3.4.0/lib
