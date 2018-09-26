@@ -17,6 +17,7 @@
 0.0.0.0 airma.sh
 
 # Custom blocking
+0.0.0.0 tinder.com
 0.0.0.0 www.hicpm10.com
 0.0.0.0 pussl32.com
 0.0.0.0 superfish.com
