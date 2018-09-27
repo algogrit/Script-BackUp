@@ -1,6 +1,6 @@
-[✓] Flutter (Channel master, v0.9.4-pre.30, on Mac OS X 10.13.6 17G65, locale en-IN)
-    • Flutter version 0.9.4-pre.30 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision eda228404c (5 hours ago), 2018-09-26 00:57:39 +0200
+[✓] Flutter (Channel master, v0.9.5-pre.12, on Mac OS X 10.13.6 17G65, locale en-IN)
+    • Flutter version 0.9.5-pre.12 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 020fd590b0 (8 hours ago), 2018-09-26 14:28:26 -0700
     • Engine revision 38a646e14c
     • Dart version 2.1.0-dev.5.0.flutter-4cf2d3990b
 
@@ -34,7 +34,7 @@
     • VS Code at /Applications/Visual Studio Code.app/Contents
     • Flutter extension version 2.18.0
 
-[!] Connected devices
+[!] Connected device
     ! No devices available
 
 ! Doctor found issues in 1 category.
