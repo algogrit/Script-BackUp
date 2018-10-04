@@ -1808,6 +1808,7 @@ npx
 nroff
 nscurl
 nslookup
+nspr-config
 nsupdate
 ntfs-3g
 ntfs-3g.probe
@@ -1906,6 +1907,7 @@ pdffonts
 pdfimages
 pdfinfo
 pdfseparate
+pdfsig
 pdftocairo
 pdftohtml
 pdftoppm

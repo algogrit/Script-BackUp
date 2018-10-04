@@ -192,6 +192,8 @@ nmap
 node
 node-build
 nodenv
+nspr
+nss
 ntfs-3g
 oniguruma
 openexr
