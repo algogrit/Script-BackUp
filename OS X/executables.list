@@ -597,6 +597,7 @@ envvars
 envvars-std
 episodes-rename
 epmd
+epylint
 eqn
 erb
 erl
@@ -1274,6 +1275,7 @@ ir64
 irb
 irw
 irw64
+isort
 ispellaff2myspell
 isql
 iusql
@@ -2109,6 +2111,8 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pylint
+pyreverse
 python
 python-build
 python-config
@@ -2512,6 +2516,7 @@ swipl-rc
 sxpm
 symbols
 symbolscache
+symilar
 sync
 sysadminctl
 syscallbypid.d
