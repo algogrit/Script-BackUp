@@ -128,6 +128,7 @@ lame
 leiningen
 less
 libarchive
+libass
 libatomic_ops
 libcaca
 libcroco
@@ -164,6 +165,7 @@ libyaml
 libzip
 little-cms2
 lua
+lua@5.1
 luajit
 lynx
 macvim
@@ -180,7 +182,10 @@ mp3splt
 mp3wrap
 mpfr
 mplayer
+mps-youtube
+mpv
 msgpack
+mujs
 mysql
 neovim
 nethogs
