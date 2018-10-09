@@ -1,5 +1,5 @@
 ==> Homebrew Version
-1.7.6
+1.7.7
 ==> macOS
 10.13.6
 ==> SIP
@@ -16,7 +16,7 @@ Enabled
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4032 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (204 casks)
 ==> Contents of $LOAD_PATH
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.1.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/plist-3.4.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/backports-3.11.4/lib
