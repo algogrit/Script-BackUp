@@ -159,6 +159,7 @@ libusb
 libuv
 libvo-aacenc
 libvorbis
+libvpx
 libvterm
 libxml2
 libyaml
@@ -205,6 +206,7 @@ openexr
 openjpeg
 openssl
 openssl@1.1
+opus
 ossp-uuid
 p11-kit
 p7zip
@@ -259,6 +261,7 @@ shared-mime-info
 siege
 sip
 sl
+snappy
 solr
 source-highlight
 sox
@@ -277,6 +280,7 @@ terminal-notifier
 texi2html
 texinfo
 the_silver_searcher
+theora
 tig
 tmux
 tor
@@ -300,6 +304,7 @@ webp
 wget
 wxmac
 x264
+x265
 xctool
 xvid
 xz

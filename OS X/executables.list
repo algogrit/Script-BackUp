@@ -171,6 +171,7 @@ avbdiagnose
 avbutil
 avconvert
 avdmanager
+aviocat
 avmetareadwrite
 awk
 aws
@@ -193,6 +194,7 @@ binhex
 binhex.pl
 binhex5.18.pl
 bioutil
+bisect-create
 bison
 bitesize.d
 bitmap
@@ -329,8 +331,10 @@ cjpeg
 ckkeyrolld
 ckksctl
 cksum
+cl2c
 clang
 clang++
+clean-diff
 clear
 clef
 cli_mt
@@ -400,6 +404,7 @@ crlrefresh
 croco-0.6-config
 cron
 crontab
+crypto_bench
 csc
 cscope
 csdiagnose
@@ -449,6 +454,7 @@ cvt
 cvupdatefs
 cvversions
 cwebp
+cws2fws
 cxpm
 d8
 dappprof
@@ -559,6 +565,7 @@ du
 dumpcap
 dumpcap.dSYM
 dumpsexp
+dvd2concat
 dvdbackup
 dwarfdump
 dwebp
@@ -654,7 +661,11 @@ fddist
 fdesetup
 fdisk
 feathers
+ffescape
+ffeval
+ffhash
 ffmpeg
+ffplay
 ffprobe
 fftw-wisdom
 fftw-wisdom-to-conf
@@ -698,6 +709,7 @@ footprint
 format-sql
 format-sql5.18
 fortune
+fourcc2pixfmt
 freetype-config
 fribidi
 from
@@ -741,6 +753,7 @@ gapi2-fixup
 gapi2-parser
 gapplication
 gatherheaderdoc
+gatsby
 gawk
 gawk-4.2.1
 gb2sum
@@ -797,6 +810,7 @@ gdu
 gecho
 gegrep
 gem
+gen-rc
 gen_bridge_metadata
 gencat
 gengal
@@ -1010,6 +1024,7 @@ gptx
 gpwd
 gr2fonttest
 gradle
+graph2dot
 graphchk
 graphicssession
 greadlink
@@ -1277,6 +1292,7 @@ ir64
 irb
 irw
 irw64
+ismindex
 isort
 ispellaff2myspell
 isql
@@ -1454,6 +1470,7 @@ lessecho
 lesskey
 lex
 lib
+libav-merge-next-commit
 libgcrypt-config
 libnetcfg
 libnetcfg5.18
@@ -1487,6 +1504,7 @@ logresolve
 look
 lookbib
 lorder
+loudnorm.rb
 lowntfs-3g
 lp
 lpadmin
@@ -1556,6 +1574,7 @@ mail
 mailq
 mailx
 make
+make_chlayout_test
 make_f2fs
 makealias
 makecert
@@ -1600,6 +1619,7 @@ mib2c-update
 middleman
 mig
 minikube
+missing_codec_desc
 mix
 mkbom
 mkbundle
@@ -1709,6 +1729,7 @@ msqldump
 mtree
 mujs
 munch
+murge
 mv
 mview
 mvim
@@ -1810,6 +1831,7 @@ nodenv-uninstall
 nohup
 nokogiri
 nologin
+normalize.py
 notary
 notifyd
 notifyutil
@@ -1899,6 +1921,7 @@ passenger-status
 passwd
 paste
 patch
+patcheck
 pathchk
 pathopens.d
 pax
@@ -1991,12 +2014,14 @@ pkg-config
 pkgbuild
 pkgutil
 pkill
+pktdumper
 pl
 pl2pm
 pl2pm5.18
 play
 plistutil
 plockstat
+plotframes
 pluginkit
 plutil
 pmset
@@ -2060,6 +2085,7 @@ priclass.d
 pridist.d
 printenv
 printf
+probetest
 procsystime
 productbuild
 productsign
@@ -2152,6 +2178,7 @@ qhalf
 qhull
 qlmanage
 qpdf
+qt-faststart
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2336,6 +2363,7 @@ security
 securityd
 secutil
 sed
+seek_print
 seeksize.d
 segedit
 sendEmail
@@ -2373,6 +2401,7 @@ showrgb
 shutdown
 sidekiq
 sidekiqctl
+sidxindex
 siege
 siege.config
 siege2csv.pl
@@ -2624,6 +2653,7 @@ traceroute
 traceroute6
 transicc
 traptoemail
+trasher
 tree
 treereg
 treereg5.18
@@ -2654,6 +2684,7 @@ umask
 umount
 unalias
 uname
+uncoded_frame
 uncompress
 unexpand
 unifdef
@@ -2673,6 +2704,7 @@ unsetpassword
 unstr
 unterm
 unvis
+unwrap-diff
 unxz
 unzip
 unzipsfx
@@ -2783,6 +2815,7 @@ wxrc-3.0
 x11perf
 x11perfcomp
 x264
+x265
 x86_64-apple-darwin17.7.0-c++-8
 x86_64-apple-darwin17.7.0-g++-8
 x86_64-apple-darwin17.7.0-gcc-8
@@ -2945,6 +2978,7 @@ zless
 zlib-flate
 zlib_decompress
 zmore
+zmqshell.py
 znew
 zookeeper-security-migration
 zookeeper-server-start
