@@ -39,13 +39,13 @@ alias test_db_reset="RAILS_ENV=test bundle exec rake db:drop db:create db:migrat
 alias railsdb="bundle exec rails dbconsole"
 
 # Project Resources
-export PROJECT_RESOURCES_REPO="git@bitbucket.org:gauravagarwalr/project-resources.git"
+export PROJECT_RESOURCES_REPO="git@bitbucket.org:algogrit/project-resources.git"
 alias gcpr="git clone $PROJECT_RESOURCES_REPO"
 alias gcprb="cat project-resources.branch | xargs -n 1 git clone $PROJECT_RESOURCES_REPO -b"
 alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
 
 # Presentation Template
-export PRESENTATION_TEMPLATE_REPO="git@github.com:gauravagarwalr/presentation-template.git"
+export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
 alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
 
 # Node modules
