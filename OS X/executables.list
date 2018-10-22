@@ -113,7 +113,7 @@ ansible-vault
 ant
 antRun
 antRun.pl
-antlr4
+antlr
 apachectl
 apfs_hfs_convert
 api
