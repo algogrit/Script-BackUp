@@ -1,5 +1,5 @@
 ==> Homebrew Version
-1.7.7
+1.8.0
 ==> macOS
 10.13.6
 ==> SIP
@@ -14,12 +14,23 @@ Enabled
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4040 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (206 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (207 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.1.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-rspec-1.30.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-0.59.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/unicode-display_width-1.4.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-progressbar-1.10.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rainbow-3.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/powerpack-0.1.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/plist-3.4.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/parser-2.5.1.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/parallel-1.12.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/jaro_winkler-1.5.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/extensions/universal-darwin-18/2.3.0/jaro_winkler-1.5.1
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/backports-3.11.4/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ast-2.4.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/activesupport-5.2.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/tzinfo-1.2.5/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/thread_safe-0.3.6/lib
