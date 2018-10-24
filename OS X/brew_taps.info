@@ -10,18 +10,18 @@ homebrew/boneyard: unpinned, no commands/casks/formulae
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-boneyard (30 files, 23.5KB)
 From: https://github.com/Homebrew/homebrew-boneyard
 
-homebrew/cask: unpinned, 1 command, 4040 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,605 files, 75.8MB)
+homebrew/cask: unpinned, 1 command, 4039 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,606 files, 75.9MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-versions: unpinned, 207 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,274 files, 58.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,294 files, 58.8MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4642 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,723 files, 52.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,725 files, 52.8MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (63 files, 81.5KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (73 files, 92.7KB)
 From: https://github.com/Homebrew/homebrew-services
