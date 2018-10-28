@@ -2975,6 +2975,7 @@ ziptool
 zkCleanup
 zkCli
 zkServer
+zkTxnLogToolkit
 zless
 zlib-flate
 zlib_decompress
