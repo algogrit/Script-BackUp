@@ -836,11 +836,11 @@ gfortran-8
 ggrep
 ggroups
 ghc
-ghc-8.4.3
+ghc-8.4.4
 ghc-pkg
-ghc-pkg-8.4.3
+ghc-pkg-8.4.4
 ghci
-ghci-8.4.3
+ghci-8.4.4
 ghead
 ghostid
 gid
@@ -1136,7 +1136,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-8.4.3
+haddock-ghc-8.4.4
 halt
 haml
 hash
@@ -2303,7 +2303,7 @@ run_erl
 runant.pl
 runant.py
 runghc
-runghc-8.4.3
+runghc-8.4.4
 runhaskell
 runocc.d
 rust-gdb
