@@ -27,8 +27,4 @@ Warning: Your Xcode (9.4.1) is outdated.
 Please update to Xcode 10.0 (or delete it).
 Xcode can be updated from the App Store.
 
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/bin/bundle
-  /usr/local/bin/bundler
-316 kegs, 286,814 files, 9GB
+316 kegs, 286,815 files, 9GB
