@@ -30,4 +30,4 @@ Xcode can be updated from the App Store.
 
 Warning: Broken symlinks were found. Remove them with `brew prune`:
   /usr/local/bin/docker-machine.backup
-316 kegs, 285,218 files, 9.0GB
+316 kegs, 285,216 files, 9.0GB
