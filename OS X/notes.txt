@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# split video
+ffmpeg -ss [start] -i in.mp4 -t [duration] -c copy out.mp4

@@ -10,6 +10,7 @@ cp restore_scripts.sh /tmp
 cp read_android_packages.sh /tmp
 cp android_packages.list /tmp
 cp README /tmp
+cp notes.txt /tmp
 
 echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
 chmod 666 root/etc/irbrc
@@ -24,6 +25,7 @@ cp /tmp/restore_scripts.sh .
 cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
 cp /tmp/README .
+cp /tmp/notes.txt .
 
 echo "\033[1;31mUpdating brew...\033[0m"
 
