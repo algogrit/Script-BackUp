@@ -1,7 +1,7 @@
-[✓] Flutter (Channel master, v0.11.9-pre.7, on Mac OS X 10.13.6 17G65, locale en-IN)
-    • Flutter version 0.11.9-pre.7 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision d48e6e433c (58 minutes ago), 2018-11-20 22:05:23 -0500
-    • Engine revision 5c8147450d
+[✓] Flutter (Channel master, v0.11.10-pre.2, on Mac OS X 10.13.6 17G65, locale en-IN)
+    • Flutter version 0.11.10-pre.2 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision b55e52c6f7 (8 hours ago), 2018-11-21 15:48:23 -0500
+    • Engine revision 1e37b99ac0
     • Dart version 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 
 [✓] Android toolchain - develop for Android devices (Android SDK 28.0.1)
@@ -41,7 +41,7 @@
     • Flutter plugin version 26.0.2
     • Dart plugin version 181.4892.1
 
-[✓] VS Code (version 1.29.0)
+[✓] VS Code (version 1.29.1)
     • VS Code at /Applications/Visual Studio Code.app/Contents
     • Flutter extension version 2.20.0
 
