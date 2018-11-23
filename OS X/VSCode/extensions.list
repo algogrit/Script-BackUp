@@ -19,6 +19,7 @@ mikestead.dotenv
 misogi.ruby-rubocop
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
+ms-vscode.cpptools
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
 PeterJausovec.vscode-docker
