@@ -1,10 +1,12 @@
 [1;31mListing /Applications...[0m
 Adobe
 Adobe Acrobat Reader DC
+Anaconda-Navigator
 Android File Transfer
 Android Studio
 App Store
 Automator
+Books
 Brave
 Caffeine
 Calculator
@@ -12,7 +14,6 @@ Calendar
 Chess
 Contacts
 CraftManager
-DVD Player
 Dashboard
 Dictionary
 Discord
@@ -28,9 +29,9 @@ Gimp-2
 Google Chrome
 Grammarly
 HipChat
+Home
 Image Capture
 InVisionSync
-Install macOS Mojave
 IntelliJ IDEA CE
 Julia-0
 Kicad
@@ -43,6 +44,7 @@ Mail
 Maps
 Messages
 Mission Control
+News
 Notes
 OBS
 Photo Booth
@@ -61,6 +63,7 @@ SoundflowerBed
 Spectacle
 Steam
 Stickies
+Stocks
 Sublime Text
 SyphonInject
 System Preferences
@@ -77,10 +80,10 @@ VLC
 VNC Viewer
 VirtualBox
 Visual Studio Code
+VoiceMemos
 Wireshark
 Xcode
 Zeplin
-iBooks
 iMovie
 iTerm
 iTunes

@@ -1,6 +1,6 @@
-[✓] Flutter (Channel master, v0.11.10-pre.2, on Mac OS X 10.13.6 17G65, locale en-IN)
+[✓] Flutter (Channel master, v0.11.10-pre.2, on Mac OS X 10.14.1 18B75, locale en-IN)
     • Flutter version 0.11.10-pre.2 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision b55e52c6f7 (29 hours ago), 2018-11-21 15:48:23 -0500
+    • Framework revision b55e52c6f7 (2 days ago), 2018-11-21 15:48:23 -0500
     • Engine revision 1e37b99ac0
     • Dart version 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 
@@ -13,9 +13,9 @@
     • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
     • All Android licenses accepted.
 
-[!] iOS toolchain - develop for iOS devices (Xcode 9.4.1)
+[!] iOS toolchain - develop for iOS devices (Xcode 10.1)
     • Xcode at /Applications/Xcode.app/Contents/Developer
-    • Xcode 9.4.1, Build version 9F2000
+    • Xcode 10.1, Build version 10B61
     ✗ Verify that all connected devices have been paired with this computer in Xcode.
       If all devices have been paired, libimobiledevice and ideviceinstaller may require updating.
       To update with Brew, run:

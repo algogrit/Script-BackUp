@@ -1,7 +1,7 @@
 ==> Homebrew Version
 1.8.3
 ==> macOS
-10.13.6
+10.14.1
 ==> SIP
 Enabled
 ==> Java
@@ -13,7 +13,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4063 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4066 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (209 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.1.0/lib
@@ -39,16 +39,16 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/concurrent-ruby-1.0.5/lib
 /Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/lib
 /Library/Ruby/Site/2.3.0
-/Library/Ruby/Site/2.3.0/x86_64-darwin17
-/Library/Ruby/Site/2.3.0/universal-darwin17
+/Library/Ruby/Site/2.3.0/x86_64-darwin18
+/Library/Ruby/Site/2.3.0/universal-darwin18
 /Library/Ruby/Site
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/universal-darwin17
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin18
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby/2.3.0/universal-darwin18
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/vendor_ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/x86_64-darwin17
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/universal-darwin17
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/x86_64-darwin18
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/universal-darwin18
 /usr/local/Homebrew/Library/Homebrew
 ==> Environment Variables
 LC_ALL="en_US.UTF-8"
