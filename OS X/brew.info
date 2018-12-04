@@ -21,4 +21,4 @@ script of the same name. We found the following "config" scripts:
 
 Warning: Broken symlinks were found. Remove them with `brew prune`:
   /usr/local/bin/docker-machine.backup
-315 kegs, 285,107 files, 9.0GB
+315 kegs, 285,109 files, 9.0GB
