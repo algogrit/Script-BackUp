@@ -151,7 +151,6 @@ brew doctor 2>&1 | tee brew.info
 brew info 2>&1 | tee -a brew.info
 
 echo "\033[1;31mBrew Cask Info...\033[0m"
-brew cask cleanup
 brew cask doctor 2>&1 | tee brew_casks.info
 
 echo "\033[1;31mOutdated brews...\033[0m"

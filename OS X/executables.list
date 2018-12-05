@@ -534,7 +534,6 @@ docker-compose
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
-docker-machine.backup
 docker-swarm
 dot_clean
 dotenv

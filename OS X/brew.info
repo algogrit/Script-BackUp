@@ -18,7 +18,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-
-Warning: Broken symlinks were found. Remove them with `brew prune`:
-  /usr/local/bin/docker-machine.backup
-315 kegs, 285,109 files, 9.0GB
+315 kegs, 285,181 files, 9.0GB
