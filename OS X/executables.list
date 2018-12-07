@@ -710,7 +710,6 @@ freetype-config
 fribidi
 from
 fs_usage
-fsc
 fsck
 fsck_apfs
 fsck_cs
@@ -1970,6 +1969,7 @@ pg_standby
 pg_test_fsync
 pg_test_timing
 pg_upgrade
+pg_verify_checksums
 pg_waldump
 pgbench
 pgrep
@@ -2317,10 +2317,6 @@ say
 sbt
 sc_auth
 sc_usage
-scala
-scalac
-scaladoc
-scalap
 scandeps.pl
 scandeps5.18.pl
 schemagen

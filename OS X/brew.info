@@ -18,4 +18,9 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-315 kegs, 285,181 files, 9.0GB
+
+Warning: You have unlinked kegs in your Cellar
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  scala
+315 kegs, 287,293 files, 9GB
