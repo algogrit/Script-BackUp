@@ -710,6 +710,7 @@ freetype-config
 fribidi
 from
 fs_usage
+fsc
 fsck
 fsck_apfs
 fsck_cs
@@ -2317,6 +2318,10 @@ say
 sbt
 sc_auth
 sc_usage
+scala
+scalac
+scaladoc
+scalap
 scandeps.pl
 scandeps5.18.pl
 schemagen
