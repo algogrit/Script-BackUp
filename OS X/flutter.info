@@ -1,6 +1,6 @@
 [✓] Flutter (Channel master, v1.0.1-pre.3, on Mac OS X 10.14.1 18B75, locale en-IN)
     • Flutter version 1.0.1-pre.3 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision d74b1c2051 (5 hours ago), 2018-12-07 14:19:09 -0800
+    • Framework revision d74b1c2051 (2 days ago), 2018-12-07 14:19:09 -0800
     • Engine revision 7375a0f414
     • Dart version 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
 
@@ -43,7 +43,7 @@
 
 [✓] VS Code (version 1.29.1)
     • VS Code at /Applications/Visual Studio Code.app/Contents
-    • Flutter extension version 2.20.0
+    • Flutter extension version 2.21.1
 
 [!] Connected device
     ! No devices available
