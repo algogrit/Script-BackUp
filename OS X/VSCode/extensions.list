@@ -2,6 +2,7 @@ aestheticintegration.iml-vscode
 alefragnani.Bookmarks
 Anjali.clipboard-history
 Atishay-Jain.All-Autocomplete
+casian.plsql
 Connorcpu.vsc-rustfmt
 Dart-Code.dart-code
 Dart-Code.flutter
@@ -19,6 +20,7 @@ jpotterm.simple-vim
 mikestead.dotenv
 misogi.ruby-rubocop
 ms-kubernetes-tools.vscode-kubernetes-tools
+ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
