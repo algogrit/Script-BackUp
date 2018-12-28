@@ -1940,7 +1940,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.28.0
+perl5.28.1
 perlbug
 perlbug5.18
 perldoc
@@ -1998,6 +1998,7 @@ pip3.5
 pip3.7
 pirate-music-rename
 pkcs1-conv
+pkg
 pkg-config
 pkgbuild
 pkgutil
