@@ -1754,6 +1754,8 @@ mysqldump
 mysqldumpslow
 mysqlimport
 mysqlpump
+mysqlrouter
+mysqlrouter_plugin_info
 mysqlshow
 mysqlslap
 mysqltest
@@ -2642,6 +2644,7 @@ traceroute
 traceroute6
 transicc
 traptoemail
+trash
 trasher
 tree
 treereg
