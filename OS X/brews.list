@@ -131,6 +131,7 @@ libarchive
 libass
 libatomic_ops
 libcaca
+libcerf
 libcroco
 libdvdcss
 libdvdread
