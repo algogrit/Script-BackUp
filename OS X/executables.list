@@ -2441,6 +2441,7 @@ sndfile-metadata-get
 sndfile-metadata-set
 sndfile-play
 sndfile-regtest
+sndfile-resample
 sndfile-salvage
 sndiskmove
 snfsdefrag

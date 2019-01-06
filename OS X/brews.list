@@ -202,11 +202,13 @@ nspr
 nss
 ntfs-3g
 oniguruma
+openblas
 openexr
 openjpeg
 openssl
 openssl@1.1
 opus
+opusfile
 ossp-uuid
 p11-kit
 p7zip
