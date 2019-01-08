@@ -224,6 +224,7 @@ pkg-config
 poppler
 popt
 postgresql
+postgresql@10
 pow
 psgrep
 pstree
