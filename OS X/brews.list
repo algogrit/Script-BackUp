@@ -145,10 +145,12 @@ libimobiledevice
 libmp3splt
 libmpc
 libogg
+libomp
 libplist
 libpng
 librsvg
 libsamplerate
+libscrypt
 libsndfile
 libssh2
 libtasn1

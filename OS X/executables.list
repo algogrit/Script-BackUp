@@ -290,6 +290,7 @@ captype
 captype.dSYM
 cargo
 carthage
+casperjs
 caspol
 cat
 cc
