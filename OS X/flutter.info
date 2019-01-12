@@ -1,8 +1,8 @@
-[✓] Flutter (Channel master, v1.1.10-pre.35, on Mac OS X 10.14.2 18C54, locale en-IN)
-    • Flutter version 1.1.10-pre.35 at /Users/gaurav/Developer/experimental/sdk/flutter
-    • Framework revision 5a434c61af (39 minutes ago), 2019-01-10 19:08:03 -0800
-    • Engine revision e5ec3cf3ea
-    • Dart version 2.1.1 (build 2.1.1-dev.0.1 2cb346bd0c)
+[✓] Flutter (Channel master, v1.1.10-pre.42, on Mac OS X 10.14.2 18C54, locale en-IN)
+    • Flutter version 1.1.10-pre.42 at /Users/gaurav/Developer/experimental/sdk/flutter
+    • Framework revision 8efd6c1a21 (57 minutes ago), 2019-01-11 18:19:17 -0800
+    • Engine revision b7f6bf0192
+    • Dart version 2.1.1 (build 2.1.1-dev.1.0 2cb346bd0c)
 
 [✓] Android toolchain - develop for Android devices (Android SDK version 28.0.1)
     • Android SDK at /Users/gaurav/Library/Android/sdk/
