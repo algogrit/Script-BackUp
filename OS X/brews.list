@@ -69,6 +69,7 @@ gdrive
 geoip
 gettext
 ghc
+giflib
 gifsicle
 gist
 git
@@ -126,6 +127,7 @@ kubernetes-cli
 kubernetes-helm
 lame
 leiningen
+leptonica
 less
 libarchive
 libass
@@ -282,6 +284,7 @@ swiftlint
 szip
 tbb
 terminal-notifier
+tesseract
 texi2html
 texinfo
 the_silver_searcher
@@ -300,6 +303,7 @@ unrar
 usbmuxd
 utf8proc
 v8
+vapoursynth
 veclibfort
 vim
 vimpager
@@ -318,5 +322,6 @@ yasm
 youtube-dl
 yq
 z
+zimg
 zlib
 zookeeper
