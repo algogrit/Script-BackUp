@@ -22,7 +22,8 @@
   },
   "explorer.confirmDelete": false,
   "vs-kubernetes": {
-    "vs-kubernetes.draft-path": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    "vs-kubernetes.draft-path": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.minikube-path": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
   "editor.wordWrap": "on"
 }
