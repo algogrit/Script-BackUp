@@ -48,6 +48,10 @@ alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
 export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
 alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
 
+# Landing Page Template
+export LANDING_PAGE_TEMPLATE_REPO="git@github.com:algogrit/landing-page-template.git"
+alias gclpt="git clone $LANDING_PAGE_TEMPLATE_REPO"
+
 # Node modules
 alias find_all_node_modules="find . -name 'node_modules'"
 alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"
