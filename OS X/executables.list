@@ -153,6 +153,7 @@ audit
 auditd
 auditreduce
 authserver
+autocomplete
 autoconf
 autodiskmount
 autoheader
@@ -187,6 +188,7 @@ bc
 bdftogd
 bdftopcf
 bdftruncate
+beamctl
 bg
 biff
 bin
@@ -358,6 +360,7 @@ colldef
 colortail
 colrm
 column
+combine
 comm
 command
 commonmarker
@@ -373,6 +376,8 @@ conjure-down
 conjure-up
 connect-distributed
 connect-standalone
+container
+contains
 convert
 convertfilestopdf
 convertfilestops
@@ -505,6 +510,7 @@ ddns-confgen
 deactivate
 debinhex.pl
 debinhex5.18.pl
+debugging_wordcount
 defaults
 defragcli
 delv
@@ -688,6 +694,7 @@ filebyproc.d
 filecoordinationd
 fileinfo
 fillstruct
+filter
 filtercalltree
 find
 find2perl
@@ -714,6 +721,7 @@ font_cache
 fontrestore
 fonttosfnt
 footprint
+forest
 format-sql
 format-sql5.18
 fortune
@@ -1042,6 +1050,7 @@ gpt
 gptx
 gpwd
 gr2fonttest
+grades
 gradle
 graph2dot
 graphchk
@@ -1272,6 +1281,7 @@ installvst
 instmodsh
 instmodsh5.18
 instruments
+integration
 internal
 ioalloccount
 ioclasscount
@@ -1602,6 +1612,7 @@ man
 manifest
 manpath
 mas
+max
 mclient
 mconfig
 mcs
@@ -1637,6 +1648,7 @@ middleman
 mig
 mimegen
 minikube
+minimal_wordcount
 missing_codec_desc
 mix
 mkbom
@@ -1747,6 +1759,7 @@ msgs
 msqldump
 mtree
 mujs
+multiout
 munch
 murge
 mv
@@ -2015,6 +2028,7 @@ pictd
 pidpersec.d
 ping
 ping6
+pingpong
 pip
 pip2
 pip2.7
@@ -2254,6 +2268,7 @@ rbox
 rdjpgcom
 rdoc
 read
+readavro
 readlink
 realpath
 rebase
@@ -2504,6 +2519,7 @@ source.properties
 sox
 soxi
 spctl
+specialize
 speedtest
 speedtest-cli
 spelldump
@@ -2532,10 +2548,12 @@ ssh-keyscan
 sshd
 sso_util
 stapler
+starcgen
 startx
 stat
 stethoscope
 stream
+streaming_wordcap
 strfile
 stringdups
 stringdups32
@@ -2571,6 +2589,7 @@ sxpm
 symbols
 symbolscache
 symilar
+symtab
 sync
 sysadminctl
 syscallbypid.d
@@ -2662,6 +2681,7 @@ tor-gencert
 tor-print-ed-signing-cert
 tor-resolve
 torify
+tornadoes
 torsocks
 touch
 tput
@@ -2814,12 +2834,14 @@ who
 whoami
 whois
 wifi-status
+windowed_wordcount
 wirelessproxd
 wireshark
 wish
 wish8.5
 wnode
 wordbreaker
+wordcount
 wordforms
 wordlist2hunspell
 write
@@ -2961,6 +2983,7 @@ yarn
 yarnpkg
 yasm
 yat2m
+yatzy
 yes
 youtube-dl
 yq
