@@ -177,7 +177,9 @@ avmetareadwrite
 awk
 aws
 aws_completer
+b2sum
 banner
+base32
 base64
 basename
 bash
@@ -306,6 +308,7 @@ certmgr
 certtool
 cfprefsd
 chat
+chcon
 check-regexp
 checkgid
 checknr
@@ -526,6 +529,8 @@ diff
 diff3
 diffstat
 dig
+dir
+dircolors
 dirname
 disco
 disklabel
@@ -1184,6 +1189,7 @@ hidutil
 hiutil
 hmac256
 host
+hostid
 hostinfo
 hostname
 hotspot.d
@@ -1619,6 +1625,7 @@ mcs
 mcxquery
 mcxrefresh
 md5
+md5sum
 mdassembler
 mddiagnose
 mdfind
@@ -1867,6 +1874,7 @@ notifyd
 notifyutil
 nping
 npm
+nproc
 npx
 nroff
 nscurl
@@ -1887,6 +1895,7 @@ ntfsls
 ntfsresize
 ntfsundelete
 nuget
+numfmt
 nunit-console
 nunit-console2
 nunit-console4
@@ -2029,6 +2038,7 @@ pidpersec.d
 ping
 ping6
 pingpong
+pinky
 pip
 pip2
 pip2.7
@@ -2139,6 +2149,7 @@ ptardiff
 ptardiff5.18
 ptargrep
 ptargrep5.18
+ptx
 pubsub
 puma
 pumactl
@@ -2330,6 +2341,7 @@ ruby-rewrite
 run_erl
 runant.pl
 runant.py
+runcon
 runghc
 runghc-8.4.4
 runhaskell
@@ -2415,7 +2427,12 @@ sfltool
 sftp
 sgen
 sh
+sha1sum
 sha2
+sha224sum
+sha256sum
+sha384sum
+sha512sum
 shar
 sharing
 sharkd
@@ -2427,6 +2444,8 @@ showfigfonts
 showfont
 showmount
 showrgb
+shred
+shuf
 shutdown
 sidekiq
 sidekiqctl
@@ -2551,6 +2570,7 @@ stapler
 starcgen
 startx
 stat
+stdbuf
 stethoscope
 stream
 streaming_wordcap
@@ -2608,6 +2628,7 @@ systrace
 systriage
 tab2space
 tabs
+tac
 tachograph
 tail
 tailspin
@@ -2659,6 +2680,7 @@ tig
 tiller
 tilt
 time
+timeout
 timer_analyser.d
 timerfires
 tkcon
@@ -2700,6 +2722,7 @@ trimforce
 troff
 trogdor
 true
+truncate
 tset
 tshark
 tshark.dSYM
@@ -2780,6 +2803,7 @@ vbnc
 vbnc2
 vbox-img
 vboxwebsrv
+vdir
 vi
 view
 viewres
