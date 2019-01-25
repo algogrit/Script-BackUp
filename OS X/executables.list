@@ -2331,6 +2331,10 @@ rspec
 rsvg-convert
 rsync
 rtadvd
+rtmpdump
+rtmpgw
+rtmpsrv
+rtmpsuck
 rtsol
 rtsold
 rubocop

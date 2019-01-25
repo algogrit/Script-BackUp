@@ -59,6 +59,7 @@ fltk
 fontconfig
 fortune
 freetype
+frei0r
 fribidi
 gawk
 gcc
@@ -207,6 +208,7 @@ nss
 ntfs-3g
 oniguruma
 openblas
+opencore-amr
 openexr
 openjpeg
 openssl
@@ -250,6 +252,7 @@ readline
 redis
 ripgrep
 rsync
+rtmpdump
 ruby
 ruby-build
 rust
@@ -273,6 +276,7 @@ solr
 source-highlight
 sox
 speedtest-cli
+speex
 sphinx
 sphinx-doc
 sqlite
