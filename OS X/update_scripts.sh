@@ -161,10 +161,10 @@ ACTUAL_WD=$PWD
 echo "\033[1;31mUpdating vundle with git...\033[0m"
 cd ~/.vim/bundle/vundle && git ru > /dev/null && git st && git up
 
-echo "\033[1;31mUpdating flutter with git...\033[0m"
-cd ~/Developer/experimental/sdk/flutter && git ru > /dev/null && git st && git up
-flutter --version > ~/Script-BackUp/OS\ X/flutter.version
-flutter doctor -v > ~/Script-BackUp/OS\ X/flutter.info
+# echo "\033[1;31mUpdating flutter with git...\033[0m"
+# cd ~/Developer/experimental/sdk/flutter && git ru > /dev/null && git st && git up
+# flutter --version > ~/Script-BackUp/OS\ X/flutter.version
+# flutter doctor -v > ~/Script-BackUp/OS\ X/flutter.info
 
 cd "$ACTUAL_WD"
 
