@@ -529,8 +529,6 @@ diff
 diff3
 diffstat
 dig
-dir
-dircolors
 dirname
 disco
 disklabel
@@ -2807,7 +2805,6 @@ vbnc
 vbnc2
 vbox-img
 vboxwebsrv
-vdir
 vi
 view
 viewres
