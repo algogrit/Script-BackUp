@@ -1,5 +1,5 @@
 ==> Homebrew Version
-1.9.3
+2.0.0
 ==> macOS
 10.14.2
 ==> SIP
@@ -13,11 +13,11 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4104 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4107 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (210 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.1.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-rspec-1.31.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-rspec-1.32.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-0.63.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/unicode-display_width-1.4.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-progressbar-1.10.0/lib
@@ -26,8 +26,24 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/plist-3.5.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/parser-2.6.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/parallel-1.13.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/mechanize-2.7.6/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/webrobots-0.1.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ntlm-http-0.1.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/nokogiri-1.10.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/extensions/universal-darwin-18/2.3.0/nokogiri-1.10.1
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/mini_portile2-2.4.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/net-http-persistent-3.0.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/net-http-digest_auth-1.4.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/mime-types-3.2.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/mime-types-data-3.2018.0812/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/jaro_winkler-1.5.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/extensions/universal-darwin-18/2.3.0/jaro_winkler-1.5.2
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/http-cookie-1.0.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/domain_name-0.5.20180417/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/unf-0.1.4/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/unf_ext-0.0.7.5/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/extensions/universal-darwin-18/2.3.0/unf_ext-0.0.7.5
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/connection_pool-2.2.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/backports-3.11.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ast-2.4.0/lib
