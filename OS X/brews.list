@@ -2,6 +2,7 @@ ack
 ansible
 ant
 antlr
+aom
 apr
 apr-util
 aria2
@@ -253,6 +254,7 @@ redis
 ripgrep
 rsync
 rtmpdump
+rubberband
 ruby
 ruby-build
 rust

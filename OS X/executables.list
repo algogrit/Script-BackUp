@@ -114,6 +114,8 @@ ant
 antRun
 antRun.pl
 antlr
+aomdec
+aomenc
 apachectl
 apfs_hfs_convert
 api
@@ -2335,6 +2337,7 @@ rtmpsrv
 rtmpsuck
 rtsol
 rtsold
+rubberband
 rubocop
 ruby
 ruby-build
