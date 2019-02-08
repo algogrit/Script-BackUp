@@ -157,6 +157,7 @@ librsvg
 libsamplerate
 libscrypt
 libsndfile
+libsoxr
 libssh2
 libtasn1
 libtermkey
@@ -304,6 +305,7 @@ trash
 tree
 ttygif
 ttyrec
+uchardet
 unibilium
 unixodbc
 unrar
