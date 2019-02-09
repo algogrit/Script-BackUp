@@ -196,6 +196,7 @@ mpv
 msgpack
 mujs
 mysql
+ncurses
 neovim
 nethogs
 nettle
