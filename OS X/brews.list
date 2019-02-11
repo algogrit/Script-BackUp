@@ -138,12 +138,14 @@ libbluray
 libcaca
 libcerf
 libcroco
+libde265
 libdvdcss
 libdvdread
 libevent
 libffi
 libgcrypt
 libgpg-error
+libheif
 libid3tag
 libidn2
 libimobiledevice

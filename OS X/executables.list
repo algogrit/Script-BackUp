@@ -205,6 +205,7 @@ bisect-create
 bison
 bitesize.d
 bitmap
+bjoentegaard
 bless
 bluetoothaudiod
 bluetoothd
@@ -614,6 +615,7 @@ emacsclient
 emond
 emulator
 emulator-check
+enc265
 enc2xs
 enc2xs5.18
 encguess
@@ -833,6 +835,7 @@ gecho
 gegrep
 gem
 gemoji
+gen-enc-table
 gen-rc
 gen_bridge_metadata
 gencat
@@ -1182,6 +1185,10 @@ head
 headerdoc2html
 heap
 heap32
+heif-convert
+heif-enc
+heif-info
+heif-thumbnailer
 helm
 heroku
 hexdump
@@ -2277,6 +2284,7 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbox
+rd-curves
 rdjpgcom
 rdoc
 read
@@ -3016,6 +3024,7 @@ yes
 youtube-dl
 yq
 ytasm
+yuv-distortion
 zcat
 zcmp
 zdiff
