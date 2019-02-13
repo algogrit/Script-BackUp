@@ -1822,6 +1822,7 @@ ncctl
 ncdestroy
 ncinit
 nclist
+ncu
 ncurses5.4-config
 ndiff
 ndisasm
@@ -1882,6 +1883,7 @@ notifyd
 notifyutil
 nping
 npm
+npm-check-updates
 nproc
 npx
 nroff
@@ -2882,6 +2884,7 @@ wordforms
 wordlist2hunspell
 write
 wrjpgcom
+wrk
 wsdl
 wsdl2
 wsgen
