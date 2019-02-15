@@ -1034,6 +1034,7 @@ godoc
 goenv
 goenv-install
 goenv-uninstall
+goexec
 gofmt
 golint
 gomodifytags
