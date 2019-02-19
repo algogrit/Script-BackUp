@@ -1,5 +1,5 @@
 ==> Homebrew Version
-2.0.1
+2.0.2
 ==> macOS
 10.14.2
 ==> SIP
@@ -13,12 +13,12 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3977 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3978 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (193 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-macho-2.1.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-rspec-1.32.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-0.63.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rubocop-0.64.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/unicode-display_width-1.4.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/ruby-progressbar-1.10.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle-standalone/bundler/../ruby/2.3.0/gems/rainbow-3.0.0/lib
