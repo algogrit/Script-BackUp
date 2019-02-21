@@ -334,6 +334,7 @@ chown
 chpass
 chrome-stats-to-csv
 chromedriver
+chromedriver-helper
 chromedriver-update
 chroot
 chsh
