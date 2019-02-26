@@ -24,6 +24,7 @@ buck
 byobu
 cairo
 carthage
+cassandra
 chicken
 cloc
 cloog
@@ -34,6 +35,7 @@ coreutils
 cscope
 ctags
 curl
+cython
 docker-machine
 docker-swarm
 doxygen

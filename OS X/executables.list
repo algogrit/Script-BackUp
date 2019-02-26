@@ -300,6 +300,9 @@ cargo
 carthage
 casperjs
 caspol
+cassandra
+cassandra-stress
+cassandra-stressd
 cat
 cc
 cccheck
@@ -372,6 +375,7 @@ combine
 comm
 command
 commonmarker
+compaction-stress
 compare
 complete-ant-cmd.pl
 composite
@@ -415,6 +419,8 @@ cpp-8
 cpp2html
 cpu_profiler.d
 cpuwalk.d
+cqlsh
+cqlsh.py
 crc32
 crc325.18
 creatbyproc.d
@@ -518,6 +524,7 @@ ddns-confgen
 deactivate
 debinhex.pl
 debinhex5.18.pl
+debug-cql
 debugging_wordcount
 defaults
 defragcli
@@ -1876,6 +1883,7 @@ node-build
 nodenv
 nodenv-install
 nodenv-uninstall
+nodetool
 nohup
 nokogiri
 nologin
@@ -2582,6 +2590,18 @@ ssh-keygen
 ssh-keyscan
 sshd
 sso_util
+sstabledump
+sstableexpiredblockers
+sstablelevelreset
+sstableloader
+sstablemetadata
+sstableofflinerelevel
+sstablerepairedset
+sstablescrub
+sstablesplit
+sstableupgrade
+sstableutil
+sstableverify
 stapler
 starcgen
 startx
