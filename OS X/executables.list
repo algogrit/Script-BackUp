@@ -867,6 +867,7 @@ gdirname
 gdk-pixbuf-csource
 gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 gdlib-config
 gdparttopng
 gdrive
