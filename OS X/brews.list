@@ -67,6 +67,7 @@ fribidi
 gawk
 gcc
 gd
+gdb
 gdbm
 gdk-pixbuf
 gdrive

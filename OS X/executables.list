@@ -852,6 +852,8 @@ gd2copypal
 gd2togif
 gd2topng
 gdate
+gdb
+gdb-add-index
 gdbm_dump
 gdbm_load
 gdbmtool
