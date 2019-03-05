@@ -554,6 +554,7 @@ dev_mkdb
 df
 dftest
 dftest.dSYM
+dgraph
 diagnose-fu
 dialyzer
 diff
