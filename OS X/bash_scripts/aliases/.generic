@@ -32,6 +32,9 @@ alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 # Music
 alias play_music="mplayer -novideo -loop 0 -shuffle"
 
+# Java
+alias jenv-add-list="/usr/libexec/java_home -V"
+
 # Ruby
 alias bx='bundle exec'
 alias rails_db_reset="bundle exec rake db:drop db:create db:migrate db:seed"

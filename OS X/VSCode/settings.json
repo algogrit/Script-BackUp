@@ -26,5 +26,7 @@
     "vs-kubernetes.minikube-path": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
   "editor.wordWrap": "on",
-  "files.autoSave": "off"
+  "files.autoSave": "off",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

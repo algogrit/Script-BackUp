@@ -824,6 +824,7 @@ gb2sum
 gbase32
 gbase64
 gbasename
+gbasenc
 gc
 gcat
 gcc
@@ -1498,7 +1499,6 @@ juju-metadata
 juju-wait
 julia
 jvisualvm
-jweblauncher
 kadmin
 kadmin.local
 kafka-acls
