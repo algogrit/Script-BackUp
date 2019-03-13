@@ -223,6 +223,7 @@ bmtoa
 bnepd
 bombardment
 bootnode
+bootstrapping
 bq
 brctl
 brew
@@ -316,6 +317,7 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
+cbt
 cc
 cccheck
 ccmake
@@ -550,6 +552,7 @@ delaunay
 delv
 dep
 desdp
+dev_appserver.py
 dev_mkdb
 df
 dftest
@@ -654,6 +657,7 @@ enc2xs
 enc2xs5.18
 encguess
 encode_keychange
+endpointscfg.py
 env
 envvars
 envvars-std
@@ -954,6 +958,7 @@ git-contrib
 git-count
 git-create-branch
 git-credential-gcloud
+git-credential-gcloud.sh
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -1446,6 +1451,7 @@ jarsigner
 jasper
 java
 java2html
+java_dev_appserver.sh
 javac
 javadoc
 javafxpackager

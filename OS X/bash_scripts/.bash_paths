@@ -45,6 +45,11 @@ export PATH="$ANDROID_HOME""tools:$ANDROID_HOME""tools/bin:$ANDROID_HOME""platfo
 export FLUTTER_HOME="$HOME/Developer/experimental/sdk/flutter"
 export PATH="$FLUTTER_HOME/bin:$PATH"
 
+### Cloud Platforms
+## GCP
+export GCLOUD_SDK=/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
+export PATH="$GCLOUD_SDK/bin:$PATH"
+
 #### CUSTOM
 
 # Load custom git commands

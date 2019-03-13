@@ -4,3 +4,12 @@
 project-resources
 devops/heroku/
 git-bisect-run.sh
+
+## VSCode for Java
+.classpath
+.factorypath
+.project
+.settings
+
+## IntelliJ
+.idea
