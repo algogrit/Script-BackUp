@@ -3,6 +3,9 @@
 alias cp="cp -v"
 alias rm="rm -v"
 
+# Disable homebrew auto update
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Defining Resuable functions
 
 function _line_by_line {
@@ -36,6 +39,13 @@ _line_by_line "brew cask install" < "$HOME/Script-BackUp/OS X/brew_casks.list" |
 
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade || exit 1
+
+echo "\033[1;31mAll Good? (Y/n)\033[0m"
+read _all_good
+
+if [[ $_all_good = "n" ]]; then
+	exit 1
+fi
 
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
@@ -92,7 +102,6 @@ cp ~/Script-BackUp/OS\ X/git-hooks/* ~/git-hooks/
 echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
 exercism configure --dir=$HOME/Developer/exercism/
-curl http://cli.exercism.io/shell/exercism_completion.bash > ~/.config/exercism/exercism_completion.bash
 
 echo "\033[1;31mSetting up Sublime...\033[0m"
 cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
