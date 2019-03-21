@@ -9,7 +9,7 @@ cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
 cp read_android_packages.sh /tmp
 cp android_packages.list /tmp
-cp README /tmp
+cp README.md /tmp
 cp notes.txt /tmp
 
 echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
@@ -24,7 +24,7 @@ cp /tmp/update_scripts.sh .
 cp /tmp/restore_scripts.sh .
 cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
-cp /tmp/README .
+cp /tmp/README.md .
 cp /tmp/notes.txt .
 
 echo "\033[1;31mUpdating brew...\033[0m"
