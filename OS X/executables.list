@@ -237,7 +237,6 @@ bspatch
 bsrefmt
 btmmdiagnose
 buck
-build
 bundle
 bundler
 bunzip2
@@ -351,7 +350,6 @@ chmorph
 chown
 chpass
 chrome-stats-to-csv
-chromedriver
 chromedriver-helper
 chromedriver-update
 chroot
@@ -380,7 +378,6 @@ cmpdylib
 cmpfillin
 cmuwmtopbm
 code
-coderay
 codesign
 codesign_allocate
 col
@@ -596,7 +593,6 @@ dot
 dot2gxl
 dot_builtins
 dot_clean
-dotenv
 doxygen
 drip
 dropdb
@@ -669,7 +665,6 @@ erb
 erl
 erlc
 errinfo
-erubis
 escp2topbm
 escript
 eslint
@@ -1243,7 +1238,6 @@ h5watch
 haddock
 haddock-ghc-8.6.4
 halt
-haml
 happrox
 hash
 hb-ot-shape-closure
@@ -1749,7 +1743,6 @@ metaflac
 mgrtopbm
 mib2c
 mib2c-update
-middleman
 mig
 mimegen
 minikube
@@ -2529,7 +2522,6 @@ proguard
 prove
 prove5.18
 prune
-pry
 ps
 psed
 psed5.18
@@ -2733,7 +2725,6 @@ rpcbind
 rpcgen
 rpcinfo
 rs
-rspec
 rsvg-convert
 rsync
 rtadvd
@@ -2744,11 +2735,8 @@ rtmpsuck
 rtsol
 rtsold
 rubberband
-rubocop
 ruby
 ruby-build
-ruby-parse
-ruby-rewrite
 run_erl
 runant.pl
 runant.py
@@ -2862,8 +2850,6 @@ showrgb
 shred
 shuf
 shutdown
-sidekiq
-sidekiqctl
 sidxindex
 siege
 siege.config

@@ -10,6 +10,10 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "window.zoomLevel": 0,
+  "[java]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
   "[go]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": false
@@ -30,8 +34,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "java.home": "/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home",
-  "[java]": {
-  },
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
