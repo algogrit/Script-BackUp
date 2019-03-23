@@ -134,6 +134,9 @@ FLUTTER_INSTALL_PATH=~/Developer/experimental/sdk
 mkdir -p $FLUTTER_INSTALL_PATH
 git clone git@github.com:flutter/flutter.git $FLUTTER_INSTALL_PATH/flutter
 
+echo "\033[1;31mCreating other directories....\033[0m"
+mkdir -p ~/.private/cloud/gcp
+
 echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
