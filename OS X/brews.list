@@ -218,7 +218,9 @@ nodenv
 nspr
 nss
 ntfs-3g
+ocaml
 oniguruma
+opam
 openblas
 opencore-amr
 openexr
