@@ -93,7 +93,7 @@ cp ~/Script-BackUp/OS\ X/.powconfig ~/
 cp ~/Script-BackUp/OS\ X/.lein/* ~/.lein
 
 echo "\033[1;31mInstall vundle packages...\033[0m"
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 vim +PlugInstall +qall
 
 echo "\033[1;31mRestoring git customizations...\033[0m"
