@@ -203,6 +203,7 @@ mpv
 msgpack
 mujs
 mysql
+nasm
 ncurses
 neovim
 nethogs
@@ -317,6 +318,7 @@ tree
 ttygif
 ttyrec
 uchardet
+unbound
 unibilium
 unixodbc
 unrar

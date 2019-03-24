@@ -56,8 +56,12 @@ export PATH="$GCLOUD_SDK/bin:$PATH"
 echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
 export PATH="$HOME/Custom-Git-Commands:$PATH"
 
-# ADDING ~/bin TO THE PATH
+# Adding ~/bin to the PATH
 export PATH="$HOME/bin:$PATH"
 
-# ADDING snippet_programs TO THE PATH
+# Adding ~/bin/slack-theme to PATH
+
+export PATH=$PATH:/Users/gaurav/bin/slack-theme
+
+# ADDING snippet_programs to the PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"

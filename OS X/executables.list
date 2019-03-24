@@ -186,6 +186,7 @@ awk
 aws
 aws_completer
 b2sum
+backup
 banner
 base32
 base64
@@ -458,6 +459,7 @@ csi
 csplit
 csreq
 csrutil
+css
 csslint-0.6
 ct_run
 ctags
@@ -1579,6 +1581,7 @@ ldapsearch
 ldapurl
 ldapwhoami
 ldiff
+ldrdf
 leaftoppm
 leaks
 leaks32
@@ -2717,8 +2720,16 @@ rbenv-whence
 rbenv-which
 rbox
 rd-curves
+rdf2bin
+rdf2com
+rdf2ihx
+rdf2ith
+rdf2srec
+rdfdump
+rdflib
 rdjpgcom
 rdoc
+rdx
 read
 readavro
 readlink
@@ -2907,6 +2918,9 @@ sirtopnm
 size
 skywalkctl
 sl
+slack-day
+slack-night
+slack-theme
 slapacl
 slapadd
 slapauth
@@ -3219,6 +3233,12 @@ umask
 umount
 unalias
 uname
+unbound
+unbound-anchor
+unbound-checkconf
+unbound-control
+unbound-control-setup
+unbound-host
 uncoded_frame
 uncompress
 unexpand
