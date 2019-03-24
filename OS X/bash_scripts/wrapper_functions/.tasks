@@ -1,0 +1,9 @@
+function todays-tasks {
+  tasks_dir=${1:-"/Users/gaurav/Developer/Tasks"}
+  bat $tasks_dir/Daily/`date +%Y-%m-%d`.md
+}
+
+function todays-tasks-e {
+  tasks_dir=${1:-"/Users/gaurav/Developer/Tasks"}
+  $EDITOR $tasks_dir/Daily/`date +%Y-%m-%d`.md
+}
