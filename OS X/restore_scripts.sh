@@ -104,9 +104,6 @@ echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
 exercism configure --dir=$HOME/Developer/exercism/
 
-echo "\033[1;31mSetting up Sublime...\033[0m"
-cp ~/Script-BackUp/OS\ X/Sublime/*.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-
 echo "\033[1;31mSetting up VSCode...\033[0m"
 cp ~/Script-BackUp/OS\ X/VSCode/settings.json ~/Library/Application\ Support/Code/User/
 cp ~/Script-BackUp/OS\ X/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
