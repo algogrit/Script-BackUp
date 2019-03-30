@@ -51,6 +51,11 @@ alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
 export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
 alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
 
+# Project Tasks
+export PROJECT_TASKS_REPO="git@bitbucket.org:algogrit/project-tasks.git"
+alias gcprot="git clone $PROJECT_TASKS_REPO"
+alias gcprotb="cat project-tasks.branch | xargs -n 1 git clone $PROJECT_TASKS_REPO -b"
+
 # Landing Page Template
 export LANDING_PAGE_TEMPLATE_REPO="git@github.com:algogrit/landing-page-template.git"
 alias gclpt="git clone $LANDING_PAGE_TEMPLATE_REPO"
