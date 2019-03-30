@@ -141,5 +141,8 @@ echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
 
+echo "\033[1;31mSetting up ~/Developer...\033[0m"
+echo "TODO"
+
 unalias cp
 unalias rm
