@@ -4,7 +4,7 @@ android-file-transfer
 android-ndk
 android-sdk
 android-studio
-brave-browser
+brave
 caffeine
 craftmanager
 discord
@@ -30,8 +30,10 @@ joinme
 julia
 kicad
 kindle
+krita
 libreoffice
 licecap
+macdown
 minikube
 mono-mdk
 ngrok
@@ -39,7 +41,6 @@ nosleep
 obs
 odrive
 osxfuse
-phantomjs
 postman
 provisioning
 rstudio
@@ -53,7 +54,7 @@ spectacle
 steam
 the-unarchiver
 thunderbird
-tor-browser
+torbrowser
 transmission
 unity
 usage
