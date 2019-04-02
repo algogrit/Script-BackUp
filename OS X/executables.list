@@ -1726,7 +1726,6 @@ mdatopbm
 mddiagnose
 mdfind
 mdimport
-mdimport32
 mdls
 mdoc
 mdoc-assemble
