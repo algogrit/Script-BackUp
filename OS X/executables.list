@@ -1045,6 +1045,7 @@ glibtoolize
 glide
 glink
 gln
+global-store
 glocate
 glogname
 glpsol
@@ -3079,6 +3080,7 @@ sw_vers
 swagger-codegen
 swarm
 swarm-smoke
+swarm-snapshot
 swift
 swiftc
 swiftlint
