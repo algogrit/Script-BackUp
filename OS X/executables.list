@@ -2801,6 +2801,7 @@ runghc
 runghc-8.6.4
 runhaskell
 rust-gdb
+rust-gdbgui
 rust-lldb
 rustc
 rustdoc
