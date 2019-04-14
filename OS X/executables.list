@@ -645,7 +645,7 @@ elixirc
 elm
 elm-test
 emacs
-emacs-26.1
+emacs-26.2
 emacs-undumped
 emacsclient
 emond
@@ -821,7 +821,7 @@ gapi2-parser
 gatherheaderdoc
 gatsby
 gawk
-gawk-4.2.1
+gawk-5.0.0
 gb2sum
 gbase32
 gbase64
