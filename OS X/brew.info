@@ -4,11 +4,11 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
-software packages are installed, and what additional flags to use when
+software packages are installed, and which additional flags to use when
 compiling and linking.
 
 Having additional scripts in your path can confuse software installed via
-Homebrew if the config script overrides a system or Homebrew provided
+Homebrew if the config script overrides a system or Homebrew-provided
 script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5m-config
   /Users/gaurav/.pyenv/shims/python2-config
@@ -20,6 +20,6 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
 
 Warning: Some installed formulae are not readable:
-  phantomjs: uninitialized constant #<Class:0x00007f838d898e48>::MinimumMacOSRequirement
+  phantomjs: uninitialized constant #<Class:0x00007fb136ba5060>::MinimumMacOSRequirement
 Did you mean?  MaximumMacOSRequirement
-350 kegs, 279,774 files, 9.9GB
+350 kegs, 279,784 files, 9.9GB
