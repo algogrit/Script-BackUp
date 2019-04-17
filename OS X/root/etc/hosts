@@ -11,6 +11,7 @@
 # Custom Temporary Routing
 
 # Work
+0.0.0.0 lichess.org
 0.0.0.0 twitter.com
 0.0.0.0 www.linkedin.com
 0.0.0.0 www.quora.com
