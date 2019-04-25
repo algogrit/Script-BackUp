@@ -911,11 +911,11 @@ gfortran-8
 ggrep
 ggroups
 ghc
-ghc-8.6.4
+ghc-8.6.5
 ghc-pkg
-ghc-pkg-8.6.4
+ghc-pkg-8.6.5
 ghci
-ghci-8.6.4
+ghci-8.6.5
 ghead
 ghostid
 gid
@@ -1240,7 +1240,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-8.6.4
+haddock-ghc-8.6.5
 halt
 happrox
 hash
@@ -2798,7 +2798,7 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-8.6.4
+runghc-8.6.5
 runhaskell
 rust-gdb
 rust-gdbgui
