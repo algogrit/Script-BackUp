@@ -24,6 +24,7 @@ buck
 byobu
 cairo
 carthage
+cask-repair
 cassandra
 chicken
 cloc
@@ -109,6 +110,7 @@ hdf5
 heroku
 heroku-node
 hicolor-icon-theme
+hr
 htop
 hub
 hunspell
@@ -219,9 +221,8 @@ nodenv
 nspr
 nss
 ntfs-3g
-ocaml
 oniguruma
-opam
+open-mpi
 openblas
 opencore-amr
 openexr
@@ -239,7 +240,6 @@ passenger
 pcre
 pcre2
 perl
-phantomjs
 pixman
 pkg-config
 poppler
