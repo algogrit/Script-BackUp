@@ -1,35 +1,23 @@
 facebook/fb: unpinned, 5 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (55 files, 5.5MB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (96 files, 8.2MB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (63 files, 37.9KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (376 files, 183KB)
 From: https://github.com/heroku/homebrew-brew
 
-homebrew/cask: unpinned, 1 command, 4016 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,463 files, 115.0MB)
+homebrew/cask: unpinned, 1 command, 4017 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,191 files, 70.9MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: unpinned, 164 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (280 files, 479.3KB)
-From: https://github.com/Homebrew/homebrew-cask-drivers
-
-homebrew/cask-fonts: unpinned, 1182 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,314 files, 1.7MB)
-From: https://github.com/Homebrew/homebrew-cask-fonts
-
 homebrew/cask-versions: unpinned, 199 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (520 files, 55.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (497 files, 56.9MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4775 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,263 files, 23.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,893 files, 271MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (60 files, 72.8KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (114 files, 141.3KB)
 From: https://github.com/Homebrew/homebrew-services
-
-vitorgalvao/tiny-scripts: unpinned, 37 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (166 files, 106.3KB)
-From: https://github.com/vitorgalvao/homebrew-tiny-scripts
