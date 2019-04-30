@@ -1897,10 +1897,12 @@ mysqldumpslow
 mysqlimport
 mysqlpump
 mysqlrouter
+mysqlrouter_passwd
 mysqlrouter_plugin_info
 mysqlshow
 mysqlslap
 mysqltest
+mysqltest_safe_process
 mysqlxtest
 nano
 nasm
