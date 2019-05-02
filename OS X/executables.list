@@ -379,6 +379,7 @@ cmpdylib
 cmpfillin
 cmuwmtopbm
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -2573,6 +2574,7 @@ proguard
 prove
 prove5.18
 prune
+pry
 ps
 psed
 psed5.18
