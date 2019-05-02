@@ -20,6 +20,6 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
 
 Warning: Some installed formulae are not readable:
-  phantomjs: uninitialized constant #<Class:0x00007fa30f11b570>::MinimumMacOSRequirement
+  phantomjs: uninitialized constant #<Class:0x00007f8abd295898>::MinimumMacOSRequirement
 Did you mean?  MaximumMacOSRequirement
-350 kegs, 279,975 files, 10.0GB
+350 kegs, 280,000 files, 10.0GB
