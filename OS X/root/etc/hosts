@@ -11,13 +11,13 @@
 # Custom Temporary Routing
 
 # Work
-0.0.0.0 lichess.org
 0.0.0.0 twitter.com
 0.0.0.0 www.linkedin.com
 0.0.0.0 www.quora.com
 
 # Productivity Hack - It's not difficult to make the choices. The hard part is to actually live with them.
 0.0.0.0 airma.sh
+0.0.0.0 lichess.org
 
 # Custom blocking
 0.0.0.0 www.instagram.com
