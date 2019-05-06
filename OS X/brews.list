@@ -245,7 +245,6 @@ passenger
 pcre
 pcre2
 perl
-phantomjs
 pinentry
 pixman
 pkg-config
