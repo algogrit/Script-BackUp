@@ -81,6 +81,11 @@ actool
 acyclic
 adb
 addftinfo
+addgnupghome
+adnsheloex
+adnshost
+adnslogres
+adnsresfilter
 afclip
 afconvert
 affixcompress
@@ -126,6 +131,7 @@ apkanalyzer
 applesingle
 appletviewer
 apply
+applygnupgdefaults
 appres
 appsleepd
 apropos
@@ -137,6 +143,8 @@ aria2c
 arp
 as
 asa
+asciidoctor
+asciidoctor-safe
 asciinema
 asciitopgm
 asctl
@@ -226,6 +234,7 @@ bombardment
 bootnode
 bootstrapping
 bq
+brakeman
 brctl
 brew
 brightness
@@ -239,6 +248,7 @@ bsrefmt
 btmmdiagnose
 buck
 bundle
+bundle-audit
 bundler
 bunzip2
 byebug
@@ -406,6 +416,7 @@ conjure-down
 conjure-up
 connect-distributed
 connect-standalone
+console
 container
 contains
 convert
@@ -567,6 +578,8 @@ diffimg
 diffstat
 dig
 dijkstra
+dirmngr
+dirmngr-client
 dirname
 disco
 disklabel
@@ -771,6 +784,7 @@ font_cache
 fontrestore
 fonttosfnt
 footprint
+foreman
 forest
 format-sql
 format-sql5.18
@@ -889,6 +903,7 @@ gen-enc-table
 gen-rc
 gen_bridge_metadata
 gencat
+generate-api
 gengal
 genstrings
 genv
@@ -1030,8 +1045,10 @@ git-up
 git-upload-archive
 git-upload-pack
 git-wash
+github-markup
 github-pages
 gitk
+gitlab-markup
 gjoin
 gkill
 glances
@@ -1102,9 +1119,22 @@ gource
 gpaste
 gpathchk
 gperf
+gpg
+gpg-agent
+gpg-connect-agent
 gpg-error
 gpg-error-config
+gpg-wks-server
+gpgconf
+gpgme-config
+gpgme-json
+gpgme-tool
+gpgparsemail
 gpgrt-config
+gpgscm
+gpgsm
+gpgtar
+gpgv
 gpinky
 gpmetis
 gpr
@@ -1243,6 +1273,9 @@ h5watch
 haddock
 haddock-ghc-8.6.5
 halt
+haml
+haml-lint
+hamlit
 happrox
 hash
 hb-ot-shape-closure
@@ -1291,7 +1324,9 @@ htmltree
 htmltree5.18
 htop
 htpasswd
+httparty
 httpcfg
+httpclient
 httpd
 httpd-wrapper
 httxt2dbm
@@ -1530,6 +1565,7 @@ kafka-streams-application-reset
 kafka-topics
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kbxutil
 kcc
 kdcsetup
 kdestroy
@@ -1547,11 +1583,13 @@ kill.d
 killall
 kinit
 klist
+knapsack
 koi8rxterm
 kpasswd
 kramdown
 krb5-config
 krbservicesetup
+ksba-config
 ksh
 kswitch
 ktrace
@@ -1570,6 +1608,7 @@ lastwords
 latency
 launchctl
 launchd
+launchy
 layerutil
 lc
 ld
@@ -1596,6 +1635,7 @@ lessecho
 lesskey
 lex
 lib
+libassuan-config
 libav-merge-next-commit
 libgcrypt-config
 libnetcfg
@@ -1603,6 +1643,9 @@ libnetcfg5.18
 libpng-config
 libpng16-config
 libtool
+license_finder
+license_finder_pip.py
+licensee
 link
 linkicc
 lint
@@ -1699,6 +1742,7 @@ macptopbm
 magick
 magick-script
 mail
+mail_room
 mailq
 mailx
 make
@@ -1983,6 +2027,7 @@ nping
 npm
 npm-check-updates
 nproc
+npth-config
 npx
 nroff
 nscurl
@@ -2009,6 +2054,7 @@ nunit-console2
 nunit-console4
 nvim
 nvram
+oauth
 objdump
 ocaml
 ocaml-instr-graph
@@ -2073,6 +2119,7 @@ opj_compress
 opj_decompress
 opj_dump
 orbd
+org-ruby
 osacompile
 osadecompile
 osage
@@ -2348,6 +2395,9 @@ piconv5.18
 pictd
 picttoppm
 pidpersec.d
+pinentry
+pinentry-curses
+pinentry-tty
 ping
 ping6
 pingpong
@@ -2560,9 +2610,11 @@ pprof
 pr
 praudit
 pre-grohtml
+premailer
 present
 priclass.d
 pridist.d
+print_header.sh
 printenv
 printf
 probetest
@@ -2690,6 +2742,7 @@ randpkt.dSYM
 ranlib
 rarpd
 rasttopnm
+raven
 raw2tiff
 rawshark
 rawshark.dSYM
@@ -2725,6 +2778,7 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbox
+rbtrace
 rd-curves
 rdf2bin
 rdf2com
@@ -2743,6 +2797,7 @@ realpath
 rebase
 reboot
 rec
+redcloth
 redis-benchmark
 redis-check-aof
 redis-check-rdb
@@ -2765,6 +2820,7 @@ resgen
 resgen2
 resize
 resolveLinks
+restclient
 rev
 rg
 rgb3toppm
@@ -2777,7 +2833,12 @@ rmdir
 rmic
 rmid
 rmiregistry
+rmsgcat
+rmsgfmt
+rmsginit
+rmsgmerge
 rotatelogs
+rotp
 rougify
 route
 rpc.lockd
@@ -2786,6 +2847,7 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rspec
 rsvg-convert
 rsync
 rtadvd
@@ -2796,8 +2858,15 @@ rtmpsuck
 rtsol
 rtsold
 rubberband
+rubocop
 ruby
 ruby-build
+ruby-parse
+ruby-prof
+ruby-prof-check-trace
+ruby-rewrite
+ruby_parse
+ruby_parse_extract_error
 run_erl
 runant.pl
 runant.py
@@ -2817,6 +2886,7 @@ rvim
 rwbypid.d
 rwbytype.d
 rwsnoop
+rxgettext
 s2p
 s2p5.18
 sa
@@ -2854,6 +2924,7 @@ screenshot2
 script
 scselect
 scss
+scss-lint
 scutil
 sdef
 sdiff
@@ -2884,6 +2955,7 @@ setquota
 setreg
 setregion
 setuids.d
+setup
 setxkbmap
 sexp-conv
 sfdp
@@ -2912,6 +2984,8 @@ showrgb
 shred
 shuf
 shutdown
+sidekiq
+sidekiqctl
 sidxindex
 siege
 siege.config
@@ -3051,6 +3125,9 @@ sstableupgrade
 sstableutil
 sstableverify
 st4topgm
+stackprof
+stackprof-flamegraph.pl
+stackprof-gprof2dot.py
 stapler
 starcgen
 startx
@@ -3095,6 +3172,7 @@ swipl-ld
 sxpm
 symbols
 symbolscache
+symcryptrun
 symilar
 symtab
 sync
@@ -3145,6 +3223,7 @@ tfmtodit
 tftp
 tgatoppm
 thermal
+thin
 thinkjettopbm
 thor
 tic
@@ -3250,6 +3329,8 @@ uncoded_frame
 uncompress
 unexpand
 unflatten
+unicorn
+unicorn_rails
 unifdef
 unifdefall
 uniq
@@ -3262,6 +3343,7 @@ uno
 unoinfo
 unopkg
 unpack200
+unparser
 unrar
 unsetpassword
 unstr
@@ -3336,6 +3418,7 @@ wait
 wait4path
 wall
 watch
+watchgnupg
 watchman
 watchman-make
 watchman-wait

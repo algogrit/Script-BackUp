@@ -1,4 +1,5 @@
 ack
+adns
 ansible
 ant
 antlr
@@ -90,12 +91,14 @@ gnu-sed
 gnu-tar
 gnu-units
 gnu-which
+gnupg
 gnuplot
 gnutls
 go
 gobject-introspection
 goenv
 gource
+gpgme
 gradle
 graphicsmagick
 graphite2
@@ -138,6 +141,7 @@ leptonica
 less
 libarchive
 libass
+libassuan
 libatomic_ops
 libbluray
 libcaca
@@ -154,6 +158,7 @@ libheif
 libid3tag
 libidn2
 libimobiledevice
+libksba
 libmp3splt
 libmpc
 libogg
@@ -216,6 +221,7 @@ nmap
 node
 node-build
 nodenv
+npth
 nspr
 nss
 ntfs-3g
@@ -240,6 +246,7 @@ pcre
 pcre2
 perl
 phantomjs
+pinentry
 pixman
 pkg-config
 poppler
@@ -263,6 +270,7 @@ qt
 r
 rabbitmq
 rbenv
+re2
 readline
 redis
 ripgrep
