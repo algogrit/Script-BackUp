@@ -228,6 +228,7 @@ ntfs-3g
 ocaml
 oniguruma
 opam
+open-mpi
 openblas
 opencore-amr
 openexr
