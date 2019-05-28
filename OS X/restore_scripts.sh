@@ -107,6 +107,18 @@ echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
 exercism configure --dir=$HOME/Developer/exercism/
 
+echo "\033[1;31mSetting up common repositories...\033[0m"
+mkdir -p ~/Developer/Algogrit
+git clone git@github.com:algogrit/gauravagarwalr.com.git ~/Developer/Algogrit/algogrit.com
+git clone git@github.com:algogrit/blog.gauravagarwalr.com.git ~/Developer/Algogrit/blog
+
+mkdir -p ~/Developer/Consultant/AgarwalConsulting
+git clone git@github.com:AgarwalConsulting/landing-page.git ~/Developer/Consultant/AgarwalConsulting/landing-page
+
+git clone --single-branch --branch master-task-list git@bitbucket.org:algogrit/project-resources.git ~/Developer/Tasks
+
+git clone git@bitbucket.org:algogrit/training-master.git ~/Developer/Training
+
 echo "\033[1;31mSetting up VSCode...\033[0m"
 cp ~/Script-BackUp/OS\ X/VSCode/settings.json ~/Library/Application\ Support/Code/User/
 cp ~/Script-BackUp/OS\ X/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
