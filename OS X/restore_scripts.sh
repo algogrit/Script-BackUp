@@ -111,12 +111,22 @@ echo "\033[1;31mSetting up common repositories...\033[0m"
 mkdir -p ~/Developer/Algogrit
 git clone git@github.com:algogrit/gauravagarwalr.com.git ~/Developer/Algogrit/algogrit.com
 git clone git@github.com:algogrit/blog.gauravagarwalr.com.git ~/Developer/Algogrit/blog
+git clone git@github.com:gauravagarwalr/value-investing-with-analysis.git ~/Developer/Algogrit/value-investing-with-analysis
+git clone git@bitbucket.org:algogrit/project-resources.git ~/Developer/Algogrit/project-resources
 
 mkdir -p ~/Developer/Consultant/AgarwalConsulting
-git clone git@github.com:AgarwalConsulting/landing-page.git ~/Developer/Consultant/AgarwalConsulting/landing-page
+git clone git@github.com:AgarwalConsulting/landing-page.git ~/Developer/Consultant/AgarwalConsulting/agarwalconsulting.io
+
+mkdir -p ~/Developer/Consultant/CnI
+git clone git@bitbucket.org:algogrit/contracts.git ~/Developer/Consultant/CnI/contracts
+git clone git@bitbucket.org:algogrit/invoices.git ~/Developer/Consultant/CnI/invoices
+
+mkdir -p ~/Developer/Presentations
+git clone git@github.com:algogrit/presentation-template.git ~/Developer/Presentations/presentation-template
+echo talks > ~/Developer/Presentations/project-resources.branch
+git clone --single-branch --branch talks git@bitbucket.org:algogrit/project-resources.git ~/Developer/Presentations/talk-ideas
 
 git clone --single-branch --branch master-task-list git@bitbucket.org:algogrit/project-resources.git ~/Developer/Tasks
-
 git clone git@bitbucket.org:algogrit/training-master.git ~/Developer/Training
 
 echo "\033[1;31mSetting up VSCode...\033[0m"
