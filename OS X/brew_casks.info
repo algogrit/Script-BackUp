@@ -13,8 +13,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3622 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (168 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3583 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (169 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.3.0/gems/simplecov-cobertura-1.3.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.3.0/gems/ruby-macho-2.2.0/lib
