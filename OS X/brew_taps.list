@@ -1,6 +1,9 @@
 facebook/fb
 heroku/brew
 homebrew/cask
+homebrew/cask-drivers
+homebrew/cask-fonts
 homebrew/cask-versions
 homebrew/core
 homebrew/services
+vitorgalvao/tiny-scripts

@@ -1,5 +1,4 @@
 ack
-adns
 ansible
 ant
 antlr
@@ -25,6 +24,7 @@ buck
 byobu
 cairo
 carthage
+cask-repair
 cassandra
 chicken
 cloc
@@ -91,14 +91,12 @@ gnu-sed
 gnu-tar
 gnu-units
 gnu-which
-gnupg
 gnuplot
 gnutls
 go
 gobject-introspection
 goenv
 gource
-gpgme
 gradle
 graphicsmagick
 graphite2
@@ -112,6 +110,7 @@ hdf5
 heroku
 heroku-node
 hicolor-icon-theme
+hr
 htop
 hub
 hunspell
@@ -141,7 +140,6 @@ leptonica
 less
 libarchive
 libass
-libassuan
 libatomic_ops
 libbluray
 libcaca
@@ -158,7 +156,6 @@ libheif
 libid3tag
 libidn2
 libimobiledevice
-libksba
 libmp3splt
 libmpc
 libogg
@@ -221,13 +218,10 @@ nmap
 node
 node-build
 nodenv
-npth
 nspr
 nss
 ntfs-3g
-ocaml
 oniguruma
-opam
 open-mpi
 openblas
 opencore-amr
@@ -246,8 +240,6 @@ passenger
 pcre
 pcre2
 perl
-pinentry
-pipenv
 pixman
 pkg-config
 poppler
@@ -271,7 +263,6 @@ qt
 r
 rabbitmq
 rbenv
-re2
 readline
 redis
 ripgrep
