@@ -2337,7 +2337,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.28.2
+perl5.30.0
 perlbug
 perlbug5.18
 perldoc
