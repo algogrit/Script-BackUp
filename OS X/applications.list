@@ -1,13 +1,14 @@
 [1;31mListing /Applications...[0m
 Adobe
 Adobe Acrobat Reader DC
+Anaconda-Navigator
 Android File Transfer
 Android Studio
 App Store
 Autodesk
 Automator
 Books
-Brave Browser
+Brave
 Caffeine
 Calculator
 Calendar
@@ -26,7 +27,7 @@ Firefox
 Flash Player
 Flux
 Font Book
-GIMP-2
+Gimp-2
 Google Chrome
 Grammarly
 HipChat
@@ -34,18 +35,23 @@ Home
 Image Capture
 InVisionSync
 IntelliJ IDEA CE
-Julia-1
-KiCad
+Julia-0
+Kicad
 Kindle
 LICEcap
 Launchpad
 LibreOffice
+MacDown
 Mail
 Maps
 Messages
+Microsoft Excel
+Microsoft OneNote
+Microsoft Outlook
+Microsoft PowerPoint
+Microsoft Word
 Mission Control
 News
-NoSleep
 Notes
 OBS
 Photo Booth
@@ -58,6 +64,7 @@ Reminders
 Safari
 Siri
 Sketch
+Skype Meetings App
 Skype
 Slack
 SoundflowerBed
@@ -72,6 +79,7 @@ The Unarchiver
 Thunderbird
 Time Machine
 Tor Browser
+TorBrowser
 Transmission
 Unity
 Usage
@@ -84,9 +92,11 @@ VoiceMemos
 Wireshark
 Xcode
 Zeplin
+iMovie
 iTerm
 iTunes
 join
+krita
 odrive
 zoom
 [1;31mListing User Applications...[0m

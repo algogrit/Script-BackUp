@@ -40,5 +40,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "java.errors.incompleteClasspath.severity": "ignore"
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "python.jediEnabled": false,
+  "editor.accessibilitySupport": "off"
 }
