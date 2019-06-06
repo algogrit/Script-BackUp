@@ -1,23 +1,35 @@
 facebook/fb: unpinned, 5 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (138 files, 5.5MB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (101 files, 5.5MB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (388 files, 190.0KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (75 files, 44.0KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/cask: unpinned, 1 command, 3585 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,147 files, 84.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,092 files, 118.3MB)
 From: https://github.com/Homebrew/homebrew-cask
 
+homebrew/cask-drivers: unpinned, 136 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (326 files, 623KB)
+From: https://github.com/Homebrew/homebrew-cask-drivers
+
+homebrew/cask-fonts: unpinned, 963 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,103 files, 1.8MB)
+From: https://github.com/Homebrew/homebrew-cask-fonts
+
 homebrew/cask-versions: unpinned, 170 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,034 files, 57.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (667 files, 56.2MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4787 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,398 files, 252.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,349 files, 29.6MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (123 files, 160.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (69 files, 91KB)
 From: https://github.com/Homebrew/homebrew-services
+
+vitorgalvao/tiny-scripts: unpinned, 39 formulae
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (207 files, 139.6KB)
+From: https://github.com/vitorgalvao/homebrew-tiny-scripts
