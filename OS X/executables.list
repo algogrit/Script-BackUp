@@ -362,6 +362,7 @@ cmpdylib
 cmpfillin
 cmuwmtopbm
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -551,6 +552,7 @@ distnoted
 ditto
 djpeg
 dltest
+dlv
 dmc
 dmcs
 dmesg
@@ -1023,13 +1025,22 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-outline
+go-symbols
 gobject-query
+gocode
+gocode-gomod
 god
+godef
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
+golint
+gopkgs
+gorename
+goreturns
 gouldtoppm
 gource
 gpaste
@@ -1126,6 +1137,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gv2gml
 gv2gxl
@@ -2449,6 +2461,7 @@ profiles
 prove
 prove5.18
 prune
+pry
 ps
 psed
 psed5.18
