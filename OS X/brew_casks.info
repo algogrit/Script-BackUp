@@ -14,8 +14,8 @@ Enabled
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3589 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (171 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (963 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (173 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (964 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (137 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.3.0/gems/simplecov-cobertura-1.3.1/lib
