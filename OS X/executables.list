@@ -512,6 +512,7 @@ dbiprof
 dbiprof5.18
 dbiproxy
 dbiproxy5.18
+dbmate
 dbmmanage
 dbsessmgr
 dbsessmgr2
@@ -561,8 +562,13 @@ dmesg
 dnctl
 dns-sd
 dnsextd
+docker
+docker-compose
+docker-compose.backup
 docker-credential-gcloud
+docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
 dot
 dot2gxl
@@ -1244,6 +1250,7 @@ httxt2dbm
 hub
 hunspell
 hunzip
+hyperkit
 hzip
 ibd2sdi
 ibtool
@@ -1496,6 +1503,7 @@ kswitch
 ktrace
 ktutil
 kubectl
+kubectl.docker
 kubectx
 kubens
 kv-cli
@@ -1909,6 +1917,7 @@ nohup
 nologin
 nop
 normalize.py
+notary
 notifyd
 notifyutil
 nping
@@ -2728,8 +2737,10 @@ scandeps5.18.pl
 sccmap
 schemagen
 scons
+scons-3.0.5.bat
 scons-configure-cache
 scons-time
+scons.bat
 sconsign
 scp
 screen
@@ -3194,6 +3205,7 @@ vm_stat
 vmmap
 vmmap32
 vpnd
+vpnkit
 vsdbutil
 vspipe
 vsyasm
