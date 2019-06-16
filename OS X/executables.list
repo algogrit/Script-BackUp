@@ -181,6 +181,7 @@ awk
 aws
 aws_completer
 b2sum
+backup
 banner
 base32
 base64
