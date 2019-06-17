@@ -120,6 +120,7 @@ git clone git@github.com:AgarwalConsulting/landing-page.git ~/Developer/Consulta
 mkdir -p ~/Developer/Consultant/CnI
 git clone git@bitbucket.org:algogrit/contracts.git ~/Developer/Consultant/CnI/contracts
 git clone git@bitbucket.org:algogrit/invoices.git ~/Developer/Consultant/CnI/invoices
+git clone git@bitbucket.org:algogrit/quotation.git ~/Developer/Consultant/CnI/quotation
 
 mkdir -p ~/Developer/Presentations
 git clone git@github.com:algogrit/presentation-template.git ~/Developer/Presentations/presentation-template
