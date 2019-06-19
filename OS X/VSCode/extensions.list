@@ -24,13 +24,13 @@ karunamurti.haml
 kumar-harsh.graphql-for-vscode
 mikestead.dotenv
 misogi.ruby-rubocop
+ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 msjsdiag.debugger-for-chrome
-PeterJausovec.vscode-docker
 rebornix.ruby
 redhat.java
 redhat.vscode-yaml

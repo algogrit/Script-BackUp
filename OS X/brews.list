@@ -188,6 +188,7 @@ lua
 lua@5.1
 luajit
 lynx
+lzo
 mad
 mas
 maven

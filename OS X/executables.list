@@ -75,6 +75,8 @@ ack
 aclocal
 aclocal-1.16
 activate
+activate.csh
+activate.fish
 actool
 acyclic
 addftinfo
@@ -531,6 +533,7 @@ defaults
 defragcli
 delaunay
 delv
+dep
 desdp
 dev_appserver.py
 dev_mkdb
@@ -1535,6 +1538,7 @@ ldrdf
 leaftoppm
 leaks
 leaks32
+learning-golang
 leave
 lein
 less
