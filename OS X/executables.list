@@ -899,6 +899,7 @@ giftext
 giftogd2
 giftool
 giftopnm
+gin
 ginstall
 gio
 gio-querymodules
@@ -1038,6 +1039,7 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-concurrency-constructs
 go-outline
 go-symbols
 gobject-query
