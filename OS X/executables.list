@@ -789,7 +789,7 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.0.0
+gawk-5.0.1
 gb2sum
 gbase32
 gbase64
@@ -2468,6 +2468,7 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
+pprof
 pr
 praudit
 pre-grohtml
