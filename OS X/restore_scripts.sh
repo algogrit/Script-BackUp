@@ -37,6 +37,9 @@ _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 _line_by_line "brew cask install" < "$HOME/Script-BackUp/OS X/brew_casks.list" || exit 1
 
+echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
+cat "$HOME/Script-BackUp/OS X/mas.list" | cut -d ' ' -f 1 | xargs -n 1 mas install || exit 1
+
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade || exit 1
 

@@ -44,6 +44,9 @@ brew tap | xargs brew tap-info > brew_taps.info
 # List of Brew Cask Installations
 brew cask list > brew_casks.list
 
+# List of mac App Store installed apps
+mas list > mas.list
+
 # List of Custom installations
 echo "\033[1;31mListing /Applications...\033[0m" | tee applications.list
 ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
