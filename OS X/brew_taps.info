@@ -3,33 +3,33 @@ facebook/fb: unpinned, 5 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (75 files, 44.0KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (75 files, 42.9KB)
 From: https://github.com/heroku/homebrew-brew
 
-homebrew/cask: unpinned, 1 command, 3591 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,828 files, 137.7MB)
+homebrew/cask: unpinned, 1 command, 3592 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,908 files, 139.7MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 139 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (488 files, 880.5KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (488 files, 879.4KB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
-homebrew/cask-fonts: unpinned, 966 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,129 files, 1.9MB)
+homebrew/cask-fonts: unpinned, 967 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,134 files, 1.9MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 174 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (988 files, 56.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (989 files, 56.7MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4804 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,769 files, 45.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,771 files, 45.6MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (69 files, 91KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (69 files, 90.0KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 39 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (286 files, 164KB)
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (286 files, 163.0KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
