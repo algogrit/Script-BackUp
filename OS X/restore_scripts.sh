@@ -37,11 +37,11 @@ _line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 _line_by_line "brew cask install" < "$HOME/Script-BackUp/OS X/brew_casks.list" || exit 1
 
+echo "\033[1;31mInstalling all brews...\033[0m"
+cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade
+
 echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
 cat "$HOME/Script-BackUp/OS X/mas.list" | cut -d ' ' -f 1 | xargs -n 1 mas install || exit 1
-
-echo "\033[1;31mInstalling all brews...\033[0m"
-cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade || exit 1
 
 echo "\033[1;31mAll Good? (Y/n)\033[0m"
 read _all_good
@@ -51,7 +51,7 @@ if [[ $_all_good = "n" ]]; then
 fi
 
 echo "\033[1;31mInstalling Slack cli theme changer\033[0m" # https://github.com/mykeels/slack-theme-cli
-wget -O /tmp/slack-theme https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme && SLACK_THEME_SHELL_PROFILE=/tmp/.bash bash /tmp/slack-theme install && . /tmp/.bash
+wget -O /tmp/slack-theme https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme && SLACK_THEME_SHELL_PROFILE="/tmp/.bash" bash /tmp/slack-theme install && . /tmp/.bash
 
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
@@ -146,14 +146,20 @@ cp ~/Script-BackUp/OS\ X/bin/* ~/bin
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
 
-# source ${HOME}/bash_scripts/.bash_load
+echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
+read _reloaded_shell
+
+if [[ $_reloaded_shell = "n" ]]; then
+	exit 1
+fi
 
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
-_install_languages python pyenv
+LDFLAGS="-L/usr/local/opt/zlib/lib" CPPFLAGS="-I/usr/local/opt/zlib/include" _install_languages python pyenv
 _install_languages node nodenv
 _install_languages go goenv
 jenv enable-plugin export
+jenv-install
 
 echo "\033[1;31mInstalling flutter...\033[0m"
 FLUTTER_INSTALL_PATH=~/Developer/experimental/sdk
@@ -164,11 +170,10 @@ echo "\033[1;31mCreating other directories....\033[0m"
 mkdir -p ~/.private/cloud/gcp
 
 echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
+
+jenv shell 1.8
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
-
-echo "\033[1;31mSetting up ~/Developer...\033[0m"
-echo "TODO"
 
 unalias cp
 unalias rm

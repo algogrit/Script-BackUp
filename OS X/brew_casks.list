@@ -1,7 +1,7 @@
 adobe-acrobat-reader
 adobe-air
+adoptopenjdk8
 android-file-transfer
-android-ndk
 android-sdk
 android-studio
 brave-browser
@@ -26,13 +26,13 @@ intellij-idea-ce
 invisionsync
 iterm2
 java
-java8
 joinme
 julia
 kicad
 kindle
 libreoffice
 licecap
+menumeters
 minikube
 mono-mdk
 ngrok
@@ -67,6 +67,5 @@ vnc-viewer
 whatsapp
 wireshark
 xquartz
-yujitach-menumeters
 zeplin
 zoomus

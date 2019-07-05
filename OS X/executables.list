@@ -1,5 +1,4 @@
 
-101-workshop
 2to3
 2to3-
 2to3-2
@@ -75,8 +74,6 @@ ack
 aclocal
 aclocal-1.16
 activate
-activate.csh
-activate.fish
 actool
 acyclic
 addftinfo
@@ -183,7 +180,6 @@ awk
 aws
 aws_completer
 b2sum
-backup
 banner
 base32
 base64
@@ -307,7 +303,6 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
-cbt
 cc
 cccheck
 ccmake
@@ -354,6 +349,7 @@ clang++
 clean-diff
 clear
 clef
+clhsdb
 cli_mt
 cli_st
 cloc
@@ -367,7 +363,6 @@ cmpdylib
 cmpfillin
 cmuwmtopbm
 code
-coderay
 codesign
 codesign_allocate
 col
@@ -515,7 +510,6 @@ dbiprof
 dbiprof5.18
 dbiproxy
 dbiproxy5.18
-dbmate
 dbmmanage
 dbsessmgr
 dbsessmgr2
@@ -533,7 +527,6 @@ defaults
 defragcli
 delaunay
 delv
-dep
 desdp
 dev_appserver.py
 dev_mkdb
@@ -559,7 +552,6 @@ distnoted
 ditto
 djpeg
 dltest
-dlv
 dmc
 dmcs
 dmesg
@@ -568,11 +560,9 @@ dns-sd
 dnsextd
 docker
 docker-compose
-docker-compose.backup
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
-docker-machine.backup
 docker-swarm
 dot
 dot2gxl
@@ -899,7 +889,6 @@ giftext
 giftogd2
 giftool
 giftopnm
-gin
 ginstall
 gio
 gio-querymodules
@@ -1039,23 +1028,13 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
-go-concurrency-constructs
-go-outline
-go-symbols
 gobject-query
-gocode
-gocode-gomod
 god
-godef
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
-golint
-gopkgs
-gorename
-goreturns
 gouldtoppm
 gource
 gpaste
@@ -1152,7 +1131,6 @@ gunlink
 gunzip
 gupdatedb
 guptime
-guru
 gusers
 gv2gml
 gv2gxl
@@ -1241,6 +1219,7 @@ hpftodit
 hpmdiagnose
 hr
 hsc2hs
+hsdb
 htcacheclean
 htdbm
 htdigest
@@ -1267,7 +1246,6 @@ iconutil
 iconv
 ictool
 id
-idea
 identify
 idevice_id
 idevicebackup
@@ -1409,7 +1387,6 @@ java2html
 java_dev_appserver.sh
 javac
 javadoc
-javafxpackager
 javah
 javap
 javapackager
@@ -1425,6 +1402,7 @@ jemalloc-config
 jemalloc.sh
 jenv
 jeprof
+jfr
 jhat
 jhsdb
 jimage
@@ -1541,7 +1519,6 @@ ldrdf
 leaftoppm
 leaks
 leaks32
-learning-golang
 leave
 lein
 less
@@ -1870,11 +1847,6 @@ nclist
 ncurses5.4-config
 ndiff
 ndisasm
-ndk-build
-ndk-depends
-ndk-gdb
-ndk-stack
-ndk-which
 ndmetis
 ndp
 neato
@@ -2271,8 +2243,6 @@ pip2.7
 pip3
 pip3.5
 pip3.7
-pipenv
-pipenv-resolver
 pirate-music-rename
 pjtoppm
 pkcs1-conv
@@ -2469,7 +2439,6 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
-pprof
 pr
 praudit
 pre-grohtml
@@ -2486,7 +2455,6 @@ profiles
 prove
 prove5.18
 prune
-pry
 ps
 psed
 psed5.18
@@ -2977,7 +2945,6 @@ svnserve
 svnsync
 svnversion
 sw_vers
-swagger
 swagger-codegen
 swarm
 swarm-smoke
@@ -3205,8 +3172,6 @@ vimdiff
 vimpager
 vimtutor
 vipw
-virtualenv
-virtualenv-clone
 vis
 visualinfo
 visudo
