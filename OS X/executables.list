@@ -74,6 +74,8 @@ ack
 aclocal
 aclocal-1.16
 activate
+activate.csh
+activate.fish
 actool
 acyclic
 addftinfo
@@ -2243,6 +2245,8 @@ pip2.7
 pip3
 pip3.5
 pip3.7
+pipenv
+pipenv-resolver
 pirate-music-rename
 pjtoppm
 pkcs1-conv
@@ -3172,6 +3176,8 @@ vimdiff
 vimpager
 vimtutor
 vipw
+virtualenv
+virtualenv-clone
 vis
 visualinfo
 visudo
