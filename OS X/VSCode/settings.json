@@ -33,7 +33,7 @@
   "files.autoSave": "off",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "java.home": "/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home",
+  "java.home": "/Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
