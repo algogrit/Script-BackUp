@@ -321,6 +321,7 @@ chcon
 check-regexp
 checkgid
 checknr
+checkpoint-admin
 chflags
 chfn
 chg
@@ -529,9 +530,11 @@ defaults
 defragcli
 delaunay
 delv
+dep
 desdp
 dev_appserver.py
 dev_mkdb
+devp2p
 df
 dftest
 dftest.dSYM
@@ -562,9 +565,11 @@ dns-sd
 dnsextd
 docker
 docker-compose
+docker-compose.backup
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
 dot
 dot2gxl
@@ -1001,7 +1006,6 @@ glibtoolize
 glide
 glink
 gln
-global-store
 glocate
 glogname
 glpsol
@@ -1248,6 +1252,7 @@ iconutil
 iconv
 ictool
 id
+idea
 identify
 idevice_id
 idevicebackup
@@ -1678,7 +1683,6 @@ mgrtopbm
 mib2c
 mib2c-update
 mig
-mimegen
 minikube
 missing_codec_desc
 mix
@@ -2795,7 +2799,6 @@ siege.config
 siege2csv.pl
 sigdist.d
 signcode
-simulations
 sip
 sips
 sirtopnm
@@ -2953,9 +2956,6 @@ svnsync
 svnversion
 sw_vers
 swagger-codegen
-swarm
-swarm-smoke
-swarm-snapshot
 swift
 swiftc
 swiftlint
@@ -3374,6 +3374,7 @@ xzless
 xzmore
 yaa
 yacc
+yaes-server
 yasm
 yat2m
 ybmtopbm
