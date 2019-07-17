@@ -116,6 +116,7 @@ git clone git@github.com:algogrit/gauravagarwalr.com.git ~/Developer/Algogrit/al
 git clone git@github.com:algogrit/blog.gauravagarwalr.com.git ~/Developer/Algogrit/blog
 git clone git@github.com:gauravagarwalr/value-investing-with-analysis.git ~/Developer/Algogrit/value-investing-with-analysis
 git clone git@bitbucket.org:algogrit/project-resources.git ~/Developer/Algogrit/project-resources
+git clone git@bitbucket.org:algogrit/interview-challenges.git ~/Developer/Algogrit/interviews
 
 mkdir -p ~/Developer/Consultant/AgarwalConsulting
 git clone git@github.com:AgarwalConsulting/landing-page.git ~/Developer/Consultant/AgarwalConsulting/agarwalconsulting.io
