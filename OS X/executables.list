@@ -2708,6 +2708,7 @@ rust-lldb
 rustc
 rustdoc
 rustup-init
+rvictl
 rview
 rvim
 rwbypid.d
