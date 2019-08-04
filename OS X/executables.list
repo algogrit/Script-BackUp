@@ -567,6 +567,7 @@ dnsextd
 docker
 docker-compose
 docker-compose.backup
+docker-credential-desktop
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
@@ -1497,6 +1498,7 @@ kgetcred
 kill
 kill.d
 killall
+kind
 kinit
 klist
 koi8rxterm
