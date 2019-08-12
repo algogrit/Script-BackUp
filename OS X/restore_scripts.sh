@@ -8,23 +8,21 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Defining Resuable functions
 
-function _line_by_line {
-  while read single_arg; do
-    echo $1 $single_arg
-    $1 $single_arg || exit 1
-  done
-}
-
 function _install_languages {
   cd /tmp
   ACTUAL_WD=$OLDPWD
 
-  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 install"
-  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | _line_by_line "$2 global"
-  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep -v set | _line_by_line "$2 install"
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 global
+  cat "$HOME/Script-BackUp/OS X/$1.versions" | grep -v system | grep -v set | xargs -n 1 $2 install
 
   cd "$ACTUAL_WD"
 }
+
+# Here we go.. ask for the administrator password upfront and run a
+# keep-alive to update existing `sudo` time stamp until script has finished
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 echo "\033[1;31mStarting the restore process...\033[0m"
 
@@ -32,10 +30,11 @@ echo "\033[1;31mCreating directories...\033[0m"
 mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
 echo "\033[1;31mTapping brews...\033[0m"
-_line_by_line "brew tap" < "$HOME/Script-BackUp/OS X/brew_taps.list"
+cat $HOME/Script-BackUp/OS X/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
-_line_by_line "brew cask install" < "$HOME/Script-BackUp/OS X/brew_casks.list" || exit 1
+cat brew_casks.list | sort -r | xargs -n 1 brew cask install &
+cat brew_casks.list | xargs -n 1 brew cask install
 
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/OS\ X/brews.list | xargs brew install || brew upgrade
@@ -108,7 +107,7 @@ cp ~/Script-BackUp/OS\ X/git-hooks/* ~/git-hooks/
 
 echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
-exercism configure --dir=$HOME/Developer/exercism/
+exercism configure -w $HOME/Developer/exercism/
 
 echo "\033[1;31mSetting up common repositories...\033[0m"
 mkdir -p ~/Developer/Algogrit
@@ -160,7 +159,12 @@ LDFLAGS="-L/usr/local/opt/zlib/lib" CPPFLAGS="-I/usr/local/opt/zlib/include" _in
 _install_languages node nodenv
 _install_languages go goenv
 jenv enable-plugin export
-jenv-install
+# jenv installing all the java versions
+/usr/libexec/java_home -V2&> /tmp/jdk-list
+cat /tmp/jdk-list | ag Library | cut -f 3 | xargs -n 1 jenv add
+
+echo "\033[1;31mInstalling git-up...\033[0m"
+gem install git-up
 
 echo "\033[1;31mInstalling flutter...\033[0m"
 FLUTTER_INSTALL_PATH=~/Developer/experimental/sdk
@@ -172,7 +176,7 @@ mkdir -p ~/.private/cloud/gcp
 
 echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
 
-jenv shell 1.8
+jenv global 1.8
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
 

@@ -6,7 +6,6 @@ android-sdk
 android-studio
 brave-browser
 caffeine
-craftmanager
 discord
 disk-drill
 docker
@@ -14,21 +13,16 @@ dropbox
 eclipse-java
 evernote
 firefox
-flash-player
 flux
 gimp
 google-chrome
 google-cloud-sdk
 google-hangouts
 grammarly
-hipchat
 intellij-idea-ce
-invisionsync
 iterm2
 java
-joinme
 julia
-kicad
 kindle
 libreoffice
 licecap
@@ -43,10 +37,7 @@ osxfuse
 phantomjs
 podcastmenu
 postman
-provisioning
 rstudio
-sketch
-sketchbook
 skype
 slack
 soundflower
@@ -67,5 +58,4 @@ vlc
 vnc-viewer
 wireshark
 xquartz
-zeplin
 zoomus
