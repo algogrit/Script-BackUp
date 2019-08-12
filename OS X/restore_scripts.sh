@@ -180,5 +180,10 @@ jenv global 1.8
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
 
+echo "\033[1;31mReseting password restrictions...\033[0m"
+pwpolicy -clearaccountpolicies
+passwd
+
+
 unalias cp
 unalias rm
