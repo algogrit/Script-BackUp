@@ -1,4 +1,5 @@
 
+101-workshop
 2to3
 2to3-
 2to3-2
@@ -182,7 +183,6 @@ awk
 aws
 aws_completer
 b2sum
-backup
 banner
 base32
 base64
@@ -199,7 +199,6 @@ bdftopcf
 bdftruncate
 bg
 biff
-bin
 binhex
 binhex.pl
 binhex5.18.pl
@@ -531,6 +530,7 @@ defaults
 defragcli
 delaunay
 delv
+dep
 desdp
 dev_appserver.py
 dev_mkdb
@@ -557,15 +557,21 @@ distnoted
 ditto
 djpeg
 dltest
+dlv
 dmc
 dmcs
 dmesg
 dnctl
 dns-sd
 dnsextd
+docker
 docker-compose
+docker-compose.backup
+docker-credential-desktop
 docker-credential-gcloud
+docker-credential-osxkeychain
 docker-machine
+docker-machine.backup
 docker-swarm
 dot
 dot2gxl
@@ -1032,13 +1038,22 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-outline
+go-symbols
 gobject-query
+gocode
+gocode-gomod
 god
+godef
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
+golint
+gopkgs
+gorename
+goreturns
 gouldtoppm
 gource
 gpaste
@@ -1135,6 +1150,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gv2gml
 gv2gxl
@@ -1239,17 +1255,7 @@ httxt2dbm
 hub
 hunspell
 hunzip
-hwloc-annotate
-hwloc-bind
-hwloc-calc
-hwloc-compress-dir
-hwloc-diff
-hwloc-distrib
-hwloc-gather-cpuid
-hwloc-info
-hwloc-ls
-hwloc-patch
-hwloc-ps
+hyperkit
 hzip
 ibd2sdi
 ibtool
@@ -1260,6 +1266,7 @@ iconutil
 iconv
 ictool
 id
+idea
 identify
 idevice_id
 idevicebackup
@@ -1493,6 +1500,7 @@ kgetcred
 kill
 kill.d
 killall
+kind
 kinit
 klist
 koi8rxterm
@@ -1504,6 +1512,7 @@ kswitch
 ktrace
 ktutil
 kubectl
+kubectl.docker
 kubectx
 kubens
 kv-cli
@@ -1593,8 +1602,6 @@ lskq
 lsm
 lsmp
 lsof
-lstopo
-lstopo-no-graphics
 lsvfs
 lua
 lua-5.1
@@ -1756,6 +1763,7 @@ monodis
 monodocer
 monodocs2html
 monodocs2slashdoc
+monograph
 monolinker
 monop
 monop2
@@ -1912,6 +1920,7 @@ nohup
 nologin
 nop
 normalize.py
+notary
 notifyd
 notifyutil
 nping
@@ -1938,6 +1947,9 @@ ntfsresize
 ntfsundelete
 nuget
 numfmt
+nunit-console
+nunit-console2
+nunit-console4
 nvim
 nvram
 objdump
@@ -2254,6 +2266,8 @@ pip2.7
 pip3
 pip3.5
 pip3.7
+pipenv
+pipenv-resolver
 pirate-music-rename
 pjtoppm
 pkcs1-conv
@@ -3181,6 +3195,8 @@ vimdiff
 vimpager
 vimtutor
 vipw
+virtualenv
+virtualenv-clone
 vis
 visualinfo
 visudo
@@ -3189,6 +3205,7 @@ vm_stat
 vmmap
 vmmap32
 vpnd
+vpnkit
 vsdbutil
 vspipe
 vsyasm
@@ -3373,6 +3390,7 @@ xzless
 xzmore
 yaa
 yacc
+yaes-server
 yasm
 yat2m
 ybmtopbm
