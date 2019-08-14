@@ -71,3 +71,5 @@ alias docker-clean-up="docker-rm-exited && docker-rmi-dangling"
 
 # Personalised
 alias about-me="cat ~/Developer/Algogrit/algogrit.com/About-Me.md"
+
+alias cloc-g='cloc --vcs=git'
