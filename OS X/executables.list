@@ -1,8 +1,10 @@
 
+101-workshop
 2to3
 2to3-
 2to3-2
 2to3-2.7
+2to3-3.4
 2to3-3.5
 2to3-3.7
 411toppm
@@ -182,7 +184,6 @@ awk
 aws
 aws_completer
 b2sum
-backup
 banner
 base32
 base64
@@ -199,7 +200,6 @@ bdftopcf
 bdftruncate
 bg
 biff
-bin
 binhex
 binhex.pl
 binhex5.18.pl
@@ -611,6 +611,7 @@ dwebp
 dynamic_pager
 easy_install
 easy_install-2.7
+easy_install-3.4
 easy_install-3.5
 easy_install-3.7
 ebrowse
@@ -944,7 +945,6 @@ git-ignore
 git-ignore-io
 git-info
 git-latest
-git-line-summary
 git-local-commits
 git-lock
 git-locked
@@ -971,6 +971,7 @@ git-receive-pack
 git-refactor
 git-release
 git-rename-branch
+git-rename-remote
 git-rename-tag
 git-repl
 git-reset-file
@@ -1278,6 +1279,7 @@ iconutil
 iconv
 ictool
 id
+idea
 identify
 idevice_id
 idevicebackup
@@ -1303,6 +1305,7 @@ idle
 idle2
 idle2.7
 idle3
+idle3.4
 idle3.5
 idle3.7
 idlj
@@ -1538,6 +1541,7 @@ launchctl
 launchd
 layerutil
 lc
+lconvert
 ld
 ldapadd
 ldapcompare
@@ -1606,6 +1610,7 @@ lpq
 lpr
 lprm
 lpstat
+lrelease
 ls
 lsappinfo
 lsbom
@@ -1629,6 +1634,7 @@ luac5.3
 luajit
 luajit-2.0.5
 luit
+lupdate
 lwp-download
 lwp-download5.18
 lwp-dump
@@ -1655,6 +1661,7 @@ m4
 mDNSResponder
 mDNSResponderHelper
 macbinary
+macdeployqt
 macerror
 macerror5.18
 machine
@@ -1711,7 +1718,6 @@ mgrtopbm
 mib2c
 mib2c-update
 mig
-migrate
 minikube
 missing_codec_desc
 mix
@@ -1735,6 +1741,7 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
+moc
 mod
 mod-mono-server
 mod-mono-server2
@@ -1777,6 +1784,7 @@ monodis
 monodocer
 monodocs2html
 monodocs2slashdoc
+monograph
 monolinker
 monop
 monop2
@@ -1960,6 +1968,9 @@ ntfsresize
 ntfsundelete
 nuget
 numfmt
+nunit-console
+nunit-console2
+nunit-console4
 nvim
 nvram
 objdump
@@ -2274,8 +2285,11 @@ pip
 pip2
 pip2.7
 pip3
+pip3.4
 pip3.5
 pip3.7
+pipenv
+pipenv-resolver
 pirate-music-rename
 pjtoppm
 pkcs1-conv
@@ -2523,6 +2537,7 @@ pydoc
 pydoc2
 pydoc2.7
 pydoc3
+pydoc3.4
 pydoc3.5
 pydoc3.7
 pyenv
@@ -2551,6 +2566,10 @@ python2.7-config
 python2.7-gdb.py
 python3
 python3-config
+python3.4
+python3.4-config
+python3.4m
+python3.4m-config
 python3.5
 python3.5-config
 python3.5-gdb.py
@@ -2565,17 +2584,24 @@ pythonw
 pythonw2
 pythonw2.7
 pyvenv
+pyvenv-3.4
 pyvenv-3.5
 pyvenv-3.7
 qc2movie
+qcollectiongenerator
 qconvex
 qdelaunay
+qdoc3
 qhalf
+qhelpgenerator
 qhull
 qlmanage
+qmake
+qmlplugindump
 qpdf
 qrttoppm
 qt-faststart
+qt3to4
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2636,6 +2662,7 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbox
+rcc
 rd-curves
 rdf2bin
 rdf2com
@@ -2649,7 +2676,6 @@ rdoc
 rdx
 read
 readlink
-realize
 realpath
 rebase
 reboot
@@ -2980,7 +3006,6 @@ svnserve
 svnsync
 svnversion
 sw_vers
-swagger
 swagger-codegen
 swift
 swiftc
@@ -3123,6 +3148,8 @@ uchardet
 ucs2any
 ui-previewer
 uiautomatorviewer
+uic
+uic3
 ul
 ulimit
 umask
@@ -3205,6 +3232,8 @@ vimdiff
 vimpager
 vimtutor
 vipw
+virtualenv
+virtualenv-clone
 vis
 visualinfo
 visudo
@@ -3349,6 +3378,8 @@ xml2-config
 xml2man
 xmlcatalog
 xmllint
+xmlpatterns
+xmlpatternsvalidator
 xmodmap
 xmore
 xpath

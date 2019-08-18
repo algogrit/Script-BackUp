@@ -12,10 +12,12 @@ Homebrew if the config script overrides a system or Homebrew-provided
 script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5m-config
   /Users/gaurav/.pyenv/shims/python2-config
+  /Users/gaurav/.pyenv/shims/python3.4m-config
   /Users/gaurav/.pyenv/shims/python3.7-config
   /Users/gaurav/.pyenv/shims/python2.7-config
   /Users/gaurav/.pyenv/shims/python3.7m-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-354 kegs, 292,712 files, 10.0GB
+  /Users/gaurav/.pyenv/shims/python3.4-config
+355 kegs, 295,935 files, 10GB

@@ -5,7 +5,7 @@
 ==> SIP
 Enabled
 ==> Java
-12.0.1, 1.8.0_222
+12.0.1, 1.8.0_212
 ==> Gatekeeper support
 Enabled
 ==> Homebrew Cask Install Location
@@ -13,7 +13,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3554 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3555 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (162 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (933 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (138 casks)
