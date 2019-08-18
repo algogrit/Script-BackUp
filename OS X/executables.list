@@ -1541,7 +1541,6 @@ launchctl
 launchd
 layerutil
 lc
-lconvert
 ld
 ldapadd
 ldapcompare
@@ -1610,7 +1609,6 @@ lpq
 lpr
 lprm
 lpstat
-lrelease
 ls
 lsappinfo
 lsbom
@@ -1634,7 +1632,6 @@ luac5.3
 luajit
 luajit-2.0.5
 luit
-lupdate
 lwp-download
 lwp-download5.18
 lwp-dump
@@ -1661,7 +1658,6 @@ m4
 mDNSResponder
 mDNSResponderHelper
 macbinary
-macdeployqt
 macerror
 macerror5.18
 machine
@@ -1741,7 +1737,6 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
-moc
 mod
 mod-mono-server
 mod-mono-server2
@@ -2588,20 +2583,14 @@ pyvenv-3.4
 pyvenv-3.5
 pyvenv-3.7
 qc2movie
-qcollectiongenerator
 qconvex
 qdelaunay
-qdoc3
 qhalf
-qhelpgenerator
 qhull
 qlmanage
-qmake
-qmlplugindump
 qpdf
 qrttoppm
 qt-faststart
-qt3to4
 qtdefaults
 qtmodernizer
 quartz-wm
@@ -2662,7 +2651,6 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbox
-rcc
 rd-curves
 rdf2bin
 rdf2com
@@ -3148,8 +3136,6 @@ uchardet
 ucs2any
 ui-previewer
 uiautomatorviewer
-uic
-uic3
 ul
 ulimit
 umask
@@ -3378,8 +3364,6 @@ xml2-config
 xml2man
 xmlcatalog
 xmllint
-xmlpatterns
-xmlpatternsvalidator
 xmodmap
 xmore
 xpath
