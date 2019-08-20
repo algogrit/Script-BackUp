@@ -233,6 +233,7 @@ buck
 bundle
 bundler
 bunzip2
+byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -367,6 +368,7 @@ cmpdylib
 cmpfillin
 cmuwmtopbm
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -1575,6 +1577,7 @@ linkicc
 lint
 lipo
 lispmtopgm
+listen
 listres
 lkbib
 lldb
@@ -1933,6 +1936,7 @@ nodenv-install
 nodenv-uninstall
 nodetool
 nohup
+nokogiri
 nologin
 nop
 normalize.py
@@ -2497,6 +2501,7 @@ profiles
 prove
 prove5.18
 prune
+pry
 ps
 psed
 psed5.18
@@ -2518,6 +2523,8 @@ ptargrep
 ptargrep5.18
 ptx
 pubsub
+puma
+pumactl
 puppeth
 purge
 purge-old-kernels
@@ -2607,6 +2614,7 @@ rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
 racer
+rackup
 racoon
 raidutil
 rails
@@ -2937,6 +2945,8 @@ splain5.18
 split
 spottopgm
 spray
+spring
+sprockets
 sputoppm
 sqlite3
 sqlmetal
@@ -3051,6 +3061,7 @@ tftp
 tgatoppm
 thermal
 thinkjettopbm
+thor
 tic
 tidy
 tiff2bw
