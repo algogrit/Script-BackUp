@@ -148,6 +148,7 @@ asp-state2
 asp-state4
 asr
 assetutil
+ast
 at
 atktopbm
 atobm
@@ -534,6 +535,7 @@ defragcli
 delaunay
 delv
 dep
+derailed
 desdp
 dev_appserver.py
 dev_mkdb
@@ -1218,6 +1220,7 @@ head
 headerdoc2html
 heap
 heap32
+heapy
 heif-convert
 heif-enc
 heif-info
@@ -1442,10 +1445,13 @@ jenkins-cli
 jenv
 jeprof
 jfr
+jgem
 jhat
 jhsdb
 jimage
 jinfo
+jirb
+jirb_swing
 jiv
 jjs
 jlink
@@ -1463,6 +1469,10 @@ jpegtran
 jpgicc
 jps
 jq
+jruby
+jruby.bash
+jruby200.sh
+jrubyc
 jrunscript
 jsadebugd
 jshell
@@ -2502,6 +2512,7 @@ prove
 prove5.18
 prune
 pry
+pry-remote
 ps
 psed
 psed5.18
@@ -2728,8 +2739,13 @@ rtmpsuck
 rtsol
 rtsold
 rubberband
+rubocop
 ruby
 ruby-build
+ruby-parse
+ruby-prof
+ruby-prof-check-trace
+ruby-rewrite
 run_erl
 runant.pl
 runant.py
@@ -2758,6 +2774,8 @@ sag
 sample
 sampleproc
 sandbox-exec
+sass
+sass-convert
 say
 sbigtopgm
 sbt
@@ -2783,6 +2801,7 @@ screencapture
 screenshot2
 script
 scselect
+scss
 scutil
 sdef
 sdiff
@@ -3049,6 +3068,7 @@ tee
 terminal-notifier
 tesseract
 test
+testrb
 texi2dvi
 texi2html
 texi2pdf
@@ -3060,6 +3080,7 @@ tfmtodit
 tftp
 tgatoppm
 thermal
+thin
 thinkjettopbm
 thor
 tic
@@ -3083,6 +3104,7 @@ tiffutil
 tificc
 tig
 tiller
+tilt
 time
 timeout
 timer_analyser.d
@@ -3163,6 +3185,8 @@ uncoded_frame
 uncompress
 unexpand
 unflatten
+unicorn
+unicorn_rails
 unifdef
 unifdefall
 uniq
@@ -3425,6 +3449,8 @@ xzmore
 yaa
 yacc
 yaes-server
+yarn
+yarnpkg
 yasm
 yat2m
 ybmtopbm
