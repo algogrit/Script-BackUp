@@ -295,7 +295,9 @@ cal
 calendar
 cameratopam
 cancel
+cap
 cap_mkdb
+capify
 capinfos
 capinfos.dSYM
 captoinfo
@@ -1763,6 +1765,7 @@ mongodump
 mongoexport
 mongofiles
 mongoimport
+mongoose
 mongoreplay
 mongorestore
 mongos
@@ -3275,6 +3278,7 @@ w3mman
 wait
 wait4path
 wall
+warble
 watch
 watchman
 watchman-make
