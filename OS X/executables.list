@@ -1055,6 +1055,7 @@ golint
 gopkgs
 gorename
 goreturns
+gosec
 gouldtoppm
 gource
 gpaste
