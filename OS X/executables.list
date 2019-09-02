@@ -719,6 +719,7 @@ file
 filebyproc.d
 filecoordinationd
 fileinfo
+files
 filtercalltree
 find
 find2perl
@@ -2668,6 +2669,7 @@ regmerge
 regview
 reindexdb
 reject
+remixd
 renice
 reordercap
 reordercap.dSYM

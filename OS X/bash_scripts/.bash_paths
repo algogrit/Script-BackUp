@@ -26,7 +26,9 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; eval "$(pyenv virtualen
 ## goenv
 export GOENV_ROOT="$HOME/.goenv"
 export GOPATH=$GOENV_ROOT
-export PATH="$GOENV_ROOT/bin:$PATH"
+export PATH="$GOPATH/bin:$PATH"
+export GOENV_DISABLE_GOROOT=1
+export GOENV_DISABLE_GOPATH=1
 eval "$(goenv init -)"
 
 ## jenv
