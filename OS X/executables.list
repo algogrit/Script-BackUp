@@ -1,4 +1,5 @@
 
+101-workshop
 2to3
 2to3-
 2to3-2
@@ -138,6 +139,7 @@ asciinema
 asciitopgm
 asctl
 aslmanager
+asmfmt
 asn1Coding
 asn1Decoding
 asn1Parser
@@ -648,6 +650,7 @@ eqn
 erb
 erl
 erlc
+errcheck
 errinfo
 escp2topbm
 escript
@@ -720,6 +723,7 @@ filebyproc.d
 filecoordinationd
 fileinfo
 files
+fillstruct
 filtercalltree
 find
 find2perl
@@ -1040,6 +1044,7 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-concurrency-constructs
 go-outline
 go-symbols
 gobject-query
@@ -1052,11 +1057,18 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+gogetdoc
+goimports
+golangci-lint
 golint
+gometalinter
+gomodifytags
 gopkgs
+gopls
 gorename
 goreturns
 gosec
+gotags
 gouldtoppm
 gource
 gpaste
@@ -1311,6 +1323,7 @@ idlj
 idn2
 iex
 ifconfig
+iferr
 ifnames
 ikdasm
 ilasm
@@ -1322,6 +1335,7 @@ img2webp
 imgcmp
 imginfo
 imgtoppm
+impl
 import
 imptrace
 indent
@@ -1508,6 +1522,7 @@ kextload
 kextstat
 kextunload
 kextutil
+keyify
 keytool
 kgetcred
 kill
@@ -1789,6 +1804,7 @@ moo-outdated5.18
 moose-outdated
 moose-outdated5.18
 more
+motion
 mount
 mount_9p
 mount_acfs
