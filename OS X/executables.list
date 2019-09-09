@@ -79,6 +79,7 @@ activate.csh
 activate.fish
 actool
 acyclic
+addbuiltin
 addftinfo
 afclip
 afconvert
@@ -150,6 +151,7 @@ asr
 assetutil
 at
 atktopbm
+atob
 atobm
 atos
 atq
@@ -185,6 +187,7 @@ aws
 aws_completer
 b2sum
 backup
+baddbdir
 banner
 base32
 base64
@@ -213,6 +216,7 @@ bitesize.d
 bitmap
 bjoentegaard
 bless
+bltest
 bluetoothaudiod
 bluetoothd
 bmptopnm
@@ -231,6 +235,7 @@ bsdtar
 bsondump
 bspatch
 btmmdiagnose
+btoa
 buck
 bundle
 bundler
@@ -317,8 +322,11 @@ ccrewrite
 cd
 cert-sync
 cert2spc
+certdb_gtest
+certhigh_gtest
 certmgr
 certtool
+certutil
 cfprefsd
 chat
 chcon
@@ -337,6 +345,7 @@ chicken-profile
 chicken-status
 chicken-uninstall
 chkfont
+chktest
 chktrust
 chmod
 chmorph
@@ -367,6 +376,7 @@ cmake
 cmp
 cmpdylib
 cmpfillin
+cmsutil
 cmuwmtopbm
 code
 codesign
@@ -388,6 +398,7 @@ compress
 compression_tool
 config_data
 config_data5.18
+conflict
 conjure
 conjure-down
 conjure-up
@@ -430,10 +441,13 @@ createdb
 createhomedir
 createuser
 crlrefresh
+crlutil
+crmftest
 croco-0.6-config
 cron
 crontab
 crypto_bench
+cryptohi_gtest
 csc
 cscope
 csdiagnose
@@ -521,6 +535,7 @@ dbsessmgr
 dbsessmgr2
 dbsessmgr4
 dbsql
+dbtest
 dc
 dd
 ddbugtopbm
@@ -534,6 +549,9 @@ defragcli
 delaunay
 delv
 dep
+der_gtest
+derdump
+dertimetest
 desdp
 dev_appserver.py
 dev_mkdb
@@ -548,6 +566,7 @@ diff3
 diffimg
 diffstat
 dig
+digest
 dijkstra
 dirname
 disco
@@ -574,7 +593,6 @@ docker-credential-desktop
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
-docker-machine.backup
 docker-swarm
 dot
 dot2gxl
@@ -617,6 +635,7 @@ easy_install-3.5
 easy_install-3.7
 ebrowse
 echo
+ecperf
 ecpg
 ed
 edgepaint
@@ -640,6 +659,7 @@ enc2xs
 enc2xs5.18
 encguess
 encode_keychange
+encodeinttest
 endpointscfg.py
 env
 envvars
@@ -685,6 +705,7 @@ fastcgi-mono-server4
 faucet
 fax2ps
 fax2tiff
+fbectest
 fc
 fc-cache
 fc-cat
@@ -731,6 +752,7 @@ find2perl5.18
 findrule
 findrule5.18
 finger
+fipstest
 firmwarepasswd
 fitstopnm
 fix-qdf
@@ -885,11 +907,11 @@ gfortran-9
 ggrep
 ggroups
 ghc
-ghc-8.6.5
+ghc-8.8.1
 ghc-pkg
-ghc-pkg-8.6.5
+ghc-pkg-8.8.1
 ghci
-ghci-8.6.5
+ghci-8.8.1
 ghead
 ghostid
 gid
@@ -1212,7 +1234,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-8.6.5
+haddock-ghc-8.8.1
 halt
 happrox
 hash
@@ -1266,6 +1288,7 @@ htpasswd
 httpcfg
 httpd
 httpd-wrapper
+httpserv
 httxt2dbm
 hub
 hunspell
@@ -1571,6 +1594,7 @@ ldrdf
 leaftoppm
 leaks
 leaks32
+learning-golang
 leave
 lein
 less
@@ -1590,6 +1614,7 @@ lint
 lipo
 lispmtopgm
 listres
+listsuites
 lkbib
 lldb
 llvm-g++
@@ -1688,9 +1713,11 @@ makealias
 makecert
 makedepend
 makeinfo
+makepqg
 malloc_history
 malloc_history32
 man
+mangle
 manifest
 manpath
 manweb
@@ -1756,6 +1783,7 @@ mod
 mod-mono-server
 mod-mono-server2
 mod-mono-server4
+modutil
 mogrify
 monetdb
 monetdbd
@@ -1850,6 +1878,7 @@ msqldump
 mtree
 mtvtoppm
 mujs
+multinit
 munch
 murge
 mv
@@ -1950,6 +1979,7 @@ nodenv-uninstall
 nodetool
 nohup
 nologin
+nonspr10
 nop
 normalize.py
 notary
@@ -1963,6 +1993,9 @@ nroff
 nscurl
 nslookup
 nspr-config
+nss-config
+nss-policy-check
+nss_bogo_shim
 nsupdate
 ntfs-3g
 ntfs-3g.probe
@@ -1985,13 +2018,16 @@ objdump
 oclock
 ocs
 ocspcheck
+ocspclnt
 ocspd
+ocspresp
 ocsptool
 od
 odbc_config
 odbcinst
 odutil
 oid2name
+oidcalc
 ompi-clean
 ompi-server
 ompi_info
@@ -2021,6 +2057,10 @@ otool
 p11-kit
 p11tool
 p2psim
+p7content
+p7env
+p7sign
+p7verify
 pack200
 package-stash-conflicts
 package-stash-conflicts5.18
@@ -2297,11 +2337,19 @@ pip3.5
 pip3.7
 pirate-music-rename
 pjtoppm
+pk11_gtest
+pk11ectest
+pk11gcmtest
+pk11importtest
+pk11mode
+pk12util
+pk1sign
 pkcs1-conv
 pkg-config
 pkgbuild
 pkgutil
 pkill
+pkix-errcodes
 pktdumper
 pktopbm
 pl
@@ -2534,6 +2582,7 @@ purge-old-kernels
 pv
 pwd
 pwd_mkdb
+pwdecrypt
 pwgen
 pwhich
 pwhich5.18
@@ -2686,6 +2735,7 @@ regview
 reindexdb
 reject
 remixd
+remtest
 renice
 reordercap
 reordercap.dSYM
@@ -2716,6 +2766,8 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rsaperf
+rsapoptst
 rsvg-convert
 rsync
 rtadvd
@@ -2733,7 +2785,7 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-8.6.5
+runghc-8.8.1
 runhaskell
 rust-gdb
 rust-gdbgui
@@ -2788,8 +2840,10 @@ sdkmanager
 sdl-config
 sdl2-config
 sdp
+sdrtest
 sdx
 searchd
+secmodtest
 security
 securityd
 secutil
@@ -2797,6 +2851,7 @@ sed
 seek_print
 seeksize.d
 segedit
+selfserv
 sendEmail
 senddoc
 sendmail
@@ -2830,6 +2885,7 @@ sharkd
 sharkd.dSYM
 shasum
 shasum5.18
+shlibsign
 shlock
 showfigfonts
 showfont
@@ -2844,6 +2900,8 @@ siege.config
 siege2csv.pl
 sigdist.d
 signcode
+signtool
+signver
 sip
 sips
 sirtopnm
@@ -2871,6 +2929,7 @@ slsh
 smbd
 smbdiagnose
 smbutil
+smime_gtest
 smproxy
 smtpd.py
 smtpd2.7.py
@@ -2920,6 +2979,7 @@ sntp
 soapsuds
 soelim
 soffice
+softoken_gtest
 softwareupdate
 solr
 sort
@@ -2957,6 +3017,8 @@ ssh-copy-id
 ssh-keygen
 ssh-keyscan
 sshd
+ssl_gtest
+ssltap
 sso_util
 sstabledump
 sstableexpiredblockers
@@ -2983,6 +3045,7 @@ stringdups
 stringdups32
 strings
 strip
+strsclnt
 stty
 stty.pl
 stty5.18.pl
@@ -3010,6 +3073,7 @@ swipl-ld
 sxpm
 symbols
 symbolscache
+symkeyutil
 sync
 sysadminctl
 syscallbypid.d
@@ -3044,6 +3108,7 @@ tcpdump
 tcsh
 tee
 terminal-notifier
+terraform
 tesseract
 test
 texi2dvi
@@ -3129,6 +3194,7 @@ tshark
 tshark.dSYM
 tsig-keygen
 tsort
+tstclnt
 tty
 ttygif
 ttyplay
@@ -3187,6 +3253,7 @@ uri-encode
 usbkdp
 usernoted
 users
+util_gtest
 uuchk
 uucico
 uuconv
@@ -3214,6 +3281,8 @@ vbnc2
 vbox-img
 vboximg-mount
 vboxwebsrv
+vfychain
+vfyserv
 vi
 view
 viewres
