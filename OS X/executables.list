@@ -588,7 +588,6 @@ dns-sd
 dnsextd
 docker
 docker-compose
-docker-compose.backup
 docker-credential-desktop
 docker-credential-gcloud
 docker-credential-osxkeychain
