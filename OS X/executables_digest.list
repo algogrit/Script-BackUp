@@ -189,6 +189,7 @@ MD5 (/usr/local/bin/avstopam) = 5b9d51d4cb44647d1819a194872a4850
 MD5 (/usr/local/bin/awk) = e632f86424398d3c49fb51331a5dec8c
 MD5 (/usr/bin/awk) = e2540626b9afb6b1caad732f6a782fc7
 MD5 (/usr/local/bin/aws) = 37a1da42354ff9d199e0612590b3a0d3
+MD5 (/usr/local/bin/aws-iam-authenticator) = a8126e69ba7270aeb893e84c146c31d1
 MD5 (/usr/local/bin/aws_completer) = e6f84ed5ab70902e94db8b40a9f595ce
 MD5 (/usr/local/bin/b2sum) = d3f4a0378983444983c9fed8176b10b7
 MD5 (/usr/local/bin/baddbdir) = 695f51a27f6f67c92f2de1d600618389

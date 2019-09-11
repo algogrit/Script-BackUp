@@ -11,6 +11,7 @@ atk
 autoconf
 autoenv
 automake
+aws-iam-authenticator
 awscli
 bash
 bash-completion

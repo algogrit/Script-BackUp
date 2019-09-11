@@ -184,6 +184,7 @@ avmetareadwrite
 avstopam
 awk
 aws
+aws-iam-authenticator
 aws_completer
 b2sum
 backup
