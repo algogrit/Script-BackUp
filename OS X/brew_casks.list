@@ -1,4 +1,3 @@
-1password
 adobe-acrobat-reader
 adobe-air
 adoptopenjdk8
@@ -7,8 +6,6 @@ android-sdk
 android-studio
 brave-browser
 caffeine
-dbeaver-community
-dbvisualizer
 discord
 disk-drill
 docker
@@ -41,6 +38,7 @@ phantomjs
 podcastmenu
 postman
 rstudio
+rubymine
 skype
 slack
 soundflower
