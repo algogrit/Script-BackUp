@@ -186,6 +186,7 @@ avmetareadwrite
 avstopam
 awk
 aws
+aws-iam-authenticator
 aws_completer
 b2sum
 baddbdir
@@ -1606,6 +1607,7 @@ ldrdf
 leaftoppm
 leaks
 leaks32
+learning-golang
 leave
 lein
 less
@@ -3145,6 +3147,7 @@ tcpdump
 tcsh
 tee
 terminal-notifier
+terraform
 tesseract
 test
 testrb

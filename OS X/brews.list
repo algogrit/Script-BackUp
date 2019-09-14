@@ -11,6 +11,7 @@ atk
 autoconf
 autoenv
 automake
+aws-iam-authenticator
 awscli
 bash
 bash-completion
@@ -308,6 +309,7 @@ swiftlint
 szip
 tbb
 terminal-notifier
+terraform
 tesseract
 texi2html
 texinfo

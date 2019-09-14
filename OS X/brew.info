@@ -21,12 +21,13 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3-config
   /Users/gaurav/.pyenv/shims/python3.4-config
 
-Warning: You have unlinked kegs in your Cellar.
-Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
-those kegs to fail to run properly once built. Run `brew link` on these:
-  docker-machine
-  docker-compose
+Warning: Unbrewed dylibs were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected dylibs:
+  /usr/local/lib/libqmi_api_zg.dylib
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-354 kegs, 293,775 files, 10.2GB
+356 kegs, 293,852 files, 10.3GB
