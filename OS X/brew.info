@@ -12,15 +12,13 @@ Homebrew if the config script overrides a system or Homebrew-provided
 script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.5m-config
   /Users/gaurav/.pyenv/shims/python2-config
-  /Users/gaurav/.pyenv/shims/python3.4m-config
   /Users/gaurav/.pyenv/shims/python3.7-config
   /Users/gaurav/.pyenv/shims/python2.7-config
   /Users/gaurav/.pyenv/shims/python3.7m-config
   /Users/gaurav/.pyenv/shims/python3.5-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-  /Users/gaurav/.pyenv/shims/python3.4-config
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-356 kegs, 293,852 files, 10.3GB
+356 kegs, 294,861 files, 10.3GB
