@@ -10,24 +10,24 @@ homebrew/bundle: unpinned, 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (205 files, 325.5KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3536 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,209 files, 164.4MB)
+homebrew/cask: unpinned, 1 command, 3532 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,207 files, 164.5MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 140 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (583 files, 836.9KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (587 files, 843.9KB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 930 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,192 files, 2.1MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,196 files, 2.1MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 161 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (933 files, 56.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (961 files, 56.4MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4826 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,371 files, 28.9MB)
+homebrew/core: unpinned, 2 commands, 4827 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,374 files, 29MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
@@ -35,5 +35,5 @@ homebrew/services: unpinned, 1 command
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 39 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (109 files, 57.6KB)
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (115 files, 61KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
