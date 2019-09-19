@@ -38,6 +38,7 @@ cscope
 ctags
 curl
 cython
+direnv
 docker-compose
 docker-machine
 docker-swarm

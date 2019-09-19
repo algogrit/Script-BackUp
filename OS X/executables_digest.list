@@ -588,6 +588,7 @@ MD5 (/usr/bin/diffstat) = 1493f18072ceb020267974c817c0edfd
 MD5 (/usr/bin/dig) = 75e60a4b91b21c205bdbbd975ffc363d
 MD5 (/usr/local/bin/digest) = c04df4b2ddb54c3b95d37fabb9c150ef
 MD5 (/usr/local/bin/dijkstra) = 2fbaeab06bc7d9327c9a4e84a628c0fb
+MD5 (/usr/local/bin/direnv) = e50ddc4c1f168e3000aa2bc674b16071
 MD5 (/usr/bin/dirname) = ccd14fd78a9291ce0962fff87250ff22
 MD5 (/Library/Frameworks/Mono.framework/Versions/Current/Commands/disco) = 02632a511a56dc6066d0bab21d3848ce
 MD5 (/sbin/disklabel) = 3077d86f165b460c107cc23e65582a46
