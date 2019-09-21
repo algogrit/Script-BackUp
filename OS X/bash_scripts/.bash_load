@@ -24,8 +24,5 @@ source ~/bash_scripts/.aliases
 # Sourcing Autoenv
 source /usr/local/opt/autoenv/activate.sh
 
-# Sourcing Direnv
-eval "$(direnv hook bash)"
-
 # Clear history
 > ~/.bash_history && history -c

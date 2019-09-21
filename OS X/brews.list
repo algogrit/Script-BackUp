@@ -38,7 +38,6 @@ cscope
 ctags
 curl
 cython
-direnv
 docker-compose
 docker-machine
 docker-swarm
@@ -97,6 +96,7 @@ gnu-which
 gnuplot
 gnutls
 go
+go@1.12
 gobject-introspection
 goenv
 gource
@@ -128,7 +128,6 @@ isl
 jack
 jasper
 jemalloc
-jenkins
 jenv
 jmeter
 jpeg
