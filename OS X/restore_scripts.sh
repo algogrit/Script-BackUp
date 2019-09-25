@@ -133,6 +133,9 @@ git clone --single-branch --branch talks git@bitbucket.org:algogrit/project-reso
 git clone --single-branch --branch master-task-list git@bitbucket.org:algogrit/project-resources.git ~/Developer/Tasks
 git clone git@bitbucket.org:algogrit/training-master.git ~/Developer/Training
 
+git clone git@bitbucket.org:algogrit/instruments.git ~/Downloads/Instruments
+git clone git@bitbucket.org:algogrit/recipes.git ~/Downloads/Recipes
+
 echo "\033[1;31mSetting up VSCode...\033[0m"
 cp ~/Script-BackUp/OS\ X/VSCode/settings.json ~/Library/Application\ Support/Code/User/
 cp ~/Script-BackUp/OS\ X/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
