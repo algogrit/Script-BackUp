@@ -180,6 +180,7 @@ libtool
 libunistring
 libusb
 libuv
+libvidstab
 libvo-aacenc
 libvorbis
 libvpx
@@ -194,6 +195,7 @@ luajit
 lynx
 lzo
 mad
+make
 mas
 maven
 mdv

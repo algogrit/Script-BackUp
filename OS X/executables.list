@@ -1047,6 +1047,7 @@ glxgears
 glxinfo
 gm
 gm4
+gmake
 gmd5sum
 gmkdir
 gmkfifo
@@ -3098,6 +3099,7 @@ tail
 tailspin
 talk
 tar
+target_dec_fate.sh
 taskinfo
 taskpolicy
 tbl

@@ -2,7 +2,6 @@
 .DS_Store
 .vscode
 project-resources
-devops/heroku/
 git-bisect-run.sh
 
 ## VSCode for Java
