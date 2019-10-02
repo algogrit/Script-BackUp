@@ -3,31 +3,31 @@ facebook/fb: unpinned, 5 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (75 files, 47.9KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (83 files, 51.9KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (224 files, 343.0KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (228 files, 346.5KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3545 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,244 files, 166.1MB)
+homebrew/cask: unpinned, 1 command, 3463 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,189 files, 166.8MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: unpinned, 140 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (645 files, 936KB)
+homebrew/cask-drivers: unpinned, 132 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (664 files, 968.6KB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 931 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,209 files, 2.2MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,213 files, 2.2MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 162 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,139 files, 56.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,184 files, 56.7MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4830 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,545 files, 36MB)
+homebrew/core: unpinned, 2 commands, 4829 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,546 files, 36.5MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command

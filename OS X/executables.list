@@ -2658,6 +2658,7 @@ rabbitmq-defaults
 rabbitmq-diagnostics
 rabbitmq-env
 rabbitmq-plugins
+rabbitmq-queues
 rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
