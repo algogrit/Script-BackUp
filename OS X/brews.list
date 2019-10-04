@@ -97,6 +97,7 @@ gnu-which
 gnuplot
 gnutls
 go
+go@1.12
 gobject-introspection
 goenv
 gource
@@ -123,12 +124,12 @@ ideviceinstaller
 ilmbase
 imagemagick
 imagemagick@6
+imlib2
 ios-deploy
 isl
 jack
 jasper
 jemalloc
-jenkins
 jenv
 jmeter
 jpeg
@@ -195,7 +196,6 @@ luajit
 lynx
 lzo
 mad
-make
 mas
 maven
 mdv
