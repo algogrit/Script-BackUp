@@ -1587,6 +1587,7 @@ kubectl
 kubectl.docker
 kubectx
 kubens
+kustomize
 kv-cli
 lam
 lame

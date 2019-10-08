@@ -140,6 +140,7 @@ kafka
 kubectx
 kubernetes-cli
 kubernetes-helm
+kustomize
 lame
 leiningen
 leptonica
