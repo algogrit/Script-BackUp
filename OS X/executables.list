@@ -4,7 +4,6 @@
 2to3-
 2to3-2
 2to3-2.7
-2to3-3.4
 2to3-3.5
 2to3-3.7
 411toppm
@@ -150,7 +149,6 @@ asp-state2
 asp-state4
 asr
 assetutil
-ast
 at
 atktopbm
 atob
@@ -189,6 +187,7 @@ aws
 aws-iam-authenticator
 aws_completer
 b2sum
+backup
 baddbdir
 banner
 base32
@@ -206,6 +205,7 @@ bdftopcf
 bdftruncate
 bg
 biff
+bin
 binhex
 binhex.pl
 binhex5.18.pl
@@ -241,7 +241,6 @@ buck
 bundle
 bundler
 bunzip2
-byebug
 byobu
 byobu-config
 byobu-ctrl-a
@@ -302,9 +301,7 @@ cal
 calendar
 cameratopam
 cancel
-cap
 cap_mkdb
-capify
 capinfos
 capinfos.dSYM
 captoinfo
@@ -383,7 +380,6 @@ cmpfillin
 cmsutil
 cmuwmtopbm
 code
-coderay
 codesign
 codesign_allocate
 col
@@ -555,7 +551,6 @@ delaunay
 delv
 dep
 der_gtest
-derailed
 derdump
 dertimetest
 desdp
@@ -637,7 +632,6 @@ dwebp
 dynamic_pager
 easy_install
 easy_install-2.7
-easy_install-3.4
 easy_install-3.5
 easy_install-3.7
 ebrowse
@@ -750,6 +744,7 @@ file
 filebyproc.d
 filecoordinationd
 fileinfo
+files
 fillstruct
 filtercalltree
 find
@@ -1052,6 +1047,7 @@ glxgears
 glxinfo
 gm
 gm4
+gmake
 gmd5sum
 gmkdir
 gmkfifo
@@ -1072,6 +1068,7 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-concurrency-constructs
 go-outline
 go-symbols
 gobject-query
@@ -1094,6 +1091,7 @@ gopkgs
 gopls
 gorename
 goreturns
+gosec
 gotags
 gouldtoppm
 gource
@@ -1255,7 +1253,6 @@ head
 headerdoc2html
 heap
 heap32
-heapy
 heif-convert
 heif-enc
 heif-info
@@ -1320,7 +1317,6 @@ iconutil
 iconv
 ictool
 id
-idea
 identify
 idevice_id
 idevicebackup
@@ -1346,7 +1342,6 @@ idle
 idle2
 idle2.7
 idle3
-idle3.4
 idle3.5
 idle3.7
 idlj
@@ -1487,16 +1482,15 @@ jdeprscan
 jdeps
 jemalloc-config
 jemalloc.sh
+jenkins
+jenkins-cli
 jenv
 jeprof
 jfr
-jgem
 jhat
 jhsdb
 jimage
 jinfo
-jirb
-jirb_swing
 jiv
 jjs
 jlink
@@ -1514,10 +1508,6 @@ jpegtran
 jpgicc
 jps
 jq
-jruby
-jruby.bash
-jruby200.sh
-jrubyc
 jrunscript
 jsadebugd
 jshell
@@ -1587,7 +1577,6 @@ kubectl
 kubectl.docker
 kubectx
 kubens
-kustomize
 kv-cli
 lam
 lame
@@ -1635,7 +1624,6 @@ linkicc
 lint
 lipo
 lispmtopgm
-listen
 listres
 listsuites
 lkbib
@@ -1778,6 +1766,7 @@ mgrtopbm
 mib2c
 mib2c-update
 mig
+migrate
 minikube
 missing_codec_desc
 mix
@@ -1845,7 +1834,6 @@ monodis
 monodocer
 monodocs2html
 monodocs2slashdoc
-monograph
 monolinker
 monop
 monop2
@@ -2001,7 +1989,6 @@ nodenv-install
 nodenv-uninstall
 nodetool
 nohup
-nokogiri
 nologin
 nonspr10
 nop
@@ -2036,9 +2023,6 @@ ntfsresize
 ntfsundelete
 nuget
 numfmt
-nunit-console
-nunit-console2
-nunit-console4
 nvim
 nvram
 objdump
@@ -2360,11 +2344,8 @@ pip
 pip2
 pip2.7
 pip3
-pip3.4
 pip3.5
 pip3.7
-pipenv
-pipenv-resolver
 pirate-music-rename
 pjtoppm
 pk11_gtest
@@ -2569,7 +2550,6 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
-pprof
 pr
 praudit
 pre-grohtml
@@ -2586,8 +2566,6 @@ profiles
 prove
 prove5.18
 prune
-pry
-pry-remote
 ps
 psed
 psed5.18
@@ -2609,8 +2587,6 @@ ptargrep
 ptargrep5.18
 ptx
 pubsub
-puma
-pumactl
 puppeth
 purge
 purge-old-kernels
@@ -2626,7 +2602,6 @@ pydoc
 pydoc2
 pydoc2.7
 pydoc3
-pydoc3.4
 pydoc3.5
 pydoc3.7
 pyenv
@@ -2655,10 +2630,6 @@ python2.7-config
 python2.7-gdb.py
 python3
 python3-config
-python3.4
-python3.4-config
-python3.4m
-python3.4m-config
 python3.5
 python3.5-config
 python3.5-gdb.py
@@ -2673,7 +2644,6 @@ pythonw
 pythonw2
 pythonw2.7
 pyvenv
-pyvenv-3.4
 pyvenv-3.5
 pyvenv-3.7
 qc2movie
@@ -2702,7 +2672,6 @@ rabbitmq-server
 rabbitmqadmin
 rabbitmqctl
 racer
-rackup
 racoon
 raidutil
 rails
@@ -2760,6 +2729,7 @@ rdoc
 rdx
 read
 readlink
+realize
 realpath
 rebase
 reboot
@@ -2776,6 +2746,7 @@ regmerge
 regview
 reindexdb
 reject
+remixd
 remtest
 renice
 reordercap
@@ -2819,13 +2790,8 @@ rtmpsuck
 rtsol
 rtsold
 rubberband
-rubocop
 ruby
 ruby-build
-ruby-parse
-ruby-prof
-ruby-prof-check-trace
-ruby-rewrite
 run_erl
 runant.pl
 runant.py
@@ -2854,8 +2820,6 @@ sag
 sample
 sampleproc
 sandbox-exec
-sass
-sass-convert
 say
 sbigtopgm
 sbt
@@ -2881,7 +2845,6 @@ screencapture
 screenshot2
 script
 scselect
-scss
 scutil
 sdef
 sdiff
@@ -3052,8 +3015,6 @@ splain5.18
 split
 spottopgm
 spray
-spring
-sprockets
 sputoppm
 sqlite3
 sqlmetal
@@ -3114,6 +3075,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swagger
 swagger-codegen
 swift
 swiftc
@@ -3162,7 +3124,6 @@ terminal-notifier
 terraform
 tesseract
 test
-testrb
 texi2dvi
 texi2html
 texi2pdf
@@ -3174,9 +3135,7 @@ tfmtodit
 tftp
 tgatoppm
 thermal
-thin
 thinkjettopbm
-thor
 tic
 tidy
 tiff2bw
@@ -3198,7 +3157,6 @@ tiffutil
 tificc
 tig
 tiller
-tilt
 time
 timeout
 timer_analyser.d
@@ -3280,8 +3238,6 @@ uncoded_frame
 uncompress
 unexpand
 unflatten
-unicorn
-unicorn_rails
 unifdef
 unifdefall
 uniq
@@ -3351,8 +3307,6 @@ vimdiff
 vimpager
 vimtutor
 vipw
-virtualenv
-virtualenv-clone
 vis
 visualinfo
 visudo
@@ -3373,7 +3327,6 @@ w3mman
 wait
 wait4path
 wall
-warble
 watch
 watchman
 watchman-make
@@ -3548,8 +3501,6 @@ xzmore
 yaa
 yacc
 yaes-server
-yarn
-yarnpkg
 yasm
 yat2m
 ybmtopbm

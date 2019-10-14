@@ -97,7 +97,6 @@ gnu-which
 gnuplot
 gnutls
 go
-go@1.12
 gobject-introspection
 goenv
 gource
@@ -130,6 +129,7 @@ isl
 jack
 jasper
 jemalloc
+jenkins
 jenv
 jmeter
 jpeg
@@ -140,7 +140,6 @@ kafka
 kubectx
 kubernetes-cli
 kubernetes-helm
-kustomize
 lame
 leiningen
 leptonica
@@ -197,6 +196,7 @@ luajit
 lynx
 lzo
 mad
+make
 mas
 maven
 mdv
