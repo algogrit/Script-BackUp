@@ -1921,6 +1921,7 @@ mysqldumpslow
 mysqlimport
 mysqlpump
 mysqlrouter
+mysqlrouter_keyring
 mysqlrouter_passwd
 mysqlrouter_plugin_info
 mysqlshow
