@@ -10,24 +10,24 @@ homebrew/bundle: unpinned, 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (272 files, 380.2KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3481 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,442 files, 173.8MB)
+homebrew/cask: unpinned, 1 command, 3484 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,454 files, 174.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 135 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (821 files, 1.2MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (858 files, 1.2MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 937 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,292 files, 2.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,329 files, 2.6MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 163 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,302 files, 56.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,351 files, 57.0MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4844 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,596 files, 44.6MB)
+homebrew/core: unpinned, 2 commands, 4847 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,697 files, 47.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
@@ -35,5 +35,5 @@ homebrew/services: unpinned, 1 command
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 39 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (118 files, 64.3KB)
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (124 files, 69.8KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts

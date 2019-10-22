@@ -15,6 +15,7 @@
 
 # Custom Temporary Routing
 127.0.0.1 local.tryroll.com
+127.0.0.1 api.local.tryroll.com
 127.0.0.1 local.tryrollnot.com
 
 # Work
