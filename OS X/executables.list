@@ -645,6 +645,7 @@ editcap.dSYM
 editres
 edquota
 egrep
+elastic-go
 elixir
 elixirc
 elm
@@ -1767,7 +1768,6 @@ mib2c
 mib2c-update
 mig
 migrate
-minikube
 missing_codec_desc
 mix
 mkbom
