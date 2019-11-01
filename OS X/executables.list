@@ -2670,6 +2670,7 @@ rabbitmq-env
 rabbitmq-plugins
 rabbitmq-queues
 rabbitmq-server
+rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
 racer
