@@ -28,6 +28,7 @@ carthage
 cask-repair
 cassandra
 chicken
+circleci
 cloc
 cloog
 cmake
