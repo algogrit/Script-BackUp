@@ -112,6 +112,7 @@ ansible-galaxy
 ansible-inventory
 ansible-playbook
 ansible-pull
+ansible-test
 ansible-vault
 ant
 antRun
