@@ -1,17 +1,17 @@
 facebook/fb: unpinned, 5 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (61 files, 54KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (61 files, 54.0KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (95 files, 57.3KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (111 files, 63.7KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (311 files, 410.5KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (317 files, 414.8KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3499 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,771 files, 157.0MB)
+homebrew/cask: unpinned, 1 command, 3498 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,772 files, 157.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 136 casks
@@ -23,17 +23,17 @@ homebrew/cask-fonts: unpinned, 937 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 164 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,714 files, 57.5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,726 files, 57.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4861 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,149 files, 23MB)
+homebrew/core: unpinned, 2 commands, 4866 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,182 files, 24MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (73 files, 88.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (73 files, 88.3KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 39 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (127 files, 73KB)
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (127 files, 73.0KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
