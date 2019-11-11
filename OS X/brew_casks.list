@@ -7,8 +7,6 @@ android-sdk
 android-studio
 brave-browser
 caffeine
-dbeaver-community
-dbvisualizer
 discord
 disk-drill
 docker
@@ -30,6 +28,7 @@ kindle
 libreoffice
 licecap
 menumeters
+minikube
 mono-mdk
 ngrok
 nosleep
@@ -40,6 +39,7 @@ phantomjs
 podcastmenu
 postman
 rstudio
+rubymine
 skype
 slack
 soundflower
