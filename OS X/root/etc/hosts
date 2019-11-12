@@ -14,12 +14,14 @@
 # End of section
 
 # Custom Temporary Routing
-0.0.0.0 local.tryroll.com
+127.0.0.1 local.tryroll.com
+127.0.0.1 api.local.tryroll.com
+127.0.0.1 local.tryrollnot.com
 
 # Work
 #.0.0.0 twitter.com
 #.0.0.0 www.linkedin.com
-0.0.0.0 www.quora.com
+#.0.0.0 www.quora.com
 
 # Productivity Hack - It's not difficult to make the choices. The hard part is to actually live with them.
 0.0.0.0 airma.sh

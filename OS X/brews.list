@@ -28,6 +28,7 @@ carthage
 cask-repair
 cassandra
 chicken
+circleci
 cloc
 cloog
 cmake
@@ -97,7 +98,6 @@ gnu-which
 gnuplot
 gnutls
 go
-go@1.12
 gobject-introspection
 goenv
 gource
@@ -130,6 +130,7 @@ isl
 jack
 jasper
 jemalloc
+jenkins
 jenv
 jmeter
 jpeg
@@ -140,7 +141,6 @@ kafka
 kubectx
 kubernetes-cli
 kubernetes-helm
-kustomize
 lame
 leiningen
 leptonica
@@ -181,6 +181,7 @@ libtiff
 libtool
 libunistring
 libusb
+libusbmuxd
 libuv
 libvidstab
 libvo-aacenc
@@ -197,13 +198,13 @@ luajit
 lynx
 lzo
 mad
+make
 mas
 maven
 mdv
 memcached
 mercurial
 metis
-minikube
 monetdb
 mongodb
 mp3splt
