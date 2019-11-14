@@ -258,6 +258,7 @@ popt
 postgresql
 postgresql@10
 pow
+protobuf@3.7
 psgrep
 pstree
 pv
