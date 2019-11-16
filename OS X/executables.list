@@ -924,9 +924,7 @@ gif2rgb
 gifbuild
 gifclrmp
 gifdiff
-gifecho
 giffix
-gifinto
 gifsicle
 giftext
 giftogd2
@@ -1484,6 +1482,7 @@ jcontrol
 jdb
 jdeprscan
 jdeps
+jdiff
 jemalloc-config
 jemalloc.sh
 jenkins
@@ -1517,6 +1516,7 @@ jsadebugd
 jshell
 json_pp
 json_pp5.18
+jsondiff
 jstack
 jstat
 jstatd
@@ -3161,7 +3161,6 @@ tifftopnm
 tiffutil
 tificc
 tig
-tiller
 time
 timeout
 timer_analyser.d
