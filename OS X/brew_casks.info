@@ -15,8 +15,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3463 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (159 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3462 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (160 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (939 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (138 casks)
 ==> Contents of $LOAD_PATH
