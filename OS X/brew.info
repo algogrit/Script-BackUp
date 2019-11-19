@@ -19,6 +19,11 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
 
+Warning: You have unlinked kegs in your Cellar.
+Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  docker-compose
+
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-362 kegs, 291,186 files, 10.4GB
+363 kegs, 290,847 files, 10.4GB

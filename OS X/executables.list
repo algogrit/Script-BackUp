@@ -597,6 +597,7 @@ docker-credential-gcloud
 docker-credential-osxkeychain
 docker-machine
 docker-swarm
+dos2unix
 dot
 dot2gxl
 dot_builtins
@@ -1711,6 +1712,7 @@ m2gmetis
 m4
 mDNSResponder
 mDNSResponderHelper
+mac2unix
 macbinary
 macerror
 macerror5.18
@@ -3247,6 +3249,8 @@ unifdefall
 uniq
 units
 universalaccessd
+unix2dos
+unix2mac
 unlink
 unlzma
 unmunch

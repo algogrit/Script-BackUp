@@ -43,6 +43,7 @@ direnv
 docker-compose
 docker-machine
 docker-swarm
+dos2unix
 doxygen
 drip
 dvdbackup
