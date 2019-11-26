@@ -1373,6 +1373,7 @@ imlib2_grab
 imlib2_poly
 imlib2_show
 imlib2_test
+imlib2_test_load
 imlib2_view
 impl
 import
