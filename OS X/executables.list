@@ -1314,7 +1314,6 @@ hyperkit
 hzip
 ibd2sdi
 ibtool
-icat
 iceauth
 ico
 icontopbm
@@ -1382,6 +1381,7 @@ indent
 indexer
 indextool
 indxbib
+inetcat
 info
 infocmp
 infokey
