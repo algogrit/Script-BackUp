@@ -963,6 +963,7 @@ git-delete-merged-branches
 git-delete-submodule
 git-delete-tag
 git-delta
+git-deploy-to-sandbox
 git-effort
 git-extras
 git-feature
