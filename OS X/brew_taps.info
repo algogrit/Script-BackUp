@@ -1,5 +1,5 @@
 facebook/fb: unpinned, 5 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (61 files, 54KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (64 files, 56.3KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
@@ -7,27 +7,27 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (422 files, 498.6KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (440 files, 515.8KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3476 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,997 files, 165.6MB)
+homebrew/cask: unpinned, 1 command, 3475 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,010 files, 166MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 138 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,109 files, 1.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,125 files, 1.6MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 942 casks
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,399 files, 3MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
-homebrew/cask-versions: unpinned, 160 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,175 files, 58.2MB)
+homebrew/cask-versions: unpinned, 159 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,225 files, 58.3MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4878 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,327 files, 32.4MB)
+homebrew/core: unpinned, 2 commands, 4880 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,339 files, 32.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
