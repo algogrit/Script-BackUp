@@ -30,7 +30,7 @@ echo "\033[1;31mCreating directories...\033[0m"
 mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.goenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
 echo "\033[1;31mTapping brews...\033[0m"
-cat $HOME/Script-BackUp/OS X/brew_taps.list | xargs -n 1 brew tap
+cat $HOME/Script-BackUp/OS\ X/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 cat brew_casks.list | sort -r | xargs -n 1 brew cask install &
