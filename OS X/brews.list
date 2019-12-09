@@ -52,8 +52,6 @@ elixir
 elm
 emacs
 erlang
-erlang@19
-erlang@20
 ethereum
 exercism
 faac
@@ -209,7 +207,6 @@ memcached
 mercurial
 metis
 monetdb
-mongodb
 mp3splt
 mp3wrap
 mpfr

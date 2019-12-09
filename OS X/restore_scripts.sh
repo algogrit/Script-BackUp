@@ -49,9 +49,6 @@ if [[ $_all_good = "n" ]]; then
 	exit 1
 fi
 
-echo "\033[1;31mInstalling Slack cli theme changer\033[0m" # https://github.com/mykeels/slack-theme-cli
-wget -O /tmp/slack-theme https://raw.githubusercontent.com/mykeels/slack-theme-cli/master/slack-theme && SLACK_THEME_SHELL_PROFILE="/tmp/.bash" bash /tmp/slack-theme install && . /tmp/.bash
-
 echo "\033[1;31mInstalling Sack/Sag\033[0m"
 cd /tmp && git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
 cd ~/Script-BackUp/OS\ X
