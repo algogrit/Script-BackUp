@@ -41,5 +41,18 @@
     "**/.factorypath": true
   },
   "java.errors.incompleteClasspath.severity": "ignore",
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "terraform.languageServer": {
+    "enabled": true,
+    "args": []
+  }
 }
