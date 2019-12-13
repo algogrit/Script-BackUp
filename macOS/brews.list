@@ -260,6 +260,7 @@ poppler
 popt
 postgresql
 postgresql@10
+postgresql@11
 pow
 protobuf@3.7
 psgrep
