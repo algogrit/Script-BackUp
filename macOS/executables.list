@@ -371,6 +371,7 @@ clef
 clhsdb
 cli_mt
 cli_st
+client
 cloc
 cloog
 cluster
@@ -2900,6 +2901,7 @@ senddoc
 sendmail
 seq
 serialver
+server
 serverinfo
 servertool
 sessreg
