@@ -54,5 +54,8 @@
   "terraform.languageServer": {
     "enabled": true,
     "args": []
-  }
+  },
+  "cSpell.userWords": [
+    "Twilio"
+  ]
 }
