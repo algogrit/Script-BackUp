@@ -952,6 +952,7 @@ git-changelog
 git-chore
 git-clear
 git-clear-soft
+git-coauthor
 git-commits-since
 git-contrib
 git-count
@@ -994,6 +995,7 @@ git-multi-sh
 git-new-commits
 git-nuke
 git-obliterate
+git-paste
 git-pr
 git-pristine
 git-psykorebase
@@ -1371,10 +1373,10 @@ imlib2_bumpmap
 imlib2_colorspace
 imlib2_conv
 imlib2_grab
+imlib2_load
 imlib2_poly
 imlib2_show
 imlib2_test
-imlib2_test_load
 imlib2_view
 impl
 import
