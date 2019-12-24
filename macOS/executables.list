@@ -2112,9 +2112,11 @@ pagestuff
 pal2rgb
 palmtopnm
 pamaddnoise
+pamaltsat
 pamarith
 pambackground
 pambayer
+pambrighten
 pamchannel
 pamcomp
 pamcrater
@@ -2128,15 +2130,20 @@ pamendian
 pamenlarge
 pamexec
 pamfile
+pamfind
 pamfix
 pamfixtrunc
 pamflip
 pamfunc
 pamgauss
+pamgetcolor
 pamgradient
+pamhue
+pamlevels
 pamlookup
 pammasksharpen
 pammixinterlace
+pammixmulti
 pammosaicknit
 pamoil
 pampaintspill
@@ -2160,6 +2167,7 @@ pamstretch
 pamstretch-gen
 pamsumm
 pamsummcol
+pamtable
 pamthreshold
 pamtilt
 pamtoavs
@@ -2183,6 +2191,7 @@ pamtotiff
 pamtouil
 pamtowinicon
 pamtoxvmini
+pamtris
 pamundice
 pamunlookup
 pamvalidate
@@ -2263,6 +2272,7 @@ pbmupc
 pbpaste
 pc1toppm
 pcap-config
+pcdindex
 pcdovtoppm
 pcre-config
 pcre2-config
