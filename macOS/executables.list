@@ -123,6 +123,7 @@ aomdec
 aomenc
 apachectl
 apfs_hfs_convert
+appdb
 applesingle
 appletviewer
 apply
@@ -1916,6 +1917,7 @@ mrftopbm
 msbuild
 mserver5
 msgs
+msiexec
 msqldump
 mtree
 mtvtoppm
@@ -2026,6 +2028,7 @@ nonspr10
 nop
 normalize.py
 notary
+notepad
 notifyd
 notifyutil
 nping
@@ -2786,7 +2789,9 @@ redis-sentinel
 redis-server
 redo_prebinding
 refer
+regedit
 regmerge
+regsvr32
 regview
 reindexdb
 reject
@@ -3399,6 +3404,17 @@ who
 whoami
 whois
 wifi-status
+wine
+wine64
+wineboot
+winecfg
+wineconsole
+winedbg
+winefile
+winehelp
+winemine
+winepath
+wineserver
 winicontopam
 winicontoppm
 wirelessproxd
