@@ -26,4 +26,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-366 kegs, 299,744 files, 10.4GB
+366 kegs, 299,752 files, 10.4GB
