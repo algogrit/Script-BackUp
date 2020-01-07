@@ -694,6 +694,7 @@ exercism
 expand
 expect
 expr
+exr2aces
 exrenvmap
 exrheader
 exrmakepreview
@@ -2306,7 +2307,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.30.0
+perl5.30.1
 perlbug
 perlbug5.18
 perldoc
