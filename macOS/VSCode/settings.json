@@ -56,7 +56,8 @@
     "args": []
   },
   "cSpell.userWords": [
-    "Twilio"
+    "Twilio",
+    "oauth"
   ],
   "C_Cpp.updateChannel": "Insiders"
 }
