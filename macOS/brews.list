@@ -262,6 +262,7 @@ postgresql
 postgresql@10
 postgresql@11
 pow
+protobuf
 protobuf@3.7
 psgrep
 pstree

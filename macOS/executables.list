@@ -395,6 +395,7 @@ colrm
 column
 comm
 command
+comp_err
 compaction-stress
 compare
 complete-ant-cmd.pl
@@ -2611,6 +2612,7 @@ productbuild
 productsign
 profile2mat.pl
 profiles
+protoc
 prove
 prove5.18
 prune
