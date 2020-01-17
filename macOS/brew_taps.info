@@ -1,5 +1,5 @@
 facebook/fb: unpinned, 5 formulae
-/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (64 files, 56.3KB)
+/usr/local/Homebrew/Library/Taps/facebook/homebrew-fb (67 files, 58.5KB)
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
@@ -7,27 +7,27 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (554 files, 611.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (558 files, 615.1KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3505 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,029 files, 166.0MB)
+homebrew/cask: unpinned, 1 command, 3506 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,036 files, 166.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: unpinned, 143 casks
+homebrew/cask-drivers: unpinned, 142 casks
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,384 files, 2.0MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
-homebrew/cask-fonts: unpinned, 940 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,456 files, 3.4MB)
+homebrew/cask-fonts: unpinned, 941 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,461 files, 3.4MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 160 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,741 files, 59MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,757 files, 59.1MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4886 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,609 files, 42.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,669 files, 44.8MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
