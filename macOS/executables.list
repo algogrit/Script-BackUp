@@ -1,5 +1,4 @@
 
-101-workshop
 2to3
 2to3-
 2to3-2
@@ -142,7 +141,6 @@ asciinema
 asciitopgm
 asctl
 aslmanager
-asmfmt
 asn1Coding
 asn1Decoding
 asn1Parser
@@ -372,7 +370,6 @@ clef
 clhsdb
 cli_mt
 cli_st
-client
 cloc
 cloog
 cluster
@@ -555,7 +552,6 @@ defaults
 defragcli
 delaunay
 delv
-dep
 der_gtest
 derdump
 dertimetest
@@ -587,7 +583,6 @@ distnoted
 ditto
 djpeg
 dltest
-dlv
 dmc
 dmcs
 dmesg
@@ -653,7 +648,6 @@ editcap.dSYM
 editres
 edquota
 egrep
-elastic-go
 elixir
 elixirc
 elm
@@ -680,7 +674,6 @@ eqn
 erb
 erl
 erlc
-errcheck
 errinfo
 escp2topbm
 escript
@@ -755,7 +748,6 @@ filebyproc.d
 filecoordinationd
 fileinfo
 files
-fillstruct
 filtercalltree
 find
 find2perl
@@ -918,11 +910,11 @@ gfortran-9
 ggrep
 ggroups
 ghc
-ghc-8.8.1
+ghc-8.8.2
 ghc-pkg
-ghc-pkg-8.8.1
+ghc-pkg-8.8.2
 ghci
-ghci-8.8.1
+ghci-8.8.2
 ghead
 ghostid
 gid
@@ -937,7 +929,6 @@ giftext
 giftogd2
 giftool
 giftopnm
-gin
 ginstall
 gio
 gio-querymodules
@@ -1080,31 +1071,13 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
-go-concurrency-constructs
-go-outline
-go-symbols
 gobject-query
-gocode
-gocode-gomod
 god
-godef
 godoc
 goenv
 goenv-install
 goenv-uninstall
 gofmt
-gogetdoc
-goimports
-golangci-lint
-golint
-gometalinter
-gomodifytags
-gopkgs
-gopls
-gorename
-goreturns
-gosec
-gotags
 gouldtoppm
 gource
 gpaste
@@ -1201,7 +1174,6 @@ gunlink
 gunzip
 gupdatedb
 guptime
-guru
 gusers
 gv2gml
 gv2gxl
@@ -1248,7 +1220,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-8.8.1
+haddock-ghc-8.8.2
 halt
 happrox
 hash
@@ -1360,7 +1332,6 @@ idlj
 idn2
 iex
 ifconfig
-iferr
 ifnames
 ikdasm
 ilasm
@@ -1382,7 +1353,6 @@ imlib2_poly
 imlib2_show
 imlib2_test
 imlib2_view
-impl
 import
 imptrace
 indent
@@ -1591,7 +1561,6 @@ kextload
 kextstat
 kextunload
 kextutil
-keyify
 keytool
 kgetcred
 kill
@@ -1640,7 +1609,6 @@ ldrdf
 leaftoppm
 leaks
 leaks32
-learning-golang
 leave
 lein
 less
@@ -1802,7 +1770,6 @@ mgrtopbm
 mib2c
 mib2c-update
 mig
-migrate
 missing_codec_desc
 mix
 mkbom
@@ -1878,7 +1845,6 @@ moo-outdated5.18
 moose-outdated
 moose-outdated5.18
 more
-motion
 mount
 mount_9p
 mount_acfs
@@ -2781,7 +2747,6 @@ rdoc
 rdx
 read
 readlink
-realize
 realpath
 rebase
 reboot
@@ -2851,7 +2816,7 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-8.8.1
+runghc-8.8.2
 runhaskell
 rust-gdb
 rust-gdbgui
@@ -2923,7 +2888,6 @@ senddoc
 sendmail
 seq
 serialver
-server
 serverinfo
 servertool
 sessreg
@@ -3132,7 +3096,6 @@ svnserve
 svnsync
 svnversion
 sw_vers
-swagger
 swagger-codegen
 swift
 swiftc
@@ -3569,7 +3532,6 @@ xzless
 xzmore
 yaa
 yacc
-yaes-server
 yarn
 yarnpkg
 yasm
