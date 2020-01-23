@@ -381,6 +381,7 @@ cmpfillin
 cmsutil
 cmuwmtopbm
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -583,6 +584,7 @@ distnoted
 ditto
 djpeg
 dltest
+dlv
 dmc
 dmcs
 dmesg
@@ -748,6 +750,7 @@ filebyproc.d
 filecoordinationd
 fileinfo
 files
+fillstruct
 filtercalltree
 find
 find2perl
@@ -1071,13 +1074,25 @@ gnutls-cli-debug
 gnutls-serv
 go
 go-build
+go-outline
+go-symbols
 gobject-query
+gocode
+gocode-gomod
 god
+godef
 godoc
+godoctor
 goenv
 goenv-install
 goenv-uninstall
 gofmt
+golint
+gomodifytags
+gopkgs
+goplay
+gorename
+goreturns
 gouldtoppm
 gource
 gpaste
@@ -1174,6 +1189,7 @@ gunlink
 gunzip
 gupdatedb
 guptime
+guru
 gusers
 gv2gml
 gv2gxl
@@ -1353,6 +1369,7 @@ imlib2_poly
 imlib2_show
 imlib2_test
 imlib2_view
+impl
 import
 imptrace
 indent
@@ -2582,6 +2599,7 @@ protoc
 prove
 prove5.18
 prune
+pry
 ps
 psed
 psed5.18
