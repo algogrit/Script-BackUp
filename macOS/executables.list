@@ -1087,12 +1087,14 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+goimports
 golint
 gomodifytags
 gopkgs
 goplay
 gorename
 goreturns
+gotests
 gouldtoppm
 gource
 gpaste
