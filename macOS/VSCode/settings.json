@@ -59,5 +59,6 @@
     "Twilio",
     "oauth"
   ],
-  "C_Cpp.updateChannel": "Insiders"
+  "C_Cpp.updateChannel": "Insiders",
+  "go.formatTool": "goimports"
 }

@@ -553,6 +553,7 @@ defaults
 defragcli
 delaunay
 delv
+dep
 der_gtest
 derdump
 dertimetest
@@ -1083,6 +1084,7 @@ god
 godef
 godoc
 godoctor
+godog
 goenv
 goenv-install
 goenv-uninstall
