@@ -597,7 +597,6 @@ docker-compose
 docker-credential-desktop
 docker-credential-gcloud
 docker-credential-osxkeychain
-docker-machine
 docker-swarm
 dos2unix
 dot
@@ -1031,7 +1030,6 @@ git-up
 git-upload-archive
 git-upload-pack
 git-wash
-gitk
 gjoin
 gkill
 glances
@@ -1094,6 +1092,7 @@ golint
 gomodifytags
 gopkgs
 goplay
+gopls
 gorename
 goreturns
 gotests
