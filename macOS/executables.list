@@ -2712,7 +2712,6 @@ rabbitmq-server
 rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
-racer
 racoon
 raidutil
 rails
