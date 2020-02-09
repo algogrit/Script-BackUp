@@ -19,6 +19,41 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
 
+Warning: Unbrewed dylibs were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected dylibs:
+  /usr/local/lib/libpostal.1.dylib
+
+Warning: Unbrewed header files were found in /usr/local/include.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected header files:
+  /usr/local/include/libpostal/libpostal.h
+
+Warning: Unbrewed .la files were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected .la files:
+  /usr/local/lib/libpostal.la
+
+Warning: Unbrewed .pc files were found in /usr/local/lib/pkgconfig.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected .pc files:
+  /usr/local/lib/pkgconfig/libpostal.pc
+
+Warning: Unbrewed static libraries were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected static libraries:
+  /usr/local/lib/libpostal.a
+
 Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
@@ -26,4 +61,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-368 kegs, 296,399 files, 10.7GB
+369 kegs, 296,572 files, 10.7GB
