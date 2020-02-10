@@ -203,6 +203,7 @@ bd_info
 bdftogd
 bdftopcf
 bdftruncate
+benchcmp
 bg
 biff
 bin
