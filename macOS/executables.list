@@ -186,6 +186,7 @@ awk
 aws
 aws-iam-authenticator
 aws_completer
+aws_legacy_completer
 b2sum
 backup
 baddbdir

@@ -142,6 +142,7 @@ jq
 juju
 juju-wait
 kafka
+krb5
 kubectx
 kubernetes-cli
 kubernetes-helm
