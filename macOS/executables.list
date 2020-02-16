@@ -1579,6 +1579,7 @@ kafka-verifiable-producer
 kcc
 kdcsetup
 kdestroy
+keepassxc-cli
 kextcache
 kextfind
 kextlibs
