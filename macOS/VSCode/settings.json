@@ -60,6 +60,5 @@
     "oauth"
   ],
   "C_Cpp.updateChannel": "Insiders",
-  "go.formatTool": "goimports",
-  "go.useLanguageServer": true
+  "go.formatTool": "goimports"
 }
