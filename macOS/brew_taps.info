@@ -3,19 +3,19 @@ facebook/fb: unpinned, 5 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (147 files, 83.8KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (151 files, 86.2KB)
 From: https://github.com/heroku/homebrew-brew
 
-homebrew/bundle: unpinned, no commands/casks/formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (672 files, 702.5KB)
+homebrew/bundle: unpinned, 1 command
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (676 files, 706.0KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3543 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,688 files, 185.6MB)
+homebrew/cask: unpinned, 1 command, 3542 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,689 files, 185.7MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 145 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,601 files, 2.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,613 files, 2.3MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 947 casks
@@ -23,14 +23,14 @@ homebrew/cask-fonts: unpinned, 947 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 164 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,665 files, 60.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,693 files, 60.6MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 4923 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,368 files, 34.6MB)
+homebrew/core: unpinned, 2 commands, 4924 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,371 files, 34.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
-homebrew/services: unpinned, no commands/casks/formulae
+homebrew/services: unpinned, 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (149 files, 157.7KB)
 From: https://github.com/Homebrew/homebrew-services
 

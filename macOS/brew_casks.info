@@ -1,5 +1,5 @@
 ==> Homebrew Version
-2.2.6
+2.2.7
 ==> macOS
 10.14.6
 ==> SIP
@@ -15,7 +15,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3543 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3542 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (164 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (947 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (145 casks)
@@ -23,7 +23,7 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.38.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.5.2/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-0.79.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-0.80.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-1.6.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-wait-0.0.9/lib
@@ -35,6 +35,7 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-core-3.9.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-support-3.9.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ronn-0.7.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rexml-3.2.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rdiscount-2.2.0.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/universal-darwin-19/2.6.0/rdiscount-2.2.0.1
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rainbow-3.0.0/lib
