@@ -142,6 +142,7 @@ jq
 juju
 juju-wait
 kafka
+kompose
 krb5
 kubectx
 kubernetes-cli
@@ -318,6 +319,7 @@ sphinx
 sphinx-doc
 sqlite
 ssh-copy-id
+stern
 suite-sparse
 swagger-codegen
 swi-prolog

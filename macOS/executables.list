@@ -1597,6 +1597,7 @@ kind
 kinit
 klist
 koi8rxterm
+kompose
 kpasswd
 krb5-config
 krbservicesetup
@@ -3106,6 +3107,7 @@ startx
 stat
 states
 stdbuf
+stern
 stethoscope
 stl2gts
 stream
