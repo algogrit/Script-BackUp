@@ -27,7 +27,11 @@
   "explorer.confirmDelete": false,
   "vs-kubernetes": {
     "vs-kubernetes.draft-path": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-    "vs-kubernetes.minikube-path": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    "vs-kubernetes.minikube-path": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.helm-path.mac": "/Users/gaurav/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path.mac": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.kubectl-path.mac": "/Users/gaurav/.vs-kubernetes/tools/kubectl/kubectl",
+    "vs-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
   "editor.wordWrap": "on",
   "files.autoSave": "off",
