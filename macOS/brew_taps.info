@@ -7,15 +7,15 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (687 files, 713.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (692 files, 717.8KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3494 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,658 files, 158.9MB)
+homebrew/cask: unpinned, 1 command, 3495 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,661 files, 159.1MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 135 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,655 files, 2.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,667 files, 2.4MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 944 casks
@@ -23,17 +23,21 @@ homebrew/cask-fonts: unpinned, 944 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 156 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,822 files, 60.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,846 files, 60.9MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: unpinned, 2 commands, 4927 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,417 files, 38.2MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,420 files, 38.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (155 files, 161.6KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (160 files, 165.6KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 41 formulae
 /usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (189 files, 129.3KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
+
+weaveworks/tap: unpinned, 4 formulae
+/usr/local/Homebrew/Library/Taps/weaveworks/homebrew-tap (33 files, 106.2KB)
+From: https://github.com/weaveworks/homebrew-tap
