@@ -1725,7 +1725,10 @@ lwp-mirror5.18
 lwp-request
 lwp-request5.18
 lynx
+lz4
 lz4_decompress
+lz4c
+lz4cat
 lzcat
 lzcmp
 lzdiff
@@ -2699,6 +2702,7 @@ pythonw2.7
 pyvenv
 pyvenv-3.5
 pyvenv-3.7
+pzstd
 qc2movie
 qconvex
 qdelaunay
@@ -3305,6 +3309,7 @@ universalaccessd
 unix2dos
 unix2mac
 unlink
+unlz4
 unlzma
 unmunch
 uno
@@ -3320,6 +3325,7 @@ unwrap-diff
 unxz
 unzip
 unzipsfx
+unzstd
 update-mime-database
 update_dyld_shared_cache
 uptime
@@ -3624,3 +3630,8 @@ zookeeper-server-stop
 zookeeper-shell
 zprint
 zsh
+zstd
+zstdcat
+zstdgrep
+zstdless
+zstdmt

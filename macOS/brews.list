@@ -155,6 +155,7 @@ less
 libarchive
 libass
 libatomic_ops
+libb2
 libbluray
 libcaca
 libcerf
@@ -203,6 +204,7 @@ lua
 lua@5.1
 luajit
 lynx
+lz4
 lzo
 mad
 make
@@ -373,3 +375,4 @@ z
 zimg
 zlib
 zookeeper
+zstd
