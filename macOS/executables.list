@@ -812,6 +812,7 @@ fstyp_ntfs
 fstyp_udf
 funzip
 fuser
+fuzzy_match
 fwkdp
 fwkpfv
 g++
@@ -1298,6 +1299,7 @@ htmltree5.18
 htop
 htpasswd
 httpcfg
+httpclient
 httpd
 httpd-wrapper
 httpserv
@@ -2488,6 +2490,7 @@ pnmtosir
 pnmtotiff
 pnmtotiffcmyk
 pnmtoxwd
+pod
 pod2html
 pod2html5.18
 pod2latex
@@ -2786,6 +2789,7 @@ rdflib
 rdjpgcom
 rdoc
 rdx
+react-native
 read
 readlink
 realpath
@@ -2880,6 +2884,7 @@ sag
 sample
 sampleproc
 sandbox-exec
+sandbox-pod
 say
 sbigtopgm
 sbt
@@ -3476,6 +3481,7 @@ xclock
 xcmsdb
 xcode-select
 xcodebuild
+xcodeproj
 xcompmgr
 xconsole
 xcrun
