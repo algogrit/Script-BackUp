@@ -3,31 +3,31 @@ facebook/fb: unpinned, 5 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: unpinned, 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (155 files, 88.5KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (155 files, 88.6KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (751 files, 824.6KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (755 files, 828KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3507 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,696 files, 161.1MB)
+homebrew/cask: unpinned, 1 command, 3508 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,731 files, 162MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 134 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,729 files, 2.5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,737 files, 2.5MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 947 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,635 files, 4.5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1,639 files, 4.6MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 156 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,126 files, 61.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,162 files, 61.3MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 4942 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,465 files, 43.4MB)
+homebrew/core: unpinned, 2 commands, 4943 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,468 files, 43.7MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
