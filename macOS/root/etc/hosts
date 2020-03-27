@@ -26,8 +26,7 @@
 #.0.0.0 www.linkedin.com
 #.0.0.0 www.quora.com
 
-0.0.0.0 airma.sh
-0.0.0.0 lichess.org
+#.0.0.0 lichess.org
 
 # Custom blocking
 0.0.0.0 www.instagram.com
