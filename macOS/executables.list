@@ -635,6 +635,7 @@ dumpcap.dSYM
 dumpsexp
 dvd2concat
 dvdbackup
+dvipdf
 dwarfdump
 dwebp
 dynamic_pager
@@ -678,6 +679,7 @@ envvars
 envvars-std
 episodes-rename
 epmd
+eps2eps
 eqn
 erb
 erl
@@ -883,7 +885,6 @@ gdk-pixbuf-csource
 gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
-gdlib-config
 gdparttopng
 gdrive
 gdtopng
@@ -1108,6 +1109,7 @@ gouldtoppm
 gource
 gpaste
 gpathchk
+gpcl6
 gperf
 gpg-error
 gpg-error-config
@@ -1144,6 +1146,11 @@ grotty
 groups
 grun
 gruncon
+gs
+gsbj
+gsc
+gsdj
+gsdj500
 gsed
 gseq
 gsettings
@@ -1155,6 +1162,9 @@ gsha512sum
 gshred
 gshuf
 gsleep
+gslj
+gslp
+gsnd
 gsort
 gsplit
 gssd
@@ -1163,6 +1173,7 @@ gstdbuf
 gstty
 gsum
 gsutil
+gsx
 gsync
 gtac
 gtail
@@ -1217,6 +1228,7 @@ gwhoami
 gxargs
 gxl2dot
 gxl2gv
+gxps
 gyes
 gzcat
 gzexe
@@ -1694,6 +1706,7 @@ lpoptions
 lpq
 lpr
 lprm
+lprsetup.sh
 lpstat
 ls
 lsappinfo
@@ -2296,6 +2309,8 @@ pcsctest
 pcxtoppm
 pdb2mdb
 pdbimgtopam
+pdf2dsc
+pdf2ps
 pdfattach
 pdfdetach
 pdffonts
@@ -2326,6 +2341,8 @@ perlthanks5.18
 permview
 perror
 peverify
+pf2afm
+pfbtopfa
 pfbtops
 pfctl
 pfmtopam
@@ -2536,6 +2553,7 @@ ppdhtml
 ppdi
 ppdmerge
 ppdpo
+pphs
 ppm2tiff
 ppm3d
 ppmbrighten
@@ -2611,6 +2629,7 @@ praudit
 pre-grohtml
 priclass.d
 pridist.d
+printafm
 printenv
 printf
 probetest
@@ -2625,6 +2644,15 @@ prove5.18
 prune
 pry
 ps
+ps2ascii
+ps2epsi
+ps2pdf
+ps2pdf12
+ps2pdf13
+ps2pdf14
+ps2pdfwr
+ps2ps
+ps2ps2
 psed
 psed5.18
 psgrep
@@ -3311,6 +3339,7 @@ unifdefall
 uniq
 units
 universalaccessd
+unix-lpr.sh
 unix2dos
 unix2mac
 unlink
