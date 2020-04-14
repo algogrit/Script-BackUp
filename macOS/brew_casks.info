@@ -1,5 +1,5 @@
 ==> Homebrew Version
-2.2.12
+2.2.13
 ==> macOS
 10.14.6
 ==> SIP
@@ -15,7 +15,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3521 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3520 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (156 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (912 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (145 casks)
