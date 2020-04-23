@@ -170,6 +170,7 @@ automake
 automake-1.16
 automator
 automount
+autopoint
 autoreconf
 autoscan
 autoupdate
@@ -675,6 +676,7 @@ encodeinttest
 endpointscfg.py
 enscript
 env
+envsubst
 envvars
 envvars-std
 episodes-rename
@@ -908,6 +910,9 @@ getconf
 geth
 getopt
 getopts
+gettext
+gettext.sh
+gettextize
 gexpand
 gexpr
 gfactor
@@ -1937,7 +1942,21 @@ mpv
 mrftopbm
 msbuild
 mserver5
+msgattrib
+msgcat
+msgcmp
+msgcomm
+msgconv
+msgen
+msgexec
+msgfilter
+msgfmt
+msggrep
+msginit
+msgmerge
 msgs
+msgunfmt
+msguniq
 msiexec
 msqldump
 mtree
@@ -2028,6 +2047,7 @@ nfs4mapid
 nfsd
 nfsiod
 nfsstat
+ngettext
 nginx
 ngrok
 nice
@@ -2824,6 +2844,7 @@ realpath
 rebase
 reboot
 rec
+recode-sr-latin
 redis-benchmark
 redis-check-aof
 redis-check-rdb
@@ -3535,6 +3556,7 @@ xfs
 xfsinfo
 xgamma
 xgc
+xgettext
 xgettext.pl
 xgettext5.18.pl
 xhost
