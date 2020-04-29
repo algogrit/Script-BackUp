@@ -3139,6 +3139,10 @@ sqlsharp
 src-hilite-lesspipe.sh
 srftopam
 srptool
+srt-ffplay
+srt-file-transmit
+srt-live-transmit
+srt-tunnel
 ssh
 ssh-add
 ssh-agent
