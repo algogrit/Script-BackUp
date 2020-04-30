@@ -12,7 +12,7 @@ autoconf
 autoenv
 automake
 aws-iam-authenticator
-awscli
+awscli@1
 bash
 bash-completion
 bat
@@ -33,7 +33,6 @@ cloc
 cloog
 cmake
 colortail
-conjure-up
 coreutils
 cscope
 ctags

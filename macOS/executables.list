@@ -185,10 +185,7 @@ aviocat
 avmetareadwrite
 avstopam
 awk
-aws
 aws-iam-authenticator
-aws_completer
-aws_legacy_completer
 b2sum
 backup
 baddbdir
@@ -408,8 +405,6 @@ config_data
 config_data5.18
 conflict
 conjure
-conjure-down
-conjure-up
 connect-distributed
 connect-mirror-maker
 connect-standalone
@@ -1630,7 +1625,6 @@ kubectl
 kubectl.docker
 kubectx
 kubens
-kv-cli
 lam
 lame
 languagesetup
