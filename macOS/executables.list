@@ -1820,6 +1820,7 @@ mgrtopbm
 mib2c
 mib2c-update
 mig
+migrate
 missing_codec_desc
 mix
 mkafmmap

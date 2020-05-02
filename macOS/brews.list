@@ -103,6 +103,7 @@ gnutls
 go
 gobject-introspection
 goenv
+golang-migrate
 gource
 gradle
 graphicsmagick
