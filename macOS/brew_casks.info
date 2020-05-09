@@ -15,10 +15,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3525 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3531 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (151 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (924 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (148 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (149 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.39.0/lib
