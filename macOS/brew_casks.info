@@ -1,5 +1,5 @@
 ==> Homebrew Version
-2.2.15
+2.2.16
 ==> macOS
 10.14.6
 ==> SIP
@@ -15,7 +15,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3533 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3534 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (151 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (924 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (149 casks)
@@ -27,7 +27,7 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.5.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mechanize-2.7.6/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.0.2.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.0.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/zeitwerk-2.3.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tzinfo-1.2.7/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/thread_safe-0.3.6/lib
