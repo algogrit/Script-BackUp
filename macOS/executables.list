@@ -540,6 +540,7 @@ dbsessmgr2
 dbsessmgr4
 dbsql
 dbtest
+dbtoepub
 dc
 dd
 ddbugtopbm
@@ -2639,6 +2640,7 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
+pprof
 pr
 praudit
 pre-grohtml
@@ -3585,7 +3587,9 @@ xmh
 xml2-config
 xml2man
 xmlcatalog
+xmlif
 xmllint
+xmlto
 xmodmap
 xmore
 xpath

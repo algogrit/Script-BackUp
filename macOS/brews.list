@@ -40,6 +40,8 @@ ctags
 curl
 cython
 direnv
+docbook
+docbook-xsl
 docker-compose
 docker-machine
 docker-swarm
@@ -95,6 +97,7 @@ glide
 glm
 glpk
 gmp
+gnu-getopt
 gnu-sed
 gnu-tar
 gnu-units
@@ -369,6 +372,7 @@ wxmac
 x264
 x265
 xctool
+xmlto
 xvid
 xz
 yasm

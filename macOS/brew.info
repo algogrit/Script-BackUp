@@ -2,6 +2,10 @@ Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
 
+Warning: Some installed formulae are deprecated or disabled.
+You should find replacements for the following formulae:
+  protobuf@3.7
+
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
 software packages are installed, and which additional flags to use when
@@ -61,4 +65,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-379 kegs, 299,295 files, 11.2GB
+383 kegs, 304,466 files, 11.3GB
