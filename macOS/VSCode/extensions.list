@@ -30,6 +30,7 @@ ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
+ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 pgourlain.erlang
 rebornix.ruby
