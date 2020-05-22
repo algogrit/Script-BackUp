@@ -7,11 +7,11 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (918 files, 958KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (922 files, 963.2KB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask: unpinned, 1 command, 3550 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,760 files, 167.0MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,762 files, 167.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 149 casks
@@ -23,11 +23,11 @@ homebrew/cask-fonts: unpinned, 924 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 152 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,229 files, 63MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,241 files, 63.1MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 5012 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,596 files, 50.6MB)
+homebrew/core: unpinned, 2 commands, 5013 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,599 files, 50.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
