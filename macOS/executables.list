@@ -1204,6 +1204,11 @@ gtscompare
 gtsort
 gtstemplate
 gtty
+guild
+guile
+guile-config
+guile-snarf
+guile-tools
 guname
 gunexpand
 guniq
@@ -3197,6 +3202,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
+swagger
 swagger-codegen
 swift
 swiftc

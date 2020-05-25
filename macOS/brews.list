@@ -118,6 +118,7 @@ grep
 gti
 gtk+
 gts
+guile
 harfbuzz
 hdf5
 helm
@@ -332,6 +333,7 @@ ssh-copy-id
 stern
 suite-sparse
 swagger-codegen
+swagger-codegen@2
 swi-prolog
 swiftlint
 szip
