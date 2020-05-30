@@ -2,6 +2,12 @@ Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
 
+Warning: Some installed formulae were deleted!
+You should find replacements for the following formulae:
+  python@2
+  mongodb
+  erlang@19
+
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   protobuf@3.7
@@ -65,4 +71,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown version :mountain_lion
-386 kegs, 305,493 files, 11.3GB
+386 kegs, 305,494 files, 11.3GB
