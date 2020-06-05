@@ -106,7 +106,6 @@ gnu-which
 gnuplot
 gnutls
 go
-go-swagger
 gobject-introspection
 goenv
 golang-migrate
@@ -335,7 +334,6 @@ ssh-copy-id
 stern
 suite-sparse
 swagger-codegen
-swagger-codegen@2
 swi-prolog
 swiftlint
 szip

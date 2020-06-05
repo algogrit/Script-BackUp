@@ -3205,7 +3205,7 @@ svnserve
 svnsync
 svnversion
 sw_vers
-swagger
+swagger-cli
 swagger-codegen
 swift
 swiftc
