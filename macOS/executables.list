@@ -2667,6 +2667,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
+protoc-gen-go
 prove
 prove5.18
 prune
