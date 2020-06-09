@@ -1551,6 +1551,7 @@ jq
 jrunscript
 jsadebugd
 jshell
+json-refs
 json_pp
 json_pp5.18
 jsondiff
