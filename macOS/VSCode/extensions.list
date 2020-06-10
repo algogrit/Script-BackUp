@@ -17,6 +17,7 @@ dsznajder.es7-react-js-snippets
 dtsvet.vscode-wasm
 eg2.tslint
 ericadamski.carbon-now-sh
+golang.Go
 howardzuo.vscode-git-blamer
 JakeBecker.elixir-ls
 jaredly.reason-vscode
@@ -31,7 +32,6 @@ ms-kubernetes-tools.vscode-kubernetes-tools
 ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
-ms-vscode.Go
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 pgourlain.erlang
