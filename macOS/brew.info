@@ -68,7 +68,5 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   docker-compose
-
-Warning: Some installed formulae are not readable:
-  mongodb: unknown version :mountain_lion
+Error: unknown or unsupported macOS version: :mountain_lion
 386 kegs, 306,517 files, 11.3GB
