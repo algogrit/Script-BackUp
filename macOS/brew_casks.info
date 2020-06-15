@@ -16,9 +16,9 @@ Enabled
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3580 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (153 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (963 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (149 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (154 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1506 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (151 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.39.0/lib
