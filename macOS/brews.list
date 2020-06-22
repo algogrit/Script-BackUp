@@ -46,6 +46,7 @@ docbook-xsl
 docker-compose
 docker-machine
 docker-swarm
+doctl
 dos2unix
 doxygen
 drip
@@ -378,6 +379,7 @@ x265
 xctool
 xmlto
 xvid
+xxhash
 xz
 yasm
 youtube-dl
