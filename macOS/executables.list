@@ -2358,7 +2358,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.30.3
+perl5.32.0
 perlbug
 perlbug5.18
 perldoc
@@ -3189,6 +3189,7 @@ stern
 stethoscope
 stl2gts
 stream
+streamzip
 strfile
 stringdups
 stringdups32
