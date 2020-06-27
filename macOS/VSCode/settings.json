@@ -68,5 +68,6 @@
   "C_Cpp.updateChannel": "Insiders",
   "go.formatTool": "goimports",
 "go.useLanguageServer": true,
-"python.languageServer": "Microsoft"
+"python.languageServer": "Microsoft",
+"java.semanticHighlighting.enabled": true
 }
