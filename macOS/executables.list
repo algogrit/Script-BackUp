@@ -318,6 +318,7 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
+cbt
 cc
 cccheck
 ccmake
@@ -1352,6 +1353,7 @@ iconutil
 iconv
 ictool
 id
+idea
 identify
 idevice_id
 idevicebackup
