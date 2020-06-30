@@ -151,6 +151,7 @@ jq
 juju
 juju-wait
 kafka
+kind
 kompose
 krb5
 kubectx
