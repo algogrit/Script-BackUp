@@ -257,6 +257,7 @@ openblas
 opencore-amr
 openexr
 openjdk
+openjdk@11
 openjpeg
 openssl
 openssl@1.1
