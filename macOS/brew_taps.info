@@ -7,31 +7,31 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,048 files, 1MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,058 files, 1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask: unpinned, 1 command, 3604 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,913 files, 171.0MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,915 files, 171.1MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 151 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,254 files, 3.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,266 files, 3.4MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 1547 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,800 files, 9.5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,807 files, 9.5MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 154 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,883 files, 64MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,911 files, 64.1MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 5091 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,643 files, 52.5MB)
+homebrew/core: unpinned, 2 commands, 5094 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,648 files, 52.8MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (290 files, 277.3KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (294 files, 280.4KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 37 formulae
