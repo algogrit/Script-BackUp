@@ -154,6 +154,7 @@ kafka
 kind
 kompose
 krb5
+kubebuilder
 kubectx
 kubernetes-cli
 kubernetes-helm
