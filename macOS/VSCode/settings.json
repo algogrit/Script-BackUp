@@ -68,8 +68,8 @@
   ],
   "C_Cpp.updateChannel": "Insiders",
   "go.formatTool": "goimports",
-"go.useLanguageServer": true,
-"python.languageServer": "Microsoft",
-"java.semanticHighlighting.enabled": true,
-"java.refactor.renameFromFileExplorer": "autoApply"
+  "go.useLanguageServer": true,
+  "python.languageServer": "Microsoft",
+  "java.semanticHighlighting.enabled": true,
+  "java.refactor.renameFromFileExplorer": "autoApply"
 }
