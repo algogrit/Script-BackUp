@@ -260,7 +260,6 @@ openexr
 openjdk
 openjdk@11
 openjpeg
-openssl
 openssl@1.1
 opus
 opusfile
@@ -290,7 +289,6 @@ pwgen
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
-python
 python@2
 python@3.8
 qhull
