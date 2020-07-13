@@ -1715,6 +1715,7 @@ MD5 (/usr/bin/kill.d) = 4074d629471bdb13b938b141f1f86fe6
 MD5 (/usr/bin/killall) = 184002cc2be313e0dbf895a589f7a95c
 MD5 (/usr/local/bin/kind) = 3e356deea67b641d6f26654d2088096a
 MD5 (/usr/bin/kinit) = 29868aefefb712a91c63ab29c2936d8b
+MD5 (/Users/gaurav/.goenv/bin/kit) = f04d9c109985186587044781b6ed10f1
 MD5 (/usr/bin/klist) = c8742124c80958ded1854b1c3e06e4a3
 MD5 (/opt/X11/bin/koi8rxterm) = 09487426755285ceeca46c8b6d5a107b
 MD5 (/usr/local/bin/kompose) = bf978714158d0bb61fba50cfdea03c1d
