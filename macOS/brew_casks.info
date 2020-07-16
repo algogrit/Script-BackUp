@@ -1,5 +1,5 @@
 ==> Homebrew Version
-2.4.6
+2.4.7
 ==> macOS
 10.14.6
 ==> SIP
@@ -18,7 +18,7 @@ Enabled
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3616 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (155 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1547 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (151 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (152 casks)
 ==> Contents of $LOAD_PATH
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.42.0/lib

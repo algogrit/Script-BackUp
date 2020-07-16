@@ -7,31 +7,31 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,100 files, 1MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,104 files, 1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask: unpinned, 1 command, 3616 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,281 files, 181.2MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,488 files, 186.5MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: unpinned, 151 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,318 files, 3.5MB)
+homebrew/cask-drivers: unpinned, 152 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,323 files, 3.5MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 1547 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,831 files, 9.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,915 files, 10.7MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 155 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,052 files, 64.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,060 files, 64.4MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 5111 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,909 files, 69.3MB)
+homebrew/core: unpinned, 2 commands, 5113 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,921 files, 70.1MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (294 files, 280.4KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (298 files, 283.5KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 37 formulae

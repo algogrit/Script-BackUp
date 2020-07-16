@@ -6,7 +6,6 @@
 2to3-2.7
 2to3-3.5
 2to3-3.7
-2to3-3.8
 411toppm
 7z
 7za
@@ -951,6 +950,7 @@ giftogd2
 giftool
 giftopnm
 gin
+ginkgo
 ginstall
 gio
 gio-querymodules
@@ -1385,7 +1385,6 @@ idle2.7
 idle3
 idle3.5
 idle3.7
-idle3.8
 idlj
 idn2
 iex
@@ -2732,7 +2731,6 @@ pydoc2.7
 pydoc3
 pydoc3.5
 pydoc3.7
-pydoc3.8
 pyenv
 pyenv-activate
 pyenv-deactivate
@@ -2770,8 +2768,6 @@ python3.7-config
 python3.7-gdb.py
 python3.7m
 python3.7m-config
-python3.8
-python3.8-config
 pythonw
 pythonw2
 pythonw2.7
