@@ -7,27 +7,27 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,104 files, 1MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,108 files, 1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: unpinned, 1 command, 3616 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,506 files, 187MB)
+homebrew/cask: unpinned, 1 command, 3619 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,511 files, 187.3MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: unpinned, 152 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,340 files, 3.5MB)
+homebrew/cask-drivers: unpinned, 154 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,350 files, 3.5MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 1547 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,920 files, 10.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,924 files, 10.8MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 155 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,077 files, 64.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,113 files, 64.4MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 5118 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,932 files, 70.4MB)
+homebrew/core: unpinned, 2 commands, 5121 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,945 files, 71.0MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
@@ -39,5 +39,5 @@ vitorgalvao/tiny-scripts: unpinned, 37 formulae
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: unpinned, 4 formulae
-/usr/local/Homebrew/Library/Taps/weaveworks/homebrew-tap (146 files, 157.9KB)
+/usr/local/Homebrew/Library/Taps/weaveworks/homebrew-tap (150 files, 160.2KB)
 From: https://github.com/weaveworks/homebrew-tap
