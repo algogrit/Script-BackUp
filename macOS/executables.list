@@ -2972,10 +2972,7 @@ scandeps5.18.pl
 sccmap
 schemagen
 scons
-scons-3.1.2.bat
 scons-configure-cache
-scons-time
-scons.bat
 sconsign
 scp
 screen
