@@ -2155,6 +2155,7 @@ MD5 (/usr/sbin/nfs4mapid) = f2eda20fba69e4ac1debb26cf4bd1e20
 MD5 (/sbin/nfsd) = 76a980e8fec0551b8bf846b16041c17d
 MD5 (/sbin/nfsiod) = 7c60673db72de2ffc7022adef8ff6e5b
 MD5 (/usr/bin/nfsstat) = daa02a5a7dfa138edc6e2bee210a65c9
+MD5 (/Users/gaurav/.nodenv/shims/ng) = a0eb072b9b4afa816fd62d9a1ea1f781
 MD5 (/usr/local/bin/ngettext) = 942e59f0ff3c4c6b91f81d9319f9b51f
 MD5 (/usr/local/bin/nginx) = 952b357c50b65c77044a72da77e2a293
 MD5 (/usr/local/bin/ngrok) = 7cd12bf95df47f13964d04e8bcf8d805
