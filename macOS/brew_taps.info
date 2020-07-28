@@ -7,31 +7,31 @@ heroku/brew: unpinned, 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,120 files, 1MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,134 files, 1.1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask: unpinned, 1 command, 3628 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,627 files, 190.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,631 files, 198.4MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: unpinned, 155 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,417 files, 3.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,440 files, 3.6MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: unpinned, 1547 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,038 files, 11.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,061 files, 11.8MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: unpinned, 157 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,269 files, 64.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,292 files, 64.7MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: unpinned, 2 commands, 5150 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,480 files, 48.8MB)
+homebrew/core: unpinned, 2 commands, 5155 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (5,487 files, 53.6MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: unpinned, 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (306 files, 289.8KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (311 files, 293.6KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: unpinned, 37 formulae
