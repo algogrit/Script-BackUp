@@ -1,17 +1,11 @@
 ==> Homebrew Version
-2.4.8
+2.4.9
 ==> macOS
 10.14.6
 ==> SIP
 Enabled
 ==> Java
-14.0.1, 1.8.0_222
-==> xattr issues
-<NONE>
-==> Gatekeeper support
-Enabled
-==> Homebrew Cask Install Location
-<NONE>
+14.0.2, 1.8.0_262
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
@@ -19,10 +13,10 @@ Enabled
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (157 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1547 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (155 casks)
-==> Contents of $LOAD_PATH
+==> $LOAD_PATHS
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.42.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.7.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.7.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rexml-3.2.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.5.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mechanize-2.7.6/lib
@@ -31,12 +25,21 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/zeitwerk-2.4.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tzinfo-1.2.7/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/thread_safe-0.3.6/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/i18n-1.8.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/i18n-1.8.5/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/concurrent-ruby-1.1.6/lib/concurrent-ruby
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
-==> Environment Variables
-LC_ALL="en_US.UTF-8"
-PATH="/usr/local/Homebrew/Library/Homebrew/shims/scm:/usr/bin:/bin:/usr/sbin:/sbin"
-SHELL="/usr/local/bin/bash"
+==> Cask Environment Variables:
+BUNDLE_PATH
+CHRUBY_VERSION
+GEM_HOME
+GEM_PATH
+HOMEBREW_CASK_OPTS
+LC_ALL
+PATH
+RBENV_VERSION
+RUBYLIB
+RUBYOPT
+RUBYPATH
+SHELL

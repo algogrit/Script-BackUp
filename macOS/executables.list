@@ -132,6 +132,7 @@ appletviewer
 apply
 appres
 appsleepd
+aprofutil
 apropos
 apt
 ar
@@ -773,6 +774,7 @@ findrule
 findrule5.18
 finger
 fipstest
+firebase
 firmwarepasswd
 fitstopnm
 fix-qdf
@@ -950,6 +952,7 @@ giftext
 giftogd2
 giftool
 giftopnm
+gimp
 gin
 ginkgo
 ginstall
@@ -1914,6 +1917,7 @@ monodocer
 monodocs2html
 monodocs2slashdoc
 monolinker
+monolith
 monop
 monop2
 montage
