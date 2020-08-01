@@ -71,4 +71,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   python@2
   docker-compose
 Error: unknown or unsupported macOS version: :mountain_lion
-391 kegs, 313,320 files, 11.8GB
+391 kegs, 313,330 files, 11.8GB
