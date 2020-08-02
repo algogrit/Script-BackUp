@@ -3546,7 +3546,7 @@ x265
 x86_64-apple-darwin18-c++-10
 x86_64-apple-darwin18-g++-10
 x86_64-apple-darwin18-gcc-10
-x86_64-apple-darwin18-gcc-10.1.0
+x86_64-apple-darwin18-gcc-10.2.0
 x86_64-apple-darwin18-gcc-ar-10
 x86_64-apple-darwin18-gcc-nm-10
 x86_64-apple-darwin18-gcc-ranlib-10
