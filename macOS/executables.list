@@ -491,7 +491,6 @@ cupstestppd
 curl
 curl-config
 cut
-cuttlefish
 cvadmin
 cvaffinity
 cvcp
