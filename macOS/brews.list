@@ -13,6 +13,7 @@ autoconf
 autoenv
 automake
 aws-iam-authenticator
+awscli
 awscli@1
 bash
 bash-completion
