@@ -378,8 +378,6 @@ clean-diff
 clear
 clef
 clhsdb
-cli_mt
-cli_st
 cloc
 cloog
 cluster
@@ -1705,7 +1703,6 @@ llvm-g++
 llvm-gcc
 ln
 lndir
-load_gen
 loads.d
 locale
 localedef
@@ -3715,6 +3712,7 @@ zkCleanup
 zkCli
 zkServer
 zkServer-initialize
+zkSnapShotToolkit
 zkTxnLogToolkit
 zless
 zlib-flate
