@@ -345,6 +345,7 @@ szip
 tbb
 terminal-notifier
 terraform
+terraform@0.12
 tesseract
 texi2html
 texinfo
