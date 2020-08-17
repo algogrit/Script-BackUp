@@ -343,6 +343,7 @@ swi-prolog
 swiftlint
 szip
 tbb
+telnet
 terminal-notifier
 terraform
 terraform@0.12

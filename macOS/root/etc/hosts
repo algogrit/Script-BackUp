@@ -13,12 +13,17 @@
 127.0.0.1 kubernetes.docker.internal
 # End of section
 
-# Custom Temporary Routing
+# Work
+## Custom Temporary Routing
+
+### K8s Class
+127.0.0.1 dashboard.yaes-local.com
+127.0.0.1 yaes-local.com
+
+### Roll
 127.0.0.1 local.tryroll.com
 127.0.0.1 api.local.tryroll.com
 127.0.0.1 oauth.local.tryroll.com
-
-# Work
 
 # Productivity Hack - It's not difficult to make the choices. The hard part is to actually live with them.
 0.0.0.0 twitter.com
