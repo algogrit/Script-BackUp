@@ -1439,7 +1439,6 @@ iofileb.d
 iopattern
 iopending
 ioreg
-ios-deploy
 iosnoop
 iostat
 iotop

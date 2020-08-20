@@ -3,19 +3,19 @@ facebook/fb: 5 formulae
 From: https://github.com/facebook/homebrew-fb
 
 heroku/brew: 2 formulae
-/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (248 files, 133.2KB)
+/usr/local/Homebrew/Library/Taps/heroku/homebrew-brew (252 files, 135.4KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,333 files, 1.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,352 files, 1.3MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 1 command, 3631 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,764 files, 174.6MB)
+homebrew/cask: 1 command, 3636 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3,817 files, 176MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 157 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,604 files, 4.0MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (2,608 files, 4MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1556 casks
@@ -23,15 +23,15 @@ homebrew/cask-fonts: 1556 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 159 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,679 files, 65.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,739 files, 65.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 2 commands, 5185 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,218 files, 82.1MB)
+homebrew/core: 2 commands, 5190 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,332 files, 86.3MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (360 files, 326.6KB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services (374 files, 346.7KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 37 formulae
