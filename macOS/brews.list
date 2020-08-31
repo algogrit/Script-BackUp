@@ -112,6 +112,7 @@ go
 gobject-introspection
 goenv
 golang-migrate
+golangci-lint
 gource
 gradle
 graphicsmagick

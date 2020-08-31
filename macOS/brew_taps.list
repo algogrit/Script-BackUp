@@ -1,4 +1,5 @@
 facebook/fb
+golangci/tap
 heroku/brew
 homebrew/bundle
 homebrew/cask

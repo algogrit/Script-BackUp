@@ -1109,6 +1109,7 @@ goenv-install
 goenv-uninstall
 gofmt
 goimports
+golangci-lint
 golint
 gomodifytags
 gopkgs
