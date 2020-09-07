@@ -143,6 +143,7 @@ imagemagick@6
 imlib2
 isl
 jack
+jansson
 jasper
 jemalloc
 jenkins
