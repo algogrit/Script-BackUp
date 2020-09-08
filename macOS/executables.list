@@ -378,7 +378,9 @@ clean-diff
 clear
 clef
 clhsdb
+clj
 cloc
+clojure
 cloog
 cluster
 clusterdb
@@ -2911,6 +2913,7 @@ ri
 rlatopam
 rletopnm
 rlpdump
+rlwrap
 rm
 rmdir
 rmic

@@ -32,6 +32,7 @@ cassandra
 chicken
 circleci
 cloc
+clojure
 cloog
 cmake
 colortail
@@ -306,6 +307,7 @@ re2c
 readline
 redis
 ripgrep
+rlwrap
 rsync
 rtmpdump
 rubberband
