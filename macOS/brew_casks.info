@@ -1,5 +1,6 @@
+Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
 ==> Homebrew Version
-2.4.16
+2.5.0
 ==> macOS
 10.14.6
 ==> SIP
