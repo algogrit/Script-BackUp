@@ -1,30 +1,22 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
-==> Homebrew Version
-2.5.0
-==> macOS
-10.14.6
-==> SIP
-Enabled
-==> Java
-14.0.2, 1.8.0_265
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3657 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3658 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (159 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1561 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (160 casks)
 ==> $LOAD_PATHS
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.43.2/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.7.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.8.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.5.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/patchelf-1.3.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mechanize-2.7.6/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/elftools-1.1.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bindata-2.4.8/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.0.3.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.0.3.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/zeitwerk-2.4.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tzinfo-1.2.7/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/thread_safe-0.3.6/lib
@@ -46,3 +38,11 @@ RUBYLIB
 RUBYOPT
 RUBYPATH
 SHELL
+==> Homebrew Version
+2.5.1
+==> macOS
+10.14.6
+==> SIP
+Enabled
+==> Java
+14.0.2, 1.8.0_265
