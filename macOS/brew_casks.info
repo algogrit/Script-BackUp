@@ -3,7 +3,7 @@ Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose inste
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3657 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (159 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (160 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1561 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (160 casks)
 ==> $LOAD_PATHS

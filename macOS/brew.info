@@ -11,6 +11,7 @@ You should find replacements for the following formulae:
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   erlang@20
+  helm@2
   protobuf@3.7
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
