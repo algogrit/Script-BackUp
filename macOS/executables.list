@@ -1512,7 +1512,6 @@ jack_transport_client
 jack_unload
 jack_wait
 jackd
-jaotc
 jar
 jarsigner
 jasper
@@ -1530,7 +1529,6 @@ jcmd
 jconsole
 jcontrol
 jdb
-jdeprscan
 jdeps
 jdiff
 jemalloc-config
@@ -1545,16 +1543,13 @@ jhsdb
 jimage
 jinfo
 jjs
-jlink
 jmap
 jmc
 jmeter
-jmod
 jobb
 jobs
 join
 jot
-jpackage
 jpeg2ktopam
 jpegtopnm
 jpegtran
