@@ -401,6 +401,7 @@ colldef
 colortail
 colrm
 column
+com.docker.cli
 comm
 command
 comp_err
