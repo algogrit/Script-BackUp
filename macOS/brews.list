@@ -25,6 +25,7 @@ boost
 brightness
 buck
 byobu
+cabextract
 cairo
 carthage
 cask-repair
@@ -382,6 +383,7 @@ watch
 watchman
 webp
 wget
+winetricks
 wrk
 wxmac
 x264
