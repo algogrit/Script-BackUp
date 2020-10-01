@@ -168,7 +168,6 @@ cd "$ACTUAL_WD"
 
 echo "\033[1;31m/etc/hosts...\033[0m"
 echo "Current: `cat /etc/hosts | grep Updated | awk '{print $4}'`"
-echo "Latest: `curl http://winhelp2002.mvps.org/hosts.txt > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep Updated | awk '{print $4}'`"
-
+echo "Latest: `curl https://winhelp2002.mvps.org/hosts.txt > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep Updated | awk '{print $4}'`"
 
 echo "\033[1;31mCOMPLETED!\033[0m"
