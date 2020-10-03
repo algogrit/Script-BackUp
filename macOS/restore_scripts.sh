@@ -184,6 +184,5 @@ echo "\033[1;31mReseting password restrictions...\033[0m"
 pwpolicy -clearaccountpolicies
 passwd
 
-
 unalias cp
 unalias rm
