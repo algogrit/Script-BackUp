@@ -297,6 +297,7 @@ pyenv-virtualenv
 pyenv-virtualenvwrapper
 python@2
 python@3.8
+python@3.9
 qhull
 qpdf
 qrupdate

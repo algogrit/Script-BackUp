@@ -1,6 +1,6 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
 ==> Homebrew Version
-2.5.2
+2.5.4
 ==> macOS
 10.14.6
 ==> SIP
@@ -10,7 +10,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3675 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3674 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (161 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1565 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (161 casks)
