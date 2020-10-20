@@ -10,9 +10,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3682 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3684 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (161 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1565 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1566 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (162 casks)
 ==> $LOAD_PATHS
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-stub-0.2.0/lib
