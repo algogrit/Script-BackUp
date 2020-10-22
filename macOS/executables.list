@@ -3055,6 +3055,7 @@ showrgb
 shred
 shuf
 shutdown
+shutdowntest
 sidxindex
 siege
 siege.config
