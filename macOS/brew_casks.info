@@ -6,7 +6,7 @@ Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose inste
 ==> SIP
 Enabled
 ==> Java
-15, 14.0.2, 1.8.0_265
+15, 14.0.2, 1.8.0_272
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
