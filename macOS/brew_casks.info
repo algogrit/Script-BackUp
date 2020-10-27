@@ -1,16 +1,6 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
-==> Homebrew Version
-2.5.6
-==> macOS
-10.14.6
-==> SIP
-Enabled
-==> Java
-15, 14.0.2, 1.8.0_272
-==> Homebrew Cask Staging Location
-/usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3687 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3692 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (162 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1566 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (162 casks)
@@ -18,7 +8,7 @@ Enabled
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-stub-0.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-sorbet-0.5.1/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.43.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-1.44.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.8.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.10.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.5.0/lib
@@ -49,3 +39,13 @@ RUBYLIB
 RUBYOPT
 RUBYPATH
 SHELL
+==> Homebrew Version
+2.5.7
+==> macOS
+10.14.6
+==> SIP
+Enabled
+==> Java
+15, 14.0.2, 1.8.0_272
+==> Homebrew Cask Staging Location
+/usr/local/Caskroom
