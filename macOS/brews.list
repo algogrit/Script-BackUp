@@ -285,6 +285,7 @@ popt
 postgresql
 postgresql@10
 postgresql@11
+postgresql@12
 pow
 protobuf
 protobuf@3.7

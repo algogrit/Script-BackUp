@@ -72,5 +72,6 @@
   "go.useLanguageServer": true,
   "python.languageServer": "Microsoft",
   "java.semanticHighlighting.enabled": true,
-  "java.refactor.renameFromFileExplorer": "autoApply"
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "workbench.editor.enablePreview": false
 }

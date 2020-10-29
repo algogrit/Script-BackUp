@@ -70,4 +70,5 @@ Leaving kegs unlinked can lead to build-trouble and cause brews that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   python@2
   docker-compose
+  python@3.9
 Error: unknown or unsupported macOS version: :mountain_lion
