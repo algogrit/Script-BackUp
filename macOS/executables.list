@@ -207,6 +207,8 @@ batch
 bc
 bcomps
 bd_info
+bd_list_titles
+bd_splice
 bdftogd
 bdftopcf
 bdftruncate
