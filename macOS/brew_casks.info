@@ -1,6 +1,6 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3695 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3699 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (162 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1567 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (165 casks)
@@ -40,7 +40,7 @@ RUBYOPT
 RUBYPATH
 SHELL
 ==> Homebrew Version
-2.5.7
+2.5.8
 ==> macOS
 10.14.6
 ==> SIP

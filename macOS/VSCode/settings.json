@@ -70,8 +70,14 @@
   "C_Cpp.updateChannel": "Insiders",
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
+  "go.testEnvVars": {
+    "DEBUG": true,
+    "DATABASE_URL": "postgres://gaurav@localhost:5432/roll-test?sslmode=disable",
+    "DATABASE_DIALECT": "postgres"
+  },
   "python.languageServer": "Microsoft",
   "java.semanticHighlighting.enabled": true,
   "java.refactor.renameFromFileExplorer": "autoApply",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "workbench.settings.editor": "json"
 }
