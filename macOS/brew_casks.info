@@ -1,6 +1,6 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3699 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3701 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (162 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1567 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (165 casks)
