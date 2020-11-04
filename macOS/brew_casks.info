@@ -1,8 +1,8 @@
 Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose instead.
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3703 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (163 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1568 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3704 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (164 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1570 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (165 casks)
 ==> $LOAD_PATHS
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-stub-0.2.0/lib
