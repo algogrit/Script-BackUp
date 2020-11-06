@@ -8,6 +8,9 @@ alias vp="vimpager"
 alias bat="PAGER=less bat"
 alias cat="bat"
 
+# Search improvements
+alias ag='ag --path-to-ignore ~/.ignore'
+
 # Remove pesky Apple Turd files
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
 alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"

@@ -193,6 +193,7 @@ libogg
 libomp
 libplist
 libpng
+libpthread-stubs
 librsvg
 libsamplerate
 libscrypt
@@ -212,6 +213,11 @@ libvo-aacenc
 libvorbis
 libvpx
 libvterm
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
 libxml2
 libyaml
 libzip
@@ -392,6 +398,7 @@ x264
 x265
 xctool
 xmlto
+xorgproto
 xvid
 xxhash
 xz

@@ -82,6 +82,9 @@ cp ~/.bash* .
 cp ~/.gitconfig .
 cp ~/.gitignore .
 
+# Copy ag ignore config
+cp ~/.ignore .
+
 # Copy tigrc
 cp ~/.tigrc .
 

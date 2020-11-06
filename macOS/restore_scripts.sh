@@ -83,6 +83,7 @@ echo "\033[1;31mChanging Shell...\033[0m"
 chsh -s /usr/local/bin/bash
 
 echo "\033[1;31mRestoring other configs...\033[0m"
+cp ~/Script-BackUp/macOS/.ignore ~/
 cp ~/Script-BackUp/macOS/.gitconfig ~/
 cp ~/Script-BackUp/macOS/.gitignore ~/
 cp ~/Script-BackUp/macOS/.tigrc ~/
