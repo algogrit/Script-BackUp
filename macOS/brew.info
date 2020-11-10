@@ -14,7 +14,8 @@ Alternatively, manually download them from:
   https://developer.apple.com/download/more/.
 
 
-Warning: Some installed formulae were deleted!
+Warning: Some installed kegs have no formulae!
+This means they were either deleted or installed with `brew diy`.
 You should find replacements for the following formulae:
   python@2
   mongodb
