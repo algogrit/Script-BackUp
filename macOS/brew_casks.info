@@ -2,7 +2,7 @@ Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose inste
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3708 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3709 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (165 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1571 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (165 casks)
