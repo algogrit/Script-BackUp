@@ -24,6 +24,7 @@ You should find replacements for the following formulae:
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   erlang@20
+  helm@2
   ntfs-3g
   protobuf@3.7
 

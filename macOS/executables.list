@@ -704,7 +704,6 @@ ethkey
 event_rpcgen.py
 evm
 ex
-examples
 execsnoop
 exercism
 expand
@@ -1516,6 +1515,7 @@ jack_transport_client
 jack_unload
 jack_wait
 jackd
+jaotc
 jar
 jarsigner
 jasper
@@ -1533,6 +1533,7 @@ jcmd
 jconsole
 jcontrol
 jdb
+jdeprscan
 jdeps
 jdiff
 jemalloc-config
@@ -1548,13 +1549,16 @@ jimage
 jinfo
 jiv
 jjs
+jlink
 jmap
 jmc
 jmeter
+jmod
 jobb
 jobs
 join
 jot
+jpackage
 jpeg2ktopam
 jpegtopnm
 jpegtran

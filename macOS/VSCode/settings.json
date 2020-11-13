@@ -9,7 +9,7 @@
   "files.trimFinalNewlines": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "[java]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true
@@ -37,7 +37,7 @@
   "files.autoSave": "off",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home",
+  "java.home": "/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
