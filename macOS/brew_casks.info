@@ -6,11 +6,11 @@ Warning: Calling brew cask doctor is deprecated! Use brew doctor --verbose inste
 ==> SIP
 Enabled
 ==> Java
-15, 14.0.2, 1.8.0_272
+15, 14.0.2, 1.8.0_275
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3715 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3717 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (166 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1571 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (166 casks)
