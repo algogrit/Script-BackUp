@@ -15,27 +15,27 @@ heroku/brew: 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,513 files, 1.4MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (1,532 files, 1.4MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 1 command, 3717 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,155 files, 190.0MB)
+homebrew/cask: 1 command, 3719 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (4,159 files, 190.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 166 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (3,445 files, 5MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (3,476 files, 5.1MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1571 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,698 files, 26.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,786 files, 27.8MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
-homebrew/cask-versions: 166 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (8,571 files, 68MB)
+homebrew/cask-versions: 167 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (8,610 files, 68.1MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: 2 commands, 5344 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,053 files, 79.8MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,087 files, 85.0MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
@@ -43,7 +43,7 @@ homebrew/services: 1 command
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 38 formulae
-/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (311 files, 247.1KB)
+/usr/local/Homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (314 files, 250.4KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: 4 formulae
