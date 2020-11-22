@@ -23,6 +23,7 @@ You should find replacements for the following formulae:
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
+  drip
   erlang@20
   helm@2
   ntfs-3g
@@ -87,4 +88,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   docker-compose
   python@3.9
 Error: unknown or unsupported macOS version: :mountain_lion
-410 kegs, 359,590 files, 12.5GB
+410 kegs, 358,566 files, 12.5GB
