@@ -77,6 +77,7 @@ accton
 ack
 aclocal
 aclocal-1.16
+acountry
 activate
 activate.csh
 activate.fish
@@ -84,6 +85,7 @@ actool
 acyclic
 addbuiltin
 addftinfo
+adig
 afclip
 afconvert
 affixcompress
@@ -97,6 +99,7 @@ ag
 agentxtrap
 aggregate_profile.pl
 agvtool
+ahost
 airport
 al
 al2
@@ -242,6 +245,7 @@ bq
 brctl
 brew
 brightness
+brotli
 brushtopbm
 bsdtar
 bsondump
@@ -564,6 +568,7 @@ debinhex.pl
 debinhex5.18.pl
 debug-cql
 defaults
+deflatehd
 defragcli
 delaunay
 delv
@@ -1257,6 +1262,7 @@ gyes
 gzcat
 gzexe
 gzip
+h2load
 h2ph
 h2ph5.18
 h2xs
@@ -1428,6 +1434,7 @@ indexer
 indextool
 indxbib
 inetcat
+inflatehd
 info
 infocmp
 infokey
@@ -1749,14 +1756,14 @@ lsvfs
 lto-dump-10
 lua
 lua-5.1
-lua-5.3
+lua-5.4
 lua5.1
-lua5.3
+lua5.4
 luac
 luac-5.1
-luac-5.3
+luac-5.4
 luac5.1
-luac5.3
+luac5.4
 luajit
 luajit-2.0.5
 luit
@@ -2077,6 +2084,9 @@ nfsiod
 nfsstat
 ng
 ngettext
+nghttp
+nghttpd
+nghttpx
 nginx
 ngrok
 nice
