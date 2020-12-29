@@ -502,6 +502,7 @@ cupstestdsc
 cupstestppd
 curl
 curl-config
+curve_keygen
 cut
 cvadmin
 cvaffinity
@@ -3755,6 +3756,7 @@ zless
 zlib-flate
 zlib_decompress
 zmore
+zmqsend
 zmqshell.py
 znew
 zookeeper-security-migration
