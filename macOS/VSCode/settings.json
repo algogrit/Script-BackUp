@@ -9,7 +9,7 @@
   "files.trimFinalNewlines": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 4,
+  "window.zoomLevel": 0,
   "[java]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true

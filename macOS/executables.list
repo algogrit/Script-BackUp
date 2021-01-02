@@ -1312,6 +1312,7 @@ heif-enc
 heif-info
 heif-thumbnailer
 helm
+helm3
 heroku
 hexdump
 hg
