@@ -808,6 +808,7 @@ format-sql
 format-sql5.18
 fortune
 fourcc2pixfmt
+freebl_gtest
 freetype-config
 fribidi
 from
@@ -2401,7 +2402,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.32.0
+perl5.32.1
 perlbug
 perlbug5.18
 perldoc
