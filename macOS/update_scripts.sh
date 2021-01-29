@@ -35,14 +35,14 @@ brew cleanup
 
 echo "\033[1;31mList brew related stuff...\033[0m"
 # List of Brew installations
-brew list > brews.list
+brew list --formula > brews.list
 
 # List of Brew taps
 brew tap > brew_taps.list
 brew tap | xargs brew tap-info > brew_taps.info
 
 # List of Brew Cask Installations
-brew cask list > brew_casks.list
+brew list --cask > brew_casks.list
 
 # List of mac App Store installed apps
 mas list > mas.list
@@ -148,11 +148,8 @@ ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | s
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null
 
 echo "\033[1;31mBrew info...\033[0m"
-brew doctor 2>&1 | tee brew.info
+brew doctor --verbose 2>&1 | tee brew.info
 brew info 2>&1 | tee -a brew.info
-
-echo "\033[1;31mBrew Cask Info...\033[0m"
-brew cask doctor 2>&1 | tee brew_casks.info
 
 echo "\033[1;31mOutdated brews...\033[0m"
 brew outdated
