@@ -9,7 +9,6 @@
   "files.trimFinalNewlines": true,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "window.zoomLevel": 2,
   "[java]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true
@@ -79,5 +78,6 @@
   "java.semanticHighlighting.enabled": true,
   "java.refactor.renameFromFileExplorer": "autoApply",
   "workbench.editor.enablePreview": false,
-  "workbench.settings.editor": "json"
+  "workbench.settings.editor": "json",
+  "window.zoomLevel": 1
 }
