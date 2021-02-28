@@ -225,6 +225,7 @@ libxcb
 libxdmcp
 libxext
 libxml2
+libxrender
 libyaml
 libzip
 little-cms2
@@ -247,6 +248,7 @@ monetdb
 mongodb
 mp3splt
 mp3wrap
+mpdecimal
 mpfr
 mplayer
 mps-youtube
