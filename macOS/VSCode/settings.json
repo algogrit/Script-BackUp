@@ -78,6 +78,5 @@
   "java.semanticHighlighting.enabled": true,
   "java.refactor.renameFromFileExplorer": "autoApply",
   "workbench.editor.enablePreview": false,
-  "workbench.settings.editor": "json",
-  "window.zoomLevel": 2
+  "workbench.settings.editor": "json"
 }
