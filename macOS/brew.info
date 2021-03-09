@@ -21,7 +21,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-sorbet-0.5.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.9.1/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.9.2/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.10.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.10.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-2.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
@@ -40,7 +40,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-support-3.10.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ronn-0.7.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rexml-3.2.4/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/regexp_parser-2.0.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/regexp_parser-2.1.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rdiscount-2.2.0.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/rdiscount-2.2.0.2
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rack-2.2.3/lib
@@ -113,7 +113,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew
 /usr/bin/swift /usr/local/Homebrew/Library/Homebrew/cask/utils/quarantine.swift
 ==> Homebrew Version
-3.0.3
+3.0.4
 ==> macOS
 10.14.6
 /usr/bin/xattr
@@ -122,8 +122,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3836 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (183 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3850 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (185 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1712 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (176 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -224,4 +224,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 /usr/local/Homebrew/Library/Homebrew/formulary.rb:55: warning: already initialized constant Formulary::FormulaNamespace320f549f442ebc4e8ed6131e6fd4429c
 /usr/local/Homebrew/Library/Homebrew/formulary.rb:55: warning: previous definition of FormulaNamespace320f549f442ebc4e8ed6131e6fd4429c was here
 Error: unknown or unsupported macOS version: :mountain_lion
-425 kegs, 361,169 files, 12.8GB
+430 kegs, 373,065 files, 13.0GB
