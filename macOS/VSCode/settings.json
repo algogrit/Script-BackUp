@@ -79,5 +79,13 @@
   "java.refactor.renameFromFileExplorer": "autoApply",
   "workbench.editor.enablePreview": false,
   "workbench.settings.editor": "json",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 3,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ]
 }

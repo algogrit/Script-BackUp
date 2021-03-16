@@ -379,6 +379,7 @@ telnet
 terminal-notifier
 terraform
 terraform@0.12
+terrascan
 tesseract
 texi2html
 texinfo

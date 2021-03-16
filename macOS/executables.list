@@ -3153,7 +3153,12 @@ sigdist.d
 signcode
 signtool
 signver
-sip
+sip-build
+sip-distinfo
+sip-install
+sip-module
+sip-sdist
+sip-wheel
 sips
 sirtopnm
 site-speedtest
@@ -3371,6 +3376,7 @@ tee
 telnet
 terminal-notifier
 terraform
+terrascan
 tesseract
 test
 texi2dvi

@@ -122,9 +122,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3851 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (185 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1712 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3856 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (184 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1713 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (176 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -224,4 +224,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 /usr/local/Homebrew/Library/Homebrew/formulary.rb:55: warning: already initialized constant Formulary::FormulaNamespace320f549f442ebc4e8ed6131e6fd4429c
 /usr/local/Homebrew/Library/Homebrew/formulary.rb:55: warning: previous definition of FormulaNamespace320f549f442ebc4e8ed6131e6fd4429c was here
 Error: unknown or unsupported macOS version: :mountain_lion
-430 kegs, 373,085 files, 13.0GB
+431 kegs, 374,151 files, 13GB
