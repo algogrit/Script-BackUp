@@ -237,9 +237,11 @@ lua
 lua@5.1
 luajit
 luajit-openresty
+luv
 lynx
 lz4
 lzo
+m4
 mad
 make
 mas
