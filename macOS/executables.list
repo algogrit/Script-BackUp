@@ -3825,6 +3825,7 @@ zkCli
 zkServer
 zkServer-initialize
 zkSnapShotToolkit
+zkSnapshotComparer
 zkTxnLogToolkit
 zless
 zlib-flate
