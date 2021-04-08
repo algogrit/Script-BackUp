@@ -121,7 +121,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3896 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3897 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (188 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1718 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (178 casks)
@@ -221,4 +221,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   lua@5.1
   docker-compose
 Error: unknown or unsupported macOS version: :mountain_lion
-433 kegs, 373,006 files, 13GB
+433 kegs, 373,413 files, 13GB

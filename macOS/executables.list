@@ -1657,6 +1657,8 @@ kafka-streams-application-reset
 kafka-topics
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kav
+kav_sysextctrl
 kcc
 kdcsetup
 kdestroy
