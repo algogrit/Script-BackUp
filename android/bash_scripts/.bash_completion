@@ -3,3 +3,7 @@ echo -e "\033[1;36m~/bash_scripts/.bash_completion Loaded\033[0m"
 complete -F _ssh tssh
 
 source ~/bash_scripts/custom_completion/.git_commands
+
+for file in /data/data/com.termux/files/usr/etc/bash_completion.d/git-* ; do
+  source "$file"
+done

@@ -22,11 +22,11 @@ export GOPATH=$GOENV_ROOT
 export PATH="$GOPATH/bin:$PATH"
 export GOENV_DISABLE_GOROOT=1
 export GOENV_DISABLE_GOPATH=1
-eval "$(goenv init -)"
+if which goenv > /dev/null; then eval "$(goenv init -)"; fi
 
 ## jenv
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 #### CUSTOM
 
