@@ -18,14 +18,5 @@ source ~/bash_scripts/.bash_custom_functions
 # Sourcing Aliases
 source ~/bash_scripts/.aliases
 
-# Sourcing Z
-. `brew --prefix`/etc/profile.d/z.sh
-
-# Sourcing Autoenv
-source /usr/local/opt/autoenv/activate.sh
-
-# Sourcing Direnv
-eval "$(direnv hook bash)"
-
 # Clear history
 > ~/.bash_history && history -c
