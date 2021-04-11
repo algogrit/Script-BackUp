@@ -1,0 +1,14 @@
+#! /usr/bin/env ruby
+
+require 'json'
+
+input_file_name = ARGV.first || '/tmp/input.rb'
+output_file_name = ARGV[1] || '/tmp/output.json'
+
+File.open(output_file_name, 'w+') do |output_file|
+  File.open(input_file_name).each_line do |entry|
+    output_file.puts eval(entry).to_json
+  end
+end
+
+puts "Written to #{output_file_name}"

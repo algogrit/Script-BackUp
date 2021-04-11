@@ -1,0 +1,24 @@
+echo -e "\033[1;36m~/bash_scripts/.bash_customizations Loaded\033[0m"
+
+# Globstar: New Bash Globbing Option
+shopt -s globstar
+
+# Setting Lang
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+
+# Window Name
+export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+
+# Set LSCOLORS when CLICOLOR is enabled
+export LSCOLORS="ecfxcxdxbxegedabagacad"
+
+# Show dirty state
+export GIT_PS1_SHOWDIRTYSTATE=true
+
+function parse_git_branch {
+  echo "$(__git_ps1)"
+}
+
+# Formatting bash prompt
+export PS1=$"\[\033[1;36m\]\w:\$(parse_git_branch) $ \[\033[0m\]"

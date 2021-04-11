@@ -1,0 +1,31 @@
+echo -e "\033[1;36m~/bash_scripts/.bash_load Loaded\033[0m"
+
+# Sourcing Bash Completion
+source ~/bash_scripts/.bash_completion
+
+# Sourcing Bash Paths
+source ~/bash_scripts/.bash_paths
+
+# Sourcing Bash Customizations
+source ~/bash_scripts/.bash_customizations
+
+# Sourcing Bash Languages
+source ~/bash_scripts/.bash_languages
+
+# Sourcing Bash Custom Functions
+source ~/bash_scripts/.bash_custom_functions
+
+# Sourcing Aliases
+source ~/bash_scripts/.aliases
+
+# Sourcing Z
+. `brew --prefix`/etc/profile.d/z.sh
+
+# Sourcing Autoenv
+source /usr/local/opt/autoenv/activate.sh
+
+# Sourcing Direnv
+eval "$(direnv hook bash)"
+
+# Clear history
+> ~/.bash_history && history -c

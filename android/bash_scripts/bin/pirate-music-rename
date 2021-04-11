@@ -1,0 +1,56 @@
+#! /usr/bin/env ruby
+
+folder_paths = ARGV
+types = ['mp3', 'm4a']
+
+dry_run = false
+
+if folder_paths.include?("-n")
+  dry_run = true
+  folder_paths = folder_paths - ["-n"]
+  puts "Dry Run.."
+end
+
+if folder_paths.empty?
+  folder_paths = ["."]
+end
+
+def get_new_name(file_name, folder_path, type)
+  new_name = file_name
+
+  if file_name.downcase.index("downloadming.se")
+    new_name_list = file_name.split('/').last.split("-").drop(1)
+    new_name_list.pop
+    new_name = new_name_list.map(&:strip).join(" - ") + (".#{type}")
+  elsif file_name.downcase.index("songs") && file_name.downcase.index("pk")
+    songspk_suffix = [" [Songspk.name]", " [Songspk.LINK]"]
+
+    cleanup_name = file_name.split('/').last.split("-")[2..-1]
+    cleanup_name = cleanup_name.map { |name| songspk_suffix.reduce(name) {|memo, suffix| memo.gsub(suffix, '') }  }
+    if cleanup_name
+      new_name = cleanup_name.map(&:strip).join(" - ")
+      new_name = "#{folder_path}/#{new_name}"
+    end
+  elsif file_name.index(/\d\d\.\s/)
+    new_name = file_name.split(" ")[1..-1].join(" ").strip
+  end
+
+  new_name
+end
+
+folder_paths.each do |folder_path|
+  types.each do |type|
+    files_map = Dir.glob("#{folder_path}/*.#{type}").reduce({}) do |rename_mapping, file_name|
+      rename_mapping[file_name] = get_new_name(file_name, folder_path, type)
+      rename_mapping
+    end
+
+    files_map.each do |original_name, new_name|
+      puts "\t#{original_name}\t\t=>\t\t#{new_name}"
+
+      unless dry_run
+        File.rename(original_name, "#{folder_path}/#{new_name}")
+      end
+    end
+  end
+end

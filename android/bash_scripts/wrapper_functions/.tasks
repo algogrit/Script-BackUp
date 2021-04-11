@@ -1,0 +1,27 @@
+function tasks-dir {
+  echo ${1:-"/Users/gaurav/Developer/Tasks"}
+}
+
+function todays-tasks-file {
+  echo $(tasks-dir $@)/Daily/`date +%Y-%m-%d`.md
+}
+
+function latest-tasks-file {
+  echo `ls $(tasks-dir $@)/Daily/*.md | tail -n 1`
+}
+
+function todays-tasks {
+  bat `todays-tasks-file $@`
+}
+
+function todays-tasks-e {
+  $EDITOR `todays-tasks-file $@`
+}
+
+function latest-tasks {
+  bat `latest-tasks-file $@`
+}
+
+function latest-tasks-e {
+  $EDITOR `latest-tasks-file $@`
+}

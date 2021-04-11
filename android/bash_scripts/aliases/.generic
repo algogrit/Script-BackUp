@@ -1,0 +1,76 @@
+echo -e "\033[1;36m~/bash_scripts/aliases/.generic Loaded\033[0m"
+
+# Generic Aliases
+alias c="clear"
+alias ls="ls -GAF"
+alias bat="PAGER=less bat"
+alias cat="bat"
+
+# Search improvements
+alias ag='ag --path-to-ignore ~/.ignore'
+
+# Remove pesky Apple Turd files
+alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
+alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
+
+# Git Aliases
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gru="git remote update"
+alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
+
+# Http Server
+alias pyHttpServer="python -m http.server"
+
+# Spotlight
+alias stop_spotlight="sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
+alias start_spotlight="sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"
+
+# Generic UNIX utils
+alias cat-without-first-line='awk FNR-1'
+alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
+
+# Music
+alias play_music="mplayer -novideo -loop 0 -shuffle"
+
+# Java
+alias jenv-add-list="/usr/libexec/java_home -V"
+
+# Ruby
+alias bx='bundle exec'
+alias rails_db_reset="bundle exec rake db:drop db:create db:migrate db:seed"
+alias test_db_reset="RAILS_ENV=test bundle exec rake db:drop db:create db:migrate db:seed"
+alias railsdb="bundle exec rails dbconsole"
+
+# Project Resources
+export PROJECT_RESOURCES_REPO="git@bitbucket.org:algogrit/project-resources.git"
+alias gcpr="git clone $PROJECT_RESOURCES_REPO"
+alias gcprb="cat project-resources.branch | xargs -n 1 git clone $PROJECT_RESOURCES_REPO -b"
+alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
+
+# Presentation Template
+export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
+alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
+
+# Project Tasks
+export PROJECT_TASKS_REPO="git@bitbucket.org:algogrit/project-tasks.git"
+alias gcprot="git clone $PROJECT_TASKS_REPO"
+alias gcprotb="cat project-tasks.branch | xargs -n 1 git clone $PROJECT_TASKS_REPO -b"
+
+# Landing Page Template
+export LANDING_PAGE_TEMPLATE_REPO="git@github.com:algogrit/landing-page-template.git"
+alias gclpt="git clone $LANDING_PAGE_TEMPLATE_REPO"
+
+# Node modules
+alias find_all_node_modules="find . -name 'node_modules'"
+alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"
+
+# Docker
+alias docker-rm-exited="docker ps -aq --no-trunc -f status=exited | xargs docker rm"
+alias docker-rmi-dangling="docker images -f 'dangling=true' -q | xargs docker rmi"
+alias docker-clean-up="docker-rm-exited && docker-rmi-dangling"
+
+# Personalised
+alias about-me="cat ~/Developer/Algogrit/algogrit.com/About-Me.md"
+
+alias cloc-g='cloc --vcs=git'

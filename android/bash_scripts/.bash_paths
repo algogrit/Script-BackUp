@@ -1,0 +1,41 @@
+echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
+
+# HOMEBREW - Editing in the /etc/paths instead
+# export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+### Languages
+
+# Elm
+export ELM_HOME=~/.elm
+
+# Language Version Managers
+## nodenv
+export PATH="$HOME/.nodenv/bin:$PATH"
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
+## pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; eval "$(pyenv virtualenv-init -)"; fi
+
+## goenv
+export GOENV_ROOT="$HOME/.goenv"
+export GOPATH=$GOENV_ROOT
+export PATH="$GOPATH/bin:$PATH"
+export GOENV_DISABLE_GOROOT=1
+export GOENV_DISABLE_GOPATH=1
+eval "$(goenv init -)"
+
+## jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+#### CUSTOM
+
+# Load custom git commands
+echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+export PATH="$HOME/Custom-Git-Commands:$PATH"
+
+# Adding ~/bin to the PATH
+export PATH="$HOME/bin:$PATH"
+
+# ADDING snippet_programs to the PATH
+export PATH="$HOME/bash_scripts/bin:$PATH"

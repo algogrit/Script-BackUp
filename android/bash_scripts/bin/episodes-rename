@@ -1,0 +1,63 @@
+#! /usr/bin/env ruby
+
+folder_paths = ARGV
+types = ['avi', 'mp4', 'srt', 'mkv', 'ass']
+
+dry_run = false
+
+if folder_paths.include?("-n")
+  dry_run = true
+  folder_paths = folder_paths - ["-n"]
+  puts "Dry Run.."
+end
+
+if folder_paths.empty?
+  folder_paths = ["."]
+end
+
+def get_new_name(file_name, folder_path, type)
+  new_name = file_name
+
+  index_offset_map = {
+    /S\d\dE\d\d/ => 4, # S01E01
+    /S\d\d.E\d\d/ => 5, # S01 E01
+    /s\d\de\d\d/ => 4, # s01e01
+    /\.\d\d\d\./ => 2, # .101.
+    /x\d\d/ => 1  # x01
+  }
+
+  matching_pattern = index_offset_map.select {|pattern, offset| file_name.index(pattern) }
+
+  if !matching_pattern.empty?
+    index = file_name.index(matching_pattern.keys.first)
+    offset = matching_pattern.values.first
+
+    start_index = index + offset
+    end_index = start_index + 1
+
+    episode_id = file_name[start_index..end_index]
+    episode_number = episode_id.to_i
+    episode_id = episode_number.to_s.rjust(2, "0")
+
+    new_name = "#{folder_path}/Episode #{episode_id}.#{type}"
+  end
+
+  new_name
+end
+
+folder_paths.each do |folder_path|
+  types.each do |type|
+    files_map = Dir.glob("#{folder_path}/*.#{type}").reduce({}) do |rename_mapping, file_name|
+      rename_mapping[file_name] = get_new_name(file_name, folder_path, type)
+      rename_mapping
+    end
+
+    files_map.sort.each do |original_name, new_name|
+      puts "\t#{original_name}\t\t=>\t\t#{new_name}"
+
+      unless dry_run
+        File.rename(original_name, "#{new_name}")
+      end
+    end
+  end
+end
