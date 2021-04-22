@@ -706,6 +706,7 @@ encode_keychange
 encodeinttest
 endpointscfg.py
 enscript
+enum_options
 env
 envsubst
 envvars
@@ -1634,6 +1635,7 @@ kadmin
 kadmin.local
 kafka-acls
 kafka-broker-api-versions
+kafka-cluster
 kafka-configs
 kafka-console-consumer
 kafka-console-producer
@@ -1645,6 +1647,7 @@ kafka-dump-log
 kafka-features
 kafka-leader-election
 kafka-log-dirs
+kafka-metadata-shell
 kafka-mirror-maker
 kafka-preferred-replica-election
 kafka-producer-perf-test
@@ -1653,6 +1656,7 @@ kafka-replica-verification
 kafka-run-class
 kafka-server-start
 kafka-server-stop
+kafka-storage
 kafka-streams-application-reset
 kafka-topics
 kafka-verifiable-consumer

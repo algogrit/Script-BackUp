@@ -113,7 +113,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.1.1
+3.1.3
 ==> macOS
 10.14.6
 ==> SIP
@@ -121,10 +121,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3899 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3898 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (188 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1721 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (178 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1724 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (177 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -157,8 +157,10 @@ You should find replacements for the following formulae:
   gdrive
   glide
   helm@2
+  ilmbase
   lua@5.1
   ntfs-3g
+  pow
   protobuf@3.7
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
@@ -223,4 +225,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-433 kegs, 373,208 files, 13GB
+433 kegs, 372,072 files, 13GB

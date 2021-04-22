@@ -39,14 +39,14 @@ def get_new_name(file_name, folder_path, type)
     episode_number = episode_id.to_i
     episode_id = episode_number.to_s.rjust(2, "0")
 
-    new_name = "#{folder_path}/Episode #{episode_id}.#{type}"
+    new_name = "#{folder_path}/Episode #{episode_id}.#{type.downcase}"
   end
 
   new_name
 end
 
 folder_paths.each do |folder_path|
-  types.each do |type|
+  types.map{|type| [type, type.upcase]}.flatten.each do |type|
     files_map = Dir.glob("#{folder_path}/*.#{type}").reduce({}) do |rename_mapping, file_name|
       rename_mapping[file_name] = get_new_name(file_name, folder_path, type)
       rename_mapping
