@@ -121,9 +121,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3900 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (188 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1724 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3901 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (187 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1721 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (177 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -225,4 +225,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-433 kegs, 372,075 files, 13GB
+433 kegs, 372,261 files, 13GB

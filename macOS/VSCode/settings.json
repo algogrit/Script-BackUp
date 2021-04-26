@@ -87,5 +87,5 @@
       "password": "{{put-password-here}}"
     }
   ],
-  "window.zoomLevel": 3
+  "window.zoomLevel": 2
 }
