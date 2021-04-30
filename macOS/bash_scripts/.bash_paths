@@ -31,6 +31,10 @@ export GOENV_DISABLE_GOROOT=1
 export GOENV_DISABLE_GOPATH=1
 eval "$(goenv init -)"
 
+## rustup-init
+export CARGO_HOME="$HOME/.cargo"
+export PATH="$CARGO_HOME/bin:$PATH"
+
 ## jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"

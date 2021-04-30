@@ -332,6 +332,9 @@ captoinfo
 captype
 captype.dSYM
 cargo
+cargo-clippy
+cargo-fmt
+cargo-miri
 carthage
 cask-repair
 caspol
@@ -393,6 +396,7 @@ clean-diff
 clear
 clef
 clhsdb
+clippy-driver
 clj
 cloc
 clojure
@@ -3009,6 +3013,7 @@ ri
 rlatopam
 rletopnm
 rlpdump
+rls
 rlwrap
 rm
 rmdir
@@ -3050,6 +3055,9 @@ rust-gdbgui
 rust-lldb
 rustc
 rustdoc
+rustfmt
+rustlings
+rustup
 rustup-init
 rvictl
 rview
