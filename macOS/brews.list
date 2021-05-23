@@ -154,6 +154,7 @@ isl
 jack
 jansson
 jasper
+jbig2dec
 jemalloc
 jenkins
 jenv
@@ -192,6 +193,7 @@ libgcrypt
 libgpg-error
 libheif
 libid3tag
+libidn
 libidn2
 libimobiledevice
 liblqr
@@ -358,6 +360,7 @@ sha2
 shared-mime-info
 siege
 sip
+six
 sl
 snappy
 solr

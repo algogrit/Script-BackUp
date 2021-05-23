@@ -1147,6 +1147,8 @@ gource
 gpaste
 gpathchk
 gpcl6
+gpcl6c
+gpdlc
 gperf
 gpg-error
 gpg-error-config
@@ -1272,6 +1274,7 @@ gxargs
 gxl2dot
 gxl2gv
 gxps
+gxpsc
 gyes
 gzcat
 gzexe
@@ -1418,6 +1421,7 @@ idle3.5
 idle3.7
 idle3.9
 idlj
+idn
 idn2
 iex
 ifconfig
@@ -1559,6 +1563,7 @@ javah
 javap
 javapackager
 javaws
+jbig2dec
 jbigtopnm
 jcmd
 jconsole
@@ -1812,7 +1817,6 @@ lwp-request
 lwp-request5.18
 lynx
 lz4
-lz4_decompress
 lz4c
 lz4cat
 lzcat
@@ -2051,6 +2055,8 @@ mysql.server
 mysql_client_test
 mysql_config
 mysql_config_editor
+mysql_keyring_encryption_test
+mysql_migrate_keyring
 mysql_secure_installation
 mysql_ssl_rsa_setup
 mysql_tzinfo_to_sql
@@ -2426,7 +2432,7 @@ pedump
 periodic
 perl
 perl5.18
-perl5.32.1
+perl5.34.0
 perlbug
 perlbug5.18
 perldoc
