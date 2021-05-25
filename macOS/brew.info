@@ -13,7 +13,7 @@ RUBYPATH
 SHELL
 ==> $LOAD_PATHS
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/warning-1.2.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tapioca-0.4.21/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tapioca-0.4.22/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/spoom-1.0.9/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/thor-1.1.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-stub-0.2.0/lib
@@ -26,7 +26,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.3.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.10.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.11.3/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.14.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.15.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-2.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-ast-1.5.0/lib
@@ -63,7 +63,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/webrobots-0.1.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/webrick-1.7.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubyntlm-0.6.3/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/nokogiri-1.11.4-x86_64-darwin/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/nokogiri-1.11.5-x86_64-darwin/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/racc-1.5.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/racc-1.5.2
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mini_portile2-2.5.1/lib
@@ -113,7 +113,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.1.8
+3.1.9
 ==> macOS
 10.14.6
 ==> SIP
@@ -121,8 +121,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3914 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (189 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3918 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (188 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1725 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (175 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -139,6 +139,7 @@ If that doesn't show you any updates, run:
 
 Alternatively, manually download them from:
   https://developer.apple.com/download/more/.
+You should download the Command Line Tools for Xcode 11.3.1.
 
 
 Warning: Some installed kegs have no formulae!
@@ -228,4 +229,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-437 kegs, 376,268 files, 13.3GB
+437 kegs, 376,274 files, 13.3GB
