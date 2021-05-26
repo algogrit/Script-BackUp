@@ -903,6 +903,8 @@ gdbm_load
 gdbmtool
 gdbus
 gdbus-codegen
+gdc
+gdc-11
 gdcmpgif
 gdd
 gdf
@@ -3663,6 +3665,7 @@ x86_64-apple-darwin18-gcc-11.1.0
 x86_64-apple-darwin18-gcc-ar-11
 x86_64-apple-darwin18-gcc-nm-11
 x86_64-apple-darwin18-gcc-ranlib-11
+x86_64-apple-darwin18-gdc-11
 x86_64-apple-darwin18-gfortran-11
 xar
 xargs

@@ -121,8 +121,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3918 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (188 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3919 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (189 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1725 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (175 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -164,6 +164,7 @@ You should find replacements for the following formulae:
   ntfs-3g
   pow
   terraform@0.12
+  xctool
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
@@ -229,4 +230,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-437 kegs, 376,274 files, 13.3GB
+437 kegs, 377,010 files, 13.4GB
