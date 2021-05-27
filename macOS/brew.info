@@ -124,7 +124,7 @@ Enabled
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3919 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (189 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1725 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (175 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (176 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -230,4 +230,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-437 kegs, 377,010 files, 13.4GB
+437 kegs, 377,042 files, 13.4GB
