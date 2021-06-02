@@ -87,6 +87,5 @@
       "password": "{{put-password-here}}"
     }
   ],
-  "workbench.editor.untitled.hint": "hidden",
-  "window.zoomLevel": 2
+  "workbench.editor.untitled.hint": "hidden"
 }
