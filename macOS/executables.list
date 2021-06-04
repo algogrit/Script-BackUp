@@ -949,6 +949,7 @@ gfactor
 gfalse
 gfgrep
 gfind
+gflags_completions.sh
 gfmt
 gfold
 gfortran
@@ -3598,8 +3599,11 @@ wait4path
 wall
 watch
 watchman
+watchman-diag
 watchman-make
+watchman-replicate-subscription
 watchman-wait
+watchmanctl
 wavfilter
 wavinfo
 wavrms

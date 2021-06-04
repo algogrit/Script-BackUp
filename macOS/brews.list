@@ -81,6 +81,8 @@ firebase-cli
 flac
 flow
 fltk
+fmt
+folly
 fontconfig
 fortune
 freetype
@@ -95,6 +97,7 @@ gdk-pixbuf
 gdrive
 geoip
 gettext
+gflags
 ghc
 ghostscript
 giflib
@@ -107,6 +110,7 @@ glew
 glib
 glide
 glm
+glog
 glpk
 gmp
 gnu-getopt
@@ -236,6 +240,7 @@ libxrender
 libyaml
 libzip
 little-cms2
+llvm
 lua
 lua@5.1
 luajit
