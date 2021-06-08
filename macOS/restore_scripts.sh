@@ -33,8 +33,8 @@ echo "\033[1;31mTapping brews...\033[0m"
 cat $HOME/Script-BackUp/macOS/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
-cat brew_casks.list | sort -r | xargs -n 1 brew cask install &
-cat brew_casks.list | xargs -n 1 brew cask install
+cat brew_casks.list | sort -r | xargs -n 1 brew install --cask &
+cat brew_casks.list | xargs -n 1 brew install --cask
 
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/macOS/brews.list | xargs brew install || brew upgrade
