@@ -113,7 +113,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.1.10
+3.1.11
 ==> macOS
 10.14.6
 ==> SIP
@@ -230,4 +230,4 @@ those kegs to fail to run properly once built. Run `brew link` on these:
 
 Warning: Some installed formulae are not readable:
   mongodb: unknown or unsupported macOS version: :mountain_lion
-442 kegs, 388,055 files, 14.9GB
+442 kegs, 388,059 files, 14.9GB
