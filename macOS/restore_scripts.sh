@@ -132,7 +132,7 @@ echo talks > ~/Developer/Presentations/project-resources.branch
 git clone --single-branch --branch talks git@bitbucket.org:algogrit/project-resources.git ~/Developer/Presentations/talk-ideas
 
 git clone --single-branch --branch master-task-list git@bitbucket.org:algogrit/project-resources.git ~/Developer/Tasks
-git clone git@bitbucket.org:algogrit/training-master.git ~/Developer/Training
+git clone git@github.com:algogrit/Training.git ~/Developer/Training
 
 git clone git@bitbucket.org:algogrit/instruments.git ~/Downloads/Instruments
 git clone git@bitbucket.org:algogrit/recipes.git ~/Downloads/Recipes
@@ -187,6 +187,7 @@ echo y | sdkmanager "platform-tools"
 echo "\033[1;31mReseting password restrictions...\033[0m"
 pwpolicy -clearaccountpolicies
 passwd
+security set-keychain-password
 
 unalias cp
 unalias rm
