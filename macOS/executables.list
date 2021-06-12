@@ -254,6 +254,7 @@ brushtopbm
 bsdtar
 bspatch
 btoa
+buck
 bundle
 bundler
 bunzip2
@@ -617,6 +618,7 @@ dmcs
 dmesg
 dnctl
 dns-sd
+docker-compose
 docker-credential-gcloud
 docker-machine
 docker-swarm
