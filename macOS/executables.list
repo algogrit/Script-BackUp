@@ -621,7 +621,6 @@ dns-sd
 docker-compose
 docker-credential-gcloud
 docker-machine
-docker-swarm
 doctl
 dos2unix
 dot
@@ -904,7 +903,6 @@ gdk-pixbuf-pixdata
 gdk-pixbuf-query-loaders
 gdk-pixbuf-thumbnailer
 gdparttopng
-gdrive
 gdtopng
 gdu
 gecho
@@ -1072,7 +1070,6 @@ glib-gettextize
 glib-mkenums
 glibtool
 glibtoolize
-glide
 glink
 gln
 glocate
@@ -1734,14 +1731,10 @@ lstopo-no-graphics
 lsvfs
 lto-dump-11
 lua
-lua-5.1
 lua-5.4
-lua5.1
 lua5.4
 luac
-luac-5.1
 luac-5.4
-luac5.1
 luac5.4
 luajit
 luajit-2.0.5
@@ -2575,7 +2568,6 @@ postmaster
 postmulti
 postqueue
 postsuper
-pow
 powder
 power_report.sh
 powermetrics
@@ -2751,6 +2743,7 @@ python3
 python3-config
 python3.9
 python3.9-config
+python3.9-gdb.py
 pythonw
 pythonw2.7
 pzstd
@@ -3520,6 +3513,7 @@ whoami
 whois
 wifi-status
 wine
+wine32on64
 wine64
 wineboot
 winecfg
@@ -3530,7 +3524,6 @@ winehelp
 winemine
 winepath
 wineserver
-winetricks
 winicontopam
 winicontoppm
 wish
@@ -3579,7 +3572,6 @@ xconsole
 xcrun
 xcscontrol
 xcsdiagnose
-xctool
 xcursorgen
 xcutsel
 xditview

@@ -53,7 +53,6 @@ docbook
 docbook-xsl
 docker-compose
 docker-machine
-docker-swarm
 doctl
 dos2unix
 double-conversion
@@ -91,7 +90,6 @@ gd
 gdb
 gdbm
 gdk-pixbuf
-gdrive
 geoip
 gettext
 gflags
@@ -105,7 +103,6 @@ git-extras
 glances
 glew
 glib
-glide
 glm
 glog
 glpk
@@ -134,7 +131,6 @@ guile
 harfbuzz
 hdf5
 helm
-helm@2
 heroku
 heroku-node
 hicolor-icon-theme
@@ -145,7 +141,6 @@ hunspell
 hwloc
 icu4c
 ideviceinstaller
-ilmbase
 imagemagick
 imagemagick@6
 imath
@@ -237,7 +232,6 @@ libzip
 little-cms2
 llvm
 lua
-lua@5.1
 luajit
 luajit-openresty
 luv
@@ -312,7 +306,6 @@ postgresql
 postgresql@10
 postgresql@11
 postgresql@12
-pow
 protobuf
 psgrep
 pstree
@@ -381,7 +374,6 @@ tcl-tk
 telnet
 terminal-notifier
 terraform
-terraform@0.12
 terrascan
 tesseract
 texi2html
@@ -412,12 +404,10 @@ watch
 watchman
 webp
 wget
-winetricks
 wrk
 wxmac
 x264
 x265
-xctool
 xmlto
 xorgproto
 xvid

@@ -33,6 +33,9 @@ echo "\033[1;31mTapping brews...\033[0m"
 cat $HOME/Script-BackUp/macOS/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
+## Special Installs
+brew install --cask --no-quarantine wine-crossover
+## Normal Installs
 cat brew_casks.list | sort -r | xargs -n 1 brew install --cask &
 cat brew_casks.list | xargs -n 1 brew install --cask
 
@@ -133,6 +136,9 @@ git clone --single-branch --branch talks git@bitbucket.org:algogrit/project-reso
 
 git clone --single-branch --branch master-task-list git@bitbucket.org:algogrit/project-resources.git ~/Developer/Tasks
 git clone git@github.com:algogrit/Training.git ~/Developer/Training
+cd ~/Developer/Training
+git submodule update --recursive --remote
+cd ~/Script-BackUp/macOS
 
 git clone git@bitbucket.org:algogrit/instruments.git ~/Downloads/Instruments
 git clone git@bitbucket.org:algogrit/recipes.git ~/Downloads/Recipes
