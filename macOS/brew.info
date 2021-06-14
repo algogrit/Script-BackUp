@@ -103,32 +103,28 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/minitest-5.14.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/i18n-1.8.10/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/concurrent-ruby-1.1.9/lib/concurrent-ruby
-/Library/Ruby/Site/2.6.0
-/Library/Ruby/Site/2.6.0/x86_64-darwin20
-/Library/Ruby/Site/2.6.0/universal-darwin20
-/Library/Ruby/Site
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/x86_64-darwin20
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/universal-darwin20
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/x86_64-darwin20
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin20
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/site_ruby/2.6.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/site_ruby/2.6.0/x86_64-darwin14
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/site_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/vendor_ruby/2.6.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/vendor_ruby/2.6.0/x86_64-darwin14
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/vendor_ruby
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0
+/usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.3_2/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
 3.1.12
 ==> macOS
-11.4
+10.15.7
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3920 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3922 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (193 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1736 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (177 casks)
-/usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (7 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -143,7 +139,5 @@ Homebrew if the config script overrides a system or Homebrew-provided
 script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python2-config
   /Users/gaurav/.pyenv/shims/python2.7-config
-  /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
-  /Users/gaurav/.pyenv/shims/python3-config
-425 kegs, 367,919 files, 14GB
+425 kegs, 367,883 files, 14GB

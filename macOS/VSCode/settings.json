@@ -88,5 +88,5 @@
     }
   ],
   "workbench.editor.untitled.hint": "hidden",
-  "security.workspace.trust.untrustedFiles": "open"
+  "window.zoomLevel": 3
 }
