@@ -2747,6 +2747,7 @@ python3
 python3-config
 python3.9
 python3.9-config
+python3.9-gdb.py
 pythonw
 pythonw2.7
 pzstd
