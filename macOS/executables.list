@@ -2849,6 +2849,7 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbox
+rbs
 rd-curves
 rdf2bin
 rdf2com
@@ -3362,6 +3363,7 @@ ttytime
 twm
 twopi
 type
+typeprof
 typer
 uasysdiagnose
 uchardet
