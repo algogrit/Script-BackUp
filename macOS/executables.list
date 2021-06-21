@@ -613,6 +613,8 @@ distnoted
 ditto
 djpeg
 dltest
+dlv
+dlv-dap
 dmc
 dmcs
 dmesg
@@ -1100,11 +1102,17 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
+go-outline
 gobject-query
 god
 goenv
 gofmt
 golangci-lint
+gomodifytags
+gopkgs
+goplay
+gopls
+gotests
 gouldtoppm
 gource
 gpaste
@@ -1402,6 +1410,7 @@ imlib2_poly
 imlib2_show
 imlib2_test
 imlib2_view
+impl
 import
 imptrace
 indent
@@ -3194,6 +3203,7 @@ stapler
 startx
 stat
 states
+staticcheck
 stdbuf
 stern
 stethoscope
