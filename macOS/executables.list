@@ -1877,6 +1877,7 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
+mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -2257,6 +2258,7 @@ pamvalidate
 pamwipeout
 pandoc
 pango-list
+pango-segmentation
 pango-view
 par.pl
 par5.30.pl
@@ -2668,6 +2670,7 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
+pprof
 pr
 praudit
 pre-grohtml
@@ -2683,6 +2686,8 @@ productsign
 profile2mat.pl
 profiles
 protoc
+protoc-gen-go
+protoc-gen-go-grpc
 prove
 prove5.18
 prove5.30
