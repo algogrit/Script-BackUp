@@ -347,6 +347,7 @@ certmgr
 certtool
 certutil
 cfprefsd
+chardetect
 chat
 chcon
 check-regexp
@@ -438,6 +439,7 @@ coreaudiod
 corelist
 corelist5.18
 corelist5.30
+coursera-dl
 cp
 cpack
 cpan
@@ -1631,6 +1633,7 @@ kextload
 kextstat
 kextunload
 kextutil
+keyring
 keytool
 kgetcred
 kill
@@ -3365,6 +3368,7 @@ trash
 trasher
 tred
 tree
+tree-sitter
 treereg
 treereg5.18
 treereg5.30
