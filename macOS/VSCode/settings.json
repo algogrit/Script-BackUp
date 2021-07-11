@@ -88,7 +88,6 @@
     }
   ],
   "workbench.editor.untitled.hint": "hidden",
-  "security.workspace.trust.untrustedFiles": "open",
-  "redhat.telemetry.enabled": true,
-  "window.zoomLevel": 2
+  "window.zoomLevel": 1,
+  "redhat.telemetry.enabled": false
 }

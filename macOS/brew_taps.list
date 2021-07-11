@@ -1,6 +1,5 @@
 clojure/tools
 facebook/fb
-gcenx/wine
 golangci/tap
 heroku/brew
 homebrew/bundle
