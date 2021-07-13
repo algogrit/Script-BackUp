@@ -89,5 +89,9 @@
   ],
   "workbench.editor.untitled.hint": "hidden",
   "window.zoomLevel": 1,
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.inlineSuggest.enabled": true
 }

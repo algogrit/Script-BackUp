@@ -1844,6 +1844,8 @@ mib2c
 mib2c-update
 mig
 migrate
+mirror_server
+mirror_server_stop
 missing_codec_desc
 mix
 mkafmmap
