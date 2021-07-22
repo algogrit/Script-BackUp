@@ -374,6 +374,7 @@ chpass
 chrome-stats-to-csv
 chroot
 chsh
+cilium
 circleci
 circo
 ciscodump
@@ -812,6 +813,7 @@ fold
 font_cache
 fontrestore
 fonttosfnt
+footloose
 footprint
 format-sql
 format-sql5.18
@@ -1591,6 +1593,7 @@ juju-metadata
 juju-wait
 julia
 jvisualvm
+k3d
 kadmin
 kadmin.local
 kafka-acls
@@ -1858,6 +1861,7 @@ mib2c
 mib2c-update
 mig
 migrate
+minikube
 mirror_server
 mirror_server_stop
 missing_codec_desc

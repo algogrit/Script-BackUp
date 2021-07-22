@@ -80,6 +80,7 @@ fltk
 fmt
 folly
 fontconfig
+footloose
 fortune
 freetype
 frei0r
@@ -158,6 +159,7 @@ jpeg
 jq
 juju
 juju-wait
+k3d
 kafka
 kind
 kompose
@@ -247,6 +249,7 @@ mdv
 memcached
 mercurial
 metis
+minikube
 monetdb
 mp3splt
 mp3wrap
