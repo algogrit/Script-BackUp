@@ -411,6 +411,7 @@ wget
 winetricks
 wrk
 wxmac
+wxwidgets
 x264
 x265
 xmlto
