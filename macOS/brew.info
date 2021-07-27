@@ -26,7 +26,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.4.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.11.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.11.4/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.18.3/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.18.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-2.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-ast-1.8.0/lib
@@ -119,7 +119,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin20
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.2.3
+3.2.4
 ==> macOS
 11.4
 ==> SIP
@@ -127,9 +127,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3962 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (196 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1754 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3960 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (195 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1753 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (180 casks)
 /usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (7 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
