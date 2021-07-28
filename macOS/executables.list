@@ -172,6 +172,7 @@ atrm
 atsutil
 audit
 auditd
+auditlogviewer
 auditreduce
 authserver
 autoconf
@@ -819,6 +820,7 @@ format-sql
 format-sql5.18
 fortune
 fourcc2pixfmt
+fqltool
 freebl_gtest
 freetype-config
 fribidi
@@ -927,6 +929,7 @@ gen-enc-table
 gen-rc
 gen_bridge_metadata
 gencat
+generatetokens
 gengal
 genstrings
 genv
@@ -1567,6 +1570,7 @@ jmap
 jmc
 jmeter
 jmod
+jmxtool
 jobb
 jobs
 join
