@@ -729,6 +729,7 @@ expr
 exr2aces
 exrenvmap
 exrheader
+exrinfo
 exrmakepreview
 exrmaketiled
 exrmultipart
