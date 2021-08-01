@@ -130,7 +130,7 @@ Enabled
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3963 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (195 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1753 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (181 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (182 casks)
 /usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (7 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
