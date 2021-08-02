@@ -96,5 +96,8 @@
     "yaml": false,
     "plaintext": false,
     "markdown": true
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
   }
 }
