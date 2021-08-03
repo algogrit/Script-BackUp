@@ -91,8 +91,8 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/byebug-11.1.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/byebug-11.1.3
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bootsnap-1.7.6/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/bootsnap-1.7.6
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bootsnap-1.7.7/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/bootsnap-1.7.7
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/msgpack-1.4.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/msgpack-1.4.2
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bindata-2.4.10/lib
@@ -119,7 +119,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin20
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.2.5
+3.2.6
 ==> macOS
 11.4
 ==> SIP
@@ -154,4 +154,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-429 kegs, 370,455 files, 14.2GB
+429 kegs, 370,492 files, 14.2GB

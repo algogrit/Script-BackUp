@@ -103,5 +103,6 @@
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
-  }
+  },
+  "window.zoomLevel": 1
 }
