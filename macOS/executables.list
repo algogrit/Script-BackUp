@@ -3021,6 +3021,7 @@ screenshot2
 script
 scselect
 scutil
+sdbthreadtst
 sdef
 sdiff
 sdkmanager
