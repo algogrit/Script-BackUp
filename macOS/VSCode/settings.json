@@ -92,7 +92,7 @@
   "redhat.telemetry.enabled": true,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "yaml": false,
     "plaintext": false,
     "markdown": true
@@ -104,6 +104,6 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "window.zoomLevel": 1,
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "window.zoomLevel": 2
 }

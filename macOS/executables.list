@@ -2838,6 +2838,7 @@ rabbitmq-env
 rabbitmq-plugins
 rabbitmq-queues
 rabbitmq-server
+rabbitmq-streams
 rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
@@ -3237,7 +3238,6 @@ states
 staticcheck
 stdbuf
 stern
-stethoscope
 stl2gts
 stream
 streamzip
