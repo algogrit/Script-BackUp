@@ -95,7 +95,7 @@
     "*": false,
     "yaml": false,
     "plaintext": false,
-    "markdown": true
+    "markdown": false
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
