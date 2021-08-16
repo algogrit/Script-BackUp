@@ -3301,6 +3301,7 @@ tcpdump
 tcsh
 tee
 telnet
+term-size
 terminal-notifier
 terraform
 terrascan
