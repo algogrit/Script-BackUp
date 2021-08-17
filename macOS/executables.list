@@ -403,6 +403,7 @@ cmpfillin
 cmsutil
 cmuwmtopbm
 code
+coderay
 codesign
 codesign_allocate
 col
@@ -2708,6 +2709,7 @@ prove5.18
 prove5.30
 proxy
 prune
+pry
 ps
 ps2ascii
 ps2epsi
