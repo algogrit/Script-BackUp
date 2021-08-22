@@ -477,8 +477,6 @@ crypto_bench
 cryptohi_gtest
 csc
 cscope
-csdiagnose
-csgather
 csh
 csharp
 csi
