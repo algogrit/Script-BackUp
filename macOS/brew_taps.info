@@ -1,5 +1,5 @@
-clojure/tools: 65 formulae
-/usr/local/Homebrew/Library/Taps/clojure/homebrew-tools (142 files, 162.5KB)
+clojure/tools: 66 formulae
+/usr/local/Homebrew/Library/Taps/clojure/homebrew-tools (151 files, 170.4KB)
 From: https://github.com/clojure/homebrew-tools
 
 facebook/fb: 6 formulae
@@ -22,12 +22,12 @@ homebrew/bundle: 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (284 files, 1.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 3924 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (6,124 files, 345.7MB)
+homebrew/cask: 3921 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (6,150 files, 346.9MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 183 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (665 files, 3.3MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (677 files, 3.3MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1753 casks
@@ -35,11 +35,11 @@ homebrew/cask-fonts: 1753 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 195 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,347 files, 70.9MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,415 files, 71MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 2 commands, 5783 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,522 files, 490.4MB)
+homebrew/core: 2 commands, 5791 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,631 files, 495.2MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
