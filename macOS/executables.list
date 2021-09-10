@@ -2849,6 +2849,7 @@ rabbitmqadmin
 rabbitmqctl
 racc
 racc2y
+rackup
 racoon
 rails
 rake
@@ -2963,6 +2964,7 @@ rpcinfo
 rs
 rsaperf
 rsapoptst
+rspec
 rsvg-convert
 rsync
 rsync-ssl

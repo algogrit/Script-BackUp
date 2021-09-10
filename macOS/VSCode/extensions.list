@@ -41,6 +41,7 @@ ms-mssql.mssql
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 ms-vscode-remote.remote-containers
 ms-vscode.cpptools
 ms-vsliveshare.vsliveshare
