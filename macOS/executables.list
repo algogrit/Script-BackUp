@@ -2490,6 +2490,7 @@ pk1sign
 pkcs1-conv
 pkg-config
 pkgbuild
+pkgex
 pkgutil
 pkill
 pkix-errcodes
