@@ -209,6 +209,7 @@ banner
 base32
 base64
 basename
+basenc
 bash
 bashbug
 bat
@@ -745,6 +746,7 @@ eyapp5.18
 eyapp5.30
 eyuvtoppm
 faac
+factor
 false
 fastcgi-mono-server
 fastcgi-mono-server2
