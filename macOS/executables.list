@@ -1620,11 +1620,11 @@ kafka-delegation-tokens
 kafka-delete-records
 kafka-dump-log
 kafka-features
+kafka-get-offsets
 kafka-leader-election
 kafka-log-dirs
 kafka-metadata-shell
 kafka-mirror-maker
-kafka-preferred-replica-election
 kafka-producer-perf-test
 kafka-reassign-partitions
 kafka-replica-verification
@@ -1634,6 +1634,7 @@ kafka-server-stop
 kafka-storage
 kafka-streams-application-reset
 kafka-topics
+kafka-transactions
 kafka-verifiable-consumer
 kafka-verifiable-producer
 kcc
