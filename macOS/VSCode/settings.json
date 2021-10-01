@@ -89,7 +89,7 @@
   ],
   "workbench.editor.untitled.hint": "hidden",
   "security.workspace.trust.untrustedFiles": "open",
-  "redhat.telemetry.enabled": true,
+  "redhat.telemetry.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": false,
@@ -105,5 +105,5 @@
     "jupyter-notebook": "left"
   },
   "go.toolsManagement.autoUpdate": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 2
 }
