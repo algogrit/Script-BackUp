@@ -988,6 +988,7 @@ gio
 gio-querymodules
 gist
 git
+git-abort
 git-add-nw
 git-alias
 git-archive-file
@@ -1011,6 +1012,7 @@ git-custom-help
 git-cvsserver
 git-delete-branch
 git-delete-merged-branches
+git-delete-squashed-branches
 git-delete-submodule
 git-delete-tag
 git-delta
@@ -2409,6 +2411,7 @@ pfbtopfa
 pfbtops
 pfctl
 pfmtopam
+pg_amcheck
 pg_archivecleanup
 pg_basebackup
 pg_checksums
@@ -2423,7 +2426,6 @@ pg_recvlogical
 pg_resetwal
 pg_restore
 pg_rewind
-pg_standby
 pg_test_fsync
 pg_test_timing
 pg_upgrade

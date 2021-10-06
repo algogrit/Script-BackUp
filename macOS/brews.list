@@ -29,6 +29,7 @@ brotli
 buck
 byobu
 c-ares
+ca-certificates
 cabextract
 cairo
 carthage
@@ -197,6 +198,7 @@ liblqr
 libmetalink
 libmp3splt
 libmpc
+libnghttp2
 libogg
 libomp
 libplist
@@ -319,6 +321,7 @@ pwgen
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
+python@3.10
 python@3.8
 python@3.9
 qhull
