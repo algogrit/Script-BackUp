@@ -26,7 +26,6 @@ bison
 boost
 brightness
 brotli
-buck
 byobu
 c-ares
 ca-certificates
@@ -249,6 +248,7 @@ mad
 make
 mas
 maven
+md4c
 mdv
 memcached
 mercurial
@@ -313,6 +313,7 @@ postgresql
 postgresql@10
 postgresql@11
 postgresql@12
+postgresql@13
 protobuf
 psgrep
 pstree

@@ -205,6 +205,7 @@ aws_legacy_completer
 b2sum
 baddbdir
 balsam
+balsamui
 banner
 base32
 base64
@@ -257,7 +258,6 @@ brushtopbm
 bsdtar
 bspatch
 btoa
-buck
 bundle
 bundler
 bunzip2
@@ -320,6 +320,7 @@ cairo-trace
 cal
 calendar
 cameratopam
+canbusutil
 cancel
 cap_mkdb
 capinfos
@@ -1455,6 +1456,7 @@ install-info
 install_name_tool
 installer
 installvst
+instancer
 instmodsh
 instmodsh5.18
 instmodsh5.30
@@ -1845,6 +1847,7 @@ mconfig
 mcs
 mcxquery
 mcxrefresh
+md2html
 md5
 md5sum
 mdassembler
@@ -2811,10 +2814,9 @@ qlmanage
 qmake
 qmake6
 qml
-qmlcachegen
+qmldom
 qmleasing
 qmlformat
-qmlimportscanner
 qmllint
 qmlplugindump
 qmlpreview
@@ -2822,7 +2824,6 @@ qmlprofiler
 qmlscene
 qmltestrunner
 qmltime
-qmltyperegistrar
 qpdf
 qrttoppm
 qsb
@@ -2832,10 +2833,10 @@ qt-cmake-private
 qt-cmake-standalone-test
 qt-configure-module
 qt-faststart
-qtattributionsscanner
 qtdiag
 qtdiag6
 qtpaths
+qtpaths6
 qtplugininfo
 quartz-wm
 quota
