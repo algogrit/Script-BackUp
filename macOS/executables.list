@@ -2190,6 +2190,7 @@ p7content
 p7env
 p7sign
 p7verify
+pack
 pack200
 package-stash-conflicts
 package-stash-conflicts5.18
