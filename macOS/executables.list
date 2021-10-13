@@ -339,6 +339,7 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
+cbt
 cc
 cccheck
 ccmake
