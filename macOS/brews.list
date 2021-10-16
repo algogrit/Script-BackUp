@@ -157,6 +157,7 @@ jenkins
 jenv
 jmeter
 jpeg
+jpeg-xl
 jq
 juju
 juju-wait
@@ -220,6 +221,7 @@ libusb
 libusbmuxd
 libuv
 libvidstab
+libvmaf
 libvo-aacenc
 libvorbis
 libvpx

@@ -224,6 +224,7 @@ bdftogd
 bdftopcf
 bdftruncate
 beforelight
+benchmark_xl
 bg
 biff
 binhex
@@ -387,6 +388,7 @@ circo
 ciscodump
 cistopbm
 cjpeg
+cjxl
 ckksctl
 cksum
 cl2c
@@ -624,6 +626,7 @@ dispqlen.d
 distnoted
 ditto
 djpeg
+djxl
 dltest
 dlv
 dlv-dap
@@ -3531,6 +3534,7 @@ visualinfo
 visudo
 vlc
 vm_stat
+vmaf
 vmmap
 vpnd
 vpnkit
