@@ -2,12 +2,12 @@ buildpacks/tap: 1 formula
 /usr/local/Homebrew/Library/Taps/buildpacks/homebrew-tap (25 files, 65.9KB)
 From: https://github.com/buildpacks/homebrew-tap
 
-clojure/tools: 69 formulae
-/usr/local/Homebrew/Library/Taps/clojure/homebrew-tools (174 files, 189.1KB)
+clojure/tools: 70 formulae
+/usr/local/Homebrew/Library/Taps/clojure/homebrew-tools (262 files, 235.2KB)
 From: https://github.com/clojure/homebrew-tools
 
 gcenx/wine: 7 casks
-/usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (96 files, 140.9KB)
+/usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (101 files, 145.4KB)
 From: https://github.com/gcenx/homebrew-wine
 
 golangci/tap: 1 formula
@@ -22,24 +22,24 @@ homebrew/bundle: 1 command
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-bundle (342 files, 1.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 3936 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (5,106 files, 327.3MB)
+homebrew/cask: 3938 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (5,110 files, 327.9MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-drivers: 189 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,046 files, 4MB)
+homebrew/cask-drivers: 191 casks
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,072 files, 4MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1750 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,589 files, 23.7MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,597 files, 23.8MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 198 casks
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,530 files, 73.6MB)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (3,532 files, 73.6MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 2 commands, 5870 formulae
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,706 files, 509.3MB)
+homebrew/core: 2 commands, 5877 formulae
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core (6,720 files, 513.8MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
