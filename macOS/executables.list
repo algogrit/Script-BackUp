@@ -201,7 +201,6 @@ awk
 aws
 aws-iam-authenticator
 aws_completer
-aws_legacy_completer
 b2sum
 baddbdir
 balsam
@@ -876,7 +875,7 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.1.0
+gawk-5.1.1
 gb2sum
 gbase32
 gbase64
