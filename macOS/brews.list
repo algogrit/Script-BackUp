@@ -36,10 +36,12 @@ cask-repair
 cassandra
 chicken
 circleci
+cjson
 cloc
 clojure
 cloog
 cmake
+cmocka
 colortail
 coreutils
 cscope
@@ -206,6 +208,7 @@ libplist
 libpng
 libproxy
 libpthread-stubs
+librist
 librsvg
 libsamplerate
 libscrypt
@@ -251,6 +254,7 @@ mad
 make
 mas
 maven
+mbedtls
 md4c
 mdv
 memcached

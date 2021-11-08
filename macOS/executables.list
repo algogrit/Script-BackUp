@@ -349,6 +349,9 @@ ccrewrite
 cd
 cert-sync
 cert2spc
+cert_app
+cert_req
+cert_write
 certdb_gtest
 certhigh_gtest
 certmgr
@@ -476,13 +479,16 @@ creatbyproc.d
 createdb
 createhomedir
 createuser
+crl_app
 crlrefresh
 crlutil
 crmftest
 croco-0.6-config
 cron
 crontab
+crypt_and_hash
 crypto_bench
+crypto_examples
 cryptohi_gtest
 csc
 cscope
@@ -605,6 +611,9 @@ devp2p
 df
 dftest
 dftest.dSYM
+dh_client
+dh_genprime
+dh_server
 diagnose-fu
 dialyzer
 diff
@@ -666,6 +675,8 @@ dsmemberutil
 dsymutil
 dtd2rng
 dtd2xsd
+dtls_client
+dtls_server
 dtrace
 dtruss
 du
@@ -681,6 +692,8 @@ dynamic_pager
 easy_install
 easy_install-2.7
 ebrowse
+ecdh_curve25519
+ecdsa
 echo
 ecperf
 ecpg
@@ -939,8 +952,12 @@ gemtopnm
 gen-enc-table
 gen-rc
 gen_bridge_metadata
+gen_entropy
+gen_key
+gen_random_ctr_drbg
 gencat
 generatetokens
+generic_sum
 gengal
 genstrings
 genv
@@ -1658,6 +1675,10 @@ kextload
 kextstat
 kextunload
 kextutil
+key_app
+key_app_writer
+key_ladder_demo
+key_ladder_demo.sh
 keyring
 keytool
 kgetcred
@@ -1847,6 +1868,8 @@ manifest
 manpath
 manweb
 mas
+mbedtls-benchmark
+mbedtls-selftest
 mclient
 mconfig
 mcs
@@ -1884,6 +1907,7 @@ mib2c
 mib2c-update
 mig
 migrate
+mini_client
 minikube
 mirror_server
 mirror_server_stop
@@ -2395,6 +2419,7 @@ pdftotext
 pdfunite
 pdisk
 pedump
+pem2der
 periodic
 perl
 perl5.18
@@ -2501,6 +2526,10 @@ pk11importtest
 pk11mode
 pk12util
 pk1sign
+pk_decrypt
+pk_encrypt
+pk_sign
+pk_verify
 pkcs1-conv
 pkg-config
 pkgbuild
@@ -2738,6 +2767,7 @@ ps2pdf14
 ps2pdfwr
 ps2ps
 ps2ps2
+psa_constant_names
 psed
 psgrep
 psicc
@@ -2845,6 +2875,7 @@ qtpaths
 qtpaths6
 qtplugininfo
 quartz-wm
+query_compile_time_config
 quota
 quotacheck
 quotaoff
@@ -2948,6 +2979,7 @@ reordercap
 reordercap.dSYM
 repairHomePermissions
 repquota
+req_app
 reset
 resgen
 resgen2
@@ -2957,6 +2989,10 @@ rev
 rg
 rgb3toppm
 ri
+rist2rist
+ristreceiver
+ristsender
+ristsrppasswd
 rlatopam
 rletopnm
 rlpdump
@@ -2975,6 +3011,13 @@ rpcbind
 rpcgen
 rpcinfo
 rs
+rsa_decrypt
+rsa_encrypt
+rsa_genkey
+rsa_sign
+rsa_sign_pss
+rsa_verify
+rsa_verify_pss
 rsaperf
 rsapoptst
 rspec
@@ -3237,7 +3280,15 @@ ssh-keygen
 ssh-keyscan
 sshd
 sshdump
+ssl_client1
+ssl_client2
+ssl_context_info
+ssl_fork_server
 ssl_gtest
+ssl_mail_client
+ssl_pthread_server
+ssl_server
+ssl_server2
 ssltap
 sso_util
 sstabledump
@@ -3263,6 +3314,7 @@ stern
 stl2gts
 stream
 streamzip
+strerror
 strfile
 stringdups
 strings
@@ -3433,6 +3485,7 @@ typer
 uasysdiagnose
 uchardet
 ucs2any
+udp_proxy
 udpdump
 ui-previewer
 uiautomatorviewer
@@ -3777,6 +3830,7 @@ zdiff
 zdump
 zegrep
 zeisstopnm
+zeroize
 zfgrep
 zforce
 zgrep

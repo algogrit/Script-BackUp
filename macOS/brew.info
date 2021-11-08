@@ -128,15 +128,15 @@ SHELL
 ==> Homebrew Version
 3.3.2
 ==> macOS
-11.6
+11.6.1
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3932 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3924 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (199 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1750 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1751 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (191 casks)
 /usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (7 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -163,4 +163,9 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-438 kegs, 351,806 files, 14.2GB
+
+Warning: You have unlinked kegs in your Cellar.
+Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  docker-compose
+442 kegs, 352,566 files, 14.2GB
