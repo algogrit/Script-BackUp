@@ -28,15 +28,15 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.6.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.12.4/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.12.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.22.0/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.23.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-2.1.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-ast-1.13.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec_junit_formatter-0.4.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-wait-0.0.9/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-sorbet-1.8.0/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-0.5.9318/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-static-0.5.9318-universal-darwin-14/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-0.5.9358/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-static-0.5.9358-universal-darwin-14/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-retry-0.6.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-its-1.3.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-github-2.3.1/lib
@@ -49,14 +49,14 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rexml-3.2.5/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rdiscount-2.2.0.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-14/2.6.0-static/rdiscount-2.2.0.2
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rbi-0.0.6/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rbi-0.0.7/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unparser-0.6.2/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rack-2.2.3/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/pry-0.14.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.6.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/patchelf-1.3.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parlour-6.0.1/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-0.5.9318/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-0.5.9358/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rainbow-3.0.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parser-3.0.2.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel_tests-3.7.3/lib
@@ -73,8 +73,8 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mini_portile2-2.6.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/net-http-persistent-4.0.1/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/net-http-digest_auth-1.4.1/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mime-types-3.3.1/lib
-/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mime-types-data-3.2021.0901/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mime-types-3.4.1/lib
+/usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mime-types-data-3.2021.1115/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/json_schemer-0.2.18/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/uri_template-0.7.0/lib
 /usr/local/Homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/http-cookie-1.0.4/lib
@@ -123,7 +123,7 @@ SHELL
 /usr/local/Homebrew/Library/Homebrew/vendor/portable-ruby/2.6.8/lib/ruby/2.6.0/x86_64-darwin14
 /usr/local/Homebrew/Library/Homebrew
 ==> Homebrew Version
-3.3.4
+3.3.5
 ==> macOS
 11.6.1
 ==> SIP
@@ -131,10 +131,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /usr/local/Caskroom
 ==> Homebrew Cask Taps:
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3925 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (201 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (3932 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions (203 casks)
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1751 casks)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (191 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers (192 casks)
 /usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -165,4 +165,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   docker-compose
-442 kegs, 353,018 files, 14.2GB
+443 kegs, 355,530 files, 14.3GB

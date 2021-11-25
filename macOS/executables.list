@@ -3670,10 +3670,10 @@ x265
 x86_64-apple-darwin20-c++-11
 x86_64-apple-darwin20-g++-11
 x86_64-apple-darwin20-gcc-11
-x86_64-apple-darwin20-gcc-11.2.0
 x86_64-apple-darwin20-gcc-ar-11
 x86_64-apple-darwin20-gcc-nm-11
 x86_64-apple-darwin20-gcc-ranlib-11
+x86_64-apple-darwin20-gcc-tmp
 x86_64-apple-darwin20-gdc-11
 x86_64-apple-darwin20-gfortran-11
 xar
@@ -3819,6 +3819,7 @@ ybmtopbm
 yes
 youtube-dl
 yq
+yt-dlp
 ytasm
 yuv-distortion
 yuvsplittoppm

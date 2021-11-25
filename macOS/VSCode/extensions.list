@@ -11,6 +11,7 @@ bungcip.better-toml
 casian.plsql
 codezombiech.gitignore
 Connorcpu.vsc-rustfmt
+cschlosser.doxdocgen
 Dart-Code.dart-code
 Dart-Code.flutter
 DavidAnson.vscode-markdownlint
@@ -29,6 +30,7 @@ hashicorp.terraform
 howardzuo.vscode-git-blamer
 JakeBecker.elixir-ls
 jaredly.reason-vscode
+jeff-hykin.better-cpp-syntax
 jpotterm.simple-vim
 justusadam.language-haskell
 karunamurti.haml
@@ -46,7 +48,13 @@ ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
 ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode.cmake-tools
 ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 pgourlain.erlang
@@ -63,6 +71,7 @@ streetsidesoftware.code-spell-checker
 taniarascia.new-moon-vscode
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
+twxs.cmake
 VisualStudioExptTeam.vscodeintellicode
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
