@@ -11,6 +11,9 @@ AssetCacheLocatorUtil
 AssetCacheManagerUtil
 AssetCacheTetheratorUtil
 Assistant
+BTLEServer
+BTLEServerAgent
+BlueTool
 BootCacheControl
 BuildStrings
 ClassInitGenerator
@@ -45,15 +48,6 @@ SafeEjectGPU
 SetFile
 SplitForks
 UnRezWack
-VBoxAutostart
-VBoxBalloonCtrl
-VBoxBugReport
-VBoxDTrace
-VBoxHeadless
-VBoxManage
-VBoxVRDP
-VirtualBox
-VirtualBoxVM
 WirelessRadioManagerd
 Wireshark
 Wireshark.dSYM
@@ -66,6 +60,14 @@ Xvfb
 [
 a2p
 aa
+aarch64-apple-darwin21-c++-11
+aarch64-apple-darwin21-g++-11
+aarch64-apple-darwin21-gcc-11
+aarch64-apple-darwin21-gcc-ar-11
+aarch64-apple-darwin21-gcc-nm-11
+aarch64-apple-darwin21-gcc-ranlib-11
+aarch64-apple-darwin21-gcc-tmp
+aarch64-apple-darwin21-gfortran-11
 ab
 abidump
 abigen
@@ -80,6 +82,7 @@ acyclic
 addbuiltin
 addftinfo
 adig
+aea
 afclip
 afconvert
 affixcompress
@@ -180,6 +183,7 @@ autoheader
 autom4te
 automake
 automake-1.16
+automationmodetool
 automator
 automount
 autopoint
@@ -239,7 +243,6 @@ bitmap
 bjoentegaard
 bless
 bltest
-bluetoothaudiod
 bluetoothd
 bmptopnm
 bmptoppm
@@ -247,7 +250,6 @@ bmtoa
 bnepd
 bombardment
 bootnode
-bootstrapping
 bputil
 bq
 brctl
@@ -314,7 +316,6 @@ cacafire
 cacaplay
 cacaserver
 cacaview
-cache
 caffeinate
 cairo-sphinx
 cairo-trace
@@ -329,10 +330,6 @@ capinfos.dSYM
 captoinfo
 captype
 captype.dSYM
-cargo
-cargo-clippy
-cargo-fmt
-cargo-miri
 carthage
 cask-repair
 caspol
@@ -340,7 +337,6 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
-cbt
 cc
 cccheck
 ccmake
@@ -358,7 +354,6 @@ certmgr
 certtool
 certutil
 cfprefsd
-chardetect
 chat
 chcon
 check-regexp
@@ -385,7 +380,6 @@ chpass
 chrome-stats-to-csv
 chroot
 chsh
-cilium
 circleci
 circo
 ciscodump
@@ -397,11 +391,11 @@ cksum
 cl2c
 clang
 clang++
+clangd
 clean-diff
 clear
 clef
 clhsdb
-clippy-driver
 clj
 cloc
 clojure
@@ -415,7 +409,7 @@ cmpfillin
 cmsutil
 cmuwmtopbm
 code
-coderay
+codecctl
 codesign
 codesign_allocate
 col
@@ -454,7 +448,6 @@ coreaudiod
 corelist
 corelist5.18
 corelist5.30
-coursera-dl
 cp
 cpack
 cpan
@@ -541,8 +534,6 @@ d8
 danetool
 dappprof
 dapptrace
-dart
-dart.bat
 dash
 date
 dav1d
@@ -605,7 +596,6 @@ der_gtest
 derdump
 dertimetest
 desdp
-dev_appserver.py
 dev_mkdb
 devp2p
 df
@@ -688,6 +678,7 @@ dvdbackup
 dvipdf
 dwarfdump
 dwebp
+dyld_info
 dynamic_pager
 easy_install
 easy_install-2.7
@@ -721,7 +712,6 @@ enc2xs5.30
 encguess
 encode_keychange
 encodeinttest
-endpointscfg.py
 enscript
 enum_options
 env
@@ -831,8 +821,6 @@ flex++
 flow
 fltk-config
 fluid
-flutter
-flutter.bat
 fmt
 fold
 font_cache
@@ -921,15 +909,11 @@ gd2copypal
 gd2togif
 gd2topng
 gdate
-gdb
-gdb-add-index
 gdbm_dump
 gdbm_load
 gdbmtool
 gdbus
 gdbus-codegen
-gdc
-gdc-11
 gdcmpgif
 gdd
 gdf
@@ -1030,7 +1014,7 @@ git-contrib
 git-count
 git-cp
 git-create-branch
-git-credential-gcloud.sh
+git-credential-gcloud
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -1158,6 +1142,7 @@ gopkgs
 goplay
 gopls
 gotests
+gotop
 gouldtoppm
 gource
 gpaste
@@ -1278,6 +1263,7 @@ gvcolor
 gvdir
 gvgen
 gvmap
+gvmap.sh
 gvpack
 gvpr
 gwc
@@ -1380,7 +1366,6 @@ httpserv
 httxt2dbm
 hub
 hub-tool
-hubble
 hunspell
 hunzip
 hwloc-annotate
@@ -1389,12 +1374,10 @@ hwloc-calc
 hwloc-compress-dir
 hwloc-diff
 hwloc-distrib
-hwloc-gather-cpuid
 hwloc-info
 hwloc-ls
 hwloc-patch
 hwloc-ps
-hyperkit
 hzip
 iRATBW.mlmodelc
 ibd2sdi
@@ -1482,8 +1465,6 @@ instancer
 instmodsh
 instmodsh5.18
 instmodsh5.30
-instruments
-internal
 ioalloccount
 ioclasscount
 iofile.d
@@ -1507,7 +1488,6 @@ ipcs
 ippeveprinter
 ippfind
 ipptool
-iprofiler
 iproxy
 iptab
 iptab5.18
@@ -1528,7 +1508,6 @@ iusql
 jack_alias
 jack_bufsize
 jack_connect
-jack_control
 jack_cpu
 jack_cpu_load
 jack_disconnect
@@ -1570,7 +1549,6 @@ jarsigner
 jasper
 java
 java2html
-java_dev_appserver.sh
 javac
 javadoc
 javah
@@ -1679,7 +1657,6 @@ key_app
 key_app_writer
 key_ladder_demo
 key_ladder_demo.sh
-keyring
 keytool
 kgetcred
 kill
@@ -1804,8 +1781,6 @@ lua5.4
 luac
 luac-5.4
 luac5.4
-luajit
-luajit-2.0.5
 luit
 lupdate
 lwp-download
@@ -1895,7 +1870,6 @@ mdv
 mdvalidater
 memcached
 memory_pressure
-mencoder
 mergecap
 mergecap.dSYM
 mesg
@@ -1933,7 +1907,6 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
-mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -1989,6 +1962,7 @@ mount_exfat
 mount_fdesc
 mount_ftp
 mount_hfs
+mount_lifs
 mount_msdos
 mount_nfs
 mount_ntfs
@@ -2010,10 +1984,8 @@ mpif90
 mpifort
 mpioutil
 mpirun
-mplayer
 mpmetis
 mprof-report
-mpsyt
 mpv
 mrftopbm
 msbuild
@@ -2112,6 +2084,7 @@ nettle-hash
 nettle-lfib-stream
 nettle-pbkdf2
 nettop
+networkQuality
 networksetup
 newaliases
 newfs_apfs
@@ -2212,6 +2185,7 @@ osascript
 otctl
 otool
 over
+ovftool
 p11-kit
 p11tool
 p2psim
@@ -2493,12 +2467,6 @@ pgmtosbig
 pgmtost4
 pgrep
 phantomjs
-phar
-phar.phar
-php
-php-config
-php-fpm
-phpize
 pi1toppm
 pi3topbm
 pic
@@ -2512,8 +2480,6 @@ ping
 ping6
 pinky
 pip
-pip2
-pip2.7
 pip3
 pip3.9
 pirate-music-rename
@@ -2533,7 +2499,6 @@ pk_verify
 pkcs1-conv
 pkg-config
 pkgbuild
-pkgex
 pkgutil
 pkill
 pkix-errcodes
@@ -2733,7 +2698,6 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
-pprof
 pr
 praudit
 pre-grohtml
@@ -2749,14 +2713,11 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-gen-go
-protoc-gen-go-grpc
 prove
 prove5.18
 prove5.30
 proxy
 prune
-pry
 ps
 ps2ascii
 ps2epsi
@@ -2824,10 +2785,8 @@ python
 python-build
 python-config
 python2
-python2-config
 python2.7
 python2.7-config
-python2.7-gdb.py
 python3
 python3-config
 python3.9
@@ -2888,12 +2847,12 @@ rabbitmq-plugins
 rabbitmq-queues
 rabbitmq-server
 rabbitmq-streams
+rabbitmq-tanzu
 rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
 racc
 racc2y
-rackup
 racoon
 rails
 rake
@@ -2996,7 +2955,6 @@ ristsrppasswd
 rlatopam
 rletopnm
 rlpdump
-rls
 rlwrap
 rm
 rmdir
@@ -3020,7 +2978,6 @@ rsa_verify
 rsa_verify_pss
 rsaperf
 rsapoptst
-rspec
 rsvg-convert
 rsync
 rsync-ssl
@@ -3029,8 +2986,6 @@ rtmpdump
 rtmpgw
 rtmpsrv
 rtmpsuck
-rtsol
-rtsold
 rubberband
 ruby
 ruby-build
@@ -3041,12 +2996,6 @@ runcon
 runghc
 runghc-8.10.7
 runhaskell
-rust-gdb
-rust-lldb
-rustc
-rustdoc
-rustfmt
-rustup
 rustup-init
 rvictl
 rview
@@ -3065,7 +3014,6 @@ sandbox-exec
 say
 sbigtopgm
 sbt
-sbtn
 sc_auth
 sc_usage
 scala
@@ -3143,6 +3091,7 @@ shasum5.18
 shasum5.30
 shlibsign
 shlock
+shortcuts
 showfigfonts
 showfont
 showmount
@@ -3230,6 +3179,7 @@ snmpvacm
 snmpwalk
 snquota
 sntp
+sntpd
 soapsuds
 soelim
 soffice
@@ -3346,6 +3296,7 @@ sysadminctl
 syscallbypid.d
 syscallbyproc.d
 syscallbysysc.d
+syscapturediags
 sysctl
 sysdiagnose
 syslog
@@ -3493,6 +3444,7 @@ ul
 ulimit
 umask
 umount
+umtool
 unalias
 uname
 unbound
@@ -3533,7 +3485,6 @@ unzipsfx
 unzstd
 update-mime-database
 update_dyld_shared_cache
-update_dyld_shared_cache_root_mode
 update_mcdp29xx
 uptime
 uri-encode
@@ -3563,12 +3514,11 @@ uxterm
 vacuumdb
 vacuumlo
 vagrant
+validation
 vbc
 vbnc
 vbnc2
-vbox-img
-vboximg-mount
-vboxwebsrv
+vctl
 venc_data_dump
 vfychain
 vfyserv
@@ -3590,6 +3540,30 @@ vlc
 vm_stat
 vmaf
 vmmap
+vmnet-bridge
+vmnet-cfgcli
+vmnet-cli
+vmnet-dhcpd
+vmnet-natd
+vmnet-netifup
+vmnet-sniffer
+vmrest
+vmrun
+vmss2core
+vmware-aewp
+vmware-authd
+vmware-cloneBootCamp
+vmware-id
+vmware-ntfs
+vmware-rawdiskAuthTool
+vmware-rawdiskCreator
+vmware-remotemks
+vmware-usbarbitrator
+vmware-vdiskmanager
+vmware-vmdkserver
+vmware-vmx
+vmware-vmx-debug
+vmware-vmx-stats
 vpnd
 vpnkit
 vsdbutil
@@ -3625,7 +3599,6 @@ wfsctl
 wget
 what
 whatis
-wheel
 wheel3
 whereis
 which
@@ -3656,7 +3629,6 @@ wordforms
 wordlist2hunspell
 write
 wrjpgcom
-wrk
 wsdl
 wsdl2
 wsgen
@@ -3667,20 +3639,10 @@ wxrc
 wxrc-3.1
 x264
 x265
-x86_64-apple-darwin20-c++-11
-x86_64-apple-darwin20-g++-11
-x86_64-apple-darwin20-gcc-11
-x86_64-apple-darwin20-gcc-ar-11
-x86_64-apple-darwin20-gcc-nm-11
-x86_64-apple-darwin20-gcc-ranlib-11
-x86_64-apple-darwin20-gcc-tmp
-x86_64-apple-darwin20-gdc-11
-x86_64-apple-darwin20-gfortran-11
 xar
 xargs
 xartutil
 xattr
-xattr-2.7
 xauth
 xbacklight
 xbmtopbm
@@ -3696,6 +3658,7 @@ xconsole
 xcrun
 xcscontrol
 xcsdiagnose
+xctrace
 xcursorgen
 xcutsel
 xditview

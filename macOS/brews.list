@@ -90,7 +90,6 @@ fribidi
 gawk
 gcc
 gd
-gdb
 gdbm
 gdk-pixbuf
 geoip
@@ -121,6 +120,7 @@ go
 gobject-introspection
 golang-migrate
 golangci-lint
+gotop
 gource
 gradle
 graphicsmagick
@@ -241,8 +241,8 @@ libyaml
 libzip
 little-cms2
 llvm
+llvm@12
 lua
-luajit
 luajit-openresty
 luv
 lynx
@@ -266,8 +266,6 @@ mp3splt
 mp3wrap
 mpdecimal
 mpfr
-mplayer
-mps-youtube
 mpv
 msgpack
 mujs
@@ -297,7 +295,6 @@ opencore-amr
 openexr
 openjdk
 openjdk@11
-openjdk@8
 openjpeg
 openldap
 openssl@1.1
@@ -422,8 +419,6 @@ watchman
 webp
 wget
 winetricks
-wrk
-wxmac
 wxwidgets
 x264
 x265

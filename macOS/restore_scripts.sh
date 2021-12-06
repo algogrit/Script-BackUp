@@ -4,6 +4,7 @@ alias cp="cp -v"
 alias rm="rm -v"
 
 # Disable homebrew auto update
+export PATH=/opt/homebrew/bin:$PATH
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Defining Resuable functions
@@ -83,7 +84,7 @@ sudo cp ~/Script-BackUp/macOS/root/etc/hosts /etc/hosts
 sudo cp ~/Script-BackUp/macOS/root/etc/shells /etc/shells
 
 echo "\033[1;31mChanging Shell...\033[0m"
-chsh -s /usr/local/bin/bash
+chsh -s /opt/homebrew/bin/bash
 
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/macOS/.ignore ~/
@@ -174,12 +175,7 @@ jenv enable-plugin export
 cat /tmp/jdk-list | ag Library | cut -f 3 | xargs -n 1 jenv add
 
 echo "\033[1;31mInstalling git-up...\033[0m"
-gem install git-up
-
-echo "\033[1;31mInstalling flutter...\033[0m"
-FLUTTER_INSTALL_PATH=~/Developer/experimental/sdk
-mkdir -p $FLUTTER_INSTALL_PATH
-git clone git@github.com:flutter/flutter.git $FLUTTER_INSTALL_PATH/flutter
+RBENV_VERSION=3.0.2 gem install git-up
 
 echo "\033[1;31mCreating other directories....\033[0m"
 mkdir -p ~/.private/cloud/gcp

@@ -1,12 +1,6 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
 
-# HOMEBREW - Editing in the /etc/paths instead
-# export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-
 ### Languages
-
-# Brew Python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Elm
 export ELM_HOME=~/.elm
@@ -47,20 +41,16 @@ eval "$(jenv init -)"
 
 ### Platforms
 ## Android
-export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk/"
-export ANDROID_NDK_HOME="/usr/local/share/android-ndk/"
+# export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk/"
+# export ANDROID_NDK_HOME="/usr/local/share/android-ndk/"
 
-export ANDROID_HOME=$ANDROID_SDK_ROOT
-export PATH="$ANDROID_HOME""tools:$ANDROID_HOME""tools/bin:$ANDROID_HOME""platform-tools:$PATH"
-
-## Flutter
-export FLUTTER_HOME="$HOME/Developer/experimental/sdk/flutter"
-export PATH="$FLUTTER_HOME/bin:$PATH"
+# export ANDROID_HOME=$ANDROID_SDK_ROOT
+# export PATH="$ANDROID_HOME""tools:$ANDROID_HOME""tools/bin:$ANDROID_HOME""platform-tools:$PATH"
 
 ### Cloud Platforms
 ## GCP
-export GCLOUD_SDK=/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
-export PATH="$GCLOUD_SDK/bin:$PATH"
+# export GCLOUD_SDK=/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
+# export PATH="$GCLOUD_SDK/bin:$PATH"
 
 #### CUSTOM
 
@@ -70,10 +60,6 @@ export PATH="$HOME/Custom-Git-Commands:$PATH"
 
 # Adding ~/bin to the PATH
 export PATH="$HOME/bin:$PATH"
-
-# Adding ~/bin/slack-theme to PATH
-
-export PATH=$PATH:/Users/gaurav/bin/slack-theme
 
 # ADDING snippet_programs to the PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"

@@ -42,7 +42,6 @@ mono-mdk
 ngrok
 nosleep
 odrive
-osxfuse
 phantomjs
 podcastmenu
 postman
@@ -52,7 +51,6 @@ signal
 skype
 skype-for-business
 slack
-soundflower
 soundflowerbed
 spectacle
 spotify
@@ -65,10 +63,9 @@ tor-browser
 transmission
 usage
 vagrant
-virtualbox
-virtualbox-extension-pack
 visual-studio-code
 vlc
+vmware-fusion
 vnc-viewer
 webex-meetings
 whatsapp

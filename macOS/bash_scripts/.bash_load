@@ -1,5 +1,9 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_load Loaded\033[0m"
 
+# HOMEBREW
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
+
 # Sourcing Bash Completion
 source ~/bash_scripts/.bash_completion
 
