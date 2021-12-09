@@ -1748,6 +1748,8 @@ logger
 login
 logname
 logresolve
+logstash
+logstash-plugin
 look
 lookbib
 lorder

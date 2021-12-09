@@ -1,5 +1,6 @@
 buildpacks/tap
 clojure/tools
+elastic/tap
 gcenx/wine
 golangci/tap
 heroku/brew
