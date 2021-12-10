@@ -166,4 +166,4 @@ Warning: Ruby version 2.6.3 is unsupported on macOS 12. Homebrew
 is developed and tested on Ruby 2.6.8, and may not work correctly
 on other Rubies. Patches are accepted as long as they don't cause breakage
 on supported Rubies.
-441 kegs, 371,664 files, 15.0GB
+441 kegs, 371,725 files, 15.0GB

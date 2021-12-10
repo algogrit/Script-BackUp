@@ -1431,7 +1431,6 @@ img2webp
 imgcmp
 imginfo
 imgtoppm
-imlib2-config
 imlib2_bumpmap
 imlib2_colorspace
 imlib2_conv
