@@ -134,7 +134,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3945 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3949 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (205 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1751 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (197 casks)
@@ -166,4 +166,4 @@ Warning: Ruby version 2.6.3 is unsupported on macOS 12. Homebrew
 is developed and tested on Ruby 2.6.8, and may not work correctly
 on other Rubies. Patches are accepted as long as they don't cause breakage
 on supported Rubies.
-441 kegs, 371,725 files, 15.0GB
+441 kegs, 370,939 files, 15.0GB
