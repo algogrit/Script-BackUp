@@ -77,7 +77,7 @@
     "DATABASE_URL": "postgres://gaurav@localhost:5432/roll-test?sslmode=disable",
     "DATABASE_DIALECT": "postgres"
   },
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "java.semanticHighlighting.enabled": true,
   "java.refactor.renameFromFileExplorer": "autoApply",
   "workbench.editor.enablePreview": false,
@@ -87,7 +87,7 @@
       "server": "{{put-server-name-here}}",
       "database": "{{put-database-name-here}}",
       "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
+      "password": ""
     }
   ],
   "workbench.editor.untitled.hint": "hidden",
@@ -108,5 +108,5 @@
     "jupyter-notebook": "left"
   },
   "go.toolsManagement.autoUpdate": true,
-  "window.zoomLevel": 3
+  "window.zoomLevel": 2
 }

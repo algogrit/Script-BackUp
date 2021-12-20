@@ -1908,6 +1908,7 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
+mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -2699,6 +2700,7 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
+pprof
 pr
 praudit
 pre-grohtml
