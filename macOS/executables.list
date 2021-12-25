@@ -15,9 +15,7 @@ BTLEServer
 BTLEServerAgent
 BlueTool
 BootCacheControl
-BuildStrings
 ClassInitGenerator
-CpMac
 DeRez
 Designer
 DevToolsSecurity
@@ -35,19 +33,14 @@ Linguist
 Magick++-config
 MagickCore-config
 MagickWand-config
-MergePef
-MvMac
 PasswordService
 R
 ResMerger
 Rez
-RezDet
-RezWack
 Rscript
 SafeEjectGPU
 SetFile
 SplitForks
-UnRezWack
 WirelessRadioManagerd
 Wireshark
 Wireshark.dSYM
@@ -990,6 +983,7 @@ giftogd2
 giftool
 giftopnm
 gimp
+gin
 ginstall
 gio
 gio-querymodules
@@ -1891,7 +1885,6 @@ mix
 mkafmmap
 mkbom
 mkbundle
-mkdep
 mkdir
 mkextunpack
 mkfifo
@@ -2918,7 +2911,6 @@ re2go
 read
 readlink
 realpath
-rebase
 reboot
 rec
 recode-sr-latin
@@ -2928,7 +2920,6 @@ redis-check-rdb
 redis-cli
 redis-sentinel
 redis-server
-redo_prebinding
 refer
 regedit
 regmerge
@@ -3779,6 +3770,8 @@ yamlpp-parse-emit
 yamlpp-parse-emit5.30
 yapp
 yapp5.30
+yarn
+yarnpkg
 yasm
 yat2m
 ybmtopbm

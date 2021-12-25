@@ -26,7 +26,7 @@ source ~/bash_scripts/.aliases
 . `brew --prefix`/etc/profile.d/z.sh
 
 # Sourcing Autoenv
-# source /usr/local/opt/autoenv/activate.sh
+source /opt/homebrew/opt/autoenv/activate.sh
 
 # Sourcing Direnv
 eval "$(direnv hook bash)"
