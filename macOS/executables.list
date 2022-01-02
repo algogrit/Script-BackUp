@@ -3273,6 +3273,17 @@ sum
 sunicontopnm
 svcutil
 svgtopam
+svn
+svnadmin
+svnbench
+svndumpfilter
+svnfsfs
+svnlook
+svnmucc
+svnrdump
+svnserve
+svnsync
+svnversion
 sw_vers
 swagger-codegen
 swcutil
