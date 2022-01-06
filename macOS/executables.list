@@ -1730,6 +1730,7 @@ llvm-g++
 llvm-gcc
 ln
 lndir
+load_roots
 loads.d
 locale
 localedef
