@@ -134,8 +134,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3966 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (207 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3968 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (208 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1837 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (200 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
@@ -161,4 +161,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-438 kegs, 361,248 files, 14.9GB
+438 kegs, 361,256 files, 14.9GB
