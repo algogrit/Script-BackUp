@@ -2710,6 +2710,8 @@ productsign
 profile2mat.pl
 profiles
 protoc
+protoc-gen-go
+protoc-gen-go-grpc
 prove
 prove5.18
 prove5.30
@@ -3422,6 +3424,7 @@ troff
 trogdor
 true
 truncate
+trust
 trustcachectl
 tset
 tshark
@@ -3634,6 +3637,7 @@ wordforms
 wordlist2hunspell
 write
 wrjpgcom
+wrk
 wsdl
 wsdl2
 wsgen
