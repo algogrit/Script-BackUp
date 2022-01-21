@@ -51,6 +51,7 @@ Xorg
 Xquartz
 Xvfb
 [
+__pycache__
 a2p
 aa
 aarch64-apple-darwin21-c++-11
@@ -811,6 +812,7 @@ firmwarepasswd
 fitstopnm
 fix-qdf
 fixproc
+fixup_pubsub_v1_keywords.py
 flac
 flash
 flex
@@ -2125,6 +2127,7 @@ nologin
 nonspr10
 nop
 normalize.py
+normalizer
 notepad
 notifyd
 notifyutil
@@ -2786,6 +2789,12 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pyrsa-decrypt
+pyrsa-encrypt
+pyrsa-keygen
+pyrsa-priv2pub
+pyrsa-sign
+pyrsa-verify
 python
 python-build
 python-config
