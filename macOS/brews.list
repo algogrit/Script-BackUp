@@ -183,6 +183,7 @@ libatomic_ops
 libb2
 libbluray
 libcaca
+libcbor
 libcerf
 libcroco
 libde265
@@ -191,6 +192,7 @@ libdvdread
 libev
 libevent
 libffi
+libfido2
 libgcrypt
 libgpg-error
 libheif

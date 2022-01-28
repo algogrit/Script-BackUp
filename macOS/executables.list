@@ -792,6 +792,9 @@ fg
 fgrep
 fiascotopnm
 fibreconfig
+fido2-assert
+fido2-cred
+fido2-token
 figlet
 figlist
 file
@@ -2926,6 +2929,7 @@ rdoc
 rdx
 re2c
 re2go
+re2rust
 read
 readlink
 realpath
