@@ -7,7 +7,7 @@ clojure/tools: 80 formulae
 From: https://github.com/clojure/homebrew-tools
 
 elastic/tap: 17 formulae
-/opt/homebrew/Library/Taps/elastic/homebrew-tap (109 files, 480.9KB)
+/opt/homebrew/Library/Taps/elastic/homebrew-tap (130 files, 504.8KB)
 From: https://github.com/elastic/homebrew-tap
 
 gcenx/wine: 6 casks
@@ -26,12 +26,12 @@ homebrew/bundle: 1 command
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (182 files, 1.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 3954 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (5,044 files, 337.7MB)
+homebrew/cask: 3955 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (5,047 files, 338.1MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 205 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (703 files, 3.7MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (719 files, 3.8MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1840 casks
@@ -39,11 +39,11 @@ homebrew/cask-fonts: 1840 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 210 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,380 files, 71MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,428 files, 71.1MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: 3 commands, 5942 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,366 files, 502.6MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,376 files, 503.9MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
@@ -51,7 +51,7 @@ homebrew/services: 1 command
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 41 formulae
-/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (68 files, 388.5KB)
+/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (71 files, 391.9KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: 5 formulae
