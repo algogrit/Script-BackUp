@@ -3036,6 +3036,7 @@ scala
 scalac
 scaladoc
 scalap
+scale_slice_test
 scandeps.pl
 scandeps5.18.pl
 scandeps5.30.pl
