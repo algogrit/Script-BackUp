@@ -70,6 +70,8 @@ erlang
 ethereum
 exercism
 faac
+fb303
+fbthrift
 fd
 ffmpeg
 ffmpeg@4
@@ -77,6 +79,7 @@ fftw
 figlet
 findutils
 firebase-cli
+fizz
 flac
 flow
 fltk
@@ -416,6 +419,7 @@ veclibfort
 vim
 vimpager
 w3m
+wangle
 watch
 watchman
 webp
