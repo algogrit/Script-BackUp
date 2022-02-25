@@ -1298,6 +1298,7 @@ h5cc
 h5clear
 h5copy
 h5debug
+h5delete
 h5diff
 h5dump
 h5fc
@@ -1649,6 +1650,7 @@ kafka-verifiable-consumer
 kafka-verifiable-producer
 kcc
 kcditto
+kcli
 kdcsetup
 kdestroy
 keepassxc-cli
@@ -1892,8 +1894,6 @@ mig
 migrate
 mini_client
 minikube
-mirror_server
-mirror_server_stop
 missing_codec_desc
 mix
 mkafmmap

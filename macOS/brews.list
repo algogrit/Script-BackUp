@@ -215,6 +215,7 @@ libplist
 libpng
 libproxy
 libpthread-stubs
+librdkafka
 librist
 librsvg
 libsamplerate
@@ -255,6 +256,7 @@ luajit-openresty
 luv
 lynx
 lz4
+lzlib
 lzo
 m4
 macos-term-size
