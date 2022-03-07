@@ -70,7 +70,8 @@ alias remove_all_node_modules="find . -name 'node_modules' -exec rm -rf '{}' +"
 # Docker
 alias docker-rm-exited="docker ps -aq --no-trunc -f status=exited | xargs docker rm"
 alias docker-rmi-dangling="docker images -f 'dangling=true' -q | xargs docker rmi"
-alias docker-clean-up="docker-rm-exited && docker-rmi-dangling"
+alias docker-rm-volumes="docker volume ls | cut -d ' ' -f 6 | tail -n +2 | xargs -n 1 docker volume rm"
+alias docker-clean-up="docker-rm-exited && docker-rmi-dangling && docker-rm-volumes"
 
 # Personalised
 alias about-me="cat ~/Developer/Algogrit/algogrit.com/About-Me.md"
