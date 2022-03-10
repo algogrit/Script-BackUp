@@ -191,6 +191,8 @@ avbdiagnose
 avbutil
 avconvert
 avdmanager
+avifdec
+avifenc
 aviocat
 avmediainfo
 avmetareadwrite

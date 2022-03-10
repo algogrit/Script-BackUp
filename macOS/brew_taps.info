@@ -19,35 +19,35 @@ golangci/tap: 1 formula
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (17 files, 292.6KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (25 files, 295.5KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (211 files, 1.9MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (215 files, 1.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 3966 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,157 files, 321.0MB)
+homebrew/cask: 3967 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,166 files, 322.0MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 206 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (873 files, 4MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (901 files, 4.2MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1872 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,679 files, 23.3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2,704 files, 23.7MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 212 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,992 files, 72.4MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,036 files, 72.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 3 commands, 5989 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,591 files, 530.8MB)
+homebrew/core: 3 commands, 5991 formulae
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,617 files, 533.5MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (262 files, 759.9KB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (273 files, 768.4KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 41 formulae
