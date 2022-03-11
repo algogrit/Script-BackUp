@@ -3366,6 +3366,7 @@ tesseract
 test
 test-yaml
 test-yaml5.30
+testfixtures
 texi2dvi
 texi2html
 texi2pdf

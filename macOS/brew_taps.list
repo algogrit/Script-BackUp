@@ -2,6 +2,7 @@ buildpacks/tap
 clojure/tools
 elastic/tap
 gcenx/wine
+go-testfixtures/tap
 golangci/tap
 heroku/brew
 homebrew/bundle

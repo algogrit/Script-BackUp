@@ -398,6 +398,7 @@ terminal-notifier
 terraform
 terrascan
 tesseract
+testfixtures
 texi2html
 texinfo
 the_silver_searcher
