@@ -310,6 +310,7 @@ openjdk@11
 openjpeg
 openldap
 openssl@1.1
+openssl@3
 opus
 opusfile
 ossp-uuid
