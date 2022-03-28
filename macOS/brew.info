@@ -128,14 +128,14 @@ SHELL
 ==> Homebrew Version
 3.4.3
 ==> macOS
-12.1
+12.3
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (3976 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (213 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (215 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1872 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (207 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
@@ -162,4 +162,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-453 kegs, 372,330 files, 15.2GB
+453 kegs, 372,450 files, 15.2GB

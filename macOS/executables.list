@@ -1,7 +1,5 @@
 
 2to3
-2to3-
-2to3-2.7
 2to3-3.9
 411toppm
 7z
@@ -592,6 +590,7 @@ delv
 demandoc
 der_gtest
 derdump
+derq
 dertimetest
 desdp
 dev_appserver.py
@@ -679,8 +678,6 @@ dwarfdump
 dwebp
 dyld_info
 dynamic_pager
-easy_install
-easy_install-2.7
 ebrowse
 ecdh_curve25519
 ecdsa
@@ -1421,7 +1418,6 @@ idevicesyslog
 idl2wrs
 idl2wrs.dSYM
 idle
-idle2.7
 idle3
 idle3.9
 idlj
@@ -2777,7 +2773,6 @@ pwhich
 pwhich5.18
 pwpolicy
 pydoc
-pydoc2.7
 pydoc3
 pydoc3.9
 pyenv
@@ -2805,16 +2800,11 @@ pyrsa-verify
 python
 python-build
 python-config
-python2
-python2.7
-python2.7-config
 python3
 python3-config
 python3.9
 python3.9-config
 python3.9-gdb.py
-pythonw
-pythonw2.7
 pzstd
 qconvex
 qdbus
@@ -3161,8 +3151,6 @@ smbdiagnose
 smbutil
 smime_gtest
 smproxy
-smtpd.py
-smtpd2.7.py
 sn
 sndfile-cmp
 sndfile-concat
@@ -3684,6 +3672,7 @@ xbacklight
 xbmtopbm
 xbuild
 xcalc
+xcdebug
 xclipboard
 xclock
 xcmsdb
