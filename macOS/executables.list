@@ -19,7 +19,6 @@ Designer
 DevToolsSecurity
 DirectoryService
 GetFileInfo
-Go-Training
 GraphicsMagick++-config
 GraphicsMagick-config
 GraphicsMagickWand-config
@@ -75,6 +74,7 @@ addbuiltin
 addftinfo
 adig
 aea
+aec
 afclip
 afconvert
 affixcompress
@@ -625,8 +625,6 @@ ditto
 djpeg
 djxl
 dltest
-dlv
-dlv-dap
 dmc
 dmcs
 dmesg
@@ -993,7 +991,6 @@ giftogd2
 giftool
 giftopnm
 gimp
-gin
 ginstall
 gio
 gio-querymodules
@@ -1136,17 +1133,11 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
-go-outline
 gobject-query
 god
 goenv
 gofmt
 golangci-lint
-gomodifytags
-gopkgs
-goplay
-gopls
-gotests
 gotop
 gouldtoppm
 gource
@@ -1297,7 +1288,6 @@ h5cc
 h5clear
 h5copy
 h5debug
-h5delete
 h5diff
 h5dump
 h5fc
@@ -1445,7 +1435,6 @@ imlib2_poly
 imlib2_show
 imlib2_test
 imlib2_view
-impl
 import
 imptrace
 indent
@@ -1648,7 +1637,6 @@ kafka-verifiable-consumer
 kafka-verifiable-producer
 kcc
 kcditto
-kcli
 kdcsetup
 kdestroy
 keepassxc-cli
@@ -1892,6 +1880,8 @@ mig
 migrate
 mini_client
 minikube
+mirror_server
+mirror_server_stop
 missing_codec_desc
 mix
 mkafmmap
@@ -1913,7 +1903,6 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
-mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -2706,7 +2695,6 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
-pprof
 pr
 praudit
 pre-grohtml
@@ -2722,8 +2710,6 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-gen-go
-protoc-gen-go-grpc
 prove
 prove5.18
 prove5.30
@@ -3267,7 +3253,6 @@ stapler
 startx
 stat
 states
-staticcheck
 stdbuf
 stern
 stl2gts
