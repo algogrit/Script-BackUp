@@ -206,6 +206,7 @@ balsamui
 banner
 base32
 base64
+base_gtest
 basename
 basenc
 bash
@@ -991,6 +992,7 @@ giftogd2
 giftool
 giftopnm
 gimp
+gin
 ginstall
 gio
 gio-querymodules
@@ -1133,11 +1135,16 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
+go-outline
 gobject-query
 god
 goenv
 gofmt
 golangci-lint
+gomodifytags
+goplay
+gopls
+gotests
 gotop
 gouldtoppm
 gource
@@ -1435,6 +1442,7 @@ imlib2_poly
 imlib2_show
 imlib2_test
 imlib2_view
+impl
 import
 imptrace
 indent
@@ -1903,6 +1911,7 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
+mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -3253,6 +3262,7 @@ stapler
 startx
 stat
 states
+staticcheck
 stdbuf
 stern
 stl2gts
