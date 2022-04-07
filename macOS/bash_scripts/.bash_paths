@@ -34,6 +34,7 @@ eval "$(goenv init -)"
 ## rustup-init
 export CARGO_HOME="$HOME/.cargo"
 export PATH="$CARGO_HOME/bin:$PATH"
+. $HOME/.cargo/env
 
 ## jenv
 export PATH="$HOME/.jenv/bin:$PATH"

@@ -326,6 +326,10 @@ capinfos.dSYM
 captoinfo
 captype
 captype.dSYM
+cargo
+cargo-clippy
+cargo-fmt
+cargo-miri
 carthage
 cask-repair
 caspol
@@ -333,7 +337,6 @@ cassandra
 cassandra-stress
 cassandra-stressd
 cat
-cbt
 cc
 cccheck
 ccmake
@@ -393,6 +396,7 @@ clean-diff
 clear
 clef
 clhsdb
+clippy-driver
 clj
 cloc
 clojure
@@ -631,13 +635,9 @@ dmcs
 dmesg
 dnctl
 dns-sd
-docker
 docker-compose
 docker-compose-v1
-docker-credential-desktop
-docker-credential-ecr-login
 docker-credential-gcloud
-docker-credential-osxkeychain
 docker-machine
 doctl
 dos2unix
@@ -695,7 +695,7 @@ elixir
 elixirc
 elm
 emacs
-emacs-27.2
+emacs-28.1
 emacsclient
 emond
 emulator
@@ -1680,7 +1680,6 @@ ktrace
 ktutil
 kubebuilder
 kubectl
-kubectl.docker
 kubectx
 kubens
 lam
@@ -2960,6 +2959,7 @@ ristsrppasswd
 rlatopam
 rletopnm
 rlpdump
+rls
 rlwrap
 rm
 rmdir
@@ -3001,6 +3001,12 @@ runcon
 runghc
 runghc-8.10.7
 runhaskell
+rust-gdb
+rust-lldb
+rustc
+rustdoc
+rustfmt
+rustup
 rustup-init
 rvictl
 rview
@@ -3583,7 +3589,6 @@ vmware-vmx
 vmware-vmx-debug
 vmware-vmx-stats
 vpnd
-vpnkit
 vsdbutil
 vspipe
 vsyasm

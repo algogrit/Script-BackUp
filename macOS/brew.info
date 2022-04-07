@@ -13,14 +13,14 @@ RUBYPATH
 SHELL
 ==> $LOAD_PATHS
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/warning-1.2.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tapioca-0.7.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tapioca-0.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/yard-sorbet-0.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/yard-0.9.27/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/spoom-1.1.9/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/thor-1.2.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-stub-0.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-0.5.9787/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-static-0.5.9787-universal-darwin-14/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-0.5.9827/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-static-0.5.9827-universal-darwin-14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/simplecov-0.21.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -41,7 +41,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-its-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-github-2.3.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-3.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-mocks-3.11.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-mocks-3.11.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-expectations-3.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-core-3.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rspec-support-3.11.0/lib
@@ -56,11 +56,11 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/plist-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/patchelf-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parlour-6.0.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-0.5.9787/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-0.5.9827/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parser-3.1.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel_tests-3.7.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel-1.22.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel_tests-3.8.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel-1.22.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mustache-1.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/method_source-1.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mechanize-2.8.4/lib
@@ -126,18 +126,18 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.4.4
+3.4.5
 ==> macOS
-12.3
+12.3.1
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3979 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3990 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (215 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1900 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (207 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1901 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (209 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -162,4 +162,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-454 kegs, 372,070 files, 15.2GB
+454 kegs, 371,840 files, 15.3GB
