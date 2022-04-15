@@ -218,6 +218,7 @@ libplist
 libpng
 libproxy
 libpthread-stubs
+libraw
 librdkafka
 librist
 librsvg

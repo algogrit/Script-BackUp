@@ -2,6 +2,7 @@
 2to3
 2to3-3.9
 411toppm
+4channels
 7z
 7za
 7zr
@@ -583,6 +584,8 @@ dbus-test-tool
 dbus-update-activation-environment
 dbus-uuidgen
 dc
+dcraw_emu
+dcraw_half
 dd
 ddbugtopbm
 ddns-confgen
@@ -636,9 +639,13 @@ dmcs
 dmesg
 dnctl
 dns-sd
+docker
 docker-compose
 docker-compose-v1
+docker-credential-desktop
+docker-credential-ecr-login
 docker-credential-gcloud
+docker-credential-osxkeychain
 docker-machine
 doctl
 dos2unix
@@ -1313,6 +1320,7 @@ h5unjam
 h5watch
 haddock
 haddock-ghc-8.10.7
+half_mt
 halt
 happrox
 hash
@@ -1681,6 +1689,7 @@ ktrace
 ktutil
 kubebuilder
 kubectl
+kubectl.docker
 kubectx
 kubens
 lam
@@ -1873,6 +1882,7 @@ mdoc-validate
 mdutil
 mdv
 mdvalidater
+mem_image
 memcached
 memory_pressure
 mergecap
@@ -2016,6 +2026,7 @@ mtree
 mtvtoppm
 mujs
 multinit
+multirender_test
 munch
 murge
 mv
@@ -2621,6 +2632,7 @@ postlog
 postmap
 postmaster
 postmulti
+postprocessing_benchmark
 postqueue
 postsuper
 powder
@@ -2869,9 +2881,11 @@ ranlib
 rarpd
 rasttopnm
 rav1e
+raw-identify
 raw2tiff
 rawshark
 rawshark.dSYM
+rawtextdump
 rawtopgm
 rawtoppm
 rb_hash_to_json
@@ -3121,6 +3135,7 @@ sigdist.d
 signcode
 signtool
 signver
+simple_dcraw
 sip-build
 sip-distinfo
 sip-install
@@ -3499,6 +3514,7 @@ unoinfo
 unopkg
 unpack200
 unpack200.dSYM
+unprocessed_raw
 unsetpassword
 unstr
 unterm
@@ -3590,6 +3606,7 @@ vmware-vmx
 vmware-vmx-debug
 vmware-vmx-stats
 vpnd
+vpnkit
 vsdbutil
 vspipe
 vsyasm
