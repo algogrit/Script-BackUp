@@ -196,6 +196,10 @@ avifenc
 aviocat
 avmediainfo
 avmetareadwrite
+avroappend
+avrocat
+avromod
+avropipe
 avstopam
 awk
 aws
@@ -1013,6 +1017,7 @@ git-archive-file
 git-authors
 git-auto-push
 git-browse
+git-browse-ci
 git-brv
 git-bulk
 git-catchup
@@ -1056,6 +1061,7 @@ git-ls-conflicted
 git-ls-modified
 git-ls-new
 git-ls-untracked
+git-magic
 git-merge-into
 git-merge-repo
 git-missing
@@ -1610,6 +1616,8 @@ jshell
 json_pp
 json_pp5.18
 json_pp5.30
+json_reformat
+json_verify
 json_xs
 json_xs5.30
 jstack
@@ -1652,6 +1660,7 @@ kafka-topics
 kafka-transactions
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kcat
 kcc
 kcditto
 kdcsetup

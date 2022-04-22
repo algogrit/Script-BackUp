@@ -41,6 +41,7 @@ ms-dotnettools.csharp
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-mssql.data-workspace-vscode
 ms-mssql.mssql
+ms-mssql.sql-bindings-vscode
 ms-mssql.sql-database-projects-vscode
 ms-python.python
 ms-python.vscode-pylance

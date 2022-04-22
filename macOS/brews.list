@@ -14,6 +14,7 @@ atk
 autoconf
 autoenv
 automake
+avro-c
 aws-iam-authenticator
 awscli
 awscli@1
@@ -171,6 +172,7 @@ juju
 juju-wait
 k3d
 kafka
+kcat
 kind
 kompose
 krb5
@@ -224,6 +226,7 @@ librist
 librsvg
 libsamplerate
 libscrypt
+libserdes
 libsndfile
 libsodium
 libsoxr
@@ -443,6 +446,7 @@ xorgproto
 xvid
 xxhash
 xz
+yajl
 yasm
 youtube-dl
 yq
