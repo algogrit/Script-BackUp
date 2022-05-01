@@ -83,7 +83,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/elftools-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ecma-re-validator-0.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/regexp_parser-2.3.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/regexp_parser-2.3.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/domain_name-0.5.20190701/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unf-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unf_ext-0.0.8.1/lib
@@ -126,7 +126,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.4.8
+3.4.9
 ==> macOS
 12.3.1
 ==> SIP
@@ -134,8 +134,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4003 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (217 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (3993 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (216 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1903 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (209 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
@@ -166,4 +166,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-459 kegs, 373,228 files, 15.3GB
+460 kegs, 373,037 files, 15.3GB
