@@ -26,7 +26,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/simplecov_json_formatter-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/simplecov-html-0.12.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-macho-3.0.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-sorbet-0.6.7/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-sorbet-0.6.8/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.10.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.14.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.13.3/lib
@@ -106,7 +106,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/addressable-2.8.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/public_suffix-4.0.7/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.1.5/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/activesupport-6.1.5.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/zeitwerk-2.5.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/tzinfo-2.0.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/minitest-5.15.0/lib
@@ -126,7 +126,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.4.9
+3.4.10
 ==> macOS
 12.3.1
 ==> SIP
@@ -137,7 +137,7 @@ Enabled
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (3993 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (216 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1903 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (209 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (210 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -166,4 +166,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-460 kegs, 373,037 files, 15.3GB
+460 kegs, 373,306 files, 15.3GB
