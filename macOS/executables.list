@@ -2603,6 +2603,7 @@ pnmtosir
 pnmtotiff
 pnmtotiffcmyk
 pnmtoxwd
+pod
 pod2html
 pod2html5.18
 pod2html5.30
@@ -3647,6 +3648,7 @@ weakpass_edit
 webpinfo
 webpmux
 webpng
+websocat
 wfsctl
 wget
 what
@@ -3707,6 +3709,7 @@ xclock
 xcmsdb
 xcode-select
 xcodebuild
+xcodeproj
 xcompmgr
 xconsole
 xcrun

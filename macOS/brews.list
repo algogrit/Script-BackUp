@@ -43,6 +43,7 @@ clojure
 cloog
 cmake
 cmocka
+cocoapods
 colortail
 coreutils
 cscope
@@ -436,6 +437,7 @@ wangle
 watch
 watchman
 webp
+websocat
 wget
 winetricks
 wrk
