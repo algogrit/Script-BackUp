@@ -3470,11 +3470,13 @@ true
 truncate
 trust
 trustcachectl
+tsc
 tset
 tshark
 tshark.dSYM
 tsig-keygen
 tsort
+tsserver
 tstclnt
 tty
 ttygif
