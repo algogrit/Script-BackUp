@@ -56,6 +56,7 @@ ms-vscode.cmake-tools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
+ms-vscode.makefile-tools
 ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 pgourlain.erlang
