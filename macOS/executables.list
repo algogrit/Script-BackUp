@@ -1868,6 +1868,7 @@ manifest
 manpath
 manweb
 mas
+materialeditor
 mbedtls-benchmark
 mbedtls-selftest
 mclient
@@ -2835,7 +2836,6 @@ qdbusxml2cpp
 qdelaunay
 qdistancefieldgenerator
 qhalf
-qhelpgenerator
 qhull
 qlmanage
 qmake
@@ -2845,16 +2845,17 @@ qmldom
 qmleasing
 qmlformat
 qmllint
+qmlls
 qmlplugindump
 qmlpreview
 qmlprofiler
 qmlscene
+qmltc
 qmltestrunner
 qmltime
 qpdf
 qrttoppm
 qsb
-qscxmlc
 qt-cmake
 qt-cmake-private
 qt-cmake-standalone-test
@@ -3123,6 +3124,7 @@ sha256sum
 sha384sum
 sha512sum
 shadergen
+shapegen
 shar
 sharing
 sharkd
