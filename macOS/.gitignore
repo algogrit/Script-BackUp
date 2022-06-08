@@ -54,3 +54,6 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+#
+
+model/seed_domains.go
