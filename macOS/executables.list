@@ -212,7 +212,6 @@ balsamui
 banner
 base32
 base64
-base_gtest
 basename
 basenc
 bash
@@ -355,8 +354,6 @@ cert2spc
 cert_app
 cert_req
 cert_write
-certdb_gtest
-certhigh_gtest
 certmgr
 certtool
 certutil
@@ -490,7 +487,6 @@ crontab
 crypt_and_hash
 crypto_bench
 crypto_examples
-cryptohi_gtest
 csc
 cscope
 csh
@@ -602,7 +598,6 @@ defaults
 delaunay
 delv
 demandoc
-der_gtest
 derdump
 derq
 dertimetest
@@ -849,7 +844,6 @@ format-sql5.18
 fortune
 fourcc2pixfmt
 fqltool
-freebl_gtest
 freetype-config
 fribidi
 from
@@ -2166,7 +2160,6 @@ nslookup
 nspr-config
 nss-config
 nss-policy-check
-nss_bogo_shim
 nsupdate
 nuget
 numfmt
@@ -2514,7 +2507,6 @@ pip3.9
 pirate-music-rename
 pixeltool
 pjtoppm
-pk11_gtest
 pk11ectest
 pk11gcmtest
 pk11importtest
@@ -3182,7 +3174,6 @@ slsh
 smbd
 smbdiagnose
 smbutil
-smime_gtest
 smproxy
 sn
 sndfile-cmp
@@ -3225,7 +3216,6 @@ sntpd
 soapsuds
 soelim
 soffice
-softoken_gtest
 softwareupdate
 solr
 sort
@@ -3276,7 +3266,6 @@ ssl_client1
 ssl_client2
 ssl_context_info
 ssl_fork_server
-ssl_gtest
 ssl_mail_client
 ssl_pthread_server
 ssl_server
@@ -3550,7 +3539,6 @@ uri-encode
 usbcfwflasher
 usernoted
 users
-util_gtest
 uttype
 uuchk
 uucico
