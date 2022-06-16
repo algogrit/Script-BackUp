@@ -11,7 +11,7 @@ elastic/tap: 17 formulae
 From: https://github.com/elastic/homebrew-tap
 
 gcenx/wine: 4 casks, 3 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (188 files, 214.2KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (196 files, 218.3KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: 1 formula
@@ -27,15 +27,15 @@ heroku/brew: 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (363 files, 2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (367 files, 2MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask: 4014 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,395 files, 342MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,397 files, 342.5MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 212 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,478 files, 5.3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,494 files, 5.3MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1937 casks
@@ -43,15 +43,15 @@ homebrew/cask-fonts: 1937 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 220 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,081 files, 76.7MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,145 files, 76.8MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/core: 3 commands, 6118 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,542 files, 546.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,544 files, 546.8MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (418 files, 884.0KB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (418 files, 883.9KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 34 formulae
