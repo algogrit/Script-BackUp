@@ -59,7 +59,6 @@ aarch64-apple-darwin21-gcc-11
 aarch64-apple-darwin21-gcc-ar-11
 aarch64-apple-darwin21-gcc-nm-11
 aarch64-apple-darwin21-gcc-ranlib-11
-aarch64-apple-darwin21-gcc-tmp
 aarch64-apple-darwin21-gfortran-11
 ab
 abidump
