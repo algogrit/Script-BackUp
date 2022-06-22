@@ -319,6 +319,7 @@ openjpeg
 openldap
 openssl@1.1
 openssl@3
+operator-sdk
 opus
 opusfile
 ossp-uuid
