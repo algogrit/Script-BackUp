@@ -105,6 +105,7 @@ androidtestrunner
 animate
 annotate
 ansible
+ansible-community
 ansible-config
 ansible-connection
 ansible-console
