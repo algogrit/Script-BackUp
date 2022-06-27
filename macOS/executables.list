@@ -3230,6 +3230,8 @@ spctl
 spctoppm
 speedtest
 speedtest-cli
+speexdec
+speexenc
 spelldump
 spfd
 spfd5.18
