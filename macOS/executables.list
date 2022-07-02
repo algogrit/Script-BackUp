@@ -1051,6 +1051,7 @@ git-ignore
 git-ignore-io
 git-info
 git-latest
+git-lfs
 git-local-commits
 git-lock
 git-locked
