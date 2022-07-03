@@ -176,6 +176,7 @@ juju-wait
 k3d
 kafka
 kcat
+keepassc
 kind
 kompose
 krb5
