@@ -317,6 +317,7 @@ opencore-amr
 openexr
 openjdk
 openjdk@11
+openjdk@17
 openjpeg
 openldap
 openssl@1.1
