@@ -75,6 +75,7 @@ addbuiltin
 addftinfo
 adig
 aea
+aead_demo
 aec
 afclip
 afconvert
@@ -384,6 +385,7 @@ chpass
 chrome-stats-to-csv
 chroot
 chsh
+cipher_aead_demo
 circleci
 circo
 ciscodump
@@ -1353,6 +1355,7 @@ hidutil
 hipstopgm
 hiutil
 hmac256
+hmac_demo
 host
 hostid
 hostinfo
@@ -1805,6 +1808,8 @@ lua5.4
 luac
 luac-5.4
 luac5.4
+luajit
+luajit-2.1.0-beta3
 luit
 lupdate
 lwp-download
@@ -1878,6 +1883,7 @@ mcxrefresh
 md2html
 md5
 md5sum
+md_hmac_demo
 mdassembler
 mdatopbm
 mddiagnose
@@ -3020,6 +3026,7 @@ rtmpgw
 rtmpsrv
 rtmpsuck
 rubberband
+rubberband-r3
 ruby
 ruby-build
 run_erl

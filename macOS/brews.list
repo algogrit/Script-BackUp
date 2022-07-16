@@ -263,6 +263,7 @@ llvm
 llvm@12
 logstash-full
 lua
+luajit
 luajit-openresty
 luv
 lynx
