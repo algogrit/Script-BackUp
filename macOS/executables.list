@@ -926,7 +926,6 @@ gdbm_dump
 gdbm_load
 gdbmtool
 gdbus
-gdbus-codegen
 gdcmpgif
 gdd
 gdf
@@ -1115,9 +1114,7 @@ glances
 glewinfo
 glib-compile-resources
 glib-compile-schemas
-glib-genmarshal
 glib-gettextize
-glib-mkenums
 glibtool
 glibtoolize
 glink
@@ -1239,7 +1236,6 @@ gtar
 gtee
 gtest
 gtester
-gtester-report
 gtf
 gti
 gtimeout
