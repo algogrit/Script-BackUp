@@ -19,7 +19,7 @@ go-testfixtures/tap: 1 formula
 From: https://github.com/go-testfixtures/homebrew-tap
 
 golangci/tap: 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (57 files, 86.0KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (61 files, 88.3KB)
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: 2 formulae
@@ -27,15 +27,15 @@ heroku/brew: 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (454 files, 2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (458 files, 2MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 4027 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,951 files, 366.3MB)
+homebrew/cask: 4030 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (5,076 files, 370.2MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 214 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,678 files, 5.8MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,686 files, 5.8MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1960 casks
@@ -43,15 +43,15 @@ homebrew/cask-fonts: 1960 casks
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 223 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,826 files, 78.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (4,950 files, 78.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 3 commands, 6197 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,562 files, 545.6MB)
+homebrew/core: 3 commands, 6198 formulae
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,681 files, 551.5MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (463 files, 916.2KB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (467 files, 919.5KB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: 34 formulae
