@@ -34,6 +34,10 @@ alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
 alias play_music="mplayer -novideo -loop 0 -shuffle"
+alias play_once="mplayer -novideo"
+
+# Bhajans
+alias suprabhatam="mplayer -novideo \"/Users/gaurav/Downloads/alphaToomega - Bhajans/ROCKETRY'S SRI VENKATESA SUPRABATHAM _ FULL SONG-P-4OtWtwOig.mkv\""
 
 # Java
 alias jenv-add-list="/usr/libexec/java_home -V"

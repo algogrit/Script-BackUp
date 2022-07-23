@@ -23,6 +23,7 @@ bash-completion
 bat
 bdw-gc
 berkeley-db
+berkeley-db@4
 bison
 boost
 brightness
