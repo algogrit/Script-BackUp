@@ -184,6 +184,7 @@ krb5
 kubebuilder
 kubectx
 kubernetes-cli
+kustomize
 lame
 leiningen
 leptonica

@@ -137,10 +137,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4030 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4033 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (223 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1962 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (214 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1963 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -150,13 +150,6 @@ Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   szip
-
-Warning: Some installed formulae are deprecated or disabled.
-You should find replacements for the following formulae:
-  docker-machine
-  isl@0.18
-  sdl
-  sdl_image
 
 Warning: "config" scripts exist outside your system or Homebrew directories.
 `./configure` scripts often look for *-config scripts to determine if
@@ -169,4 +162,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-470 kegs, 378,634 files, 16.2GB
+471 kegs, 379,828 files, 16.3GB

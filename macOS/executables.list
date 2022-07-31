@@ -1701,6 +1701,7 @@ kubectl
 kubectl.docker
 kubectx
 kubens
+kustomize
 lam
 lame
 languagesetup
