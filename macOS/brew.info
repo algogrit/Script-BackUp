@@ -30,7 +30,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rspec-2.12.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-rails-2.15.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-performance-1.14.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.32.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-1.33.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/unicode-display_width-2.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rubocop-ast-1.19.1/lib
@@ -128,7 +128,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.5.7
+3.5.8
 ==> macOS
 12.4
 ==> SIP
@@ -136,9 +136,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4034 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (223 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1965 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4035 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (224 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1966 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -161,4 +161,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-471 kegs, 387,764 files, 16.3GB
+471 kegs, 388,248 files, 16.4GB
