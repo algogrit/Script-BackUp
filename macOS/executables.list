@@ -3430,6 +3430,7 @@ timeout
 timer_analyser.d
 timerfires
 timesyncanalyse
+tjbench
 tkcon
 tkmib
 tkpp
@@ -3573,6 +3574,7 @@ uxterm
 vacuumdb
 vacuumlo
 vagrant
+vagrant-go
 validation
 vbc
 vbnc
