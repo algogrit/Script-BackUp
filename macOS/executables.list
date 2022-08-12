@@ -1,5 +1,7 @@
 
 2to3
+2to3-3.10
+2to3-3.8
 2to3-3.9
 411toppm
 4channels
@@ -1429,6 +1431,8 @@ idl2wrs
 idl2wrs.dSYM
 idle
 idle3
+idle3.10
+idle3.8
 idle3.9
 idlj
 idn
@@ -2512,6 +2516,8 @@ ping6
 pinky
 pip
 pip3
+pip3.10
+pip3.8
 pip3.9
 pirate-music-rename
 pixeltool
@@ -2797,6 +2803,8 @@ pwhich5.18
 pwpolicy
 pydoc
 pydoc3
+pydoc3.10
+pydoc3.8
 pydoc3.9
 pyenv
 pyenv-activate
@@ -2825,6 +2833,10 @@ python-build
 python-config
 python3
 python3-config
+python3.10
+python3.10-config
+python3.8
+python3.8-config
 python3.9
 python3.9-config
 python3.9-gdb.py
@@ -3662,6 +3674,9 @@ wget
 what
 whatis
 wheel3
+wheel3.10
+wheel3.8
+wheel3.9
 whereis
 which
 whiptail
