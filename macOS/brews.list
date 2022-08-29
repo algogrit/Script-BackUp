@@ -343,6 +343,7 @@ pkg-config
 poppler
 popt
 postgresql
+postgresql@14
 protobuf
 psgrep
 pstree
