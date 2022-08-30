@@ -30,24 +30,24 @@ homebrew/bundle: 1 command
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (505 files, 2.1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 4053 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,569 files, 353.9MB)
+homebrew/cask: 4054 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,572 files, 354.3MB)
 From: https://github.com/Homebrew/homebrew-cask
 
 homebrew/cask-drivers: 217 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,940 files, 6.3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (1,944 files, 6.3MB)
 From: https://github.com/Homebrew/homebrew-cask-drivers
 
 homebrew/cask-fonts: 1969 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,635 files, 34.6MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,637 files, 34.7MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 224 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,745 files, 80.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (5,773 files, 80.3MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 3 commands, 6259 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (7,196 files, 597.5MB)
+homebrew/core: 3 commands, 6260 formulae
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (7,199 files, 598.3MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
