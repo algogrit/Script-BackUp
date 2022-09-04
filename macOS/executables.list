@@ -2102,7 +2102,6 @@ ncdestroy
 ncinit
 nclist
 ncurses5.4-config
-ndiff
 ndisasm
 ndmetis
 ndp
@@ -2743,6 +2742,7 @@ pppd
 pr
 praudit
 pre-grohtml
+predict
 priclass.d
 pridist.d
 printafm
@@ -3474,6 +3474,7 @@ tr
 trace
 traceroute
 traceroute6
+train
 transform
 transicc
 traptoemail

@@ -214,6 +214,7 @@ libid3tag
 libidn
 libidn2
 libimobiledevice
+liblinear
 liblqr
 libmetalink
 libmng
@@ -265,6 +266,7 @@ llvm
 llvm@12
 logstash-full
 lua
+lua@5.3
 luajit
 luajit-openresty
 luv
