@@ -59,7 +59,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/sorbet-runtime-0.5.10175/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parser-3.1.2.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel_tests-3.11.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel_tests-3.12.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/parallel-1.22.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/mustache-1.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/method_source-1.0.0/lib
@@ -102,8 +102,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bootsnap-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-15/2.6.0-static/bootsnap-1.13.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/msgpack-1.5.5/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-15/2.6.0-static/msgpack-1.5.5
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/msgpack-1.5.6/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/extensions/x86_64-darwin-15/2.6.0-static/msgpack-1.5.6
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/bindata-2.4.10/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/bundler/../ruby/2.6.0/gems/addressable-2.8.1/lib
@@ -128,7 +128,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.5.10
+3.6.0
 ==> macOS
 12.4
 ==> SIP
@@ -136,9 +136,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4056 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4070 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (225 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1971 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1973 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (217 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -161,4 +161,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-473 kegs, 388,920 files, 16.5GB
+473 kegs, 388,929 files, 16.5GB
