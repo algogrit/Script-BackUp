@@ -136,10 +136,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4069 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4071 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (226 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1975 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (217 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
