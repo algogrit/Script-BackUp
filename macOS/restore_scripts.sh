@@ -106,6 +106,9 @@ echo "\033[1;31mInstall vundle packages...\033[0m"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 vim +PlugInstall +qall
 
+echo "\033[1;31mSetting up VCpkg...\033[0m"
+git clone https://github.com/microsoft/vcpkg "$HOME/vcpkg"
+
 echo "\033[1;31mRestoring git customizations...\033[0m"
 cp ~/Script-BackUp/macOS/Custom-Git-Commands/* ~/Custom-Git-Commands/
 cp ~/Script-BackUp/macOS/git-hooks/* ~/git-hooks/

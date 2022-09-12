@@ -53,6 +53,10 @@ ls /Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 echo "\033[1;31mListing User Applications...\033[0m" | tee -a applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
+echo "\033[1;31mUpdating version managers...\033[0m"
+bash -c "cd ~/.goenv; git pull"
+bash -c "cd ~/vcpkg; git pull"
+
 echo "\033[1;31mCopying over version manager configs...\033[0m"
 rbenv versions > ruby.versions
 nodenv versions > node.versions

@@ -1176,6 +1176,7 @@ gpg-error-config
 gpgrt-config
 gpinky
 gpmetis
+gpp
 gpr
 gprintenv
 gprintf
@@ -3596,6 +3597,7 @@ validation
 vbc
 vbnc
 vbnc2
+vcpkg
 vctl
 venc_data_dump
 vfychain

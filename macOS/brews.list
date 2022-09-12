@@ -131,6 +131,7 @@ golang-migrate
 golangci-lint
 gotop
 gource
+gpp
 gradle
 graphicsmagick
 graphite2
@@ -441,6 +442,7 @@ unzip
 utf8proc
 v8
 vapoursynth
+vcpkg
 veclibfort
 vim
 vimpager

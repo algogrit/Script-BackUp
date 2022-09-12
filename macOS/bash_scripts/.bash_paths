@@ -40,6 +40,9 @@ export PATH="$CARGO_HOME/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+## vcpkg
+export VCPKG_ROOT="$HOME/vcpkg"
+
 ### Platforms
 ## Android
 # export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk/"
