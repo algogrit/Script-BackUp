@@ -189,6 +189,10 @@ jenv global 1.8
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
 
+## https://nixos.org/download.html#nix-install-macos
+echo "\033[1;31mInstalling nix...\033[0m"
+sh <(curl -L https://nixos.org/nix/install)
+
 echo "\033[1;31mReseting password restrictions...\033[0m"
 pwpolicy -clearaccountpolicies
 passwd
