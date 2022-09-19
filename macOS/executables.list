@@ -2891,6 +2891,7 @@ qmltc
 qmltestrunner
 qmltime
 qpdf
+qprofdiff
 qrttoppm
 qsb
 qt-cmake
@@ -3902,6 +3903,7 @@ yuv-distortion
 yuvsplittoppm
 yuvtoppm
 yuy2topam
+z3
 zcat
 zcmp
 zdiff
