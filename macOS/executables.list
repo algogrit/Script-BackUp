@@ -433,6 +433,7 @@ column
 com.docker.cli
 comm
 command
+common
 comp_err
 compaction-stress
 compare
@@ -857,7 +858,6 @@ freetype-config
 fribidi
 from
 fs_usage
-fsc
 fsck
 fsck_apfs
 fsck_cs
@@ -3099,7 +3099,6 @@ sc_usage
 scala
 scalac
 scaladoc
-scalap
 scale_slice_test
 scandeps.pl
 scandeps5.18.pl
