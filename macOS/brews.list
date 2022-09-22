@@ -384,6 +384,7 @@ sbt
 scala
 scons
 sdl
+sdl12-compat
 sdl2
 sdl2_image
 sdl_image
