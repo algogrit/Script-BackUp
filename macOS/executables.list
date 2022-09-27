@@ -395,6 +395,7 @@ circo
 ciscodump
 cistopbm
 cjpeg
+cjpeg_hdr
 cjxl
 ckksctl
 cksum
@@ -1638,6 +1639,7 @@ juju-metadata
 juju-wait
 julia
 jvisualvm
+jxlinfo
 k3d
 kadmin
 kadmin.local
