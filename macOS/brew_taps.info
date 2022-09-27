@@ -46,8 +46,8 @@ homebrew/cask-versions: 225 casks
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (6,266 files, 81.3MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 3 commands, 6305 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,912 files, 587.5MB)
+homebrew/core: 3 commands, 6306 formulae
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (6,915 files, 588.2MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
