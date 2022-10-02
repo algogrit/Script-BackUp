@@ -137,7 +137,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4082 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (225 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (226 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1978 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
@@ -165,4 +165,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-478 kegs, 391,630 files, 17.2GB
+478 kegs, 390,469 files, 17GB
