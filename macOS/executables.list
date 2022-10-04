@@ -1658,6 +1658,7 @@ kafka-features
 kafka-get-offsets
 kafka-leader-election
 kafka-log-dirs
+kafka-metadata-quorum
 kafka-metadata-shell
 kafka-mirror-maker
 kafka-producer-perf-test
@@ -2458,7 +2459,7 @@ periodic
 perl
 perl5.18
 perl5.30
-perl5.34.0
+perl5.36.0
 perlbug
 perlbug5.18
 perlbug5.30
