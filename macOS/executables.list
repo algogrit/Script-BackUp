@@ -3102,6 +3102,7 @@ sc_usage
 scala
 scalac
 scaladoc
+scalar
 scale_slice_test
 scandeps.pl
 scandeps5.18.pl
