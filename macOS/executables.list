@@ -422,6 +422,7 @@ cmsutil
 cmuwmtopbm
 code
 codecctl
+coderay
 codesign
 codesign_allocate
 col
@@ -896,7 +897,8 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.1.1
+gawk-5.2.0
+gawkbug
 gb2sum
 gbase32
 gbase64
@@ -2785,6 +2787,7 @@ prove5.18
 prove5.30
 proxy
 prune
+pry
 ps
 ps2ascii
 ps2epsi
