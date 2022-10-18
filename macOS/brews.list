@@ -60,6 +60,7 @@ docbook-xsl
 docker-compose
 docker-machine
 doctl
+docutils
 dos2unix
 double-conversion
 doxygen
@@ -357,6 +358,7 @@ pwgen
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
+pygments
 python@3.10
 python@3.8
 python@3.9
