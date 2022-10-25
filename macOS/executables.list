@@ -3754,8 +3754,9 @@ whoami
 whois
 wifi-status
 wine
-wine32on64
+wine-preloader
 wine64
+wine64-preloader
 wineboot
 winecfg
 wineconsole
