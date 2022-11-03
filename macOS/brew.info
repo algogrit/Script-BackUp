@@ -20,7 +20,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/thor-1.2.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-and-runtime-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-0.5.10461/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-0.5.10461-universal-darwin-21/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-0.5.10461-universal-darwin-22/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-0.21.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -48,7 +48,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ronn-0.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rexml-3.2.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rdiscount-2.2.0.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/rdiscount-2.2.0.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/rdiscount-2.2.0.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rbi-0.0.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unparser-0.6.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.0/lib
@@ -67,9 +67,9 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/webrobots-0.1.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/webrick-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubyntlm-0.6.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.8-x86_64-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.9-arm64-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/racc-1.6.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-persistent-4.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-digest_auth-1.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/mime-types-3.4.1/lib
@@ -77,10 +77,10 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json_schemer-0.2.21/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/uri_template-0.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/json-2.6.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/json-2.6.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/hpricot-0.8.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/hpricot-0.8.6
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/hpricot-0.8.6
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/elftools-1.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ecma-re-validator-0.4.0/lib
@@ -88,7 +88,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/domain_name-0.5.20190701/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/unf_ext-0.0.8.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/unf_ext-0.0.8.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/docile-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/did_you_mean-1.6.1/lib
@@ -97,11 +97,11 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/highline-2.0.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/byebug-11.1.3
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/byebug-11.1.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/bootsnap-1.13.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/bootsnap-1.13.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/msgpack-1.6.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/msgpack-1.6.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bindata-2.4.12/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/addressable-2.8.1/lib
@@ -112,11 +112,6 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/minitest-5.16.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/i18n-1.12.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby
-/Library/Ruby/Gems/2.6.0/gems/did_you_mean-1.3.0/lib
-/Library/Ruby/Site/2.6.0
-/Library/Ruby/Site/2.6.0/arm64e-darwin21
-/Library/Ruby/Site/2.6.0/universal-darwin21
-/Library/Ruby/Site
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/arm64e-darwin21
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/universal-darwin21
@@ -126,7 +121,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.6.7
+3.6.8
 ==> macOS
 12.4
 ==> SIP
@@ -135,7 +130,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4112 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (228 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1979 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
@@ -164,4 +159,4 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-481 kegs, 405,874 files, 16.8GB
+481 kegs, 391,769 files, 16.8GB
