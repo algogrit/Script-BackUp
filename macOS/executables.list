@@ -1,6 +1,7 @@
 
 2to3
 2to3-3.10
+2to3-3.11
 2to3-3.8
 2to3-3.9
 411toppm
@@ -1447,6 +1448,7 @@ idl2wrs.dSYM
 idle
 idle3
 idle3.10
+idle3.11
 idle3.8
 idle3.9
 idlj
@@ -1626,6 +1628,7 @@ jpegtran
 jpgicc
 jps
 jq
+jq-replace
 jrunscript
 jsadebugd
 jshell
@@ -2548,6 +2551,7 @@ pinky
 pip
 pip3
 pip3.10
+pip3.11
 pip3.8
 pip3.9
 pirate-music-rename
@@ -2837,6 +2841,7 @@ pwpolicy
 pydoc
 pydoc3
 pydoc3.10
+pydoc3.11
 pydoc3.8
 pydoc3.9
 pyenv
@@ -2857,7 +2862,7 @@ pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
 pygmentize
 pygmentize-3.10
-pygmentize-3.8
+pygmentize-3.11
 pygmentize-3.9
 pyrsa-decrypt
 pyrsa-encrypt
@@ -2872,6 +2877,8 @@ python3
 python3-config
 python3.10
 python3.10-config
+python3.11
+python3.11-config
 python3.8
 python3.8-config
 python3.9
@@ -3744,6 +3751,7 @@ what
 whatis
 wheel3
 wheel3.10
+wheel3.11
 wheel3.8
 wheel3.9
 whereis
