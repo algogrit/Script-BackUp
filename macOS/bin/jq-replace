@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+_orig_file="$1"
+_tmp_file=`mktemp`
+
+cat "$_orig_file" | jq '.' > $_tmp_file
+mv $_tmp_file "$_orig_file"
