@@ -137,6 +137,7 @@ cp ~/.ssh/config .ssh/
 # Copy bin executables
 mkdir -p bin
 cp ~/bin/howdoi bin/
+cp ~/bin/jq-replace bin/
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history

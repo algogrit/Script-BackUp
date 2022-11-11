@@ -417,6 +417,7 @@ cloog
 cluster
 clusterdb
 cmake
+cmark
 cmp
 cmpdylib
 cmpfillin
@@ -1686,6 +1687,7 @@ kcc
 kcditto
 kdcsetup
 kdestroy
+keep
 keepassc
 keepassc-agent
 keepassc-server
