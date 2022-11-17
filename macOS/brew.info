@@ -113,24 +113,24 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/i18n-1.12.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.10/lib/concurrent-ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/arm64e-darwin21
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/universal-darwin21
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/arm64e-darwin22
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0/universal-darwin22
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/arm64e-darwin21
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin21
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/arm64e-darwin22
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
 3.6.11
 ==> macOS
-12.4
+13.0.1
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4119 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (228 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4118 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1991 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
@@ -159,4 +159,9 @@ script of the same name. We found the following "config" scripts:
   /Users/gaurav/.pyenv/shims/python3.9-config
   /Users/gaurav/.pyenv/shims/python-config
   /Users/gaurav/.pyenv/shims/python3-config
-482 kegs, 394,543 files, 16.9GB
+
+Warning: You have unlinked kegs in your Cellar.
+Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  texinfo
+484 kegs, 394,437 files, 16.9GB

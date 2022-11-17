@@ -139,6 +139,7 @@ graphicsmagick
 graphite2
 graphviz
 grep
+groff
 gti
 gtk+
 gts
@@ -353,6 +354,7 @@ postgresql@14
 protobuf
 psgrep
 pstree
+psutils
 pv
 pwgen
 pyenv
