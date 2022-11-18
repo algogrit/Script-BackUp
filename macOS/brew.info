@@ -164,4 +164,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   texinfo
-484 kegs, 394,437 files, 16.9GB
+484 kegs, 394,499 files, 16.9GB
