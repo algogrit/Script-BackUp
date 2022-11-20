@@ -129,10 +129,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4118 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4120 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (231 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1991 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (216 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (219 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -164,4 +164,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   texinfo
-484 kegs, 394,499 files, 16.9GB
+484 kegs, 394,843 files, 16.9GB

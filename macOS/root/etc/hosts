@@ -20,6 +20,7 @@
 127.0.0.1 dashboard.yaes-local.com
 127.0.0.1 yaes-local.com
 127.0.0.1 gs.local
+127.0.0.1 simple.local
 
 ### Roll
 127.0.0.1 local.tryroll.com
