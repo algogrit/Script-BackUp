@@ -347,6 +347,7 @@ cassandra-stress
 cassandra-stressd
 cat
 cc
+ccache-swig
 cccheck
 ccmake
 ccomps
@@ -3403,6 +3404,7 @@ swift
 swift-inspect
 swiftc
 swiftlint
+swig
 swipl
 swipl-ld
 sxpm

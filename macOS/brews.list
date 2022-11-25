@@ -419,6 +419,7 @@ suite-sparse
 swagger-codegen
 swi-prolog
 swiftlint
+swig
 szip
 tbb
 tcl-tk
