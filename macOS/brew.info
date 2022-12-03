@@ -28,7 +28,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-macho-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-sorbet-0.6.11/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rspec-2.15.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rails-2.17.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rails-2.17.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-performance-1.15.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.35.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.3.0/lib
@@ -51,14 +51,14 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/rdiscount-2.2.7
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rbi-0.0.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unparser-0.6.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/pry-0.14.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/plist-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/patchelf-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parlour-8.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-runtime-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rainbow-3.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parser-3.1.2.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parser-3.1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parallel_tests-3.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parallel-1.22.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/mustache-1.1.1/lib
@@ -98,8 +98,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/byebug-11.1.3
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.14.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/bootsnap-1.14.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.15.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/bootsnap-1.15.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/msgpack-1.6.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bindata-2.4.14/lib
@@ -121,7 +121,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.6.12
+3.6.13
 ==> macOS
 13.0.1
 ==> SIP
@@ -129,10 +129,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4122 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (231 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4125 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (232 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1993 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (219 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (222 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -147,21 +147,4 @@ Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   isl@0.18
   sphinx
-
-Warning: "config" scripts exist outside your system or Homebrew directories.
-`./configure` scripts often look for *-config scripts to determine if
-software packages are installed, and which additional flags to use when
-compiling and linking.
-
-Having additional scripts in your path can confuse software installed via
-Homebrew if the config script overrides a system or Homebrew-provided
-script of the same name. We found the following "config" scripts:
-  /Users/gaurav/.pyenv/shims/python3.9-config
-  /Users/gaurav/.pyenv/shims/python-config
-  /Users/gaurav/.pyenv/shims/python3-config
-
-Warning: You have unlinked kegs in your Cellar.
-Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
-those kegs to fail to run properly once built. Run `brew link` on these:
-  texinfo
-485 kegs, 395,385 files, 16.9GB
+486 kegs, 384,059 files, 16.9GB

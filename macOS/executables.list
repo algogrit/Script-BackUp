@@ -900,7 +900,7 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.2.0
+gawk-5.2.1
 gawkbug
 gb2sum
 gbase32
@@ -1490,12 +1490,14 @@ indexer
 indextool
 indxbib
 inetcat
+info
 infocmp
 infotocap
 infotopam
 initdb
 innochecksum
 install
+install-info
 install_name_tool
 installer
 installvst
@@ -1880,6 +1882,7 @@ make
 make_chlayout_test
 makealias
 makecert
+makeinfo
 makepqg
 malloc_history
 man
@@ -2021,6 +2024,9 @@ mozroots
 mp2bug
 mp3splt
 mp3wrap
+mpg123
+mpg123-id3dump
+mpg123-strip
 mpic++
 mpicalc
 mpicc
@@ -2231,6 +2237,7 @@ osalang
 osascript
 otctl
 otool
+out123
 over
 ovftool
 p11-kit
@@ -2434,6 +2441,7 @@ pdfmom
 pdfroff
 pdfseparate
 pdfsig
+pdftexi2dvi
 pdftocairo
 pdftohtml
 pdftoppm
@@ -2638,6 +2646,7 @@ pod2man5.30
 pod2man5.34
 pod2readme
 pod2readme5.30
+pod2texi
 pod2text
 pod2text5.30
 pod2text5.34
@@ -3457,7 +3466,11 @@ test
 test-yaml
 test-yaml5.30
 testfixtures
+texi2any
+texi2dvi
 texi2html
+texi2pdf
+texindex
 text2pcap
 text2pcap.dSYM
 textutil
