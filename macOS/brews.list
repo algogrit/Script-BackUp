@@ -16,7 +16,6 @@ autoenv
 automake
 avro-c
 aws-iam-authenticator
-awscli
 awscli@1
 bash
 bash-completion
@@ -247,6 +246,7 @@ libtasn1
 libtermkey
 libtiff
 libtool
+libunibreak
 libunistring
 libusb
 libusbmuxd
@@ -456,7 +456,6 @@ vapoursynth
 vcpkg
 veclibfort
 vim
-vimpager
 w3m
 wangle
 watch

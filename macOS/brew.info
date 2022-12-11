@@ -129,9 +129,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4125 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1989 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4128 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (230 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2007 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (222 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -147,4 +147,4 @@ Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   isl@0.18
   sphinx
-486 kegs, 385,142 files, 16.9GB
+485 kegs, 374,241 files, 17.1GB

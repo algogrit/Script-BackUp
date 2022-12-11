@@ -415,7 +415,6 @@ cloog
 cluster
 clusterdb
 cmake
-cmark
 cmp
 cmpdylib
 cmpfillin
@@ -837,7 +836,6 @@ fixpsditps
 fixpspps
 fixscribeps
 fixtpps
-fixup_pubsub_v1_keywords.py
 fixwfwps
 fixwpps
 fixwwps
@@ -995,11 +993,11 @@ gfortran-12
 ggrep
 ggroups
 ghc
-ghc-9.2.4
+ghc-9.4.3
 ghc-pkg
-ghc-pkg-9.2.4
+ghc-pkg-9.4.3
 ghci
-ghci-9.2.4
+ghci-9.4.3
 ghead
 ghostid
 gid
@@ -1345,7 +1343,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-9.2.4
+haddock-ghc-9.4.3
 half_mt
 halt
 happrox
@@ -1383,12 +1381,15 @@ hostname
 hotspot.d
 howdoi
 hp2ps
+hp2ps-ghc-9.4.3
 hpc
+hpc-ghc-9.4.3
 hpcdtoppm
 hpftodit
 hpmdiagnose
 hr
 hsc2hs
+hsc2hs-ghc-9.4.3
 hsdb
 htcacheclean
 htdbm
@@ -1624,6 +1625,7 @@ jobb
 jobs
 join
 jot
+jp.py
 jpackage
 jpeg2ktopam
 jpegtopnm
@@ -1689,7 +1691,6 @@ kcc
 kcditto
 kdcsetup
 kdestroy
-keep
 keepassc
 keepassc-agent
 keepassc-server
@@ -2175,7 +2176,6 @@ nologin
 nonspr10
 nop
 normalize.py
-normalizer
 notepad
 notifyd
 notifyutil
@@ -2868,11 +2868,11 @@ python3.10
 python3.10-config
 python3.11
 python3.11-config
+python3.11-gdb.py
 python3.8
 python3.8-config
 python3.9
 python3.9-config
-python3.9-gdb.py
 pzstd
 qconvex
 qdbus
@@ -3107,8 +3107,9 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-9.2.4
+runghc-9.4.3
 runhaskell
+runhaskell-9.4.3
 rust-gdb
 rust-lldb
 rustc
@@ -3221,7 +3222,6 @@ showrgb
 shred
 shuf
 shutdown
-shutdowntest
 sidxindex
 siege
 siege.config
@@ -3668,9 +3668,7 @@ viewres
 vifs
 vigpg
 vim
-vimcat
 vimdiff
-vimpager
 vimtutor
 vipw
 vis

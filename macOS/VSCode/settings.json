@@ -33,7 +33,8 @@
     "vs-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
     "vscode-kubernetes.helm-path.mac": "/Users/gaurav/.vs-kubernetes/tools/helm/darwin-arm64/helm",
     "vscode-kubernetes.kubectl-path.mac": "/Users/gaurav/.vs-kubernetes/tools/kubectl/kubectl",
-    "vscode-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    "vscode-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vs-kubernetes.minikube-show-information-expiration": "2023-06-06T13:49:09.591Z"
   },
   "editor.wordWrap": "on",
   "files.autoSave": "off",
