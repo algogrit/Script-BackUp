@@ -51,7 +51,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/rdiscount-2.2.7
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rbi-0.0.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unparser-0.6.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/pry-0.14.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/plist-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/patchelf-1.4.0/lib
@@ -67,17 +67,17 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/webrobots-0.1.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/webrick-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubyntlm-0.6.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.9-x86_64-darwin/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10-x86_64-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-persistent-4.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-digest_auth-1.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/mime-types-3.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/mime-types-data-3.2022.0105/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json_schemer-0.2.23/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json_schemer-0.2.24/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/uri_template-0.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/json-2.6.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/json-2.6.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/http-cookie-1.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/hpricot-0.8.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/hpricot-0.8.6
@@ -91,7 +91,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/unf_ext-0.0.8.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/docile-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.5.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/did_you_mean-1.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/did_you_mean-1.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/commander-4.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/highline-2.0.3/lib
@@ -105,7 +105,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bindata-2.4.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/addressable-2.8.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/public_suffix-5.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/public_suffix-5.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/activesupport-6.1.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/zeitwerk-2.6.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/tzinfo-2.0.5/lib
@@ -121,7 +121,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.6.14
+3.6.15
 ==> macOS
 13.0.1
 ==> SIP
@@ -129,7 +129,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4128 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4130 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (230 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2007 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (222 casks)
@@ -147,4 +147,4 @@ Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   isl@0.18
   sphinx
-485 kegs, 374,241 files, 17.1GB
+485 kegs, 374,348 files, 17.1GB

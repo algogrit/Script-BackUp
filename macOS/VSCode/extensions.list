@@ -44,6 +44,7 @@ ms-mssql.data-workspace-vscode
 ms-mssql.mssql
 ms-mssql.sql-bindings-vscode
 ms-mssql.sql-database-projects-vscode
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
