@@ -28,6 +28,9 @@ source ~/bash_scripts/.aliases
 # Sourcing Autoenv
 source /opt/homebrew/opt/autoenv/activate.sh
 
+# Source Docker Init script
+source /Users/gaurav/.docker/init-bash.sh || true
+
 # Sourcing Direnv
 eval "$(direnv hook bash)"
 
