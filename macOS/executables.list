@@ -1760,7 +1760,6 @@ ldapsearch
 ldapurl
 ldapwhoami
 ldiff
-ldrdf
 leaftoppm
 leaks
 leave
@@ -2985,16 +2984,8 @@ rbenv-which
 rbox
 rbs
 rd-curves
-rdf2bin
-rdf2com
-rdf2ihx
-rdf2ith
-rdf2srec
-rdfdump
-rdflib
 rdjpgcom
 rdoc
-rdx
 re2c
 re2go
 re2rust
