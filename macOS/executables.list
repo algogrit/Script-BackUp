@@ -102,6 +102,7 @@ airport
 al
 al2
 alias
+ambiguous_words
 amt
 analyze
 android
@@ -402,6 +403,7 @@ cl2c
 clang
 clang++
 clangd
+classifier_tester
 clean-diff
 clear
 clef
@@ -419,6 +421,7 @@ cmpdylib
 cmpfillin
 cmsutil
 cmuwmtopbm
+cntraining
 code
 codecctl
 coderay
@@ -432,6 +435,8 @@ colortail
 colrm
 column
 com.docker.cli
+combine_lang_model
+combine_tessdata
 comm
 command
 common
@@ -548,6 +553,7 @@ dasel
 dash
 date
 dav1d
+dawg2wordlist
 db_archive
 db_checkpoint
 db_codegen
@@ -1827,6 +1833,8 @@ lskq
 lsm
 lsmp
 lsof
+lstmeval
+lstmtraining
 lstopo
 lstopo-no-graphics
 lsvfs
@@ -1927,12 +1935,14 @@ mem_image
 memcached
 memory_pressure
 mencoder
+merge_unicharsets
 mergecap
 mergecap.dSYM
 mesg
 meshdebug
 metadata
 metaflac
+mftraining
 mg
 mgrtopbm
 mib2c
@@ -3175,6 +3185,7 @@ serialver
 serverinfo
 servertool
 sessreg
+set_unicharset_properties
 setkey
 setquota
 setreg
@@ -3195,6 +3206,7 @@ sha256sum
 sha384sum
 sha512sum
 shadergen
+shapeclustering
 shapegen
 shar
 shared
@@ -3465,6 +3477,7 @@ texi2dvi
 texi2html
 texi2pdf
 texindex
+text2image
 text2pcap
 text2pcap.dSYM
 textutil
@@ -3589,6 +3602,7 @@ uncoded_frame
 uncompress
 unexpand
 unflatten
+unicharset_extractor
 unifdef
 unifdefall
 uniq
@@ -3764,6 +3778,7 @@ wish
 wish8.5
 wordbreaker
 wordforms
+wordlist2dawg
 wordlist2hunspell
 write
 wrjpgcom

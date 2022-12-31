@@ -7,6 +7,7 @@ android-file-transfer
 android-sdk
 android-studio
 authy
+blackhole-16ch
 bluejeans
 brave-browser
 caffeine
@@ -43,6 +44,7 @@ microsoft-teams
 mono-mdk
 ngrok
 nosleep
+obs
 odrive
 phantomjs
 podcastmenu
@@ -54,7 +56,6 @@ signal
 skype
 skype-for-business
 slack
-soundflowerbed
 spectacle
 spotify
 steam

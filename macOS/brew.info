@@ -129,10 +129,10 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4134 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (230 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4132 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2012 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (224 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (223 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -147,4 +147,11 @@ Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   isl@0.18
   sphinx
-486 kegs, 381,166 files, 18.2GB
+
+Warning: Unbrewed dylibs were found in /usr/local/lib.
+If you didn't put them there on purpose they could cause problems when
+building Homebrew formulae, and may need to be deleted.
+
+Unexpected dylibs:
+  /usr/local/lib/libcastle_v2.1.0.0.dylib
+486 kegs, 381,195 files, 18.2GB
