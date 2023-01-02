@@ -129,7 +129,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4132 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4134 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2012 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (223 casks)
@@ -154,4 +154,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-486 kegs, 381,195 files, 18.2GB
+486 kegs, 380,914 files, 18.2GB
