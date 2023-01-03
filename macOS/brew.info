@@ -22,18 +22,18 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-0.5.10461-universal-darwin-21/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-cobertura-2.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-0.21.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov_json_formatter-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simplecov-html-0.12.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-macho-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-sorbet-0.6.11/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rspec-2.16.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rails-2.17.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-performance-1.15.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.40.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rails-2.17.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-performance-1.15.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.41.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.24.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.24.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-wait-0.0.9/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-sorbet-1.9.1/lib
@@ -51,7 +51,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/rdiscount-2.2.7
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rbi-0.0.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unparser-0.6.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rack-3.0.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/pry-0.14.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/plist-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/patchelf-1.4.0/lib
@@ -68,8 +68,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/webrick-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubyntlm-0.6.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.13.10-x86_64-darwin/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.6.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/racc-1.6.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-persistent-4.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/net-http-digest_auth-1.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/mime-types-3.4.1/lib
@@ -121,7 +121,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-3.6.16
+3.6.17
 ==> macOS
 13.0.1
 ==> SIP
@@ -129,7 +129,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4134 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4135 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2012 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (223 casks)
@@ -154,4 +154,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-486 kegs, 380,914 files, 18.2GB
+486 kegs, 380,846 files, 18.2GB
