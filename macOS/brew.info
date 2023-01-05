@@ -129,9 +129,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4135 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4138 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (229 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2012 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2011 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (223 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -154,4 +154,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-486 kegs, 380,846 files, 18.2GB
+486 kegs, 380,852 files, 18.2GB
