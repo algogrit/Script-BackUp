@@ -1,0 +1,12 @@
+function setTempAWSCreds {
+  echo "Your OTP?"
+  read _otp
+
+  _output=`aws sts get-session-token --serial-number $AWS_MFA_ARN --token-code $_otp`
+
+  export AWS_ACCESS_KEY_ID=`echo $_output | jq -r '.Credentials | .AccessKeyId'`
+  export AWS_SECRET_ACCESS_KEY=`echo $_output | jq -r '.Credentials | .SecretAccessKey'`
+  export AWS_SESSION_TOKEN=`echo $_output | jq -r '.Credentials | .SessionToken'`
+
+  echo "Setup successful!"
+}
