@@ -8,6 +8,7 @@ aom
 apr
 apr-util
 aria2
+aribb24
 asciinema
 assimp
 atk
@@ -417,6 +418,7 @@ ssh-copy-id
 stern
 subversion
 suite-sparse
+svt-av1
 swagger-codegen
 swi-prolog
 swiftlint

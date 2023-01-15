@@ -45,6 +45,8 @@ Rscript
 SafeEjectGPU
 SetFile
 SplitForks
+SvtAv1DecApp
+SvtAv1EncApp
 ThirdPartyNotices.txt
 WirelessRadioManagerd
 Wireshark
@@ -3277,7 +3279,6 @@ sndfile-interleave
 sndfile-metadata-get
 sndfile-metadata-set
 sndfile-play
-sndfile-resample
 sndfile-salvage
 sndiskmove
 snfsdefrag
