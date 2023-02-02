@@ -1272,7 +1272,7 @@ gtimeout
 gtk-builder-convert
 gtk-demo
 gtk-query-immodules-2.0
-gtk-update-icon-cache
+gtk2-update-icon-cache
 gtouch
 gtr
 gtrue
@@ -3675,7 +3675,9 @@ viewres
 vifs
 vigpg
 vim
+vimcat
 vimdiff
+vimpager
 vimtutor
 vipw
 vis
