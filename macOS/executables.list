@@ -3013,7 +3013,6 @@ redis-sentinel
 redis-server
 refer
 regedit
-regmerge
 regsvr32
 regview
 reindexdb
