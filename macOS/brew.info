@@ -131,8 +131,8 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4154 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (223 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2009 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (225 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2025 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (224 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -147,6 +147,7 @@ You should find replacements for the following formulae:
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   isl@0.18
+  sdl_image
   sphinx
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
