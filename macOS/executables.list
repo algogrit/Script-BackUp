@@ -490,6 +490,7 @@ creatbyproc.d
 createdb
 createhomedir
 createuser
+critcl
 crl_app
 crlrefresh
 crlutil
@@ -687,6 +688,7 @@ dtd2rng
 dtd2xsd
 dtls_client
 dtls_server
+dtplite
 dtrace
 dtruss
 du
@@ -1923,6 +1925,7 @@ mkafmmap
 mkbom
 mkbundle
 mkdir
+mkdoc
 mkextunpack
 mkfifo
 mkfile
@@ -1979,6 +1982,7 @@ montage
 moose-outdated
 moose-outdated5.30
 more
+most
 mount
 mount_9p
 mount_acfs
@@ -2143,6 +2147,9 @@ nlcontrol
 nm
 nmap
 nmedit
+nns
+nnsd
+nnslog
 node
 node-build
 nodenv
@@ -2230,6 +2237,7 @@ pack200
 package-stash-conflicts
 package-stash-conflicts5.30
 packs
+page
 pagesize
 pagestuff
 pal2rgb
@@ -2786,6 +2794,7 @@ pstopdf
 pstopnm
 pstops
 pstree
+pt
 ptar
 ptar5.30
 ptar5.34
@@ -2903,7 +2912,6 @@ rabbitmq-plugins
 rabbitmq-queues
 rabbitmq-server
 rabbitmq-streams
-rabbitmq-tanzu
 rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
@@ -3416,8 +3424,10 @@ taskpolicy
 tbl
 tbtdiagnose
 tccutil
+tcldocstrip
 tclsh
 tclsh8.5
+tclsh8.6
 tcpdump
 tcsh
 tee
@@ -3664,6 +3674,7 @@ vmware-authd
 vmware-cloneBootCamp
 vmware-id
 vmware-ntfs
+vmware-rabbitmq
 vmware-rawdiskAuthTool
 vmware-rawdiskCreator
 vmware-remotemks
@@ -3739,6 +3750,7 @@ winicontopam
 winicontoppm
 wish
 wish8.5
+wish8.6
 wordbreaker
 wordforms
 wordlist2dawg
