@@ -8,6 +8,9 @@ alias vp="vimpager"
 alias bat="PAGER=less bat"
 alias cat="bat"
 
+# Tree improvements
+alias tree-gi='git ls-tree -r --name-only HEAD | tree --fromfile'
+
 # Search improvements
 alias ag='ag --path-to-ignore ~/.ignore'
 
