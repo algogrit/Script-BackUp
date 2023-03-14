@@ -109,5 +109,5 @@
     "jupyter-notebook": "left"
   },
   "go.toolsManagement.autoUpdate": true,
-  "window.zoomLevel": 4
+  "window.zoomLevel": 3
 }

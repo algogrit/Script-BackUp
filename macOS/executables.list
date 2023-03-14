@@ -3182,6 +3182,7 @@ sendmail
 seq
 serialver
 serverinfo
+serverless
 servertool
 sessreg
 set_unicharset_properties
@@ -3262,6 +3263,7 @@ sleep
 slencheck
 sliceprint
 slogin
+sls
 slsh
 smbd
 smbdiagnose
