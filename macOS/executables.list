@@ -778,6 +778,9 @@ extractres
 eyapp
 eyapp5.30
 eyuvtoppm
+f2py
+f2py3
+f2py3.11
 faac
 factor
 false
@@ -863,6 +866,7 @@ fmt
 fold
 font_cache
 fontrestore
+fonttools
 fonttosfnt
 footloose
 footprint
@@ -2861,6 +2865,8 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pyftmerge
+pyftsubset
 pygmentize
 pygmentize-3.10
 pygmentize-3.11
@@ -2877,6 +2883,7 @@ python3
 python3-config
 python3.10
 python3.10-config
+python3.10-gdb.py
 python3.11
 python3.11-config
 python3.11-gdb.py
@@ -3570,6 +3577,7 @@ tsig-keygen
 tsort
 tsserver
 tstclnt
+ttx
 tty
 ttygif
 ttyplay
