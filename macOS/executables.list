@@ -2891,6 +2891,7 @@ python3.8
 python3.8-config
 python3.9
 python3.9-config
+python3.9-gdb.py
 pzstd
 qconvex
 qdbus
@@ -3665,6 +3666,7 @@ uustat
 uuto
 uux
 uuxqt
+uvicorn
 uxterm
 vacuumdb
 vacuumlo
