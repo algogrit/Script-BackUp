@@ -1784,6 +1784,7 @@ libtool
 link
 linkicc
 lint
+lint-openapi
 lipo
 lispmtopgm
 listres
@@ -2686,6 +2687,7 @@ postgres
 postkick
 postlock
 postlog
+postman2openapi
 postmap
 postmaster
 postmulti
