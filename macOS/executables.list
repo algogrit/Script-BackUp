@@ -2077,6 +2077,7 @@ msqldump
 mtree
 mtvtoppm
 mujs
+mujs-pp
 multinit
 multirender_test
 munch
@@ -2192,6 +2193,7 @@ nologin
 nonspr10
 nop
 normalize.py
+normalizer
 notepad
 notifyd
 notifyutil
@@ -2229,7 +2231,6 @@ ompi-clean
 ompi-server
 ompi_info
 onig-config
-oom_solr.sh
 opal_wrapper
 open
 opendiff
@@ -2937,6 +2938,7 @@ qtplugininfo
 qtpy
 quartz-wm
 query_compile_time_config
+query_included_headers
 quota
 quotacheck
 quotaoff
@@ -2949,6 +2951,7 @@ rabbitmq-plugins
 rabbitmq-queues
 rabbitmq-server
 rabbitmq-streams
+rabbitmq-tanzu
 rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl

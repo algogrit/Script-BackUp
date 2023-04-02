@@ -16,6 +16,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/tapioca-0.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/yard-sorbet-0.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/yard-0.9.26/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/stackprof-0.2.24/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/stackprof-0.2.24
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/spoom-1.1.11/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/thor-1.2.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-and-runtime-0.5.10461/lib
@@ -36,7 +38,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.27.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-sorbet-1.9.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-its-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-github-2.4.0/lib
@@ -92,7 +94,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/docile-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/diff-lcs-1.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/did_you_mean-1.6.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.3.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/connection_pool-2.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/commander-4.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/highline-2.0.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/coderay-1.1.3/lib
@@ -121,7 +123,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.0.9
+4.0.10
 ==> macOS
 13.0.1
 ==> SIP
@@ -130,8 +132,8 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (225 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2032 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (228 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2037 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (223 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -159,4 +161,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-490 kegs, 375,765 files, 16.9GB
+490 kegs, 376,043 files, 17.0GB
