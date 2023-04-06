@@ -733,7 +733,6 @@ encguess5.30
 encguess5.34
 encode_keychange
 encodeinttest
-endpointscfg.py
 enscript
 enum_options
 env
@@ -934,6 +933,7 @@ gchown
 gchroot
 gcksum
 gcloud
+gcloud-crc32c
 gcomm
 gcore
 gcov
