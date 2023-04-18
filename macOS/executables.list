@@ -841,17 +841,7 @@ firebase
 firmwarepasswd
 fitstopnm
 fix-qdf
-fixdlsrps
-fixfmps
-fixmacps
 fixproc
-fixpsditps
-fixpspps
-fixscribeps
-fixtpps
-fixwfwps
-fixwpps
-fixwwps
 fizz
 fizz-bogoshim
 flac
@@ -986,7 +976,6 @@ genv
 genxs
 geoiplookup
 geoiplookup6
-getafm
 getconf
 geth
 getopt
@@ -2363,6 +2352,8 @@ pandoc
 pango-list
 pango-segmentation
 pango-view
+paper
+paperconf
 par.pl
 par5.30.pl
 parl
@@ -2816,9 +2807,9 @@ psbook
 psgrep
 psicc
 psidtopgm
+psjoin
 psktool
 psm
-psmerge
 psnup
 psql
 psresize
@@ -3233,7 +3224,6 @@ shazam
 shlibsign
 shlock
 shortcuts
-showchar
 showfigfonts
 showfont
 showmount
