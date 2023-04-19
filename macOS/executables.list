@@ -3123,6 +3123,7 @@ rustdoc
 rustfmt
 rustup
 rustup-init
+rvictl
 rview
 rvim
 rwbypid.d

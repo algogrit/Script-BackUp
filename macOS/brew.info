@@ -135,7 +135,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (231 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2048 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2047 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (185 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -176,9 +176,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-
-Warning: Your Xcode (14.2) is outdated.
-Please update to Xcode 14.3 (or delete it).
-Xcode can be updated from the App Store.
-
-491 kegs, 376,200 files, 17.0GB
+491 kegs, 376,206 files, 17.0GB
