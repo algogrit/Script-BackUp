@@ -58,12 +58,6 @@
       "**/.terraform/**/*"
     ]
   },
-  "terraform.languageServer": {
-    "external": true,
-    "args": [
-      "serve"
-    ]
-  },
   "cSpell.userWords": [
     "Kubernetes",
     "Twilio",
@@ -112,5 +106,6 @@
   "git.openRepositoryInParentFolders": "never",
   "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
   "redoclyOpenAPI.api.region": "us",
-  "window.zoomLevel": 3
+  "window.zoomLevel": 3,
+  "terraform.languageServer.enable": true
 }
