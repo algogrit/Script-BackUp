@@ -22,6 +22,7 @@ DeRez
 Designer
 DevToolsSecurity
 DirectoryService
+DllPlugInTester
 GetFileInfo
 Go-Training
 GraphicsMagick++-config
@@ -3313,6 +3314,9 @@ sntpd
 soapsuds
 soelim
 soffice
+softhsm2-dump-file
+softhsm2-keyconv
+softhsm2-util
 softwareupdate
 solr
 sort

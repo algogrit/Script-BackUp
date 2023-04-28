@@ -48,6 +48,7 @@ cmocka
 cocoapods
 colortail
 coreutils
+cppunit
 cscope
 ctags
 curl
@@ -407,6 +408,7 @@ sip
 six
 sl
 snappy
+softhsm
 solr
 source-highlight
 sox

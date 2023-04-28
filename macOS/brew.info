@@ -134,7 +134,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (231 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (228 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2049 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (185 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
@@ -176,4 +176,4 @@ building Homebrew formulae, and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
-491 kegs, 375,884 files, 17GB
+493 kegs, 376,292 files, 17GB
