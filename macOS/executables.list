@@ -110,6 +110,7 @@ amt
 analyze
 android
 androiddeployqt
+androiddeployqt6
 androiddump
 androidtestrunner
 animate
@@ -130,7 +131,6 @@ ansible-vault
 ant
 antRun
 antRun.pl
-anthoscli
 antlr
 anytopnm
 aomdec
@@ -258,9 +258,7 @@ bmptoppm
 bmtoa
 bombardment
 bootnode
-bootstrapping
 bputil
-bq
 brctl
 brew
 brightness
@@ -614,7 +612,6 @@ derdump
 derq
 dertimetest
 desdp
-dev_appserver.py
 dev_mkdb
 devmodectl
 devp2p
@@ -657,7 +654,6 @@ docker-compose
 docker-compose-v1
 docker-credential-desktop
 docker-credential-ecr-login
-docker-credential-gcloud
 docker-credential-osxkeychain
 docker-index
 docker-machine
@@ -903,7 +899,7 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.2.1
+gawk-5.2.2
 gawkbug
 gb2sum
 gbase32
@@ -923,8 +919,6 @@ gchmod
 gchown
 gchroot
 gcksum
-gcloud
-gcloud-crc32c
 gcomm
 gcore
 gcov
@@ -1006,7 +1000,6 @@ ghci-9.4.4
 ghead
 ghostid
 gid
-gif2h5
 gif2rgb
 gif2webp
 gifbuild
@@ -1046,8 +1039,6 @@ git-contrib
 git-count
 git-cp
 git-create-branch
-git-credential-gcloud
-git-credential-gcloud.sh
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -1252,7 +1243,6 @@ gstat
 gstdbuf
 gstty
 gsum
-gsutil
 gsx
 gsync
 gtac
@@ -1326,12 +1316,12 @@ h2ph5.34
 h2xs
 h2xs5.30
 h2xs5.34
-h52gif
 h5c++
 h5cc
 h5clear
 h5copy
 h5debug
+h5delete
 h5diff
 h5dump
 h5fc
@@ -1560,7 +1550,6 @@ jarsigner
 jasper
 java
 java2html
-java_dev_appserver.sh
 javac
 javadoc
 javah
@@ -1868,6 +1857,7 @@ mDNSResponderHelper
 mac2unix
 macbinary
 macdeployqt
+macdeployqt6
 macerror
 macerror5.30
 machine
@@ -2465,7 +2455,7 @@ periodic
 perl
 perl5.30
 perl5.34
-perl5.36.0
+perl5.36.1
 perlbug
 perlbug5.30
 perlbug5.34
@@ -2915,11 +2905,10 @@ qmltestrunner
 qmltime
 qpdf
 qprofdiff
+qqem
 qrttoppm
 qsb
 qt-cmake
-qt-cmake-private
-qt-cmake-standalone-test
 qt-configure-module
 qt-faststart
 qtdiag

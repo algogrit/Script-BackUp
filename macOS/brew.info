@@ -19,7 +19,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/stackprof-0.2.25/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/stackprof-0.2.25
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/spoom-1.1.11/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/thor-1.2.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/thor-1.2.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-and-runtime-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-static-0.5.10461-universal-darwin-22/lib
@@ -38,7 +38,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.50.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.28.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.28.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-retry-0.6.2/lib
@@ -108,7 +108,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.0.16
+4.0.18
 ==> macOS
 13.0.1
 ==> SIP
@@ -117,25 +117,12 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (227 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (230 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2053 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-drivers (185 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
-
-Warning: A newer Command Line Tools release is available.
-Update them from Software Update in System Settings.
-
-If that doesn't show you any updates, run:
-  sudo rm -rf /Library/Developer/CommandLineTools
-  sudo xcode-select --install
-
-Alternatively, manually download them from:
-  https://developer.apple.com/download/all/.
-You should download the Command Line Tools for Xcode 14.3.
-
 
 Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
@@ -169,4 +156,4 @@ Warning: You have an unnecessary local Core tap!
 This can cause problems installing up-to-date formulae.
 Please remove it by running:
  brew untap homebrew/core
-493 kegs, 376,325 files, 17.1GB
+493 kegs, 376,784 files, 17.2GB
