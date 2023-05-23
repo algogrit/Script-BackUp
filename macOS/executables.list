@@ -131,6 +131,7 @@ ansible-vault
 ant
 antRun
 antRun.pl
+anthoscli
 antlr
 anytopnm
 aomdec
@@ -258,7 +259,9 @@ bmptoppm
 bmtoa
 bombardment
 bootnode
+bootstrapping
 bputil
+bq
 brctl
 brew
 brightness
@@ -612,6 +615,7 @@ derdump
 derq
 dertimetest
 desdp
+dev_appserver.py
 dev_mkdb
 devmodectl
 devp2p
@@ -654,6 +658,7 @@ docker-compose
 docker-compose-v1
 docker-credential-desktop
 docker-credential-ecr-login
+docker-credential-gcloud
 docker-credential-osxkeychain
 docker-index
 docker-machine
@@ -919,6 +924,8 @@ gchmod
 gchown
 gchroot
 gcksum
+gcloud
+gcloud-crc32c
 gcomm
 gcore
 gcov
@@ -1039,6 +1046,8 @@ git-contrib
 git-count
 git-cp
 git-create-branch
+git-credential-gcloud
+git-credential-gcloud.sh
 git-custom-help
 git-cvsserver
 git-delete-branch
@@ -1243,6 +1252,7 @@ gstat
 gstdbuf
 gstty
 gsum
+gsutil
 gsx
 gsync
 gtac
@@ -1550,6 +1560,7 @@ jarsigner
 jasper
 java
 java2html
+java_dev_appserver.sh
 javac
 javadoc
 javah
@@ -2113,6 +2124,7 @@ ncdestroy
 ncinit
 nclist
 ncurses5.4-config
+ndiff
 ndisasm
 ndmetis
 ndp

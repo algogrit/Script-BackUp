@@ -87,8 +87,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/byebug-11.1.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.16.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/bootsnap-1.16.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/msgpack-1.7.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.7.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/msgpack-1.7.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bindata-2.4.15/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/addressable-2.8.4/lib
@@ -108,7 +108,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.0.18
+4.0.19
 ==> macOS
 13.0.1
 ==> SIP
@@ -118,7 +118,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (230 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2053 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2054 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -156,4 +156,4 @@ Warning: You have an unnecessary local Core tap!
 This can cause problems installing up-to-date formulae.
 Please remove it by running:
  brew untap homebrew/core
-493 kegs, 376,784 files, 17.2GB
+493 kegs, 376,971 files, 17.2GB
