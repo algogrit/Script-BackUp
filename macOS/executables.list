@@ -2807,6 +2807,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
+protoc-22.5.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove

@@ -1,3 +1,4 @@
+abseil
 ack
 aften
 ansible
@@ -359,6 +360,7 @@ poppler
 popt
 postgresql@14
 protobuf
+protobuf@21
 psgrep
 pstree
 psutils
