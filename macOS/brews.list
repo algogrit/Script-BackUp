@@ -37,6 +37,7 @@ cairo
 carthage
 cask-repair
 cassandra
+cffi
 chicken
 circleci
 cjson
@@ -352,6 +353,7 @@ pcre
 pcre2
 perl
 pixman
+pkcs11-tools
 pkg-config
 poppler
 popt
@@ -362,6 +364,7 @@ pstree
 psutils
 pv
 pwgen
+pycparser
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper

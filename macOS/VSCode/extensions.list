@@ -5,7 +5,6 @@ alefragnani.project-manager
 alexkrechik.cucumberautocomplete
 Anjali.clipboard-history
 Atishay-Jain.All-Autocomplete
-avli.clojure
 bbenoist.Nix
 bradymholt.pgformatter
 bungcip.better-toml
@@ -23,7 +22,6 @@ DotJoshJohnson.xml
 dsznajder.es7-react-js-snippets
 dtsvet.vscode-wasm
 eamodio.gitlens
-eg2.tslint
 ericadamski.carbon-now-sh
 golang.go
 hashicorp.terraform
@@ -63,7 +61,6 @@ ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
 ms-vscode.remote-explorer
 ms-vsliveshare.vsliveshare
-msjsdiag.debugger-for-chrome
 pgourlain.erlang
 rebornix.ruby
 redhat.fabric8-analytics
@@ -71,7 +68,6 @@ redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
 Redocly.openapi-vs-code
-rust-lang.rust
 sbrink.elm
 shakram02.bash-beautify
 shanoor.vscode-nginx
