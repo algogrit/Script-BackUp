@@ -158,4 +158,4 @@ Warning: You have an unnecessary local Core tap!
 This can cause problems installing up-to-date formulae.
 Please remove it by running:
  brew untap homebrew/core
-498 kegs, 378,465 files, 17.2GB
+498 kegs, 378,526 files, 17.2GB
