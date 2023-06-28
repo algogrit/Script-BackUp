@@ -317,6 +317,7 @@ c++-13
 c++filt
 c89
 c99
+c_rehash
 cabextract
 caca-config
 cacaclock
@@ -2807,7 +2808,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-23.2.0
+protoc-23.3.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove

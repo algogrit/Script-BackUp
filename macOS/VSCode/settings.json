@@ -106,6 +106,5 @@
   "git.openRepositoryInParentFolders": "never",
   "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
   "redoclyOpenAPI.api.region": "us",
-  "terraform.languageServer.enable": true,
-  "window.zoomLevel": 2
+  "terraform.languageServer.enable": true
 }
