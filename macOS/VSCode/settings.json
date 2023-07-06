@@ -34,7 +34,7 @@
     "vscode-kubernetes.helm-path.mac": "/Users/gaurav/.vs-kubernetes/tools/helm/darwin-arm64/helm",
     "vscode-kubernetes.kubectl-path.mac": "/Users/gaurav/.vs-kubernetes/tools/kubectl/kubectl",
     "vscode-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
-    "vs-kubernetes.minikube-show-information-expiration": "2023-06-06T13:49:09.591Z"
+    "vs-kubernetes.minikube-show-information-expiration": "2023-12-26T13:44:35.501Z"
   },
   "editor.wordWrap": "on",
   "files.autoSave": "off",
@@ -106,5 +106,6 @@
   "git.openRepositoryInParentFolders": "never",
   "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
   "redoclyOpenAPI.api.region": "us",
-  "terraform.languageServer.enable": true
+  "terraform.languageServer.enable": true,
+  "window.zoomLevel": 2
 }

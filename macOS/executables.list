@@ -2079,6 +2079,7 @@ mvn
 mvnDebug
 mvnyjp
 my_print_defaults
+mycli
 myisam_ftdump
 myisamchk
 myisamlog
@@ -3473,6 +3474,7 @@ systemsoundserverd
 systemstats
 tab2space
 tabs
+tabulate
 tac
 tail
 tailspin

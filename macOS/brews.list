@@ -309,6 +309,7 @@ mplayer
 mpv
 msgpack
 mujs
+mycli
 mysql
 mysql@5.7
 nasm
@@ -371,6 +372,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
+python-tabulate
 python@3.10
 python@3.11
 python@3.8
