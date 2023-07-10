@@ -888,6 +888,8 @@ funzip
 fuser
 fwkdp
 fwkpfv
+fzf
+fzf-tmux
 g++
 g++-13
 g-ir-annotation-tool
@@ -2809,7 +2811,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-23.3.0
+protoc-23.4.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
@@ -3213,6 +3215,7 @@ serialver
 serverinfo
 serverless
 servertool
+session-manager-plugin
 sessreg
 set_unicharset_properties
 setkey

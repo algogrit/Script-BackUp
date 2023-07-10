@@ -112,7 +112,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.0.27
+4.0.28
 ==> macOS
 13.0.1
 ==> SIP
@@ -122,7 +122,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (232 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2069 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2084 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -159,4 +159,4 @@ Warning: You have an unnecessary local Core tap!
 This can cause problems installing up-to-date formulae.
 Please remove it by running:
  brew untap homebrew/core
-500 kegs, 389,402 files, 17.6GB
+501 kegs, 389,435 files, 17.6GB
