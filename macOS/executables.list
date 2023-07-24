@@ -1218,7 +1218,6 @@ grmdir
 grn
 grodvi
 groff
-groffer
 grog
 grolbp
 grolj4
@@ -3075,12 +3074,6 @@ rmdir
 rmic
 rmid
 rmiregistry
-roff2dvi
-roff2html
-roff2pdf
-roff2ps
-roff2text
-roff2x
 rotatelogs
 route
 rpc.lockd

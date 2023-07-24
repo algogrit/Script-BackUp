@@ -45,7 +45,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-its-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-github-2.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-3.12.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-mocks-3.12.5/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-mocks-3.12.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-expectations-3.12.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-core-3.12.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-support-3.12.1/lib
@@ -91,12 +91,12 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/byebug-11.1.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.16.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/bootsnap-1.16.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.7.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/msgpack-1.7.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/msgpack-1.7.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/msgpack-1.7.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/bindata-2.4.15/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/addressable-2.8.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/public_suffix-5.0.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/public_suffix-5.0.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/activesupport-6.1.7.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/zeitwerk-2.6.8/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/tzinfo-2.0.6/lib
@@ -112,7 +112,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.0.28
+4.1.0
 ==> macOS
 13.0.1
 ==> SIP
@@ -120,10 +120,9 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4161 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (232 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2084 casks)
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2086 casks)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -132,10 +131,6 @@ Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   szip
-Warning: Calling plist_options is deprecated! Use service.require_root instead.
-Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/homebrew-core), or even better, submit a PR to fix it:
-  /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
-
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -159,4 +154,11 @@ Warning: You have an unnecessary local Core tap!
 This can cause problems installing up-to-date formulae.
 Please remove it by running:
  brew untap homebrew/core
-501 kegs, 389,059 files, 17.6GB
+
+Warning: Some installed formulae are not readable:
+  logstash-full: Calling plist_options is disabled! Use service.require_root instead.
+Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/homebrew-core), or even better, submit a PR to fix it:
+  /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
+
+
+501 kegs, 390,146 files, 17.7GB
