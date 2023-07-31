@@ -96,7 +96,8 @@
     "markdown": false
   },
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+    "*.ipynb": "jupyter-notebook",
+    "git-rebase-todo": "default"
   },
   "notebook.cellToolbarLocation": {
     "default": "right",
