@@ -37,6 +37,7 @@ mermade.openapi-lint
 mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-mssql.data-workspace-vscode
 ms-mssql.mssql
