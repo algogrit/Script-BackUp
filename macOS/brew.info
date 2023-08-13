@@ -121,7 +121,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (235 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2087 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (1894 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -161,4 +161,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-501 kegs, 389,105 files, 17.6GB
+502 kegs, 387,313 files, 17.6GB
