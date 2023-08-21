@@ -2094,6 +2094,7 @@ mysql_keyring_encryption_test
 mysql_migrate_keyring
 mysql_secure_installation
 mysql_ssl_rsa_setup
+mysql_test_event_tracking
 mysql_tzinfo_to_sql
 mysql_upgrade
 mysqladmin
@@ -2295,6 +2296,7 @@ pamarith
 pambackground
 pambayer
 pambrighten
+pamcat
 pamchannel
 pamcomp
 pamcrater
@@ -2316,6 +2318,7 @@ pamfunc
 pamgauss
 pamgetcolor
 pamgradient
+pamhomography
 pamhue
 pamlevels
 pamlookup
@@ -2329,6 +2332,7 @@ pamperspective
 pampick
 pampop9
 pamrecolor
+pamrestack
 pamrgbatopng
 pamrubber
 pamscale
@@ -2336,6 +2340,7 @@ pamseq
 pamshadedrelief
 pamsharpmap
 pamsharpness
+pamshuffle
 pamsistoaglyph
 pamslice
 pamsplit
@@ -2362,6 +2367,7 @@ pamtopdbimg
 pamtopfm
 pamtopng
 pamtopnm
+pamtoqoi
 pamtosrf
 pamtosvg
 pamtotga
@@ -2406,6 +2412,7 @@ pbmlife
 pbmmake
 pbmmask
 pbmminkowski
+pbmnoise
 pbmpage
 pbmpscale
 pbmreduce
@@ -2633,6 +2640,7 @@ pnmhisteq
 pnmhistmap
 pnmindex
 pnminterp
+pnminterp-gen
 pnminvert
 pnmmargin
 pnmmercator
@@ -2939,6 +2947,7 @@ qmlscene
 qmltc
 qmltestrunner
 qmltime
+qoitopam
 qpdf
 qprofdiff
 qqem

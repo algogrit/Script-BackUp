@@ -373,6 +373,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
+python-certifi
 python-cryptography
 python-tabulate
 python@3.10
