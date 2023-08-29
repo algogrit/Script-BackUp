@@ -1,7 +1,7 @@
 #! /usr/bin/env ruby
 
 folder_paths = ARGV
-types = ['avi', 'mp4', 'srt', 'mkv', 'ass']
+types = ['avi', 'mp4', 'srt', 'mkv', 'ass', 'webm']
 
 dry_run = false
 
@@ -20,6 +20,16 @@ def get_new_name(file_name, folder_path, type)
 
   index_offset_map = {
     /S\d\dE\d\d/ => 4, # S01E01
+    /Ep.\d\d/ => 3, # Ep 01
+    /Ep\d\d/ => 2, # Ep01
+    /PART.\d\d/ => 5,
+    /Part.\d\d/ => 5,
+    /part.\d\d/ => 5,
+    /EPISODE.\d\d/ => 8,
+    /EPISODE..\d\d/ => 9,
+    /Episode.\d\d/ => 8,
+    /episode.\d\d/ => 8,
+    /Episode.\d.\[/ => 8,
     /S\d\d.E\d\d/ => 5, # S01 E01
     /s\d\de\d\d/ => 4, # s01e01
     /\.\d\d\d\./ => 2, # .101.

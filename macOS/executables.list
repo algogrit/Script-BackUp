@@ -1337,6 +1337,7 @@ h5diff
 h5dump
 h5fc
 h5format_convert
+h5fuse.sh
 h5import
 h5jam
 h5ls
@@ -2818,7 +2819,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-23.4.0
+protoc-24.2.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
