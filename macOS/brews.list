@@ -376,6 +376,7 @@ pyenv-virtualenvwrapper
 pygments
 python-certifi
 python-cryptography
+python-packaging
 python-tabulate
 python@3.10
 python@3.11
