@@ -15,28 +15,31 @@ if folder_paths.empty?
   folder_paths = ["."]
 end
 
+PATTERN_OFFSET_MAP = {
+  /S\d\dE\d\d/ => 4, # S01E01
+  /Ep.\d\d/ => 3, # Ep 01
+  /Ep\d\d/ => 2, # Ep01
+  /PART.\d\d/ => 5,
+  /Part.\d\d/ => 5,
+  /part.\d\d/ => 5,
+  /EPISODE.\d\d/ => 8, # EPISODE 01
+  /EPISODE..\d\d/ => 9, # EPISODE  01
+  /Episode.\d\d/ => 8, # Episode 01
+  /episode.\d\d/ => 8, # episode 01
+  /Episode.\d\s/ => 8, # Episode 1
+  /episode.\d\s/ => 8, # episode 1
+  /S\d\d.E\d\d/ => 5, # S01 E01
+  /s\d\de\d\d/ => 4, # s01e01
+  /\.\d\d\d\./ => 2, # .101.
+  /x\d\d/ => 1  # x01
+}
+
 def get_new_name(file_name, folder_path, type)
   new_name = file_name
 
-  index_offset_map = {
-    /S\d\dE\d\d/ => 4, # S01E01
-    /Ep.\d\d/ => 3, # Ep 01
-    /Ep\d\d/ => 2, # Ep01
-    /PART.\d\d/ => 5,
-    /Part.\d\d/ => 5,
-    /part.\d\d/ => 5,
-    /EPISODE.\d\d/ => 8,
-    /EPISODE..\d\d/ => 9,
-    /Episode.\d\d/ => 8,
-    /episode.\d\d/ => 8,
-    /Episode.\d.\[/ => 8,
-    /S\d\d.E\d\d/ => 5, # S01 E01
-    /s\d\de\d\d/ => 4, # s01e01
-    /\.\d\d\d\./ => 2, # .101.
-    /x\d\d/ => 1  # x01
-  }
+  matching_pattern = PATTERN_OFFSET_MAP.select {|pattern, offset| file_name.index(pattern) }
 
-  matching_pattern = index_offset_map.select {|pattern, offset| file_name.index(pattern) }
+  # puts "Matched pattern: #{matching_pattern} for #{file_name}"
 
   if !matching_pattern.empty?
     index = file_name.index(matching_pattern.keys.first)
@@ -46,7 +49,7 @@ def get_new_name(file_name, folder_path, type)
     end_index = start_index + 1
 
     episode_id = file_name[start_index..end_index]
-    episode_number = episode_id.to_i
+    episode_number = episode_id.strip.to_i
     episode_id = episode_number.to_s.rjust(2, "0")
 
     new_name = "#{folder_path}/Episode #{episode_id}.#{type.downcase}"
@@ -56,7 +59,8 @@ def get_new_name(file_name, folder_path, type)
 end
 
 folder_paths.each do |folder_path|
-  types.map{|type| [type, type.upcase]}.flatten.each do |type|
+  types.each do |type|
+    # puts "For: #{type}..."
     files_map = Dir.glob("#{folder_path}/*.#{type}").reduce({}) do |rename_mapping, file_name|
       rename_mapping[file_name] = get_new_name(file_name, folder_path, type)
       rename_mapping
