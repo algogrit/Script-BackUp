@@ -1666,8 +1666,10 @@ kafka-consumer-perf-test
 kafka-delegation-tokens
 kafka-delete-records
 kafka-dump-log
+kafka-e2e-latency
 kafka-features
 kafka-get-offsets
+kafka-jmx
 kafka-leader-election
 kafka-log-dirs
 kafka-metadata-quorum
@@ -4030,6 +4032,7 @@ zkServer
 zkServer-initialize
 zkSnapShotToolkit
 zkSnapshotComparer
+zkSnapshotRecursiveSummaryToolkit
 zkTxnLogToolkit
 zless
 zlib-flate
