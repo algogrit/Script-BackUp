@@ -100,7 +100,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/activesupport-6.1.7.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/zeitwerk-2.6.11/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/tzinfo-2.0.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/minitest-5.19.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/minitest-5.20.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/i18n-1.14.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.2.2/lib/concurrent-ruby
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/vendor_ruby/2.6.0
@@ -112,7 +112,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.8
+4.1.10
 ==> macOS
 13.0.1
 ==> SIP
@@ -161,4 +161,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-506 kegs, 401,530 files, 18.2GB
+506 kegs, 401,596 files, 18.2GB
