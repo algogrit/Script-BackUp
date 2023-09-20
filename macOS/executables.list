@@ -694,6 +694,7 @@ dtplite
 dtrace
 dtruss
 du
+duk
 dumpcap
 dumpcap.dSYM
 dumpsexp
@@ -2821,7 +2822,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-24.2.0
+protoc-24.3.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
