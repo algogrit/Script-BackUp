@@ -25,6 +25,7 @@ bat
 bdw-gc
 berkeley-db
 berkeley-db@4
+bfg
 bison
 boost
 brightness
@@ -379,6 +380,7 @@ python-certifi
 python-cryptography
 python-lxml
 python-markupsafe
+python-mutagen
 python-packaging
 python-pytz
 python-tabulate

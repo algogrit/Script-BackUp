@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.12
+4.1.13
 ==> macOS
 13.0.1
 ==> SIP
@@ -121,7 +121,7 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (240 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (241 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2102 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
@@ -163,4 +163,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-510 kegs, 404,406 files, 18.2GB
+512 kegs, 404,048 files, 18.4GB

@@ -240,6 +240,7 @@ bdftopcf
 bdftruncate
 beforelight
 benchmark_xl
+bfg
 bg
 binhex
 binhex.pl
@@ -790,8 +791,6 @@ fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
 faucet
-fax2ps
-fax2tiff
 fbectest
 fc
 fc-cache
@@ -1943,6 +1942,9 @@ mg
 mgrtopbm
 mib2c
 mib2c-update
+mid3cp
+mid3iconv
+mid3v2
 mig
 migrate
 mini_client
@@ -1975,6 +1977,7 @@ mod-mono-server
 mod-mono-server2
 mod-mono-server4
 modutil
+moggsplit
 mogrify
 monetdb
 monetdbd
@@ -2079,6 +2082,8 @@ multinit
 multirender_test
 munch
 murge
+mutagen-inspect
+mutagen-pony
 mv
 mvn
 mvnDebug
@@ -2292,7 +2297,6 @@ packs
 page
 pagesize
 pagestuff
-pal2rgb
 palmtopnm
 pamaddnoise
 pamaltsat
@@ -2735,7 +2739,6 @@ ppdi
 ppdmerge
 ppdpo
 pphs
-ppm2tiff
 ppm3d
 ppmbrighten
 ppmchange
@@ -2997,7 +3000,6 @@ rarpd
 rasttopnm
 rav1e
 raw-identify
-raw2tiff
 rawshark
 rawshark.dSYM
 rawtextdump
@@ -3534,18 +3536,10 @@ tic
 tidy
 tidy_changelog
 tidy_changelog5.30
-tiff2bw
 tiff2icns
-tiff2pdf
-tiff2ps
-tiff2rgba
-tiffcmp
 tiffcp
-tiffcrop
-tiffdither
 tiffdump
 tiffinfo
-tiffmedian
 tiffset
 tiffsplit
 tifftopnm
