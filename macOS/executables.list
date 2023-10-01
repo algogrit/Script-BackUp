@@ -329,7 +329,6 @@ cacaserver
 cacaview
 caddy
 caffeinate
-cairo-sphinx
 cairo-trace
 cal
 calendar
@@ -2505,7 +2504,7 @@ periodic
 perl
 perl5.30
 perl5.34
-perl5.36.1
+perl5.38.0
 perlbug
 perlbug5.30
 perlbug5.34
