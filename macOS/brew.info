@@ -31,7 +31,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-prof-1.4.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/ruby-prof-1.4.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-macho-4.0.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-sorbet-0.7.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-sorbet-0.7.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rspec-2.20.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-rails-2.19.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-performance-1.17.1/lib
@@ -99,7 +99,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/addressable-2.8.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/public_suffix-5.0.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/activesupport-6.1.7.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/zeitwerk-2.6.11/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/zeitwerk-2.6.12/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/tzinfo-2.0.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/minitest-5.20.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/i18n-1.14.1/lib
@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.13
+4.1.14
 ==> macOS
 13.0.1
 ==> SIP
@@ -122,7 +122,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (243 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2103 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2106 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -164,4 +164,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-512 kegs, 404,145 files, 18.4GB
+513 kegs, 403,369 files, 18.4GB
