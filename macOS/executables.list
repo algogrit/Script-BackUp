@@ -81,6 +81,7 @@ actool
 acyclic
 addbuiltin
 addftinfo
+addgnupghome
 adig
 aea
 aead_demo
@@ -146,6 +147,7 @@ appleh13camerad
 applesingle
 appletviewer
 apply
+applygnupgdefaults
 appres
 appsleepd
 aprofutil
@@ -636,6 +638,8 @@ dig
 digest
 dijkstra
 direnv
+dirmngr
+dirmngr-client
 dirname
 disco
 disklabel
@@ -1188,9 +1192,25 @@ gpcl6c
 gpdlc
 gperf
 gperl
+gpg
+gpg-agent
+gpg-card
+gpg-connect-agent
 gpg-error
 gpg-error-config
+gpg-wks-client
+gpg-wks-server
+gpgconf
+gpgme-config
+gpgme-json
+gpgme-tool
+gpgparsemail
 gpgrt-config
+gpgscm
+gpgsm
+gpgsplit
+gpgtar
+gpgv
 gpinky
 gpinyin
 gpmetis
@@ -1686,6 +1706,7 @@ kafka-topics
 kafka-transactions
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kbxutil
 kcat
 kcc
 kcditto
@@ -1721,6 +1742,7 @@ kompose
 kpasswd
 krb5-config
 krbservicesetup
+ksba-config
 ksh
 kswitch
 ktrace
@@ -1765,6 +1787,7 @@ less
 lessecho
 lesskey
 lex
+libassuan-config
 libav-merge-next-commit
 libgcrypt-config
 libnetcfg
@@ -2205,6 +2228,7 @@ notifyutil
 nping
 npm
 nproc
+npth-config
 npx
 nrg2iso
 nroff
@@ -2584,6 +2608,9 @@ piconv5.30
 piconv5.34
 picttoppm
 pidpersec.d
+pinentry
+pinentry-curses
+pinentry-tty
 ping
 ping6
 pinky
@@ -3768,6 +3795,7 @@ wait
 wait4path
 wall
 watch
+watchgnupg
 watchman
 watchman-diag
 watchman-make

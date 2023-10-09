@@ -132,6 +132,7 @@ gnu-sed
 gnu-tar
 gnu-units
 gnu-which
+gnupg
 gnuplot
 gnutls
 go
@@ -140,6 +141,7 @@ golang-migrate
 golangci-lint
 gotop
 gource
+gpgme
 gpp
 gradle
 graphicsmagick
@@ -205,6 +207,7 @@ less
 libaec
 libarchive
 libass
+libassuan
 libatomic_ops
 libavif
 libb2
@@ -227,6 +230,7 @@ libid3tag
 libidn
 libidn2
 libimobiledevice
+libksba
 liblinear
 liblqr
 libmetalink
@@ -330,6 +334,7 @@ nmap
 node
 node-build
 nodenv
+npth
 nrg2iso
 nspr
 nss
@@ -358,6 +363,7 @@ passenger
 pcre
 pcre2
 perl
+pinentry
 pixman
 pkcs11-tools
 pkg-config
