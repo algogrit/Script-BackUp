@@ -76,7 +76,6 @@ accton
 ack
 aclocal
 aclocal-1.16
-acountry
 actool
 acyclic
 addbuiltin
@@ -124,7 +123,6 @@ ansible-console
 ansible-doc
 ansible-galaxy
 ansible-inventory
-ansible-operator
 ansible-playbook
 ansible-pull
 ansible-test
@@ -459,6 +457,7 @@ conflict
 conjure
 connect-distributed
 connect-mirror-maker
+connect-plugin-path
 connect-standalone
 convert
 convertfilestopdf
@@ -591,6 +590,7 @@ dbsessmgr2
 dbsessmgr4
 dbtest
 dbtoepub
+dbtool
 dbus-cleanup-sockets
 dbus-daemon
 dbus-launch
@@ -1004,11 +1004,11 @@ gfortran-13
 ggrep
 ggroups
 ghc
-ghc-9.4.4
+ghc-9.6.2
 ghc-pkg
-ghc-pkg-9.4.4
+ghc-pkg-9.6.2
 ghci
-ghci-9.4.4
+ghci-9.6.2
 ghead
 ghostid
 gid
@@ -1130,6 +1130,7 @@ git-upload-archive
 git-upload-pack
 git-utimes
 git-wash
+git2
 gjoin
 gkill
 glances
@@ -1369,7 +1370,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-9.4.4
+haddock-ghc-9.6.2
 half_mt
 halt
 happrox
@@ -1409,15 +1410,15 @@ hostname
 hotspot.d
 howdoi
 hp2ps
-hp2ps-ghc-9.4.4
+hp2ps-ghc-9.6.2
 hpc
-hpc-ghc-9.4.4
+hpc-ghc-9.6.2
 hpcdtoppm
 hpftodit
 hpmdiagnose
 hr
 hsc2hs
-hsc2hs-ghc-9.4.4
+hsc2hs-ghc-9.6.2
 hsdb
 htcacheclean
 htdbm
@@ -2852,7 +2853,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-24.3.0
+protoc-24.4.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
@@ -2933,6 +2934,7 @@ pyftsubset
 pygmentize
 pygmentize-3.10
 pygmentize-3.11
+pygmentize-3.12
 pyrsa-decrypt
 pyrsa-encrypt
 pyrsa-keygen
@@ -3174,9 +3176,9 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-9.4.4
+runghc-9.6.2
 runhaskell
-runhaskell-9.4.4
+runhaskell-9.6.2
 rust-gdb
 rust-lldb
 rustc

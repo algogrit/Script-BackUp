@@ -224,6 +224,7 @@ libevent
 libffi
 libfido2
 libgcrypt
+libgit2
 libgpg-error
 libheif
 libid3tag

@@ -37,7 +37,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-performance-1.17.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-capybara-2.18.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.50.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.4.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.29.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.6.0/lib
@@ -63,7 +63,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parlour-8.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/sorbet-runtime-0.5.10461/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rainbow-3.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parser-3.2.2.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parser-3.2.2.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/racc-1.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/racc-1.7.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/parallel_tests-3.13.0/lib
@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.14
+4.1.15
 ==> macOS
 13.0.1
 ==> SIP
@@ -121,8 +121,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (243 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2106 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (244 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2107 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -164,4 +164,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-519 kegs, 404,001 files, 18.4GB
+520 kegs, 405,326 files, 18.5GB
