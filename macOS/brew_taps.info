@@ -30,20 +30,20 @@ homebrew/bundle: 1 command
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,124 files, 2.6MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask: 4291 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,978 files, 395.9MB)
+homebrew/cask: 4290 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4,983 files, 396.5MB)
 From: https://github.com/Homebrew/homebrew-cask
 
-homebrew/cask-fonts: 2107 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,027 files, 33.3MB)
+homebrew/cask-fonts: 2110 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,043 files, 33.7MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
-homebrew/cask-versions: 245 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,329 files, 82.1MB)
+homebrew/cask-versions: 246 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,364 files, 82.2MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
-homebrew/core: 3 commands, 6828 formulae
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (7,266 files, 741.0MB)
+homebrew/core: 3 commands, 6833 formulae
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (7,277 files, 743.7MB)
 From: https://github.com/Homebrew/homebrew-core
 
 homebrew/services: 1 command
@@ -55,5 +55,5 @@ vitorgalvao/tiny-scripts: 23 formulae
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: 8 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (976 files, 662.9KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (984 files, 666.7KB)
 From: https://github.com/weaveworks/homebrew-tap
