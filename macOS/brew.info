@@ -75,7 +75,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/unf_ext-0.0.8.2
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.8.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.8.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/json-2.6.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/hpricot-0.8.6/lib
@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.15
+4.1.16
 ==> macOS
 13.0.1
 ==> SIP
@@ -164,4 +164,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-521 kegs, 405,967 files, 18.5GB
+521 kegs, 406,081 files, 18.5GB
