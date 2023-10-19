@@ -2,6 +2,7 @@
 2to3
 2to3-3.10
 2to3-3.11
+2to3-3.12
 2to3-3.8
 2to3-3.9
 411toppm
@@ -1484,6 +1485,7 @@ idle
 idle3
 idle3.10
 idle3.11
+idle3.12
 idle3.8
 idle3.9
 idlj
@@ -2619,6 +2621,7 @@ pip
 pip3
 pip3.10
 pip3.11
+pip3.12
 pip3.8
 pip3.9
 pirate-music-rename
@@ -2911,6 +2914,7 @@ pydoc
 pydoc3
 pydoc3.10
 pydoc3.11
+pydoc3.12
 pydoc3.8
 pydoc3.9
 pyenv
@@ -2952,6 +2956,8 @@ python3.10-gdb.py
 python3.11
 python3.11-config
 python3.11-gdb.py
+python3.12
+python3.12-config
 python3.8
 python3.8-config
 python3.9
@@ -3822,6 +3828,7 @@ whatis
 wheel3
 wheel3.10
 wheel3.11
+wheel3.12
 wheel3.8
 wheel3.9
 whereis
