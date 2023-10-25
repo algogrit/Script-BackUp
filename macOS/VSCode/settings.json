@@ -23,6 +23,12 @@
   "[python]": {
     "editor.tabSize": 4
   },
+  "[yaml]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
   "explorer.confirmDelete": false,
   "vs-kubernetes": {
     "vs-kubernetes.draft-path": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
@@ -108,6 +114,6 @@
   "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
   "redoclyOpenAPI.api.region": "us",
   "terraform.languageServer.enable": true,
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 1,
   "workbench.editor.empty.hint": "hidden"
 }

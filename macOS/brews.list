@@ -369,6 +369,7 @@ pixman
 pkcs11-tools
 pkg-config
 poppler
+poppler-qt5
 popt
 postgresql@14
 protobuf
