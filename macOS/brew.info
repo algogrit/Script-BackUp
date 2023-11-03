@@ -39,7 +39,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-1.50.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.29.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rubocop-ast-1.30.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/rspec-retry-0.6.2/lib
@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.17
+4.1.18
 ==> macOS
 13.0.1
 ==> SIP
@@ -122,8 +122,8 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (247 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2117 casks)
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2118 casks)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -148,20 +148,10 @@ building Homebrew formulae, and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
 
-Warning: You have an unnecessary local Cask tap.
-This can cause problems installing up-to-date casks.
-Please remove it by running:
-  brew untap homebrew/cask
-
-Warning: You have an unnecessary local Core tap!
-This can cause problems installing up-to-date formulae.
-Please remove it by running:
- brew untap homebrew/core
-
 Warning: Some installed formulae are not readable:
   logstash-full: Calling plist_options is disabled! Use service.require_root instead.
 Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/homebrew-core), or even better, submit a PR to fix it:
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-523 kegs, 409,568 files, 18.6GB
+523 kegs, 409,794 files, 18.6GB

@@ -909,7 +909,7 @@ gapi2-fixup
 gapi2-parser
 gatherheaderdoc
 gawk
-gawk-5.2.2
+gawk-5.3.0
 gawkbug
 gb2sum
 gbase32
@@ -2856,7 +2856,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-24.4.0
+protoc-25.0.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
@@ -2996,6 +2996,7 @@ qqem
 qrttoppm
 qsb
 qt-cmake
+qt-cmake-create
 qt-configure-module
 qt-faststart
 qtdiag
@@ -3845,7 +3846,6 @@ wine64-preloader
 wineboot
 winecfg
 wineconsole
-winedbg
 winefile
 winehelp
 winemine
