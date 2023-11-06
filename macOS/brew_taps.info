@@ -19,7 +19,7 @@ go-testfixtures/tap: 1 formula
 From: https://github.com/go-testfixtures/homebrew-tap
 
 golangci/tap: 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (145 files, 133.8KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (149 files, 136KB)
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: 2 formulae
@@ -31,11 +31,11 @@ homebrew/bundle: 1 command
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: 2118 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,164 files, 36.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,167 files, 36.4MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
-homebrew/cask-versions: 247 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,845 files, 83.7MB)
+homebrew/cask-versions: 246 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,847 files, 83.8MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: 1 command
