@@ -1368,6 +1368,7 @@ h5redeploy
 h5repack
 h5repart
 h5stat
+h5tools_test_utils
 h5unjam
 h5watch
 haddock
@@ -1864,7 +1865,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1699180677
+luajit-2.1.1699524327
 luit
 lupdate
 lwp-download
