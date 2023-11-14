@@ -73,8 +73,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json_schemer-2.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/simpleidn-0.2.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf-0.1.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.8.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/unf_ext-0.0.8.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.9/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/unf_ext-0.0.9
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/regexp_parser-2.8.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-22/2.6.0/json-2.6.3
@@ -113,7 +113,7 @@ SHELL
 /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/universal-darwin22
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.1.19
+4.1.20
 ==> macOS
 13.0.1
 ==> SIP
@@ -122,7 +122,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (247 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2110 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2111 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
@@ -154,4 +154,4 @@ Please report this issue to the elastic/tap tap (not Homebrew/brew or Homebrew/h
   /opt/homebrew/Library/Taps/elastic/homebrew-tap/Formula/logstash-full.rb:43
 
 
-523 kegs, 410,438 files, 18.8GB
+523 kegs, 410,444 files, 18.8GB
