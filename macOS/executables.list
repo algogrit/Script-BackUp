@@ -1150,6 +1150,7 @@ glocate
 glogname
 glpsol
 gls
+glslc
 glxgears
 glxinfo
 gm
@@ -1865,7 +1866,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1699801871
+luajit-2.1.1700008891
 luit
 lupdate
 lwp-download
@@ -2857,7 +2858,7 @@ productsign
 profile2mat.pl
 profiles
 protoc
-protoc-25.0.0
+protoc-25.1.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
@@ -2937,7 +2938,6 @@ pyenv-virtualenvwrapper_lazy
 pyftmerge
 pyftsubset
 pygmentize
-pygmentize-3.10
 pygmentize-3.11
 pygmentize-3.12
 pyrsa-decrypt

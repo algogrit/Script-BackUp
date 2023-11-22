@@ -242,6 +242,7 @@ libnghttp2
 libogg
 libomp
 libpaper
+libplacebo
 libplist
 libpng
 libproxy
@@ -384,6 +385,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
+python-brotli
 python-certifi
 python-cryptography
 python-lxml
@@ -431,6 +433,7 @@ sdl2_image
 sdl_image
 sendemail
 sha2
+shaderc
 shared-mime-info
 siege
 sip
@@ -493,6 +496,8 @@ vcpkg
 veclibfort
 vim
 vimpager
+vulkan-headers
+vulkan-loader
 w3m
 wangle
 watch
