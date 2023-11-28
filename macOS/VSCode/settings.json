@@ -91,7 +91,6 @@
       "password": ""
     }
   ],
-  "workbench.editor.untitled.hint": "hidden",
   "security.workspace.trust.untrustedFiles": "open",
   "redhat.telemetry.enabled": false,
   "editor.inlineSuggest.enabled": true,

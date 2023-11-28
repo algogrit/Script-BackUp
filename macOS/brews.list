@@ -374,7 +374,7 @@ pmix
 poppler
 poppler-qt5
 popt
-postgresql@14
+postgresql@15
 protobuf
 protobuf@21
 psgrep

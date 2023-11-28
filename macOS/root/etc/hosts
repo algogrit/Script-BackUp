@@ -44,8 +44,6 @@
 
 # Custom blocking
 0.0.0.0 www.instagram.com
-0.0.0.0 tarkalabs.slack.com
-0.0.0.0 mail.tarkalabs.com
 0.0.0.0 tinder.com
 0.0.0.0 www.hicpm10.com
 0.0.0.0 pussl32.com
