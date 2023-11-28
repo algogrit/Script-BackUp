@@ -98,7 +98,6 @@ afscexpand
 aften
 ag
 agentxtrap
-aggregate_profile.pl
 agvtool
 ahost
 airport
@@ -2261,8 +2260,6 @@ odbcinst
 odutil
 oid2name
 oidcalc
-ompi-clean
-ompi-server
 ompi_info
 onig-config
 opal_wrapper
@@ -2275,17 +2272,12 @@ opj_compress
 opj_decompress
 opj_dump
 orbd
-orte-clean
-orte-info
-orte-server
-ortecc
-orted
-orterun
 osacompile
 osadecompile
 osage
 osalang
 osascript
+oshrun
 otctl
 otool
 out123
@@ -2442,6 +2434,7 @@ patcheck
 patchwork
 pathchk
 pathopens.d
+pattrs
 pax
 pbcopy
 pbmclean
@@ -2497,6 +2490,7 @@ pbmupc
 pbpaste
 pc1toppm
 pcap-config
+pcc
 pcdindex
 pcdovtoppm
 pcre-config
@@ -2506,6 +2500,7 @@ pcre2test
 pcregrep
 pcretest
 pcsctest
+pctrl
 pcxtoppm
 pdb2mdb
 pdbimgtopam
@@ -2534,7 +2529,7 @@ periodic
 perl
 perl5.30
 perl5.34
-perl5.38.0
+perl5.38.1
 perlbug
 perlbug5.30
 perlbug5.34
@@ -2549,6 +2544,7 @@ perlthanks5.30
 perlthanks5.34
 permview
 perror
+pevent
 peverify
 pf2afm
 pfbtopfa
@@ -2654,9 +2650,12 @@ pl2pm5.34
 play
 plistutil
 plockstat
+plookup
 plotframes
 pluginkit
 plutil
+pmix_info
+pmixcc
 pmset
 png-fix-itxt
 pngfix
@@ -2841,6 +2840,8 @@ ppmtoyuvsplit
 ppmtv
 ppmwheel
 pppd
+pps
+pquery
 pr
 praudit
 pre-grohtml
@@ -2855,7 +2856,6 @@ probetest
 procsystime
 productbuild
 productsign
-profile2mat.pl
 profiles
 protoc
 protoc-25.1.0
@@ -2865,6 +2865,11 @@ prove
 prove5.30
 prove5.34
 proxy
+prte
+prte_info
+prted
+prterun
+prun
 prune
 pry
 ps
@@ -2903,6 +2908,7 @@ ptardiff5.34
 ptargrep
 ptargrep5.30
 ptargrep5.34
+pterm
 ptx
 purge
 purge-old-kernels

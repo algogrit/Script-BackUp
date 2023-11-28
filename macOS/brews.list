@@ -235,6 +235,7 @@ libksba
 liblinear
 liblqr
 libmetalink
+libmicrohttpd
 libmng
 libmp3splt
 libmpc
@@ -369,6 +370,7 @@ pinentry
 pixman
 pkcs11-tools
 pkg-config
+pmix
 poppler
 poppler-qt5
 popt
@@ -388,11 +390,14 @@ pygments
 python-brotli
 python-certifi
 python-cryptography
+python-dateutil
+python-jinja
 python-lxml
 python-markdown
 python-markupsafe
 python-mutagen
 python-packaging
+python-pyparsing
 python-pytz
 python-setuptools
 python-tabulate
