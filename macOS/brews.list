@@ -12,6 +12,7 @@ aria2
 aribb24
 asciinema
 assimp
+at-spi2-core
 atk
 autoconf
 autoenv
@@ -279,8 +280,11 @@ libxau
 libxcb
 libxdmcp
 libxext
+libxfixes
+libxi
 libxml2
 libxrender
+libxtst
 libyaml
 libzip
 little-cms2
