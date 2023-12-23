@@ -401,6 +401,7 @@ python-markdown
 python-markupsafe
 python-mutagen
 python-packaging
+python-ply
 python-pyparsing
 python-pytz
 python-setuptools
