@@ -167,4 +167,4 @@ Unexpected dylibs:
 
 Warning: Some installed formulae are not readable:
   logstash-full: undefined method `plist_options' for Formulary::FormulaNamespace51bfefa366212bf06428f8774f372375::LogstashFull:Class
-537 kegs, 413,801 files, 18.9GB
+537 kegs, 413,661 files, 18.9GB
