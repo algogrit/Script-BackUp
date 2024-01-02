@@ -27,7 +27,7 @@ SHELL
 ==> $LOAD_PATHS
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/bundler-2.4.18/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/warning-1.3.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/tapioca-0.11.13/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/tapioca-0.11.14/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/yard-sorbet-0.8.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/yard-0.9.34/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/stackprof-0.2.25/lib
@@ -47,8 +47,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-macho-4.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-sorbet-0.7.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec-2.25.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rails-2.23.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-performance-1.19.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rails-2.23.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-performance-1.20.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-factory_bot-2.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.19.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.59.0/lib
@@ -67,15 +67,15 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-support-3.12.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ronn-0.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rexml-3.2.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rdiscount-2.2.7.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-15/3.1.0-static/rdiscount-2.2.7.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rdiscount-2.2.7.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-15/3.1.0-static/rdiscount-2.2.7.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rbi-0.1.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rack-3.0.8/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/pry-0.14.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/prism-0.19.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-15/3.1.0-static/prism-0.19.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/prettier_print-1.2.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/plist-3.7.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/plist-3.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/patchelf-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parlour-8.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11155/lib
@@ -83,7 +83,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.2.2.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-15/3.1.0-static/racc-1.7.3
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.3.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel-1.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/netrc-0.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/mustache-1.1.1/lib
@@ -130,7 +130,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0/arm64-darwin20
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.2.0
+4.2.2
 ==> macOS
 13.0.1
 ==> SIP
@@ -141,6 +141,18 @@ Enabled
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (249 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2142 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
+
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.1.
+
 
 Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
@@ -167,4 +179,9 @@ Unexpected dylibs:
 
 Warning: Some installed formulae are not readable:
   logstash-full: undefined method `plist_options' for Formulary::FormulaNamespace51bfefa366212bf06428f8774f372375::LogstashFull:Class
-537 kegs, 413,661 files, 18.9GB
+
+Warning: Your Xcode (14.3.1) is outdated.
+Please update to Xcode 15.1 (or delete it).
+Xcode can be updated from the App Store.
+
+538 kegs, 418,761 files, 18.9GB

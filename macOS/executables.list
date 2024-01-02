@@ -398,11 +398,9 @@ circo
 ciscodump
 cistopbm
 cjpeg
-cjpeg_hdr
 cjxl
 ckksctl
 cksum
-cl2c
 clang
 clang++
 clangd
@@ -734,6 +732,7 @@ emulator-check
 enc2xs
 enc2xs5.30
 enc2xs5.34
+enc_recon_frame_test
 encguess
 encguess5.30
 encguess5.34
@@ -1864,7 +1863,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1700008891
+luajit-2.1.1703358377
 luit
 lupdate
 lwp-download
@@ -3411,6 +3410,7 @@ sort
 source-highlight
 source-highlight-esc.sh
 source-highlight-settings
+source2c
 sourcekit-lsp
 sox
 soxi

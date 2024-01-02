@@ -26,6 +26,7 @@ bat
 bdw-gc
 berkeley-db
 berkeley-db@4
+berkeley-db@5
 bfg
 bison
 boost
