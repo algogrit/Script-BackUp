@@ -2006,7 +2006,6 @@ moggsplit
 mogrify
 monetdb
 monetdbd
-mongoose
 monitor
 monkeyrunner
 mono
@@ -3492,6 +3491,7 @@ strsclnt
 stty
 su
 sudo
+suitesparse_mongoose
 sum
 sunicontopnm
 svcutil

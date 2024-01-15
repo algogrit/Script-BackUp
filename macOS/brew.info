@@ -50,7 +50,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rails-2.23.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-performance-1.20.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-factory_bot-2.24.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.19.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.20.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.59.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-progressbar-1.13.0/lib
@@ -80,7 +80,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parlour-8.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11155/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rainbow-3.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.2.2.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/x86_64-darwin-15/3.1.0-static/racc-1.7.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.4.0/lib
@@ -130,7 +130,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0/arm64-darwin20
 /opt/homebrew/Library/Homebrew
 ==> Homebrew Version
-4.2.2
+4.2.3
 ==> macOS
 13.0.1
 ==> SIP
@@ -138,8 +138,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (249 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2142 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (250 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2147 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
 
 Warning: A newer Command Line Tools release is available.
@@ -184,4 +184,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-538 kegs, 418,761 files, 18.9GB
+538 kegs, 421,508 files, 18.9GB
