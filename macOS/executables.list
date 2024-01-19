@@ -725,7 +725,7 @@ elixir
 elixirc
 elm
 emacs
-emacs-29.1
+emacs-29.2
 emacsclient
 emulator
 emulator-check
@@ -2855,7 +2855,7 @@ productbuild
 productsign
 profiles
 protoc
-protoc-25.1.0
+protoc-25.2.0
 protoc-gen-go
 protoc-gen-go-grpc
 prove
