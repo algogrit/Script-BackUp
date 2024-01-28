@@ -10,8 +10,8 @@ elastic/tap: 17 formulae
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (234 files, 615KB)
 From: https://github.com/elastic/homebrew-tap
 
-gcenx/wine: 4 casks, 2 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (762 files, 546.0KB)
+gcenx/wine: 5 casks, 2 formulae
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (776 files, 553KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: 1 formula
@@ -27,15 +27,15 @@ heroku/brew: 2 formulae
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,254 files, 2.7MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,260 files, 2.7MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask-fonts: 2146 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,527 files, 42.3MB)
+homebrew/cask-fonts: 2150 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,534 files, 42.5MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 250 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,961 files, 87.8MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (2,964 files, 88.0MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: 1 command
