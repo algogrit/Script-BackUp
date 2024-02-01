@@ -260,6 +260,7 @@ libserdes
 libsndfile
 libsodium
 libsoxr
+libssh
 libssh2
 libtasn1
 libtermkey
@@ -346,6 +347,7 @@ npth
 nrg2iso
 nspr
 nss
+numpy
 oniguruma
 open-mpi
 openblas
@@ -358,6 +360,7 @@ openjpeg
 openldap
 openssl@1.1
 openssl@3
+openvino
 operator-sdk
 opus
 opusfile
@@ -385,6 +388,7 @@ protobuf@21
 psgrep
 pstree
 psutils
+pugixml
 pv
 pwgen
 pycparser
@@ -392,6 +396,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
+python-argcomplete
 python-brotli
 python-certifi
 python-cryptography

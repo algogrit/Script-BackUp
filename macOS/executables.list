@@ -77,6 +77,7 @@ accton
 ack
 aclocal
 aclocal-1.16
+activate-global-python-argcomplete
 actool
 acyclic
 addbuiltin
@@ -238,6 +239,7 @@ bdftogd
 bdftopcf
 bdftruncate
 beforelight
+benchmark_app
 benchmark_xl
 bfg
 bg
@@ -2278,6 +2280,7 @@ oshrun
 otctl
 otool
 out123
+ovc
 over
 ovftool
 p11-kit
@@ -2950,6 +2953,7 @@ pyrsa-priv2pub
 pyrsa-sign
 pyrsa-verify
 python
+python-argcomplete-check-easy-install-script
 python-build
 python-config
 python3
@@ -3096,6 +3100,7 @@ redis-sentinel
 redis-server
 refer
 regedit
+register-python-argcomplete
 regsvr32
 regview
 reindexdb
