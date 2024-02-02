@@ -114,5 +114,6 @@
   "redoclyOpenAPI.api.region": "us",
   "terraform.languageServer.enable": true,
   "workbench.editor.empty.hint": "hidden",
-  "editor.codeActionsOnSave": {}
+  "editor.codeActionsOnSave": {},
+  "window.zoomLevel": 3
 }
