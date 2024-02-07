@@ -2259,6 +2259,7 @@ odbcinst
 odutil
 oid2name
 oidcalc
+ollama
 ompi_info
 onig-config
 opal_wrapper
@@ -2507,6 +2508,7 @@ pdbimgtopam
 pdf2dsc
 pdf2ps
 pdfattach
+pdfcpu
 pdfdetach
 pdffonts
 pdfimages
