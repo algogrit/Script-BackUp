@@ -25,7 +25,6 @@ DevToolsSecurity
 DirectoryService
 DllPlugInTester
 GetFileInfo
-Go-Training
 GraphicsMagick++-config
 GraphicsMagick-config
 GraphicsMagickWand-config
@@ -658,7 +657,6 @@ dnctl
 dns-sd
 docker
 docker-compose
-docker-compose-v1
 docker-credential-desktop
 docker-credential-ecr-login
 docker-credential-gcloud
@@ -752,6 +750,7 @@ eps2eps
 epsffit
 eqn
 eqn2graph
+era
 erb
 erl
 erlc
@@ -1023,8 +1022,6 @@ giftogd2
 giftool
 giftopnm
 gimp
-gin
-ginkgo
 ginstall
 gio
 gio-querymodules
@@ -1174,12 +1171,14 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
-go-outline
+go-build
 gobject-query
 god
 goenv
+goenv-install
+goenv-uninstall
 gofmt
-golangci-lint
+goimports
 gomodifytags
 goplay
 gopls
@@ -1396,7 +1395,6 @@ heif-enc
 heif-info
 heif-thumbnailer
 helm
-helm-operator
 heroku
 hexdump
 hg
@@ -1751,7 +1749,6 @@ ksh
 kswitch
 ktrace
 ktutil
-kubebuilder
 kubectl
 kubectl.docker
 kubectx
@@ -1998,7 +1995,6 @@ mmdbresolve
 mmdbresolve.dSYM
 mmroff
 mnthome
-mockgen
 mod
 mod-mono-server
 mod-mono-server2
@@ -2267,7 +2263,6 @@ open
 opendiff
 opensnoop
 openssl
-operator-sdk
 opj_compress
 opj_decompress
 opj_dump
@@ -2508,7 +2503,6 @@ pdbimgtopam
 pdf2dsc
 pdf2ps
 pdfattach
-pdfcpu
 pdfdetach
 pdffonts
 pdfimages
@@ -2861,8 +2855,6 @@ productsign
 profiles
 protoc
 protoc-25.2.0
-protoc-gen-go
-protoc-gen-go-grpc
 prove
 prove5.30
 prove5.34
@@ -3814,7 +3806,6 @@ vmware-vmx
 vmware-vmx-debug
 vmware-vmx-stats
 vpnd
-vpnkit
 vsdbutil
 vspipe
 vsyasm

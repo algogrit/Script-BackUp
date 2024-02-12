@@ -139,8 +139,8 @@ gnuplot
 gnutls
 go
 gobject-introspection
+goenv
 golang-migrate
-golangci-lint
 gotop
 gource
 gpgme
@@ -198,7 +198,6 @@ keepassc
 kind
 kompose
 krb5
-kubebuilder
 kubectx
 kubernetes-cli
 kustomize
@@ -361,7 +360,6 @@ openldap
 openssl@1.1
 openssl@3
 openvino
-operator-sdk
 opus
 opusfile
 ossp-uuid
