@@ -2854,7 +2854,7 @@ productbuild
 productsign
 profiles
 protoc
-protoc-25.2.0
+protoc-25.3.0
 prove
 prove5.30
 prove5.34
@@ -3616,6 +3616,7 @@ tmux
 tnameserv
 to_erl
 toe
+tofu
 top
 tops
 topsyscall
