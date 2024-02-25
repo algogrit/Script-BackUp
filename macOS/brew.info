@@ -133,7 +133,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (252 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2161 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2165 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
 
 Warning: A newer Command Line Tools release is available.
@@ -158,9 +158,11 @@ You should find replacements for the following formulae:
   geoip
   gist
   isl@0.18
+  juju-wait
   lua@5.3
   mysql@5.7
   openssl@1.1
+  python@3.8
   sdl_image
   sphinx
   youtube-dl
@@ -179,4 +181,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-542 kegs, 425,724 files, 19.0GB
+549 kegs, 432,196 files, 19.3GB

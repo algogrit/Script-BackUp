@@ -2152,10 +2152,15 @@ nasm
 native2ascii
 nbdst
 nc
+nc-config
 ncal
 ncat
+nccopy
 ncctl
 ncdestroy
+ncdump
+ncgen
+ncgen3
 ncinit
 nclist
 ncurses5.4-config
@@ -2227,7 +2232,6 @@ notifyutil
 nping
 npm
 nproc
-npth-config
 npx
 nrg2iso
 nroff
@@ -2260,6 +2264,12 @@ ompi_info
 onig-config
 opal_wrapper
 open
+opencv_annotation
+opencv_interactive-calibration
+opencv_model_diagnostics
+opencv_version
+opencv_visualisation
+opencv_waldboost_detector
 opendiff
 opensnoop
 openssl
@@ -2940,6 +2950,7 @@ pyftsubset
 pygmentize
 pygmentize-3.11
 pygmentize-3.12
+pylupdate6
 pyrsa-decrypt
 pyrsa-encrypt
 pyrsa-keygen
@@ -2965,6 +2976,7 @@ python3.8-config
 python3.9
 python3.9-config
 python3.9-gdb.py
+pyuic6
 pzstd
 qconvex
 qdbus
@@ -3270,6 +3282,7 @@ setquota
 setreg
 setregion
 setuids.d
+setup_vars_opencv4.sh
 setxkbmap
 sexp-conv
 sfdp
@@ -3812,6 +3825,13 @@ vspipe
 vsyasm
 vterm-ctrl
 vterm-dump
+vtkParseJava-9.2
+vtkProbeOpenGLVersion-9.2
+vtkWrapHierarchy-9.2
+vtkWrapJava-9.2
+vtkWrapPython-9.2
+vtkWrapPythonInit-9.2
+vtkpython
 vtool
 vwebp
 w

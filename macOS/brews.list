@@ -41,6 +41,7 @@ cairo
 carthage
 cask-repair
 cassandra
+ceres-solver
 cffi
 chicken
 circleci
@@ -122,6 +123,7 @@ gist
 git
 git-extras
 git-lfs
+gl2ps
 glances
 glew
 glib
@@ -331,6 +333,7 @@ mysql@5.7
 nasm
 ncurses
 neovim
+netcdf
 nethogs
 netpbm
 nettle
@@ -351,6 +354,7 @@ oniguruma
 open-mpi
 openblas
 opencore-amr
+opencv
 openexr
 openjdk
 openjdk@11
@@ -395,6 +399,7 @@ pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
+pyqt
 python-argcomplete
 python-brotli
 python-certifi
@@ -504,6 +509,7 @@ unbound
 unibilium
 unixodbc
 unzip
+utf8cpp
 utf8proc
 v8
 vapoursynth
@@ -511,6 +517,7 @@ vcpkg
 veclibfort
 vim
 vimpager
+vtk
 vulkan-headers
 vulkan-loader
 w3m
