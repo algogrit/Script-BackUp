@@ -1,4 +1,4 @@
-#! /usr/bin/env sh
+#!/usr/bin/env sh
 
 alias cp="cp -v"
 alias rm="rm -v"

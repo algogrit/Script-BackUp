@@ -1,12 +1,12 @@
-# Mac OS
+# macOS
 
 These scripts are used everyday on a couple of macOSes to keep them in sync. Works well for my purposes, no guarantees though.
 
 ## Non-System files
 
- - This README.
- - `update_scripts.sh` - Use to backup the sytem to this folder.
- - `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations.
+- This `README.md`.
+- `update_scripts.sh` - Use to backup the sytem to this folder.
+- `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations.
 
 ## Checklist
 

@@ -1,7 +1,15 @@
-# Remove all except update_scripts.sh
+#!/usr/bin/env sh
+
+alias cp="cp -v"
+alias rm="rm -v"
+
+echo "\033[1;31mBacking up non-system files...\033[0m"
 cp update_scripts.sh /tmp
-ls -A | xargs rm -rv
-cp /tmp/update_scripts.sh .
+cp restore_scripts.sh /tmp
+cp README.md /tmp
+
+echo "\033[1;31mRemoving files...\033[0m"
+rm -vr *
 
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
