@@ -1678,6 +1678,7 @@ kadmin
 kadmin.local
 kafka-acls
 kafka-broker-api-versions
+kafka-client-metrics
 kafka-cluster
 kafka-configs
 kafka-console-consumer
