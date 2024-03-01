@@ -115,5 +115,6 @@
   "terraform.languageServer.enable": true,
   "workbench.editor.empty.hint": "hidden",
   "editor.codeActionsOnSave": {},
-  "window.zoomLevel": 3
+  "window.zoomLevel": 3,
+  "liveshare.accessibility.voiceEnabled": true
 }
