@@ -458,6 +458,8 @@ connect-mirror-maker
 connect-plugin-path
 connect-standalone
 convert
+convert-caffe2-to-onnx
+convert-onnx-to-caffe2
 convertfilestopdf
 convertfilestops
 convertformat
@@ -707,6 +709,7 @@ dwebp
 dyld_info
 dyld_usage
 dynamic_pager
+easyocr
 ebrowse
 ecdh_curve25519
 ecdsa
@@ -1497,6 +1500,8 @@ ikdasm
 ilasm
 ilbmtoppm
 illinkanalyzer
+imageio_download_bin
+imageio_remove_bin
 imagetops
 img2txt
 img2webp
@@ -1575,6 +1580,7 @@ irw64
 ismindex
 ispellaff2myspell
 isql
+isympy
 iusql
 jackd
 jaotc
@@ -1848,6 +1854,7 @@ lsappinfo
 lsbom
 lskq
 lsm
+lsm2bin
 lsmp
 lsof
 lstmeval
@@ -2923,6 +2930,7 @@ pwd_mkdb
 pwdecrypt
 pwgen
 pwpolicy
+pybidi
 pydoc
 pydoc3
 pydoc3.10
@@ -3603,9 +3611,12 @@ tic
 tidy
 tidy_changelog
 tidy_changelog5.30
+tiff2fsspec
 tiff2icns
+tiffcomment
 tiffcp
 tiffdump
+tifffile
 tiffinfo
 tiffset
 tiffsplit
@@ -3639,6 +3650,7 @@ tor
 tor-gencert
 tor-print-ed-signing-cert
 tor-resolve
+torchrun
 torify
 torsocks
 touch
