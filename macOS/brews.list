@@ -42,6 +42,7 @@ carthage
 cask-repair
 cassandra
 ceres-solver
+certifi
 cffi
 chicken
 circleci
