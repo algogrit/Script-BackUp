@@ -777,6 +777,7 @@ exrheader
 exrinfo
 exrmakepreview
 exrmaketiled
+exrmanifest
 exrmultipart
 exrmultiview
 exrstdattr
@@ -1012,6 +1013,9 @@ ghci
 ghci-9.8.2
 ghead
 ghostid
+gi-compile-repository
+gi-decompile-typelib
+gi-inspect-typelib
 gid
 gif2rgb
 gif2webp
