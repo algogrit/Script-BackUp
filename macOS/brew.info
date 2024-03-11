@@ -140,7 +140,7 @@ Enabled
 /opt/homebrew/Library/Taps/golangci/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4399 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4400 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2172 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (253 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
@@ -195,4 +195,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-549 kegs, 433,107 files, 19.2GB
+549 kegs, 432,999 files, 19.2GB
