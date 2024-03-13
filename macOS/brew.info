@@ -35,9 +35,9 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/spoom-1.2.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/thor-1.3.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/syntax_tree-6.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11284/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11284/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11284-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11287/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11287/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11287-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -45,16 +45,16 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-prof-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/ruby-prof-1.7.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-macho-4.0.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-sorbet-0.7.7/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec-2.26.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-sorbet-0.7.8/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec-2.27.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-performance-1.20.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-md-1.2.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-factory_bot-2.25.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.20.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.61.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.62.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-ast-1.31.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-ast-1.31.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-retry-0.6.2/lib
@@ -77,12 +77,12 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/plist-3.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/patchelf-1.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parlour-8.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11284/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11287/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.3.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/racc-1.7.3
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.5.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel-1.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/netrc-0.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/mustache-1.1.1/lib
@@ -124,7 +124,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0/arm64-darwin20
 ==> Homebrew Version
-4.2.11
+4.2.12
 ==> macOS
 13.0.1
 ==> SIP
@@ -140,9 +140,9 @@ Enabled
 /opt/homebrew/Library/Taps/golangci/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4400 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4404 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2172 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (253 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (254 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-services (0 casks)
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
@@ -195,4 +195,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-549 kegs, 432,999 files, 19.2GB
+549 kegs, 432,979 files, 19.2GB
