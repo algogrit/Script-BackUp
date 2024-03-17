@@ -3341,6 +3341,7 @@ signcode
 signtool
 signver
 simple_dcraw
+simplehttpserver
 sip-build
 sip-build-3.11
 sip-build-3.12
