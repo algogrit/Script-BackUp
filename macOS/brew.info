@@ -7,6 +7,7 @@ You should find replacements for the following casks:
   adoptopenjdk
   adoptopenjdk8
   android-sdk
+  authy
   ganache
   kindle
   phantomjs
@@ -35,9 +36,9 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/spoom-1.2.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/thor-1.3.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/syntax_tree-6.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11287/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11287/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11287-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11294/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11294/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11294-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -51,7 +52,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-md-1.2.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-factory_bot-2.25.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.20.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.62.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.62.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-ast-1.31.2/lib
@@ -65,10 +66,6 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-expectations-3.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-core-3.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-support-3.13.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ronn-0.7.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rexml-3.2.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rdiscount-2.2.7.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/rdiscount-2.2.7.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rbi-0.1.9/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/pry-0.14.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/prism-0.24.0/lib
@@ -77,7 +74,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/plist-3.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/patchelf-1.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parlour-8.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11287/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11294/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.3.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/lib
@@ -85,10 +82,11 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel-1.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/netrc-0.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/mustache-1.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/minitest-5.22.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/minitest-5.22.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/method_source-1.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/language_server-protocol-3.17.0.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/kramdown-2.4.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rexml-3.2.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/json_schemer-2.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simpleidn-0.2.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unf-0.1.4/lib
@@ -97,8 +95,6 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/regexp_parser-2.9.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/json-2.7.1
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/hpricot-0.8.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/hpricot-0.8.6
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/erubi-1.12.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/elftools-1.3.0/lib
@@ -124,7 +120,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0/arm64-darwin20
 ==> Homebrew Version
-4.2.12
+4.2.13
 ==> macOS
 13.0.1
 ==> SIP
@@ -132,21 +128,21 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (0 casks)
-/opt/homebrew/Library/Taps/clojure/homebrew-tools (0 casks)
-/opt/homebrew/Library/Taps/elastic/homebrew-tap (0 casks)
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
 /opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (0 casks)
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4408 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2180 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (257 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (0 casks)
-/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (0 casks)
+/opt/homebrew/Library/Taps/elastic/homebrew-tap (0 casks)
+/opt/homebrew/Library/Taps/clojure/homebrew-tools (0 casks)
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (0 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (257 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2181 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (0 casks)
+/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (0 casks)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
+/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4409 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -172,7 +168,6 @@ You should find replacements for the following formulae:
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   geoip
-  gist
   isl@0.18
   juju-wait
   lua@5.3
@@ -197,4 +192,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-549 kegs, 433,142 files, 19.2GB
+549 kegs, 433,143 files, 19.2GB
