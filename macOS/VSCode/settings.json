@@ -116,5 +116,8 @@
   "workbench.editor.empty.hint": "hidden",
   "editor.codeActionsOnSave": {},
   "window.zoomLevel": 3,
-  "liveshare.accessibility.voiceEnabled": true
+  "liveshare.accessibility.voiceEnabled": true,
+  "files.associations": {
+    "*.heex": "html-eex"
+  }
 }

@@ -7,11 +7,11 @@ clojure/tools: 140 formulae
 From: https://github.com/clojure/homebrew-tools
 
 elastic/tap: 17 formulae
-/opt/homebrew/Library/Taps/elastic/homebrew-tap (234 files, 615KB)
+/opt/homebrew/Library/Taps/elastic/homebrew-tap (245 files, 625KB)
 From: https://github.com/elastic/homebrew-tap
 
-gcenx/wine: 5 casks, 2 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (837 files, 588.3KB)
+gcenx/wine: 5 casks, 3 formulae
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (862 files, 600.3KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: 1 formula
@@ -19,7 +19,7 @@ go-testfixtures/tap: 1 formula
 From: https://github.com/go-testfixtures/homebrew-tap
 
 golangci/tap: 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (161 files, 142.7KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (169 files, 146.2KB)
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: 2 formulae
@@ -30,12 +30,12 @@ homebrew/bundle: 1 command
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,495 files, 2.8MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask-fonts: 2181 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (3,968 files, 48.2MB)
+homebrew/cask-fonts: 2186 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,067 files, 49.9MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
-homebrew/cask-versions: 257 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (664 files, 83.9MB)
+homebrew/cask-versions: 259 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (762 files, 84.2MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: 1 command
@@ -47,5 +47,5 @@ vitorgalvao/tiny-scripts: 23 formulae
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: 7 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,081 files, 717.4KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,085 files, 719.7KB)
 From: https://github.com/weaveworks/homebrew-tap
