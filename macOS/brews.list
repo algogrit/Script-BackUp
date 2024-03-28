@@ -236,6 +236,7 @@ libid3tag
 libidn
 libidn2
 libimobiledevice
+libimobiledevice-glue
 libksba
 liblinear
 liblqr

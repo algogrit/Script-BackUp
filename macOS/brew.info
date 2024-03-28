@@ -141,7 +141,7 @@ Enabled
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4413 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4417 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -184,6 +184,11 @@ building Homebrew formulae, and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
 
+Warning: You have unlinked kegs in your Cellar.
+Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
+those kegs to fail to run properly once built. Run `brew link` on these:
+  glib
+
 Warning: Some installed formulae are not readable:
   elastic/tap/logstash-full: undefined method `plist_options' for Formulary::FormulaNamespace452874f3e2a2a0ba1e7968b9a66f8d724b45fed4b01c55052e14162aa2a549db::LogstashFull:Class
 
@@ -191,4 +196,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-549 kegs, 432,385 files, 19.2GB
+550 kegs, 432,634 files, 19.3GB
