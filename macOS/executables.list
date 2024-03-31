@@ -1974,6 +1974,7 @@ mesg
 meshdebug
 metadata
 metaflac
+metatest
 mftraining
 mg
 mgrtopbm
@@ -2339,6 +2340,7 @@ packs
 page
 pagesize
 pagestuff
+palloc
 palmtopnm
 pamaddnoise
 pamaltsat
@@ -2902,6 +2904,7 @@ ps2pdfwr
 ps2ps
 ps2ps2
 psa_constant_names
+psa_hash
 psbook
 psgrep
 psicc
