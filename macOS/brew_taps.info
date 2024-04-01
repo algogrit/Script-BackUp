@@ -30,12 +30,12 @@ homebrew/bundle: 1 command
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,507 files, 2.8MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
-homebrew/cask-fonts: 2186 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,133 files, 51MB)
+homebrew/cask-fonts: 2192 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,155 files, 51.2MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: 259 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (779 files, 84.4MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (796 files, 84.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: 1 command

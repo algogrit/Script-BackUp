@@ -135,7 +135,7 @@ Enabled
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (259 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2186 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2192 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-services (0 casks)
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
@@ -196,4 +196,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-550 kegs, 432,930 files, 19.3GB
+550 kegs, 432,964 files, 19.3GB
