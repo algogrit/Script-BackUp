@@ -2881,7 +2881,7 @@ productbuild
 productsign
 profiles
 protoc
-protoc-25.3.0
+protoc-26.1.0
 prove
 prove5.30
 prove5.34
