@@ -139,7 +139,7 @@ Enabled
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4423 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4425 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -157,6 +157,7 @@ Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   python-jinja
+  python-pyparsing
   python-mutagen
   szip
   python-brotli
@@ -175,6 +176,7 @@ You should find replacements for the following formulae:
   python@3.8
   sdl_image
   sphinx
+  terraform
   youtube-dl
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
@@ -196,4 +198,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-550 kegs, 432,918 files, 19.3GB
+550 kegs, 432,919 files, 19.3GB
