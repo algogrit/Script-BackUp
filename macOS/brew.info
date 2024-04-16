@@ -28,16 +28,16 @@ SHELL
 ==> $LOAD_PATHS
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/bundler-2.4.18/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/warning-1.3.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/tapioca-0.13.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/tapioca-0.13.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/yard-sorbet-0.8.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/yard-0.9.36/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/stackprof-0.2.26/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/stackprof-0.2.26
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/spoom-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/thor-1.3.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11319/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11319/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11319-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-and-runtime-0.5.11346/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-0.5.11346/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-static-0.5.11346-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -45,13 +45,14 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-prof-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/ruby-prof-1.7.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-macho-4.0.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-sorbet-0.8.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec-2.27.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-sorbet-0.8.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec-2.29.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-rspec_rails-2.28.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-performance-1.21.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-md-1.2.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-factory_bot-2.25.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-capybara-2.20.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.62.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-1.63.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unicode-display_width-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rubocop-ast-1.31.2/lib
@@ -64,19 +65,19 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-expectations-3.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-core-3.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rspec-support-3.13.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rbi-0.1.9/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rbi-0.1.10/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/pry-0.14.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/prism-0.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/prism-0.24.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/plist-3.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/patchelf-1.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parlour-8.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11319/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/sorbet-runtime-0.5.11346/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parser-3.3.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/racc-1.7.3
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.6.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel_tests-4.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/parallel-1.24.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/netrc-0.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/minitest-5.22.3/lib
@@ -90,8 +91,8 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.9.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/unf_ext-0.0.9.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/regexp_parser-2.9.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/json-2.7.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/json-2.7.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-20/3.1.0-static/json-2.7.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/erubi-1.12.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/elftools-1.3.0/lib
@@ -109,7 +110,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/bindata-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/addressable-2.8.6/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/public_suffix-5.0.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.1.0/gems/public_suffix-5.0.5/lib
 /opt/homebrew/Library/Homebrew
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/vendor_ruby/3.1.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/vendor_ruby/3.1.0/arm64-darwin20
@@ -117,7 +118,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.1.4/lib/ruby/3.1.0/arm64-darwin20
 ==> Homebrew Version
-4.2.16
+4.2.18
 ==> macOS
 13.0.1
 ==> SIP
@@ -131,15 +132,15 @@ Enabled
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/clojure/homebrew-tools (0 casks)
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (260 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (261 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2195 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (2204 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-services (0 casks)
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (0 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (5 casks)
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4425 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (4433 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -176,7 +177,6 @@ You should find replacements for the following formulae:
   python@3.8
   sdl_image
   sphinx
-  terraform
   youtube-dl
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
@@ -198,4 +198,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.1 (or delete it).
 Xcode can be updated from the App Store.
 
-550 kegs, 432,919 files, 19.3GB
+550 kegs, 425,689 files, 19.4GB

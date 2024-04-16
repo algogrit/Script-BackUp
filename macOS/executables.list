@@ -25,6 +25,7 @@ DevToolsSecurity
 DirectoryService
 DllPlugInTester
 GetFileInfo
+Go-Training
 GraphicsMagick++-config
 GraphicsMagick-config
 GraphicsMagickWand-config
@@ -976,6 +977,7 @@ gen_entropy
 gen_key
 gen_random_ctr_drbg
 gencat
+general_assembly.pl
 generatetokens
 generic_sum
 gengal
@@ -3188,7 +3190,6 @@ rst2man
 rst2man.py
 rst2odt
 rst2odt.py
-rst2odt_prepstyles
 rst2odt_prepstyles.py
 rst2pseudoxml
 rst2pseudoxml.py
@@ -3198,7 +3199,6 @@ rst2xetex
 rst2xetex.py
 rst2xml
 rst2xml.py
-rstpep2html
 rstpep2html.py
 rsvg-convert
 rsync
@@ -3597,6 +3597,7 @@ term-size
 terminal-notifier
 terracognita
 terraform
+terraform-provider-hashicups
 terrascan
 tesseract
 test

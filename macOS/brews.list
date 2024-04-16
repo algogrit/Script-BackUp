@@ -92,6 +92,7 @@ fbthrift
 fd
 ffmpeg
 ffmpeg@4
+ffmpeg@6
 fftw
 figlet
 findutils
@@ -488,7 +489,6 @@ tcl-tk
 telnet
 terminal-notifier
 terracognita
-terraform
 terrascan
 tesseract
 testfixtures
