@@ -3025,6 +3025,7 @@ qmltc
 qmltestrunner
 qmltime
 qoitopam
+qopcuaxmldatatypes2cpp
 qpdf
 qprofdiff
 qqem
@@ -3528,6 +3529,7 @@ sum
 sunicontopnm
 svcutil
 svgtopam
+svgtoqml
 svn
 svnadmin
 svnbench

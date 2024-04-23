@@ -35,17 +35,17 @@ From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,600 files, 2.9MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,610 files, 2.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: Installed
-2204 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,352 files, 52.6MB)
+2205 casks
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (4,393 files, 53.3MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 
 homebrew/cask-versions: Installed
 261 casks
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,352 files, 86.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,479 files, 86.5MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
