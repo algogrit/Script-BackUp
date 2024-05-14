@@ -25,7 +25,6 @@ bash-completion
 bat
 bdw-gc
 berkeley-db
-berkeley-db@4
 berkeley-db@5
 bfg
 bison
@@ -70,13 +69,11 @@ docbook-xsl
 docker-compose
 docker-machine
 doctl
-docutils
 dos2unix
 double-conversion
 doxygen
 duktape
 dvdbackup
-edencommon
 eigen
 eksctl
 elixir
@@ -91,7 +88,6 @@ fb303
 fbthrift
 fd
 ffmpeg
-ffmpeg@4
 ffmpeg@6
 fftw
 figlet
@@ -155,7 +151,6 @@ graphicsmagick
 graphite2
 graphviz
 grep
-groff
 gti
 gtk+
 gts
@@ -249,7 +244,6 @@ libmpc
 libnghttp2
 libogg
 libomp
-libpaper
 libplacebo
 libplist
 libpng
@@ -296,10 +290,8 @@ libyaml
 libzip
 little-cms2
 llvm
-llvm@12
 logstash-full
 lua
-lua@5.3
 luajit
 luajit-openresty
 luv
@@ -362,7 +354,6 @@ opencv
 openexr
 openjdk
 openjdk@11
-openjdk@17
 openjpeg
 openldap
 openssl@1.1
@@ -394,7 +385,6 @@ protobuf
 protobuf@21
 psgrep
 pstree
-psutils
 pugixml
 pv
 pwgen
@@ -404,22 +394,12 @@ pyenv-virtualenv
 pyenv-virtualenvwrapper
 pygments
 pyqt
-python-argcomplete
-python-brotli
 python-certifi
 python-cryptography
-python-dateutil
-python-jinja
-python-lxml
 python-markdown
 python-markupsafe
-python-mutagen
 python-packaging
-python-ply
-python-pyparsing
-python-pytz
 python-setuptools
-python-tabulate
 python@3.10
 python@3.11
 python@3.12
@@ -482,7 +462,6 @@ svt-av1
 swagger-codegen
 swi-prolog
 swiftlint
-swig
 szip
 tbb
 tcl-tk

@@ -77,11 +77,9 @@ accton
 ack
 aclocal
 aclocal-1.16
-activate-global-python-argcomplete
 actool
 acyclic
 addbuiltin
-addftinfo
 addgnupghome
 adig
 aea
@@ -93,7 +91,6 @@ afhash
 afida
 afinfo
 afktool
-afmtodit
 afplay
 afscexpand
 aften
@@ -354,7 +351,6 @@ cassandra
 cassandra-stress
 cat
 cc
-ccache-swig
 cccheck
 ccmake
 ccomps
@@ -374,7 +370,6 @@ chcon
 check-regexp
 checkgid
 checknr
-chem
 chflags
 chfn
 chg
@@ -668,7 +663,6 @@ docker-credential-osxkeychain
 docker-index
 docker-machine
 doctl
-docutils
 dos2unix
 dot
 dot2gxl
@@ -752,9 +746,6 @@ envvars-std
 episodes-rename
 epmd
 eps2eps
-epsffit
-eqn
-eqn2graph
 era
 erb
 erl
@@ -785,7 +776,6 @@ exrmultiview
 exrstdattr
 extcap
 extcheck
-extractres
 eyapp
 eyapp5.30
 eyuvtoppm
@@ -957,7 +947,6 @@ gdbus-codegen
 gdcmpgif
 gdd
 gdf
-gdiffmk
 gdir
 gdircolors
 gdirname
@@ -1150,7 +1139,6 @@ glib-gettextize
 glib-mkenums
 glibtool
 glibtoolize
-glilypond
 glink
 gln
 glocate
@@ -1203,7 +1191,6 @@ gpcl6
 gpcl6c
 gpdlc
 gperf
-gperl
 gpg
 gpg-agent
 gpg-card
@@ -1224,7 +1211,6 @@ gpgsplit
 gpgtar
 gpgv
 gpinky
-gpinyin
 gpmetis
 gpp
 gpr
@@ -1235,7 +1221,6 @@ gptx
 gpwd
 gr2fonttest
 gradle
-grap2graph
 graph2dot
 graphchk
 graphicssession
@@ -1246,15 +1231,6 @@ grep
 gresource
 grm
 grmdir
-grn
-grodvi
-groff
-grog
-grolbp
-grolj4
-gropdf
-grops
-grotty
 groups
 grun
 gruncon
@@ -1442,7 +1418,6 @@ hp2ps-ghc-9.8.2
 hpc
 hpc-ghc-9.8.2
 hpcdtoppm
-hpftodit
 hpmdiagnose
 hr
 hsc2hs
@@ -1545,11 +1520,9 @@ imlib2_view
 impl
 import
 imptrace
-includeres
 indent
 indexer
 indextool
-indxbib
 inetcat
 info
 infocmp
@@ -1838,7 +1811,6 @@ lipo
 lispmtopgm
 listres
 listsuites
-lkbib
 lldb
 llvm-g++
 llvm-gcc
@@ -1859,7 +1831,6 @@ logresolve
 logstash
 logstash-plugin
 look
-lookbib
 lorder
 loudnorm.rb
 lp
@@ -2000,9 +1971,6 @@ mg
 mgrtopbm
 mib2c
 mib2c-update
-mid3cp
-mid3iconv
-mid3v2
 mig
 migrate
 mini_client
@@ -2029,7 +1997,6 @@ mktemp
 mm2gv
 mmdbresolve
 mmdbresolve.dSYM
-mmroff
 mnthome
 mockgen
 mod
@@ -2037,7 +2004,6 @@ mod-mono-server
 mod-mono-server2
 mod-mono-server4
 modutil
-moggsplit
 mogrify
 monetdb
 monetdbd
@@ -2141,8 +2107,6 @@ multinit
 multirender_test
 munch
 murge
-mutagen-inspect
-mutagen-pony
 mv
 mvn
 mvnDebug
@@ -2207,7 +2171,6 @@ ndmetis
 ndp
 neato
 neotoppm
-neqn
 net-server
 net-server5.30
 net-snmp-cert
@@ -2271,7 +2234,6 @@ npm
 nproc
 npx
 nrg2iso
-nroff
 nscurl
 nslookup
 nspr-config
@@ -2457,8 +2419,6 @@ pandoc
 pango-list
 pango-segmentation
 pango-view
-paper
-paperconf
 par.pl
 par5.30.pl
 parl
@@ -2555,8 +2515,6 @@ pdfdetach
 pdffonts
 pdfimages
 pdfinfo
-pdfmom
-pdfroff
 pdfseparate
 pdfsig
 pdftexi2dvi
@@ -2592,7 +2550,6 @@ pevent
 peverify
 pf2afm
 pfbtopfa
-pfbtops
 pfctl
 pfmtopam
 pg_amcheck
@@ -2645,8 +2602,6 @@ pgrep
 phantomjs
 pi1toppm
 pi3topbm
-pic
-pic2graph
 pico
 piconv
 piconv5.30
@@ -2787,7 +2742,6 @@ podselect
 policytool
 posix-spawn-benchmark
 post
-post-grohtml
 postalias
 postcat
 postconf
@@ -2888,8 +2842,6 @@ pps
 pquery
 pr
 praudit
-pre-grohtml
-preconv
 predict
 priclass.d
 pridist.d
@@ -2926,20 +2878,14 @@ ps2ps
 ps2ps2
 psa_constant_names
 psa_hash
-psbook
 psgrep
 psicc
 psidtopgm
-psjoin
 psktool
 psm
-psnup
 psql
-psresize
-psselect
 pstopdf
 pstopnm
-pstops
 pstree
 pt
 ptar
@@ -2996,7 +2942,6 @@ pyrsa-priv2pub
 pyrsa-sign
 pyrsa-verify
 python
-python-argcomplete-check-easy-install-script
 python-build
 python-config
 python3
@@ -3143,9 +3088,7 @@ redis-check-rdb
 redis-cli
 redis-sentinel
 redis-server
-refer
 regedit
-register-python-argcomplete
 regsvr32
 regview
 reindexdb
@@ -3196,26 +3139,16 @@ rsa_verify
 rsa_verify_pss
 rsaperf
 rsapoptst
-rst2html
 rst2html.py
-rst2html4
 rst2html4.py
-rst2html5
 rst2html5.py
-rst2latex
 rst2latex.py
-rst2man
 rst2man.py
-rst2odt
 rst2odt.py
 rst2odt_prepstyles.py
-rst2pseudoxml
 rst2pseudoxml.py
-rst2s5
 rst2s5.py
-rst2xetex
 rst2xetex.py
-rst2xml
 rst2xml.py
 rstpep2html.py
 rsvg-convert
@@ -3436,7 +3369,6 @@ snquota
 sntp
 sntpd
 soapsuds
-soelim
 soffice
 softhsm2-dump-file
 softhsm2-keyconv
@@ -3553,7 +3485,6 @@ swift
 swift-inspect
 swiftc
 swiftlint
-swig
 swipl
 swipl-ld
 sxpm
@@ -3578,7 +3509,6 @@ systemsoundserverd
 systemstats
 tab2space
 tabs
-tabulate
 tac
 tail
 tailspin
@@ -3587,7 +3517,6 @@ tar
 target_dec_fate.sh
 taskinfo
 taskpolicy
-tbl
 tbtdiagnose
 tccutil
 tcldocstrip
@@ -3620,7 +3549,6 @@ text2image
 text2pcap
 text2pcap.dSYM
 textutil
-tfmtodit
 tftp
 tgatoppm
 thermal
@@ -3691,7 +3619,6 @@ tree-sitter
 treereg
 treereg5.30
 trimforce
-troff
 trogdor
 true
 truncate
