@@ -55,9 +55,8 @@ alias railsdb="bundle exec rails dbconsole"
 
 # Project Resources
 export PROJECT_RESOURCES_REPO="git@bitbucket.org:algogrit/project-resources.git"
-alias gcpr="git clone $PROJECT_RESOURCES_REPO"
+alias gcpr="git clone $PROJECT_RESOURCES_REPO -b master"
 alias gcprb="cat project-resources.branch | xargs -n 1 git clone $PROJECT_RESOURCES_REPO -b"
-alias gropr="git remote add origin $PROJECT_RESOURCES_REPO"
 
 # Presentation Template
 export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
