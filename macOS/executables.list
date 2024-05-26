@@ -510,6 +510,18 @@ csplit
 csreq
 csrutil
 csslint-0.6
+csvclean
+csvcut
+csvformat
+csvgrep
+csvjoin
+csvjson
+csvlook
+csvpy
+csvsort
+csvsql
+csvstack
+csvstat
 ct_run
 ctags
 ctail
@@ -1520,6 +1532,7 @@ imlib2_view
 impl
 import
 imptrace
+in2csv
 indent
 indexer
 indextool
@@ -1866,7 +1879,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1713773202
+luajit-2.1.1716656478
 luit
 lupdate
 lwp-download
@@ -3403,6 +3416,7 @@ split
 spottopgm
 spray
 sputoppm
+sql2csv
 sqlite3
 sqlmetal
 sqlsharp

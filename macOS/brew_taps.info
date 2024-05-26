@@ -35,7 +35,7 @@ From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,703 files, 3.0MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,738 files, 3MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: Installed
@@ -50,7 +50,7 @@ From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,271 files, 1.5MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,290 files, 1.5MB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: Installed
@@ -60,5 +60,5 @@ From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: Installed
 7 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,097 files, 726.7KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,101 files, 728.9KB)
 From: https://github.com/weaveworks/homebrew-tap

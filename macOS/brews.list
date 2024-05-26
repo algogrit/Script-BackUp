@@ -57,6 +57,7 @@ coreutils
 cppunit
 cryptography
 cscope
+csvkit
 ctags
 curl
 cython
