@@ -15,7 +15,7 @@ From: https://github.com/elastic/homebrew-tap
 
 gcenx/wine: Installed
 4 casks, 3 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (900 files, 622.3KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (905 files, 625KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: Installed
@@ -50,12 +50,12 @@ From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,298 files, 1.5MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,304 files, 1.5MB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: Installed
 23 formulae
-/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (278 files, 534.7KB)
+/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (282 files, 537.8KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: Installed
