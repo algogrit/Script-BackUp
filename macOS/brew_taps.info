@@ -1,6 +1,6 @@
 buildpacks/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (92 files, 101.4KB)
+/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (96 files, 103.6KB)
 From: https://github.com/buildpacks/homebrew-tap
 
 clojure/tools: Installed
@@ -35,7 +35,7 @@ From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,761 files, 3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,780 files, 3MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: Installed
@@ -50,7 +50,7 @@ From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,317 files, 1.5MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,321 files, 1.5MB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: Installed
