@@ -145,7 +145,7 @@ Enabled
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (0 casks)
 /opt/homebrew/Library/Taps/homebrew/homebrew-core (0 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6954 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6956 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -202,4 +202,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-531 kegs, 410,866 files, 17.7GB
+532 kegs, 411,193 files, 17.7GB
