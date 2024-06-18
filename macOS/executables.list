@@ -2867,13 +2867,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-27.0.0
+protoc-27.1.0
 protoc-gen-upb
-protoc-gen-upb-27.0.0
+protoc-gen-upb-27.1.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-27.0.0
+protoc-gen-upb_minitable-27.1.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-27.0.0
+protoc-gen-upbdefs-27.1.0
 prove
 prove5.30
 prove5.34
