@@ -7,6 +7,7 @@ You should find replacements for the following casks:
   adoptopenjdk
   android-sdk
   authy
+  bluejeans
   ganache
   grammarly
   kindle
@@ -133,7 +134,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6962 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6967 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -190,4 +191,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-532 kegs, 411,426 files, 17.7GB
+534 kegs, 411,646 files, 17.8GB

@@ -21,9 +21,11 @@ dotjoshjohnson.xml
 dsznajder.es7-react-js-snippets
 dtsvet.vscode-wasm
 eamodio.gitlens
+elmtooling.elm-ls-vscode
 ericadamski.carbon-now-sh
 golang.go
 hashicorp.terraform
+hbenl.vscode-test-explorer
 howardzuo.vscode-git-blamer
 jakebecker.elixir-ls
 jaredly.reason-vscode
@@ -62,6 +64,7 @@ ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
 ms-vscode.remote-explorer
+ms-vscode.test-adapter-converter
 ms-vscode.vscode-speech
 ms-vsliveshare.vsliveshare
 pgourlain.erlang
@@ -70,7 +73,6 @@ redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
 redocly.openapi-vs-code
-sbrink.elm
 shakram02.bash-beautify
 shanoor.vscode-nginx
 shopify.ruby-lsp

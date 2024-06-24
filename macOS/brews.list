@@ -75,6 +75,7 @@ double-conversion
 doxygen
 duktape
 dvdbackup
+edencommon
 eigen
 eksctl
 elixir
@@ -314,6 +315,7 @@ memcached
 mercurial
 metis
 minikube
+molten-vk
 monetdb
 most
 mp3splt
