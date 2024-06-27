@@ -48,7 +48,6 @@ Rscript
 SafeEjectGPU
 SetFile
 SplitForks
-SvtAv1DecApp
 SvtAv1EncApp
 ThirdPartyNotices.txt
 WirelessRadioManagerd
