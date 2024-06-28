@@ -273,6 +273,7 @@ btoa
 bundle
 bundler
 bunzip2
+butteraugli_main
 byobu
 byobu-config
 byobu-ctrl-a
@@ -618,6 +619,7 @@ ddns-confgen
 debinhex.pl
 debinhex5.30.pl
 debug-cql
+decode_and_encode
 defaults
 delaunay
 delv
@@ -654,11 +656,13 @@ disco
 disklabel
 diskutil
 display
+display_to_hlg
 dispqlen.d
 distnoted
 ditto
 djpeg
 djxl
+djxl_fuzzer_corpus
 dltest
 dlv
 dmc
@@ -779,6 +783,7 @@ expand
 expect
 expr
 exr2aces
+exr_to_pq
 exrenvmap
 exrheader
 exrinfo
@@ -984,6 +989,7 @@ gen_key
 gen_random_ctr_drbg
 gencat
 general_assembly.pl
+generate_lut_template
 generatetokens
 generic_sum
 gengal
@@ -1691,6 +1697,7 @@ jupyter-serverextension
 jupyter-troubleshoot
 jupyter-trust
 jvisualvm
+jxl_from_tree
 jxlinfo
 k3d
 kadmin
@@ -1833,6 +1840,7 @@ ln
 lndir
 load_roots
 loads.d
+local_tone_map
 locale
 localedef
 localemanager
@@ -2856,6 +2864,7 @@ ppmtv
 ppmwheel
 pppd
 pps
+pq_to_hlg
 pquery
 pr
 praudit
@@ -3121,6 +3130,7 @@ regsvr32
 regview
 reindexdb
 remtest
+render_hlg
 renice
 reordercap
 reordercap.dSYM
@@ -3449,6 +3459,8 @@ ssh-keygen
 ssh-keyscan
 sshd
 sshdump
+ssimulacra2
+ssimulacra_main
 ssl_client1
 ssl_client2
 ssl_context_info
@@ -3578,6 +3590,7 @@ texindex
 text2image
 text2pcap
 text2pcap.dSYM
+texture_to_cube
 textutil
 tftp
 tgatoppm
@@ -3619,6 +3632,7 @@ tnameserv
 to_erl
 toe
 tofu
+tone_map
 top
 tops
 topsyscall
@@ -4021,6 +4035,7 @@ xxh128sum
 xxh32sum
 xxh64sum
 xxhsum
+xyb_range
 xz
 xzcat
 xzcmp
