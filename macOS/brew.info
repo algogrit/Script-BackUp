@@ -11,6 +11,7 @@ You should find replacements for the following casks:
   ganache
   grammarly
   kindle
+  nosleep
   phantomjs
   spectacle
 ==> Cask Environment Variables:
@@ -130,7 +131,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6971 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6987 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -187,4 +188,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-534 kegs, 411,926 files, 17.8GB
+534 kegs, 411,928 files, 17.8GB
