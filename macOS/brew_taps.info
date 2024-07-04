@@ -1,11 +1,11 @@
 buildpacks/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (96 files, 103.7KB)
+/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (96 files, 103.6KB)
 From: https://github.com/buildpacks/homebrew-tap
 
 clojure/tools: Installed
 143 formulae
-/opt/homebrew/Library/Taps/clojure/homebrew-tools (687 files, 711.9KB)
+/opt/homebrew/Library/Taps/clojure/homebrew-tools (687 files, 711.8KB)
 From: https://github.com/clojure/homebrew-tools
 
 elastic/tap: Installed
@@ -15,7 +15,7 @@ From: https://github.com/elastic/homebrew-tap
 
 gcenx/wine: Installed
 4 casks, 3 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (915 files, 633.0KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (915 files, 632.9KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: Installed
@@ -25,17 +25,17 @@ From: https://github.com/go-testfixtures/homebrew-tap
 
 golangci/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (193 files, 159.8KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (193 files, 159.7KB)
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: Installed
 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (207 files, 413.7KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (207 files, 413.6KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,874 files, 3.1MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (1,890 files, 3.1MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: Installed
@@ -50,7 +50,7 @@ From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,388 files, 1.6MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,404 files, 1.6MB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: Installed
@@ -60,5 +60,5 @@ From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 
 weaveworks/tap: Installed
 7 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,117 files, 738.3KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,121 files, 740.4KB)
 From: https://github.com/weaveworks/homebrew-tap
