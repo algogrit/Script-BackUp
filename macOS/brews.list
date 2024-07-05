@@ -402,7 +402,6 @@ pyqt
 python-certifi
 python-cryptography
 python-markdown
-python-markupsafe
 python-packaging
 python-setuptools
 python@3.10

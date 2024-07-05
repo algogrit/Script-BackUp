@@ -149,7 +149,6 @@ Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   szip
-  python-markupsafe
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -188,4 +187,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-534 kegs, 411,892 files, 17.8GB
+533 kegs, 412,112 files, 17.8GB
