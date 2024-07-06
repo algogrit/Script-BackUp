@@ -131,7 +131,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (6999 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7000 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -157,6 +157,7 @@ You should find replacements for the following formulae:
   juju-wait
   mysql@5.7
   openssl@1.1
+  python-packaging
   python@3.8
   sdl_image
   sphinx
