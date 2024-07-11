@@ -3090,7 +3090,6 @@ rbenv-init
 rbenv-install
 rbenv-local
 rbenv-prefix
-rbenv-realpath.dylib
 rbenv-rehash
 rbenv-root
 rbenv-sh-rehash
