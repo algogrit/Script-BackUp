@@ -131,7 +131,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7002 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7009 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -189,4 +189,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-533 kegs, 411,948 files, 17.8GB
+533 kegs, 409,419 files, 17.8GB
