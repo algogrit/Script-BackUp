@@ -1148,7 +1148,6 @@ git-upload-archive
 git-upload-pack
 git-utimes
 git-wash
-git2
 gjoin
 gkill
 glances

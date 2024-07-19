@@ -1,6 +1,6 @@
 buildpacks/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (96 files, 103.6KB)
+/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (100 files, 105.4KB)
 From: https://github.com/buildpacks/homebrew-tap
 
 clojure/tools: Installed
@@ -15,7 +15,7 @@ From: https://github.com/elastic/homebrew-tap
 
 gcenx/wine: Installed
 4 casks, 3 formulae
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (951 files, 649KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (981 files, 664.3KB)
 From: https://github.com/gcenx/homebrew-wine
 
 go-testfixtures/tap: Installed
