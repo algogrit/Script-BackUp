@@ -189,4 +189,4 @@ You should `brew install` the missing dependencies:
   brew install openjdk@21
 
 Run `brew missing` for more details.
-533 kegs, 409,689 files, 17.8GB
+533 kegs, 409,920 files, 17.8GB

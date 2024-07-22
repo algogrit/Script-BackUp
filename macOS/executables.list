@@ -1417,6 +1417,7 @@ head
 headerdoc2html
 heap
 heif-convert
+heif-dec
 heif-enc
 heif-info
 heif-thumbnailer
