@@ -359,6 +359,7 @@ opencv
 openexr
 openjdk
 openjdk@11
+openjdk@21
 openjpeg
 openldap
 openssl@1.1
@@ -429,6 +430,7 @@ rtmpdump
 rubberband
 ruby
 ruby-build
+rustup
 rustup-init
 s-lang
 sbt
