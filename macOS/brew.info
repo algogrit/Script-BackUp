@@ -13,6 +13,7 @@ You should find replacements for the following casks:
   kindle
   nosleep
   phantomjs
+  podcastmenu
   spectacle
 ==> Cask Environment Variables:
 BUNDLE_PATH
@@ -131,7 +132,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (4 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7029 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7030 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
