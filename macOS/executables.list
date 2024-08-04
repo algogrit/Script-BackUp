@@ -677,6 +677,7 @@ docker-credential-desktop
 docker-credential-ecr-login
 docker-credential-gcloud
 docker-credential-osxkeychain
+docker-image-tool.sh
 docker-index
 docker-machine
 doctl
@@ -852,6 +853,7 @@ fileinfo
 fileproviderctl
 filtercalltree
 find
+find-spark-home
 findrule
 findrule5.30
 finger
@@ -1841,6 +1843,7 @@ llvm-g++
 llvm-gcc
 ln
 lndir
+load-spark-env.sh
 load_roots
 loads.d
 local_tone_map
@@ -2884,13 +2887,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-27.1.0
+protoc-27.3.0
 protoc-gen-upb
-protoc-gen-upb-27.1.0
+protoc-gen-upb-27.3.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-27.1.0
+protoc-gen-upb_minitable-27.3.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-27.1.0
+protoc-gen-upbdefs-27.3.0
 prove
 prove5.30
 prove5.34
@@ -2977,6 +2980,7 @@ pyrsa-keygen
 pyrsa-priv2pub
 pyrsa-sign
 pyrsa-verify
+pyspark
 python
 python-build
 python-config
@@ -3204,6 +3208,7 @@ rubberband
 rubberband-r3
 ruby
 ruby-build
+run-example
 run_erl
 runant.pl
 runant.py
@@ -3425,6 +3430,13 @@ source2c
 sourcekit-lsp
 sox
 soxi
+spark-beeline
+spark-class
+spark-connect-shell
+spark-shell
+spark-sql
+spark-submit
+sparkR
 spctl
 spctoppm
 speedtest
