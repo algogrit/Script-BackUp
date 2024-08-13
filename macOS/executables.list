@@ -2339,7 +2339,6 @@ p11slotinfo
 p11tool
 p11unwrap
 p11wrap
-p2psim
 p7content
 p7env
 p7sign
