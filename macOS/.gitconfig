@@ -44,3 +44,5 @@
 	process = git-lfs filter-process
 [rerere]
 	enabled = true
+[init]
+	defaultBranch = master

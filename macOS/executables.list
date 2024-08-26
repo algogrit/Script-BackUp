@@ -343,6 +343,7 @@ capinfos.dSYM
 captoinfo
 captype
 captype.dSYM
+cardos-tool
 cargo
 cargo-clippy
 cargo-fmt
@@ -354,6 +355,7 @@ cassandra
 cassandra-stress
 cat
 cc
+ccache-swig
 cccheck
 ccmake
 ccomps
@@ -504,6 +506,7 @@ crontab
 crypt_and_hash
 crypto_bench
 crypto_examples
+cryptoflex-tool
 csc
 cscope
 csh
@@ -671,6 +674,7 @@ dmc
 dmcs
 dmesg
 dnctl
+dnie-tool
 dns-sd
 docker
 docker-compose
@@ -711,6 +715,7 @@ dtls_server
 dtplite
 dtrace
 dtruss
+dtrust-tool
 du
 duk
 dumpcap
@@ -739,7 +744,9 @@ editcap
 editcap.dSYM
 editres
 edquota
+egk-tool
 egrep
+eidenv
 eksctl
 elixir
 elixirc
@@ -1034,6 +1041,7 @@ gi-compile-repository
 gi-decompile-typelib
 gi-inspect-typelib
 gid
+gids-tool
 gif2rgb
 gif2webp
 gifbuild
@@ -1141,6 +1149,7 @@ git-squash
 git-stamp
 git-standup
 git-summary
+git-svn
 git-swamp
 git-sync
 git-touch
@@ -1202,6 +1211,7 @@ goenv
 goenv-install
 goenv-uninstall
 gofmt
+goid-tool
 goimports
 gomodifytags
 goplay
@@ -1478,6 +1488,7 @@ hwloc-patch
 hwloc-ps
 hzip
 iRATBW.mlmodelc
+iasecc-tool
 ibd2sdi
 ibtool
 iceauth
@@ -1897,7 +1908,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1723675123
+luajit-2.1.1724232689
 luit
 lupdate
 lwp-download
@@ -2206,6 +2217,7 @@ net-snmp-config
 net-snmp-create-v3-user
 netbiosd
 nethogs
+netkey-tool
 netstat
 nettle-hash
 nettle-lfib-stream
@@ -2258,6 +2270,7 @@ normalizer
 notepad
 notifyd
 notifyutil
+npa-tool
 nping
 npm
 nproc
@@ -2300,6 +2313,12 @@ opencv_version
 opencv_visualisation
 opencv_waldboost_detector
 opendiff
+openpgp-tool
+opensc-asn1
+opensc-explorer
+opensc-notify
+opensc-tool
+opensc-uninstall
 opensnoop
 openssl
 opj_compress
@@ -2641,6 +2660,7 @@ pip3.12
 pip3.8
 pip3.9
 pirate-music-rename
+piv-tool
 pixeltool
 pjtoppm
 pk11ectest
@@ -2654,6 +2674,11 @@ pk_encrypt
 pk_sign
 pk_verify
 pkcs1-conv
+pkcs11-register
+pkcs11-tool
+pkcs15-crypt
+pkcs15-init
+pkcs15-tool
 pkg-config
 pkgbuild
 pkgutil
@@ -3227,6 +3252,7 @@ sandbox-exec
 say
 sbigtopgm
 sbt
+sc-hsm-tool
 sc_auth
 sc_usage
 scala
@@ -3529,6 +3555,7 @@ swift
 swift-inspect
 swiftc
 swiftlint
+swig
 swipl
 swipl-ld
 sxpm
@@ -3864,6 +3891,7 @@ webpinfo
 webpmux
 webpng
 websocat
+westcos-tool
 wfsctl
 wget
 what

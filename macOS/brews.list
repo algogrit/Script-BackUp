@@ -125,6 +125,7 @@ gist
 git
 git-extras
 git-lfs
+git-svn
 gl2ps
 glances
 glew
@@ -406,6 +407,7 @@ pyqt
 python-certifi
 python-cryptography
 python-markdown
+python-setuptools
 python@3.10
 python@3.11
 python@3.12
@@ -469,6 +471,7 @@ svt-av1
 swagger-codegen
 swi-prolog
 swiftlint
+swig
 szip
 tbb
 tcl-tk

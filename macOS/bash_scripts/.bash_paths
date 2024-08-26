@@ -45,6 +45,9 @@ export VCPKG_ROOT="$HOME/vcpkg"
 export CPLUS_INCLUDE_PATH="$HOME/vcpkg/installed/arm64-osx/include:$CPLUS_INCLUDE_PATH"
 for d in $HOME/vcpkg/installed/arm64-osx/tools/*; do PATH="$d:$PATH"; done
 
+## Idea
+export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS":$PATH
+
 ### Platforms
 ## Android
 # export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk/"
