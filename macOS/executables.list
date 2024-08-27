@@ -412,6 +412,8 @@ clean-diff
 clear
 clef
 clhsdb
+cli-common
+cli-common-platform
 clippy-driver
 clj
 cloc
@@ -444,6 +446,7 @@ combine_tessdata
 comm
 command
 common
+common-shared
 comp_err
 compaction-stress
 compare
@@ -1474,6 +1477,7 @@ httpserv
 httxt2dbm
 hub
 hub-tool
+hugo
 hunspell
 hunzip
 hwloc-annotate
@@ -1908,7 +1912,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1724232689
+luajit-2.1.1724512491
 luit
 lupdate
 lwp-download
@@ -1973,6 +1977,7 @@ materialeditor
 mbedtls-benchmark
 mbedtls-selftest
 mclient
+mclient-11.51.3
 mconfig
 mcs
 mcxquery
@@ -2048,7 +2053,9 @@ mod-mono-server4
 modutil
 mogrify
 monetdb
+monetdb-11.51.3
 monetdbd
+monetdbd-11.51.3
 monitor
 monkeyrunner
 mono
@@ -2125,6 +2132,7 @@ mpv
 mrftopbm
 msbuild
 mserver5
+mserver5-11.51.3
 msgattrib
 msgcat
 msgcmp
@@ -2141,6 +2149,7 @@ msgunfmt
 msguniq
 msiexec
 msqldump
+msqldump-11.51.3
 mtree
 mtvtoppm
 mujs
@@ -3256,6 +3265,8 @@ sc-hsm-tool
 sc_auth
 sc_usage
 scala
+scala-cli.jar
+scala_legacy
 scalac
 scaladoc
 scalar

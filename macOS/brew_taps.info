@@ -25,17 +25,17 @@ From: https://github.com/go-testfixtures/homebrew-tap
 
 golangci/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (201 files, 164KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (205 files, 166.3KB)
 From: https://github.com/golangci/homebrew-tap
 
 heroku/brew: Installed
 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (215 files, 419KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (215 files, 419.0KB)
 From: https://github.com/heroku/homebrew-brew
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,029 files, 3.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,041 files, 3.2MB)
 From: https://github.com/Homebrew/homebrew-bundle
 
 homebrew/cask-fonts: Installed
@@ -50,7 +50,7 @@ From: https://github.com/Homebrew/homebrew-cask-versions
 
 homebrew/services: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,599 files, 1.7MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,615 files, 1.7MB)
 From: https://github.com/Homebrew/homebrew-services
 
 vitorgalvao/tiny-scripts: Installed

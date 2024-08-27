@@ -91,7 +91,6 @@ fb303
 fbthrift
 fd
 ffmpeg
-ffmpeg@6
 fftw
 figlet
 findutils
@@ -169,6 +168,7 @@ highway
 hr
 htop
 hub
+hugo
 hunspell
 hwloc
 icu4c
