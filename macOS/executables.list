@@ -852,9 +852,6 @@ fg
 fgrep
 fiascotopnm
 fibreconfig
-fido2-assert
-fido2-cred
-fido2-token
 figlet
 figlist
 file
@@ -1912,7 +1909,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1724512491
+luajit-2.1.1725453128
 luit
 lupdate
 lwp-download
@@ -2908,13 +2905,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-27.3.0
+protoc-28.0.0
 protoc-gen-upb
-protoc-gen-upb-27.3.0
+protoc-gen-upb-28.0.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-27.3.0
+protoc-gen-upb_minitable-28.0.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-27.3.0
+protoc-gen-upbdefs-28.0.0
 prove
 prove5.30
 prove5.34

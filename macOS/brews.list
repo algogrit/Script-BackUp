@@ -218,7 +218,6 @@ libavif
 libb2
 libbluray
 libcaca
-libcbor
 libcerf
 libcroco
 libde265
@@ -227,7 +226,6 @@ libdvdread
 libev
 libevent
 libffi
-libfido2
 libgcrypt
 libgit2@1.7
 libgpg-error
@@ -392,7 +390,6 @@ poppler-qt5
 popt
 postgresql@15
 protobuf
-protobuf@21
 psgrep
 pstree
 pugixml
