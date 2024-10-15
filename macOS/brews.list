@@ -172,6 +172,7 @@ hugo
 hunspell
 hwloc
 icu4c
+icu4c@75
 ideviceinstaller
 imagemagick
 imagemagick@6
@@ -221,6 +222,7 @@ libcaca
 libcerf
 libcroco
 libde265
+libdeflate
 libdvdcss
 libdvdread
 libev
@@ -327,6 +329,7 @@ mplayer
 mpv
 msgpack
 mujs
+mupdf-tools
 mvfst
 mycli
 mysql
@@ -404,10 +407,11 @@ pyqt
 python-certifi
 python-cryptography
 python-markdown
-python-setuptools
+python-packaging
 python@3.10
 python@3.11
 python@3.12
+python@3.13
 python@3.8
 python@3.9
 pyyaml
@@ -468,7 +472,6 @@ svt-av1
 swagger-codegen
 swi-prolog
 swiftlint
-swig
 szip
 tbb
 tcl-tk
