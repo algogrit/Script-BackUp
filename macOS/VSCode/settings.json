@@ -119,5 +119,6 @@
   "liveshare.accessibility.voiceEnabled": true,
   "files.associations": {
     "*.heex": "html-eex"
-  }
+  },
+  "makefile.configureOnOpen": false
 }
