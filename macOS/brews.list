@@ -171,7 +171,6 @@ hub
 hugo
 hunspell
 hwloc
-icu4c
 icu4c@75
 ideviceinstaller
 imagemagick
@@ -454,6 +453,7 @@ sip
 six
 sl
 snappy
+socat
 softhsm
 solr
 source-highlight

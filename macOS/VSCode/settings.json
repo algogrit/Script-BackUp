@@ -65,10 +65,11 @@
     ]
   },
   "cSpell.userWords": [
-    "Kubernetes",
-    "Twilio",
     "algogrit",
-    "oauth"
+    "Kubernetes",
+    "libcore",
+    "oauth",
+    "Twilio"
   ],
   "C_Cpp.updateChannel": "Insiders",
   "go.formatTool": "goimports",
@@ -120,5 +121,6 @@
   "files.associations": {
     "*.heex": "html-eex"
   },
-  "makefile.configureOnOpen": false
+  "makefile.configureOnOpen": false,
+  "cmake.showOptionsMovedNotification": false
 }
