@@ -1236,6 +1236,7 @@ gpg-card
 gpg-connect-agent
 gpg-error
 gpg-error-config
+gpg-mail-tube
 gpg-wks-client
 gpg-wks-server
 gpgconf
