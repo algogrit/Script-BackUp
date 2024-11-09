@@ -1967,7 +1967,7 @@ materialeditor
 mbedtls-benchmark
 mbedtls-selftest
 mclient
-mclient-11.51.3
+mclient-11.51.5
 mconfig
 mcs
 mcxquery
@@ -2043,9 +2043,9 @@ mod-mono-server4
 modutil
 mogrify
 monetdb
-monetdb-11.51.3
+monetdb-11.51.5
 monetdbd
-monetdbd-11.51.3
+monetdbd-11.51.5
 monitor
 monkeyrunner
 mono
@@ -2122,7 +2122,7 @@ mpv
 mrftopbm
 msbuild
 mserver5
-mserver5-11.51.3
+mserver5-11.51.5
 msgattrib
 msgcat
 msgcmp
@@ -2139,7 +2139,7 @@ msgunfmt
 msguniq
 msiexec
 msqldump
-msqldump-11.51.3
+msqldump-11.51.5
 mtree
 mtvtoppm
 mudraw
