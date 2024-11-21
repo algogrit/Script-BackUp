@@ -116,7 +116,6 @@ annotate
 ansible
 ansible-community
 ansible-config
-ansible-connection
 ansible-console
 ansible-doc
 ansible-galaxy
@@ -259,6 +258,7 @@ bmptopnm
 bmptoppm
 bmtoa
 bombardment
+bomtool
 bootnode
 bootstrapping
 bpf2go
@@ -618,6 +618,8 @@ dbus-test-tool
 dbus-update-activation-environment
 dbus-uuidgen
 dc
+dcm-dump
+dcm-getframe
 dcraw_emu
 dcraw_half
 dd
@@ -893,6 +895,7 @@ footloose
 footprint
 fortune
 fourcc2pixfmt
+fpack
 fqltool
 freetype-config
 fribidi
@@ -914,6 +917,7 @@ fstyp_hfs
 fstyp_msdos
 fstyp_ntfs
 fstyp_udf
+funpack
 funzip
 fuser
 fwkdp
@@ -1902,7 +1906,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1727870382
+luajit-2.1.1731601260
 luit
 lupdate
 lwp-download
@@ -1963,6 +1967,7 @@ manweb
 markdown_py
 mas
 masqreq
+matdump
 materialeditor
 mbedtls-benchmark
 mbedtls-selftest
@@ -2321,6 +2326,9 @@ opensc-explorer
 opensc-notify
 opensc-tool
 opensc-uninstall
+openslide-quickhash1sum
+openslide-show-properties
+openslide-write-png
 opensnoop
 openssl
 opj_compress
@@ -2561,9 +2569,21 @@ pdb2mdb
 pdbimgtopam
 pdf2dsc
 pdf2ps
+pdfattach
 pdfcpu
+pdfdetach
+pdffonts
+pdfimages
+pdfinfo
+pdfseparate
+pdfsig
 pdftexi2dvi
+pdftocairo
 pdftohtml
+pdftoppm
+pdftops
+pdftotext
+pdfunite
 pdisk
 pedump
 pem2der
@@ -2685,6 +2705,7 @@ pkcs15-init
 pkcs15-tool
 pkg-config
 pkgbuild
+pkgconf
 pkgutil
 pkill
 pkix-errcodes
@@ -3397,6 +3418,7 @@ sldtoppm
 sleep
 slencheck
 sliceprint
+slidetool
 slogin
 sls
 slsh
@@ -3612,7 +3634,7 @@ tccutil
 tcldocstrip
 tclsh
 tclsh8.5
-tclsh8.6
+tclsh9.0
 tcpdump
 tcsh
 tee
@@ -3852,6 +3874,11 @@ vimcat
 vimdiff
 vimpager
 vimtutor
+vips
+vipsedit
+vipsheader
+vipsprofile
+vipsthumbnail
 vipw
 vis
 visualinfo
@@ -3961,7 +3988,7 @@ winicontopam
 winicontoppm
 wish
 wish8.5
-wish8.6
+wish9.0
 with_aws
 with_beid
 with_luna

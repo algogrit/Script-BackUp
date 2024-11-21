@@ -3,7 +3,7 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (104 files, 107.5KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 1ab13f8ed6986c38e557718bc91bae1cafbbd0cc
-last commit: 3 months ago
+last commit: 4 months ago
 branch: main
 
 clojure/tools: Installed
@@ -11,14 +11,14 @@ clojure/tools: Installed
 /opt/homebrew/Library/Taps/clojure/homebrew-tools (710 files, 738.8KB)
 From: https://github.com/clojure/homebrew-tools
 HEAD: 867476fc1a0345c504aeeba6c7ff18f748ae36ee
-last commit: 9 weeks ago
+last commit: 3 months ago
 
 elastic/tap: Installed
 17 formulae
-/opt/homebrew/Library/Taps/elastic/homebrew-tap (253 files, 631.7KB)
+/opt/homebrew/Library/Taps/elastic/homebrew-tap (257 files, 635KB)
 From: https://github.com/elastic/homebrew-tap
-HEAD: e5c8f72e1c72053d2f9390883c87b9cbfa449bc3
-last commit: 6 weeks ago
+HEAD: 2191ed35fcb010a450fb3179af50f8c0e523cedb
+last commit: 3 days ago
 branch: main
 
 gcenx/wine: Installed
@@ -26,36 +26,36 @@ gcenx/wine: Installed
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (993 files, 671.2KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: 975c3f0ed62209bad581760cfd5357fe8373255d
-last commit: 9 days ago
+last commit: 3 weeks ago
 
 go-testfixtures/tap: Installed
 1 formula
 /opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.5KB)
 From: https://github.com/go-testfixtures/homebrew-tap
 HEAD: 119fe9fb7390f206f1157ba18f90086bd6d40ada
-last commit: 2 weeks ago
+last commit: 4 weeks ago
 
 golangci/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/golangci/homebrew-tap (209 files, 168.6KB)
+/opt/homebrew/Library/Taps/golangci/homebrew-tap (213 files, 170.9KB)
 From: https://github.com/golangci/homebrew-tap
-HEAD: e8d9164e23234ec07a471d421b36d59b4b960ead
-last commit: 9 weeks ago
+HEAD: 6b795b461481ce880e17e6a9eb87d36a7c0f9d58
+last commit: 10 days ago
 
 heroku/brew: Installed
 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (235 files, 432.2KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (243 files, 437.4KB)
 From: https://github.com/heroku/homebrew-brew
-HEAD: 674ac1037f87eca1da51a46179a1b98e3c25a3cb
-last commit: 2 weeks ago
+HEAD: ee6765400e224799ce43e3a51adc1161533127b2
+last commit: 7 days ago
 branch: main
 
 homebrew/bundle: Installed
 1 command
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,352 files, 3.4MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,439 files, 3.5MB)
 From: https://github.com/Homebrew/homebrew-bundle
-HEAD: bb8ff046665f91ff4d55d11bcc4cf317a5d47d27
-last commit: 29 hours ago
+HEAD: ffd64496166d710c4f0eaf220d5c18744ec1a4f6
+last commit: 8 hours ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
@@ -69,25 +69,25 @@ No commands/casks/formulae
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-versions (1,255 files, 86.3MB)
 From: https://github.com/Homebrew/homebrew-cask-versions
 HEAD: 057d1202c4ac9d4059909260af8d13e20fbf8cab
-last commit: 6 months ago
+last commit: 7 months ago
 
 homebrew/services: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (1,960 files, 2.0MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (2,006 files, 2.0MB)
 From: https://github.com/Homebrew/homebrew-services
-HEAD: 70c5367eb69742703430bbbedc2b5418ead1a609
-last commit: 21 hours ago
+HEAD: 697262483fabecf2e1f3fc4b6acbb5d134f6bc37
+last commit: 7 days ago
 
 vitorgalvao/tiny-scripts: Installed
 25 formulae
-/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (316 files, 560.0KB)
+/opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (320 files, 562.9KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
-HEAD: ebb532b4ea2a8e7233e03c3861f12e9e5ac2de9f
-last commit: 4 weeks ago
+HEAD: fa00564fd047d5643d8bed7f052679639cc4b628
+last commit: 7 hours ago
 
 weaveworks/tap: Installed
 7 formulae
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,161 files, 763.6KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: 5f259d317e22fb115e35b205b6d9d5a08d09c93a
-last commit: 3 weeks ago
+last commit: 4 weeks ago

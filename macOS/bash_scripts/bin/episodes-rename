@@ -16,6 +16,7 @@ if folder_paths.empty?
 end
 
 PATTERN_OFFSET_MAP = {
+  /S\d\dE\d\d\d/ => 5, # S01E001
   /S\d\dE\d\d/ => 4, # S01E01
   /Ep.\d\d/ => 3, # Ep 01
   /Ep\d\d/ => 2, # Ep01

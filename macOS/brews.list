@@ -44,6 +44,8 @@ cassandra
 ceres-solver
 certifi
 cffi
+cfitsio
+cgif
 chicken
 circleci
 cjson
@@ -223,10 +225,12 @@ libcerf
 libcroco
 libde265
 libdeflate
+libdicom
 libdvdcss
 libdvdread
 libev
 libevent
+libexif
 libffi
 libgcrypt
 libgit2@1.7
@@ -235,11 +239,13 @@ libheif
 libid3tag
 libidn
 libidn2
+libimagequant
 libimobiledevice
 libimobiledevice-glue
 libksba
 liblinear
 liblqr
+libmatio
 libmetalink
 libmicrohttpd
 libmng
@@ -263,11 +269,13 @@ libserdes
 libsndfile
 libsodium
 libsoxr
+libspng
 libssh
 libssh2
 libtasn1
 libtermkey
 libtiff
+libtommath
 libtool
 libunibreak
 libunistring
@@ -320,6 +328,7 @@ minikube
 molten-vk
 monetdb
 most
+mozjpeg
 mp3splt
 mp3wrap
 mpdecimal
@@ -365,6 +374,7 @@ openjdk@17
 openjdk@21
 openjpeg
 openldap
+openslide
 openssl@1.1
 openssl@3
 opentofu
@@ -385,7 +395,7 @@ perl
 pinentry
 pixman
 pkcs11-tools
-pkg-config
+pkgconf
 pmix
 poppler
 poppler-qt5
@@ -475,6 +485,7 @@ swiftlint
 szip
 tbb
 tcl-tk
+tcl-tk@8
 telnet
 terminal-notifier
 terracognita
@@ -503,12 +514,14 @@ unixodbc
 unzip
 utf8cpp
 utf8proc
+uthash
 v8
 vapoursynth
 vcpkg
 veclibfort
 vim
 vimpager
+vips
 vtk
 vulkan-headers
 vulkan-loader
