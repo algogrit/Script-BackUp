@@ -884,6 +884,7 @@ flex
 flex++
 flow
 fltk-config
+fltk-options
 fluid
 fmt
 fold
@@ -3161,8 +3162,15 @@ rd-curves
 rdjpgcom
 rdoc
 re2c
+re2d
 re2go
+re2hs
+re2js
+re2ocaml
+re2py
 re2rust
+re2v
+re2zig
 read
 readlink
 realpath
