@@ -122,5 +122,15 @@
     "*.heex": "html-eex"
   },
   "makefile.configureOnOpen": false,
-  "cmake.showOptionsMovedNotification": false
+  "cmake.showOptionsMovedNotification": false,
+  "mssql.enableRichExperiencesDoNotShowPrompt": true,
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux"
+  },
+  "remote.SSH.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
+  "dev.containers.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ]
 }
