@@ -102,6 +102,7 @@ ahost
 airport
 al
 al2
+alembic
 alias
 ambiguous_words
 amt
@@ -1712,6 +1713,7 @@ jupyter-serverextension
 jupyter-troubleshoot
 jupyter-trust
 jvisualvm
+jwebserver
 jxl_from_tree
 jxlinfo
 k3d
@@ -1957,6 +1959,7 @@ makealias
 makecert
 makeinfo
 makepqg
+mako-render
 malloc_history
 man
 mandoc
@@ -2927,13 +2930,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-28.3.0
+protoc-29.0.0
 protoc-gen-upb
-protoc-gen-upb-28.3.0
+protoc-gen-upb-29.0.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-28.3.0
+protoc-gen-upb_minitable-29.0.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-28.3.0
+protoc-gen-upbdefs-29.0.0
 prove
 prove5.30
 prove5.34
