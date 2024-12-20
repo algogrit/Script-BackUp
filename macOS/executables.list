@@ -412,7 +412,6 @@ clean-diff
 clear
 clef
 clhsdb
-cli-common-platform
 clippy-driver
 clj
 cloc
@@ -444,8 +443,6 @@ combine_lang_model
 combine_tessdata
 comm
 command
-common
-common-shared
 comp_err
 compaction-stress
 compare
@@ -696,6 +693,7 @@ dot
 dot2gxl
 dot_builtins
 dot_clean
+dot_sandbox
 dotnet
 doxygen
 drogon_ctl
@@ -897,7 +895,6 @@ footloose
 footprint
 fortune
 fourcc2pixfmt
-fpack
 fqltool
 freetype-config
 fribidi
@@ -919,12 +916,12 @@ fstyp_hfs
 fstyp_msdos
 fstyp_ntfs
 fstyp_udf
-funpack
 funzip
 fuser
 fwkdp
 fwkpfv
 fzf
+fzf-preview.sh
 fzf-tmux
 g++
 g++-14
@@ -1909,7 +1906,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1732813678
+luajit-2.1.1734355927
 luit
 lupdate
 lwp-download
@@ -2930,13 +2927,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-29.0.0
+protoc-29.2.0
 protoc-gen-upb
-protoc-gen-upb-29.0.0
+protoc-gen-upb-29.2.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-29.0.0
+protoc-gen-upb_minitable-29.2.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-29.0.0
+protoc-gen-upbdefs-29.2.0
 prove
 prove5.30
 prove5.34
@@ -3300,7 +3297,6 @@ sc-hsm-tool
 sc_auth
 sc_usage
 scala
-scala-cli.jar
 scala_legacy
 scalac
 scaladoc
