@@ -46,6 +46,7 @@ certifi
 cffi
 cfitsio
 cgif
+cgns
 chicken
 circleci
 cjson
@@ -127,7 +128,6 @@ git
 git-extras
 git-lfs
 git-svn
-gl2ps
 glances
 glew
 glib
@@ -235,6 +235,7 @@ libffi
 libgcrypt
 libgit2@1.7
 libgpg-error
+libharu
 libheif
 libid3tag
 libidn
@@ -353,6 +354,7 @@ newt
 nghttp2
 nginx
 ninja
+nlohmann-json
 nmap
 node
 node-build
@@ -401,6 +403,7 @@ poppler
 poppler-qt5
 popt
 postgresql@15
+proj
 protobuf
 psgrep
 pstree

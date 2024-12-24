@@ -82,6 +82,7 @@ actool
 acyclic
 addbuiltin
 addgnupghome
+adf2hdf
 adig
 aea
 aead_demo
@@ -360,6 +361,7 @@ cccheck
 ccmake
 ccomps
 ccrewrite
+cct
 cd
 cert-sync
 cert2spc
@@ -370,6 +372,13 @@ certmgr
 certtool
 certutil
 cfprefsd
+cgnscheck
+cgnscompress
+cgnsconvert
+cgnsdiff
+cgnslist
+cgnsnames
+cgnsupdate
 chat
 chcon
 check-regexp
@@ -507,6 +516,7 @@ crypt_and_hash
 crypto_bench
 crypto_examples
 cryptoflex-tool
+cs2cs
 csc
 cscope
 csh
@@ -1013,6 +1023,7 @@ gengal
 genstrings
 genv
 genxs
+geod
 geoiplookup
 geoiplookup6
 getconf
@@ -1048,6 +1059,7 @@ gi-decompile-typelib
 gi-inspect-typelib
 gid
 gids-tool
+gie
 gif2rgb
 gif2webp
 gifbuild
@@ -1413,6 +1425,7 @@ hb-ot-shape-closure
 hb-shape
 hb-subset
 hb-view
+hdf2adf
 hdid
 hdifftopam
 hdik
@@ -1572,6 +1585,8 @@ instancer
 instmodsh
 instmodsh5.30
 instmodsh5.34
+invgeod
+invproj
 ioalloccount
 ioclasscount
 iofile.d
@@ -1973,7 +1988,7 @@ materialeditor
 mbedtls-benchmark
 mbedtls-selftest
 mclient
-mclient-11.51.5
+mclient-11.51.7
 mconfig
 mcs
 mcxquery
@@ -2049,9 +2064,9 @@ mod-mono-server4
 modutil
 mogrify
 monetdb
-monetdb-11.51.5
+monetdb-11.51.7
 monetdbd
-monetdbd-11.51.5
+monetdbd-11.51.7
 monitor
 monkeyrunner
 mono
@@ -2128,7 +2143,7 @@ mpv
 mrftopbm
 msbuild
 mserver5
-mserver5-11.51.5
+mserver5-11.51.7
 msgattrib
 msgcat
 msgcmp
@@ -2145,7 +2160,7 @@ msgunfmt
 msguniq
 msiexec
 msqldump
-msqldump-11.51.5
+msqldump-11.51.7
 mtree
 mtvtoppm
 mudraw
@@ -2926,6 +2941,9 @@ procsystime
 productbuild
 productsign
 profiles
+proj
+projinfo
+projsync
 protoc
 protoc-29.2.0
 protoc-gen-upb
@@ -3925,12 +3943,13 @@ vspipe
 vsyasm
 vterm-ctrl
 vterm-dump
-vtkParseJava-9.3
-vtkProbeOpenGLVersion-9.3
-vtkWrapHierarchy-9.3
-vtkWrapJava-9.3
-vtkWrapPython-9.3
-vtkWrapPythonInit-9.3
+vtkParseJava-9.4
+vtkProbeOpenGLVersion-9.4
+vtkWrapHierarchy-9.4
+vtkWrapJava-9.4
+vtkWrapPython-9.4
+vtkWrapPythonInit-9.4
+vtkWrapSerDes-9.4
 vtkpython
 vtool
 vwebp
