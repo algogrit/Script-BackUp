@@ -62,7 +62,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.23.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-md-1.2.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-1.69.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-3.1.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-3.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-emoji-4.0.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.37.0/lib
@@ -77,15 +77,15 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-support-3.13.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/redcarpet-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/redcarpet-3.6.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbs-3.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/rbs-3.7.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbs-3.8.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/rbs-3.8.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbi-0.2.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-runtime-0.5.11708/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rainbow-3.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/pry-0.15.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/pry-0.15.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/prism-1.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/prism-1.3.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/plist-3.7.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/plist-3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/patchelf-1.5.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/lib
@@ -101,7 +101,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rexml-3.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/json_schemer-2.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simpleidn-0.2.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/regexp_parser-2.9.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/regexp_parser-2.10.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/json-2.9.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/json-2.9.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/hana-1.3.7/lib
@@ -112,8 +112,9 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.4/lib/concurrent-ruby
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bindata-2.5.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/bigdecimal-3.1.8
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.9/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/bigdecimal-3.1.9
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ast-2.4.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/addressable-2.8.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/public_suffix-6.0.1/lib
@@ -124,7 +125,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.6/lib/ruby/3.3.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.6/lib/ruby/3.3.0/arm64-darwin20
 ==> Homebrew Version
-4.4.13
+4.4.14
 ==> macOS
 13.0.1
 ==> SIP
@@ -133,7 +134,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7284 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7287 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -183,7 +184,6 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   pdftohtml
-  sphinx-doc
 
 Warning: Some installed formulae are not readable:
   elastic/tap/logstash-full: undefined method `plist_options' for class Formulary::FormulaNamespace452874f3e2a2a0ba1e7968b9a66f8d724b45fed4b01c55052e14162aa2a549db::LogstashFull
@@ -192,4 +192,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.2 (or delete it).
 Xcode can be updated from the App Store.
 
-554 kegs, 428,330 files, 20GB
+553 kegs, 418,993 files, 20GB

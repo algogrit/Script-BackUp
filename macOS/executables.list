@@ -1567,8 +1567,6 @@ import
 imptrace
 in2csv
 indent
-indexer
-indextool
 inetcat
 info
 infocmp
@@ -3344,7 +3342,6 @@ sdl2-config
 sdp
 sdrtest
 sdx
-searchd
 secmodtest
 security
 securityd
@@ -3522,11 +3519,14 @@ speedtest
 speedtest-cli
 speexdec
 speexenc
-spelldump
 spfd
 spfd5.30
 spfquery
 spfquery5.30
+sphinx-apidoc
+sphinx-autogen
+sphinx-build
+sphinx-quickstart
 spindump
 splain
 splain5.30
@@ -4022,7 +4022,6 @@ with_nfast
 with_nss
 with_softhsm
 with_utimaco
-wordbreaker
 wordforms
 wordlist2dawg
 wordlist2hunspell
@@ -4151,6 +4150,7 @@ xwud
 xxd
 xxh128sum
 xxh32sum
+xxh3sum
 xxh64sum
 xxhsum
 xyb_range
