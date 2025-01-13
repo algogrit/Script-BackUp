@@ -1179,6 +1179,7 @@ git-upload-archive
 git-upload-pack
 git-utimes
 git-wash
+git2
 gjoin
 gkill
 glances
@@ -2943,13 +2944,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-29.2.0
+protoc-29.3.0
 protoc-gen-upb
-protoc-gen-upb-29.2.0
+protoc-gen-upb-29.3.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-29.2.0
+protoc-gen-upb_minitable-29.3.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-29.2.0
+protoc-gen-upbdefs-29.3.0
 prove
 prove5.30
 prove5.34

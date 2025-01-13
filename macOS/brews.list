@@ -233,7 +233,7 @@ libevent
 libexif
 libffi
 libgcrypt
-libgit2@1.7
+libgit2
 libgpg-error
 libharu
 libheif
@@ -303,6 +303,7 @@ libyaml
 libzip
 little-cms2
 llvm
+llvm@18
 logstash-full
 lpeg
 lua
@@ -365,6 +366,7 @@ nspr
 nss
 numpy
 oniguruma
+onnx
 open-mpi
 openblas
 opencore-amr
