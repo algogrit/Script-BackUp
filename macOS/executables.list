@@ -41,6 +41,7 @@ MagickCore-config
 MagickWand-config
 MoltenVKShaderConverter
 PasswordService
+ProtocolBench
 R
 ResMerger
 Rez
@@ -261,7 +262,6 @@ bmptoppm
 bmtoa
 bombardment
 bomtool
-bootnode
 bootstrapping
 bpf2go
 bputil
@@ -887,6 +887,7 @@ fix-qdf
 fixproc
 fizz
 fizz-bogoshim
+fizz-encryptedrecordbench
 flac
 flash
 flex
@@ -1047,11 +1048,11 @@ gfortran-14
 ggrep
 ggroups
 ghc
-ghc-9.10.1
+ghc-9.12.1
 ghc-pkg
-ghc-pkg-9.10.1
+ghc-pkg-9.12.1
 ghci
-ghci-9.10.1
+ghci-9.12.1
 ghead
 ghostid
 gi-compile-repository
@@ -1415,7 +1416,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-9.10.1
+haddock-ghc-9.12.1
 half_mt
 halt
 happrox
@@ -1456,14 +1457,14 @@ hostname
 hotspot.d
 howdoi
 hp2ps
-hp2ps-ghc-9.10.1
+hp2ps-ghc-9.12.1
 hpc
-hpc-ghc-9.10.1
+hpc-ghc-9.12.1
 hpcdtoppm
 hpmdiagnose
 hr
 hsc2hs
-hsc2hs-ghc-9.10.1
+hsc2hs-ghc-9.12.1
 hsdb
 htcacheclean
 htdbm
@@ -1724,7 +1725,6 @@ jupyter-serverextension
 jupyter-troubleshoot
 jupyter-trust
 jvisualvm
-jwebserver
 jxl_from_tree
 jxlinfo
 k3d
@@ -1920,7 +1920,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1734355927
+luajit-2.1.1736781742
 luit
 lupdate
 lwp-download
@@ -2606,7 +2606,7 @@ periodic
 perl
 perl5.30
 perl5.34
-perl5.40.0
+perl5.40.1
 perlbug
 perlbug5.30
 perlbug5.34
@@ -3282,9 +3282,9 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-9.10.1
+runghc-9.12.1
 runhaskell
-runhaskell-9.10.1
+runhaskell-9.12.1
 rust-analyzer
 rust-gdb
 rust-gdbgui

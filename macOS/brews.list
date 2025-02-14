@@ -89,6 +89,7 @@ enscript
 erlang
 ethereum
 exercism
+expat
 faac
 fb303
 fbthrift
@@ -303,7 +304,6 @@ libyaml
 libzip
 little-cms2
 llvm
-llvm@18
 logstash-full
 lpeg
 lua
