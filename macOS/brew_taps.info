@@ -11,7 +11,7 @@ clojure/tools: Installed
 /opt/homebrew/Library/Taps/clojure/homebrew-tools (763 files, 804.5KB)
 From: https://github.com/clojure/homebrew-tools
 HEAD: 0270ddc364a8be8c830a2566e1e363958810ee64
-last commit: 4 days ago
+last commit: 6 days ago
 
 elastic/tap: Installed
 17 formulae
@@ -40,7 +40,7 @@ golangci/tap: Installed
 /opt/homebrew/Library/Taps/golangci/homebrew-tap (253 files, 188.6KB)
 From: https://github.com/golangci/homebrew-tap
 HEAD: 67da4bb4a1215bb043f96922fc62088575bd0f1b
-last commit: 10 hours ago
+last commit: 2 days ago
 
 heroku/brew: Installed
 2 formulae
@@ -52,10 +52,10 @@ branch: main
 
 homebrew/bundle: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,808 files, 3.9MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,812 files, 3.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
-HEAD: 703df0bf5c49a4d5c4d6095b25d45109ed27a924
-last commit: 9 hours ago
+HEAD: 78451e1023d79f7c82d673b95d35487e4cab925f
+last commit: 29 hours ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
@@ -73,21 +73,21 @@ last commit: 10 months ago
 
 homebrew/services: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (2,322 files, 2.3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (2,332 files, 2.3MB)
 From: https://github.com/Homebrew/homebrew-services
-HEAD: 8e53826be0eb496af50d0f927d76b56f948d3bc8
-last commit: 26 hours ago
+HEAD: bce82f8339f9d830df26c22ba2af6896fa257d61
+last commit: 2 days ago
 
 vitorgalvao/tiny-scripts: Installed
 26 formulae
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (351 files, 582.1KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: 690a5467df5fc887868b303cd0dab570b97dabc9
-last commit: 4 days ago
+last commit: 6 days ago
 
 weaveworks/tap: Installed
 7 formulae
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,201 files, 784.2KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: c2df7a050fe86f9967a8a310eba5bbfcf5cbace5
-last commit: 14 hours ago
+last commit: 3 days ago

@@ -2956,6 +2956,7 @@ prove5.30
 prove5.34
 proxy
 prte
+prte-term
 prte_info
 prted
 prterun
@@ -2993,7 +2994,6 @@ ptardiff5.34
 ptargrep
 ptargrep5.30
 ptargrep5.34
-pterm
 ptx
 purge
 purge-old-kernels
