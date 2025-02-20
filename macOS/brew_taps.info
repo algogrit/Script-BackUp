@@ -11,7 +11,7 @@ clojure/tools: Installed
 /opt/homebrew/Library/Taps/clojure/homebrew-tools (763 files, 804.5KB)
 From: https://github.com/clojure/homebrew-tools
 HEAD: 0270ddc364a8be8c830a2566e1e363958810ee64
-last commit: 9 days ago
+last commit: 10 days ago
 
 elastic/tap: Installed
 17 formulae
@@ -40,22 +40,22 @@ golangci/tap: Installed
 /opt/homebrew/Library/Taps/golangci/homebrew-tap (253 files, 188.6KB)
 From: https://github.com/golangci/homebrew-tap
 HEAD: 67da4bb4a1215bb043f96922fc62088575bd0f1b
-last commit: 5 days ago
+last commit: 6 days ago
 
 heroku/brew: Installed
 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (259 files, 447.7KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (263 files, 450.4KB)
 From: https://github.com/heroku/homebrew-brew
-HEAD: f019afe263097354dba2c1b71c5f2a006285a99d
-last commit: 6 weeks ago
+HEAD: 2b283e596263d19a62dbeddd1db018a2fb9e0b8f
+last commit: 8 hours ago
 branch: main
 
 homebrew/bundle: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,837 files, 3.9MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,841 files, 3.9MB)
 From: https://github.com/Homebrew/homebrew-bundle
-HEAD: 7085d74e0a5456f74355d56c5f3b4ecc714271b0
-last commit: 13 hours ago
+HEAD: 362eb90730c8931d38203a64140a940c3ae2cd08
+last commit: 5 hours ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
@@ -76,18 +76,18 @@ homebrew/services: Installed
 /opt/homebrew/Library/Taps/homebrew/homebrew-services (2,343 files, 2.3MB)
 From: https://github.com/Homebrew/homebrew-services
 HEAD: 60b06eeff84a8df5166e72b7c79ce4a5394aeae8
-last commit: 2 days ago
+last commit: 3 days ago
 
 vitorgalvao/tiny-scripts: Installed
 26 formulae
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (351 files, 582.1KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: 690a5467df5fc887868b303cd0dab570b97dabc9
-last commit: 9 days ago
+last commit: 10 days ago
 
 weaveworks/tap: Installed
 7 formulae
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,201 files, 784.2KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: c2df7a050fe86f9967a8a310eba5bbfcf5cbace5
-last commit: 6 days ago
+last commit: 7 days ago
