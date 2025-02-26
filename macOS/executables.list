@@ -205,6 +205,7 @@ avconvert
 avdmanager
 avifdec
 avifenc
+avifgainmaputil
 aviocat
 avmediainfo
 avmetareadwrite
@@ -765,7 +766,7 @@ elixir
 elixirc
 elm
 emacs
-emacs-29.4
+emacs-30.1
 emacsclient
 emulator
 emulator-check
@@ -950,6 +951,7 @@ gapi2-codegen
 gapi2-fixup
 gapi2-parser
 gatherheaderdoc
+gatsby
 gawk
 gawk-5.3.1
 gawkbug
