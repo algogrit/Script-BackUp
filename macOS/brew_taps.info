@@ -33,15 +33,15 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (263 files, 450.4KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 2b283e596263d19a62dbeddd1db018a2fb9e0b8f
-last commit: 8 days ago
+last commit: 11 days ago
 branch: main
 
 homebrew/bundle: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,903 files, 4.0MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (2,907 files, 4.0MB)
 From: https://github.com/Homebrew/homebrew-bundle
-HEAD: 4e73a05b89c77317f34dc7a1125d70dc1da91a0a
-last commit: 9 hours ago
+HEAD: da1500d55938c2e9dc5507b5a394f0bcb8ee625a
+last commit: 3 days ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
@@ -59,21 +59,21 @@ last commit: 10 months ago
 
 homebrew/services: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-services (2,386 files, 2.3MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-services (2,390 files, 2.3MB)
 From: https://github.com/Homebrew/homebrew-services
-HEAD: 01e5830581815033ca85f048e099d6f0b85496f8
-last commit: 36 minutes ago
+HEAD: 71cca8974c9f9adcc55a7ab8ec4a3e28b09bba0d
+last commit: 4 days ago
 
 vitorgalvao/tiny-scripts: Installed
 26 formulae
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (351 files, 582.1KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: 690a5467df5fc887868b303cd0dab570b97dabc9
-last commit: 2 weeks ago
+last commit: 3 weeks ago
 
 weaveworks/tap: Installed
 7 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,201 files, 784.2KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,205 files, 786.5KB)
 From: https://github.com/weaveworks/homebrew-tap
-HEAD: c2df7a050fe86f9967a8a310eba5bbfcf5cbace5
-last commit: 2 weeks ago
+HEAD: 234d6bcbd1d45e88a59d03e378d8fd11c6f8ee45
+last commit: 2 days ago
