@@ -448,7 +448,6 @@ colldef
 colortail
 colrm
 column
-com.docker.cli
 combine_lang_model
 combine_tessdata
 comm
@@ -696,7 +695,6 @@ docker-credential-ecr-login
 docker-credential-gcloud
 docker-credential-osxkeychain
 docker-image-tool.sh
-docker-index
 docker-machine
 doctl
 dos2unix
