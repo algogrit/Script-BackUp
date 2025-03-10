@@ -1725,6 +1725,7 @@ jupyter-serverextension
 jupyter-troubleshoot
 jupyter-trust
 jvisualvm
+jwebserver
 jxl_from_tree
 jxlinfo
 k3d
