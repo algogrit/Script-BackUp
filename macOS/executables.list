@@ -582,6 +582,7 @@ dappprof
 dapptrace
 dasel
 dash
+datadog-agent
 date
 dav1d
 dawg2wordlist
@@ -1921,7 +1922,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1736781742
+luajit-2.1.1741571767
 luit
 lupdate
 lwp-download
