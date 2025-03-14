@@ -1922,7 +1922,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1741571767
+luajit-2.1.1741730670
 luit
 lupdate
 lwp-download
@@ -3428,6 +3428,7 @@ sip-wheel
 sips
 sirtopnm
 size
+skaffold
 skywalkctl
 sl
 slapacl
