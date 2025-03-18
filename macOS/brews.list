@@ -409,6 +409,7 @@ popt
 postgresql@15
 proj
 protobuf
+protobuf@29
 psgrep
 pstree
 pugixml

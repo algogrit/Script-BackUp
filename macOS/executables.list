@@ -882,7 +882,9 @@ finger
 fipstest
 firebase
 firmwarepasswd
+fitscopy
 fitstopnm
+fitsverify
 fix-qdf
 fixproc
 fizz
@@ -906,6 +908,7 @@ footloose
 footprint
 fortune
 fourcc2pixfmt
+fpack
 fqltool
 freetype-config
 fribidi
@@ -927,6 +930,7 @@ fstyp_hfs
 fstyp_msdos
 fstyp_ntfs
 fstyp_udf
+funpack
 funzip
 fuser
 fwkdp
@@ -1049,11 +1053,11 @@ gfortran-14
 ggrep
 ggroups
 ghc
-ghc-9.12.1
+ghc-9.12.2
 ghc-pkg
-ghc-pkg-9.12.1
+ghc-pkg-9.12.2
 ghci
-ghci-9.12.1
+ghci-9.12.2
 ghead
 ghostid
 gi-compile-repository
@@ -1417,7 +1421,7 @@ h5stat
 h5unjam
 h5watch
 haddock
-haddock-ghc-9.12.1
+haddock-ghc-9.12.2
 half_mt
 halt
 happrox
@@ -1458,14 +1462,14 @@ hostname
 hotspot.d
 howdoi
 hp2ps
-hp2ps-ghc-9.12.1
+hp2ps-ghc-9.12.2
 hpc
-hpc-ghc-9.12.1
+hpc-ghc-9.12.2
 hpcdtoppm
 hpmdiagnose
 hr
 hsc2hs
-hsc2hs-ghc-9.12.1
+hsc2hs-ghc-9.12.2
 hsdb
 htcacheclean
 htdbm
@@ -1551,6 +1555,7 @@ illinkanalyzer
 imageio_download_bin
 imageio_remove_bin
 imagetops
+imcopy
 img2txt
 img2webp
 imgcmp
@@ -3284,9 +3289,9 @@ runant.pl
 runant.py
 runcon
 runghc
-runghc-9.12.1
+runghc-9.12.2
 runhaskell
-runhaskell-9.12.1
+runhaskell-9.12.2
 rust-analyzer
 rust-gdb
 rust-gdbgui
@@ -3451,6 +3456,7 @@ slsh
 smbd
 smbdiagnose
 smbutil
+smem
 smproxy
 smtpd.py
 sn
@@ -3519,6 +3525,7 @@ spark-submit
 sparkR
 spctl
 spctoppm
+speed
 speedtest
 speedtest-cli
 speexdec
