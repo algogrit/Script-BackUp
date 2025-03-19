@@ -33,15 +33,15 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (271 files, 455.4KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 9a14242ae7ed3f04dc565980f669284cdd88c4e1
-last commit: 6 days ago
+last commit: 7 days ago
 branch: main
 
 homebrew/bundle: Installed
 2 commands
-/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (3,228 files, 4.2MB)
+/opt/homebrew/Library/Taps/homebrew/homebrew-bundle (3,232 files, 4.2MB)
 From: https://github.com/Homebrew/homebrew-bundle
-HEAD: a8ec218a948b7e0af386e5621fee8e04b87c70d9
-last commit: 10 hours ago
+HEAD: 05ef3436f1e9c9355ed78f538d27cb0dfb7051fc
+last commit: 6 hours ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
@@ -62,7 +62,7 @@ homebrew/services: Installed
 /opt/homebrew/Library/Taps/homebrew/homebrew-services (2,491 files, 2.4MB)
 From: https://github.com/Homebrew/homebrew-services
 HEAD: 43ec598ee3bd00bdb6878873246c440a8643fdb8
-last commit: 6 hours ago
+last commit: 24 hours ago
 
 vitorgalvao/tiny-scripts: Installed
 26 formulae

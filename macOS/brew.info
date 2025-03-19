@@ -138,7 +138,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7395 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7397 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -205,4 +205,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.2 (or delete it).
 Xcode can be updated from the App Store.
 
-560 kegs, 438,697 files, 20.7GB
+560 kegs, 438,699 files, 20.7GB
