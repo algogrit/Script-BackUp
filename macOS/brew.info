@@ -15,6 +15,7 @@ You should find replacements for the following casks:
   phantomjs
   podcastmenu
   spectacle
+  vmware-fusion
 ==> Cask Environment Variables:
 BUNDLE_PATH
 CHRUBY_VERSION
@@ -46,9 +47,9 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/stackprof-0.2.27
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/spoom-1.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/thor-1.3.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-and-runtime-0.5.11945/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-0.5.11945/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-0.5.11945-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-and-runtime-0.5.11952/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-0.5.11952/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-0.5.11952-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -65,7 +66,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-3.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-emoji-4.0.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.39.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.41.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-retry-0.6.2/lib
@@ -78,7 +79,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/redcarpet-3.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/redcarpet-3.6.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbi-0.3.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-runtime-0.5.11945/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-runtime-0.5.11952/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/rbs-3.9.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rainbow-3.1.1/lib
@@ -89,7 +90,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/prism-1.4.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/plist-3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/patchelf-1.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.7.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/racc-1.8.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel_tests-5.1.0/lib
@@ -119,7 +120,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/bigdecimal-3.1.9
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/benchmark-0.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ast-2.4.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ast-2.4.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/addressable-2.8.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/public_suffix-6.0.1/lib
 /opt/homebrew/Library/Homebrew
@@ -129,7 +130,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.7/lib/ruby/3.3.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.7/lib/ruby/3.3.0/arm64-darwin20
 ==> Homebrew Version
-4.4.25
+4.4.26
 ==> macOS
 13.0.1
 ==> SIP
@@ -137,8 +138,8 @@ Enabled
 ==> Homebrew Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (3 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7404 casks)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7411 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -207,4 +208,4 @@ Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.2 (or delete it).
 Xcode can be updated from the App Store.
 
-560 kegs, 438,686 files, 20.7GB
+560 kegs, 435,622 files, 20.5GB
