@@ -55,6 +55,7 @@ clojure
 cloog
 cmake
 cmocka
+cmus
 cocoapods
 colortail
 coreutils
@@ -91,6 +92,7 @@ ethereum
 exercism
 expat
 faac
+faad2
 fb303
 fbthrift
 fd
@@ -216,6 +218,7 @@ leiningen
 leptonica
 less
 libaec
+libao
 libarchive
 libass
 libassuan
@@ -226,6 +229,7 @@ libbluray
 libcaca
 libcerf
 libcroco
+libcue
 libde265
 libdeflate
 libdicom
@@ -335,6 +339,7 @@ most
 mozjpeg
 mp3splt
 mp3wrap
+mp4v2
 mpdecimal
 mpfr
 mpg123

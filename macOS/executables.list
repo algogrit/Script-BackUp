@@ -435,6 +435,8 @@ cmp
 cmpdylib
 cmpfillin
 cmsutil
+cmus
+cmus-remote
 cmuwmtopbm
 cntraining
 code
@@ -828,6 +830,7 @@ f2py
 f2py3
 f2py3.11
 faac
+faad
 factor
 false
 fastcgi-mono-server
@@ -2131,6 +2134,15 @@ mozroots
 mp2bug
 mp3splt
 mp3wrap
+mp4art
+mp4chaps
+mp4extract
+mp4file
+mp4info
+mp4subtitle
+mp4tags
+mp4track
+mp4trackdump
 mpg123
 mpg123-id3dump
 mpg123-strip
