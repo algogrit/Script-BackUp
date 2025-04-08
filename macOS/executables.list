@@ -1433,7 +1433,6 @@ happrox
 hash
 hash_password
 hb-info
-hb-ot-shape-closure
 hb-shape
 hb-subset
 hb-view
@@ -1932,7 +1931,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1741730670
+luajit-2.1.1744014795
 luit
 lupdate
 lwp-download
