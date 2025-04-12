@@ -16,6 +16,7 @@ dart-code.dart-code
 dart-code.flutter
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
+docker.docker
 donjayamanne.git-extension-pack
 donjayamanne.githistory
 dotjoshjohnson.xml
@@ -63,6 +64,7 @@ ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.makefile-tools
+ms-vscode.powershell
 ms-vscode.remote-explorer
 ms-vscode.test-adapter-converter
 ms-vscode.vscode-speech
