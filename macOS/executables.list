@@ -1931,7 +1931,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1744014795
+luajit-2.1.1744318430
 luit
 lupdate
 lwp-download
@@ -2627,7 +2627,7 @@ periodic
 perl
 perl5.30
 perl5.34
-perl5.40.1
+perl5.40.2
 perlbug
 perlbug5.30
 perlbug5.34
@@ -3899,7 +3899,9 @@ uustat
 uuto
 uux
 uuxqt
+uv
 uvicorn
+uvx
 uxterm
 vacuumdb
 vacuumlo
