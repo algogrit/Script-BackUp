@@ -15,7 +15,6 @@ You should find replacements for the following casks:
   phantomjs
   podcastmenu
   spectacle
-  vmware-fusion
 ==> Cask Environment Variables:
 BUNDLE_PATH
 CHRUBY_VERSION
@@ -61,7 +60,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-sorbet-0.10.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-rspec-3.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.25.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-md-2.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-md-2.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-1.75.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-3.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-emoji-4.0.4/lib
@@ -90,11 +89,11 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/prism-1.4.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/plist-3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/patchelf-1.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.7.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.8.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/racc-1.8.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel_tests-5.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel-1.26.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel-1.27.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/netrc-0.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/minitest-5.25.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/method_source-1.1.0/lib
@@ -130,7 +129,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/3.3.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/3.3.0/arm64-darwin20
 ==> Homebrew Version
-4.4.30
+4.4.31
 ==> macOS
 13.0.1
 ==> SIP
@@ -139,7 +138,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7446 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7454 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -220,4 +219,4 @@ This is a Tier 2 configuration:
 Do not report any issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-566 kegs, 438,816 files, 20.2GB
+567 kegs, 438,995 files, 20.3GB

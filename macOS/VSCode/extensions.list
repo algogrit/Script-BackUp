@@ -11,6 +11,7 @@ bradymholt.pgformatter
 casian.plsql
 codezombiech.gitignore
 connorcpu.vsc-rustfmt
+continue.continue
 cschlosser.doxdocgen
 dart-code.dart-code
 dart-code.flutter
@@ -26,6 +27,8 @@ eamodio.gitlens
 editorconfig.editorconfig
 elmtooling.elm-ls-vscode
 ericadamski.carbon-now-sh
+github.copilot
+github.copilot-chat
 github.vscode-github-actions
 gitpod.gitpod-desktop
 golang.go

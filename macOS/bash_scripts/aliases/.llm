@@ -1,0 +1,2 @@
+alias codellama='ollama run codellama:13b-code'
+alias deepseek='ollama run DeepSeek-Coder:6.7b'

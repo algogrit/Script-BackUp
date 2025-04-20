@@ -2221,7 +2221,9 @@ mysqldump
 mysqldumpslow
 mysqlimport
 mysqlrouter
+mysqlrouter_bootstrap
 mysqlrouter_keyring
+mysqlrouter_mrs_client
 mysqlrouter_passwd
 mysqlrouter_plugin_info
 mysqlshow

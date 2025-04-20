@@ -372,6 +372,7 @@ nrg2iso
 nspr
 nss
 numpy
+ollama
 oniguruma
 onnx
 open-mpi
