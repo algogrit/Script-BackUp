@@ -1,3 +1,9 @@
+Error: Unexpected method 'discontinued' called during caveats on Cask adoptopenjdk8.
+Follow the instructions here:
+  https://github.com/Homebrew/homebrew-cask#reporting-bugs
+Error: Unexpected method 'discontinued' called during caveats on Cask adoptopenjdk8.
+Follow the instructions here:
+  https://github.com/Homebrew/homebrew-cask#reporting-bugs
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -9,11 +15,12 @@ You should find replacements for the following casks:
   authy
   bluejeans
   ganache
-  grammarly
   kindle
   nosleep
   phantomjs
   podcastmenu
+  skype
+  skype-for-business
   spectacle
 ==> Cask Environment Variables:
 BUNDLE_PATH
@@ -29,107 +36,108 @@ RUBYOPT
 RUBYPATH
 SHELL
 ==> $LOAD_PATHS
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bundler-2.5.22/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/gems/msgpack-1.8.0/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/gems/debug-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.4/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/extensions/arm64-darwin-20/3.3.0-static/msgpack-1.8.0
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/extensions/arm64-darwin-20/3.3.0-static/debug-1.9.2
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/gems/3.3.0/extensions/arm64-darwin-20/3.3.0-static/bootsnap-1.18.4
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/warning-1.5.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/vernier-1.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/vernier-1.7.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/tapioca-0.16.11/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/yard-sorbet-0.9.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/yard-0.9.37/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/stackprof-0.2.27/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/stackprof-0.2.27
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/spoom-1.6.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/thor-1.3.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-and-runtime-0.5.12026/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-0.5.12026/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-static-0.5.12026-universal-darwin/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov-cobertura-2.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov-0.22.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov_json_formatter-0.1.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simplecov-html-0.13.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-prof-1.7.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/ruby-prof-1.7.1
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-macho-4.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-lsp-0.23.14/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-sorbet-0.10.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-rspec-3.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-performance-1.25.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-md-2.0.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-1.75.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-display_width-3.1.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/unicode-emoji-4.0.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rubocop-ast-1.44.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec_junit_formatter-0.6.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-sorbet-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-retry-0.6.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-github-3.0.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-3.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-mocks-3.13.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-expectations-3.13.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-core-3.13.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rspec-support-3.13.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/redcarpet-3.6.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/redcarpet-3.6.1
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbi-0.3.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/sorbet-runtime-0.5.12026/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rbs-3.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/rbs-3.9.2
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rainbow-3.1.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/pycall-1.5.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/pycall-1.5.2
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/pry-0.15.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/prism-1.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/prism-1.4.0
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/plist-3.7.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/patchelf-1.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parser-3.3.8.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/racc-1.8.1
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel_tests-5.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/parallel-1.27.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/netrc-0.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/minitest-5.25.5/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/method_source-1.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/logger-1.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/lint_roller-1.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/language_server-protocol-3.17.0.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/kramdown-2.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/rexml-3.4.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/json_schemer-2.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/simpleidn-0.2.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/regexp_parser-2.10.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/json-2.10.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/json-2.10.2
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/hana-1.3.7/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/erubi-1.13.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/elftools-1.3.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/docile-1.4.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/diff-lcs-1.6.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/concurrent-ruby-1.3.5/lib/concurrent-ruby
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/coderay-1.1.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bindata-2.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.9/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/extensions/arm64-darwin-20/3.3.0-static/bigdecimal-3.1.9
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/benchmark-0.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/base64-0.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/ast-2.4.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/addressable-2.8.7/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.3.0/gems/public_suffix-6.0.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bundler-2.6.7/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/gems/msgpack-1.8.0/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/gems/debug-1.10.0/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/gems/bootsnap-1.18.4/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/extensions/arm64-darwin-20/3.4.0-static/msgpack-1.8.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/extensions/arm64-darwin-20/3.4.0-static/debug-1.10.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/gems/3.4.0/extensions/arm64-darwin-20/3.4.0-static/bootsnap-1.18.4
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/warning-1.5.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/vernier-1.7.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/vernier-1.7.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/tapioca-0.16.11/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/yard-sorbet-0.9.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/yard-0.9.37/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/stackprof-0.2.27/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/stackprof-0.2.27
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.3.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.5.12060/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.5.12060/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.5.12060-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-cobertura-2.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-0.22.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov_json_formatter-0.1.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-html-0.13.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-prof-1.7.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/ruby-prof-1.7.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-macho-4.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-lsp-0.23.16/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-sorbet-0.10.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-rspec-3.6.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-performance-1.25.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-md-2.0.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-1.75.5/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.1.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.0.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.44.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec_junit_formatter-0.6.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-sorbet-1.9.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-retry-0.6.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-github-3.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-3.13.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-mocks-3.13.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-expectations-3.13.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-core-3.13.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-support-3.13.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/redcarpet-3.6.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rbi-0.3.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.5.12060/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/rbs-3.9.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pycall-1.5.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/pycall-1.5.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pry-0.15.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/prism-1.4.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/prism-1.4.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/plist-3.7.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/patchelf-1.5.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parser-3.3.8.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/racc-1.8.1
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel_tests-5.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/netrc-0.11.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/minitest-5.25.5/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/method_source-1.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/logger-1.7.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/lint_roller-1.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/language_server-protocol-3.17.0.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/kramdown-2.5.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rexml-3.4.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/json_schemer-2.4.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simpleidn-0.2.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/regexp_parser-2.10.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/json-2.11.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/json-2.11.3
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/hana-1.3.7/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/erubi-1.13.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/elftools-1.3.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/docile-1.4.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/diff-lcs-1.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/csv-3.3.4/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/concurrent-ruby-1.3.5/lib/concurrent-ruby
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/coderay-1.1.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bindata-2.5.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.1.9/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/bigdecimal-3.1.9
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/benchmark-0.4.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/base64-0.2.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ast-2.4.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/addressable-2.8.7/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/public_suffix-6.0.2/lib
 /opt/homebrew/Library/Homebrew
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/vendor_ruby/3.3.0
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/vendor_ruby/3.3.0/arm64-darwin20
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/vendor_ruby
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/3.3.0
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.8/lib/ruby/3.3.0/arm64-darwin20
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/vendor_ruby/3.4.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/vendor_ruby/3.4.0/arm64-darwin20
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/vendor_ruby
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/3.4.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.4.32
+4.5.1
 ==> macOS
 13.0.1
 ==> SIP
@@ -138,7 +146,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7457 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7481 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -207,7 +215,7 @@ those kegs to fail to run properly once built. Run `brew link` on these:
   pdftohtml
 
 Warning: Some installed formulae are not readable:
-  elastic/tap/logstash-full: undefined method `plist_options' for class Formulary::FormulaNamespace452874f3e2a2a0ba1e7968b9a66f8d724b45fed4b01c55052e14162aa2a549db::LogstashFull
+  elastic/tap/logstash-full: undefined method 'plist_options' for class Formulary::FormulaNamespace452874f3e2a2a0ba1e7968b9a66f8d724b45fed4b01c55052e14162aa2a549db::LogstashFull
 
 Warning: Your Xcode (14.3.1) is outdated.
 Please update to Xcode 15.2 (or delete it).
@@ -219,4 +227,4 @@ This is a Tier 2 configuration:
 Do not report any issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-567 kegs, 443,184 files, 20.3GB
+567 kegs, 444,170 files, 20.3GB

@@ -132,5 +132,10 @@
   ],
   "dev.containers.defaultExtensions": [
     "gitpod.gitpod-remote-ssh"
-  ]
+  ],
+  "yaml.schemas": {
+    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.7-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  }
 }
