@@ -51,11 +51,11 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/yard-0.9.37/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/stackprof-0.2.27/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/stackprof-0.2.27
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.6.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.3.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.5.12060/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.5.12060/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.5.12060-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.5.12079/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.5.12079/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.5.12079-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-cobertura-2.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -63,7 +63,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-prof-1.7.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/ruby-prof-1.7.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-macho-4.1.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-lsp-0.23.16/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-lsp-0.23.17/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-sorbet-0.10.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-rspec-3.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-performance-1.25.0/lib
@@ -78,14 +78,14 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-github-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-3.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-mocks-3.13.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-mocks-3.13.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-expectations-3.13.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-core-3.13.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-support-3.13.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/redcarpet-3.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/redcarpet-3.6.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rbi-0.3.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.5.12060/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.5.12079/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/rbs-3.9.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1/lib
@@ -137,7 +137,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.3/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.5.1
+4.5.2
 ==> macOS
 13.0.1
 ==> SIP
@@ -227,4 +227,4 @@ This is a Tier 2 configuration:
 Do not report any issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-567 kegs, 444,170 files, 20.3GB
+567 kegs, 442,412 files, 20.2GB

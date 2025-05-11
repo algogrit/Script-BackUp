@@ -30,10 +30,10 @@ last commit: 7 months ago
 
 heroku/brew: Installed
 2 formulae
-/opt/homebrew/Library/Taps/heroku/homebrew-brew (291 files, 468.8KB)
+/opt/homebrew/Library/Taps/heroku/homebrew-brew (295 files, 471.3KB)
 From: https://github.com/heroku/homebrew-brew
-HEAD: 62745d757a3cafdfd81d4b1b51c85d31757fe394
-last commit: 3 weeks ago
+HEAD: 52d78d68b94d4da89795f7fcbfef7019c694bef5
+last commit: 3 days ago
 branch: main
 
 homebrew/bundle: Installed
@@ -41,7 +41,7 @@ No commands/casks/formulae
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (3,117 files, 4.0MB)
 From: https://github.com/Homebrew/homebrew-bundle
 HEAD: a3265c84b232e13048ecbf6fc18a2eedfadbeb08
-last commit: 2 weeks ago
+last commit: 3 weeks ago
 
 homebrew/cask-fonts: Installed
 No commands/casks/formulae
