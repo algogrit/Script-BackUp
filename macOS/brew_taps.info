@@ -3,7 +3,7 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (128 files, 119.5KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 4f996dec5f6e26c859f80cfd18497ac0378184e9
-last commit: 7 weeks ago
+last commit: 8 weeks ago
 branch: main
 
 elastic/tap: Installed
@@ -33,7 +33,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (295 files, 471.3KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 52d78d68b94d4da89795f7fcbfef7019c694bef5
-last commit: 4 days ago
+last commit: 5 days ago
 branch: main
 
 homebrew/bundle: Installed
@@ -76,4 +76,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,217 files, 793.4KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: 3247952777618fcc28364e63dca35ee495e9a697
-last commit: 9 hours ago
+last commit: 33 hours ago
