@@ -33,7 +33,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (295 files, 471.3KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 52d78d68b94d4da89795f7fcbfef7019c694bef5
-last commit: 7 days ago
+last commit: 8 days ago
 branch: main
 
 homebrew/bundle: Installed
@@ -48,7 +48,7 @@ No commands/casks/formulae
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask-fonts (86 files, 22.4MB)
 From: https://github.com/Homebrew/homebrew-cask-fonts
 HEAD: 0ed20f35d21ebc3f4f829689b101078718ad5ce1
-last commit: 12 months ago
+last commit: 1 year ago
 
 homebrew/cask-versions: Installed
 No commands/casks/formulae
@@ -76,4 +76,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,217 files, 793.4KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: 3247952777618fcc28364e63dca35ee495e9a697
-last commit: 2 days ago
+last commit: 4 days ago
