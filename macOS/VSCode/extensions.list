@@ -1,6 +1,5 @@
 42crunch.vscode-openapi
 alefragnani.bookmarks
-alefragnani.project-manager
 alexkrechik.cucumberautocomplete
 anjali.clipboard-history
 atishay-jain.all-autocomplete
@@ -17,14 +16,12 @@ dart-code.flutter
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 docker.docker
-donjayamanne.git-extension-pack
 donjayamanne.githistory
 dotjoshjohnson.xml
 dsznajder.es7-react-js-snippets
 dtsvet.vscode-wasm
 eamodio.gitlens
 editorconfig.editorconfig
-elmtooling.elm-ls-vscode
 ericadamski.carbon-now-sh
 github.copilot
 github.copilot-chat
@@ -32,7 +29,6 @@ github.vscode-github-actions
 gitpod.gitpod-desktop
 golang.go
 hashicorp.terraform
-hbenl.vscode-test-explorer
 howardzuo.vscode-git-blamer
 jakebecker.elixir-ls
 jaredly.reason-vscode
@@ -49,7 +45,6 @@ ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.debugpy
-ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -85,7 +80,6 @@ shopify.ruby-lsp
 sonarsource.sonarlint-vscode
 streetsidesoftware.code-spell-checker
 tamasfe.even-better-toml
-taniarascia.new-moon-vscode
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
 twxs.cmake
@@ -97,7 +91,6 @@ vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
-vscodevim.vim
 xyz.plsql-language
 yuce.erlang-otp
 ziyasal.vscode-open-in-github
