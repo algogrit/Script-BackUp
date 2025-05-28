@@ -78,7 +78,7 @@ ac
 accton
 ack
 aclocal
-aclocal-1.17
+aclocal-1.18
 actool
 acyclic
 addbuiltin
@@ -188,7 +188,7 @@ autoconf
 autoheader
 autom4te
 automake
-automake-1.17
+automake-1.18
 automationmodetool
 automator
 automount
@@ -2267,7 +2267,6 @@ ncgen3
 ncinit
 nclist
 ncurses5.4-config
-ndiff
 ndisasm
 ndmetis
 ndp
@@ -3885,7 +3884,6 @@ uno
 unoinfo
 unopkg
 unpack200
-unpack200.dSYM
 unprocessed_raw
 unsetpassword
 unstr
