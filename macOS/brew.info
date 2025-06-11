@@ -131,7 +131,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.5.5
+4.5.6
 ==> macOS
 13.0.1
 ==> SIP
@@ -140,7 +140,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7531 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7533 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -221,4 +221,4 @@ This is a Tier 2 configuration:
 Do not report any issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-567 kegs, 447,052 files, 20.5GB
+567 kegs, 447,152 files, 20.5GB
