@@ -16,10 +16,10 @@ branch: main
 
 gcenx/wine: Installed
 2 casks
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,029 files, 678.0KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,042 files, 684.0KB)
 From: https://github.com/gcenx/homebrew-wine
-HEAD: 538541bf52097910344ebfa682124c365cca6500
-last commit: 3 months ago
+HEAD: 2f10a7ef702e426b5658e1f6ea801a5830a71aff
+last commit: 14 hours ago
 
 go-testfixtures/tap: Installed
 1 formula
@@ -33,7 +33,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (307 files, 478.9KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: df47b11bf99b787d5d8f6815e3506a4a5e2b76f2
-last commit: 6 days ago
+last commit: 8 days ago
 branch: main
 
 homebrew/bundle: Installed
@@ -76,4 +76,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,225 files, 798KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: a499f27d12e78a25aa8d091899cd0b96dbff4777
-last commit: 4 days ago
+last commit: 6 days ago
