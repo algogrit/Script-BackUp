@@ -20,7 +20,8 @@ rm .bash_history
 cp ~/.gitconfig .
 
 # Copy Custom Git Commands
+mkdir -p ~/Custom-Git-Commands
 cp -r ~/Custom-Git-Commands .
 
-# Aptitude Package Listings
-aptitude search '~i' > package_list
+# Snap packages
+snap list > package_list

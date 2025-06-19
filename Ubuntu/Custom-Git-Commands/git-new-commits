@@ -1,3 +1,0 @@
-#!/bin/sh
-git remote update
-git log `git rev-parse --abbrev-ref HEAD`..origin/`git rev-parse --abbrev-ref HEAD`
