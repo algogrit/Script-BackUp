@@ -40,9 +40,7 @@ alias play_music="mplayer -novideo -loop 0 -shuffle"
 alias play_once="mplayer -novideo"
 
 # Bhagwan
-alias suprabhatam="mplayer -novideo \"/Users/gaurav/Downloads/alphaToomega - Bhajans/ROCKETRY'S SRI VENKATESA SUPRABATHAM _ FULL SONG-P-4OtWtwOig.mkv\""
-alias vishnu-namami="mplayer -novideo \"/Users/gaurav/Downloads/alphaToomega - Bhajans/ROCKETRY'S SRI VENKATESA SUPRABATHAM _ FULL SONG-P-4OtWtwOig.mkv\" \"/Users/gaurav/Downloads/alphaToomega - Bhajans/Sri Lalitha Sahasranamam _ The thousand names of Sri Mata Lalitha-2OC1Wab5gf4.mkv\" \"/Users/gaurav/Downloads/alphaToomega - Bhajans/Sri Vishnu Sahasranamam I 1000 names of Mahavishnu I Rita Thyagarajan I Om Voices-Fq5xv4ouGxk.mkv\""
-alias bhagwat-gita="mplayer -novideo \"/Users/gaurav/Downloads/Bhagvad Gita\"/*"
+alias bhagwat-gita="mplayer -novideo \"/Users/gaurav/Downloads/Bharat/Bhagvad Gita\"/*"
 
 # Java
 alias jenv-add-list="/usr/libexec/java_home -V"

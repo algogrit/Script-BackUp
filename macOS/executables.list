@@ -402,7 +402,6 @@ chmod
 chmorph
 chown
 chpass
-chrome-stats-to-csv
 chroot
 chsh
 cipher_aead_demo
@@ -911,7 +910,6 @@ fonttools
 fonttosfnt
 footloose
 footprint
-fortune
 fourcc2pixfmt
 fpack
 fqltool
@@ -1104,6 +1102,7 @@ git-clear
 git-clear-soft
 git-coauthor
 git-commits-since
+git-continue
 git-contrib
 git-count
 git-cp
@@ -1185,11 +1184,13 @@ git-sync
 git-touch
 git-undo
 git-unlock
+git-unwip
 git-up
 git-upload-archive
 git-upload-pack
 git-utimes
 git-wash
+git-wip
 git2
 gjoin
 gkill
@@ -2741,7 +2742,6 @@ pip3.12
 pip3.13
 pip3.8
 pip3.9
-pirate-music-rename
 piv-tool
 pixeltool
 pjtoppm
@@ -2885,7 +2885,6 @@ postmulti
 postprocessing_benchmark
 postqueue
 postsuper
-powder
 power_report.sh
 powermetrics
 pp
@@ -3188,7 +3187,6 @@ rawshark.dSYM
 rawtextdump
 rawtopgm
 rawtoppm
-rb_hash_to_json
 rbenv
 rbenv---version
 rbenv-commands
@@ -3638,7 +3636,6 @@ stl2gts
 stream
 streamzip
 strerror
-strfile
 stringdups
 strings
 strip
@@ -3887,7 +3884,6 @@ unopkg
 unpack200
 unprocessed_raw
 unsetpassword
-unstr
 unterm
 unvis
 unwrap-diff

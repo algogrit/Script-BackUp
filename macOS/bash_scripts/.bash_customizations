@@ -1,11 +1,5 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_customizations Loaded\033[0m"
 
-# It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts. - SH
-# fortune
-
-# Show Github Zen
-# curl -s https://api.github.com/zen && echo ""
-
 # Globstar: New Bash Globbing Option
 shopt -s globstar
 

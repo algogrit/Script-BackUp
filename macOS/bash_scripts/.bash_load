@@ -34,8 +34,5 @@ source /Users/gaurav/.docker/init-bash.sh || true
 # Sourcing Direnv
 eval "$(direnv hook bash)"
 
-# Source cargo env - Rustup
-. "$HOME/.cargo/env"
-
 # Clear history
 > ~/.bash_history && history -c
