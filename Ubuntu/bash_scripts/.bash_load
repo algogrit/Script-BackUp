@@ -37,7 +37,7 @@ source ~/bash_scripts/.aliases
 # eval "$(direnv hook bash)"
 
 # Source cargo env - Rustup
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # Clear history
 > ~/.bash_history && history -c

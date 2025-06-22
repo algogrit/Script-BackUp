@@ -11,6 +11,11 @@ cp README.md /tmp
 echo "\033[1;31mRemoving files...\033[0m"
 rm -vr *
 
+echo "\033[1;31mRestoring non-system files...\033[0m"
+cp /tmp/update_scripts.sh .
+cp /tmp/restore_scripts.sh .
+cp /tmp/README.md .
+
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
 cp ~/.bash* .
@@ -28,10 +33,13 @@ mkdir -p ~/Custom-Git-Commands
 cp -r ~/Custom-Git-Commands .
 
 echo "📦 Backing up APT and snap packages..."
-comm -23 \
-  <(apt-mark showmanual | sort) \
-  <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort) \
-  > apt-packages.list
+apt-mark showmanual > apt-packages.list
 
 # Snap packages
 snap list > snaps.list
+
+unalias cp
+unalias rm
+
+# Remove silently
+rm bash_scripts/aliases/.*_secret

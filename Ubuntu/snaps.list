@@ -1,0 +1,16 @@
+Name                       Version          Rev    Tracking         Publisher      Notes
+bare                       1.0              5      latest/stable    canonical**    base
+code                       848b80ae         194    latest/stable    vscode**       classic
+core20                     20250526         2599   latest/stable    canonical**    base
+core22                     20250528         2010   latest/stable    canonical**    base
+core24                     20250526         1006   latest/stable    canonical**    base
+firefox                    139.0.4-1        6316   latest/stable/…  mozilla**      -
+firmware-updater           0+git.22198be    167    1/stable/…       canonical**    -
+gnome-42-2204              0+git.38ea591    202    latest/stable/…  canonical**    -
+gtk-common-themes          0.1-81-g442e511  1535   latest/stable/…  canonical**    -
+obs-studio                 30.2.0           1302   latest/stable    snapcrafters*  -
+ollama                     v0.9.0           49     latest/stable    mz2            -
+snap-store                 0+git.90575829   1270   2/stable/…       canonical**    -
+snapd                      2.68.5           24718  latest/stable    canonical**    snapd
+snapd-desktop-integration  0.9              253    latest/stable/…  canonical**    -
+thunderbird                128.11.1esr-1    737    latest/stable/…  canonical**    -

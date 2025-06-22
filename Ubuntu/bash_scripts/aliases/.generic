@@ -5,8 +5,8 @@ alias c="clear"
 alias ccb="pbcopy < /dev/null"
 alias ls="ls -GAF"
 alias vp="vimpager"
-alias bat="PAGER=less bat"
-alias cat="bat"
+alias bat="PAGER=less batcat"
+alias cat="batcat"
 
 # Tree improvements
 alias tree-gi='git ls-tree -r --name-only HEAD | tree --fromfile'
