@@ -1,0 +1,9 @@
+#! /usr/bin/env sh
+
+git clean -dfx
+echo "\033[1;33mReflog commit count: `git reflog | wc -l`\033[0m"
+echo "\033[1;33mStash count: `git stash list | wc -l`\033[0m"
+git reflog expire --expire=now --all
+git gc --prune=now
+git fsck
+git reset HEAD --hard

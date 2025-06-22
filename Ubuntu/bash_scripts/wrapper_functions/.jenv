@@ -1,0 +1,4 @@
+function jenv-install {
+  /usr/libexec/java_home -V2&> /tmp/jdk-list
+  cat /tmp/jdk-list | ag Library | cut -f 3 | xargs -n 1 jenv add
+}

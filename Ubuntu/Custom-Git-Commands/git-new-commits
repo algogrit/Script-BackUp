@@ -1,0 +1,5 @@
+#! /usr/bin/env sh
+
+_branch=${1:-`git current-branch`}
+
+git log origin/$_branch..$_branch

@@ -1,0 +1,54 @@
+#! /usr/bin/env sh
+
+# Author: Gaurav Agarwal
+# Inspired by https://github.com/livingston/shell-scripts/blob/master/gua.sh
+# "Unix was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things." – Doug Gwyn
+
+command_to_run=$*
+
+if [ -z "$command_to_run" ] || [ "$command_to_run" = "help" ]; then
+  echo "Runs the git command on the repositories within the current directory.
+  Usage:
+    \$ git multi-sh tree
+    \$ git multi-sh ls
+    \$ git multi-sh git status"
+  exit 0
+fi
+
+start_time=`date +%s`
+base=$(pwd)
+
+# save and change IFS
+NEWIFS=$'\n'
+OLDIFS=$IFS
+IFS=$NEWIFS
+
+repository_list=($(find . -maxdepth 2 -type d -name '.git' | cut -d '/' -f 2))
+repository_count=${#repository_list[@]}
+
+echo "\033[1;33m$repository_count repositories found:\033[0m"
+for (( i=0; i<${repository_count}; i++ ));
+do
+  echo "  ${repository_list[$i]}"
+done
+echo ""
+
+for (( i=0; i<${repository_count}; i++ ));
+do
+  cd "${repository_list[$i]}"
+  echo "\033[1;33mOn $[ $i + 1 ] of $repository_count - \033[1;35m`basename $(PWD)`\r\033[0m"
+
+  IFS=$OLDIFS
+
+  time $command_to_run
+
+  IFS=$NEWIFS
+
+  cd $base
+  echo ""
+done
+
+# Restore IFS
+IFS=$OLDIFS
+
+echo "\033[1;31mgit multi-sh $command_to_run took $((`date +%s` - $start_time)) sec(s).\033[0m"

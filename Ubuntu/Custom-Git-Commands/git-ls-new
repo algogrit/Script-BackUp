@@ -1,0 +1,3 @@
+#! /usr/bin/env sh
+
+git status $@ | ag 'new file' | awk '{print $3}'

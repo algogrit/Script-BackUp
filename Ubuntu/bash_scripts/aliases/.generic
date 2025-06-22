@@ -1,0 +1,69 @@
+echo -e "\033[1;36m~/bash_scripts/aliases/.generic Loaded\033[0m"
+
+# Generic Aliases
+alias c="clear"
+alias ccb="pbcopy < /dev/null"
+alias ls="ls -GAF"
+alias vp="vimpager"
+alias bat="PAGER=less bat"
+alias cat="bat"
+
+# Tree improvements
+alias tree-gi='git ls-tree -r --name-only HEAD | tree --fromfile'
+
+# Search improvements
+alias ag='ag --path-to-ignore ~/.ignore'
+
+# Git Aliases
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gru="git remote update"
+alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
+
+# Http Server
+alias pyHttpServer="python -m http.server"
+
+# Generic UNIX utils
+alias cat-without-first-line='awk FNR-1'
+# alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
+
+# Music
+alias play_music="mplayer -novideo -loop 0 -shuffle"
+alias play_once="mplayer -novideo"
+
+# Java
+alias jenv-add-list="/usr/libexec/java_home -V"
+
+# Ruby
+alias bx='bundle exec'
+alias rails_db_reset="bundle exec rake db:drop db:create db:migrate db:seed"
+alias test_db_reset="RAILS_ENV=test bundle exec rake db:drop db:create db:migrate db:seed"
+alias railsdb="bundle exec rails dbconsole"
+
+# Project Resources
+export PROJECT_RESOURCES_REPO="git@bitbucket.org:algogrit/project-resources.git"
+alias gcpr="git clone -b master --single-branch $PROJECT_RESOURCES_REPO"
+alias gcprb="cat project-resources.branch | xargs -n 1 git clone --single-branch $PROJECT_RESOURCES_REPO -b"
+
+# Presentation Template
+export PRESENTATION_TEMPLATE_REPO="git@github.com:algogrit/presentation-template.git"
+alias gcpt="git clone $PRESENTATION_TEMPLATE_REPO"
+
+# Project Tasks
+export PROJECT_TASKS_REPO="git@bitbucket.org:algogrit/project-tasks.git"
+alias gcprot="git clone $PROJECT_TASKS_REPO"
+alias gcprotb="cat project-tasks.branch | xargs -n 1 git clone $PROJECT_TASKS_REPO -b"
+
+# Landing Page Template
+export LANDING_PAGE_TEMPLATE_REPO="git@github.com:algogrit/landing-page-template.git"
+alias gclpt="git clone $LANDING_PAGE_TEMPLATE_REPO"
+
+# Docker
+alias docker-rm-exited="docker ps -aq --no-trunc -f status=exited | xargs docker rm"
+alias docker-rmi-dangling="docker images -f 'dangling=true' -q | xargs docker rmi"
+alias docker-rm-volumes="docker volume ls | cut -d ' ' -f 6 | tail -n +2 | xargs -n 1 docker volume rm"
+alias docker-clean-up="docker-rm-exited && docker-rmi-dangling && docker-rm-volumes"
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'

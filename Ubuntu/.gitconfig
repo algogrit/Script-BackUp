@@ -1,3 +1,42 @@
 [user]
-	email = gaurav@codermana.com
 	name = Gaurav Agarwal
+	email = gaurav@codermana.com
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+	st = status -sb
+	co = checkout
+	gloga = log --graph --decorate --color --pretty=oneline --abbrev-commit --all
+	glog = log --graph --decorate --color --pretty=oneline --abbrev-commit
+	standup = log --since=yesterday --author=Gaurav
+	ll = log --date=local
+	uncommit = reset HEAD^
+	oops = checkout HEAD^
+	current-branch = rev-parse --abbrev-ref HEAD
+	ru = remote update
+	comet = multi remote update
+	big-bang = multi up
+	ls-others = ls-files --other
+	pr = pull --rebase
+	add-ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	up = pull --all --rebase --autostash
+	ls-ignored-changes = !git ls-files -v | grep ^S | awk '{print $2}'
+	make-patch = diff --cached --binary
+[push]
+	default = current
+[diff]
+	mnemonicprefix = true
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[rerere]
+	enabled = true
+[init]
+	defaultBranch = master

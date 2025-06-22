@@ -1,0 +1,17 @@
+#! /usr/bin/env sh
+
+# TODO #1: Fix the below command timezone issue; Eg:
+# 2016-02-25 17:14:34 +0100  2 hours ago   origin/new-order
+# 2016-02-25 01:02:25 +0100  18 hours ago  origin/routes-poc
+# 2016-02-24 15:06:05 -0800  19 hours ago  origin/develop
+# 2016-02-24 15:06:05 -0800  19 hours ago  heroku/master
+# 2016-02-24 09:13:01 -0800  25 hours ago  origin/post-release-1.4
+# 2016-02-24 09:13:01 -0800  25 hours ago  origin/master
+# 2016-02-24 09:13:01 -0800  25 hours ago  origin/HEAD
+
+# TODO #2:
+# Add author information and commit message to the output
+
+for k in `git branch -r | perl -pe 's/^..(.*?)( ->.*)?$/\1/'`; do echo `git show --pretty=format:"%Cblue%ci,%Cred%cr%Creset" $k -- | head -n 1`,$k; done | column -t -s ',' | sort -r
+
+# git for-each-ref --format='%(committerdate:short),%(authorname),%(refname:short)' --sort=committerdate refs/heads/ | column -t -s ','

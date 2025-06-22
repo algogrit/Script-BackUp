@@ -1,0 +1,7 @@
+echo -e "\033[1;36m~/bash_scripts/.bash_custom_functions Loaded\033[0m"
+
+for wrapper in ~/bash_scripts/wrapper_functions/.*; do
+  if [ -f $wrapper ]; then
+    source $wrapper;
+  fi
+done

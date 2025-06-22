@@ -18,10 +18,20 @@ rm .bash_history
 
 # Copy gitconfig
 cp ~/.gitconfig .
+cp ~/.gitignore .
+
+# Copy tmux configuration
+cp ~/.tmux.conf .
 
 # Copy Custom Git Commands
 mkdir -p ~/Custom-Git-Commands
 cp -r ~/Custom-Git-Commands .
 
+echo "📦 Backing up APT and snap packages..."
+comm -23 \
+  <(apt-mark showmanual | sort) \
+  <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort) \
+  > apt-packages.list
+
 # Snap packages
-snap list > package_list
+snap list > snaps.list

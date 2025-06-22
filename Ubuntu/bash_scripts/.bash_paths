@@ -1,0 +1,58 @@
+echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
+
+### Languages
+
+# Elm
+export ELM_HOME=~/.elm
+
+# Language Version Managers
+## rbenv
+# export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+## nodenv
+# export PATH="$HOME/.nodenv/bin:$PATH"
+# if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
+## pyenv
+# if which pyenv > /dev/null; then
+#   #eval "$(pyenv init -)"
+#   #eval "$(pyenv virtualenv-init -)"
+#   export PYENV_ROOT="$HOME/.pyenv"
+#   export PATH="$PYENV_ROOT/bin:$PATH"
+#   eval "$(pyenv init --path)"
+# fi
+
+## goenv
+# export GOENV_ROOT="$HOME/.goenv"
+# export GOPATH=$GOENV_ROOT
+# export PATH="$GOPATH/bin:$PATH"
+# export GOENV_DISABLE_GOROOT=1
+# export GOENV_DISABLE_GOPATH=1
+# eval "$(goenv init -)"
+
+## rustup-init
+export CARGO_HOME="$HOME/.cargo"
+export PATH="$CARGO_HOME/bin:$PATH"
+. $HOME/.cargo/env
+
+## jenv
+# export PATH="$HOME/.jenv/bin:$PATH"
+# eval "$(jenv init -)"
+
+# ## vcpkg
+# export VCPKG_ROOT="$HOME/vcpkg"
+# export CPLUS_INCLUDE_PATH="$HOME/vcpkg/installed/arm64-osx/include:$CPLUS_INCLUDE_PATH"
+# for d in $HOME/vcpkg/installed/arm64-osx/tools/*; do PATH="$d:$PATH"; done
+
+#### CUSTOM
+
+# Load custom git commands
+echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+export PATH="$HOME/Custom-Git-Commands:$PATH"
+
+# Adding ~/bin to the PATH
+export PATH="$HOME/bin:$PATH"
+
+# ADDING snippet_programs to the PATH
+export PATH="$HOME/bash_scripts/bin:$PATH"

@@ -1,0 +1,24 @@
+#! /usr/bin/env sh
+
+while getopts ":r:" opt; do
+  case $opt in
+    r)
+      REMOTE=$OPTARG
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+    :)
+      echo "Option -$OPTARG requires an argument." >&2
+      exit 1
+      ;;
+  esac
+done
+
+shift $((OPTIND-1))
+
+REMOTE=${REMOTE:-origin}
+BRANCH=${1:-`git current-branch`}
+
+git log $BRANCH..$REMOTE/$BRANCH
