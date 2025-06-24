@@ -13,8 +13,11 @@ function _install_languages {
   cd /tmp
   ACTUAL_WD=$OLDPWD
 
+  # Install just the global version
   cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
+  # Set the global version
   cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 global
+  # Install the other versions (TODO: make it optional)
   cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep -v set | xargs -n 1 $2 install
 
   cd "$ACTUAL_WD"
@@ -60,11 +63,6 @@ cd ~/Script-BackUp/macOS
 echo "\033[1;31mSetting up Spacemacs\033[0m"
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
-echo "\033[1;31mSetting up managers...\033[0m"
-
-echo "\033[1;31mVim plugin manager...\033[0m"
-curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/macOS/bash_scripts ~/bash_scripts
@@ -98,6 +96,11 @@ cp ~/Script-BackUp/macOS/.irbrc ~/
 cp ~/Script-BackUp/macOS/.gemrc ~/
 cp ~/Script-BackUp/macOS/.powconfig ~/
 cp ~/Script-BackUp/macOS/.lein/* ~/.lein
+
+echo "\033[1;31mSetting up managers...\033[0m"
+
+echo "\033[1;31mVim plugin manager...\033[0m"
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 echo "\033[1;31mInstall goenv...\033[0m"
 git clone git@github.com:syndbg/goenv.git ~/.goenv
@@ -163,8 +166,9 @@ ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/R
 echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
 read _reloaded_shell
 
-if [[ $_reloaded_shell = "n" ]]; then
-	exit 1
+if [[ "$(echo "$_reloaded_shell" | tr '[:upper:]' '[:lower:]')" == "n" ]]; then
+  echo "Exiting. Please reload the shell and try again."
+  exit 1
 fi
 
 echo "\033[1;31mInstalling language versions...\033[0m"
@@ -178,7 +182,7 @@ jenv enable-plugin export
 cat /tmp/jdk-list | ag Library | cut -f 3 | xargs -n 1 jenv add
 
 echo "\033[1;31mInstalling git-up...\033[0m"
-RBENV_VERSION=3.0.2 gem install git-up
+RBENV_VERSION=3.4.4 gem install git-up
 
 echo "\033[1;31mCreating other directories....\033[0m"
 mkdir -p ~/.private/cloud/gcp
@@ -188,10 +192,6 @@ echo "\033[1;31mInstalling android deps usings sdkmanager...\033[0m"
 jenv global 1.8
 echo y | sdkmanager "tools"
 echo y | sdkmanager "platform-tools"
-
-## https://nixos.org/download.html#nix-install-macos
-echo "\033[1;31mInstalling nix...\033[0m"
-sh <(curl -L https://nixos.org/nix/install)
 
 echo "\033[1;31mReseting password restrictions...\033[0m"
 pwpolicy -clearaccountpolicies
