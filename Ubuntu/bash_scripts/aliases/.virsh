@@ -1,0 +1,6 @@
+alias vm-list="virsh list --all"
+alias aditi-start="virsh start aditi"
+alias aditi-stop="virsh shutdown aditi"
+alias aditi-stop-f="virsh destroy aditi"
+alias aditi-reboot="virsh reboot aditi"
+alias aditi-reboot-f="virsh reset aditi"
