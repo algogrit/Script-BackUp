@@ -6,7 +6,7 @@ alias rm="rm -v"
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
+mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.vim/autoload
 
 echo "\033[1;31mInstalling necessary packages (TODO: Install all)...\033[0m"
 sudo apt-get install curl
