@@ -251,6 +251,10 @@ colrm
 column
 comm
 compactsnoop-bpfcc
+containerd
+containerd-shim
+containerd-shim-runc-v1
+containerd-shim-runc-v2
 corelist
 cp
 cpan
@@ -274,6 +278,7 @@ criticalstat-bpfcc
 cron
 crontab
 csplit
+ctr
 ctrlaltdel
 ctstat
 cupsaccept
@@ -359,6 +364,11 @@ dmsetup
 dmstats
 dnsdomainname
 dnsmasq
+docker
+dockerd
+dockerd-rootless-setuptool.sh
+dockerd-rootless.sh
+docker-proxy
 domainname
 do-release-upgrade
 dosfsck
@@ -1401,6 +1411,7 @@ pidpersec-bpfcc
 pidpersec.bt
 pidstat
 pidwait
+pigz
 pinentry
 pinentry-curses
 pinentry-gnome3
@@ -1649,6 +1660,7 @@ rmmod
 rmt
 rmt-tar
 rnano
+rootlesskit
 routel
 rpcgen
 rrsync
@@ -1671,6 +1683,7 @@ rubyflow-bpfcc
 rubygc-bpfcc
 rubyobjnew-bpfcc
 rubystat-bpfcc
+runc
 runcon
 runlevel
 run-parts
@@ -1764,6 +1777,7 @@ skill
 slabratetop-bpfcc
 slabtop
 sleep
+slirp4netns
 slogin
 slxdecode
 smproxy
@@ -2042,6 +2056,7 @@ unlink
 unlzma
 unmkinitramfs
 unopkg
+unpigz
 unshare
 unsquashfs
 unxz

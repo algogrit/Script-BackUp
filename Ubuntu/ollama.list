@@ -1,15 +1,15 @@
-NAME                       ID              SIZE      MODIFIED    
-qwen3:32b                  e1c9f234c6eb    20 GB     5 weeks ago    
-deepseek-coder:33b         acec7c0b0fd9    18 GB     5 weeks ago    
-qwen2.5-coder:32b          4bd6cbf2d094    19 GB     5 weeks ago    
-wizardcoder:33b            5b944d3546ee    18 GB     5 weeks ago    
-deepcoder:14b              12bdda054d23    9.0 GB    5 weeks ago    
-dolphincoder:15b           1102380927c2    9.1 GB    5 weeks ago    
-starcoder2:15b             21ae152d49e0    9.1 GB    5 weeks ago    
-mistral:latest             f974a74358d6    4.1 GB    5 weeks ago    
-gemma3:latest              a2af6cc3eb7f    3.3 GB    5 weeks ago    
-llama3.3:latest            a6eb4748fd29    42 GB     6 weeks ago    
-deepseek-r1:latest         0a8c26691023    4.7 GB    6 weeks ago    
-mistral-small3.1:latest    b9aaf0c2586a    15 GB     6 weeks ago    
-phi4:latest                ac896e5b8b34    9.1 GB    6 weeks ago    
-codellama:13b-code         61b6aa1b3d0f    7.4 GB    6 weeks ago    
+NAME                       ID              SIZE      MODIFIED       
+qwen3:32b                  030ee887880f    20 GB     13 minutes ago    
+deepseek-coder:33b         acec7c0b0fd9    18 GB     13 minutes ago    
+qwen2.5-coder:32b          b92d6a0bd47e    19 GB     13 minutes ago    
+wizardcoder:33b            5b944d3546ee    18 GB     13 minutes ago    
+deepcoder:14b              12bdda054d23    9.0 GB    13 minutes ago    
+dolphincoder:15b           1102380927c2    9.1 GB    13 minutes ago    
+starcoder2:15b             21ae152d49e0    9.1 GB    13 minutes ago    
+mistral:latest             3944fe81ec14    4.1 GB    13 minutes ago    
+gemma3:latest              a2af6cc3eb7f    3.3 GB    13 minutes ago    
+llama3.3:latest            a6eb4748fd29    42 GB     13 minutes ago    
+deepseek-r1:latest         6995872bfe4c    5.2 GB    13 minutes ago    
+mistral-small3.1:latest    b9aaf0c2586a    15 GB     13 minutes ago    
+phi4:latest                ac896e5b8b34    9.1 GB    13 minutes ago    
+codellama:13b-code         61b6aa1b3d0f    7.4 GB    13 minutes ago    

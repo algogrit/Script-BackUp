@@ -4,9 +4,15 @@ bison
 bridge-utils
 bsdutils
 build-essential
+ca-certificates
+containerd.io
 curl
 dash
 diffutils
+docker-buildx-plugin
+docker-ce
+docker-ce-cli
+docker-compose-plugin
 efibootmgr
 findutils
 genisoimage

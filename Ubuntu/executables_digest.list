@@ -500,6 +500,14 @@ f6d96ac56dd1d275f3c43ca1a7a9ca80  /bin/col
 9216d550331ce1d21050c313ff60da28  /bin/comm
 4a9b93e6a48b1d0eef0ea71bd37cf06a  /usr/sbin/compactsnoop-bpfcc
 4a9b93e6a48b1d0eef0ea71bd37cf06a  /sbin/compactsnoop-bpfcc
+58cdbe866e678889c63c6862b03973c7  /usr/bin/containerd
+58cdbe866e678889c63c6862b03973c7  /bin/containerd
+0e87e01fa9ef8eb2fbcb38f5954026eb  /usr/bin/containerd-shim
+0e87e01fa9ef8eb2fbcb38f5954026eb  /bin/containerd-shim
+e0fd41ee3b34271a00ee4228d75eff51  /usr/bin/containerd-shim-runc-v1
+e0fd41ee3b34271a00ee4228d75eff51  /bin/containerd-shim-runc-v1
+a94e3524aa27a1625f180edc515db64f  /usr/bin/containerd-shim-runc-v2
+a94e3524aa27a1625f180edc515db64f  /bin/containerd-shim-runc-v2
 266558d983b39c5d214930ab2661a27a  /usr/bin/corelist
 266558d983b39c5d214930ab2661a27a  /bin/corelist
 d04249be1ba985d1f94aea79deab52de  /usr/bin/cp
@@ -546,6 +554,8 @@ e797dc2625f29421c2facc207240ce64  /sbin/cracklib-format
 16c39b252fda6e97e000cf12999a8904  /bin/crontab
 510fc8207a8358752b8c1e8152b2818c  /usr/bin/csplit
 510fc8207a8358752b8c1e8152b2818c  /bin/csplit
+fc661c157baebe8d2ef4d8e6c1219423  /usr/bin/ctr
+fc661c157baebe8d2ef4d8e6c1219423  /bin/ctr
 145803e24682f2b62bfb652bd3c121d8  /usr/sbin/ctrlaltdel
 145803e24682f2b62bfb652bd3c121d8  /sbin/ctrlaltdel
 28cd9cb6b6f7a0dcc90031af76cad4d5  /usr/bin/ctstat
@@ -716,6 +726,16 @@ ecca3aa3396d47050ef6500231f5a945  /sbin/dmeventd
 478398956bfeeb93db1d590791a9a563  /bin/dnsdomainname
 f3b0e80ccc8df595be81bf7d73564313  /usr/sbin/dnsmasq
 f3b0e80ccc8df595be81bf7d73564313  /sbin/dnsmasq
+ffc579d4d7ed49c4cf24cb2230030f92  /usr/bin/docker
+ffc579d4d7ed49c4cf24cb2230030f92  /bin/docker
+3cf0cbaac8bb02d9f46302d4f0035f00  /usr/bin/dockerd
+3cf0cbaac8bb02d9f46302d4f0035f00  /bin/dockerd
+8dc1f7f9fb3e2bf0abea67acc5799c4e  /usr/bin/dockerd-rootless-setuptool.sh
+8dc1f7f9fb3e2bf0abea67acc5799c4e  /bin/dockerd-rootless-setuptool.sh
+79d7a478beac6053cf5ad23cab321613  /usr/bin/dockerd-rootless.sh
+79d7a478beac6053cf5ad23cab321613  /bin/dockerd-rootless.sh
+1f9b755139fe02535003c860abfc9445  /usr/bin/docker-proxy
+1f9b755139fe02535003c860abfc9445  /bin/docker-proxy
 478398956bfeeb93db1d590791a9a563  /usr/bin/domainname
 478398956bfeeb93db1d590791a9a563  /bin/domainname
 1ec8badac7e871fac5905b98fad1014e  /usr/bin/do-release-upgrade
@@ -2782,6 +2802,8 @@ e9dc603960161be234b811fc6c56928b  /sbin/pidpersec.bt
 99226be9833d8e6467bc24f75655a449  /bin/pidstat
 6bbf8d2f9d745f6e7af43c93d910dc18  /usr/bin/pidwait
 6bbf8d2f9d745f6e7af43c93d910dc18  /bin/pidwait
+86f9136375ff9a3ddfb9e833437499d6  /usr/bin/pigz
+86f9136375ff9a3ddfb9e833437499d6  /bin/pigz
 3ec9daddd878ffe515f120078a09bc27  /usr/bin/pinentry
 3ec9daddd878ffe515f120078a09bc27  /bin/pinentry
 113c0200306fbda1b05c16c137ebe4ec  /usr/bin/pinentry-curses
@@ -3226,6 +3248,8 @@ b6e5e1936fb6ffbb91abfdcd90cdffd6  /usr/sbin/rmt-tar
 b6e5e1936fb6ffbb91abfdcd90cdffd6  /sbin/rmt-tar
 70394bdea268a91c1b725cb0d91e3f8b  /usr/bin/rnano
 70394bdea268a91c1b725cb0d91e3f8b  /bin/rnano
+a7265394144b5846205aa15dcb1c864e  /usr/bin/rootlesskit
+a7265394144b5846205aa15dcb1c864e  /bin/rootlesskit
 b0c3118e3225a3d0c9f842d894ff8acc  /usr/bin/routel
 b0c3118e3225a3d0c9f842d894ff8acc  /bin/routel
 9a9eb24447442738a974b3b42b0c314e  /usr/bin/rpcgen
@@ -3272,6 +3296,8 @@ e4d19f68e4b8b420a31e8e34fbf1b633  /usr/sbin/rubyobjnew-bpfcc
 e4d19f68e4b8b420a31e8e34fbf1b633  /sbin/rubyobjnew-bpfcc
 03b0475ffef6dd36784ca374fdf62bc3  /usr/sbin/rubystat-bpfcc
 03b0475ffef6dd36784ca374fdf62bc3  /sbin/rubystat-bpfcc
+f0ec4e8ce2f877019d33e334b8620eaf  /usr/bin/runc
+f0ec4e8ce2f877019d33e334b8620eaf  /bin/runc
 15b361a63f355ae6d93e827ec2fafa76  /usr/bin/runcon
 15b361a63f355ae6d93e827ec2fafa76  /bin/runcon
 ee66b21c8696ee6bfa1ea00fd695bcaf  /usr/sbin/runlevel
@@ -3458,6 +3484,8 @@ c8e55ccb3e9f0386883e9e26af85e0a6  /bin/size
 63f553e21509a294e1eef29b06482e6d  /bin/slabtop
 ecdb9cd1468ff7151564b334b73161f5  /usr/bin/sleep
 ecdb9cd1468ff7151564b334b73161f5  /bin/sleep
+84c95d5565e22c3561aafe7ffb6d524a  /usr/bin/slirp4netns
+84c95d5565e22c3561aafe7ffb6d524a  /bin/slirp4netns
 7885adc4e80a82485f18a93e2d7a5837  /usr/bin/slogin
 7885adc4e80a82485f18a93e2d7a5837  /bin/slogin
 46eec864421d915011c6ccef775bcc70  /usr/bin/slxdecode
@@ -4011,6 +4039,8 @@ f75dc2e14c0491f23b804d2126595303  /sbin/unix_update
 3c2f4e29d04192dd04274754e083a89b  /bin/unmkinitramfs
 f2bb93d256fa13a4fe6d7e98f1894241  /usr/bin/unopkg
 f2bb93d256fa13a4fe6d7e98f1894241  /bin/unopkg
+86f9136375ff9a3ddfb9e833437499d6  /usr/bin/unpigz
+86f9136375ff9a3ddfb9e833437499d6  /bin/unpigz
 31d402ca84ffdc64c1140bcb03c8fd12  /usr/bin/unshare
 31d402ca84ffdc64c1140bcb03c8fd12  /bin/unshare
 b587c919bb92a09cb11eb27bebfb6bf1  /usr/bin/unsquashfs
