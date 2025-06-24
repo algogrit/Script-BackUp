@@ -3,21 +3,21 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (136 files, 124KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 6139290e8854e36d128605b37eae45815c8c73e3
-last commit: 6 days ago
+last commit: 8 days ago
 
 elastic/tap: Installed
 17 formulae
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 644.2KB)
 From: https://github.com/elastic/homebrew-tap
 HEAD: 29ae9a811d4e9bcc50303b2638519f56bb397367
-last commit: 9 days ago
+last commit: 11 days ago
 
 gcenx/wine: Installed
 2 casks
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,042 files, 684.0KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: 2f10a7ef702e426b5658e1f6ea801a5830a71aff
-last commit: 10 days ago
+last commit: 12 days ago
 
 go-testfixtures/tap: Installed
 1 formula
@@ -31,7 +31,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (311 files, 481.7KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 08d9e4beef93146dda48dc3a735827992e90a1ae
-last commit: 4 days ago
+last commit: 6 days ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
@@ -66,7 +66,7 @@ vitorgalvao/tiny-scripts: Installed
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (409 files, 607.3KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: ab70693cfb7dc5c9ea713cb470ed5572634a80e5
-last commit: 2 months ago
+last commit: 3 months ago
 
 weaveworks/tap: Installed
 7 formulae

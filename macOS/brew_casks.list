@@ -21,6 +21,7 @@ discord
 disk-drill
 distroav
 docker
+docker-desktop
 draw-things
 dropbox
 electron-fiddle
@@ -38,9 +39,11 @@ google-cloud-sdk
 google-earth-pro
 grammarly
 handbrake
+handbrake-app
 intellij-idea-ce
 iterm2
 julia
+julia-app
 keepassxc
 kindle
 krita
@@ -57,6 +60,7 @@ nosleep
 obs
 odrive
 opensc
+opensc-app
 phantomjs
 podcastmenu
 postman
@@ -78,6 +82,7 @@ thunderbird
 tor-browser
 transmission
 usage
+usage-app
 vagrant
 vb-cable
 visual-studio-code
@@ -89,6 +94,7 @@ webex-meetings
 windsurf
 wine-crossover
 wireshark
+wireshark-app
 witch
 xmind
 xournal++
