@@ -7,6 +7,7 @@ echo "\033[1;31mBacking up non-system files...\033[0m"
 cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
 cp README.md /tmp
+cp -r tool-syncs /tmp
 
 echo "\033[1;31mRemoving files...\033[0m"
 rm -vr *
@@ -15,6 +16,7 @@ echo "\033[1;31mRestoring non-system files...\033[0m"
 cp /tmp/update_scripts.sh .
 cp /tmp/restore_scripts.sh .
 cp /tmp/README.md .
+cp -r /tmp/tool-syncs .
 
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
@@ -47,13 +49,6 @@ apt-mark showmanual > apt-packages.list
 # Snap packages
 snap list > snaps.list
 
-unalias cp
-unalias rm
-
-# Remove silently
-rm bash_scripts/aliases/.*_secret
-rm -rf bash_scripts/third_party
-
 echo "\033[1;31mUpdating version managers...\033[0m"
 bash -c "cd ~/.rbenv; git pull"
 bash -c "cd ~/.rbenv/plugins/ruby-build; git pull"
@@ -69,3 +64,16 @@ rbenv rehash
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5sum > executables_digest.list 2> /dev/null
+
+echo "\033[1;31mGetting ollama models list...\033[0m"
+ollama list > ollama.list
+
+echo "\033[1;31mSyncing tools...\033[0m"
+sh tool-sync/obs.sh
+
+unalias cp
+unalias rm
+
+# Remove silently
+rm bash_scripts/aliases/.*_secret
+rm -rf bash_scripts/third_party

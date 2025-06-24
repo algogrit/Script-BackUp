@@ -81,32 +81,52 @@ echo "\033[1;31mInstalling rbenv...\033[0m"
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
+echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
+read -r _reloaded_shell
+
+if [[ "$(echo "$_reloaded_shell" | tr '[:upper:]' '[:lower:]')" == "n" ]]; then
+  echo "Exiting. Please reload the shell and try again."
+  exit 1
+fi
+
 function _install_languages {
   cd /tmp
   ACTUAL_WD=$OLDPWD
 
-  # Install just the global version
   cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
-  # Set the global version
   cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 global
-  # Install the other versions (TODO: make it optional)
   cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep -v set | xargs -n 1 $2 install
 
   cd "$ACTUAL_WD"
 }
-
-echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
-read _reloaded_shell
-
-if [[ $_reloaded_shell = "n" ]]; then
-  exit 1
-fi
 
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=~/.rbenv _install_languages ruby rbenv
 
 echo "\033[1;31mInstalling git-up...\033[0m"
 RBENV_VERSION=3.4.4 gem install git-up
+
+echo "\033[1;31mInstalling docker...\033[0m"
+## From: https://docs.docker.com/engine/install/ubuntu/
+
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# Doing the installation
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+echo "\033[1;31mFinishing up...\033[0m"
 
 unalias cp
 unalias rm
