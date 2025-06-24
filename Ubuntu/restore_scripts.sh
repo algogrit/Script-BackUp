@@ -13,6 +13,9 @@ if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/Ubuntu/bash_scripts ~/bash_scripts
 fi
 
+mkdir -p ~/bash_scripts/third_party
+wget -O ~/bash_scripts/third_party/z.sh https://raw.githubusercontent.com/rupa/z/refs/heads/master/z.sh
+
 cp ~/Script-BackUp/Ubuntu/.bash* ~/
 touch ~/bash_scripts/aliases/.personal_secret
 

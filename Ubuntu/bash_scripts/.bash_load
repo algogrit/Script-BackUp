@@ -25,7 +25,7 @@ source ~/bash_scripts/.bash_custom_functions
 source ~/bash_scripts/.aliases
 
 # # Sourcing Z
-# . `brew --prefix`/etc/profile.d/z.sh
+. ~/bash_scripts/third_party/z.sh
 
 # # Sourcing Autoenv
 # source /opt/homebrew/opt/autoenv/activate.sh

@@ -1,5 +1,10 @@
 echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
 
+### Tools
+
+# Z
+export _Z_DATA=~/.z
+
 ### Languages
 
 # Elm

@@ -43,3 +43,4 @@ unalias rm
 
 # Remove silently
 rm bash_scripts/aliases/.*_secret
+rm -rf bash_scripts/third_party
