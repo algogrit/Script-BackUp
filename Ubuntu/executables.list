@@ -833,6 +833,7 @@ hp-scan
 hp-setup
 hp-testpage
 hp-timedate
+htmldiff
 htop
 hwe-support-status
 i386
@@ -987,6 +988,7 @@ ldconfig
 ldconfig.real
 ldd
 ld.gold
+ldiff
 ld.so
 less
 lessecho
@@ -1437,6 +1439,7 @@ podchecker
 poff
 pon
 portablectl
+posix-spawn-benchmark
 POST
 poweroff
 powerprofilesctl

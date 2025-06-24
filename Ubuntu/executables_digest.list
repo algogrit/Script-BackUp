@@ -1280,7 +1280,8 @@ a64a2ca63ca878c40278689979820a26  /bin/git-receive-pack
 be93e13775ff8aeca27cbf9ce5b2ad50  /usr/bin/git-shell
 be93e13775ff8aeca27cbf9ce5b2ad50  /bin/git-shell
 2100928587cdd896973deb104e39057a  /home/om/Custom-Git-Commands/git-swamp
-fc3f2234a2768989e2456e66f2c47c33  /home/om/Custom-Git-Commands/git-up
+5d380a84701b69f322b5b2d5f3e3d4e1  /home/om/Custom-Git-Commands/git-up
+8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/git-up
 a64a2ca63ca878c40278689979820a26  /usr/bin/git-upload-archive
 a64a2ca63ca878c40278689979820a26  /bin/git-upload-archive
 a64a2ca63ca878c40278689979820a26  /usr/bin/git-upload-pack
@@ -1642,6 +1643,7 @@ e3bd1ea7228aa69857e647eaed0cb957  /usr/bin/hp-testpage
 e3bd1ea7228aa69857e647eaed0cb957  /bin/hp-testpage
 f9fe0dc67197d337c5c6f581b184ebb0  /usr/bin/hp-timedate
 f9fe0dc67197d337c5c6f581b184ebb0  /bin/hp-timedate
+8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/htmldiff
 e6c3a9e16428f49f6690f8fc37b2e430  /usr/bin/htop
 e6c3a9e16428f49f6690f8fc37b2e430  /bin/htop
 f49ad09da0bfcb130dc9d6283d0a712b  /usr/bin/hwe-support-status
@@ -1953,6 +1955,7 @@ b5febb8c74f097cc148c77d5980b3f71  /sbin/ldconfig.real
 3880b46f43430ac2f26ed9f8c1ebf0f3  /bin/ldd
 53e5c7f98f267fd2135d72208e7dc5f9  /usr/bin/ld.gold
 53e5c7f98f267fd2135d72208e7dc5f9  /bin/ld.gold
+8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/ldiff
 29f1921116f5b1ed2f3cf21e9ae45c79  /usr/bin/ld.so
 29f1921116f5b1ed2f3cf21e9ae45c79  /bin/ld.so
 dd1966847d3c7b2397223738a6755d4d  /usr/bin/less
@@ -2855,6 +2858,7 @@ d709f2d799268ef42e70f7109242aa91  /usr/bin/pon
 d709f2d799268ef42e70f7109242aa91  /bin/pon
 127117e66a96c4efb919bd93abb6fd1b  /usr/bin/portablectl
 127117e66a96c4efb919bd93abb6fd1b  /bin/portablectl
+8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/posix-spawn-benchmark
 2fa3f096b954338f0a2f7125b018fa82  /usr/bin/POST
 2fa3f096b954338f0a2f7125b018fa82  /bin/POST
 ee66b21c8696ee6bfa1ea00fd695bcaf  /usr/sbin/poweroff
@@ -4077,6 +4081,7 @@ b0b30cf93e357880092c60f5576b4b82  /bin/update-notifier
 8e89f98990831ce33e17d0565b378c24  /sbin/update-pciids
 35d0e17b26a12357bad40e416745c7c6  /usr/sbin/update-rc.d
 35d0e17b26a12357bad40e416745c7c6  /sbin/update-rc.d
+8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/update_rubygems
 530673ba705239f898cd7576df04fc66  /usr/bin/update_rubygems
 530673ba705239f898cd7576df04fc66  /bin/update_rubygems
 6a9148a53b93cfc1640fb5ff67771c9e  /usr/sbin/update-secureboot-policy

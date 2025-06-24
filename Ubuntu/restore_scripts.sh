@@ -8,6 +8,7 @@ echo "\033[1;31mStarting the restore process...\033[0m"
 echo "\033[1;31mCreating directories...\033[0m"
 mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
+echo "\033[1;31mInstalling necessary packages (TODO: Install all)...\033[0m"
 sudo apt-get install curl
 
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
@@ -79,3 +80,33 @@ vim +PlugInstall +qall
 echo "\033[1;31mInstalling rbenv...\033[0m"
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+function _install_languages {
+  cd /tmp
+  ACTUAL_WD=$OLDPWD
+
+  # Install just the global version
+  cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
+  # Set the global version
+  cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 global
+  # Install the other versions (TODO: make it optional)
+  cat "$HOME/Script-BackUp/Ubuntu/$1.versions" | grep -v system | grep -v set | xargs -n 1 $2 install
+
+  cd "$ACTUAL_WD"
+}
+
+echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
+read _reloaded_shell
+
+if [[ $_reloaded_shell = "n" ]]; then
+  exit 1
+fi
+
+echo "\033[1;31mInstalling language versions...\033[0m"
+RBENV_ROOT=~/.rbenv _install_languages ruby rbenv
+
+echo "\033[1;31mInstalling git-up...\033[0m"
+RBENV_VERSION=3.4.4 gem install git-up
+
+unalias cp
+unalias rm
