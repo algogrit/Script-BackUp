@@ -4,8 +4,6 @@ gcenx/wine
 go-testfixtures/tap
 heroku/brew
 homebrew/bundle
-homebrew/cask-fonts
-homebrew/cask-versions
 homebrew/services
 vitorgalvao/tiny-scripts
 weaveworks/tap

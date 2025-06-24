@@ -184,9 +184,7 @@ You should find replacements for the following formulae:
   youtube-dl
 
 Warning: You have the following deprecated, official taps tapped:
-  Homebrew/homebrew-cask-versions
   Homebrew/homebrew-bundle
-  Homebrew/homebrew-cask-fonts
   Homebrew/homebrew-services
 Untap them with `brew untap`.
 

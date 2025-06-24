@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+set -e
+
 alias cp="cp -v"
 alias rm="rm -v"
 
@@ -11,6 +13,8 @@ cp read_android_packages.sh /tmp
 cp android_packages.list /tmp
 cp README.md /tmp
 cp notes.txt /tmp
+rm -rf /tmp/tool-sync
+cp -r tool-sync /tmp
 
 echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
 chmod 666 root/etc/irbrc
@@ -26,6 +30,7 @@ cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
 cp /tmp/README.md .
 cp /tmp/notes.txt .
+cp -r /tmp/tool-sync .
 
 echo "\033[1;31mUpdating brew...\033[0m"
 
@@ -54,7 +59,6 @@ echo "\033[1;31mListing User Applications...\033[0m" | tee -a applications.list
 ls ~/Applications | cut -d '.' -f 1 | uniq | sed '/^$/d' >> applications.list
 
 echo "\033[1;31mUpdating version managers...\033[0m"
-bash -c "cd ~/.goenv; git pull"
 bash -c "cd ~/vcpkg; git pull"
 
 echo "\033[1;31mCopying over version manager configs...\033[0m"
@@ -142,15 +146,12 @@ cp ~/bin/jq-replace bin/
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
 
-unalias cp
-unalias rm
-
-# Remove silently
-rm bash_scripts/aliases/.*_secret
+echo "\033[1;31mSyncing tools...\033[0m"
+./tool-sync/obs/sync.sh
 
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null | echo "completed listing execs with digest"
 
 echo "\033[1;31mBrew info...\033[0m"
 brew doctor --verbose 2>&1 | tee brew.info
@@ -170,6 +171,12 @@ ACTUAL_WD=$PWD
 # flutter doctor -v > ~/Script-BackUp/OS\ X/flutter.info
 
 cd "$ACTUAL_WD"
+
+unalias cp
+unalias rm
+
+# Remove silently
+rm bash_scripts/aliases/.*_secret
 
 echo "\033[1;31m/etc/hosts...\033[0m"
 echo "Current: `cat /etc/hosts | grep Updated | awk '{print $4}'`"

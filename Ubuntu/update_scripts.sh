@@ -7,6 +7,7 @@ echo "\033[1;31mBacking up non-system files...\033[0m"
 cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
 cp README.md /tmp
+rm -rf /tmp/tool-sync
 cp -r tool-sync /tmp
 
 echo "\033[1;31mRemoving files...\033[0m"
@@ -68,6 +69,9 @@ ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | s
 echo "\033[1;31mSyncing tools...\033[0m"
 ./tool-sync/obs/sync.sh
 
+echo "\033[1;31mGetting ollama models list...\033[0m"
+ollama list > ollama.list
+
 unalias cp
 unalias rm
 
@@ -75,9 +79,8 @@ unalias rm
 rm bash_scripts/aliases/.*_secret
 rm -rf bash_scripts/third_party
 
-echo "\033[1;31mGetting ollama models list...\033[0m"
-ollama list > ollama.list
-
 echo "\033[1;31mRefreshing ollama models list...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
 ollama list | awk '{print $1, $2, $3}' > ollama.list
+
+echo "\033[1;31mCOMPLETED!\033[0m"

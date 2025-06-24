@@ -198,5 +198,10 @@ pwpolicy -clearaccountpolicies
 passwd
 security set-keychain-password
 
+echo "\033[1;31mSyncing tools...\033[0m"
+./tool-sync/obs/sync.sh restore
+
+echo "\033[1;31mFinishing up...\033[0m"
+
 unalias cp
 unalias rm

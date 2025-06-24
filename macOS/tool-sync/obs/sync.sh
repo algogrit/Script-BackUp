@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # OBS Snap config path
-OBS_DIR="$HOME/snap/obs-studio/current/.config/obs-studio"
+OBS_DIR="$HOME/Library/Application Support/obs-studio"
 SYNC_DIR="obs"
 
 mkdir -p $SYNC_DIR
@@ -9,7 +9,7 @@ mkdir -p $SYNC_DIR
 MODE=${1:-backup}  # backup or restore
 
 echo "=== OBS Plugin List ==="
-PLUGIN_DIR="/snap/obs-studio/current/obs-plugins/64bit/"
+PLUGIN_DIR="$HOME/Library/Application Support/obs-studio/plugins"
 if [ -d "$PLUGIN_DIR" ]; then
     ls "$PLUGIN_DIR"
 else
