@@ -53,16 +53,6 @@
     "**/.factorypath": true
   },
   "java.errors.incompleteClasspath.severity": "ignore",
-  "python.jediEnabled": false,
-  "terraform.indexing": {
-    "enabled": false,
-    "liveIndexing": false,
-    "delay": 500,
-    "exclude": [
-      ".terraform/**/*",
-      "**/.terraform/**/*"
-    ]
-  },
   "cSpell.userWords": [
     "algogrit",
     "Kubernetes",
@@ -110,8 +100,6 @@
   },
   "go.toolsManagement.autoUpdate": true,
   "git.openRepositoryInParentFolders": "never",
-  "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
-  "redoclyOpenAPI.api.region": "us",
   "terraform.languageServer.enable": true,
   "workbench.editor.empty.hint": "hidden",
   "editor.codeActionsOnSave": {},
@@ -120,8 +108,6 @@
     "*.heex": "html-eex"
   },
   "makefile.configureOnOpen": false,
-  "cmake.showOptionsMovedNotification": false,
-  "mssql.enableRichExperiencesDoNotShowPrompt": true,
   "remote.SSH.remotePlatform": {
     "*.gitpod.io": "linux"
   },
