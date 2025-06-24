@@ -1,20 +1,20 @@
 buildpacks/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (136 files, 124KB)
+/opt/homebrew/Library/Taps/buildpacks/homebrew-tap (136 files, 123.8KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 6139290e8854e36d128605b37eae45815c8c73e3
 last commit: 8 days ago
 
 elastic/tap: Installed
 17 formulae
-/opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 644.2KB)
+/opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 643.9KB)
 From: https://github.com/elastic/homebrew-tap
 HEAD: 29ae9a811d4e9bcc50303b2638519f56bb397367
 last commit: 11 days ago
 
 gcenx/wine: Installed
 2 casks
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,042 files, 684.0KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,042 files, 683.7KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: 2f10a7ef702e426b5658e1f6ea801a5830a71aff
 last commit: 12 days ago

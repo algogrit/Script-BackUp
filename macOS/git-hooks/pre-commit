@@ -2,20 +2,29 @@
 
 # Redirect output to stderr.
 exec 1>&2
-# enable user input
+# Enable user input
 exec < /dev/tty
 
-consoleregexp='console.log'
-# CHECK
-if test $(git diff --cached | grep $consoleregexp | wc -l) != 0
-then
-  exec git diff --cached | grep -ne $consoleregexp
-  read -p "Some occurrences of console.log found. Continue? (y/N): " yn
-  echo $yn | grep ^[Yy]$
-  if [ $? -eq 0 ]
-  then
-    exit 0; #THE USER WANTS TO CONTINUE
+# Define regex patterns
+patterns=('console\.log' 'api.key')
+
+found=false
+for pattern in "${patterns[@]}"; do
+  if git diff --cached | grep -E -q "$pattern"; then
+    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged files:"
+    git diff --cached | grep -E -ne "$pattern"
+    found=true
+  fi
+done
+
+if [ "$found" = true ]; then
+  read -p "⚠️  Continue with commit? (y/N): " yn
+  echo "$yn" | grep -Eq '^[Yy]$'
+  if [ $? -eq 0 ]; then
+    exit 0 # Allow commit
   else
-    exit 1; # THE USER DONT WANT TO CONTINUE SO ROLLBACK
+    exit 1 # Block commit
   fi
 fi
+
+exit 0
