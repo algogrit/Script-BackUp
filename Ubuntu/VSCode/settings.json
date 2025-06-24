@@ -1,0 +1,145 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.scrollBeyondLastLine": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "[java]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[go]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[yaml]": {
+    "editor.autoIndent": "advanced"
+  },
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced"
+  },
+  "explorer.confirmDelete": false,
+  "vs-kubernetes": {
+    "vs-kubernetes.draft-path": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.minikube-path": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.helm-path.mac": "/Users/gaurav/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path.mac": "/Users/gaurav/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.kubectl-path.mac": "/Users/gaurav/.vs-kubernetes/tools/kubectl/kubectl",
+    "vs-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.helm-path.mac": "/Users/gaurav/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.kubectl-path.mac": "/Users/gaurav/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.mac": "/Users/gaurav/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vs-kubernetes.minikube-show-information-expiration": "2023-12-26T13:44:35.501Z"
+  },
+  "editor.wordWrap": "on",
+  "files.autoSave": "off",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "python.jediEnabled": false,
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "cSpell.userWords": [
+    "algogrit",
+    "Kubernetes",
+    "libcore",
+    "oauth",
+    "Twilio"
+  ],
+  "C_Cpp.updateChannel": "Insiders",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "go.testEnvVars": {
+    "DEBUG": true,
+    "DATABASE_URL": "postgres://gaurav@localhost:5432/roll-test?sslmode=disable",
+    "DATABASE_DIALECT": "postgres"
+  },
+  "python.languageServer": "Default",
+  "java.semanticHighlighting.enabled": true,
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "workbench.editor.enablePreview": false,
+  "workbench.settings.editor": "json",
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "git-rebase-todo": "default"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "git.openRepositoryInParentFolders": "never",
+  "redoclyOpenAPI.api.key": "orgsk_95QYvQYCl/omKVRihDSdCnHq3uM=_ZAFyRMduaKNj5U2vfE/7e89JXM4f+CsOk48tTf6WYQQ=",
+  "redoclyOpenAPI.api.region": "us",
+  "terraform.languageServer.enable": true,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.codeActionsOnSave": {},
+  "liveshare.accessibility.voiceEnabled": true,
+  "files.associations": {
+    "*.heex": "html-eex"
+  },
+  "makefile.configureOnOpen": false,
+  "cmake.showOptionsMovedNotification": false,
+  "mssql.enableRichExperiencesDoNotShowPrompt": true,
+  "remote.SSH.remotePlatform": {
+    "*.gitpod.io": "linux"
+  },
+  "remote.SSH.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
+  "dev.containers.defaultExtensions": [
+    "gitpod.gitpod-remote-ssh"
+  ],
+  "yaml.schemas": {
+    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.7-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.14-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "/home/om/.vscode/extensions/continue.continue-1.0.14-linux-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  }
+}

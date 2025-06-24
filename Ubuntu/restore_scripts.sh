@@ -8,6 +8,8 @@ echo "\033[1;31mStarting the restore process...\033[0m"
 echo "\033[1;31mCreating directories...\033[0m"
 mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
 
+sudo apt-get install curl
+
 echo "\033[1;31mRestoring Bash Scripts...\033[0m"
 if [ ! -d ~/bash_scripts ]; then
   cp -r ~/Script-BackUp/Ubuntu/bash_scripts ~/bash_scripts
@@ -50,7 +52,30 @@ git submodule update --recursive --remote
 
 cd ~/Script-BackUp/Ubuntu
 
+echo "\033[1;31mSetting up VSCode...\033[0m"
+cp ~/Script-BackUp/Ubuntu/VSCode/settings.json ~/.config/Code/User/
+cp ~/Script-BackUp/Ubuntu/VSCode/keybindings.json ~/.config/Code/User/
+cat ~/Script-BackUp/Ubuntu/VSCode/extensions.list | xargs -n 1 code --install-extension
+
+echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
+wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
+chmod +x ~/bin/flash
+
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/Ubuntu/.gitconfig ~/
 cp ~/Script-BackUp/Ubuntu/.gitignore ~/
 cp ~/Script-BackUp/Ubuntu/.tmux.conf ~/
+
+# Other Installations
+echo "\033[1;31mSetting up managers...\033[0m"
+
+echo "\033[1;31mVim plugin manager...\033[0m"
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+echo "\033[1;31mInstall vundle packages...\033[0m"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
+vim +PlugInstall +qall
+
+echo "\033[1;31mInstalling rbenv...\033[0m"
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build

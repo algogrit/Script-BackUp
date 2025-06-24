@@ -25,8 +25,17 @@ rm .bash_history
 cp ~/.gitconfig .
 cp ~/.gitignore .
 
+# Copy vimrc
+cp ~/.vimrc .
+
 # Copy tmux configuration
 cp ~/.tmux.conf .
+
+# Copy VSCode settings
+mkdir -p VSCode
+cp ~/.config/Code/User/settings.json VSCode
+cp ~/.config/Code/User/keybindings.json VSCode
+code --list-extensions > VSCode/extensions.list
 
 # Copy Custom Git Commands
 mkdir -p ~/Custom-Git-Commands
@@ -44,3 +53,19 @@ unalias rm
 # Remove silently
 rm bash_scripts/aliases/.*_secret
 rm -rf bash_scripts/third_party
+
+echo "\033[1;31mUpdating version managers...\033[0m"
+bash -c "cd ~/.rbenv; git pull"
+bash -c "cd ~/.rbenv/plugins/ruby-build; git pull"
+
+echo "\033[1;31mCopying over version manager configs...\033[0m"
+rbenv versions > ruby.versions
+
+mkdir -p version-manager-config
+cp ~/.rbenv/version version-manager-config/rbenv-version
+
+rbenv rehash
+
+echo "\033[1;31mListing all executables in \$PATH...\033[0m"
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5sum > executables_digest.list 2> /dev/null

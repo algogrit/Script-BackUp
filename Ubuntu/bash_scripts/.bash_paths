@@ -12,8 +12,8 @@ export ELM_HOME=~/.elm
 
 # Language Version Managers
 ## rbenv
-# export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
-# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+eval "$(~/.rbenv/bin/rbenv init - --no-rehash bash)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 ## nodenv
 # export PATH="$HOME/.nodenv/bin:$PATH"
