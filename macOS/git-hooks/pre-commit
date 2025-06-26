@@ -6,7 +6,7 @@ exec 1>&2
 exec < /dev/tty
 
 # Define regex patterns
-patterns=('console\.log' 'api.key')
+patterns=('console\.log' 'api.key', 'secret', 'password')
 
 found=false
 for pattern in "${patterns[@]}"; do
