@@ -114,6 +114,9 @@
     ],
     "/home/om/.vscode/extensions/continue.continue-1.0.14-linux-x64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
+    ],
+    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.15-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
     ]
   }
 }
