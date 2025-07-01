@@ -88,6 +88,7 @@ echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/macOS/.ignore ~/
 cp ~/Script-BackUp/macOS/.gitconfig ~/
 cp ~/Script-BackUp/macOS/.gitignore ~/
+cp ~/Script-BackUp/macOS/.gitattributes ~/
 cp ~/Script-BackUp/macOS/.tigrc ~/
 cp ~/Script-BackUp/macOS/.vimrc ~/
 cp ~/Script-BackUp/macOS/.tmux.conf ~/

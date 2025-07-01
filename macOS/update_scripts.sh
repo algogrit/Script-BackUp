@@ -89,6 +89,7 @@ cp ~/.bash* .
 # Copy gitconfig
 cp ~/.gitconfig .
 cp ~/.gitignore .
+cp ~/.gitattributes .
 
 # Copy ag ignore config
 cp ~/.ignore .
