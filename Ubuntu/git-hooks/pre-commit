@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# Redirect output to stderr.
+exec 1>&2
+# Enable user input
+exec < /dev/tty
+
+# Define regex patterns
+patterns=('console\.log' 'api.key', 'secret', 'password')
+
+found=false
+for pattern in "${patterns[@]}"; do
+  if git diff --cached | grep -E -q "$pattern"; then
+    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged files:"
+    git diff --cached | grep -E -ne "$pattern"
+    found=true
+  fi
+done
+
+if [ "$found" = true ]; then
+  read -p "⚠️  Continue with commit? (y/N): " yn
+  echo "$yn" | grep -Eq '^[Yy]$'
+  if [ $? -eq 0 ]; then
+    exit 0 # Allow commit
+  else
+    exit 1 # Block commit
+  fi
+fi
+
+exit 0

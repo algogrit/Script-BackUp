@@ -24,6 +24,7 @@ touch ~/bash_scripts/aliases/.personal_secret
 
 echo "\033[1;31mRestoring git customizations...\033[0m"
 cp ~/Script-BackUp/Ubuntu/Custom-Git-Commands/* ~/Custom-Git-Commands/
+cp ~/Script-BackUp/Ubuntu/git-hooks/* ~/git-hooks/
 
 echo "\033[1;31mSetting up common repositories...\033[0m"
 mkdir -p ~/Developer/Algogrit
@@ -65,6 +66,7 @@ chmod +x ~/bin/flash
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/Ubuntu/.gitconfig ~/
 cp ~/Script-BackUp/Ubuntu/.gitignore ~/
+cp ~/Script-BackUp/Ubuntu/.gitattributes ~/
 cp ~/Script-BackUp/Ubuntu/.tmux.conf ~/
 
 # Other Installations

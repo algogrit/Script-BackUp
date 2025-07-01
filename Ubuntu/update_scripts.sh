@@ -27,6 +27,7 @@ rm .bash_history
 # Copy gitconfig
 cp ~/.gitconfig .
 cp ~/.gitignore .
+cp ~/.gitattributes .
 
 # Copy vimrc
 cp ~/.vimrc .
@@ -41,7 +42,7 @@ cp ~/.config/Code/User/keybindings.json VSCode
 code --list-extensions > VSCode/extensions.list
 
 # Copy Custom Git Commands
-mkdir -p ~/Custom-Git-Commands
+cp -r ~/git-hooks .
 cp -r ~/Custom-Git-Commands .
 
 echo "📦 Backing up APT and snap packages..."
@@ -71,6 +72,15 @@ echo "\033[1;31mSyncing tools...\033[0m"
 
 echo "\033[1;31mGetting ollama models list...\033[0m"
 ollama list > ollama.list
+
+echo "\033[1;31mUpdating apt...\033[0m"
+sudo apt update
+
+echo "\033[1;31mUpgradable apt packages...\033[0m"
+sudo apt list --upgradable
+
+echo "\033[1;31mUpgradable snap packages...\033[0m"
+snap refresh --list
 
 unalias cp
 unalias rm

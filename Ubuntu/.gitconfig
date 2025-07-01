@@ -5,6 +5,8 @@
 	ui = true
 [core]
 	excludesfile = ~/.gitignore
+	hooksPath = /Users/om/git-hooks/
+	attributesfile = /home/om/.gitattributes
 [alias]
 	st = status -sb
 	co = checkout
@@ -28,6 +30,8 @@
 	default = current
 [diff]
 	mnemonicprefix = true
+[diff "json"]
+	textconv = bash -c 'jq . "$0" 2>/dev/null || cat "$0"'
 [filter "media"]
 	required = true
 	clean = git media clean %f
