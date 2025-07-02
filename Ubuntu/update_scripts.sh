@@ -93,6 +93,6 @@ rm -rf bash_scripts/third_party
 
 echo "\033[1;31mRefreshing ollama models list...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
-ollama list | awk '{print $1, $2, $3}' > ollama.list | sort
+ollama list | awk '{print $1, $2, $3}' | sort > ollama.list
 
 echo "\033[1;31mCOMPLETED!\033[0m"
