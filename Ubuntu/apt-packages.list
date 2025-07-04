@@ -31,6 +31,7 @@ ibus-table-cangjie-big
 ibus-table-cangjie3
 ibus-table-cangjie5
 init
+kexec-tools
 language-pack-en
 language-pack-en-base
 language-pack-gnome-en

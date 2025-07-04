@@ -246,6 +246,7 @@ codepage
 code.url-handler
 col
 colcrt
+coldreboot
 colormgr
 colrm
 column
@@ -961,6 +962,8 @@ kbxutil
 kernel-install
 kerneloops
 kerneloops-submit
+kexec
+kexec-load-kernel
 kill
 killall
 killall5
@@ -2175,6 +2178,7 @@ virt-viewer
 virt-xml
 virt-xml-validate
 visudo
+vmcore-dmesg
 vmstat
 vmwarectrl
 vpddecode
