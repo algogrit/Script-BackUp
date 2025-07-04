@@ -542,6 +542,7 @@ vtk
 vulkan-headers
 vulkan-loader
 w3m
+wakeonlan
 wangle
 watch
 watchman
