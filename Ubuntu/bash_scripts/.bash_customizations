@@ -83,7 +83,7 @@ function parse_git_branch {
 }
 
 # Formatting bash prompt
-export PS1=$"\[\033[1;36m\]\w:\$(parse_git_branch) $ \[\033[0m\]"
+export PS1=$"\[\033[1;36m\][\t] \w:\$(parse_git_branch) $ \[\033[0m\]"
 
 # Vimpager
 # export PAGER=vimpager
