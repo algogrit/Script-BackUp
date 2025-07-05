@@ -1579,8 +1579,8 @@ f1c94a9ff82904934a5269edbc8356ec  /usr/bin/gunzip
 f1c94a9ff82904934a5269edbc8356ec  /bin/gunzip
 9ede9e20fdee2e757019cba41d9e9d10  /usr/bin/gzexe
 9ede9e20fdee2e757019cba41d9e9d10  /bin/gzexe
-5087793c3a3adf13bb51188c001c0c60  /usr/bin/gzip
-5087793c3a3adf13bb51188c001c0c60  /bin/gzip
+c1d67f6d74bf7c0e16f1f218ead05e2f  /usr/bin/gzip
+c1d67f6d74bf7c0e16f1f218ead05e2f  /bin/gzip
 c04f0dbcc35b0b4043ebe3baa30200b7  /usr/bin/h2ph
 c04f0dbcc35b0b4043ebe3baa30200b7  /bin/h2ph
 6eab18cf5ee2284b616c868b042e5ebd  /usr/bin/h2xs
