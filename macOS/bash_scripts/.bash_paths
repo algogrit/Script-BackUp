@@ -1,4 +1,4 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
+echo -e "\033[1;34m~/bash_scripts/.bash_paths Loaded\033[0m"
 
 ### Languages
 
@@ -64,7 +64,7 @@ export PATH="$GCLOUD_SDK/bin:$PATH"
 #### CUSTOM
 
 # Load custom git commands
-echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+echo -e "\033[1;34m~/Custom-Git-Commands Loaded\033[0m"
 export PATH="$HOME/Custom-Git-Commands:$PATH"
 
 # Adding ~/bin to the PATH

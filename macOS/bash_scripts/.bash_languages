@@ -1,4 +1,4 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
+echo -e "\033[1;34m~/bash_scripts/.bash_languages Loaded\033[0m"
 
 # # JAVA GC Tuning
 # export set JAVA_OPTS="-Xms256m -Xmx1g"

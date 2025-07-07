@@ -1,4 +1,4 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_completion Loaded\033[0m"
+echo -e "\033[1;34m~/bash_scripts/.bash_completion Loaded\033[0m"
 
 # Adding Bash Completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
