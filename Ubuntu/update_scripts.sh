@@ -78,12 +78,6 @@ ollama list > ollama.list
 echo "\033[1;31mUpdating apt...\033[0m"
 sudo apt update
 
-echo "\033[1;31mUpgradable apt packages...\033[0m"
-sudo apt list --upgradable
-
-echo "\033[1;31mUpgradable snap packages...\033[0m"
-snap refresh --list
-
 unalias cp
 unalias rm
 
@@ -94,5 +88,11 @@ rm -rf bash_scripts/third_party
 echo "\033[1;31mRefreshing ollama models list...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
 ollama list | awk '{print $1, $2, $3}' | sort > ollama.list
+
+echo "\033[1;31mUpgradable apt packages...\033[0m"
+sudo apt list --upgradable
+
+echo "\033[1;31mUpgradable snap packages...\033[0m"
+snap refresh --list
 
 echo "\033[1;31mCOMPLETED!\033[0m"

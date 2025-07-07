@@ -38,7 +38,7 @@ function parse_git_branch {
 }
 
 if [[ -n "$TMUX" || "$TERM" == screen* ]]; then
-  USER_HOST="\[\033[1;35m\]$USER@\h "
+  USER_HOST="\[\033[1;45m\]$USER@\h\[\033[0m\] "
 else
   USER_HOST=""
 fi
