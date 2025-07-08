@@ -12,6 +12,7 @@ aclocal
 aclocal-1.16
 aconnect
 acpidbg
+adb
 add-apt-repository
 addgnupghome
 addgroup
@@ -483,6 +484,7 @@ fakeroot-sysv
 fakeroot-tcp
 fallocate
 false
+fastboot
 fatlabel
 fc-cache
 fc-cat

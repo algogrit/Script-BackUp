@@ -24,6 +24,8 @@ f26634ae6a278e80cae4effbcbb742da  /bin/aclocal-1.16
 4c5b2e2cc64c3c4d7d63fb974d4146d6  /bin/aconnect
 ee808864fde3db8c6c4c54a345ea8a6b  /usr/bin/acpidbg
 ee808864fde3db8c6c4c54a345ea8a6b  /bin/acpidbg
+d6ae201cf860f0e8b63fe3d987eeea50  /usr/bin/adb
+d6ae201cf860f0e8b63fe3d987eeea50  /bin/adb
 a50ec82c088a85f75f0ee775a797c9fe  /usr/bin/add-apt-repository
 a50ec82c088a85f75f0ee775a797c9fe  /bin/add-apt-repository
 1629d5e5b1a74e8457ca6bf835831b63  /usr/sbin/addgnupghome
@@ -964,6 +966,8 @@ cb0c888850c2325c3176b160406d601a  /bin/fakeroot-tcp
 392fe45a32a79830da261f5f2f9bfd88  /bin/fallocate
 b48579a8698d2a520eded17ce0edb560  /usr/bin/false
 b48579a8698d2a520eded17ce0edb560  /bin/false
+955fbcb651d13ed9756d6df597eace35  /usr/bin/fastboot
+955fbcb651d13ed9756d6df597eace35  /bin/fastboot
 836629a6288a7c4bf9c2ff6b06ce435e  /usr/sbin/fatlabel
 836629a6288a7c4bf9c2ff6b06ce435e  /sbin/fatlabel
 d17f43c062f098ee1149686ba227ce8b  /usr/bin/fc-cache
