@@ -440,6 +440,7 @@ cmus-remote
 cmuwmtopbm
 cntraining
 code
+code-server
 codecctl
 codesign
 codesign_allocate
@@ -1300,6 +1301,14 @@ gresource
 grm
 grmdir
 groups
+grpc_cli
+grpc_cpp_plugin
+grpc_csharp_plugin
+grpc_node_plugin
+grpc_objective_c_plugin
+grpc_php_plugin
+grpc_python_plugin
+grpc_ruby_plugin
 grun
 gruncon
 gs
@@ -2542,6 +2551,11 @@ parl
 parl5.30
 parldyn
 parldyn5.30
+parquet-dump-arrow-statistics
+parquet-dump-footer
+parquet-dump-schema
+parquet-reader
+parquet-scan
 passenger
 passenger-config
 passenger-install-apache2-module
@@ -3735,6 +3749,7 @@ tftp
 tgatoppm
 thermal
 thinkjettopbm
+thrift
 thrift1
 tic
 tidy

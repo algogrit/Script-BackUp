@@ -3,14 +3,14 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (140 files, 126.1KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 9c76b32f9956fa22c63119611cede9b91410fe4e
-last commit: 9 days ago
+last commit: 10 days ago
 
 elastic/tap: Installed
 17 formulae
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 644.2KB)
 From: https://github.com/elastic/homebrew-tap
 HEAD: 29ae9a811d4e9bcc50303b2638519f56bb397367
-last commit: 3 weeks ago
+last commit: 4 weeks ago
 
 gcenx/wine: Installed
 2 casks
@@ -31,7 +31,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (315 files, 484.3KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 6015f01561da06abecabed6c89f904a3fe4434c0
-last commit: 12 days ago
+last commit: 13 days ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
