@@ -90,7 +90,7 @@ ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
 ollama list | awk '{print $1, $2, $3}' | sort > ollama.list
 
 echo "\033[1;31mUpgradable apt packages...\033[0m"
-sudo apt list --upgradable
+sudo apt list --upgradable -a
 
 echo "\033[1;31mUpgradable snap packages...\033[0m"
 snap refresh --list
