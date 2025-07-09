@@ -9,8 +9,8 @@ firmware-updater           0+git.22198be    167    1/stable/…       canonical*
 gnome-42-2204              0+git.38ea591    202    latest/stable/…  canonical**    -
 gtk-common-themes          0.1-81-g442e511  1535   latest/stable/…  canonical**    -
 obs-studio                 30.2.0           1302   latest/stable    snapcrafters*  -
-ollama                     v0.9.0           49     latest/stable    mz2            -
+ollama                     v0.9.5           53     latest/stable    mz2            -
 snap-store                 0+git.90575829   1270   2/stable/…       canonical**    -
-snapd                      2.68.5           24718  latest/stable    canonical**    snapd
+snapd                      2.70             24792  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9              315    latest/stable/…  canonical**    -
 thunderbird                128.12.0esr-1    751    latest/stable/…  canonical**    -
