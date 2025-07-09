@@ -82,6 +82,7 @@ aclocal
 aclocal-1.18
 actool
 acyclic
+adb
 addbuiltin
 addgnupghome
 adf2hdf
@@ -800,6 +801,7 @@ escp2topbm
 escript
 eslogger
 etags
+etc1tool
 ethkey
 event_rpcgen.py
 evm
@@ -833,6 +835,7 @@ faac
 faad
 factor
 false
+fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
@@ -1481,6 +1484,7 @@ hpc
 hpc-ghc-9.12.2
 hpcdtoppm
 hpmdiagnose
+hprof-conv
 hr
 hsc2hs
 hsc2hs-ghc-9.12.2
@@ -2008,6 +2012,8 @@ mailq
 mailx
 make
 make_chlayout_test
+make_f2fs
+make_f2fs_casefold
 makealias
 makecert
 makeinfo
@@ -2083,6 +2089,7 @@ mkbom
 mkbundle
 mkdir
 mkdoc
+mke2fs
 mkextunpack
 mkfifo
 mkfile

@@ -130,7 +130,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.5.8
+4.5.9
 ==> macOS
 13.0.1
 ==> SIP
@@ -139,7 +139,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7546 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7549 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -155,7 +155,7 @@ You should download the Command Line Tools for Xcode 15.2.
 
 This is a Tier 2 configuration:
   https://docs.brew.sh/Support-Tiers#tier-2
-Do not report any issues to Homebrew/* repositories!
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
 
@@ -215,7 +215,7 @@ Xcode can be updated from the App Store.
 
 This is a Tier 2 configuration:
   https://docs.brew.sh/Support-Tiers#tier-2
-Do not report any issues to Homebrew/* repositories!
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-587 kegs, 530,697 files, 21.8GB
+587 kegs, 530,718 files, 21.8GB

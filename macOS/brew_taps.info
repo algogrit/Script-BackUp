@@ -3,7 +3,7 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (140 files, 126.1KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 9c76b32f9956fa22c63119611cede9b91410fe4e
-last commit: 10 days ago
+last commit: 11 days ago
 
 elastic/tap: Installed
 17 formulae
@@ -31,7 +31,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (315 files, 484.3KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 6015f01561da06abecabed6c89f904a3fe4434c0
-last commit: 13 days ago
+last commit: 2 weeks ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
@@ -59,4 +59,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,225 files, 798KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: a499f27d12e78a25aa8d091899cd0b96dbff4777
-last commit: 4 weeks ago
+last commit: 5 weeks ago
