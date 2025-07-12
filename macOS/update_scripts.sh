@@ -180,7 +180,7 @@ unalias rm
 rm bash_scripts/aliases/.*_secret
 
 echo "\033[1;31m/etc/hosts...\033[0m"
-echo "Current: `cat /etc/hosts | grep -m 1 Updated | awk '{print $4 " " $5 " " $6}'`"
+echo "Current: `cat /etc/hosts | grep -m 1 'Date:' | awk '{print $3 " " $4 " " $5}'`"
 echo "Latest: `curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep 'Date:' | awk '{print $3 " " $4 " " $5}'`"
 
 echo "\033[1;31mCOMPLETED!\033[0m"
