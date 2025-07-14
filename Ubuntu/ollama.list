@@ -5,7 +5,7 @@ deepseek-r1:latest 6995872bfe4c 5.2
 dolphincoder:15b 1102380927c2 9.1
 gemma3:latest a2af6cc3eb7f 3.3
 llama3.3:latest a6eb4748fd29 42
-mistral:latest 3944fe81ec14 4.1
+mistral:latest 6577803aa9a0 4.4
 mistral-small3.1:latest b9aaf0c2586a 15
 NAME ID SIZE
 phi4:latest ac896e5b8b34 9.1
