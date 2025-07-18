@@ -130,7 +130,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.5.9
+4.5.10
 ==> macOS
 13.0.1
 ==> SIP
@@ -139,7 +139,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7542 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7517 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -180,6 +180,7 @@ You should find replacements for the following formulae:
   python@3.8
   pyyaml
   sdl_image
+  six
   youtube-dl
 
 Warning: You have the following deprecated, official taps tapped:
@@ -218,4 +219,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-587 kegs, 531,028 files, 21.8GB
+587 kegs, 532,315 files, 21.8GB
