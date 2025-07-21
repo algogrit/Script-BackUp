@@ -2996,6 +2996,8 @@ pridist.d
 printafm
 printenv
 printf
+printf_gettext
+printf_ngettext
 probetest
 procan
 procsystime

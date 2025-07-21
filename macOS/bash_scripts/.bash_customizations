@@ -24,7 +24,7 @@ function parse_git_branch {
 }
 
 # Formatting bash prompt
-export PS1='\[\033[1;33m\][\t] \[\033[1;36m\]\w:\[\033[1;31m\]$(parse_git_branch) \[\033[1;36m\]\$ \[\033[0m\]'
+export PS1=$"\[\033[1;33m\][\t] \[\033[1;36m\]\w:\[\033[1;31m\]\$(parse_git_branch) \[\033[1;36m\]\$ \[\033[0m\]"
 
 # Sourcing Liquidprompt
 # if [ -f /usr/local/share/liquidprompt ]; then
