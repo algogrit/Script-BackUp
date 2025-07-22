@@ -106,19 +106,7 @@
     "gitpod.gitpod-remote-ssh"
   ],
   "yaml.schemas": {
-    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.7-darwin-arm64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.14-darwin-arm64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "/home/om/.vscode/extensions/continue.continue-1.0.14-linux-x64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.15-darwin-arm64/config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ],
-    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.16-darwin-arm64/config-yaml-schema.json": [
+    "/Users/gaurav/.vscode/extensions/continue.continue-1.0.19-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   }
