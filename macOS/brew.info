@@ -45,7 +45,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/stackprof-0.2.27/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/stackprof-0.2.27
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.7.4/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.3.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.5.12230/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.5.12230/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.5.12230-universal-darwin/lib
@@ -131,7 +131,7 @@ SHELL
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.5.11
+4.5.12
 ==> macOS
 13.0.1
 ==> SIP
@@ -140,7 +140,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7524 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7529 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -220,4 +220,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-587 kegs, 532,479 files, 21.8GB
+591 kegs, 533,410 files, 21.9GB

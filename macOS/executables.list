@@ -4109,8 +4109,10 @@ wsgen
 wsimport
 wx-config
 wx-config-3.2
+wx-config-3.3
 wxrc
 wxrc-3.2
+wxrc-3.3
 x264
 x265
 x64
