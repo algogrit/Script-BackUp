@@ -1,10 +1,10 @@
 Name                       Version          Rev    Tracking         Publisher      Notes
 bare                       1.0              5      latest/stable    canonical**    base
-code                       7adae6a5         200    latest/stable    vscode**       classic
+code                       c306e94f         201    latest/stable    vscode**       classic
 core20                     20250526         2599   latest/stable    canonical**    base
 core22                     20250612         2045   latest/stable    canonical**    base
 core24                     20250618         1055   latest/stable    canonical**    base
-firefox                    140.0.4-1        6495   latest/stable/…  mozilla**      -
+firefox                    141.0-2          6565   latest/stable/…  mozilla**      -
 firmware-updater           0+git.22198be    167    1/stable/…       canonical**    -
 gnome-42-2204              0+git.38ea591    202    latest/stable/…  canonical**    -
 gtk-common-themes          0.1-81-g442e511  1535   latest/stable/…  canonical**    -
