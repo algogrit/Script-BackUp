@@ -834,6 +834,7 @@ faac
 faad
 factor
 false
+fastbase64
 fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -1965,7 +1966,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1748459687
+luajit-2.1.1753364724
 luit
 lupdate
 lwp-download
@@ -3670,6 +3671,8 @@ sudo
 suitesparse_mongoose
 sum
 sunicontopnm
+sutf
+sutf-benchmark
 svcutil
 svgtopam
 svgtoqml

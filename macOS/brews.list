@@ -450,7 +450,6 @@ python-certifi
 python-cryptography
 python-markdown
 python-packaging
-python-setuptools
 python@3.10
 python@3.11
 python@3.12
@@ -495,6 +494,7 @@ shaderc
 shared-mime-info
 siege
 simdjson
+simdutf
 sip
 six
 skaffold
