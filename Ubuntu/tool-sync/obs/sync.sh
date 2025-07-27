@@ -47,7 +47,7 @@ sync_path "basic/scenes" "Scenes"
 # Sync plugin configs
 sync_path "plugin_config" "Plugin Config"
 
-rm $SYNC_DIR/plugin_config/obs-browser/LOG*
+rm $SYNC_DIR/**/LOG*
 
 # Sync global.ini (top-level file)
 if [ "$MODE" == "backup" ]; then
