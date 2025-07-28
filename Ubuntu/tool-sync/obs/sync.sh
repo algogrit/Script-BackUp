@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+shopt -s globstar
+
 # OBS Snap config path
 OBS_DIR="$HOME/snap/obs-studio/current/.config/obs-studio"
 SYNC_DIR="obs"
@@ -47,8 +49,6 @@ sync_path "basic/scenes" "Scenes"
 # Sync plugin configs
 sync_path "plugin_config" "Plugin Config"
 
-rm $SYNC_DIR/**/LOG*
-
 # Sync global.ini (top-level file)
 if [ "$MODE" == "backup" ]; then
     cp "$OBS_DIR/global.ini" "$SYNC_DIR/global.ini"
@@ -56,5 +56,8 @@ else
     cp "$SYNC_DIR/global.ini" "$OBS_DIR/global.ini"
 fi
 echo ">> Synced global.ini"
+
+rm $SYNC_DIR/**/LOG*
+rm $SYNC_DIR/**/*.log
 
 echo "All done."
