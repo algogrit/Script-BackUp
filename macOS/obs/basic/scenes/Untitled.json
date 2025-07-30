@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Scene",
-    "current_program_scene": "Scene",
+    "current_scene": "Audio Only",
+    "current_program_scene": "Audio Only",
     "scene_order": [
         {
             "name": "Scene"
@@ -521,7 +521,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 0,
+            "monitoring_type": 2,
             "private_settings": {},
             "filters": [
                 {

@@ -140,7 +140,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7535 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7534 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -220,4 +220,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-592 kegs, 532,485 files, 21.9GB
+592 kegs, 533,192 files, 21.9GB
