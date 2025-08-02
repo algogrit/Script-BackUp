@@ -6,7 +6,6 @@ ant
 ant@1.9
 antlr
 aom
-apache-arrow
 apache-spark
 apr
 apr-util
@@ -21,20 +20,7 @@ autoconf
 autoenv
 automake
 avro-c
-aws-c-auth
-aws-c-cal
-aws-c-common
-aws-c-compression
-aws-c-event-stream
-aws-c-http
-aws-c-io
-aws-c-mqtt
-aws-c-s3
-aws-c-sdkutils
-aws-checksums
-aws-crt-cpp
 aws-iam-authenticator
-aws-sdk-cpp
 awscli@1
 bash
 bash-completion
@@ -176,7 +162,6 @@ graphicsmagick
 graphite2
 graphviz
 grep
-grpc
 gti
 gtk+
 gts
@@ -467,7 +452,6 @@ r
 rabbitmq
 rav1e
 rbenv
-re2
 re2c
 readline
 redis
@@ -533,7 +517,6 @@ texi2html
 texinfo
 the_silver_searcher
 theora
-thrift
 tig
 tilt
 tmux

@@ -109,5 +109,7 @@
     "/Users/gaurav/.vscode/extensions/continue.continue-1.0.19-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
-  }
+  },
+  "docker.extension.enableComposeLanguageServer": false,
+  "continue.showInlineTip": false
 }

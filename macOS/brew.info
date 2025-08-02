@@ -140,7 +140,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7534 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7536 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -165,6 +165,7 @@ This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   sdl_image
   isl@0.18
+  mysql@5.7
   szip
 
 Warning: Some installed formulae are deprecated or disabled.
@@ -220,4 +221,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-592 kegs, 533,192 files, 21.9GB
+575 kegs, 454,383 files, 21.0GB
