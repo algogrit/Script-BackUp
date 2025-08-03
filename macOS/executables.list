@@ -2072,6 +2072,7 @@ mig
 migrate
 mini_client
 minikube
+mirb
 mirror_server
 mirror_server_stop
 missing_codec_desc
@@ -2189,7 +2190,12 @@ mplayer
 mpmetis
 mprof-report
 mpv
+mrbc
+mrdb
 mrftopbm
+mruby
+mruby-config
+mruby-strip
 msbuild
 mserver5
 mserver5-11.53.3
