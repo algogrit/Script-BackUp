@@ -39,6 +39,7 @@ ca-certificates
 cabextract
 caddy
 cairo
+capstone
 carthage
 cask-repair
 cassandra
@@ -80,6 +81,7 @@ doctl
 dos2unix
 double-conversion
 doxygen
+dtc
 duktape
 dvdbackup
 edencommon
@@ -278,6 +280,7 @@ librsvg
 libsamplerate
 libscrypt
 libserdes
+libslirp
 libsndfile
 libsodium
 libsoxr
@@ -443,6 +446,7 @@ python@3.13
 python@3.8
 python@3.9
 pyyaml
+qemu
 qhull
 qpdf
 qrupdate
@@ -540,6 +544,7 @@ uv
 v8
 vapoursynth
 vcpkg
+vde
 veclibfort
 vim
 vimpager

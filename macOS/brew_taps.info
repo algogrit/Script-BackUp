@@ -21,7 +21,7 @@ last commit: 3 weeks ago
 
 go-testfixtures/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.6KB)
+/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.5KB)
 From: https://github.com/go-testfixtures/homebrew-tap
 HEAD: 119fe9fb7390f206f1157ba18f90086bd6d40ada
 last commit: 9 months ago
@@ -52,7 +52,7 @@ vitorgalvao/tiny-scripts: Installed
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (421 files, 615.6KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: 66d09c74d1a285b62d17aaee2772282f43934940
-last commit: 13 days ago
+last commit: 2 weeks ago
 
 weaveworks/tap: Installed
 7 formulae
