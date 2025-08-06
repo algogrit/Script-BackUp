@@ -442,6 +442,7 @@ cntraining
 code
 code-server
 codecctl
+coderay
 codesign
 codesign_allocate
 col
@@ -2007,6 +2008,8 @@ macerror5.30
 machine
 macpack
 macptopbm
+macupdater_client
+macupdater_install
 magick
 magick-script
 mail
@@ -3029,6 +3032,7 @@ prted
 prterun
 prun
 prune
+pry
 ps
 ps2ascii
 ps2epsi
@@ -3132,6 +3136,7 @@ python3.9-config
 python3.9-gdb.py
 pyuic6
 pzstd
+qcachegrind
 qconvex
 qdbus
 qdbuscpp2xml
@@ -3227,6 +3232,7 @@ rabbitmq-upgrade
 rabbitmqadmin
 rabbitmqctl
 racc
+racc2y
 racoon
 rails
 rake
@@ -3380,6 +3386,9 @@ ruby-lsp
 ruby-lsp-check
 ruby-lsp-launcher
 ruby-lsp-test-exec
+ruby-memory-profiler
+ruby-prof
+ruby-prof-check-trace
 run-example
 run_erl
 runant.pl
@@ -3687,6 +3696,9 @@ sstableupgrade
 sstableutil
 sstableverify
 st4topgm
+stackprof
+stackprof-flamegraph.pl
+stackprof-gprof2dot.py
 stapler
 startx
 stat
@@ -3965,6 +3977,7 @@ uri-encode
 usbcfwflasher
 usernoted
 users
+utmctl
 uttype
 uuchk
 uucico
@@ -4289,6 +4302,7 @@ xzfgrep
 xzgrep
 xzless
 xzmore
+y2racc
 yaa
 yacc
 yamlpp-events

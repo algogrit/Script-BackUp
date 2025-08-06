@@ -3,42 +3,42 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (140 files, 126.1KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 9c76b32f9956fa22c63119611cede9b91410fe4e
-last commit: 5 weeks ago
+last commit: 6 weeks ago
 
 elastic/tap: Installed
 17 formulae
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 644.2KB)
 From: https://github.com/elastic/homebrew-tap
 HEAD: 29ae9a811d4e9bcc50303b2638519f56bb397367
-last commit: 7 weeks ago
+last commit: 8 weeks ago
 
 gcenx/wine: Installed
 2 casks
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,051 files, 687.7KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: b4c6fbe42bc0c1949a5c26cee8902b15e8f3def8
-last commit: 3 weeks ago
+last commit: 4 weeks ago
 
 go-testfixtures/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.5KB)
+/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.6KB)
 From: https://github.com/go-testfixtures/homebrew-tap
 HEAD: 119fe9fb7390f206f1157ba18f90086bd6d40ada
-last commit: 9 months ago
+last commit: 10 months ago
 
 heroku/brew: Installed
 2 formulae
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (324 files, 488.9KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: c7c353f24d4aa2a19a2381dd7efab0656785f4d1
-last commit: 2 weeks ago
+last commit: 3 weeks ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
 /opt/homebrew/Library/Taps/homebrew/homebrew-bundle (3,117 files, 4.0MB)
 From: https://github.com/Homebrew/homebrew-bundle
 HEAD: a3265c84b232e13048ecbf6fc18a2eedfadbeb08
-last commit: 3 months ago
+last commit: 4 months ago
 
 homebrew/services: Installed
 No commands/casks/formulae
@@ -59,4 +59,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,233 files, 802.6KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: 912d490fe42cbf572d9e9c10377ce73ac081b30f
-last commit: 5 days ago
+last commit: 8 days ago
