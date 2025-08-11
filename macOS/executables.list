@@ -110,7 +110,6 @@ alias
 ambiguous_words
 amt
 analyze
-android
 androiddeployqt
 androiddeployqt6
 androiddump
@@ -139,7 +138,6 @@ aomenc
 apachectl
 apfs_hfs_convert
 apfs_unlockfv
-apkanalyzer
 app-sso
 appdb
 appleh13camerad
@@ -154,7 +152,6 @@ apropos
 apt
 ar
 arch
-archquery
 aria2c
 arp
 as
@@ -203,7 +200,6 @@ avbdeviced
 avbdiagnose
 avbutil
 avconvert
-avdmanager
 avifdec
 avifenc
 avifgainmaputil
@@ -778,8 +774,6 @@ elm
 emacs
 emacs-30.1
 emacsclient
-emulator
-emulator-check
 enc2xs
 enc2xs5.30
 enc2xs5.34
@@ -1715,7 +1709,6 @@ jmeter
 jmod
 jmxtool
 jnativescan
-jobb
 jobs
 join
 jot
@@ -1906,7 +1899,6 @@ library-packs
 libtool
 link
 linkicc
-lint
 lint-openapi
 lipo
 lispmtopgm
@@ -2104,7 +2096,6 @@ mkfontscale
 mklocale
 mknod
 mkpassdb
-mksdcard
 mktemp
 mm2gv
 mmdbresolve
@@ -2121,8 +2112,6 @@ monetdb
 monetdb-11.53.3
 monetdbd
 monetdbd-11.53.3
-monitor
-monkeyrunner
 mono
 mono-api-html
 mono-api-info
@@ -2431,7 +2420,6 @@ otool
 out123
 ovc
 over
-ovftool
 p11-kit
 p11cat
 p11cp
@@ -3442,7 +3430,6 @@ sconsign
 scp
 screen
 screencapture
-screenshot2
 script
 scselect
 scutil
@@ -3450,7 +3437,6 @@ sdbthreadtst
 sdef
 sdk
 sdk-manifests
-sdkmanager
 sdl-config
 sdl2-config
 sdp
@@ -3923,7 +3909,6 @@ uchardet
 ucs2any
 udp_proxy
 udpdump
-uiautomatorviewer
 ul
 ulimit
 umask
@@ -4009,7 +3994,6 @@ vbc
 vbnc
 vbnc2
 vcpkg
-vctl
 vde_autolink
 vde_over_ns
 vde_pcapplug
@@ -4044,31 +4028,7 @@ vlc
 vm_stat
 vmaf
 vmmap
-vmnet-bridge
-vmnet-cfgcli
-vmnet-cli
-vmnet-dhcpd
-vmnet-natd
-vmnet-netifup
-vmnet-sniffer
-vmrest
-vmrun
-vmss2core
-vmware-aewp
-vmware-authd
-vmware-cloneBootCamp
-vmware-id
-vmware-ntfs
 vmware-rabbitmq
-vmware-rawdiskAuthTool
-vmware-rawdiskCreator
-vmware-remotemks
-vmware-usbarbitrator
-vmware-vdiskmanager
-vmware-vmdkserver
-vmware-vmx
-vmware-vmx-debug
-vmware-vmx-stats
 vpnd
 vsdbutil
 vspipe
