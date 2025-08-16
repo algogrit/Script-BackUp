@@ -59,5 +59,8 @@ export PATH="$HOME/Custom-Git-Commands:$PATH"
 # Adding ~/bin to the PATH
 export PATH="$HOME/bin:$PATH"
 
+# Adding ~/.local/bin to the PATH
+export PATH="~/.local/bin:$PATH"
+
 # ADDING snippet_programs to the PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"

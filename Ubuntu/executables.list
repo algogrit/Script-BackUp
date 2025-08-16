@@ -12,6 +12,7 @@ aclocal
 aclocal-1.16
 aconnect
 acpidbg
+activate-global-python-argcomplete
 adb
 add-apt-repository
 addgnupghome
@@ -104,6 +105,7 @@ bash
 bashbug
 bashreadline-bpfcc
 bashreadline.bt
+bat
 batcat
 bc
 bdftopcf
@@ -206,6 +208,9 @@ cd-create-profile
 cd-fix-profile
 cd-iccdump
 cd-it8
+cec-compliance
+cec-ctl
+cec-follower
 cfdisk
 c++filt
 cgdisk
@@ -296,6 +301,7 @@ curl
 cut
 cvt
 cvtsudoers
+cx18-ctl
 dash
 date
 dbslower-bpfcc
@@ -329,6 +335,7 @@ debian-distro-info
 deb-systemd-helper
 deb-systemd-invoke
 debugfs
+decode_tm6000
 deja-dup
 delgroup
 delpart
@@ -359,6 +366,7 @@ dirname
 dirsplit
 dirtop-bpfcc
 distro-info
+dkms
 dmesg
 dmeventd
 dmidecode
@@ -924,6 +932,7 @@ iptables-translate
 iptables-xml
 irb
 irb3.2
+ir-ctl
 ischroot
 isdv4-serial-debugger
 isdv4-serial-inputattach
@@ -935,6 +944,7 @@ ispell-autobuildhash
 ispell-wrapper
 iucode-tool
 iucode_tool
+ivtv-ctl
 iwconfig
 iwevent
 iwgetid
@@ -1155,6 +1165,7 @@ mdflush.bt
 mdig
 mdir
 mdu
+media-ctl
 memhog
 memleak-bpfcc
 memusage
@@ -1347,6 +1358,7 @@ opensnoop.bt
 openssl
 openvpn
 openvt
+open-webui
 opldecode
 orca
 orca-dm-wrapper
@@ -1436,10 +1448,14 @@ ping
 ping4
 ping6
 pinky
+pip
+pip3
+pip3.12
 pipewire
 pipewire-aes67
 pipewire-avb
 pipewire-pulse
+pipx
 pivot_root
 pkaction
 pkcheck
@@ -1575,6 +1591,7 @@ python3
 python3.12
 python3.12-config
 python3-config
+python-argcomplete-check-easy-install-script
 pythoncalls-bpfcc
 pythonflow-bpfcc
 pythongc-bpfcc
@@ -1638,6 +1655,7 @@ rdmaucma-bpfcc
 rdmsr
 rdoc
 rdoc3.2
+rds-ctl
 readahead-bpfcc
 readelf
 readlink
@@ -1645,6 +1663,7 @@ readprofile
 realpath
 reboot
 red
+register-python-argcomplete
 remmina
 remmina-file-wrapper
 remmina-gnome
@@ -2135,6 +2154,11 @@ uuidd
 uuidgen
 uuidparse
 uz
+v4l2-compliance
+v4l2-ctl
+v4l2-dbg
+v4l2loopback-ctl
+v4l2-sysfs-path
 validlocale
 varlinkctl
 vcs-run

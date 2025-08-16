@@ -26,6 +26,8 @@
 	up = pull --all --rebase --autostash
 	ls-ignored-changes = !git ls-files -v | grep ^S | awk '{print $2}'
 	make-patch = diff --cached --binary
+	subup = submodule update --init --recursive
+	pullall = pull --recurse-submodules
 [push]
 	default = current
 [diff]
