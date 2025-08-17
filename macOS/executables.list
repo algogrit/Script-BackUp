@@ -3000,11 +3000,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-31.1.0
+protoc-32.0.0
 protoc-gen-upb
-protoc-gen-upb-31.1.0
+protoc-gen-upb-32.0.0
+protoc-gen-upb_minitable
+protoc-gen-upb_minitable-32.0.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-31.1.0
+protoc-gen-upbdefs-32.0.0
 prove
 prove5.30
 prove5.34
