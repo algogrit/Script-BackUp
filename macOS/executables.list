@@ -53,7 +53,6 @@ SvtAv1EncApp
 ThirdPartyNotices.txt
 WirelessRadioManagerd
 Wireshark
-Wireshark.dSYM
 X
 Xephyr
 Xnest
@@ -338,10 +337,8 @@ canbusutil
 cancel
 cap_mkdb
 capinfos
-capinfos.dSYM
 captoinfo
 captype
-captype.dSYM
 cardos-tool
 cargo
 cargo-clippy
@@ -654,7 +651,6 @@ devmodectl
 devp2p
 df
 dftest
-dftest.dSYM
 dh_client
 dh_genprime
 dh_server
@@ -737,7 +733,6 @@ dtrust-tool
 du
 duk
 dumpcap
-dumpcap.dSYM
 dumpsexp
 dvd2concat
 dvdbackup
@@ -759,7 +754,6 @@ ecpg
 ed
 edgepaint
 editcap
-editcap.dSYM
 editres
 edquota
 egk-tool
@@ -1547,7 +1541,6 @@ idevicescreenshot
 idevicesetlocation
 idevicesyslog
 idl2wrs
-idl2wrs.dSYM
 idle
 idle3
 idle3.10
@@ -2061,7 +2054,6 @@ memory_pressure
 mencoder
 merge_unicharsets
 mergecap
-mergecap.dSYM
 mesg
 meshdebug
 metadata
@@ -2098,7 +2090,6 @@ mkpassdb
 mktemp
 mm2gv
 mmdbresolve
-mmdbresolve.dSYM
 mnthome
 mockgen
 mod
@@ -3223,7 +3214,6 @@ racoon
 rails
 rake
 randpkt
-randpkt.dSYM
 randpktdump
 ranlib
 rarpd
@@ -3232,7 +3222,6 @@ rav1e
 raw-identify
 raw2tiff
 rawshark
-rawshark.dSYM
 rawtextdump
 rawtopgm
 rawtoppm
@@ -3300,7 +3289,6 @@ remtest
 render_hlg
 renice
 reordercap
-reordercap.dSYM
 repairHomePermissions
 repquota
 req_app
@@ -3488,7 +3476,6 @@ shar
 shared
 sharing
 sharkd
-sharkd.dSYM
 shasum
 shasum5.30
 shasum5.34
@@ -3790,7 +3777,6 @@ texi2pdf
 texindex
 text2image
 text2pcap
-text2pcap.dSYM
 texture_to_cube
 textutil
 tftp
@@ -3885,7 +3871,6 @@ ts-script
 tsc
 tset
 tshark
-tshark.dSYM
 tsig-keygen
 tsort
 tsserver

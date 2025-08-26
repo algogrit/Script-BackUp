@@ -3,35 +3,35 @@ buildpacks/tap: Installed
 /opt/homebrew/Library/Taps/buildpacks/homebrew-tap (140 files, 126.1KB)
 From: https://github.com/buildpacks/homebrew-tap
 HEAD: 9c76b32f9956fa22c63119611cede9b91410fe4e
-last commit: 7 weeks ago
+last commit: 8 weeks ago
 
 elastic/tap: Installed
 17 formulae
 /opt/homebrew/Library/Taps/elastic/homebrew-tap (269 files, 644.2KB)
 From: https://github.com/elastic/homebrew-tap
 HEAD: 29ae9a811d4e9bcc50303b2638519f56bb397367
-last commit: 9 weeks ago
+last commit: 2 months ago
 
 gcenx/wine: Installed
 2 casks
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,063 files, 695KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: 011bb089661c788c7580d314bba6896881134296
-last commit: 6 days ago
+last commit: 2 weeks ago
 
 go-testfixtures/tap: Installed
 1 formula
-/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (53 files, 32.6KB)
+/opt/homebrew/Library/Taps/go-testfixtures/homebrew-tap (57 files, 35.2KB)
 From: https://github.com/go-testfixtures/homebrew-tap
-HEAD: 119fe9fb7390f206f1157ba18f90086bd6d40ada
-last commit: 10 months ago
+HEAD: e30b20746d58e42026a5095a55348f66c1c50880
+last commit: 2 days ago
 
 heroku/brew: Installed
 2 formulae
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (324 files, 488.9KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: c7c353f24d4aa2a19a2381dd7efab0656785f4d1
-last commit: 4 weeks ago
+last commit: 6 weeks ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
@@ -52,11 +52,11 @@ vitorgalvao/tiny-scripts: Installed
 /opt/homebrew/Library/Taps/vitorgalvao/homebrew-tiny-scripts (421 files, 615.6KB)
 From: https://github.com/vitorgalvao/homebrew-tiny-scripts
 HEAD: 66d09c74d1a285b62d17aaee2772282f43934940
-last commit: 4 weeks ago
+last commit: 5 weeks ago
 
 weaveworks/tap: Installed
 7 formulae
-/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,233 files, 802.6KB)
+/opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,237 files, 804.9KB)
 From: https://github.com/weaveworks/homebrew-tap
-HEAD: 912d490fe42cbf572d9e9c10377ce73ac081b30f
-last commit: 3 weeks ago
+HEAD: c85179bff61d10f4a44967e118d0d0575782fc9b
+last commit: 10 hours ago

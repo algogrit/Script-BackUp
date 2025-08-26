@@ -3,7 +3,6 @@ adobe-air
 android-file-transfer
 android-platform-tools
 arc
-balenaetcher
 blackhole-16ch
 bluejeans
 brave-browser
@@ -16,11 +15,8 @@ disk-drill
 distroav
 docker
 docker-desktop
-dropbox
 electron-fiddle
 elgato-stream-deck
-evernote
-figma
 firefox
 firefox-nightly
 firefox@nightly
@@ -79,6 +75,6 @@ webex-meetings
 wine-crossover
 wireshark
 wireshark-app
-witch
 xquartz
+zoho-mail
 zoom

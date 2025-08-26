@@ -68,6 +68,7 @@ cscope
 csvkit
 ctags
 curl
+cyrus-sasl
 cython
 dasel
 dav1d
@@ -292,6 +293,7 @@ libtermkey
 libtiff
 libtommath
 libtool
+libudfread
 libunibreak
 libunistring
 libusb
@@ -540,6 +542,7 @@ utf8cpp
 utf8proc
 uthash
 uv
+uvwasi
 v8
 vapoursynth
 vcpkg
