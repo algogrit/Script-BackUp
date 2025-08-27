@@ -12,6 +12,7 @@ mistral-small3.1:latest b9aaf0c2586a 15
 NAME ID SIZE
 phi4:latest ac896e5b8b34 9.1
 qwen2.5-coder:32b b92d6a0bd47e 19
+qwen2.5vl:latest 5ced39dfa4ba 6.0
 qwen3:32b 030ee887880f 20
 starcoder2:15b 21ae152d49e0 9.1
 wizardcoder:33b 5b944d3546ee 18
