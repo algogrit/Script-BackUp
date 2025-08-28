@@ -451,6 +451,7 @@ command
 comp_err
 compaction-stress
 compare
+compare-cvelists.sh
 complete-ant-cmd.pl
 composite
 compress
@@ -1878,7 +1879,6 @@ lesskey
 lex
 lib
 libassuan-config
-libav-merge-next-commit
 libdeflate-gunzip
 libdeflate-gzip
 libgcrypt-config
@@ -2052,6 +2052,7 @@ mem_image
 memcached
 memory_pressure
 mencoder
+merge-all-source-plugins
 merge_unicharsets
 mergecap
 mesg
