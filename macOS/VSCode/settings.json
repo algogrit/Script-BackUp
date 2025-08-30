@@ -111,5 +111,6 @@
     ]
   },
   "docker.extension.enableComposeLanguageServer": false,
-  "continue.showInlineTip": false
+  "continue.showInlineTip": false,
+  "sonarlint.focusOnNewCode": true
 }
