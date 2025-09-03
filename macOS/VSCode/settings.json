@@ -106,7 +106,7 @@
     "gitpod.gitpod-remote-ssh"
   ],
   "yaml.schemas": {
-    "file:///Users/gaurav/.vscode/extensions/continue.continue-1.2.0-darwin-arm64/config-yaml-schema.json": [
+    "file:///Users/gaurav/.vscode/extensions/continue.continue-1.2.1-darwin-arm64/config-yaml-schema.json": [
       ".continue/**/*.yaml"
     ]
   },
