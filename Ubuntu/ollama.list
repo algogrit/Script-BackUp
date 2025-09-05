@@ -1,6 +1,7 @@
 codellama:13b-code 61b6aa1b3d0f 7.4
 deepcoder:14b 12bdda054d23 9.0
 deepseek-coder:33b acec7c0b0fd9 18
+deepseek-coder-v2:latest 63fb193b3a9b 8.9
 deepseek-r1:latest 6995872bfe4c 5.2
 dolphincoder:15b 1102380927c2 9.1
 gemma3:latest a2af6cc3eb7f 3.3
@@ -11,7 +12,13 @@ mistral:latest 6577803aa9a0 4.4
 mistral-small3.1:latest b9aaf0c2586a 15
 NAME ID SIZE
 phi4:latest ac896e5b8b34 9.1
+qwen2.5-coder:14b 9ec8897f747e 9.0
 qwen2.5-coder:32b b92d6a0bd47e 19
+qwen2.5-coder:7b dae161e27b0e 4.7
+qwen2.5vl:latest 5ced39dfa4ba 6.0
+qwen3:14b bdbd181c33f2 9.3
+qwen3:30b e50831eb2d91 18
 qwen3:32b 030ee887880f 20
+qwen3-coder:latest ad67f85ca250 18
 starcoder2:15b 21ae152d49e0 9.1
 wizardcoder:33b 5b944d3546ee 18
