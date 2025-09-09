@@ -1,6 +1,6 @@
 {
     "AuxAudioDevice1": {
-        "prev_ver": 520093697,
+        "prev_ver": 520159234,
         "name": "Mic/Aux",
         "uuid": "7c3a1971-501e-4679-9d41-995b7a0d30d6",
         "id": "coreaudio_input_capture",
@@ -43,7 +43,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520159234,
             "name": "Scene",
             "uuid": "d8b965ac-7c89-4b53-8c78-647e4fd492ad",
             "id": "scene",
@@ -93,7 +93,7 @@
                             "y": 1080.0
                         },
                         "bounds_rel": {
-                            "x": 3.5555555820465088,
+                            "x": 3.555555582046509,
                             "y": 2.0
                         },
                         "scale_filter": "disable",
@@ -185,10 +185,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520159234,
             "name": "macOS Screen Capture",
             "uuid": "18ad6848-6913-4f30-b324-34a6b3c35b80",
             "id": "screen_capture",
@@ -219,7 +220,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520159234,
             "name": "Audio Only",
             "uuid": "74114041-f160-4d83-8b96-2c1fcf587e41",
             "id": "scene",
@@ -304,10 +305,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520159234,
             "name": "Audio Input Capture",
             "uuid": "7face2cc-1194-4514-a05c-524a4e0a903b",
             "id": "coreaudio_input_capture",
@@ -338,7 +340,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Gain",
                     "uuid": "23255d69-08ec-447c-bbcb-9ec9fcbf4321",
                     "id": "gain_filter",
@@ -362,7 +364,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Noise Suppression",
                     "uuid": "9297188f-6d7a-40c8-af79-76bf0301420d",
                     "id": "noise_suppress_filter",
@@ -386,7 +388,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "3-Band Equaliser",
                     "uuid": "9f764b1a-fd44-47e8-b6dc-12e417db1f8b",
                     "id": "basic_eq_filter",
@@ -413,7 +415,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Expander",
                     "uuid": "f7b949bf-1c75-4d1e-824d-be4a503af538",
                     "id": "expander_filter",
@@ -437,7 +439,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Compressor",
                     "uuid": "d51ecf82-e3fa-4ae4-bf4e-b703de22fff1",
                     "id": "compressor_filter",
@@ -466,13 +468,13 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Limiter",
                     "uuid": "be1c6ab9-db10-4588-89ab-658edcced4b9",
                     "id": "limiter_filter",
                     "versioned_id": "limiter_filter",
                     "settings": {
-                        "threshold": -0.10000000000000001
+                        "threshold": -0.1
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -494,7 +496,7 @@
             ]
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520159234,
             "name": "Audio Input Capture USB",
             "uuid": "a03204bd-b974-4464-a7d2-314ea3bff88e",
             "id": "coreaudio_input_capture",
@@ -525,7 +527,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Gain",
                     "uuid": "7c9edbd6-5438-43c1-8fc4-f24946ffaed3",
                     "id": "gain_filter",
@@ -549,7 +551,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Noise Suppression",
                     "uuid": "ed89d654-3ddf-471d-a722-73a32931a613",
                     "id": "noise_suppress_filter",
@@ -573,7 +575,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "3-Band Equaliser",
                     "uuid": "718e2c98-38e5-4188-8a32-478bb1e5890d",
                     "id": "basic_eq_filter",
@@ -600,7 +602,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Expander",
                     "uuid": "f6b0d043-5475-495d-abf8-ee306d265f57",
                     "id": "expander_filter",
@@ -624,7 +626,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Compressor",
                     "uuid": "40933b17-7256-4d25-aebc-36b385f82f94",
                     "id": "compressor_filter",
@@ -653,13 +655,13 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093697,
+                    "prev_ver": 520159234,
                     "name": "Limiter",
                     "uuid": "830fcad7-1ed1-463c-be75-f8b65809bb1a",
                     "id": "limiter_filter",
                     "versioned_id": "limiter_filter",
                     "settings": {
-                        "threshold": -0.10000000000000001
+                        "threshold": -0.1
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -707,11 +709,12 @@
     ],
     "transitions": [],
     "saved_projectors": [],
+    "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": 7,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

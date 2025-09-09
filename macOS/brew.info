@@ -27,9 +27,9 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/stackprof-0.2.27
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.7.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.6.12466/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.6.12466/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.6.12466-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.6.12479/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.6.12479/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.6.12479-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-cobertura-3.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -39,17 +39,17 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-macho-4.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-lsp-0.26.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-sorbet-0.10.5/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-rspec-3.6.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-rspec-3.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-performance-1.25.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-md-2.0.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-1.80.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-1.80.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.1.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.0.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.46.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-sorbet-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.6.12466/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.6.12479/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-github-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-3.13.1/lib
@@ -98,8 +98,8 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/concurrent-ruby-1.3.5/lib/concurrent-ruby
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bindata-2.5.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/bigdecimal-3.2.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.2.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/bigdecimal-3.2.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/benchmark-0.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/base64-0.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ast-2.4.3/lib
@@ -112,7 +112,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-4.6.8
+4.6.10
 ==> macOS
 13.0.1
 ==> SIP
@@ -121,7 +121,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7585 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7586 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -197,4 +197,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-581 kegs, 456,244 files, 21.5GB
+583 kegs, 457,431 files, 21.7GB

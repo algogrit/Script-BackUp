@@ -66,8 +66,8 @@ cp ~/.rbenv/version version-manager-config/rbenv-version
 rbenv rehash
 
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5sum > executables_digest.list 2> /dev/null
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5sum > executables_digest.list 2> /dev/null | echo "completed listing execs with digest"
 
 echo "\033[1;31mSyncing tools...\033[0m"
 ./tool-sync/obs/sync.sh

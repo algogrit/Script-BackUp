@@ -151,8 +151,8 @@ echo "\033[1;31mSyncing tools...\033[0m"
 ./tool-sync/obs/sync.sh
 
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq > executables.list
-ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls #{path}`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null | echo "completed listing execs with digest"
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq > executables.list
+ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5 > executables_digest.list 2> /dev/null | echo "completed listing execs with digest"
 
 echo "\033[1;31mBrew info...\033[0m"
 brew doctor --verbose 2>&1 | tee brew.info

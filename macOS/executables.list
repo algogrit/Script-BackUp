@@ -236,6 +236,7 @@ bdftogd
 bdftopcf
 bdftruncate
 beforelight
+benchmark_app
 benchmark_xl
 bfg
 bg
@@ -1398,7 +1399,6 @@ gyes
 gzcat
 gzexe
 gzip
-h2load
 h2ph
 h2ph5.30
 h2ph5.34
@@ -1521,6 +1521,7 @@ iconutil
 iconv
 ictool
 id
+idea
 identify
 idevice_id
 idevicebackup
@@ -1790,13 +1791,16 @@ kafka-replica-verification
 kafka-run-class
 kafka-server-start
 kafka-server-stop
+kafka-share-consumer-perf-test
 kafka-share-groups
 kafka-storage
 kafka-streams-application-reset
+kafka-streams-groups
 kafka-topics
 kafka-transactions
 kafka-verifiable-consumer
 kafka-verifiable-producer
+kafka-verifiable-share-consumer
 kbxutil
 kcat
 kcc
@@ -2024,7 +2028,7 @@ materialeditor
 mbedtls-benchmark
 mbedtls-selftest
 mclient
-mclient-11.53.3
+mclient-11.53.13
 mconfig
 mcs
 mcxquery
@@ -2100,9 +2104,9 @@ mod-mono-server4
 modutil
 mogrify
 monetdb
-monetdb-11.53.3
+monetdb-11.53.13
 monetdbd
-monetdbd-11.53.3
+monetdbd-11.53.13
 mono
 mono-api-html
 mono-api-info
@@ -2191,7 +2195,7 @@ mruby-config
 mruby-strip
 msbuild
 mserver5
-mserver5-11.53.3
+mserver5-11.53.13
 msgattrib
 msgcat
 msgcmp
@@ -2208,7 +2212,7 @@ msgunfmt
 msguniq
 msiexec
 msqldump
-msqldump-11.53.3
+msqldump-11.53.13
 mtree
 mtvtoppm
 mudraw
@@ -2310,9 +2314,6 @@ nfsd
 nfsiod
 nfsstat
 ngettext
-nghttp
-nghttpd
-nghttpx
 nginx
 ngrok
 nice
@@ -2373,6 +2374,8 @@ odbcinst
 odutil
 oid2name
 oidcalc
+ojph_compress
+ojph_expand
 ollama
 ompi_info
 onig-config
@@ -2409,6 +2412,7 @@ oshrun
 otctl
 otool
 out123
+ovc
 over
 p11-kit
 p11cat

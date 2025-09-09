@@ -367,7 +367,6 @@ nethogs
 netpbm
 nettle
 newt
-nghttp2
 nginx
 ninja
 nlohmann-json
@@ -383,6 +382,7 @@ nss
 numpy
 ollama
 oniguruma
+onnx
 open-mpi
 openblas
 opencore-amr
@@ -393,11 +393,13 @@ openjdk@11
 openjdk@17
 openjdk@21
 openjpeg
+openjph
 openldap
 openslide
 openssl@1.1
 openssl@3
 opentofu
+openvino
 opus
 opusfile
 ossp-uuid
