@@ -106,7 +106,6 @@ bash
 bashbug
 bashreadline-bpfcc
 bashreadline.bt
-bat
 batcat
 bc
 bdftopcf
@@ -1359,7 +1358,6 @@ opensnoop.bt
 openssl
 openvpn
 openvt
-open-webui
 opldecode
 orca
 orca-dm-wrapper
