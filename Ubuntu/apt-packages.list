@@ -84,6 +84,7 @@ python3-venv
 qemu-system-x86
 screen
 shim-signed
+silversearcher-ag
 ssh
 thunderbird-locale-en
 thunderbird-locale-en-gb

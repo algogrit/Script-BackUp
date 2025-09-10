@@ -3,8 +3,10 @@ deepcoder:14b 12bdda054d23 9.0
 deepseek-coder:33b acec7c0b0fd9 18
 deepseek-coder-v2:latest 63fb193b3a9b 8.9
 deepseek-r1:latest 6995872bfe4c 5.2
+dolphin3:latest d5ab9ae8e1f2 4.9
 dolphincoder:15b 1102380927c2 9.1
 gemma3:latest a2af6cc3eb7f 3.3
+gemma3n:latest 15cb39fd9394 7.5
 gpt-oss:120b f7f8e2f8f4e0 65
 gpt-oss:latest aa4295ac10c3 13
 llama3.3:latest a6eb4748fd29 42

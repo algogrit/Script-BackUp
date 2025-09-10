@@ -21,6 +21,7 @@ addpart
 addr2line
 add-shell
 adduser
+ag
 agetty
 airscan-discover
 alsa
