@@ -63,20 +63,19 @@ bash -c "cd ~/vcpkg; git pull"
 
 echo "\033[1;31mCopying over version manager configs...\033[0m"
 rbenv versions > ruby.versions
-nodenv versions > node.versions
 pyenv versions | grep -v "-" > python.versions
 goenv versions > go.versions
 jenv versions > java.versions
 
+fnm ls > node.versions
+
 mkdir -p version-manager-config
 cp /usr/local/var/rbenv/version version-manager-config/rbenv-version
-cp ~/.nodenv/version version-manager-config/nodenv-version
 cp ~/.pyenv/version version-manager-config/pyenv-version
 cp ~/.goenv/version version-manager-config/goenv-version
 cp ~/.jenv/version version-manager-config/jenv-version
 
 rbenv rehash
-nodenv rehash
 pyenv rehash
 goenv rehash
 jenv rehash

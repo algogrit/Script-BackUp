@@ -10,9 +10,8 @@ export ELM_HOME=~/.elm
 export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-## nodenv
-export PATH="$HOME/.nodenv/bin:$PATH"
-if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+## fnm over nodenv
+if which fnm > /dev/null; then eval "$(fnm env --use-on-cd --shell bash)"; fi
 
 ## pyenv
 if which pyenv > /dev/null; then

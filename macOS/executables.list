@@ -415,7 +415,6 @@ clean-diff
 clear
 clef
 clhsdb
-clinic
 clippy-driver
 clj
 cloc
@@ -824,8 +823,6 @@ eyapp
 eyapp5.30
 eyuvtoppm
 f2py
-f2py3
-f2py3.11
 faac
 faad
 factor
@@ -907,6 +904,7 @@ fltk-config
 fltk-options
 fluid
 fmt
+fnm
 fold
 font_cache
 fontrestore
@@ -1895,7 +1893,6 @@ library-packs
 libtool
 link
 linkicc
-lint-openapi
 lipo
 lispmtopgm
 listres
@@ -2327,10 +2324,6 @@ nns
 nnsd
 nnslog
 node
-node-build
-nodenv
-nodenv-install
-nodenv-uninstall
 nodetool
 nohup
 nologin
@@ -3449,7 +3442,6 @@ sendmail
 seq
 serialver
 serverinfo
-serverless
 servertool
 session-manager-plugin
 sessreg
@@ -3533,7 +3525,6 @@ slencheck
 sliceprint
 slidetool
 slogin
-sls
 slsh
 smbd
 smbdiagnose
@@ -3867,12 +3858,6 @@ true
 truncate
 trust
 trustcachectl
-ts-node
-ts-node-cwd
-ts-node-esm
-ts-node-script
-ts-node-transpile-only
-ts-script
 tsc
 tset
 tshark
@@ -3880,7 +3865,6 @@ tsig-keygen
 tsort
 tsserver
 tstclnt
-tsx
 ttx
 tty
 ttygif
@@ -4064,6 +4048,7 @@ wfsctl
 wget
 what
 whatis
+wheel
 wheel3
 wheel3.10
 wheel3.11
@@ -4265,8 +4250,6 @@ yamlpp-parse-emit
 yamlpp-parse-emit5.30
 yapp
 yapp5.30
-yarn
-yarnpkg
 yasm
 yat2m
 ybmtopbm

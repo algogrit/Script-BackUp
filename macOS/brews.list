@@ -111,6 +111,7 @@ flac
 flow
 fltk
 fmt
+fnm
 folly
 fontconfig
 footloose
@@ -372,9 +373,7 @@ ninja
 nlohmann-json
 nmap
 node
-node-build
 node@22
-nodenv
 npth
 nrg2iso
 nspr

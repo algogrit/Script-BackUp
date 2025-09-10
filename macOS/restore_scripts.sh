@@ -13,6 +13,7 @@ function _install_languages {
   cd /tmp
   ACTUAL_WD=$OLDPWD
 
+  ## TODO: Handle nuances in fnm
   # Install just the global version
   cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
   # Set the global version
@@ -31,7 +32,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
-mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.nodenv/bin ~/.elm ~/.vim/autoload
+mkdir -p ~/bin ~/Custom-Git-Commands ~/git-hooks ~/.lein ~/.jenv/bin ~/.elm ~/.vim/autoload
 
 echo "\033[1;31mTapping brews...\033[0m"
 cat $HOME/Script-BackUp/macOS/brew_taps.list | xargs -n 1 brew tap
@@ -175,7 +176,7 @@ fi
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
 LDFLAGS="-L/usr/local/opt/zlib/lib" CPPFLAGS="-I/usr/local/opt/zlib/include" _install_languages python pyenv
-_install_languages node nodenv
+_install_languages node fnm
 _install_languages go goenv
 jenv enable-plugin export
 # jenv installing all the java versions

@@ -17,5 +17,12 @@ if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
 
+_fnm_completion_file=/var/tmp/fnm_completion.bash
+
+if ! [ -f $_fnm_completion_file ]; then
+  fnm completions --shell bash > $_fnm_completion_file
+fi
+. $_fnm_completion_file
+
 # heroku autocomplete setup
 HEROKU_AC_BASH_SETUP_PATH=/Users/gaurav/Library/Caches/heroku/autocomplete/bash_setup && test -f $HEROKU_AC_BASH_SETUP_PATH && source $HEROKU_AC_BASH_SETUP_PATH;
