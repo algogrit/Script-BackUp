@@ -108,6 +108,7 @@ findutils
 firebase-cli
 fizz
 flac
+flatbuffers
 flow
 fltk
 fmt
@@ -156,6 +157,7 @@ go
 gobject-introspection
 goenv
 golang-migrate
+googletest
 gotop
 gource
 gpgme
@@ -430,6 +432,7 @@ pstree
 pugixml
 pv
 pwgen
+pybind11
 pycparser
 pyenv
 pyenv-virtualenv

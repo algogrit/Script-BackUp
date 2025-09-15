@@ -17,7 +17,7 @@ gcenx/wine: Installed
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1,068 files, 697.4KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: de9593f39464979ba3bff70bce2bc628f0a78574
-last commit: 8 days ago
+last commit: 10 days ago
 
 go-testfixtures/tap: Installed
 1 formula
@@ -31,7 +31,7 @@ heroku/brew: Installed
 /opt/homebrew/Library/Taps/heroku/homebrew-brew (332 files, 493.9KB)
 From: https://github.com/heroku/homebrew-brew
 HEAD: 384c25e376fb599380be6d088af8eef5598cafdd
-last commit: 9 days ago
+last commit: 10 days ago
 
 homebrew/bundle: Installed
 No commands/casks/formulae
@@ -59,4 +59,4 @@ weaveworks/tap: Installed
 /opt/homebrew/Library/Taps/weaveworks/homebrew-tap (1,241 files, 807.2KB)
 From: https://github.com/weaveworks/homebrew-tap
 HEAD: 935f9a64f8fc227480c4a5aa95c4deccc0411b80
-last commit: 2 weeks ago
+last commit: 3 weeks ago

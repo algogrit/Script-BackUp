@@ -897,6 +897,7 @@ fizz-bogoshim
 fizz-encryptedrecordbench
 flac
 flash
+flatc
 flex
 flex++
 flow
@@ -2990,13 +2991,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-32.0.0
+protoc-32.1.0
 protoc-gen-upb
-protoc-gen-upb-32.0.0
+protoc-gen-upb-32.1.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-32.0.0
+protoc-gen-upb_minitable-32.1.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-32.0.0
+protoc-gen-upbdefs-32.1.0
 prove
 prove5.30
 prove5.34
@@ -3050,6 +3051,9 @@ pwdecrypt
 pwgen
 pwpolicy
 pybidi
+pybind11-config
+pybind11-config-3.12
+pybind11-config-3.13
 pydoc
 pydoc3
 pydoc3.10
