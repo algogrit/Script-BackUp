@@ -78,6 +78,7 @@ docbook-xsl
 docker-compose
 docker-machine
 doctl
+docutils
 dos2unix
 double-conversion
 doxygen
@@ -97,6 +98,7 @@ exercism
 expat
 faac
 faad2
+fast_float
 fb303
 fbthrift
 fd
@@ -329,6 +331,7 @@ luajit-openresty
 luv
 lynx
 lz4
+lzip
 lzlib
 lzo
 m4
@@ -336,6 +339,7 @@ macos-term-size
 mad
 make
 mas
+maturin
 maven
 mbedtls
 md4c
@@ -443,6 +447,7 @@ python-certifi
 python-cryptography
 python-markdown
 python-packaging
+python-setuptools
 python@3.10
 python@3.11
 python@3.12
@@ -471,6 +476,7 @@ rtmpdump
 rubberband
 ruby
 ruby-build
+rust
 rustup
 rustup-init
 s-lang

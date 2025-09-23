@@ -22,7 +22,6 @@ mechatroner.rainbow-csv
 mikestead.dotenv
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
-ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -38,7 +37,6 @@ pgourlain.erlang
 redhat.java
 redhat.vscode-yaml
 rust-lang.rust-analyzer
-saoudrizwan.claude-dev
 shakram02.bash-beautify
 tauri-apps.tauri-vscode
 tomoki1207.pdf
