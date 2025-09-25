@@ -24,6 +24,7 @@ awscli@1
 bash
 bash-completion
 bat
+bchunk
 bdw-gc
 berkeley-db
 berkeley-db@5
@@ -321,6 +322,7 @@ libxrender
 libxtst
 libyaml
 libzip
+lit
 little-cms2
 llvm
 logstash-full

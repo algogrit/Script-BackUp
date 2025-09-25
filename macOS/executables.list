@@ -228,6 +228,7 @@ bashbug
 bat
 batch
 bc
+bchunk
 bcomps
 bd_info
 bd_list_titles
@@ -1234,6 +1235,7 @@ gnohup
 gnproc
 gnumake
 gnumfmt
+gnupg-key-manage
 gnuplot
 gnutls-certtool
 gnutls-cli
@@ -1899,6 +1901,7 @@ lipo
 lispmtopgm
 listres
 listsuites
+lit
 lldb
 llvm-g++
 llvm-gcc
@@ -1996,8 +1999,6 @@ macerror5.30
 machine
 macpack
 macptopbm
-macupdater_client
-macupdater_install
 magick
 magick-script
 mail
