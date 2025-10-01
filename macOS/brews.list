@@ -86,7 +86,6 @@ doxygen
 dtc
 duktape
 dvdbackup
-edencommon
 eigen
 eksctl
 elixir
@@ -100,19 +99,15 @@ expat
 faac
 faad2
 fast_float
-fb303
-fbthrift
 fd
 ffmpeg
 ffmpeg@7
 fftw
 figlet
 findutils
-firebase-cli
 fizz
 flac
 flatbuffers
-flow
 fltk
 fmt
 fnm
@@ -184,6 +179,7 @@ hicolor-icon-theme
 highway
 hr
 htop
+httpd
 hub
 hugo
 hunspell
@@ -245,6 +241,7 @@ libdeflate
 libdicom
 libdvdcss
 libdvdread
+libebml
 libev
 libevent
 libexif
@@ -264,6 +261,7 @@ libksba
 liblinear
 liblqr
 libmatio
+libmatroska
 libmetalink
 libmicrohttpd
 libmng
@@ -351,6 +349,7 @@ mercurial
 meson
 metis
 minikube
+mkvtoolnix
 molten-vk
 monetdb
 most
@@ -520,6 +519,7 @@ svt-av1
 swagger-codegen
 swi-prolog
 swiftlint
+swig
 szip
 tbb
 tcl-tk
@@ -570,7 +570,6 @@ w3m
 wakeonlan
 wangle
 watch
-watchman
 webp
 websocat
 wget

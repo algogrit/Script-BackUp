@@ -149,6 +149,7 @@ appsleepd
 aprofutil
 apropos
 apt
+apxs
 ar
 arch
 aria2c
@@ -353,6 +354,7 @@ cassandra
 cassandra-stress
 cat
 cc
+ccache-swig
 cccheck
 ccmake
 ccomps
@@ -887,7 +889,6 @@ findrule
 findrule5.30
 finger
 fipstest
-firebase
 firmwarepasswd
 fitscopy
 fitstopnm
@@ -902,7 +903,6 @@ flash
 flatc
 flex
 flex++
-flow
 fltk-config
 fltk-options
 fluid
@@ -2096,6 +2096,10 @@ mklocale
 mknod
 mkpassdb
 mktemp
+mkvextract
+mkvinfo
+mkvmerge
+mkvpropedit
 mm2gv
 mmdbresolve
 mnthome
@@ -3703,6 +3707,7 @@ strsclnt
 stty
 su
 sudo
+suexec
 suitesparse_mongoose
 sum
 sunicontopnm
@@ -3729,6 +3734,7 @@ swift
 swift-inspect
 swiftc
 swiftlint
+swig
 swipl
 swipl-ld
 sxpm
@@ -3798,7 +3804,6 @@ tftp
 tgatoppm
 thermal
 thinkjettopbm
-thrift1
 tic
 tidy
 tidy_changelog
@@ -4045,12 +4050,6 @@ wakeonlan
 wall
 watch
 watchgnupg
-watchman
-watchman-diag
-watchman-make
-watchman-replicate-subscription
-watchman-wait
-watchmanctl
 wavfilter
 wavinfo
 wavrms
@@ -4069,12 +4068,9 @@ what
 whatis
 wheel
 wheel3
-wheel3.10
-wheel3.11
 wheel3.12
 wheel3.13
 wheel3.8
-wheel3.9
 whereis
 which
 whiptail
