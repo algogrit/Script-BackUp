@@ -180,11 +180,6 @@ Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
 
-Warning: You have unlinked kegs in your Cellar.
-Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
-those kegs to fail to run properly once built. Run `brew link` on these:
-  pdftohtml
-
 Warning: Some installed formulae are not readable:
   elastic/tap/logstash-full: undefined method 'plist_options' for class Formulary::FormulaNamespace452874f3e2a2a0ba1e7968b9a66f8d724b45fed4b01c55052e14162aa2a549db::LogstashFull
 
@@ -207,4 +202,4 @@ This is a Tier 2 configuration:
 You can report Tier 2 unrelated issues to Homebrew/* repositories!
 Read the above document instead before opening any issues or PRs.
 
-593 kegs, 464,695 files, 22.4GB
+576 kegs, 463,185 files, 21.9GB

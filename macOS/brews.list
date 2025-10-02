@@ -18,7 +18,6 @@ atk
 autoconf
 autoenv
 automake
-avro-c
 aws-iam-authenticator
 awscli@1
 bash
@@ -50,7 +49,6 @@ cfitsio
 cgif
 cgns
 chicken
-circleci
 cjson
 cloc
 clojure
@@ -164,11 +162,9 @@ gpp
 gradle
 graphicsmagick
 graphite2
-graphviz
 grep
 gti
 gtk+
-gts
 guile
 harfbuzz
 hdf5
@@ -211,7 +207,6 @@ juju
 juju-wait
 k3d
 kafka
-kcat
 keepassc
 kind
 kompose
@@ -272,7 +267,6 @@ libnghttp3
 libngtcp2
 libogg
 libomp
-libplacebo
 libplist
 libpng
 libproxy
@@ -283,7 +277,6 @@ librist
 librsvg
 libsamplerate
 libscrypt
-libserdes
 libslirp
 libsndfile
 libsodium
@@ -350,7 +343,6 @@ meson
 metis
 minikube
 mkvtoolnix
-molten-vk
 monetdb
 most
 mozjpeg
@@ -361,7 +353,6 @@ mpdecimal
 mpfr
 mpg123
 mplayer
-mpv
 msgpack
 mujs
 mupdf-tools
@@ -373,7 +364,6 @@ ncurses
 neovim
 netcdf
 nethogs
-netpbm
 nettle
 newt
 nginx
@@ -413,12 +403,10 @@ ossp-uuid
 p11-kit
 p7zip
 pack
-pandoc
 pango
 passenger
 pcre
 pcre2
-pdftohtml
 perl
 pinentry
 pixman
@@ -456,7 +444,6 @@ python@3.13
 python@3.8
 python@3.9
 pyyaml
-qcachegrind
 qemu
 qhull
 qpdf
@@ -491,7 +478,6 @@ sdl2_image
 sdl_image
 sendemail
 sha2
-shaderc
 shared-mime-info
 siege
 simdjson
@@ -564,8 +550,6 @@ vim
 vimpager
 vips
 vtk
-vulkan-headers
-vulkan-loader
 w3m
 wakeonlan
 wangle
@@ -584,7 +568,6 @@ xorgproto
 xvid
 xxhash
 xz
-yajl
 yasm
 youtube-dl
 yq
