@@ -84,6 +84,7 @@ adf2hdf
 adig
 aea
 aead_demo
+afcclient
 afclip
 afconvert
 affixcompress
@@ -1459,10 +1460,12 @@ identify
 idevice_id
 idevicebackup
 idevicebackup2
+idevicebtlogger
 idevicecrashreport
 idevicedate
 idevicedebug
 idevicedebugserverproxy
+idevicedevmodectl
 idevicediagnostics
 ideviceenterrecovery
 ideviceimagemounter
@@ -1482,6 +1485,7 @@ idle3.10
 idle3.11
 idle3.12
 idle3.13
+idle3.14
 idle3.8
 idle3.9
 idlj
@@ -2482,6 +2486,7 @@ pip3.10
 pip3.11
 pip3.12
 pip3.13
+pip3.14
 pip3.8
 pip3.9
 piv-tool
@@ -2667,6 +2672,7 @@ pydoc3.10
 pydoc3.11
 pydoc3.12
 pydoc3.13
+pydoc3.14
 pydoc3.8
 pydoc3.9
 pyenv
@@ -2716,6 +2722,8 @@ python3.12
 python3.12-config
 python3.13
 python3.13-config
+python3.14
+python3.14-config
 python3.8
 python3.8-config
 python3.9
@@ -3635,9 +3643,9 @@ wget
 what
 whatis
 wheel
-wheel3
 wheel3.12
 wheel3.13
+wheel3.14
 wheel3.8
 whereis
 which

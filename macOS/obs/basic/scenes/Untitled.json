@@ -315,7 +315,7 @@
             "id": "coreaudio_input_capture",
             "versioned_id": "coreaudio_input_capture",
             "settings": {
-                "device_id": "AppleUSBAudioEngine:CMEDIA:USB PnP Audio Device:2100000:1"
+                "device_id": "74-15-F5-3B-64-D4:input"
             },
             "mixers": 255,
             "sync": 0,

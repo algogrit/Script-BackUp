@@ -285,6 +285,7 @@ libspng
 libssh
 libssh2
 libtasn1
+libtatsu
 libtermkey
 libtiff
 libtommath
@@ -392,6 +393,7 @@ openjdk@21
 openjpeg
 openjph
 openldap
+opensc
 openslide
 openssl@1.1
 openssl@3
@@ -441,6 +443,7 @@ python@3.10
 python@3.11
 python@3.12
 python@3.13
+python@3.14
 python@3.8
 python@3.9
 pyyaml
