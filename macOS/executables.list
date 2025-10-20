@@ -153,6 +153,8 @@ aria2c
 arp
 as
 asa
+asciidoctor
+asciidoctor-pdf
 asciinema
 aslmanager
 asn1Coding
@@ -1662,7 +1664,6 @@ jstatd
 juju
 juju-metadata
 juju-wait
-julia
 jupyter
 jupyter-bundlerextension
 jupyter-console
@@ -1883,7 +1884,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1753364724
+luajit-2.1.1760617492
 luit
 lupdate
 lwp-download
@@ -2606,13 +2607,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-32.1.0
+protoc-33.0.0
 protoc-gen-upb
-protoc-gen-upb-32.1.0
+protoc-gen-upb-33.0.0
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-32.1.0
+protoc-gen-upb_minitable-33.0.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-32.1.0
+protoc-gen-upbdefs-33.0.0
 prove
 prove5.30
 prove5.34
@@ -2664,8 +2665,8 @@ pwgen
 pwpolicy
 pybidi
 pybind11-config
-pybind11-config-3.12
 pybind11-config-3.13
+pybind11-config-3.14
 pydoc
 pydoc3
 pydoc3.10
@@ -3410,7 +3411,6 @@ tiffsplit
 tiffutil
 tificc
 tig
-tilt
 time
 timeout
 timer_analyser.d

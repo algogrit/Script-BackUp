@@ -11,6 +11,7 @@ apr
 apr-util
 aria2
 aribb24
+asciidoctor
 asciinema
 assimp
 at-spi2-core
@@ -55,6 +56,7 @@ clojure
 cloog
 cmake
 cmocka
+cmrc
 cmus
 cocoapods
 code-server
@@ -271,6 +273,7 @@ libplist
 libpng
 libproxy
 libpthread-stubs
+libptytty
 libraw
 librdkafka
 librist
@@ -524,7 +527,6 @@ texinfo
 the_silver_searcher
 theora
 tig
-tilt
 tmux
 tor
 torsocks
