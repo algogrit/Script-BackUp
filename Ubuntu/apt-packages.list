@@ -103,4 +103,6 @@ vim
 virt-manager
 virtinst
 wimtools
+wine
+winetricks
 zlib1g-dev

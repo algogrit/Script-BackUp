@@ -1,5 +1,8 @@
 
 [
+7z
+7za
+7zr
 aa-enabled
 aa-exec
 aa-features-abi
@@ -106,7 +109,6 @@ bash
 bashbug
 bashreadline-bpfcc
 bashreadline.bt
-bat
 batcat
 bc
 bdftopcf
@@ -187,6 +189,7 @@ c89
 c89-gcc
 c99
 c99-gcc
+cabextract
 cache_check
 cache_dump
 cache_metadata_size
@@ -574,6 +577,7 @@ funcinterval-bpfcc
 funclatency-bpfcc
 funcslower-bpfcc
 funzip
+fuseiso
 fuser
 fusermount
 fusermount3
@@ -1241,6 +1245,8 @@ mscompress
 msexpand
 mshortname
 mshowfat
+msiexec
+msiexec-stable
 mt
 mt-gnu
 mtools
@@ -1332,6 +1338,7 @@ nvidia-cuda-mps-server
 nvidia-debugdump
 nvidia-detector
 nvidia-ngx-updater
+nvidia-pcc
 nvidia-persistenced
 nvidia-powerd
 nvidia-settings
@@ -1359,7 +1366,6 @@ opensnoop.bt
 openssl
 openvpn
 openvt
-open-webui
 opldecode
 orca
 orca-dm-wrapper
@@ -1367,6 +1373,7 @@ osirrox
 os-prober
 ownership
 p11-kit
+p7zip
 pacat
 pacmd
 pactl
@@ -1664,7 +1671,11 @@ readprofile
 realpath
 reboot
 red
+regedit
+regedit-stable
 register-python-argcomplete
+regsvr32
+regsvr32-stable
 remmina
 remmina-file-wrapper
 remmina-gnome
@@ -2255,6 +2266,23 @@ wimsplit
 wimunmount
 wimupdate
 wimverify
+wine
+wineboot
+wineboot-stable
+winecfg
+winecfg-stable
+wineconsole
+wineconsole-stable
+winedbg
+winedbg-stable
+winefile
+winefile-stable
+winepath
+winepath-stable
+wineserver
+wineserver-stable
+wine-stable
+winetricks
 wipefs
 wireplumber
 word-list-compress

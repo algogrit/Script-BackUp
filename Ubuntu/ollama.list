@@ -7,8 +7,8 @@ dolphin3:latest d5ab9ae8e1f2 4.9
 dolphincoder:15b 1102380927c2 9.1
 gemma3:latest a2af6cc3eb7f 3.3
 gemma3n:latest 15cb39fd9394 7.5
-gpt-oss:120b f7f8e2f8f4e0 65
-gpt-oss:latest aa4295ac10c3 13
+gpt-oss:120b a951a23b46a1 65
+gpt-oss:latest 17052f91a42e 13
 llama3.3:latest a6eb4748fd29 42
 mistral:latest 6577803aa9a0 4.4
 mistral-small3.1:latest b9aaf0c2586a 15
@@ -19,8 +19,8 @@ qwen2.5-coder:32b b92d6a0bd47e 19
 qwen2.5-coder:7b dae161e27b0e 4.7
 qwen2.5vl:latest 5ced39dfa4ba 6.0
 qwen3:14b bdbd181c33f2 9.3
-qwen3:30b e50831eb2d91 18
+qwen3:30b ad815644918f 18
 qwen3:32b 030ee887880f 20
-qwen3-coder:latest ad67f85ca250 18
+qwen3-coder:latest 06c1097efce0 18
 starcoder2:15b 21ae152d49e0 9.1
 wizardcoder:33b 5b944d3546ee 18
