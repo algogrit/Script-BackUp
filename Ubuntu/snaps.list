@@ -12,7 +12,7 @@ gnome-46-2404              0+git.4ca00c0-sdk0+git.df43897  125    latest/stable 
 gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/…  canonical**    -
 mesa-2404                  25.0.7-snap211                  1165   latest/stable    canonical**    -
 obs-studio                 32.0.0                          1314   latest/stable    snapcrafters*  -
-ollama                     v0.12.7                         88     latest/stable    mz2            -
+ollama                     v0.12.9                         90     latest/stable    mz2            -
 snap-store                 0+git.90575829                  1270   2/stable/…       canonical**    -
 snapd                      2.72                            25577  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             315    latest/stable/…  canonical**    -
