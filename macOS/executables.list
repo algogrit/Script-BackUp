@@ -39,6 +39,7 @@ Linguist
 Magick++-config
 MagickCore-config
 MagickWand-config
+MoltenVKShaderConverter
 PasswordService
 R
 ResMerger
@@ -330,7 +331,11 @@ captoinfo
 captype
 cardos-tool
 cargo
+cargo-capi
+cargo-cbuild
+cargo-cinstall
 cargo-clippy
+cargo-ctest
 cargo-fmt
 cargo-miri
 carthage
@@ -346,6 +351,7 @@ ccmake
 ccrewrite
 cct
 cd
+cdiff
 cert-sync
 cert2spc
 cert_app
@@ -424,6 +430,7 @@ col
 col1
 colcrt
 colldef
+colordiff
 colortail
 colrm
 column
@@ -1884,7 +1891,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1760617492
+luajit-2.1.1761727121
 luit
 lupdate
 lwp-download
@@ -3564,6 +3571,7 @@ vagrant
 vagrant-go
 validation
 vbc
+vbindiff
 vbnc
 vbnc2
 vcpkg

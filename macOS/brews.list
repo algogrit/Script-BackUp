@@ -40,6 +40,7 @@ cabextract
 caddy
 cairo
 capstone
+cargo-c
 carthage
 cask-repair
 cassandra
@@ -60,6 +61,7 @@ cmrc
 cmus
 cocoapods
 code-server
+colordiff
 colortail
 coreutils
 cppunit
@@ -347,6 +349,7 @@ meson
 metis
 minikube
 mkvtoolnix
+molten-vk
 monetdb
 most
 mozjpeg
@@ -456,6 +459,7 @@ qpdf
 qrupdate
 qt
 qt@5
+qtbase
 r
 rabbitmq
 rav1e
@@ -548,6 +552,7 @@ uv
 uvwasi
 v8
 vapoursynth
+vbindiff
 vcpkg
 vde
 veclibfort
@@ -555,6 +560,7 @@ vim
 vimpager
 vips
 vtk
+vulkan-headers
 w3m
 wakeonlan
 wangle
