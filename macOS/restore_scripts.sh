@@ -48,6 +48,7 @@ echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/macOS/brews.list | xargs brew install || brew upgrade
 
 echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
+brew install mas
 cat "$HOME/Script-BackUp/macOS/mas.list" | cut -d ' ' -f 1 | xargs -n 1 mas install || exit 1
 
 echo "\033[1;31mAll Good? (Y/n)\033[0m"
