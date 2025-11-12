@@ -1,9 +1,5 @@
   system
-  1.8.0.302
-  11
-  11.0
-  11.0.12
-* 23.0.2 (set by /Users/gaurav/.jenv/version)
-  openjdk64-11.0.12
-  openjdk64-23.0.2
-  temurin64-1.8.0.302
+  25
+  25.0
+* 25.0.1 (set by /Users/gaurav/.jenv/version)
+  openjdk64-25.0.1

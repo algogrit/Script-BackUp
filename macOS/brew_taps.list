@@ -3,7 +3,5 @@ elastic/tap
 gcenx/wine
 go-testfixtures/tap
 heroku/brew
-homebrew/bundle
-homebrew/services
 vitorgalvao/tiny-scripts
 weaveworks/tap

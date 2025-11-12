@@ -22,7 +22,10 @@ mechatroner.rainbow-csv
 mikestead.dotenv
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
+ms-python.debugpy
 ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.cmake-tools
@@ -46,7 +49,9 @@ visualstudioexptteam.vscodeintellicode
 vscjava.migrate-java-to-azure
 vscjava.vscode-gradle
 vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
+vscjava.vscode-java-test
 vscjava.vscode-java-upgrade
 vscjava.vscode-maven
 yuce.erlang-otp

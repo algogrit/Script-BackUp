@@ -5,6 +5,7 @@ blackhole-16ch
 caffeine
 claude
 coconutbattery
+cursor
 discord
 disk-drill
 distroav
@@ -24,7 +25,8 @@ mono-mdk
 ngrok
 obs
 odrive
-spectacle
+opensc-app
+rectangle
 steam
 stremio
 synology-chat
@@ -34,14 +36,14 @@ the-unarchiver
 thunderbird
 tor-browser
 transmission
-usage
 usage-app
 utm
+vagrant
 vb-cable
 visual-studio-code
 vlc
+vnc-viewer
 wine-crossover
-wireshark
 wireshark-app
 xquartz
 zoho-mail
