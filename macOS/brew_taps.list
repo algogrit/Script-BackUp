@@ -1,7 +1,1 @@
-buildpacks/tap
-elastic/tap
 gcenx/wine
-go-testfixtures/tap
-heroku/brew
-vitorgalvao/tiny-scripts
-weaveworks/tap

@@ -1,0 +1,103 @@
+#!/usr/bin/env bash
+set -e
+
+# Defaults
+max_size=$((2 * 1024 * 1024))   # 2 MiB
+resize="612x800"
+quality=55
+min_quality=20
+out="out.pdf"
+no_convert=0
+
+usage() {
+    cat <<EOF
+shrinktopdf - Convert or combine images into a PDF under a target size
+
+Usage: shrinktopdf [options] file1.png file2.jpg ...
+
+Modes:
+  Default mode: convert + compress + shrink PDF < target size.
+  --no-convert: merge images AS-IS into a PDF (no resize/quality changes).
+
+Options:
+  -o <file>    Output PDF file (default: out.pdf)
+  -s <bytes>   Max PDF size (default: 2 MiB)
+  -r <WxH>     Resize (default: 612x800) [ignored in --no-convert]
+  -q <num>     Starting quality (default: 55) [ignored in --no-convert]
+  -m <num>     Minimum quality (default: 20)
+  -N           Do NOT convert/resize/compress images; merge them as-is (Recover using: 'pdfimages -all out.pdf extracted')
+  -h           Help
+EOF
+    exit 0
+}
+
+# Parse args
+while getopts "o:s:r:q:m:Nh" opt; do
+    case "$opt" in
+        o) out="$OPTARG" ;;
+        s) max_size="$OPTARG" ;;
+        r) resize="$OPTARG" ;;
+        q) quality="$OPTARG" ;;
+        m) min_quality="$OPTARG" ;;
+        N) no_convert=1 ;;
+        h) usage ;;
+    esac
+done
+shift $((OPTIND - 1))
+
+# Inputs
+if [ $# -eq 0 ]; then
+    echo "Error: No input images provided."
+    echo "Try: shrinktopdf -h"
+    exit 1
+fi
+inputs=("$@")
+
+# AS-IS mode (no conversion)
+if [[ $no_convert -eq 1 ]]; then
+    echo "📄 Creating PDF from images as-is..."
+    magick "${inputs[@]}" "$out"
+
+    size=$(stat -c%s "$out" 2>/dev/null || stat -f%z "$out")
+    echo "✔ Created $out ($((size/1024)) KiB) with no conversion."
+    exit 0
+fi
+
+# Conversion + shrink mode
+tmpdir=$(mktemp -d)
+trap "rm -rf $tmpdir" EXIT
+
+try_quality=$quality
+
+while :; do
+    rm -f "$out"
+
+    # Convert inputs → JPEGs
+    for f in "${inputs[@]}"; do
+        base=$(basename "$f")
+        base="${base%.*}"
+
+        magick "$f" -resize "$resize" -quality "$try_quality" \
+            "$tmpdir/$base.jpg"
+    done
+
+    # Create PDF
+    magick -density 72 "$tmpdir"/*.jpg \
+        -compress JPEG -quality "$try_quality" "$out"
+
+    # Size check
+    size=$(stat -c%s "$out" 2>/dev/null || stat -f%z "$out")
+
+    if [ "$size" -lt "$max_size" ]; then
+        echo "✔ Success: $out is $((size/1024)) KiB (quality=$try_quality)"
+        exit 0
+    fi
+
+    echo "PDF too large ($((size/1024)) KiB). Lowering quality..."
+
+    try_quality=$((try_quality - 5))
+    if [ "$try_quality" -lt "$min_quality" ]; then
+        echo "✘ Could not reduce under $max_size bytes even at quality=$try_quality"
+        exit 1
+    fi
+done

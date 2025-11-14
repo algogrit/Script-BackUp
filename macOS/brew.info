@@ -112,7 +112,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-5.0.0
+5.0.1
 ==> macOS
 15.7.2
 ==> SIP
@@ -121,7 +121,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7656 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7657 casks)
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
 If you didn't put them there on purpose they could cause problems when
@@ -129,4 +129,4 @@ building Homebrew formulae and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libndi.dylib
-260 kegs, 161,368 files, 6.9GB
+274 kegs, 162,792 files, 7.1GB

@@ -21,6 +21,8 @@ ac
 accton
 ack
 actool
+addbuiltin
+addgnupghome
 adig
 aea
 aead_demo
@@ -58,6 +60,7 @@ appleh13camerad
 appleh16camerad
 applesingle
 apply
+applygnupgdefaults
 appres
 appsleepd
 aprofutil
@@ -83,6 +86,7 @@ AssetCacheManagerUtil
 AssetCacheTetheratorUtil
 assetutil
 at
+atob
 atobm
 atos
 atq
@@ -119,6 +123,7 @@ awk
 b2sum
 b64decode
 b64encode
+baddbdir
 banner
 base32
 base64
@@ -148,6 +153,7 @@ bitesize.d
 bitmap
 bjoentegaard
 bless
+bltest
 BlueTool
 bluetoothd
 bm4
@@ -162,6 +168,7 @@ bsdtar
 bspatch
 BTLEServer
 BTLEServerAgent
+btoa
 bundle
 bundler
 bunzip2
@@ -219,12 +226,14 @@ cert-sync
 cert2spc
 certmgr
 certtool
+certutil
 cfprefsd
 chat
 checkgid
 chflags
 chfn
 chgrp
+chktest
 chktrust
 chmod
 chown
@@ -249,6 +258,7 @@ clj
 clojure
 cmp
 cmpdylib
+cmsutil
 cntraining
 code
 code-tunnel
@@ -273,6 +283,7 @@ compress
 compression_tool
 config_data
 config_data5.34
+conflict
 conjure
 convert
 convertfilestopdf
@@ -285,6 +296,7 @@ converttops
 coreaudiod
 corelist
 corelist5.34
+corepack
 cp
 cpan
 cpan5.34
@@ -302,6 +314,8 @@ createhomedir
 critcl
 crl_app
 crlrefresh
+crlutil
+crmftest
 cron
 crontab
 crypt_and_hash
@@ -384,6 +398,8 @@ dbmmanage
 dbsessmgr
 dbsessmgr2
 dbsessmgr4
+dbtest
+dbtool
 dc
 dcraw_emu
 dcraw_half
@@ -397,8 +413,10 @@ defaults
 delv
 demandoc
 deno
+derdump
 DeRez
 derq
+dertimetest
 desdp
 dev_mkdb
 devmodectl
@@ -414,8 +432,11 @@ diff
 diff3
 diffstat
 dig
+digest
 DirectoryService
 direnv
+dirmngr
+dirmngr-client
 dirname
 disco
 disklabel
@@ -465,6 +486,7 @@ dtruss
 dtrust-tool
 du
 dumpcap
+dumpsexp
 dvd2concat
 dwarfdump
 dwebp
@@ -477,6 +499,7 @@ ebrowse
 ecdh_curve25519
 ecdsa
 echo
+ecperf
 ed
 editcap
 editres
@@ -496,6 +519,7 @@ enc2xs5.34
 encguess
 encguess5.34
 encode_keychange
+encodeinttest
 enum_options
 env
 envsubst
@@ -539,6 +563,7 @@ fastcgi-mono-server2
 fastcgi-mono-server4
 fax2ps
 fax2tiff
+fbectest
 fc
 fc-cache
 fc-cat
@@ -572,6 +597,7 @@ find
 findrule
 findrule5.34
 finger
+fipstest
 firefox
 firmwarepasswd
 fix-qdf
@@ -843,6 +869,7 @@ gnohup
 gnproc
 gnumake
 gnumfmt
+gnupg-key-manage
 gnutls-certtool
 gnutls-cli
 gnutls-cli-debug
@@ -860,6 +887,26 @@ gource
 gpaste
 gpathchk
 gperf
+gpg
+gpg-agent
+gpg-card
+gpg-connect-agent
+gpg-error
+gpg-error-config
+gpg-mail-tube
+gpg-wks-client
+gpg-wks-server
+gpgconf
+gpgme-config
+gpgme-json
+gpgme-tool
+gpgparsemail
+gpgrt-config
+gpgscm
+gpgsm
+gpgsplit
+gpgtar
+gpgv
 gpinky
 gpr
 gprintenv
@@ -953,6 +1000,7 @@ hexdump
 hidutil
 hiutil
 hmac_demo
+hmac256
 host
 hostid
 hostinfo
@@ -971,6 +1019,7 @@ htpasswd
 httpcfg
 httpd
 httpd-wrapper
+httpserv
 httxt2dbm
 hub-tool
 iasecc-tool
@@ -1127,6 +1176,7 @@ jxl_from_tree
 jxlinfo
 kadmin
 kadmin.local
+kbxutil
 kcc
 kcditto
 kdcsetup
@@ -1158,6 +1208,7 @@ koi8rxterm
 kpasswd
 krb5-config
 krbservicesetup
+ksba-config
 ksh
 kswitch
 ktrace
@@ -1196,8 +1247,10 @@ less
 lessecho
 lesskey
 lex
+libassuan-config
 libdeflate-gunzip
 libdeflate-gzip
+libgcrypt-config
 libnetcfg
 libnetcfg5.34
 libpng-config
@@ -1207,6 +1260,7 @@ link
 linkicc
 lipo
 listres
+listsuites
 lldb
 llvm-g++
 llvm-gcc
@@ -1299,10 +1353,12 @@ mailx
 make
 make_chlayout_test
 makecert
+makepqg
 malloc_history
 man
 mandoc
 mandoc_soelim
+mangle
 manpath
 mas
 masqreq
@@ -1369,6 +1425,7 @@ mod-mono-server2
 mod-mono-server4
 modelcatalogdump
 modelmanagerdump
+modutil
 mogrify
 mono
 mono-api-html
@@ -1425,6 +1482,7 @@ mp3wrap
 mpg123
 mpg123-id3dump
 mpg123-strip
+mpicalc
 mpioutil
 mplayer
 mprof-report
@@ -1451,6 +1509,7 @@ msgunfmt
 msguniq
 msiexec
 mtree
+multinit
 multirender_test
 murge
 mv
@@ -1513,6 +1572,7 @@ nnslog
 node
 nohup
 nologin
+nonspr10
 normalize.py
 notepad
 notifyd
@@ -1524,6 +1584,10 @@ nproc
 npx
 nscurl
 nslookup
+nspr-config
+nss-config
+nss-policy-check
+nssdefaults
 nsupdate
 nuget
 numfmt
@@ -1533,12 +1597,15 @@ objdump
 obs
 oclock
 ocspcheck
+ocspclnt
 ocspd
+ocspresp
 ocsptool
 od
 odbc_config
 odbcinst
 odutil
+oidcalc
 ojph_compress
 ojph_expand
 ollama
@@ -1586,6 +1653,10 @@ p11slotinfo
 p11tool
 p11unwrap
 p11wrap
+p7content
+p7env
+p7sign
+p7verify
 pack200
 package-stash-conflicts
 package-stash-conflicts5.34
@@ -1621,6 +1692,19 @@ pcregrep
 pcretest
 pcsctest
 pdb2mdb
+pdfattach
+pdfdetach
+pdffonts
+pdfimages
+pdfinfo
+pdfseparate
+pdfsig
+pdftocairo
+pdftohtml
+pdftoppm
+pdftops
+pdftotext
+pdfunite
 pdisk
 pedump
 pem2der
@@ -1642,6 +1726,9 @@ pico
 piconv
 piconv5.34
 pidpersec.d
+pinentry
+pinentry-curses
+pinentry-tty
 ping
 ping6
 pinky
@@ -1658,6 +1745,12 @@ pk_decrypt
 pk_encrypt
 pk_sign
 pk_verify
+pk11ectest
+pk11gcmtest
+pk11importtest
+pk11mode
+pk12util
+pk1sign
 pkcs1-conv
 pkcs11-register
 pkcs11-tool
@@ -1669,6 +1762,7 @@ pkgbuild
 pkgconf
 pkgutil
 pkill
+pkix-errcodes
 pktdumper
 pl
 pl2pm
@@ -1762,6 +1856,7 @@ ptx
 purge
 pwd
 pwd_mkdb
+pwdecrypt
 pwpolicy
 pydoc
 pydoc3
@@ -1874,6 +1969,8 @@ recode-sr-latin
 regedit
 regsvr32
 regview
+remtest
+rename-files
 render_hlg
 renice
 reordercap
@@ -1915,6 +2012,8 @@ rsa_sign
 rsa_sign_pss
 rsa_verify
 rsa_verify_pss
+rsaperf
+rsapoptst
 Rscript
 rsync
 rsync-ssl
@@ -1970,11 +2069,14 @@ screencapture
 script
 scselect
 scutil
+sdbthreadtst
 sdef
 sdiff
 sdl2-config
 sdp
+sdrtest
 sdx
+secmodtest
 security
 securityd
 secutil
@@ -1982,6 +2084,7 @@ sed
 seek_print
 seeksize.d
 segedit
+selfserv
 senddoc
 sendmail
 seq
@@ -2019,17 +2122,21 @@ sharkd
 shasum
 shasum5.34
 shazam
+shlibsign
 shlock
 shortcuts
 showfont
 showmount
 showrgb
 shred
+shrinktopdf
 shuf
 shutdown
 sidxindex
 sigdist.d
 signcode
+signtool
+signver
 simple_dcraw
 sips
 size
@@ -2137,6 +2244,7 @@ ssl_mail_client
 ssl_pthread_server
 ssl_server
 ssl_server2
+ssltap
 sso_util
 stapler
 startx
@@ -2149,6 +2257,7 @@ strerror
 stringdups
 strings
 strip
+strsclnt
 stty
 stz
 su
@@ -2175,6 +2284,7 @@ swiftc
 sxpm
 symbols
 symbolscache
+symkeyutil
 sync
 syntax_suggest
 sysadminctl
@@ -2294,6 +2404,7 @@ tset
 tshark
 tsig-keygen
 tsort
+tstclnt
 tty
 twm
 type
@@ -2377,11 +2488,14 @@ uv
 uvx
 uxterm
 vagrant
+validation
 vbc
 vbnc
 vbnc2
 vcpkg
 venc_data_dump
+vfychain
+vfyserv
 vi
 view
 viewdiagnostic
@@ -2412,6 +2526,7 @@ wait4path
 wakeonlan
 wall
 watch
+watchgnupg
 wc
 wdutil
 weakpass_edit
@@ -2601,6 +2716,7 @@ yamlpp-parse-emit
 yamlpp-parse-emit5.34
 yapp
 yapp5.34
+yat2m
 yes
 yq
 yt-dlp

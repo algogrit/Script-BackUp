@@ -55,10 +55,13 @@ git-svn
 glew
 glib
 gmp
+gnupg
 gnutls
 go
 goenv
 gource
+gpgme
+gpgmepp
 gradle
 graphite2
 grep
@@ -67,6 +70,7 @@ helm
 highway
 htop
 icu4c@77
+icu4c@78
 imagemagick
 imath
 imlib2
@@ -83,6 +87,7 @@ leptonica
 less
 libarchive
 libass
+libassuan
 libavif
 libb2
 libbluray
@@ -90,10 +95,13 @@ libcaca
 libde265
 libdeflate
 libevent
+libgcrypt
 libgit2
+libgpg-error
 libheif
 libid3tag
 libidn2
+libksba
 liblinear
 liblqr
 libmicrohttpd
@@ -122,6 +130,7 @@ libtool
 libudfread
 libunibreak
 libunistring
+libusb
 libuv
 libvidstab
 libvmaf
@@ -162,6 +171,9 @@ nginx
 ninja
 nmap
 node
+npth
+nspr
+nss
 ollama
 oniguruma
 openblas
@@ -177,9 +189,11 @@ p7zip
 pango
 pcre
 pcre2
+pinentry
 pixman
 pkcs11-tools
 pkgconf
+poppler
 popt
 protobuf
 psgrep
