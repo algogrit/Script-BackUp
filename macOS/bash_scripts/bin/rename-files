@@ -16,7 +16,7 @@ while getopts ":np:" opt; do
   case $opt in
     n) dry_run=true ;;
     p) pad_width="$OPTARG" ;;
-    *) echo "Usage: $0 [-n] [-p width] <pattern> <new_name_prefix> <start_number> [step]"
+    *) echo "Usage: $0 [-n] [-p width] <pattern> <new_name_prefix> [<start_number>] [step]"
        echo "Example: $0 -n -p 4 '*.jpg' photo_ 100 5"
        exit 1 ;;
   esac
@@ -24,7 +24,7 @@ done
 shift $((OPTIND - 1))
 
 # --- Validate arguments ---
-if [[ $# -lt 3 ]]; then
+if [[ $# -lt 2 ]]; then
   echo "Usage: $0 [-n] [-p width] <pattern> <new_name_prefix> <start_number> [step]"
   echo "Example: $0 -n -p 4 '*.jpg' photo_ 100 5"
   exit 1
@@ -32,7 +32,7 @@ fi
 
 pattern="$1"
 prefix="$2"
-start="$3"
+start="${3:-1}"
 step="${4:-1}"
 
 counter="$start"

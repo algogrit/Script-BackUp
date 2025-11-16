@@ -44,10 +44,9 @@ eval "$(jenv init -)"
 ## vcpkg
 export VCPKG_ROOT="$HOME/vcpkg"
 export CPLUS_INCLUDE_PATH="$HOME/vcpkg/installed/arm64-osx/include:$CPLUS_INCLUDE_PATH"
-for d in $HOME/vcpkg/installed/arm64-osx/tools/*; do PATH="$d:$PATH"; done
-
-## Idea
-export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS":$PATH
+if [ -d $HOME/vcpkg/installed ]; then
+  for d in $HOME/vcpkg/installed/arm64-osx/tools/*; do PATH="$d:$PATH"; done
+fi
 
 ### Platforms
 ## Android
@@ -58,10 +57,6 @@ export PATH="/Applications/IntelliJ IDEA CE.app/Contents/MacOS":$PATH
 # export PATH="$ANDROID_HOME""tools:$ANDROID_HOME""tools/bin:$ANDROID_HOME""platform-tools:$PATH"
 
 ### Cloud Platforms
-## GCP
-export GCLOUD_SDK=/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
-export PATH="$GCLOUD_SDK/bin:$PATH"
-
 #### CUSTOM
 
 # Load custom git commands
@@ -73,6 +68,3 @@ export PATH="$HOME/bin:$PATH"
 
 # ADDING snippet_programs to the PATH
 export PATH="$HOME/bash_scripts/bin:$PATH"
-
-# Added by Windsurf
-export PATH="/Users/gaurav/.codeium/windsurf/bin:$PATH"

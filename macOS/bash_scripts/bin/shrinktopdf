@@ -13,47 +13,66 @@ usage() {
     cat <<EOF
 shrinktopdf - Convert or combine images into a PDF under a target size
 
-Usage: shrinktopdf [options] file1.png file2.jpg ...
+Usage: shrinktopdf [options] files...
 
 Modes:
-  Default mode: convert + compress + shrink PDF < target size.
-  --no-convert: merge images AS-IS into a PDF (no resize/quality changes).
+  Default: convert + compress + shrink to target size.
+  -N, --no-convert: merge images AS-IS (no resize/quality/conversion).
 
 Options:
-  -o <file>    Output PDF file (default: out.pdf)
-  -s <bytes>   Max PDF size (default: 2 MiB)
-  -r <WxH>     Resize (default: 612x800) [ignored in --no-convert]
-  -q <num>     Starting quality (default: 55) [ignored in --no-convert]
-  -m <num>     Minimum quality (default: 20)
-  -N           Do NOT convert/resize/compress images; merge them as-is (Recover using: 'pdfimages -all out.pdf extracted')
-  -h           Help
+  -o <file>        Output PDF (default: out.pdf)
+  -s <bytes>       Max PDF size (default: 2097152 = 2MiB)
+  -r <WxH>         Resize (default: 612x800)
+  -q <num>         Starting quality (default: 55)
+  -m <num>         Minimum quality (default: 20)
+  -N, --no-convert Do not convert/resize/compress images; merge them as-is (Recover using: 'pdfimages -all out.pdf extracted')
+  -h, --help       Show help
+
+You may place options anywhere, even after filenames.
 EOF
     exit 0
 }
 
-# Parse args
-while getopts "o:s:r:q:m:Nh" opt; do
-    case "$opt" in
-        o) out="$OPTARG" ;;
-        s) max_size="$OPTARG" ;;
-        r) resize="$OPTARG" ;;
-        q) quality="$OPTARG" ;;
-        m) min_quality="$OPTARG" ;;
-        N) no_convert=1 ;;
-        h) usage ;;
+# Manual option parsing to allow "options anywhere"
+inputs=()
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        -o)
+            out="$2"; shift 2 ;;
+        -s)
+            max_size="$2"; shift 2 ;;
+        -r)
+            resize="$2"; shift 2 ;;
+        -q)
+            quality="$2"; shift 2 ;;
+        -m)
+            min_quality="$2"; shift 2 ;;
+        -N|--no-convert)
+            no_convert=1; shift ;;
+        -h|--help)
+            usage ;;
+        --)
+            shift
+            # Everything after -- is input
+            while [[ $# -gt 0 ]]; do inputs+=("$1"); shift; done
+            break ;;
+        -*)
+            echo "Unknown option: $1"
+            exit 1 ;;
+        *)
+            # Positional input file
+            inputs+=("$1"); shift ;;
     esac
 done
-shift $((OPTIND - 1))
 
-# Inputs
-if [ $# -eq 0 ]; then
+# No inputs?
+if [[ ${#inputs[@]} -eq 0 ]]; then
     echo "Error: No input images provided."
-    echo "Try: shrinktopdf -h"
+    echo "Use: shrinktopdf [options] files..."
     exit 1
 fi
-inputs=("$@")
 
-# AS-IS mode (no conversion)
+# AS-IS merge mode
 if [[ $no_convert -eq 1 ]]; then
     echo "📄 Creating PDF from images as-is..."
     magick "${inputs[@]}" "$out"
@@ -63,7 +82,7 @@ if [[ $no_convert -eq 1 ]]; then
     exit 0
 fi
 
-# Conversion + shrink mode
+# Shrink mode
 tmpdir=$(mktemp -d)
 trap "rm -rf $tmpdir" EXIT
 
@@ -88,7 +107,7 @@ while :; do
     # Size check
     size=$(stat -c%s "$out" 2>/dev/null || stat -f%z "$out")
 
-    if [ "$size" -lt "$max_size" ]; then
+    if [[ "$size" -lt "$max_size" ]]; then
         echo "✔ Success: $out is $((size/1024)) KiB (quality=$try_quality)"
         exit 0
     fi
@@ -96,8 +115,8 @@ while :; do
     echo "PDF too large ($((size/1024)) KiB). Lowering quality..."
 
     try_quality=$((try_quality - 5))
-    if [ "$try_quality" -lt "$min_quality" ]; then
-        echo "✘ Could not reduce under $max_size bytes even at quality=$try_quality"
+    if [[ "$try_quality" -lt "$min_quality" ]]; then
+        echo "✘ Could not shrink under $max_size bytes even at minimum quality."
         exit 1
     fi
 done

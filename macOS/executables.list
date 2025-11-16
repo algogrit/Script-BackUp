@@ -1311,7 +1311,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1762795099
+luajit-2.1.1763148144
 luit
 lwp-download
 lwp-download5.34
@@ -1828,13 +1828,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-33.0.0
+protoc-33.1.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-33.0.0
-protoc-gen-upb-33.0.0
+protoc-gen-upb_minitable-33.1.0
+protoc-gen-upb-33.1.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-33.0.0
+protoc-gen-upbdefs-33.1.0
 prove
 prove5.34
 ps

@@ -4,6 +4,7 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 Warning: Some installed casks are deprecated or disabled.
 You should find replacements for the following casks:
+  distroav
   zoho-mail
 ==> Cask Environment Variables:
 LC_ALL="en_US.UTF-8"
@@ -121,7 +122,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7657 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7660 casks)
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
 If you didn't put them there on purpose they could cause problems when
