@@ -1,5 +1,18 @@
 echo -e "\033[1;34m~/bash_scripts/.bash_paths Loaded\033[0m"
 
+## macOS cleanups
+clean_cryptex() {
+  local cleaned=""
+  local IFS=':'
+  for p in $PATH; do
+    if [[ "$p" != /var/run/com.apple.security.cryptexd/* ]]; then
+      cleaned="${cleaned:+$cleaned:}$p"
+    fi
+  done
+  export PATH="$cleaned"
+}
+clean_cryptex
+
 ### Languages
 
 # Elm
