@@ -63,6 +63,7 @@ gource
 gpgme
 gpgmepp
 gradle
+gradle-completion
 graphite2
 grep
 harfbuzz
@@ -128,6 +129,7 @@ libtiff
 libtommath
 libtool
 libudfread
+libultrahdr
 libunibreak
 libunistring
 libusb
@@ -157,7 +159,7 @@ mad
 make
 mas
 maven
-mbedtls
+mbedtls@3
 mp3splt
 mp3wrap
 mpdecimal

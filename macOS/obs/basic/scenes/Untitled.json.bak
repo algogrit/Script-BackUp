@@ -30,14 +30,14 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Audio Only",
-    "current_program_scene": "Audio Only",
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
     "scene_order": [
         {
-            "name": "Audio Only"
+            "name": "Scene"
         },
         {
-            "name": "Scene"
+            "name": "Audio Only"
         }
     ],
     "name": "Untitled",
@@ -525,7 +525,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 10,
+    "scaling_level": 8,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
