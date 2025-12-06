@@ -263,8 +263,6 @@ column
 comm
 compactsnoop-bpfcc
 containerd
-containerd-shim
-containerd-shim-runc-v1
 containerd-shim-runc-v2
 corelist
 cp
@@ -2012,6 +2010,7 @@ threadsnoop.bt
 thunderbird
 tic
 tificc
+tig
 time
 timedatectl
 timeout
