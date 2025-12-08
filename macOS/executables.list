@@ -1286,7 +1286,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1764593432
+luajit-2.1.1765007043
 luit
 lwp-download
 lwp-download5.34
@@ -1346,6 +1346,7 @@ md5sum
 mdassembler
 mddiagnose
 mdfind
+mdiff
 mdimport
 mdls
 mDNSResponder
@@ -2377,6 +2378,7 @@ unexpand
 unicharset_extractor
 unifdef
 unifdefall
+unify
 uniq
 units
 universalaccessd
@@ -2472,6 +2474,8 @@ wall
 watch
 watchgnupg
 wc
+wdiff
+wdiff2
 wdutil
 weakpass_edit
 webpinfo
