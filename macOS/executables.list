@@ -18,6 +18,11 @@ aarch64-apple-darwin24-gcc-ranlib-15
 aarch64-apple-darwin24-gfortran-15
 ab
 ac
+accelerate
+accelerate-config
+accelerate-estimate-memory
+accelerate-launch
+accelerate-merge-weights
 accton
 ack
 actool
@@ -452,7 +457,11 @@ docker-credential-desktop
 docker-credential-ecr-login
 docker-credential-osxkeychain
 docker-machine
+docling
+docling-tools
+docling-view
 dot_clean
+dotenv
 drutil
 dscacheutil
 dscl
@@ -541,7 +550,9 @@ exrstdattr
 extcap
 eyapp
 eyapp5.34
+f2py
 factor
+faker
 false
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -577,6 +588,7 @@ filebyproc.d
 filecoordinationd
 fileinfo
 fileproviderctl
+filetype
 filtercalltree
 find
 findrule
@@ -678,6 +690,8 @@ gengal
 genstrings
 genv
 genxs
+get_gprof
+get_objgraph
 getconf
 GetFileInfo
 getopt
@@ -978,6 +992,7 @@ heif-info
 heif-thumbnailer
 helm
 hexdump
+hf
 hidutil
 hiutil
 hmac256
@@ -1002,6 +1017,7 @@ httpd-wrapper
 httpserv
 httxt2dbm
 hub-tool
+huggingface-cli
 iasecc-tool
 ibtool
 icc_simplify
@@ -1092,6 +1108,7 @@ irw
 irw64
 ismindex
 isql
+isympy
 it2api
 it2attention
 it2cat
@@ -1148,6 +1165,7 @@ json_pp
 json_pp5.34
 json_xs
 json_xs5.34
+jsonschema
 jstack
 jstat
 jstatd
@@ -1191,6 +1209,7 @@ ktrace
 ktutil
 kubectl
 kubectl.docker
+l2m
 lam
 lame
 languagesetup
@@ -1198,6 +1217,10 @@ last
 lastcomm
 lastwords
 latency
+latex2mathml
+latex2text
+latexencode
+latexwalker
 launchctl
 launchd
 layerutil
@@ -1335,6 +1358,8 @@ mandoc
 mandoc_soelim
 mangle
 manpath
+markdown-it
+marko
 mas
 masqreq
 mconfig
@@ -1455,6 +1480,7 @@ mpg123-id3dump
 mpg123-strip
 mpicalc
 mpioutil
+mpire-dashboard
 mplayer
 mprof-report
 mpsgraphtool
@@ -1545,6 +1571,7 @@ nohup
 nologin
 nonspr10
 normalize.py
+normalizer
 notepad
 notifyd
 notifyutil
@@ -1562,11 +1589,13 @@ nssdefaults
 nsupdate
 nuget
 numfmt
+numpy-config
 nvim
 nvram
 objdump
 obs
 oclock
+ocrmac
 ocspcheck
 ocspclnt
 ocspd
@@ -1844,6 +1873,9 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pygmentize
+pygrun
+pypdfium2
 python
 python-build
 python-config
@@ -1885,6 +1917,7 @@ rake
 randpkt
 randpktdump
 ranlib
+rapidocr
 rarpd
 rav1e
 raw-identify
@@ -2250,6 +2283,7 @@ systemsoundserverd
 systemstats
 tab2space
 tabs
+tabulate
 tac
 tail
 tailspin
@@ -2304,6 +2338,7 @@ timeout
 timer_analyser.d
 timerfires
 timesyncanalyse
+tiny-agents
 tjbench
 tkcon
 tkmib
@@ -2324,15 +2359,20 @@ tor
 tor-gencert
 tor-print-ed-signing-cert
 tor-resolve
+torchfrtrace
+torchrun
 torify
 torsocks
 touch
 tput
+tqdm
 tr
 trace
 traceroute
 traceroute6
 train
+transformers
+transformers-cli
 transicc
 traptoemail
 trash
@@ -2374,6 +2414,7 @@ unbound-control-setup
 unbound-host
 uncoded_frame
 uncompress
+undill
 unexpand
 unicharset_extractor
 unifdef
@@ -2435,6 +2476,7 @@ uvx
 uxterm
 vagrant
 validation
+vba_extract.py
 vbc
 vbnc
 vbnc2
