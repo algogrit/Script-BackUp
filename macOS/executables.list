@@ -63,6 +63,7 @@ appdb
 appleh13camerad
 appleh16camerad
 applesingle
+Application.Mac.NDI.Recording
 apply
 applygnupgdefaults
 appres
@@ -1174,6 +1175,7 @@ jxl_from_tree
 jxlinfo
 kadmin
 kadmin.local
+karabiner_cli
 kbxutil
 kcc
 kcditto
@@ -1384,6 +1386,7 @@ mdoc-update
 mdoc-validate
 mdutil
 mdvalidater
+mediainfo
 mem_image
 memory_pressure
 mencoder

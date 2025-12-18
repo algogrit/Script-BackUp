@@ -1,13 +1,24 @@
 {
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
+  "editor.fontWeight": "500",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "telemetry.telemetryLevel": "off",
+  "workbench.colorCustomizations": {
+    "[JetBrains New Dark]": {
+      "editor.background": "#0c0c0c",
+      "editorLineNumber.foreground": "#4a4a4a",
+      "editorCursor.foreground": "#ffffff"
+    }
+  },
+  "editor.semanticHighlighting.enabled": true,
   "[java]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true
@@ -112,5 +123,7 @@
   },
   "docker.extension.enableComposeLanguageServer": false,
   "continue.showInlineTip": false,
-  "sonarlint.focusOnNewCode": true
+  "sonarlint.focusOnNewCode": true,
+  "workbench.colorTheme": "JetBrains New Dark",
+  "editor.fontLigatures": true
 }

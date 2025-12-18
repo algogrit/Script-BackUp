@@ -1,6 +1,6 @@
 {
     "AuxAudioDevice1": {
-        "prev_ver": 536870914,
+        "prev_ver": 536870915,
         "name": "Mic/Aux",
         "uuid": "a487fcb6-66cf-4c23-a01b-d5d8c001029c",
         "id": "coreaudio_input_capture",
@@ -11,7 +11,7 @@
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.0,
+        "volume": 0.9449005126953125,
         "balance": 0.5,
         "enabled": true,
         "muted": true,
@@ -37,76 +37,24 @@
             "name": "Scene"
         },
         {
+            "name": "Tablet With Audio"
+        },
+        {
             "name": "Audio Only"
         }
     ],
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870915,
             "name": "Scene",
             "uuid": "cf4009e7-7814-408c-a53b-00088a694fa9",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
+                "id_counter": 4,
                 "custom_size": false,
                 "items": [
-                    {
-                        "name": "Audio Input Capture",
-                        "source_uuid": "4e0349d6-e1a5-46d7-b624-48f7eea3d0c5",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "macOS Screen Capture",
                         "source_uuid": "5ea9ed9e-fe2e-496f-972c-b0561d6ab413",
@@ -136,20 +84,130 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "scale_rel": {
+                            "x": 0.375,
+                            "y": 0.375
+                        },
+                        "bounds": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "bounds_rel": {
+                            "x": 3.555555582046509,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Nord Camera",
+                        "source_uuid": "257cc199-de52-4246-afc6-aebd9f9c9c63",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 2222.0,
+                            "y": 841.0
+                        },
+                        "pos_rel": {
+                            "x": 1.3083332777023315,
+                            "y": 0.16805553436279297
+                        },
+                        "scale": {
+                            "x": 1.125,
+                            "y": 1.125
+                        },
+                        "scale_rel": {
+                            "x": 1.125,
+                            "y": 1.125
+                        },
+                        "bounds": {
+                            "x": 338.0,
+                            "y": 600.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.4694444537162781,
+                            "y": 0.8333333134651184
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Audio Input Capture",
+                        "source_uuid": "4e0349d6-e1a5-46d7-b624-48f7eea3d0c5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
                         },
                         "scale_rel": {
                             "x": 1.0,
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_rel": {
-                            "x": 3.555555582046509,
-                            "y": 2.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -177,10 +235,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -189,7 +249,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870915,
             "name": "Audio Input Capture",
             "uuid": "4e0349d6-e1a5-46d7-b624-48f7eea3d0c5",
             "id": "coreaudio_input_capture",
@@ -220,7 +280,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "Gain",
                     "uuid": "ca59b083-a18b-4c0b-83d6-c9d2c5b993e5",
                     "id": "gain_filter",
@@ -244,7 +304,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "Noise Suppression",
                     "uuid": "b6ff56c1-b2dd-4c06-aabb-ee0bf233cf5d",
                     "id": "noise_suppress_filter",
@@ -268,7 +328,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "3-Band Equalizer",
                     "uuid": "99b669b0-accc-4c93-9506-835833f549ea",
                     "id": "basic_eq_filter",
@@ -295,7 +355,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "Expander",
                     "uuid": "11e321b2-6a48-4bec-9200-66531c2623aa",
                     "id": "expander_filter",
@@ -319,7 +379,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "Compressor",
                     "uuid": "6db92aea-34f3-4df9-826e-2dd6dbbc9040",
                     "id": "compressor_filter",
@@ -348,7 +408,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870915,
                     "name": "Limiter",
                     "uuid": "5841da90-4883-4d57-b66f-28601d56b629",
                     "id": "limiter_filter",
@@ -376,12 +436,15 @@
             ]
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870915,
             "name": "macOS Screen Capture",
             "uuid": "5ea9ed9e-fe2e-496f-972c-b0561d6ab413",
             "id": "screen_capture",
             "versioned_id": "screen_capture",
-            "settings": {},
+            "settings": {
+                "display_uuid": "58F539B5-E99B-4643-A21E-BA903FA94052",
+                "hide_obs": true
+            },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
@@ -405,7 +468,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870915,
             "name": "Audio Only",
             "uuid": "9a07cdd0-50aa-475d-93f9-ff59223ce405",
             "id": "scene",
@@ -443,8 +506,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -492,6 +555,223 @@
             "monitoring_type": 0,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
+        },
+        {
+            "prev_ver": 536870915,
+            "name": "Tablet With Audio",
+            "uuid": "ca5040b3-b3f9-45d2-8e96-5ba62d44f7d3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Tablet Screen",
+                        "source_uuid": "fd66e1e5-7aef-4813-8909-4e15eea66a79",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "bounds_rel": {
+                            "x": 3.555555582046509,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Audio Input Capture",
+                        "source_uuid": "4e0349d6-e1a5-46d7-b624-48f7eea3d0c5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870915,
+            "name": "Tablet Screen",
+            "uuid": "fd66e1e5-7aef-4813-8909-4e15eea66a79",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "width": 2800,
+                "height": 1752,
+                "reroute_audio": true,
+                "url": "https://vdo.ninja/?v=wsHr4QDS&bitrate=6000&scale=1&resize=0&codec=vp9&quality=0"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870915,
+            "name": "Nord Camera",
+            "uuid": "257cc199-de52-4246-afc6-aebd9f9c9c63",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "width": 1080,
+                "height": 1920,
+                "shutdown": true,
+                "reroute_audio": true,
+                "url": "https://vdo.ninja/?v=ZoKJYZ2N&codec=vp9&quality=0"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": true,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         }
     ],
     "groups": [],
@@ -522,10 +802,10 @@
     "saved_projectors": [],
     "canvases": [],
     "current_transition": "Fade",
-    "transition_duration": 300,
+    "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 8,
+    "scaling_level": 2,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -553,8 +833,8 @@
         }
     },
     "resolution": {
-        "x": 1920,
-        "y": 1080
+        "x": 2560,
+        "y": 1440
     },
     "version": 2
 }

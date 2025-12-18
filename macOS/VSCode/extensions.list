@@ -20,6 +20,7 @@ jpotterm.simple-vim
 justusadam.language-haskell
 mechatroner.rainbow-csv
 mikestead.dotenv
+mobalic.jetbrains-new-dark
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime
 ms-python.debugpy
@@ -36,6 +37,7 @@ ms-vscode.makefile-tools
 ms-vscode.powershell
 ms-vscode.remote-explorer
 ms-vsliveshare.vsliveshare
+narasimapandiyan.jetbrainsmono
 pgourlain.erlang
 redhat.java
 redhat.vscode-yaml
@@ -44,8 +46,6 @@ shakram02.bash-beautify
 tauri-apps.tauri-vscode
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
 vscjava.migrate-java-to-azure
 vscjava.vscode-gradle
 vscjava.vscode-java-debug

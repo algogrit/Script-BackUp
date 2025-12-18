@@ -105,7 +105,9 @@ libidn2
 libksba
 liblinear
 liblqr
+libmediainfo
 libmicrohttpd
+libmms
 libmp3splt
 libmpc
 libnghttp2
@@ -145,6 +147,7 @@ libxdmcp
 libxext
 libxrender
 libyaml
+libzen
 libzip
 little-cms2
 llvm
@@ -160,6 +163,7 @@ make
 mas
 maven
 mbedtls@3
+media-info
 mp3splt
 mp3wrap
 mpdecimal
