@@ -2,6 +2,7 @@
 
 # OBS Snap config path
 OBS_DIR="$HOME/Library/Application Support/obs-studio"
+PLUGIN_DIR="$HOME/Library/Application Support/obs-studio/plugins"
 SYNC_DIR="obs"
 
 mkdir -p $SYNC_DIR
@@ -9,7 +10,6 @@ mkdir -p $SYNC_DIR
 MODE=${1:-backup}  # backup or restore
 
 echo "=== OBS Plugin List ==="
-PLUGIN_DIR="$HOME/Library/Application Support/obs-studio/plugins"
 if [ -d "$PLUGIN_DIR" ]; then
     ls "$PLUGIN_DIR"
 else
@@ -20,8 +20,6 @@ echo
 echo "=== OBS Sync Mode: $MODE ==="
 echo "OBS Config Dir: $OBS_DIR"
 echo "Sync Dir: $SYNC_DIR"
-
-mkdir -p "$SYNC_DIR"
 
 sync_path() {
     local path="$1"
@@ -54,5 +52,8 @@ else
     cp "$SYNC_DIR/global.ini" "$OBS_DIR/global.ini"
 fi
 echo ">> Synced global.ini"
+
+rm -f $SYNC_DIR/**/LOG*
+rm -f $SYNC_DIR/**/*.log
 
 echo "All done."

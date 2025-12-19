@@ -1,6 +1,6 @@
 {
     "AuxAudioDevice1": {
-        "prev_ver": 536870915,
+        "prev_ver": 536870916,
         "name": "Mic/Aux",
         "uuid": "a487fcb6-66cf-4c23-a01b-d5d8c001029c",
         "id": "coreaudio_input_capture",
@@ -46,7 +46,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Scene",
             "uuid": "cf4009e7-7814-408c-a53b-00088a694fa9",
             "id": "scene",
@@ -249,7 +249,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Audio Input Capture",
             "uuid": "4e0349d6-e1a5-46d7-b624-48f7eea3d0c5",
             "id": "coreaudio_input_capture",
@@ -280,7 +280,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "Gain",
                     "uuid": "ca59b083-a18b-4c0b-83d6-c9d2c5b993e5",
                     "id": "gain_filter",
@@ -304,7 +304,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "Noise Suppression",
                     "uuid": "b6ff56c1-b2dd-4c06-aabb-ee0bf233cf5d",
                     "id": "noise_suppress_filter",
@@ -328,7 +328,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "3-Band Equalizer",
                     "uuid": "99b669b0-accc-4c93-9506-835833f549ea",
                     "id": "basic_eq_filter",
@@ -355,7 +355,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "Expander",
                     "uuid": "11e321b2-6a48-4bec-9200-66531c2623aa",
                     "id": "expander_filter",
@@ -379,7 +379,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "Compressor",
                     "uuid": "6db92aea-34f3-4df9-826e-2dd6dbbc9040",
                     "id": "compressor_filter",
@@ -408,7 +408,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870915,
+                    "prev_ver": 536870916,
                     "name": "Limiter",
                     "uuid": "5841da90-4883-4d57-b66f-28601d56b629",
                     "id": "limiter_filter",
@@ -436,7 +436,7 @@
             ]
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "macOS Screen Capture",
             "uuid": "5ea9ed9e-fe2e-496f-972c-b0561d6ab413",
             "id": "screen_capture",
@@ -468,7 +468,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Audio Only",
             "uuid": "9a07cdd0-50aa-475d-93f9-ff59223ce405",
             "id": "scene",
@@ -557,7 +557,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Tablet With Audio",
             "uuid": "ca5040b3-b3f9-45d2-8e96-5ba62d44f7d3",
             "id": "scene",
@@ -703,16 +703,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Tablet Screen",
             "uuid": "fd66e1e5-7aef-4813-8909-4e15eea66a79",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
+                "url": "https://vdo.ninja/?v=wsHr4QDS&bitrate=6000&scale=1&resize=0&codec=vp9&quality=0",
                 "width": 2800,
                 "height": 1752,
-                "reroute_audio": true,
-                "url": "https://vdo.ninja/?v=wsHr4QDS&bitrate=6000&scale=1&resize=0&codec=vp9&quality=0"
+                "reroute_audio": true
             },
             "mixers": 255,
             "sync": 0,
@@ -738,17 +738,17 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870915,
+            "prev_ver": 536870916,
             "name": "Nord Camera",
             "uuid": "257cc199-de52-4246-afc6-aebd9f9c9c63",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
+                "url": "https://vdo.ninja/?v=ZoKJYZ2N&codec=vp9&quality=0",
                 "width": 1080,
                 "height": 1920,
                 "shutdown": true,
-                "reroute_audio": true,
-                "url": "https://vdo.ninja/?v=ZoKJYZ2N&codec=vp9&quality=0"
+                "reroute_audio": true
             },
             "mixers": 255,
             "sync": 0,
@@ -771,7 +771,36 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 536870916,
+                    "name": "Image Mask/Blend",
+                    "uuid": "949e1326-7043-4299-9fa6-fb4fca2b215e",
+                    "id": "mask_filter",
+                    "versioned_id": "mask_filter_v2",
+                    "settings": {
+                        "image_path": "/Users/gaurav/Developer/CMTech/creator-kit/obs-setup/camera-masks/16-9mask.png",
+                        "type": "mask_alpha_filter.effect"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         }
     ],
     "groups": [],
