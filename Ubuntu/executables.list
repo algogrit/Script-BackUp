@@ -73,6 +73,7 @@ arecord
 arecordmidi
 argdist-bpfcc
 arm2hpdl
+arp
 arpd
 arptables
 arptables-nft
@@ -524,6 +525,7 @@ firefox.geckodriver
 firmware-updater
 fixparts
 flash
+flatpak
 flock
 fmt
 fold
@@ -708,6 +710,7 @@ gnome-session-quit
 gnome-shell
 gnome-shell-extension-tool
 gnome-shell-test-tool
+gnome-software
 gnome-system-monitor
 gnome-terminal
 gnome-terminal.real
@@ -874,6 +877,7 @@ icuinfo
 icupkg
 id
 iecset
+ifconfig
 ifnames
 ijs_pxljr
 im-config
@@ -912,6 +916,7 @@ ip6tables-translate
 ipcmk
 ipcrm
 ipcs
+ipmaddr
 ipod-read-sysinfo-extended
 ipod-time-sync
 ippevepcl
@@ -933,6 +938,7 @@ iptables-restore-translate
 iptables-save
 iptables-translate
 iptables-xml
+iptunnel
 irb
 irb3.2
 ir-ctl
@@ -1179,6 +1185,7 @@ mformat
 migratepages
 migrate-pubring-from-classic-gpg
 migspeed
+mii-tool
 mimeopen
 mimetype
 min12xxw
@@ -1258,6 +1265,7 @@ mxtar
 mysqld_qslower-bpfcc
 mzip
 namei
+nameif
 nano
 naptime.bt
 nautilus
@@ -1273,6 +1281,7 @@ netaddr
 netcat
 netplan
 netqtop-bpfcc
+netstat
 networkctl
 networkd-dispatcher
 NetworkManager
@@ -1287,6 +1296,7 @@ nice
 nisdomainname
 nl
 nm
+nmap
 nm-applet
 nmcli
 nm-connection-editor
@@ -1300,6 +1310,7 @@ nodestat-bpfcc
 nohup
 nologin
 notify-send
+nping
 nproc
 nroff
 nsenter
@@ -1347,7 +1358,6 @@ oakdecode
 obexctl
 objcopy
 objdump
-obs-studio
 oclock
 od
 oem-getlogs
@@ -1475,6 +1485,7 @@ pkmon
 pkttyagent
 pl2pm
 pldd
+plipconfig
 plog
 plymouth
 plymouthd
@@ -1623,6 +1634,7 @@ racc3.2
 rake
 rake3.2
 ranlib
+rarp
 rbash
 rbenv
 rbenv-commands
@@ -1706,6 +1718,7 @@ rmt
 rmt-tar
 rnano
 rootlesskit
+route
 routel
 rpcgen
 rrsync
@@ -1821,6 +1834,7 @@ size
 skill
 slabratetop-bpfcc
 slabtop
+slattach
 sleep
 slirp4netns
 slogin

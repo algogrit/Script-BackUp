@@ -1,8 +1,8 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 536870914,
+        "prev_ver": 536870916,
         "name": "Desktop Audio",
-        "uuid": "1e7e2c7f-d22c-455f-a45c-7c9168c6400e",
+        "uuid": "f821131f-2fdd-416a-a87a-84dbdb24c54e",
         "id": "pulse_output_capture",
         "versioned_id": "pulse_output_capture",
         "settings": {
@@ -14,7 +14,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": true,
+        "muted": false,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -31,9 +31,9 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536870914,
+        "prev_ver": 536870916,
         "name": "Mic/Aux",
-        "uuid": "8e2a2ed6-11fd-45fe-8aa2-3f74cdda1851",
+        "uuid": "4599e336-6972-41b9-9e7e-30cc643a39cc",
         "id": "pulse_input_capture",
         "versioned_id": "pulse_input_capture",
         "settings": {
@@ -45,7 +45,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": true,
+        "muted": false,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -68,79 +68,27 @@
             "name": "Scene"
         },
         {
-            "name": "Tablet"
+            "name": "Tablet with audio"
+        },
+        {
+            "name": "Audio Only"
         }
     ],
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "Scene",
-            "uuid": "1fa0b6bc-5836-4b3d-a84f-39f0d3a12dc5",
+            "uuid": "4a4b78ad-b248-4390-8f28-9c4e299f5c3c",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 5,
+                "id_counter": 16,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "source_uuid": "9abf113c-b570-4e52-af29-27814f21fdf4",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Video Capture Device (V4L2)",
-                        "source_uuid": "f657bb87-28c3-4c30-98c0-cd5ba2648d6a",
+                        "source_uuid": "1292e8b0-756c-452c-90c7-eed416112a79",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -156,7 +104,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 4,
+                        "id": 14,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -171,12 +119,12 @@
                             "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.75,
+                            "y": 0.75
                         },
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 2560.0,
+                            "y": 1440.0
                         },
                         "bounds_rel": {
                             "x": 3.5555555820465088,
@@ -194,8 +142,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Browser",
-                        "source_uuid": "414f71c3-0adf-46fd-a061-7f42a6428349",
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "source_uuid": "0de802f8-53a5-4090-a87d-dff54ebfc6cc",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -211,23 +159,23 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 5,
+                        "id": 15,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1555.0,
-                            "y": 593.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.1018518209457397,
-                            "y": 0.098148107528686523
+                            "x": -1.7777777910232544,
+                            "y": -1.0
                         },
                         "scale": {
-                            "x": 0.60833334922790527,
-                            "y": 0.60874998569488525
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
                         },
                         "scale_rel": {
-                            "x": 0.60833334922790527,
-                            "y": 0.60874998569488525
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 0.0,
@@ -236,6 +184,61 @@
                         "bounds_rel": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Nord Camera",
+                        "source_uuid": "b82446b6-0f17-467d-8bd7-52d0ee44d2d5",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 16,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 2088.0,
+                            "y": 659.0
+                        },
+                        "pos_rel": {
+                            "x": 1.1222221851348877,
+                            "y": -0.084722220897674561
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 472.0,
+                            "y": 781.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.65555554628372192,
+                            "y": 1.0847222805023193
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -263,12 +266,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -277,9 +280,38 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
+            "name": "Video Capture Device (V4L2)",
+            "uuid": "1292e8b0-756c-452c-90c7-eed416112a79",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
+            "settings": {
+                "device_id": "/dev/video0",
+                "input": 0,
+                "pixelformat": 842093913,
+                "resolution": 10995116279200
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
             "name": "Audio Input Capture (PulseAudio)",
-            "uuid": "9abf113c-b570-4e52-af29-27814f21fdf4",
+            "uuid": "0de802f8-53a5-4090-a87d-dff54ebfc6cc",
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
@@ -308,9 +340,9 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "Gain",
-                    "uuid": "24a6c332-4db5-49c7-8550-627892ad05b7",
+                    "uuid": "91b9be9f-85df-4565-89d3-72d89f71ba81",
                     "id": "gain_filter",
                     "versioned_id": "gain_filter",
                     "settings": {},
@@ -332,9 +364,9 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "Noise Suppression",
-                    "uuid": "047c9699-6419-480d-a492-d9378dc8e752",
+                    "uuid": "434e5910-922d-4b71-821d-995f56a1a702",
                     "id": "noise_suppress_filter",
                     "versioned_id": "noise_suppress_filter_v2",
                     "settings": {},
@@ -356,14 +388,14 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "3-Band Equalizer",
-                    "uuid": "eafe4c3b-f171-4258-9bad-eb04d913c6b8",
+                    "uuid": "ffcf5169-2c03-4eaf-b7d7-b3078d4ac22c",
                     "id": "basic_eq_filter",
                     "versioned_id": "basic_eq_filter",
                     "settings": {
-                        "low": 1.0,
-                        "mid": -3.0
+                        "mid": -3.0,
+                        "low": 1.0
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -383,9 +415,9 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "Expander",
-                    "uuid": "57f06d72-f1da-4289-af3f-0cee85eb8b19",
+                    "uuid": "cb54c5bc-6d55-4ef0-9653-c7ab9344216e",
                     "id": "expander_filter",
                     "versioned_id": "expander_filter",
                     "settings": {},
@@ -407,13 +439,13 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "Compressor",
-                    "uuid": "95431dc9-8df8-451c-8310-eede8f4381a8",
+                    "uuid": "06966b51-27e4-4bd2-a3ff-a14bb5765a37",
                     "id": "compressor_filter",
                     "versioned_id": "compressor_filter",
                     "settings": {
-                        "ratio": 1.0,
+                        "ratio": 3.0,
                         "threshold": -25.0,
                         "attack_time": 1,
                         "release_time": 100
@@ -436,13 +468,13 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 536870914,
+                    "prev_ver": 536870916,
                     "name": "Limiter",
-                    "uuid": "81e4a013-d825-4cf3-8035-1330b2ec1294",
+                    "uuid": "a556264d-243c-4915-abd0-5210d07fd3b4",
                     "id": "limiter_filter",
                     "versioned_id": "limiter_filter",
                     "settings": {
-                        "threshold": -10.0
+                        "threshold": -0.10000000000000001
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -464,45 +496,15 @@
             ]
         },
         {
-            "prev_ver": 536870914,
-            "name": "Video Capture Device (V4L2)",
-            "uuid": "f657bb87-28c3-4c30-98c0-cd5ba2648d6a",
-            "id": "v4l2_input",
-            "versioned_id": "v4l2_input",
-            "settings": {
-                "device_id": "/dev/video0",
-                "input": 0,
-                "pixelformat": 1448695129
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "Browser",
-            "uuid": "414f71c3-0adf-46fd-a061-7f42a6428349",
+            "prev_ver": 536870916,
+            "name": "Nord Camera",
+            "uuid": "b82446b6-0f17-467d-8bd7-52d0ee44d2d5",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?view=northLessp",
-                "width": 600,
-                "height": 800,
-                "shutdown": true,
-                "restart_when_active": true
+                "url": "https://vdo.ninja/?v=ZoKJYZ2N&codec=vp9&quality=0",
+                "width": 1080,
+                "height": 1920
             },
             "mixers": 255,
             "sync": 0,
@@ -528,9 +530,9 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
-            "name": "Tablet",
-            "uuid": "9bae7a16-0272-46df-8883-89e717c32cff",
+            "prev_ver": 536870916,
+            "name": "Tablet with audio",
+            "uuid": "c1c87150-b6de-4d71-a6b9-6e92dd36505e",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
@@ -538,17 +540,17 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "source_uuid": "9abf113c-b570-4e52-af29-27814f21fdf4",
+                        "name": "Tablet Screen",
+                        "source_uuid": "c684be55-da5e-41cf-818f-e6711a131a43",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 2560.0,
+                            "y": 1440.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -574,12 +576,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 2560.0,
+                            "y": 1440.0
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 3.5555555820465088,
+                            "y": 2.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -593,17 +595,17 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Tablet Screen",
-                        "source_uuid": "c5943847-2b9e-4163-b294-3adb05ce2d1f",
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "source_uuid": "0de802f8-53a5-4090-a87d-dff54ebfc6cc",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 2560.0,
+                            "y": 1440.0
                         },
                         "align": 5,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -621,20 +623,20 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
                         },
                         "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_rel": {
-                            "x": 3.5555555820465088,
-                            "y": 2.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -674,17 +676,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870914,
+            "prev_ver": 536870916,
             "name": "Tablet Screen",
-            "uuid": "c5943847-2b9e-4163-b294-3adb05ce2d1f",
+            "uuid": "c684be55-da5e-41cf-818f-e6711a131a43",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://vdo.ninja/?v=wsHr4QDS",
-                "width": 1920,
-                "height": 1080,
-                "shutdown": true,
-                "restart_when_active": true
+                "url": "https://vdo.ninja/?v=wsHr4QDS&bitrate=6000&scale=1&resize=0&codec=vp9&quality=0",
+                "width": 2800,
+                "height": 1752
             },
             "mixers": 255,
             "sync": 0,
@@ -707,6 +707,95 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "Audio Only",
+            "uuid": "08b0aecc-8773-4ca2-b109-d3ce8216c040",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "source_uuid": "0de802f8-53a5-4090-a87d-dff54ebfc6cc",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
+                        },
+                        "scale_rel": {
+                            "x": 1.3333333730697632,
+                            "y": 1.3333333730697632
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         }
     ],
@@ -738,12 +827,15 @@
     "saved_projectors": [],
     "canvases": [],
     "current_transition": "Fade",
-    "transition_duration": 300,
+    "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -7,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
         "scripts-tool": [],
         "output-timer": {
@@ -764,10 +856,6 @@
             "active": false,
             "switches": []
         }
-    },
-    "resolution": {
-        "x": 1920,
-        "y": 1080
     },
     "version": 2
 }

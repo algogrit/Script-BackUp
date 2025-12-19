@@ -2,8 +2,9 @@
 
 shopt -s globstar
 
-# OBS Snap config path
-OBS_DIR="$HOME/snap/obs-studio/current/.config/obs-studio"
+# OBS Flatpak config path
+OBS_DIR="$HOME/.var/app/com.obsproject.Studio/config/obs-studio"
+PLUGIN_DIR="$HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins"
 SYNC_DIR="obs"
 
 mkdir -p $SYNC_DIR
@@ -11,7 +12,6 @@ mkdir -p $SYNC_DIR
 MODE=${1:-backup}  # backup or restore
 
 echo "=== OBS Plugin List ==="
-PLUGIN_DIR="/snap/obs-studio/current/obs-plugins/64bit/"
 if [ -d "$PLUGIN_DIR" ]; then
     ls "$PLUGIN_DIR"
 else
@@ -22,8 +22,6 @@ echo
 echo "=== OBS Sync Mode: $MODE ==="
 echo "OBS Config Dir: $OBS_DIR"
 echo "Sync Dir: $SYNC_DIR"
-
-mkdir -p "$SYNC_DIR"
 
 sync_path() {
     local path="$1"
@@ -57,7 +55,7 @@ else
 fi
 echo ">> Synced global.ini"
 
-rm $SYNC_DIR/**/LOG*
-rm $SYNC_DIR/**/*.log
+rm -f $SYNC_DIR/**/LOG*
+rm -f $SYNC_DIR/**/*.log
 
 echo "All done."

@@ -1,6 +1,6 @@
 Name                       Version                         Rev    Tracking         Publisher      Notes
 bare                       1.0                             5      latest/stable    canonical**    base
-code                       bf9252a2                        215    latest/stable    vscode**       classic
+code                       994fd12f                        217    latest/stable    vscode**       classic
 core20                     20251031                        2686   latest/stable    canonical**    base
 core22                     20251009                        2163   latest/stable    canonical**    base
 core24                     20251009                        1237   latest/stable    canonical**    base
@@ -11,7 +11,6 @@ gnome-42-2204              0+git.837775c-sdk0+git.7b07595  226    latest/stable/
 gnome-46-2404              0+git.df85349-sdk0+git.54e4d8f  145    latest/stable    canonical**    -
 gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/…  canonical**    -
 mesa-2404                  25.0.7-snap211                  1165   latest/stable    canonical**    -
-obs-studio                 32.0.2                          1316   latest/stable    snapcrafters*  -
 ollama                     v0.13.1                         95     latest/stable    mz2            -
 snap-store                 0+git.90575829                  1270   2/stable/…       canonical**    -
 snapd                      2.72                            25577  latest/stable    canonical**    snapd

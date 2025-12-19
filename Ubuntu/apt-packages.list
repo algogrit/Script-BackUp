@@ -17,8 +17,10 @@ docker-compose-plugin
 efibootmgr
 fastboot
 findutils
+flatpak
 genisoimage
 git
+gnome-software-plugin-flatpak
 google-chrome-stable
 grep
 grub-efi-amd64
@@ -72,6 +74,8 @@ mythes-en-au
 mythes-en-us
 ncurses-base
 ncurses-bin
+net-tools
+nmap
 nvidia-driver-550
 obs-backgroundremoval
 ovmf
