@@ -394,8 +394,8 @@
                     "id": "basic_eq_filter",
                     "versioned_id": "basic_eq_filter",
                     "settings": {
-                        "mid": -3.0,
-                        "low": 1.0
+                        "low": 1.0,
+                        "mid": -3.0
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -527,7 +527,36 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 536870916,
+                    "name": "Image Mask/Blend",
+                    "uuid": "6d8b4173-e6e9-4077-a56e-48d2c8218ec4",
+                    "id": "mask_filter",
+                    "versioned_id": "mask_filter_v2",
+                    "settings": {
+                        "type": "mask_alpha_filter.effect",
+                        "image_path": "/home/om/Developer/CMTech/creator-kit/obs-setup/camera-masks/16-9mask.png"
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 536870916,
@@ -827,7 +856,7 @@
     "saved_projectors": [],
     "canvases": [],
     "current_transition": "Fade",
-    "transition_duration": 300,
+    "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
     "scaling_level": -12,
