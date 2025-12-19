@@ -15,4 +15,4 @@ ollama                     v0.13.1                         95     latest/stable 
 snap-store                 0+git.90575829                  1270   2/stable/…       canonical**    -
 snapd                      2.72                            25577  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             315    latest/stable/…  canonical**    -
-thunderbird                140.5.0esr-2                    915    latest/stable/…  canonical**    -
+thunderbird                140.6.0esr-2                    919    latest/stable/…  canonical**    -

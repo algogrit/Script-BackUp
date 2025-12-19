@@ -47,11 +47,13 @@ code --list-extensions > VSCode/extensions.list
 cp -r ~/git-hooks .
 cp -r ~/Custom-Git-Commands .
 
-echo "📦 Backing up APT and snap packages..."
+echo "📦 Backing up APT, snap and flatpak packages..."
+# Apt packages
 apt-mark showmanual > apt-packages.list
-
 # Snap packages
 snap list > snaps.list
+# flatpak packages
+flatpak list -d > flatpak.list
 
 echo "\033[1;31mUpdating version managers...\033[0m"
 bash -c "cd ~/.rbenv; git pull"
@@ -78,6 +80,9 @@ ollama list > ollama.list
 echo "\033[1;31mUpdating apt...\033[0m"
 sudo apt update
 
+echo "\033[1;31mUpdating flatpak...\033[0m"
+flatpak update --appstream
+
 unalias cp
 unalias rm
 
@@ -97,5 +102,8 @@ sudo apt list --upgradable -a
 
 echo "\033[1;31mUpgradable snap packages...\033[0m"
 snap refresh --list
+
+echo "\033[1;31mUpgradable flatpak packages...\033[0m"
+flatpak remote-ls --updates flathub
 
 echo "\033[1;31mCOMPLETED!\033[0m"
