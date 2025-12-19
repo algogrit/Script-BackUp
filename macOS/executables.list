@@ -558,6 +558,7 @@ false
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
+fastfetch
 fax2ps
 fax2tiff
 fbectest
@@ -879,6 +880,7 @@ goenv-install
 goenv-uninstall
 gofmt
 goid-tool
+gopls
 gource
 gpaste
 gpathchk

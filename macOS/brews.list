@@ -37,6 +37,7 @@ elm
 emacs
 erlang
 exercism
+fastfetch
 ffmpeg
 flac
 fmt
@@ -274,6 +275,7 @@ xxhash
 xz
 yq
 yt-dlp
+yyjson
 z
 z3
 zeromq
