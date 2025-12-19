@@ -16,6 +16,7 @@ docker-ce-cli
 docker-compose-plugin
 efibootmgr
 fastboot
+fastfetch
 findutils
 flatpak
 genisoimage

@@ -990,6 +990,8 @@ e6a238ff75ce6acd7f39e7292374041b  /usr/bin/false
 e6a238ff75ce6acd7f39e7292374041b  /bin/false
 955fbcb651d13ed9756d6df597eace35  /usr/bin/fastboot
 955fbcb651d13ed9756d6df597eace35  /bin/fastboot
+9e238af18d178a1c902f08b772358645  /usr/bin/fastfetch
+9e238af18d178a1c902f08b772358645  /bin/fastfetch
 836629a6288a7c4bf9c2ff6b06ce435e  /usr/sbin/fatlabel
 836629a6288a7c4bf9c2ff6b06ce435e  /sbin/fatlabel
 d17f43c062f098ee1149686ba227ce8b  /usr/bin/fc-cache
@@ -1046,6 +1048,8 @@ df16e16833ffbb4a160531651b801a49  /bin/firefox
 c1b92152aeb14bc091b9ff7c2d99c6dc  /usr/sbin/fixparts
 c1b92152aeb14bc091b9ff7c2d99c6dc  /sbin/fixparts
 a7ba82272a5618b6d93b25629bc15da8  /home/om/bin/flash
+f3bd44cd89dd4e7d3763f6e80f52bb25  /usr/bin/flashfetch
+f3bd44cd89dd4e7d3763f6e80f52bb25  /bin/flashfetch
 0352314a8389a8c79d3371dcfd6368f4  /usr/bin/flatpak
 0352314a8389a8c79d3371dcfd6368f4  /bin/flatpak
 932d84aae8722e6693151d5be03bfb2e  /usr/bin/flock

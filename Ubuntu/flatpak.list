@@ -5,7 +5,7 @@ Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	2
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	24.08extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/24.08extra	765326f0e2ab	-	435.7 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	6c84cadce009	-	428.3 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	de91944ce02a	-	428.3 MB	user,runtime
-nvidia-580-95-05		org.freedesktop.Platform.GL.nvidia-580-95-05		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-95-05/x86_64/1.4	1a7873a87b27	-	901.8 MB	user,runtime
+nvidia-580-95-05		org.freedesktop.Platform.GL.nvidia-580-95-05		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-95-05/x86_64/1.4	acb8b4605d3c	-	901.8 MB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	3a4014c84eed	-	100.4 kB	user,runtime
 Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	a9564bf207b2	-	43.6 MB	user,runtime
 openh264	OpenH264 Video Codec provided by Cisco Systems, Inc.	org.freedesktop.Platform.openh264	2.5.1	2.5.1	x86_64	flathub	user	org.freedesktop.Platform.openh264/x86_64/2.5.1	0f52621e4540	-	789.5 kB	user,runtime

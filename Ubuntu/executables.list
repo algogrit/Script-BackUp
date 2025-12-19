@@ -496,6 +496,7 @@ fakeroot-tcp
 fallocate
 false
 fastboot
+fastfetch
 fatlabel
 fc-cache
 fc-cat
@@ -525,6 +526,7 @@ firefox.geckodriver
 firmware-updater
 fixparts
 flash
+flashfetch
 flatpak
 flock
 fmt
