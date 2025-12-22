@@ -13,6 +13,10 @@ clean_cryptex() {
 }
 clean_cryptex
 
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/gaurav/.lmstudio/bin"
+# End of LM Studio CLI section
+
 ### Languages
 
 # Elm

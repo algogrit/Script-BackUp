@@ -1267,6 +1267,7 @@ listsuites
 lldb
 llvm-g++
 llvm-gcc
+lms
 ln
 lndir
 loads.d
@@ -1394,6 +1395,7 @@ memory_pressure
 mencoder
 merge_unicharsets
 merge-all-source-plugins
+merge-with-subtitle
 mergecap
 mesg
 metaflac

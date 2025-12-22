@@ -8,8 +8,6 @@ dbaeumer.vscode-eslint
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
-github.copilot
-github.copilot-chat
 github.vscode-github-actions
 golang.go
 hashicorp.terraform
@@ -46,12 +44,10 @@ shakram02.bash-beautify
 tauri-apps.tauri-vscode
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
-vscjava.migrate-java-to-azure
 vscjava.vscode-gradle
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
-vscjava.vscode-java-upgrade
 vscjava.vscode-maven
 yuce.erlang-otp

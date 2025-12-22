@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+shopt -s globstar nullglob
+
 # OBS Snap config path
 OBS_DIR="$HOME/Library/Application Support/obs-studio"
 PLUGIN_DIR="$HOME/Library/Application Support/obs-studio/plugins"

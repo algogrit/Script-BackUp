@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-shopt -s globstar
+shopt -s globstar nullglob
 
 # OBS Flatpak config path
 OBS_DIR="$HOME/.var/app/com.obsproject.Studio/config/obs-studio"
