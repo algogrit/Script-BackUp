@@ -97,7 +97,8 @@ cp ~/Script-BackUp/macOS/.tmux.conf ~/
 cp ~/Script-BackUp/macOS/.sackrc ~/
 cp ~/Script-BackUp/macOS/.irbrc ~/
 cp ~/Script-BackUp/macOS/.gemrc ~/
-cp ~/Script-BackUp/macOS/.powconfig ~/
+mkdir -p ~/.config/karabiner/
+cp ~/Script-BackUp/macOS/karabiner.json ~/.config/karabiner/
 cp ~/Script-BackUp/macOS/.lein/* ~/.lein
 
 echo "\033[1;31mSetting up managers...\033[0m"
@@ -162,6 +163,10 @@ echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash
 cp ~/Script-BackUp/macOS/bin/* ~/bin
+
+# Workaround for annoying non-apple bluetooth keyboard disconnects...
+cp ~/Script-BackUp/macOS/LaunchAgents/* ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.user.bluetooth.keepalive.plist
 
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin

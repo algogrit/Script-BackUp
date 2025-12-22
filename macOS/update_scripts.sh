@@ -106,8 +106,8 @@ cp ~/.gemrc .
 # Copy Sack/Sag config
 cp ~/.sackrc .
 
-# Copy .powconfig
-cp ~/.powconfig .
+# Copy karbiner config
+cp ~/.config/karabiner/karabiner.json .
 
 # Copy Git Customizations
 cp -r ~/Custom-Git-Commands .
@@ -138,10 +138,9 @@ cp /etc/shells root/etc/
 mkdir -p .ssh
 cp ~/.ssh/config .ssh/
 
-# Copy bin executables
-mkdir -p bin
-cp ~/bin/howdoi bin/
-cp ~/bin/jq-replace bin/
+# Copy custom LaunchAgents
+mkdir -p LaunchAgents
+cp ~/Library/LaunchAgents/com.user.bluetooth.keepalive.plist LaunchAgents/
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
