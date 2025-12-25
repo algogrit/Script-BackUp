@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Audio Only",
-    "current_program_scene": "Audio Only",
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
     "scene_order": [
         {
             "name": "Scene"
