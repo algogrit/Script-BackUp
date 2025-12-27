@@ -125,5 +125,6 @@
   "continue.showInlineTip": false,
   "sonarlint.focusOnNewCode": true,
   "workbench.colorTheme": "JetBrains New Dark",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
 }

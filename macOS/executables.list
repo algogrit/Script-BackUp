@@ -882,6 +882,7 @@ goenv-install
 goenv-uninstall
 gofmt
 goid-tool
+goimports
 gopls
 gource
 gpaste
