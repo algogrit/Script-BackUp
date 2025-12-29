@@ -204,6 +204,7 @@ cacaserver
 cacaview
 caddy
 caffeinate
+cagent
 cairo-trace
 cal
 calendar
@@ -678,6 +679,10 @@ gdf
 gdir
 gdircolors
 gdirname
+gdk-pixbuf-csource
+gdk-pixbuf-pixdata
+gdk-pixbuf-query-loaders
+gdk-pixbuf-thumbnailer
 gdu
 gecho
 gegrep
@@ -2011,6 +2016,7 @@ rs
 rsaperf
 rsapoptst
 Rscript
+rsvg-convert
 rsync
 rsync-ssl
 rtadvd
