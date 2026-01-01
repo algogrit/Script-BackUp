@@ -28,11 +28,11 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/yard-0.9.38/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/stackprof-0.2.27/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/stackprof-0.2.27
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.7.10/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/spoom-1.7.11/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/thor-1.4.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.6.12845/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.6.12845/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.6.12845-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-and-runtime-0.6.12865/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-0.6.12865/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-static-0.6.12865-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-cobertura-3.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/simplecov_json_formatter-0.1.4/lib
@@ -45,14 +45,14 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-rspec-3.8.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-performance-1.26.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-md-2.0.3/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-1.81.7/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-1.82.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.48.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-sorbet-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.6.12845/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.6.12865/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-github-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-3.13.2/lib
@@ -70,8 +70,6 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pycall-1.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/pycall-1.5.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pry-0.15.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/prism-1.7.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/prism-1.7.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/plist-3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/patchelf-1.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/lib
@@ -80,7 +78,9 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel_tests-5.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/netrc-0.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/minitest-5.27.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/minitest-6.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/prism-1.7.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/prism-1.7.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/method_source-1.1.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/logger-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/lint_roller-1.1.0/lib
@@ -98,7 +98,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/docile-1.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/diff-lcs-1.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/csv-3.3.5/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/concurrent-ruby-1.3.5/lib/concurrent-ruby
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/concurrent-ruby-1.3.6/lib/concurrent-ruby
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bindata-2.5.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/bigdecimal-4.0.1/lib
@@ -115,7 +115,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-5.0.7
+5.0.8
 ==> macOS
 15.7.2
 ==> SIP
@@ -124,7 +124,11 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7513 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7514 casks)
+
+Warning: Some installed formulae are deprecated or disabled.
+You should find replacements for the following formulae:
+  icu4c@77
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
 If you didn't put them there on purpose they could cause problems when
@@ -133,4 +137,4 @@ building Homebrew formulae and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
-286 kegs, 162,410 files, 7.2GB
+288 kegs, 162,449 files, 7.2GB

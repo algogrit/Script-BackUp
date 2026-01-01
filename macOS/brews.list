@@ -103,6 +103,7 @@ libgcrypt
 libgit2
 libgpg-error
 libheif
+libiconv
 libid3tag
 libidn2
 libksba
@@ -268,6 +269,7 @@ wdiff
 webp
 wget
 winetricks
+witr
 wrk
 wxwidgets@3.2
 x264
