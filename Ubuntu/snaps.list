@@ -2,10 +2,10 @@ Name                       Version                         Rev    Tracking      
 bare                       1.0                             5      latest/stable    canonical**    base
 code                       994fd12f                        217    latest/stable    vscode**       classic
 core20                     20251031                        2686   latest/stable    canonical**    base
-core22                     20251009                        2163   latest/stable    canonical**    base
-core24                     20251009                        1237   latest/stable    canonical**    base
+core22                     20251105                        2193   latest/stable    canonical**    base
+core24                     20251026                        1243   latest/stable    canonical**    base
 ffmpeg-2404                7.1.1                           108    latest/stable    snapcrafters*  -
-firefox                    146.0-2                         7477   latest/stable/…  mozilla**      -
+firefox                    146.0.1-1                       7559   latest/stable/…  mozilla**      -
 firmware-updater           0+git.0052f6b                   210    1/stable/…       canonical**    -
 gnome-42-2204              0+git.837775c-sdk0+git.7b07595  226    latest/stable/…  canonical**    -
 gnome-46-2404              0+git.df85349-sdk0+git.54e4d8f  145    latest/stable    canonical**    -
