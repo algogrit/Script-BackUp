@@ -73,6 +73,7 @@ ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' |
 
 echo "\033[1;31mSyncing tools...\033[0m"
 ./tool-sync/obs/sync.sh
+./tool-sync/ollama/update-and-sync.sh
 
 echo "\033[1;31mGetting ollama models list...\033[0m"
 ollama list > ollama.list
