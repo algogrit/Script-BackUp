@@ -3,6 +3,7 @@
 2to3
 2to3-3.10
 2to3-3.11
+2to3-3.12
 2to3-3.9
 4channels
 7z
@@ -42,6 +43,7 @@ ag
 agentxtrap
 agvtool
 ahost
+aider
 airport
 al
 al2
@@ -574,6 +576,7 @@ fc-query
 fc-scan
 fc-validate
 fcgistarter
+fd
 fddist
 fdesetup
 fdisk
@@ -637,6 +640,9 @@ fstyp_ntfs
 fstyp_udf
 funzip
 fuser
+fzf
+fzf-preview.sh
+fzf-tmux
 g[
 g++
 g++-15
@@ -1043,6 +1049,7 @@ idle
 idle3
 idle3.10
 idle3.11
+idle3.12
 idle3.14
 idle3.9
 idn2
@@ -1751,6 +1758,7 @@ pip2.7
 pip3
 pip3.10
 pip3.11
+pip3.12
 pip3.14
 pip3.9
 piv-tool
@@ -1869,6 +1877,7 @@ pydoc
 pydoc3
 pydoc3.10
 pydoc3.11
+pydoc3.12
 pydoc3.14
 pydoc3.9
 pyenv
@@ -1906,6 +1915,8 @@ python3.10-gdb.py
 python3.11
 python3.11-config
 python3.11-gdb.py
+python3.12
+python3.12-config
 python3.14
 python3.14-config
 python3.9
@@ -2545,6 +2556,7 @@ wget
 what
 whatis
 wheel3
+wheel3.12
 wheel3.14
 whereis
 which

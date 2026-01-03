@@ -1,5 +1,6 @@
 abseil
 ack
+aider
 ant
 aom
 apr
@@ -38,6 +39,7 @@ emacs
 erlang
 exercism
 fastfetch
+fd
 ffmpeg
 flac
 fmt
@@ -46,6 +48,7 @@ fontconfig
 freetype
 frei0r
 fribidi
+fzf
 gcc
 gdk-pixbuf
 gettext
@@ -212,6 +215,7 @@ pstree
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
+python@3.12
 python@3.14
 qpdf
 qrencode

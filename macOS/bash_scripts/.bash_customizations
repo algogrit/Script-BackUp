@@ -44,3 +44,6 @@ export HOMEBREW_AUTO_UPDATE_SECS=86400
 
 # Bash uses vi by default (Not for now - Breaks Ctrl-A)
 # set -o vi
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
