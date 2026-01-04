@@ -132,6 +132,7 @@ echo "\033[1;31mSyncing tools...\033[0m"
 ./tool-sync/obs/sync.sh restore
 
 echo "\033[1;31mFinishing up...\033[0m"
+echo "\033[1;31mManually: install Homebrew...\033[0m"
 
 unalias cp
 unalias rm

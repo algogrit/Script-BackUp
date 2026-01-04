@@ -7,3 +7,4 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 mkdir -p $SYNC_DIR
 cp /etc/systemd/system/ollama.service $SYNC_DIR/
+cp -r /etc/systemd/system/ollama.service.d/ $SYNC_DIR/

@@ -47,13 +47,35 @@ code --list-extensions > VSCode/extensions.list
 cp -r ~/git-hooks .
 cp -r ~/Custom-Git-Commands .
 
-echo "📦 Backing up APT, snap and flatpak packages..."
+echo "\033[1;31mUpdating apt...\033[0m"
+sudo apt update
+
+echo "\033[1;31mUpdating flatpak...\033[0m"
+flatpak update --appstream
+
+echo "\033[1;31mUpdating brew...\033[0m"
+brew update
+brew cleanup
+
+echo "📦 Backing up APT, brew, snap and flatpak packages..."
 # Apt packages
 apt-mark showmanual > apt-packages.list
 # Snap packages
 snap list > snaps.list
 # flatpak packages
 flatpak list -d > flatpak.list
+
+# List of Brew installations
+brew list > brews.list
+
+# List of Brew taps
+brew tap > brew_taps.list
+brew tap | xargs brew tap-info > brew_taps.info
+
+# List of Brew Cask Installations
+echo "\033[1;31mBrew info...\033[0m"
+brew doctor --verbose 2>&1 | tee brew.info
+brew info 2>&1 | tee -a brew.info
 
 echo "\033[1;31mUpdating version managers...\033[0m"
 bash -c "cd ~/.rbenv; git pull"
@@ -78,12 +100,6 @@ echo "\033[1;31mSyncing tools...\033[0m"
 echo "\033[1;31mGetting ollama models list...\033[0m"
 ollama list > ollama.list
 
-echo "\033[1;31mUpdating apt...\033[0m"
-sudo apt update
-
-echo "\033[1;31mUpdating flatpak...\033[0m"
-flatpak update --appstream
-
 unalias cp
 unalias rm
 
@@ -100,6 +116,9 @@ pipx upgrade open-webui
 
 echo "\033[1;31mUpgradable apt packages...\033[0m"
 sudo apt list --upgradable -a
+
+echo "\033[1;31mOutdated brews...\033[0m"
+brew outdated
 
 echo "\033[1;31mUpgradable snap packages...\033[0m"
 snap refresh --list

@@ -2,6 +2,7 @@ echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
 
 # For Ollama
 export OLLAMA_HOST=0.0.0.0
+export HOMEBREW_NO_ANALYTICS=1
 
 # # JAVA GC Tuning
 # export set JAVA_OPTS="-Xms256m -Xmx1g"

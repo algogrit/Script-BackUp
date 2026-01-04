@@ -6,6 +6,9 @@ case $- in
       *) return;;
 esac
 
+# Sourcing Brew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # Sourcing Bash Completion
 source ~/bash_scripts/.bash_completion
 
@@ -24,7 +27,7 @@ source ~/bash_scripts/.bash_custom_functions
 # Sourcing Aliases
 source ~/bash_scripts/.aliases
 
-# # Sourcing Z
+# Sourcing Z
 . ~/bash_scripts/third_party/z.sh
 
 # # Sourcing Autoenv
