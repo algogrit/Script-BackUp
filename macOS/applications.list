@@ -27,7 +27,6 @@ kdenlive
 Keynote
 LBRY
 LibreOffice
-LM Studio
 MenuMeters
 NDI Access Manager
 NDI Discovery
@@ -72,3 +71,4 @@ zoom
 [1;31mListing User Applications...[0m
 Chrome Apps
 odriveFinderSyncExtension
+pandoc

@@ -1281,7 +1281,6 @@ listsuites
 lldb
 llvm-g++
 llvm-gcc
-lms
 ln
 lndir
 loads.d
