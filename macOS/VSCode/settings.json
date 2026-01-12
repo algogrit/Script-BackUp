@@ -4,7 +4,7 @@
   "editor.fontWeight": "500",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "editor.minimap.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "files.trimTrailingWhitespace": true,

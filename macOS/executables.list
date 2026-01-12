@@ -1327,7 +1327,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1765228720
+luajit-2.1.1767980792
 luit
 lwp-download
 lwp-download5.34
@@ -1790,6 +1790,8 @@ plutil
 pmset
 png-fix-itxt
 pngfix
+pnpm
+pnpx
 pod2html
 pod2html5.34
 pod2man

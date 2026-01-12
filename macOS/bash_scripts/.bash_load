@@ -1,7 +1,7 @@
 echo -e "\033[1;34m~/bash_scripts/.bash_load Loaded\033[0m"
 
 # HOMEBREW
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH ## Redundant!? No, this is definitely required, to be placed before /usr/bin
 export PATH=/opt/homebrew/sbin:$PATH
 
 # Sourcing Bash Completion
