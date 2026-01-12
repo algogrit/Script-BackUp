@@ -182,7 +182,6 @@ echo "\033[1;31mRefreshing ollama models...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
 
 echo "\033[1;31m/etc/hosts...\033[0m"
-echo "Current: `cat /etc/hosts | grep -m 1 'Date:' | awk '{print $3 " " $4 " " $5}'`"
-echo "Latest: `curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep 'Date:' | awk '{print $3 " " $4 " " $5}'`"
+compare-hosts-files
 
 echo "\033[1;31mCOMPLETED!\033[0m"

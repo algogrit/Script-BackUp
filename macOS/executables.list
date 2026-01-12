@@ -281,6 +281,7 @@ comm
 command
 compare
 compare-cvelists.sh
+compare-hosts-files
 complete-ant-cmd.pl
 composite
 compress

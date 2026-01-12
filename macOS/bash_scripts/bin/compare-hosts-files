@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Current: `cat /etc/hosts | grep -m 1 'Date:' | awk '{print $3 " " $4 " " $5}'`"
+echo "Latest: `curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts > /tmp/hosts.txt 2> /dev/null ; cat /tmp/hosts.txt | grep 'Date:' | awk '{print $3 " " $4 " " $5}'`"

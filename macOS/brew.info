@@ -124,7 +124,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7508 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7505 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -137,4 +137,4 @@ building Homebrew formulae and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
-293 kegs, 180,399 files, 7.9GB
+293 kegs, 180,159 files, 7.9GB
