@@ -1847,13 +1847,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-33.2.0
+protoc-33.3.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-33.2.0
-protoc-gen-upb-33.2.0
+protoc-gen-upb_minitable-33.3.0
+protoc-gen-upb-33.3.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-33.2.0
+protoc-gen-upbdefs-33.3.0
 prove
 prove5.34
 ps

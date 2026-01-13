@@ -49,7 +49,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-display_width-3.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/unicode-emoji-4.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/ruby-progressbar-1.13.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.48.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rubocop-ast-1.49.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rspec-sorbet-1.9.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/sorbet-runtime-0.6.12872/lib
@@ -69,7 +69,8 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pycall-1.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/pycall-1.5.2
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pry-0.15.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/pry-0.16.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/reline-0.6.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/plist-3.7.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/patchelf-1.5.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parser-3.3.10.0/lib
@@ -78,7 +79,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel_tests-5.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/parallel-1.27.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/netrc-0.11.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/minitest-6.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/minitest-6.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/prism-1.7.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/prism-1.7.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/method_source-1.1.0/lib
@@ -92,6 +93,8 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/regexp_parser-2.11.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/json-2.18.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/json-2.18.0
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.2/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/extensions/arm64-darwin-20/3.4.0-static/io-console-0.8.2
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/erubi-1.13.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/3.4.0/gems/elftools-1.3.1/lib
@@ -115,7 +118,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/arm64-darwin20
 ==> Homebrew Version
-5.0.9
+5.0.10
 ==> macOS
 15.7.2
 ==> SIP
@@ -124,7 +127,7 @@ Enabled
 /opt/homebrew/Caskroom
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (2 casks)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7505 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7506 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -137,4 +140,4 @@ building Homebrew formulae and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
-293 kegs, 180,159 files, 7.9GB
+293 kegs, 180,439 files, 7.9GB

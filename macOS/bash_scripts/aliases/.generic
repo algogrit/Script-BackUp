@@ -36,8 +36,11 @@ alias cat-without-first-line='awk FNR-1'
 alias ip_address="ifconfig en0 inet | ag inet | cut -d ' ' -f 2"
 
 # Music
-alias play_music="mplayer -novideo -loop 0 -shuffle"
-alias play_once="mplayer -novideo"
+alias play_music="mplayer -novideo -cache 16384 -cache-min 80 -loop 0 -shuffle"
+alias play_once="mplayer -novideo -cache 16384 -cache-min 80"
+
+# YouTube
+alias yt-dlpm="yt-dlp -x -f bestaudio"
 
 # Bhagwan
 alias bhagwat-gita="mplayer -novideo \"/Users/gaurav/Downloads/Bharat/Bhagvad Gita\"/*"
