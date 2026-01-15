@@ -48,7 +48,6 @@ airport
 al
 al2
 alias
-ambiguous_words
 amt
 androiddump
 animate
@@ -141,9 +140,6 @@ bashbug
 bat
 batch
 bc
-bd_info
-bd_list_titles
-bd_splice
 bdftopcf
 bdftruncate
 beforelight
@@ -253,7 +249,6 @@ cksum
 clang
 clang++
 clangd
-classifier_tester
 ClassInitGenerator
 clean-diff
 clear
@@ -263,7 +258,6 @@ clojure
 cmp
 cmpdylib
 cmsutil
-cntraining
 code
 code-tunnel
 codecctl
@@ -275,8 +269,6 @@ colordiff
 colortail
 colrm
 column
-combine_lang_model
-combine_tessdata
 comm
 command
 compare
@@ -291,13 +283,6 @@ config_data5.34
 conflict
 conjure
 convert
-convertfilestopdf
-convertfilestops
-convertformat
-convertsegfilestopdf
-convertsegfilestops
-converttopdf
-converttops
 coreaudiod
 corelist
 corelist5.34
@@ -348,7 +333,6 @@ cupstestppd
 curl
 curl-config
 cursor
-curve_keygen
 cut
 cvadmin
 cvaffinity
@@ -375,7 +359,6 @@ dapptrace
 dash
 date
 dav1d
-dawg2wordlist
 db_archive
 db_checkpoint
 db_codegen
@@ -593,7 +576,6 @@ fibreconfig
 file
 filebyproc.d
 filecoordinationd
-fileinfo
 fileproviderctl
 filetype
 filtercalltree
@@ -1060,7 +1042,6 @@ ifnames
 ikdasm
 ilasm
 illinkanalyzer
-imagetops
 img2txt
 img2webp
 imgcat
@@ -1317,8 +1298,6 @@ lskq
 lsm
 lsmp
 lsof
-lstmeval
-lstmtraining
 lsvfs
 lto-dump-15
 lua
@@ -1407,13 +1386,11 @@ mediainfo
 mem_image
 memory_pressure
 mencoder
-merge_unicharsets
 merge-all-source-plugins
 merge-with-subtitle
 mergecap
 mesg
 metaflac
-mftraining
 mg
 mib2c
 mib2c-update
@@ -1496,9 +1473,6 @@ mozroots
 mp2bug
 mp3splt
 mp3wrap
-mpg123
-mpg123-id3dump
-mpg123-strip
 mpicalc
 mpioutil
 mpire-dashboard
@@ -1651,7 +1625,6 @@ osalang
 osascript
 otctl
 otool
-out123
 p11-kit
 p11cat
 p11cp
@@ -1946,7 +1919,6 @@ randpktdump
 ranlib
 rapidocr
 rarpd
-rav1e
 raw-identify
 raw2tiff
 rawshark
@@ -2007,10 +1979,6 @@ resolveLinks
 rev
 Rez
 ri
-rist2rist
-ristreceiver
-ristsender
-ristsrppasswd
 rls
 rlwrap
 rm
@@ -2037,8 +2005,6 @@ rtmpdump
 rtmpgw
 rtmpsrv
 rtmpsuck
-rubberband
-rubberband-r3
 ruby
 ruby-build
 run_erl
@@ -2108,7 +2074,6 @@ serialver
 serverinfo
 servertool
 sessreg
-set_unicharset_properties
 SetFile
 setkey
 setquota
@@ -2131,7 +2096,6 @@ sha384
 sha384sum
 sha512
 sha512sum
-shapeclustering
 shar
 sharing
 sharkd
@@ -2177,16 +2141,6 @@ smbutil
 smproxy
 smtpd.py
 sn
-sndfile-cmp
-sndfile-concat
-sndfile-convert
-sndfile-deinterleave
-sndfile-info
-sndfile-interleave
-sndfile-metadata-get
-sndfile-metadata-set
-sndfile-play
-sndfile-salvage
 sndiskmove
 snfsdefrag
 snmp-bridge-mib
@@ -2223,8 +2177,6 @@ sort
 source2c
 sourcekit-lsp
 spctl
-speexdec
-speexenc
 spfd
 spfd5.34
 spfquery
@@ -2238,10 +2190,6 @@ spray
 sqlite3
 sqlmetal
 sqlsharp
-srt-ffplay
-srt-file-transmit
-srt-live-transmit
-srt-tunnel
 ssh
 ssh-add
 ssh-agent
@@ -2331,11 +2279,9 @@ tcpdump
 tcsh
 tee
 telnet
-tesseract
 test
 test-yaml
 test-yaml5.34
-text2image
 text2pcap
 texture_to_cube
 textutil
@@ -2445,7 +2391,6 @@ uncoded_frame
 uncompress
 undill
 unexpand
-unicharset_extractor
 unifdef
 unifdefall
 unify
@@ -2592,7 +2537,6 @@ with_nss
 with_softhsm
 with_utimaco
 witr
-wordlist2dawg
 write
 wrjpgcom
 wrk
@@ -2700,7 +2644,6 @@ xstdcmap
 xsubpp
 xsubpp5.34
 xterm
-xtractprotos
 Xvfb
 xvinfo
 xwd
@@ -2767,7 +2710,6 @@ ziptool
 zless
 zlib-flate
 zmore
-zmqsend
 zmqshell.py
 znew
 zprint
