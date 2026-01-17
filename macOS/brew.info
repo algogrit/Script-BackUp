@@ -120,7 +120,7 @@ SHELL="/opt/homebrew/bin/bash"
 ==> Homebrew Version
 5.0.10
 ==> macOS
-15.7.2
+15.7.3
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
@@ -140,4 +140,4 @@ building Homebrew formulae and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
-262 kegs, 178,959 files, 7.7GB
+262 kegs, 179,006 files, 7.7GB

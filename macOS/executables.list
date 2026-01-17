@@ -474,6 +474,7 @@ dumpsexp
 dvd2concat
 dwarfdump
 dwebp
+dx
 dyld_info
 dyld_usage
 dynamic_pager
@@ -1820,13 +1821,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-33.3.0
+protoc-33.4.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-33.3.0
-protoc-gen-upb-33.3.0
+protoc-gen-upb_minitable-33.4.0
+protoc-gen-upb-33.4.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-33.3.0
+protoc-gen-upbdefs-33.4.0
 prove
 prove5.34
 ps
