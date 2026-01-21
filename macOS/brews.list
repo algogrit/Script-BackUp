@@ -44,10 +44,8 @@ fmt
 fnm
 fontconfig
 freetype
-fribidi
 fzf
 gcc
-gdk-pixbuf
 gettext
 gh
 giflib
@@ -79,7 +77,6 @@ imagemagick
 imath
 imlib2
 isl
-jasper
 jenv
 jpeg-turbo
 jpeg-xl
@@ -103,7 +100,6 @@ libid3tag
 libidn2
 libksba
 liblinear
-liblqr
 libmediainfo
 libmms
 libmp3splt
@@ -112,11 +108,8 @@ libnghttp2
 libnghttp3
 libngtcp2
 libogg
-libomp
 libpng
 libptytty
-libraw
-librsvg
 libscrypt
 libsodium
 libssh2
@@ -124,7 +117,6 @@ libtasn1
 libtiff
 libtommath
 libtool
-libultrahdr
 libunistring
 libusb
 libuv
@@ -138,7 +130,6 @@ libxext
 libxrender
 libyaml
 libzen
-libzip
 little-cms2
 llvm
 lpeg
@@ -179,7 +170,6 @@ openssl@3
 opus
 p11-kit
 p7zip
-pango
 pcre
 pcre2
 pinentry
