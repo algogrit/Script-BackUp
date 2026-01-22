@@ -255,7 +255,7 @@
             "id": "coreaudio_input_capture",
             "versioned_id": "coreaudio_input_capture",
             "settings": {
-                "device_id": "AppleUSBAudioEngine:CMEDIA:USB PnP Audio Device:2100000:1"
+                "device_id": "BuiltInMicrophoneDevice"
             },
             "mixers": 255,
             "sync": 0,
@@ -834,7 +834,7 @@
     "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -1,
+    "scaling_level": 2,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
