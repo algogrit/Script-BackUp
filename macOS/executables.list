@@ -2018,7 +2018,6 @@ sc_auth
 sc_usage
 sc-hsm-tool
 scala
-scala_legacy
 scalac
 scaladoc
 scalar

@@ -84,12 +84,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.5,
-                            "y": 0.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.375,
-                            "y": 0.375
+                            "x": 0.75,
+                            "y": 0.75
                         },
                         "bounds": {
                             "x": 2560.0,
@@ -131,12 +131,12 @@
                         "id": 4,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 2312.0,
-                            "y": 1009.0
+                            "x": 2253.0,
+                            "y": 899.0
                         },
                         "pos_rel": {
-                            "x": 1.4333332777023315,
-                            "y": 0.40138888359069824
+                            "x": 1.351388931274414,
+                            "y": 0.24861109256744385
                         },
                         "scale": {
                             "x": 1.125,
@@ -147,12 +147,12 @@
                             "y": 1.125
                         },
                         "bounds": {
-                            "x": 248.0,
-                            "y": 432.0
+                            "x": 307.0,
+                            "y": 542.0
                         },
                         "bounds_rel": {
-                            "x": 0.3444444537162781,
-                            "y": 0.6000000238418579
+                            "x": 0.4263888895511627,
+                            "y": 0.7527777552604675
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -834,7 +834,7 @@
     "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 5,
+    "scaling_level": 2,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
