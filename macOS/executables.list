@@ -1126,18 +1126,14 @@ jcmd
 jconsole
 jcontrol
 jdb
-jdeprscan
 jdeps
 jenv
-jfr
 jhsdb
 jimage
 jinfo
 jjs
 jlink
 jmap
-jmod
-jnativescan
 jobs
 join
 jot
@@ -1157,7 +1153,6 @@ jsonschema
 jstack
 jstat
 jstatd
-jwebserver
 jxl_from_tree
 jxlinfo
 kadmin
