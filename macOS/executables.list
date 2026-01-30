@@ -26,6 +26,7 @@ accelerate-merge-weights
 accton
 ack
 actool
+adaparse
 addbuiltin
 addgnupghome
 adig
@@ -1394,6 +1395,8 @@ mklocale
 mknod
 mkpassdb
 mktemp
+mlx.distributed_config
+mlx.launch
 mmdbresolve
 mnthome
 mod
@@ -1825,6 +1828,7 @@ purge
 pwd
 pwd_mkdb
 pwdecrypt
+pwgen
 pwpolicy
 pydoc
 pydoc3

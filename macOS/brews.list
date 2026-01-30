@@ -1,5 +1,6 @@
 abseil
 ack
+ada-url
 aider
 ant
 aom
@@ -69,6 +70,7 @@ graphite2
 grep
 gti
 harfbuzz
+hdrhistogram_c
 helm
 highway
 htop
@@ -132,6 +134,7 @@ libxrender
 libyaml
 libzen
 little-cms2
+llhttp
 llvm
 lpeg
 lua
@@ -145,6 +148,8 @@ make
 mas
 maven
 media-info
+mlx
+mlx-c
 mp3splt
 mp3wrap
 mpdecimal
@@ -183,6 +188,7 @@ popt
 protobuf
 psgrep
 pstree
+pwgen
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
