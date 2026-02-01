@@ -23,6 +23,7 @@ caddy
 cairo
 certifi
 clojure
+cloudflared
 colordiff
 colortail
 coreutils
@@ -125,6 +126,7 @@ libusb
 libuv
 libvmaf
 libvorbis
+libvpx
 libx11
 libxau
 libxcb

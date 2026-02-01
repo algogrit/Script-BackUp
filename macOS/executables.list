@@ -255,6 +255,7 @@ clear
 clippy-driver
 clj
 clojure
+cloudflared
 cmp
 cmpdylib
 cmsutil
@@ -1483,6 +1484,7 @@ msgfmt
 msggrep
 msginit
 msgmerge
+msgpre
 msgunfmt
 msguniq
 msiexec
@@ -1748,6 +1750,7 @@ png-fix-itxt
 pngfix
 pnpm
 pnpx
+po-fetch
 pod2html
 pod2html5.34
 pod2man
@@ -2159,6 +2162,7 @@ spfd5.34
 spfquery
 spfquery5.34
 spindump
+spit
 splain
 splain5.34
 split
