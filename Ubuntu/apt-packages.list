@@ -17,6 +17,7 @@ docker-compose-plugin
 efibootmgr
 fastboot
 fastfetch
+ffmpeg
 file
 findutils
 flatpak
@@ -42,6 +43,11 @@ language-pack-en
 language-pack-en-base
 language-pack-gnome-en
 language-pack-gnome-en-base
+libavcodec-dev
+libavdevice-dev
+libavfilter-dev
+libavformat-dev
+libavutil-dev
 libbz2-dev
 libchewing3
 libchewing3-data
@@ -64,6 +70,8 @@ libreoffice-help-en-us
 libreoffice-l10n-en-gb
 libreoffice-l10n-en-za
 libssl-dev
+libswresample-dev
+libswscale-dev
 libvirt-clients
 libvirt-daemon-system
 libyaml-dev
@@ -84,6 +92,7 @@ obs-backgroundremoval
 ovmf
 pavucontrol
 pipx
+pkg-config
 procps
 python3
 python3-netifaces

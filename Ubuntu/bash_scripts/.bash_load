@@ -31,7 +31,7 @@ source ~/bash_scripts/.aliases
 . ~/bash_scripts/third_party/z.sh
 
 # # Sourcing Autoenv
-# source /opt/homebrew/opt/autoenv/activate.sh
+source /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh
 
 # # Source Docker Init script
 # source /Users/gaurav/.docker/init-bash.sh || true

@@ -1,14 +1,15 @@
 OBS Studio	Live stream and record videos	com.obsproject.Studio	32.0.4	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	57c369da69c7	-	569.1 MB	user,current
-DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.1.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	6f781ecf3f7f	-	2.6 MB	user,runtime
-Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	72ade2f9cee1	-	341.0 MB	user,current
-Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	24.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/24.08	e7cca7bcddd3	-	435.7 MB	user,runtime
-Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	24.08extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/24.08extra	765326f0e2ab	-	435.7 MB	user,runtime
-Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	6c84cadce009	-	428.3 MB	user,runtime
-Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.2.6	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	de91944ce02a	-	428.3 MB	user,runtime
-nvidia-580-95-05		org.freedesktop.Platform.GL.nvidia-580-95-05		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-95-05/x86_64/1.4	acb8b4605d3c	-	901.8 MB	user,runtime
-Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	3a4014c84eed	-	100.4 kB	user,runtime
-Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	a9564bf207b2	-	43.6 MB	user,runtime
+DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.1.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	317d362afc16	-	2.7 MB	user,runtime
+Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	420428fb0a85	-	323.8 MB	user,current
+Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.3	24.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/24.08	9b59f541a931	-	444.1 MB	user,runtime
+Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.3	24.08extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/24.08extra	ca577ba00f39	-	444.1 MB	user,runtime
+Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.3	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	0bf902ca42bd	-	436.5 MB	user,runtime
+Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.3	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	925c7341364d	-	436.5 MB	user,runtime
+nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	00da005926c7	-	901.8 MB	user,runtime
+nvidia-580-95-05		org.freedesktop.Platform.GL.nvidia-580-95-05		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-95-05/x86_64/1.4	9a5a1adb4c29	-	901.8 MB	user,runtime
+Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	59a3795307b2	-	100.4 kB	user,runtime
+Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	e4aa1279dc8b	-	43.6 MB	user,runtime
 openh264	OpenH264 Video Codec provided by Cisco Systems, Inc.	org.freedesktop.Platform.openh264	2.5.1	2.5.1	x86_64	flathub	user	org.freedesktop.Platform.openh264/x86_64/2.5.1	0f52621e4540	-	789.5 kB	user,runtime
-Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.6	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	c87b8601d717	-	1.7 GB	user,runtime
+Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.7	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	4d24423cfeeb	-	1.7 GB	user,runtime
 Yaru-dark Gtk Theme	Yaru-dark theme	org.gtk.Gtk3theme.Yaru-dark		3.22	x86_64	flathub	user	org.gtk.Gtk3theme.Yaru-dark/x86_64/3.22	d4b294293b43	-	745.5 kB	user,runtime
 KDE Application Platform	Shared libraries used by KDE applications	org.kde.Platform		6.8	x86_64	flathub	user	org.kde.Platform/x86_64/6.8	d101b2f79d97	-	1.1 GB	user,runtime,eol=We strongly recommend moving to the latest stable version of the Platform and SDK

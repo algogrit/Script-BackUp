@@ -1,5 +1,8 @@
 
 [
+2to3
+2to3-3.11
+2to3-3.12
 7z
 7za
 7zr
@@ -142,6 +145,7 @@ bluetoothd
 bluetooth-sendto
 bmtoa
 boltctl
+bomtool
 bpflist-bpfcc
 bpftool
 bpftrace
@@ -520,6 +524,9 @@ fc-query
 fc-scan
 fc-validate
 fdisk
+ffmpeg
+ffplay
+ffprobe
 fgconsole
 fgrep
 file
@@ -637,6 +644,9 @@ gcr-viewer
 gcr-viewer-gtk4
 gdb
 gdb-add-index
+gdbm_dump
+gdbm_load
+gdbmtool
 gdbtui
 gdbus
 gdisk
@@ -901,6 +911,12 @@ icuexportdata
 icuinfo
 icupkg
 id
+idle
+idle3
+idle3.11
+idle3.12
+idle3.13
+idle3.14
 iecset
 ifconfig
 ifnames
@@ -1163,6 +1179,7 @@ lzfgrep
 lzgrep
 lzless
 lzma
+lzmadec
 lzmainfo
 lzmore
 m17n-db
@@ -1476,6 +1493,7 @@ perf
 perl
 perl5.38.2
 perl5.38-x86_64-linux-gnu
+perl5.42.0
 perlbug
 perlcalls-bpfcc
 perldoc
@@ -1509,7 +1527,10 @@ ping6
 pinky
 pip
 pip3
+pip3.11
 pip3.12
+pip3.13
+pip3.14
 pipewire
 pipewire-aes67
 pipewire-avb
@@ -1642,19 +1663,39 @@ py3compile
 py3versions
 pybabel
 pybabel-python3
+pydoc
 pydoc3
+pydoc3.11
 pydoc3.12
+pydoc3.13
+pydoc3.14
+pyenv
+pyenv-install
+pyenv-uninstall
 pygettext3
 pygettext3.12
 pygmentize
 pyserial-miniterm
 pyserial-ports
+python
 python3
+python3.11
+python3.11-config
+python3.11-gdb.py
 python3.12
 python3.12-config
+python3.12-gdb.py
+python3.13
+python3.13-config
+python3.13-gdb.py
+python3.14
+python3.14-config
+python3.14-gdb.py
 python3-config
 python-argcomplete-check-easy-install-script
+python-build
 pythoncalls-bpfcc
+python-config
 pythonflow-bpfcc
 pythongc-bpfcc
 pythonstat-bpfcc
@@ -1673,6 +1714,7 @@ qmicli
 qmi-firmware-update
 qmi-network
 qpdldecode
+qt-faststart
 quirks-handler
 racc
 racc3.2
@@ -2209,6 +2251,7 @@ update_rubygems
 update-secureboot-policy
 update-shells
 update-xmlcatalog
+upgrade-packages
 upower
 uptime
 usb-creator-gtk
@@ -2231,6 +2274,8 @@ utmpdump
 uuidd
 uuidgen
 uuidparse
+uv
+uvx
 uz
 v4l2-compliance
 v4l2-ctl
@@ -2486,6 +2531,7 @@ xmessage
 xml2-config
 xmlcatalog
 xmllint
+xmlwf
 xmodmap
 xmore
 Xorg
@@ -2522,6 +2568,7 @@ xxd
 xz
 xzcat
 xzcmp
+xzdec
 xzdiff
 xzegrep
 xzfgrep
