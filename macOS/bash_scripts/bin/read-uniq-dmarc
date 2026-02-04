@@ -1,0 +1,42 @@
+normalize() {
+  sed -E '
+    s/[[:space:]]+/ /g
+    s#</feedback>[[:space:]]*</feedback>#</feedback>#g
+    s/[[:space:]]+$//
+  '
+}
+
+declare -A seen
+
+extract_xml() {
+  case "$1" in
+    *.xml)
+      cat "$1"
+      ;;
+    *.gz)
+      gunzip -c "$1"
+      ;;
+    *.zip)
+      unzip -p "$1" '*.xml'
+      ;;
+  esac
+}
+
+for f in *.xml *.xml.gz *.zip; do
+  extract_xml "$f" \
+  | awk '
+      BEGIN { RS="</feedback>"; ORS="" }
+      /<feedback>/ {
+        print $0 "</feedback>\n"
+      }
+    ' \
+  | normalize \
+  | while IFS= read -r block; do
+      hash=$(printf "%s" "$block" | sha256sum | cut -d' ' -f1)
+
+      if [[ -z "${seen[$hash]}" ]]; then
+        seen[$hash]=1
+        printf "%s\n" "$block"
+      fi
+    done
+done

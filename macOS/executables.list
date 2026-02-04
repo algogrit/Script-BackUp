@@ -18,11 +18,6 @@ aarch64-apple-darwin24-gcc-ranlib-15
 aarch64-apple-darwin24-gfortran-15
 ab
 ac
-accelerate
-accelerate-config
-accelerate-estimate-memory
-accelerate-launch
-accelerate-merge-weights
 accton
 ack
 actool
@@ -48,6 +43,7 @@ airport
 al
 al2
 alias
+ambiguous_words
 amt
 androiddump
 animate
@@ -140,6 +136,9 @@ bashbug
 bat
 batch
 bc
+bd_info
+bd_list_titles
+bd_splice
 bdftopcf
 bdftruncate
 beforelight
@@ -249,6 +248,7 @@ cksum
 clang
 clang++
 clangd
+classifier_tester
 ClassInitGenerator
 clean-diff
 clear
@@ -259,6 +259,7 @@ cloudflared
 cmp
 cmpdylib
 cmsutil
+cntraining
 code
 code-tunnel
 codecctl
@@ -270,6 +271,8 @@ colordiff
 colortail
 colrm
 column
+combine_lang_model
+combine_tessdata
 comm
 command
 compare
@@ -284,6 +287,13 @@ config_data5.34
 conflict
 conjure
 convert
+convertfilestopdf
+convertfilestops
+convertformat
+convertsegfilestopdf
+convertsegfilestops
+converttopdf
+converttops
 coreaudiod
 corelist
 corelist5.34
@@ -334,6 +344,7 @@ cupstestppd
 curl
 curl-config
 cursor
+curve_keygen
 cut
 cvadmin
 cvaffinity
@@ -360,6 +371,7 @@ dapptrace
 dash
 date
 dav1d
+dawg2wordlist
 db_archive
 db_checkpoint
 db_codegen
@@ -444,11 +456,7 @@ docker-credential-desktop
 docker-credential-ecr-login
 docker-credential-osxkeychain
 docker-machine
-docling
-docling-tools
-docling-view
 dot_clean
-dotenv
 drutil
 dscacheutil
 dscl
@@ -538,9 +546,7 @@ exrstdattr
 extcap
 eyapp
 eyapp5.34
-f2py
 factor
-faker
 false
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -576,8 +582,8 @@ fibreconfig
 file
 filebyproc.d
 filecoordinationd
+fileinfo
 fileproviderctl
-filetype
 filtercalltree
 find
 findrule
@@ -602,6 +608,7 @@ footprint
 fourcc2pixfmt
 fping
 freetype-config
+fribidi
 fs_usage
 fsck
 fsck_apfs
@@ -681,8 +688,6 @@ gengal
 genstrings
 genv
 genxs
-get_gprof
-get_objgraph
 getconf
 GetFileInfo
 getopt
@@ -987,7 +992,6 @@ heif-info
 heif-thumbnailer
 helm
 hexdump
-hf
 hidutil
 hiutil
 hmac256
@@ -1011,7 +1015,6 @@ httpd-wrapper
 httpserv
 httxt2dbm
 hub-tool
-huggingface-cli
 iasecc-tool
 ibtool
 icc_simplify
@@ -1038,6 +1041,7 @@ ifnames
 ikdasm
 ilasm
 illinkanalyzer
+imagetops
 img2txt
 img2webp
 imgcat
@@ -1101,7 +1105,6 @@ irw
 irw64
 ismindex
 isql
-isympy
 it2api
 it2attention
 it2cat
@@ -1152,7 +1155,6 @@ json_pp
 json_pp5.34
 json_xs
 json_xs5.34
-jsonschema
 jstack
 jstat
 jstatd
@@ -1196,7 +1198,6 @@ ktrace
 ktutil
 kubectl
 kubectl.docker
-l2m
 lam
 lame
 languagesetup
@@ -1204,10 +1205,6 @@ last
 lastcomm
 lastwords
 latency
-latex2mathml
-latex2text
-latexencode
-latexwalker
 launchctl
 launchd
 layerutil
@@ -1285,6 +1282,8 @@ lskq
 lsm
 lsmp
 lsof
+lstmeval
+lstmtraining
 lsvfs
 lto-dump-15
 lua
@@ -1343,8 +1342,6 @@ mandoc
 mandoc_soelim
 mangle
 manpath
-markdown-it
-marko
 mas
 masqreq
 mconfig
@@ -1372,11 +1369,13 @@ mdvalidater
 mediainfo
 memory_pressure
 mencoder
+merge_unicharsets
 merge-all-source-plugins
 merge-with-subtitle
 mergecap
 mesg
 metaflac
+mftraining
 mg
 mib2c
 mib2c-update
@@ -1461,9 +1460,11 @@ mozroots
 mp2bug
 mp3splt
 mp3wrap
+mpg123
+mpg123-id3dump
+mpg123-strip
 mpicalc
 mpioutil
-mpire-dashboard
 mplayer
 mprof-report
 mpsgraphtool
@@ -1554,7 +1555,6 @@ nohup
 nologin
 nonspr10
 normalize.py
-normalizer
 notepad
 notifyd
 notifyutil
@@ -1572,13 +1572,11 @@ nssdefaults
 nsupdate
 nuget
 numfmt
-numpy-config
 nvim
 nvram
 objdump
 obs
 oclock
-ocrmac
 ocspcheck
 ocspclnt
 ocspd
@@ -1613,6 +1611,7 @@ osalang
 osascript
 otctl
 otool
+out123
 p11-kit
 p11cat
 p11cp
@@ -1646,6 +1645,9 @@ page
 pagesize
 pagestuff
 pal2rgb
+pango-list
+pango-segmentation
+pango-view
 par.pl
 par5.34.pl
 parl
@@ -1859,9 +1861,6 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
-pygmentize
-pygrun
-pypdfium2
 python
 python-build
 python-config
@@ -1908,8 +1907,8 @@ rake
 randpkt
 randpktdump
 ranlib
-rapidocr
 rarpd
+rav1e
 raw2tiff
 rawshark
 rbenv
@@ -1945,6 +1944,7 @@ rdbg
 rdjpgcom
 rdoc
 read
+read-uniq-dmarc
 readlink
 realpath
 reboot
@@ -1968,6 +1968,10 @@ resolveLinks
 rev
 Rez
 ri
+rist2rist
+ristreceiver
+ristsender
+ristsrppasswd
 rls
 rlwrap
 rm
@@ -1993,6 +1997,8 @@ rtmpdump
 rtmpgw
 rtmpsrv
 rtmpsuck
+rubberband
+rubberband-r3
 ruby
 ruby-build
 run_erl
@@ -2061,6 +2067,7 @@ serialver
 serverinfo
 servertool
 sessreg
+set_unicharset_properties
 SetFile
 setkey
 setquota
@@ -2083,6 +2090,7 @@ sha384
 sha384sum
 sha512
 sha512sum
+shapeclustering
 shar
 sharing
 sharkd
@@ -2127,6 +2135,16 @@ smbutil
 smproxy
 smtpd.py
 sn
+sndfile-cmp
+sndfile-concat
+sndfile-convert
+sndfile-deinterleave
+sndfile-info
+sndfile-interleave
+sndfile-metadata-get
+sndfile-metadata-set
+sndfile-play
+sndfile-salvage
 sndiskmove
 snfsdefrag
 snmp-bridge-mib
@@ -2163,6 +2181,8 @@ sort
 source2c
 sourcekit-lsp
 spctl
+speexdec
+speexenc
 spfd
 spfd5.34
 spfquery
@@ -2177,6 +2197,10 @@ spray
 sqlite3
 sqlmetal
 sqlsharp
+srt-ffplay
+srt-file-transmit
+srt-live-transmit
+srt-tunnel
 ssh
 ssh-add
 ssh-agent
@@ -2247,7 +2271,6 @@ systemsoundserverd
 systemstats
 tab2space
 tabs
-tabulate
 tac
 tail
 tailspin
@@ -2266,9 +2289,11 @@ tcpdump
 tcsh
 tee
 telnet
+tesseract
 test
 test-yaml
 test-yaml5.34
+text2image
 text2pcap
 texture_to_cube
 textutil
@@ -2300,7 +2325,6 @@ timeout
 timer_analyser.d
 timerfires
 timesyncanalyse
-tiny-agents
 tjbench
 tkcon
 tkmib
@@ -2321,20 +2345,15 @@ tor
 tor-gencert
 tor-print-ed-signing-cert
 tor-resolve
-torchfrtrace
-torchrun
 torify
 torsocks
 touch
 tput
-tqdm
 tr
 trace
 traceroute
 traceroute6
 train
-transformers
-transformers-cli
 transicc
 traptoemail
 trash
@@ -2342,6 +2361,8 @@ trasher
 tree
 treereg
 treereg5.34
+trietool
+trietool-0.2
 trimforce
 true
 truncate
@@ -2375,8 +2396,8 @@ unbound-control-setup
 unbound-host
 uncoded_frame
 uncompress
-undill
 unexpand
+unicharset_extractor
 unifdef
 unifdefall
 unify
@@ -2436,7 +2457,6 @@ uvx
 uxterm
 vagrant
 validation
-vba_extract.py
 vbc
 vbnc
 vbnc2
@@ -2522,6 +2542,7 @@ with_nss
 with_softhsm
 with_utimaco
 witr
+wordlist2dawg
 write
 wrjpgcom
 wrk
@@ -2629,6 +2650,7 @@ xstdcmap
 xsubpp
 xsubpp5.34
 xterm
+xtractprotos
 Xvfb
 xvinfo
 xwd
