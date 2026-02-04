@@ -3,5 +3,6 @@ echo -e "\033[1;36m~/bash_scripts/.aliases Loaded\033[0m"
 # Export Other Aliases
 . ~/bash_scripts/aliases/.generic
 . ~/bash_scripts/aliases/.llm
+. ~/bash_scripts/aliases/.nas
 . ~/bash_scripts/aliases/.secret
 . ~/bash_scripts/aliases/.virsh
