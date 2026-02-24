@@ -18,6 +18,9 @@ alias ag='ag --path-to-ignore ~/.ignore'
 alias rmdsfiles="find . -depth -name \".DS_Store\" -exec rm {} \;"
 alias rmd_files="find . -depth -name \"._*\" -exec rm {} \;"
 
+# macOS workarounds
+alias resign-app="codesign --force --deep --sign -" # Provide path to the app
+
 # Git Aliases
 alias gd="git diff"
 alias gdc="git diff --cached"

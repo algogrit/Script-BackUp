@@ -126,5 +126,12 @@
   "sonarlint.focusOnNewCode": true,
   "workbench.colorTheme": "JetBrains New Dark",
   "editor.fontLigatures": true,
-  "workbench.secondarySideBar.defaultVisibility": "hidden"
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "kilo-code.debug": false,
+  "kilo-code.allowedCommands": [
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "kilo-code.deniedCommands": []
 }

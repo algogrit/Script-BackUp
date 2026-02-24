@@ -4,6 +4,7 @@ ada-url
 aider
 ant
 aom
+apache-serf
 apr
 apr-util
 aribb24
@@ -23,12 +24,14 @@ cabextract
 caddy
 cairo
 certifi
+cffi
 cjson
 clojure
 cloudflared
 colordiff
 colortail
 coreutils
+cryptography
 curl
 dav1d
 deno
@@ -173,6 +176,7 @@ mas
 maven
 mbedtls@3
 media-info
+mistral-vibe
 mlx
 mlx-c
 mp3splt
@@ -194,6 +198,7 @@ nss
 ollama
 oniguruma
 openblas
+opencode
 opencore-amr
 openexr
 openjdk
@@ -217,6 +222,8 @@ protobuf
 psgrep
 pstree
 pwgen
+pycparser
+pydantic
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
@@ -228,9 +235,10 @@ r
 rav1e
 rbenv
 readline
+ripgrep
 rlwrap
+rpds-py
 rsync
-rtmpdump
 rubberband
 ruby
 ruby-build

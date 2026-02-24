@@ -831,7 +831,6 @@ git-wash
 git-wip
 git2
 gjoin
-gkill
 gktool
 glewinfo
 glib-compile-resources
@@ -958,7 +957,6 @@ gunexpand
 guniq
 gunlink
 gunzip
-guptime
 gusers
 gvdir
 gwc
@@ -1182,6 +1180,8 @@ kgetcred
 kill
 kill.d
 killall
+kilo
+kilocode
 kind
 kinit
 klist
@@ -1293,7 +1293,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1767980792
+luajit-2.1.1771261233
 luit
 lwp-download
 lwp-download5.34
@@ -1592,6 +1592,7 @@ ojph_expand
 ollama
 onig-config
 open
+opencode
 opendiff
 openpgp-tool
 opensc-asn1
@@ -1967,6 +1968,7 @@ ResMerger
 resolveLinks
 rev
 Rez
+rg
 ri
 rist2rist
 ristreceiver
@@ -1993,10 +1995,6 @@ Rscript
 rsync
 rsync-ssl
 rtadvd
-rtmpdump
-rtmpgw
-rtmpsrv
-rtmpsuck
 rubberband
 rubberband-r3
 ruby
@@ -2465,6 +2463,8 @@ venc_data_dump
 vfychain
 vfyserv
 vi
+vibe
+vibe-acp
 view
 viewdiagnostic
 viewres
