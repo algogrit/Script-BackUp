@@ -6,6 +6,7 @@ bridge-utils
 bsdutils
 build-essential
 ca-certificates
+cmake
 containerd.io
 curl
 dash
@@ -55,6 +56,7 @@ libdb-dev
 libffi-dev
 libfuse2t64
 libgdbm-dev
+liblzma-dev
 libm17n-0
 libmarisa0
 libncurses-dev
@@ -69,11 +71,14 @@ libreoffice-help-en-gb
 libreoffice-help-en-us
 libreoffice-l10n-en-gb
 libreoffice-l10n-en-za
+libsqlite3-dev
 libssl-dev
 libswresample-dev
 libswscale-dev
 libvirt-clients
 libvirt-daemon-system
+libxml2-dev
+libxmlsec1-dev
 libyaml-dev
 linux-generic-hwe-24.04
 linux-modules-nvidia-550-generic-hwe-24.04
@@ -120,6 +125,7 @@ v4l2loopback-utils
 vim
 virt-manager
 virtinst
+wget
 wimtools
 wine
 winetricks

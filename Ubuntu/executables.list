@@ -256,6 +256,7 @@ clear_console
 cloud-id
 cloud-init
 cloud-init-per
+cmake
 cmp
 cobjnew-bpfcc
 code
@@ -275,6 +276,7 @@ containerd
 containerd-shim-runc-v2
 corelist
 cp
+cpack
 cpan
 cpan5.38-x86_64-linux-gnu
 cpgr
@@ -297,6 +299,7 @@ criticalstat-bpfcc
 cron
 crontab
 csplit
+ctest
 ctr
 ctrlaltdel
 ctstat
@@ -437,6 +440,7 @@ drsnoop-bpfcc
 du
 dumpe2fs
 dumpkeys
+dumpsexp
 duplicity
 dvipdf
 dwp
@@ -767,6 +771,7 @@ gpg-agent
 gpgconf
 gpg-connect-agent
 gpgparsemail
+gpgrt-config
 gpgsm
 gpgsplit
 gpgtar
@@ -870,7 +875,9 @@ heif-thumbnailer
 helpztags
 hex2hcd
 hexdump
+hf
 hipercdecode
+hmac256
 host
 hostid
 hostname
@@ -897,6 +904,7 @@ hp-testpage
 hp-timedate
 htmldiff
 htop
+httpx
 hwe-support-status
 i386
 ibus
@@ -1074,6 +1082,7 @@ lessfile
 lesskey
 lesspipe
 lexgrog
+libgcrypt-config
 libnetcfg
 libreoffice
 libvirtd
@@ -1288,6 +1297,7 @@ mountpoint
 mountsnoop-bpfcc
 mousetweaks
 mpartition
+mpicalc
 mpris-proxy
 mpstat
 mrd
@@ -1364,6 +1374,8 @@ nroff
 nsenter
 nsight-sys
 nslookup
+nspr-config
+nss-config
 nstat
 nsupdate
 nsys
@@ -2118,6 +2130,7 @@ tig
 time
 timedatectl
 timeout
+tiny-agents
 tipc
 tload
 tmux
@@ -2130,6 +2143,7 @@ totem-video-thumbnailer
 touch
 tplist-bpfcc
 tput
+tqdm
 tr
 trace-bpfcc
 trace-cmd
@@ -2531,6 +2545,7 @@ xmessage
 xml2-config
 xmlcatalog
 xmllint
+xmlsec1-config
 xmlwf
 xmodmap
 xmore
