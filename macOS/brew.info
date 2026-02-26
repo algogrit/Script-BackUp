@@ -142,4 +142,4 @@ building Homebrew formulae and may need to be deleted.
 Unexpected dylibs:
   /usr/local/lib/libcastle_v2.1.0.0.dylib
   /usr/local/lib/libndi.dylib
-305 kegs, 185,683 files, 8.4GB
+306 kegs, 185,720 files, 8.4GB

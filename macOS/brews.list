@@ -10,6 +10,7 @@ apr-util
 aribb24
 asciidoctor
 asciinema
+auto-editor
 autoconf
 autoenv
 bash

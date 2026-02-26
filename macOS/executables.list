@@ -98,6 +98,7 @@ audit
 auditd
 auditreduce
 authserver
+auto-editor
 autoconf
 autoheader
 autom4te
@@ -1293,7 +1294,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1771261233
+luajit-2.1.1771967821
 luit
 lwp-download
 lwp-download5.34
