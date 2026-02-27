@@ -27,6 +27,10 @@ addpart
 addr2line
 add-shell
 adduser
+aedesc
+aeinfo
+aelevels
+aesubdump
 ag
 agetty
 airscan-discover
@@ -92,6 +96,7 @@ aspell-autobuildhash
 aspell-import
 atobm
 autoconf
+auto-editor
 autoheader
 autom4te
 automake
@@ -215,6 +220,7 @@ captoinfo
 cat
 catman
 cc
+cct
 cd-create-profile
 cd-fix-profile
 cd-iccdump
@@ -298,6 +304,7 @@ c_rehash
 criticalstat-bpfcc
 cron
 crontab
+cs2cs
 csplit
 ctest
 ctr
@@ -375,6 +382,7 @@ dh_autotools-dev_updateconfig
 dh_bash-completion
 dhcpcd
 dh_installxmlcatalogs
+dh_numpy3
 dh_perl_openssl
 diff
 diff3
@@ -454,6 +462,8 @@ e2scrub_all
 e2undo
 e4crypt
 e4defrag
+easy_install
+easy_install-2.7
 eatmydata
 ebtables
 ebtables-nft
@@ -504,6 +514,11 @@ expiry
 expr
 ext4dist-bpfcc
 ext4slower-bpfcc
+f2py
+f2py3
+f2py3.12
+f77
+f95
 factor
 faillock
 faillog
@@ -676,6 +691,7 @@ genl
 gennorm2
 genrb
 gensprep
+geod
 geqn
 GET
 getcap
@@ -693,7 +709,10 @@ gettext
 gettext.sh
 getty
 getweb
+gfortran
+gfortran-13
 ghostscript
+gie
 ginstall-info
 gio
 gio-querymodules
@@ -946,7 +965,9 @@ installkernel
 install-sgmlcatalog
 instmodsh
 intel-virtual-output
+invgeod
 invoke-rc.d
+invproj
 ionice
 iostat
 ip
@@ -1085,6 +1106,7 @@ lexgrog
 libgcrypt-config
 libnetcfg
 libreoffice
+libtoolize
 libvirtd
 link
 linkicc
@@ -1096,6 +1118,8 @@ linux-update-symlinks
 linux-version
 listres
 llcstat-bpfcc
+llvm-omp-device-info-18
+llvm-omp-kernel-replay-18
 ln
 lnstat
 loadkeys
@@ -1230,6 +1254,8 @@ mdig
 mdir
 mdu
 media-ctl
+melt
+melt-7
 memhog
 memleak-bpfcc
 memusage
@@ -1538,6 +1564,8 @@ ping4
 ping6
 pinky
 pip
+pip2
+pip2.7
 pip3
 pip3.11
 pip3.12
@@ -1560,6 +1588,7 @@ pkill
 pkmon
 pkttyagent
 pl2pm
+play
 pldd
 plipconfig
 plog
@@ -1610,6 +1639,9 @@ printf
 prlimit
 pro
 profile-bpfcc
+proj
+projinfo
+projsync
 prove
 prtstat
 ps
@@ -1673,6 +1705,7 @@ pwunconv
 py3clean
 py3compile
 py3versions
+pyav
 pybabel
 pybabel-python3
 pydoc
@@ -1690,6 +1723,11 @@ pygmentize
 pyserial-miniterm
 pyserial-ports
 python
+python2
+python2.7
+python2.7-config
+python2.7-gdb.py
+python2-config
 python3
 python3.11
 python3.11-config
@@ -1779,6 +1817,7 @@ readlink
 readprofile
 realpath
 reboot
+rec
 red
 regedit
 regedit-stable
@@ -1924,6 +1963,7 @@ sha512sum
 shadowconfig
 shasum
 shmsnoop-bpfcc
+shotcut
 shotwell
 showconsolefont
 showkey
@@ -1942,6 +1982,7 @@ slirp4netns
 slogin
 slxdecode
 smproxy
+smtpd.py
 snap
 snapctl
 snapfuse
@@ -1957,6 +1998,8 @@ software-properties-gtk
 solisten-bpfcc
 sort
 sotruss
+sox
+soxi
 spa-acp-tool
 spa-inspect
 spa-json-dump
@@ -2015,6 +2058,19 @@ sudoreplay
 sudo_sendlog
 sulogin
 sum
+svn
+svnadmin
+svnauthz
+svnauthz-validate
+svnbench
+svndumpfilter
+svnfsfs
+svnlook
+svnmucc
+svnrdump
+svnserve
+svnsync
+svnversion
 swapin.bt
 swaplabel
 swapoff
@@ -2459,6 +2515,8 @@ x86_64-linux-gnu-gcov-dump-13
 x86_64-linux-gnu-gcov-tool
 x86_64-linux-gnu-gcov-tool-12
 x86_64-linux-gnu-gcov-tool-13
+x86_64-linux-gnu-gfortran
+x86_64-linux-gnu-gfortran-13
 x86_64-linux-gnu-gold
 x86_64-linux-gnu-gp-archive
 x86_64-linux-gnu-gp-collect-app

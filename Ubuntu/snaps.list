@@ -1,11 +1,11 @@
 Name                       Version                         Rev    Tracking         Publisher      Notes
 bare                       1.0                             5      latest/stable    canonical**    base
-code                       bdd88df0                        221    latest/stable    vscode**       classic
-core20                     20251031                        2686   latest/stable    canonical**    base
-core22                     20260113                        2292   latest/stable    canonical**    base
+code                       07258626                        226    latest/stable    vscode**       classic
+core20                     20260105                        2717   latest/stable    canonical**    base
+core22                     20260128                        2339   latest/stable    canonical**    base
 core24                     20260107                        1349   latest/stable    canonical**    base
 ffmpeg-2404                7.1.1                           108    latest/stable    snapcrafters*  -
-firefox                    147.0.2-1                       7720   latest/stable/…  mozilla**      -
+firefox                    148.0-1                         7869   latest/stable/…  mozilla**      -
 firmware-updater           0+git.0052f6b                   210    1/stable/…       canonical**    -
 gnome-42-2204              0+git.c1d3d69-sdk0+git.015db9a  247    latest/stable/…  canonical**    -
 gnome-46-2404              0+git.f1cd5fa-sdk0+git.ca9c59c  153    latest/stable    canonical**    -
@@ -14,4 +14,4 @@ mesa-2404                  25.0.7-snap211                  1165   latest/stable 
 snap-store                 0+git.90575829                  1270   2/stable/…       canonical**    -
 snapd                      2.73                            25935  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             343    latest/stable/…  canonical**    -
-thunderbird                140.7.1esr-1                    959    latest/stable/…  canonical**    -
+thunderbird                140.8.0esr-1                    995    latest/stable/…  canonical**    -

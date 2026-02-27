@@ -19,4 +19,4 @@ readline
 uv
 witr
 xz
-zlib
+zlib-ng-compat
