@@ -266,6 +266,7 @@ code-tunnel
 codecctl
 codesign
 codesign_allocate
+codex
 col
 colldef
 colordiff
@@ -1294,7 +1295,7 @@ luac
 luac-5.4
 luac5.4
 luajit
-luajit-2.1.1771967821
+luajit-2.1.1772148810
 luit
 lwp-download
 lwp-download5.34

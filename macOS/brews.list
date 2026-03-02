@@ -164,6 +164,7 @@ libzen
 little-cms2
 llhttp
 llvm
+llvm@21
 lpeg
 lua
 luajit
