@@ -28,6 +28,9 @@ if which pyenv > /dev/null; then
   eval "$(pyenv init --path)"
 fi
 
+# Added by `nodenv init` on Sun Mar  1 04:58:07 PM IST 2026
+eval "$(nodenv init - --no-rehash bash)"
+
 ## goenv
 # export GOENV_ROOT="$HOME/.goenv"
 # export GOPATH=$GOENV_ROOT

@@ -11,9 +11,12 @@ libffi
 libxcrypt
 m4
 ncurses
+node-build
+nodenv
 openssl@3
 perl
 pkgconf
+psgrep
 pyenv
 readline
 uv

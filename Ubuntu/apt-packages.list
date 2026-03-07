@@ -7,6 +7,7 @@ bison
 bridge-utils
 bsdutils
 build-essential
+bzip2
 ca-certificates
 cmake
 containerd.io
@@ -49,6 +50,7 @@ language-pack-en-base
 language-pack-gnome-en
 language-pack-gnome-en-base
 libatlas-base-dev
+libatlas3-base
 libavcodec-dev
 libavdevice-dev
 libavfilter-dev
@@ -94,6 +96,7 @@ linux-generic-hwe-24.04
 linux-modules-nvidia-550-generic-hwe-24.04
 login
 m17n-db
+make
 mtools
 mythes-en-au
 mythes-en-us
@@ -101,6 +104,7 @@ ncurses-base
 ncurses-bin
 net-tools
 nmap
+npm
 nvidia-cuda-toolkit
 nvidia-driver-550
 obs-backgroundremoval
@@ -120,6 +124,7 @@ shim-signed
 silversearcher-ag
 sox
 ssh
+sshpass
 subversion
 thunderbird-locale-en
 thunderbird-locale-en-gb
@@ -139,6 +144,7 @@ v4l2loopback-utils
 vim
 virt-manager
 virtinst
+w3m
 wget
 wimtools
 wine
