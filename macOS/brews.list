@@ -10,6 +10,7 @@ apr-util
 aribb24
 asciidoctor
 asciinema
+audiowaveform
 auto-editor
 autoconf
 autoenv
@@ -57,6 +58,7 @@ frei0r
 fribidi
 fzf
 gcc
+gd
 gettext
 gh
 giflib

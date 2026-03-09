@@ -37,6 +37,7 @@ afscexpand
 ag
 agentxtrap
 agvtool
+agy
 ahost
 aider
 airport
@@ -47,7 +48,9 @@ ambiguous_words
 amt
 androiddump
 animate
+annotate
 ant
+antigravity
 antRun
 antRun.pl
 aomdec
@@ -94,6 +97,7 @@ atos
 atq
 atrm
 atsutil
+audiowaveform
 audit
 auditd
 auditreduce
@@ -140,6 +144,7 @@ bc
 bd_info
 bd_list_titles
 bd_splice
+bdftogd
 bdftopcf
 bdftruncate
 beforelight
@@ -251,6 +256,7 @@ clang++
 clangd
 classifier_tester
 ClassInitGenerator
+claude
 clean-diff
 clear
 clippy-driver
@@ -367,6 +373,9 @@ cvversions
 cwebp
 cws2fws
 cxpm
+cygdb
+cython
+cythonize
 danetool
 dappprof
 dapptrace
@@ -477,6 +486,7 @@ dtplite
 dtrace
 dtruss
 dtrust-tool
+dtw
 du
 dumpcap
 dumpsexp
@@ -548,6 +558,7 @@ exrstdattr
 extcap
 eyapp
 eyapp5.34
+f2py
 factor
 false
 fastcgi-mono-server
@@ -668,14 +679,20 @@ gcov-tool-15
 gcp
 gcsplit
 gcut
+gd2copypal
+gd2togif
+gd2topng
 gdate
 gdbus
 gdbus-codegen
+gdcmpgif
 gdd
 gdf
 gdir
 gdircolors
 gdirname
+gdparttopng
+gdtopng
 gdu
 gecho
 gegrep
@@ -722,6 +739,7 @@ gifbuild
 gifclrmp
 giffix
 giftext
+giftogd2
 giftool
 gimp
 ginstall
@@ -977,6 +995,7 @@ hash
 hb-info
 hb-shape
 hb-subset
+hb-vector
 hb-view
 hdid
 hdik
@@ -1105,6 +1124,7 @@ irw
 irw64
 ismindex
 isql
+isympy
 it2api
 it2attention
 it2cat
@@ -1182,8 +1202,6 @@ kgetcred
 kill
 kill.d
 killall
-kilo
-kilocode
 kind
 kinit
 klist
@@ -1289,13 +1307,13 @@ lstmtraining
 lsvfs
 lto-dump-15
 lua
-lua-5.4
-lua5.4
+lua-5.5
+lua5.5
 luac
-luac-5.4
-luac5.4
+luac-5.5
+luac5.5
 luajit
-luajit-2.1.1772148810
+luajit-2.1.1772619647
 luit
 lwp-download
 lwp-download5.34
@@ -1557,6 +1575,7 @@ nohup
 nologin
 nonspr10
 normalize.py
+normalizer
 notepad
 notifyd
 notifyutil
@@ -1573,7 +1592,9 @@ nss-policy-check
 nssdefaults
 nsupdate
 nuget
+numba
 numfmt
+numpy-config
 nvim
 nvram
 objdump
@@ -1755,6 +1776,8 @@ plutil
 pmset
 png-fix-itxt
 pngfix
+pngtogd
+pngtogd2
 pnpm
 pnpx
 po-fetch
@@ -1811,13 +1834,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-33.4.0
+protoc-34.0.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-33.4.0
-protoc-gen-upb-33.4.0
+protoc-gen-upb_minitable-34.0.0
+protoc-gen-upb-34.0.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-33.4.0
+protoc-gen-upbdefs-34.0.0
 prove
 prove5.34
 ps
@@ -2345,10 +2368,13 @@ tor
 tor-gencert
 tor-print-ed-signing-cert
 tor-resolve
+torchfrtrace
+torchrun
 torify
 torsocks
 touch
 tput
+tqdm
 tr
 trace
 traceroute
@@ -2504,6 +2530,7 @@ wdutil
 weakpass_edit
 webpinfo
 webpmux
+webpng
 westcos-tool
 wfsctl
 wget
@@ -2514,6 +2541,9 @@ wheel3.12
 wheel3.14
 whereis
 which
+whisper
+whisper_timestamped
+whisper_timestamped_make_subtitles
 who
 whoami
 whois

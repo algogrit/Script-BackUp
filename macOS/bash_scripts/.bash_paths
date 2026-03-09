@@ -17,6 +17,9 @@ clean_cryptex
 export PATH="$PATH:/Users/gaurav/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# Added by Antigravity
+export PATH="/Users/gaurav/.antigravity/antigravity/bin:$PATH"
+
 ### Languages
 
 # Elm

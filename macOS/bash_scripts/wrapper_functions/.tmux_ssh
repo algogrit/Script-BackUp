@@ -1,3 +1,10 @@
-function tssh(){
-  ssh $@ -t 'tmux a -t Gaurav || tmux new -s Gaurav || screen -r || screen || /bin/bash'
+function tssh() {
+    local session="Gaurav"
+
+    if [[ "$1" == "-d" ]]; then
+        session="Gaurav-$(basename $(pwd))"
+        shift
+    fi
+
+    ssh "$@" -t "tmux a -t '$session' || tmux new -s '$session' || screen -r || screen || /bin/bash"
 }
