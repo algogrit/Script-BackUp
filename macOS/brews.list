@@ -169,6 +169,7 @@ llvm
 llvm@21
 lpeg
 lua
+lua@5.4
 luajit
 luv
 lz4

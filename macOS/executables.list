@@ -993,6 +993,7 @@ h2xs5.34
 halt
 hash
 hb-info
+hb-raster
 hb-shape
 hb-subset
 hb-vector
