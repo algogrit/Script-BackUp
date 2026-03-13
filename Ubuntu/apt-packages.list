@@ -56,14 +56,19 @@ libavdevice-dev
 libavfilter-dev
 libavformat-dev
 libavutil-dev
+libayatana-appindicator3-dev
 libblas-dev
 libbz2-dev
+libcairo2-dev
 libchewing3
 libchewing3-data
 libdb-dev
 libffi-dev
 libfuse2t64
 libgdbm-dev
+libgdk-pixbuf-2.0-dev
+libglib2.0-dev
+libjavascriptcoregtk-4.1-dev
 liblapack-dev
 liblzma-dev
 libm17n-0
@@ -73,6 +78,7 @@ libopenblas-dev
 libopencc-data
 libopencc1.1
 libotf1
+libpango1.0-dev
 libpinyin-data
 libpinyin15
 libreadline-dev
@@ -81,6 +87,8 @@ libreoffice-help-en-gb
 libreoffice-help-en-us
 libreoffice-l10n-en-gb
 libreoffice-l10n-en-za
+librsvg2-dev
+libsoup-3.0-dev
 libsox-fmt-all
 libsqlite3-dev
 libssl-dev
@@ -89,6 +97,8 @@ libswscale-dev
 libtool
 libvirt-clients
 libvirt-daemon-system
+libwebkit2gtk-4.1-dev
+libxdo-dev
 libxml2-dev
 libxmlsec1-dev
 libyaml-dev
@@ -145,6 +155,7 @@ vim
 virt-manager
 virtinst
 w3m
+wdtokentool-proxkey
 wget
 wimtools
 wine

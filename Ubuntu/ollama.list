@@ -17,6 +17,7 @@ mistral:latest 6577803aa9a0 4.4
 mixtral:8x7b a3b6bef0f836 26
 NAME ID SIZE
 olmo-3:32b e9f1ab1d201f 19
+qwen2.5:7b-instruct 845dbda0ea48 4.7
 qwen2.5-coder:32b b92d6a0bd47e 19
 qwen3-coder:30b 06c1097efce0 18
 qwen3-vl:30b eda0be100877 19
