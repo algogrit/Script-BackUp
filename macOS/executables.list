@@ -903,6 +903,7 @@ gpathchk
 gperf
 gpg
 gpg-agent
+gpg-authcode-sign.sh
 gpg-card
 gpg-connect-agent
 gpg-error
