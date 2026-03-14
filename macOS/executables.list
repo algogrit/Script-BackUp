@@ -733,7 +733,6 @@ gi-decompile-typelib
 gi-inspect-typelib
 gid
 gids-tool
-gif2rgb
 gif2webp
 gifbuild
 gifclrmp
