@@ -235,6 +235,7 @@ certtool
 certutil
 cfprefsd
 chat
+check_arm_indent.sh
 checkgid
 chflags
 chfn
@@ -1078,6 +1079,7 @@ imlib2_view
 import
 imptrace
 indent
+indent_arm_assembly.pl
 infocmp
 infotocap
 install
