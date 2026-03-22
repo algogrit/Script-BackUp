@@ -29,6 +29,10 @@ alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse
 
 # Http Server
 alias pyHttpServer="python -m http.server"
+# alias caddyFileServer='caddy file-server --listen 0.0.0.0:8000 --root . --browse'
+caddyFileServer() {
+  caddy file-server --listen "0.0.0.0:${1:-8000}" --root . --browse;
+}
 
 # Spotlight
 alias stop_spotlight="sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist"

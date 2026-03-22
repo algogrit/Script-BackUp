@@ -22,6 +22,7 @@ accton
 ack
 actool
 adaparse
+adb
 addbuiltin
 addgnupghome
 adig
@@ -58,6 +59,7 @@ aomenc
 apachectl
 apfs_hfs_convert
 apfs_unlockfv
+apktool
 app-sso
 appdb
 appleh13camerad
@@ -275,6 +277,7 @@ codesign_allocate
 codex
 col
 colldef
+collect-recordings
 colordiff
 colortail
 colrm
@@ -536,6 +539,7 @@ errinfo
 escript
 eslogger
 etags
+etc1tool
 event_rpcgen.py
 ex
 execsnoop
@@ -561,6 +565,7 @@ eyapp5.34
 f2py
 factor
 false
+fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
 fastcgi-mono-server4
@@ -697,6 +702,7 @@ gdu
 gecho
 gegrep
 gem
+gemini
 gen_bridge_metadata
 gen-rc
 gencat
@@ -1020,6 +1026,7 @@ hostinfo
 hostname
 hotspot.d
 hpmdiagnose
+hprof-conv
 htcacheclean
 htdbm
 htdigest
@@ -1355,6 +1362,8 @@ mailq
 mailx
 make
 make_chlayout_test
+make_f2fs
+make_f2fs_casefold
 makecert
 makepqg
 malloc_history
@@ -1408,6 +1417,7 @@ mkbom
 mkbundle
 mkdir
 mkdoc
+mke2fs
 mkextunpack
 mkfifo
 mkfile

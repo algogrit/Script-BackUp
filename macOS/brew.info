@@ -160,4 +160,4 @@ Unexpected dylibs:
   /usr/local/lib/libnss3.dylib
   /usr/local/lib/libonnxruntime.dylib
   /usr/local/lib/libsoftokn3.dylib
-310 kegs, 192,775 files, 9.9GB
+313 kegs, 236,212 files, 10.6GB

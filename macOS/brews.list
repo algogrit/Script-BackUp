@@ -5,6 +5,7 @@ aider
 ant
 aom
 apache-serf
+apktool
 apr
 apr-util
 aribb24
@@ -59,6 +60,7 @@ fribidi
 fzf
 gcc
 gd
+gemini-cli
 gettext
 gh
 giflib
@@ -207,6 +209,7 @@ opencode
 opencore-amr
 openexr
 openjdk
+openjdk@17
 openjpeg
 openjph
 openssl@3

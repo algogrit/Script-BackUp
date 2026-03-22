@@ -1,0 +1,205 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "date"
+require "fileutils"
+require "uri"
+require "open3"
+
+# ─── ANSI helpers ──────────────────────────────────────────────────────────────
+def bold(s)  = "\e[1m#{s}\e[0m"
+def cyan(s)  = "\e[36m#{s}\e[0m"
+def green(s) = "\e[32m#{s}\e[0m"
+def yellow(s)= "\e[33m#{s}\e[0m"
+def red(s)   = "\e[31m#{s}\e[0m"
+
+def info(msg)  = puts("  #{cyan("›")} #{msg}")
+def ok(msg)    = puts("  #{green("✔")} #{msg}")
+def warn(msg)  = puts("  #{yellow("⚠")} #{msg}")
+def die(msg)   = (puts("  #{red("✘")} #{msg}"); exit(1))
+def sep        = puts(cyan("─" * 60))
+
+# ─── Config ────────────────────────────────────────────────────────────────────
+OBS_SOURCE_DIR  = "/Users/gaurav/Downloads/Creator/Raw Recordings"
+NAS_BASE_DIR    = "/Volumes/home/Creator/Raw Recordings/TCMH/2026"
+PHONE_DCIM_PATH = "/sdcard/DCIM/Camera"
+
+# ─── Helpers ───────────────────────────────────────────────────────────────────
+
+def last_thursday
+  d = Date.today
+  d -= 1 until d.thursday?
+  d
+end
+
+def slugify(str)
+  str.strip.downcase.gsub(/\s+/, "-").gsub(/[^a-z0-9\-]/, "")
+end
+
+def parse_session_url(url)
+  uri = URI.parse(url)
+  seg = uri.path.split("/").reject(&:empty?).last
+  m   = seg.match(/\A(\d{4}-\d{2}-\d{2})-(.+)\z/)
+  die "Cannot parse date+slug from URL path: #{seg}" unless m
+  [m[1], m[2]]
+end
+
+def latest_file(pattern)
+  Dir.glob(pattern).max_by { |f| File.mtime(f) }
+end
+
+def rsync!(src, dst)
+  info "rsync #{File.basename(src)} → #{dst}"
+  Open3.popen2e("rsync", "-ah", "--progress", src, dst) do |_i, oe, thr|
+    oe.each { |line| print "      #{line}" }
+    die "rsync failed (exit #{thr.value.exitstatus})" unless thr.value.success?
+  end
+end
+
+# ─── Interactive prompt ─────────────────────────────────────────────────────────
+
+def prompt_date_and_title
+  suggestion = last_thursday.strftime("%Y-%m-%d")
+
+  sep
+  puts bold("  TCMH Recording Collector")
+  sep
+
+  print "  #{cyan("Session URL")} (leave blank to enter date+title manually): "
+  url_input = $stdin.gets.chomp.strip
+
+  unless url_input.empty?
+    date_str, slug = parse_session_url(url_input)
+    ok "Parsed from URL:"
+    info "Date : #{date_str}"
+    info "Slug : #{slug}"
+    return [date_str, slug]
+  end
+
+  print "  #{cyan("Date")} [#{suggestion}]: "
+  date_input = $stdin.gets.chomp.strip
+  date_str   = date_input.empty? ? suggestion : date_input
+  begin
+    Date.strptime(date_str, "%Y-%m-%d")
+  rescue Date::Error
+    die "Invalid date: #{date_str}  (expected YYYY-MM-DD)"
+  end
+
+  print "  #{cyan("Title")} (e.g. Go Concurrency vs Parallelism): "
+  title_input = $stdin.gets.chomp.strip
+  die "Title cannot be blank" if title_input.empty?
+
+  [date_str, slugify(title_input)]
+end
+
+# ─── Phone via adb ─────────────────────────────────────────────────────────────
+
+def adb_available?
+  system("which adb > /dev/null 2>&1")
+end
+
+def adb_device_connected?
+  `adb devices 2>/dev/null`.lines.count { |l| l =~ /\bdevice\b/ && !l.start_with?("List") } >= 1
+end
+
+# Most-recent VID*.mp4 on the phone (ls -t = newest first)
+def latest_phone_video_path
+  out = `adb shell ls -t #{PHONE_DCIM_PATH}/VID*.mp4 2>/dev/null`.strip
+  return nil if out.empty?
+  out.lines.first.chomp.strip
+end
+
+def pull_phone_video(dest_dir)
+  puts
+  puts bold("  [1/2] Phone recording  (OnePlus 10R via adb)")
+  sep
+
+  unless adb_available?
+    warn "adb not found.  Install with:  brew install android-platform-tools"
+    warn "Skipping camera.mp4."
+    return
+  end
+
+  unless adb_device_connected?
+    warn "No adb device detected. Make sure:"
+    warn "  • Phone is connected via USB"
+    warn "  • USB mode is set to File Transfer (MTP)"
+    warn "  • USB Debugging is enabled in Developer Options"
+    warn "Skipping camera.mp4."
+    return
+  end
+
+  ok "adb device connected"
+
+  remote = latest_phone_video_path
+  if remote.nil?
+    warn "No VID*.mp4 found in #{PHONE_DCIM_PATH}.  Skipping camera.mp4."
+    return
+  end
+
+  ok "Latest phone video: #{File.basename(remote)}"
+  dest = File.join(dest_dir, "camera.mp4")
+  info "Pulling → #{dest}"
+
+  Open3.popen2e("adb", "pull", remote, dest) do |_i, oe, thr|
+    oe.each { |line| print "      #{line}" }
+    die "adb pull failed (exit #{thr.value.exitstatus})" unless thr.value.success?
+  end
+
+  ok "camera.mp4 done  (#{mb(dest)} MB)"
+end
+
+# ─── OBS ───────────────────────────────────────────────────────────────────────
+
+def pull_obs_video(dest_dir)
+  puts
+  puts bold("  [2/2] OBS recording")
+  sep
+
+  src = latest_file(File.join(OBS_SOURCE_DIR, "*.mp4"))
+  if src.nil?
+    warn "No *.mp4 found in #{OBS_SOURCE_DIR}.  Skipping screen.mp4."
+    return
+  end
+
+  ok "Latest OBS video: #{File.basename(src)}  (#{File.mtime(src).strftime("%Y-%m-%d %H:%M")})"
+  dest = File.join(dest_dir, "screen.mp4")
+  rsync!(src, dest)
+  ok "screen.mp4 done  (#{mb(dest)} MB)"
+end
+
+def mb(path)
+  (File.size(path) / 1_048_576.0).round(1)
+end
+
+# ─── Main ──────────────────────────────────────────────────────────────────────
+
+date_str, slug = prompt_date_and_title
+dest_dir = File.join(NAS_BASE_DIR, "#{date_str}-#{slug}")
+
+puts
+sep
+puts bold("  Destination")
+info dest_dir
+sep
+
+die "NAS not mounted at /Volumes/home — mount it and retry." unless Dir.exist?("/Volumes/home")
+
+unless Dir.exist?(dest_dir)
+  info "Creating destination directory…"
+  FileUtils.mkdir_p(dest_dir)
+  ok "Created"
+end
+
+pull_phone_video(dest_dir)
+pull_obs_video(dest_dir)
+
+# ─── Summary ───────────────────────────────────────────────────────────────────
+puts
+sep
+puts green(bold("  All done!"))
+info "Files written to: #{dest_dir}"
+Dir.glob(File.join(dest_dir, "*.mp4")).sort.each do |f|
+  info "  #{File.basename(f).ljust(12)}  #{mb(f)} MB"
+end
+sep
