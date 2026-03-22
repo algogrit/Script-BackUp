@@ -159,7 +159,6 @@ bisect-create
 bison
 bitesize.d
 bitmap
-bjoentegaard
 bless
 bltest
 BlueTool
@@ -699,7 +698,6 @@ gecho
 gegrep
 gem
 gen_bridge_metadata
-gen-enc-table
 gen-rc
 gencat
 general_assembly.pl
@@ -1837,13 +1835,13 @@ productbuild
 productsign
 profiles
 protoc
-protoc-34.0.0
+protoc-34.1.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-34.0.0
-protoc-gen-upb-34.0.0
+protoc-gen-upb_minitable-34.1.0
+protoc-gen-upb-34.1.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-34.0.0
+protoc-gen-upbdefs-34.1.0
 prove
 prove5.34
 ps
@@ -1968,7 +1966,6 @@ rbenv-versions
 rbenv-whence
 rbenv-which
 rbs
-rd-curves
 rdbg
 rdjpgcom
 rdoc
@@ -2727,7 +2724,6 @@ yat2m
 yes
 yq
 yt-dlp
-yuv-distortion
 z3
 zcat
 zcmp
