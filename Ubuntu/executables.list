@@ -275,6 +275,7 @@ cksum
 clear
 clear_console
 clippy-driver
+cloudflared
 cloud-id
 cloud-init
 cloud-init-per
@@ -708,6 +709,7 @@ gdm-screenshot
 geckodriver
 gem
 gem3.2
+gemini
 genbrk
 gencat
 genccode
@@ -1610,7 +1612,7 @@ perf
 perl
 perl5.38.2
 perl5.38-x86_64-linux-gnu
-perl5.42.0
+perl5.42.1
 perlbug
 perlcalls-bpfcc
 perldoc

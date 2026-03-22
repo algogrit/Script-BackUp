@@ -9,6 +9,7 @@ bsdutils
 build-essential
 bzip2
 ca-certificates
+cloudflared
 cmake
 containerd.io
 curl

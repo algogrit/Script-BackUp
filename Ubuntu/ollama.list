@@ -19,6 +19,8 @@ NAME ID SIZE
 olmo-3:32b e9f1ab1d201f 19
 qwen2.5:7b-instruct 845dbda0ea48 4.7
 qwen2.5-coder:32b b92d6a0bd47e 19
+qwen3.5:27b 7653528ba5cb 17
+qwen3.5:9b 6488c96fa5fa 6.6
 qwen3-coder:30b 06c1097efce0 18
 qwen3-vl:30b eda0be100877 19
 starcoder2:15b 21ae152d49e0 9.1

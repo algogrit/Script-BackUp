@@ -25,4 +25,4 @@ ensure-home-mounted() {
 export GVFS_ROOT="/run/user/$(id -u)/gvfs"
 export NAS_VIDEO="$GVFS_ROOT/smb-share:server=uttara.local,share=video"
 export NAS_HOME="$GVFS_ROOT/smb-share:server=uttara.local,share=home"
-export RAW_RECORDINGS="$NAS_VIDEO/Creator/Raw Recordings"
+export RAW_RECORDINGS="$NAS_HOME/Creator/Raw Recordings"
