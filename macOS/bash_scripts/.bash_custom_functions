@@ -1,4 +1,6 @@
-echo -e "\033[1;34m~/bash_scripts/.bash_custom_functions Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;34m~/bash_scripts/.bash_custom_functions Loaded\033[0m"
+fi
 
 for wrapper in ~/bash_scripts/wrapper_functions/.*; do
   if [ -f $wrapper ]; then

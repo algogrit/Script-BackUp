@@ -1,4 +1,6 @@
-echo -e "\033[1;34m~/bash_scripts/.bash_customizations Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;34m~/bash_scripts/.bash_customizations Loaded\033[0m"
+fi
 
 # Globstar: New Bash Globbing Option
 shopt -s globstar
@@ -8,7 +10,9 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 
 # Window Name
-export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+if bash_startup_optional_enabled; then
+  export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
+fi
 
 # Editor Configuration
 export EDITOR="/opt/homebrew/bin/code -w"
@@ -24,7 +28,9 @@ function parse_git_branch {
 }
 
 # Formatting bash prompt
-export PS1=$"\[\033[1;33m\][\t] \[\033[1;36m\]\w:\[\033[1;31m\]\$(parse_git_branch) \[\033[1;36m\]\$ \[\033[0m\]"
+if bash_startup_optional_enabled; then
+  export PS1=$"\[\033[1;33m\][\t] \[\033[1;36m\]\w:\[\033[1;31m\]\$(parse_git_branch) \[\033[1;36m\]\$ \[\033[0m\]"
+fi
 
 # Sourcing Liquidprompt
 # if [ -f /usr/local/share/liquidprompt ]; then
@@ -46,4 +52,6 @@ export HOMEBREW_AUTO_UPDATE_SECS=86400
 # set -o vi
 
 # Set up fzf key bindings and fuzzy completion
-eval "$(fzf --bash)"
+if bash_startup_optional_enabled && command -v fzf >/dev/null 2>&1; then
+  eval "$(fzf --bash)"
+fi

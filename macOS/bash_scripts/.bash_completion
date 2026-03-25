@@ -1,4 +1,6 @@
-echo -e "\033[1;34m~/bash_scripts/.bash_completion Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;34m~/bash_scripts/.bash_completion Loaded\033[0m"
+fi
 
 # Adding Bash Completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
@@ -17,7 +19,7 @@ if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
 
-_fnm_completion_file=/var/tmp/fnm_completion.bash
+_fnm_completion_file="${TMPDIR:-/tmp}/fnm_completion.bash"
 
 if ! [ -f $_fnm_completion_file ]; then
   fnm completions --shell bash > $_fnm_completion_file
