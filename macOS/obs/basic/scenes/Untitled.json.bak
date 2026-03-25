@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Scene",
-    "current_program_scene": "Scene",
+    "current_scene": "Tablet With Audio",
+    "current_program_scene": "Tablet With Audio",
     "scene_order": [
         {
             "name": "Scene"
