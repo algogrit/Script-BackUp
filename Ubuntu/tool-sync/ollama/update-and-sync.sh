@@ -4,7 +4,7 @@ SYNC_DIR="ollama"
 
 echo "\033[1;31mUpdating ollama (if needed)...\033[0m"
 
-OLLAMA_INSTALLED=$(ollama --version 2>/dev/null | grep -oP '\d+\.\d+\.\d+')
+OLLAMA_INSTALLED=$(ollama --version 2>/dev/null | grep -oP '[\d]+\.[\d]+\.[\d]+')
 OLLAMA_LATEST=$(curl -s https://api.github.com/repos/ollama/ollama/releases/latest | grep -oP '"tag_name":\s*"v\K[^"]+')
 
 if [ -z "$OLLAMA_INSTALLED" ]; then

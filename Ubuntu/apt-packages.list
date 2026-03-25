@@ -64,11 +64,15 @@ libcairo2-dev
 libchewing3
 libchewing3-data
 libdb-dev
+libegl1
 libffi-dev
 libfuse2t64
 libgdbm-dev
 libgdk-pixbuf-2.0-dev
+libgl1
+libglib2.0-0t64
 libglib2.0-dev
+libgomp1
 libjavascriptcoregtk-4.1-dev
 liblapack-dev
 liblzma-dev
@@ -89,6 +93,8 @@ libreoffice-help-en-us
 libreoffice-l10n-en-gb
 libreoffice-l10n-en-za
 librsvg2-dev
+libsm6
+libsndfile1
 libsoup-3.0-dev
 libsox-fmt-all
 libsqlite3-dev
@@ -100,8 +106,10 @@ libvirt-clients
 libvirt-daemon-system
 libwebkit2gtk-4.1-dev
 libxdo-dev
+libxext6
 libxml2-dev
 libxmlsec1-dev
+libxrender1
 libyaml-dev
 linux-generic-hwe-24.04
 linux-modules-nvidia-550-generic-hwe-24.04
@@ -130,6 +138,7 @@ python3-netifaces
 python3-pip
 python3-venv
 qemu-system-x86
+rsync
 screen
 shim-signed
 silversearcher-ag

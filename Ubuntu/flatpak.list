@@ -1,10 +1,10 @@
 OBS Studio	Live stream and record videos	com.obsproject.Studio	32.1.0	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	d24097a4b5d4	-	537.3 MB	user,current
 DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.1.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	2fb812357bcd	-	2.8 MB	user,runtime
-Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	483895a8bc05	-	332.5 MB	user,current
+Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	d808635e4ba1	-	332.5 MB	user,current
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.8	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	18c4d2cd492e	-	659.0 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	00248c58a6cd	-	444.9 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	d6c03d2ba3e6	-	444.9 MB	user,runtime
-nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	b13abf56edd7	-	901.8 MB	user,runtime
+nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	f3c53be2de77	-	901.8 MB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	d038c3ffcc3c	-	100.4 kB	user,runtime
 Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	c0512f067028	-	43.6 MB	user,runtime
 Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.8	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	37c47d7f28c2	-	1.7 GB	user,runtime
