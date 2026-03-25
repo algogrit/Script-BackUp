@@ -1,4 +1,6 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;36m~/bash_scripts/.bash_paths Loaded\033[0m"
+fi
 
 ### Tools
 # Setting pkg config path
@@ -14,7 +16,9 @@ export ELM_HOME=~/.elm
 
 # Language Version Managers
 ## rbenv
-eval "$(~/.rbenv/bin/rbenv init - --no-rehash bash)"
+if bash_startup_optional_enabled && [ -x ~/.rbenv/bin/rbenv ]; then
+  eval "$(~/.rbenv/bin/rbenv init - --no-rehash bash)"
+fi
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 ## nodenv
@@ -22,7 +26,7 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 # if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
 
 ## pyenv
-if which pyenv > /dev/null; then
+if bash_startup_optional_enabled && command -v pyenv >/dev/null 2>&1; then
   #eval "$(pyenv init -)"
   #eval "$(pyenv virtualenv-init -)"
   export PYENV_ROOT="$HOME/.pyenv"
@@ -31,7 +35,9 @@ if which pyenv > /dev/null; then
 fi
 
 # Added by `nodenv init` on Sun Mar  1 04:58:07 PM IST 2026
-eval "$(nodenv init - --no-rehash bash)"
+if bash_startup_optional_enabled && command -v nodenv >/dev/null 2>&1; then
+  eval "$(nodenv init - --no-rehash bash)"
+fi
 
 ## goenv
 # export GOENV_ROOT="$HOME/.goenv"
@@ -58,7 +64,9 @@ eval "$(nodenv init - --no-rehash bash)"
 #### CUSTOM
 
 # Load custom git commands
-echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;36m~/Custom-Git-Commands Loaded\033[0m"
+fi
 export PATH="$HOME/Custom-Git-Commands:$PATH"
 
 # Adding ~/bin to the PATH

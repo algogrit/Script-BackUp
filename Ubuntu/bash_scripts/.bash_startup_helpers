@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+bash_startup_is_interactive() {
+  [[ $- == *i* ]]
+}
+
+bash_startup_debug_enabled() {
+  [[ -n "${BASH_STARTUP_DEBUG:-}" ]]
+}
+
+bash_startup_optional_enabled() {
+  bash_startup_is_interactive || bash_startup_debug_enabled
+}
+
+bash_startup_log() {
+  if bash_startup_debug_enabled; then
+    printf '\033[1;36m%s\033[0m\n' "$1"
+  fi
+}
+
+bash_startup_source() {
+  local file="$1"
+
+  if [ -f "$file" ]; then
+    # shellcheck source=/dev/null
+    . "$file"
+  fi
+}

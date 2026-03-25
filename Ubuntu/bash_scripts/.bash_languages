@@ -1,4 +1,6 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;36m~/bash_scripts/.bash_languages Loaded\033[0m"
+fi
 
 # For Ollama
 export OLLAMA_HOST=0.0.0.0

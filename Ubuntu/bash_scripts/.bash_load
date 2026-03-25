@@ -1,46 +1,42 @@
-echo -e "\033[1;36m~/bash_scripts/.bash_load Loaded\033[0m"
+[ -f ~/bash_scripts/.bash_startup_helpers ] && . ~/bash_scripts/.bash_startup_helpers
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;36m~/bash_scripts/.bash_load Loaded\033[0m"
+fi
 
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+if [ -x /home/linuxbrew/.linuxbrew/bin/brew ]; then
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
 
-# Sourcing Brew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# Sourcing Bash Paths and language env for all shells
+bash_startup_source ~/bash_scripts/.bash_paths
+bash_startup_source ~/bash_scripts/.bash_languages
 
-# Sourcing Bash Completion
-source ~/bash_scripts/.bash_completion
+if bash_startup_optional_enabled; then
+  bash_startup_source ~/bash_scripts/.bash_completion
+  bash_startup_source ~/bash_scripts/.bash_customizations
+  bash_startup_source ~/bash_scripts/.bash_custom_functions
+  bash_startup_source ~/bash_scripts/.aliases
 
-# Sourcing Bash Paths
-source ~/bash_scripts/.bash_paths
+  if [ -f ~/bash_scripts/third_party/z.sh ]; then
+    # shellcheck source=/dev/null
+    . ~/bash_scripts/third_party/z.sh
+  fi
 
-# Sourcing Bash Customizations
-source ~/bash_scripts/.bash_customizations
+  if [ -f /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh ]; then
+    # shellcheck source=/dev/null
+    . /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh
+  fi
 
-# Sourcing Bash Languages
-source ~/bash_scripts/.bash_languages
+  # # Source Docker Init script
+  # source /Users/gaurav/.docker/init-bash.sh || true
 
-# Sourcing Bash Custom Functions
-source ~/bash_scripts/.bash_custom_functions
-
-# Sourcing Aliases
-source ~/bash_scripts/.aliases
-
-# Sourcing Z
-. ~/bash_scripts/third_party/z.sh
-
-# # Sourcing Autoenv
-source /home/linuxbrew/.linuxbrew/opt/autoenv/activate.sh
-
-# # Source Docker Init script
-# source /Users/gaurav/.docker/init-bash.sh || true
-
-# # Sourcing Direnv
-# eval "$(direnv hook bash)"
+  # # Sourcing Direnv
+  # eval "$(direnv hook bash)"
+fi
 
 # Source cargo env - Rustup
 # . "$HOME/.cargo/env"
 
-# Clear history
-> ~/.bash_history && history -c
+if [ "${BASH_STARTUP_CLEAR_HISTORY:-0}" = "1" ]; then
+  > ~/.bash_history && history -c
+fi
