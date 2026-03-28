@@ -30,8 +30,8 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "Tablet With Audio",
-    "current_program_scene": "Tablet With Audio",
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
     "scene_order": [
         {
             "name": "Scene"
@@ -329,38 +329,14 @@
                 },
                 {
                     "prev_ver": 536870916,
-                    "name": "3-Band Equalizer",
-                    "uuid": "99b669b0-accc-4c93-9506-835833f549ea",
-                    "id": "basic_eq_filter",
-                    "versioned_id": "basic_eq_filter",
-                    "settings": {
-                        "low": 1.0,
-                        "mid": -3.0
-                    },
-                    "mixers": 255,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 536870916,
                     "name": "Expander",
                     "uuid": "11e321b2-6a48-4bec-9200-66531c2623aa",
                     "id": "expander_filter",
                     "versioned_id": "expander_filter",
-                    "settings": {},
+                    "settings": {
+                        "threshold": -45.0,
+                        "release_time": 120
+                    },
                     "mixers": 255,
                     "sync": 0,
                     "flags": 0,
@@ -385,10 +361,38 @@
                     "id": "compressor_filter",
                     "versioned_id": "compressor_filter",
                     "settings": {
-                        "ratio": 3.0,
-                        "threshold": -25.0,
-                        "attack_time": 1,
+                        "ratio": 2.5,
+                        "threshold": -18.0,
+                        "attack_time": 8,
                         "release_time": 100
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 536870916,
+                    "name": "3-Band Equalizer",
+                    "uuid": "99b669b0-accc-4c93-9506-835833f549ea",
+                    "id": "basic_eq_filter",
+                    "versioned_id": "basic_eq_filter",
+                    "settings": {
+                        "low": -1.0,
+                        "mid": 0.0,
+                        "high": 1.0
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -414,7 +418,7 @@
                     "id": "limiter_filter",
                     "versioned_id": "limiter_filter",
                     "settings": {
-                        "threshold": -0.1
+                        "threshold": -2.0
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -834,7 +838,7 @@
     "transition_duration": 100,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 2,
+    "scaling_level": -4,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

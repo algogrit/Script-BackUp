@@ -1,3 +1,7 @@
+if bash_startup_debug_enabled; then
+  echo -e "\033[1;34m~/bash_scripts/aliases/.generic Loaded\033[0m"
+fi
+
 # Generic Aliases
 alias c="clear"
 alias ccb="pbcopy < /dev/null"
