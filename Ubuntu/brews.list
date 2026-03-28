@@ -14,11 +14,13 @@ ncurses
 node-build
 nodenv
 openssl@3
+pcre2
 perl
 pkgconf
 psgrep
 pyenv
 readline
+ripgrep
 uv
 witr
 xz
