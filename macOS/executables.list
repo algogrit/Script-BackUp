@@ -1320,7 +1320,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1772619647
+luajit-2.1.1774638290
 luit
 lwp-download
 lwp-download5.34
@@ -1868,6 +1868,7 @@ ptargrep
 ptargrep5.34
 ptx
 purge
+pv
 pwd
 pwd_mkdb
 pwdecrypt

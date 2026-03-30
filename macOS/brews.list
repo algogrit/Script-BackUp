@@ -229,6 +229,7 @@ popt
 protobuf
 psgrep
 pstree
+pv
 pwgen
 pycparser
 pydantic
@@ -276,6 +277,7 @@ tmux
 tor
 torsocks
 tree
+tree-sitter
 tree-sitter@0.25
 unbound
 unibilium
