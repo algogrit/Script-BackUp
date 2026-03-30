@@ -3,7 +3,7 @@ bare                       1.0                             5      latest/stable 
 code                       cfbea10c                        231    latest/stable    vscode**       classic
 core20                     20260211                        2769   latest/stable    canonical**    base
 core22                     20260225                        2411   latest/stable    canonical**    base
-core24                     20260211                        1499   latest/stable    canonical**    base
+core24                     20260317                        1587   latest/stable    canonical**    base
 ffmpeg-2404                7.1.1                           108    latest/stable    snapcrafters*  -
 firefox                    149.0-1                         8054   latest/stable/…  mozilla**      -
 firmware-updater           0+git.7d22721                   223    1/stable/…       canonical**    -

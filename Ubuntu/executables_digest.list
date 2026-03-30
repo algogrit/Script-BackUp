@@ -1205,8 +1205,8 @@ f6e7a9282ec979a650462a24e58d6d63  /usr/bin/false
 f6e7a9282ec979a650462a24e58d6d63  /bin/false
 955fbcb651d13ed9756d6df597eace35  /usr/bin/fastboot
 955fbcb651d13ed9756d6df597eace35  /bin/fastboot
-6d55b8d3e3428c0532b88b822df525da  /usr/bin/fastfetch
-6d55b8d3e3428c0532b88b822df525da  /bin/fastfetch
+06112f6e214994836c30e24c089a53a5  /usr/bin/fastfetch
+06112f6e214994836c30e24c089a53a5  /bin/fastfetch
 37a6d5726f6168c26e45d16c68038f3f  /usr/bin/fatbinary
 37a6d5726f6168c26e45d16c68038f3f  /bin/fatbinary
 836629a6288a7c4bf9c2ff6b06ce435e  /usr/sbin/fatlabel
@@ -1272,8 +1272,8 @@ c1b92152aeb14bc091b9ff7c2d99c6dc  /usr/sbin/fixparts
 c1b92152aeb14bc091b9ff7c2d99c6dc  /sbin/fixparts
 a7ba82272a5618b6d93b25629bc15da8  /home/om/bin/flash
 a7ba82272a5618b6d93b25629bc15da8  /home/om/bin/flash
-df11ebda5c8cd50bf273196eeebdb23c  /usr/bin/flashfetch
-df11ebda5c8cd50bf273196eeebdb23c  /bin/flashfetch
+504238df303502f947b43a0b5002814f  /usr/bin/flashfetch
+504238df303502f947b43a0b5002814f  /bin/flashfetch
 0352314a8389a8c79d3371dcfd6368f4  /usr/bin/flatpak
 0352314a8389a8c79d3371dcfd6368f4  /bin/flatpak
 12c1244a06382cae57eba0f41ae2cf82  /usr/bin/flock
@@ -3118,7 +3118,7 @@ d73fcdc533b20a872ac635efa6d4061e  /bin/od
 6cd678e2708485c35d4f81140ef173d9  /sbin/offcputime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /usr/sbin/offwaketime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /sbin/offwaketime-bpfcc
-cb76208942a085674c3491fe22f1bf55  /usr/local/bin/ollama
+b124b046781ab2493ae7e3333b60dda0  /usr/local/bin/ollama
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/sbin/on_ac_power
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/bin/on_ac_power
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /sbin/on_ac_power
