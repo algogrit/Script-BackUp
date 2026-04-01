@@ -1610,7 +1610,7 @@ perf
 perl
 perl5.38.2
 perl5.38-x86_64-linux-gnu
-perl5.42.1
+perl5.42.2
 perlbug
 perlcalls-bpfcc
 perldoc
