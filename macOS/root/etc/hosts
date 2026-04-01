@@ -40,7 +40,7 @@
 0.0.0.0 hotstar.com
 
 # Custom blocking
-#.0.0.0 www.instagram.com
+0.0.0.0 www.instagram.com
 0.0.0.0 tinder.com
 0.0.0.0 www.hicpm10.com
 0.0.0.0 pussl32.com

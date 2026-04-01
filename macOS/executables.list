@@ -1320,7 +1320,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1774638290
+luajit-2.1.1774896198
 luit
 lwp-download
 lwp-download5.34
@@ -2065,6 +2065,7 @@ sc_auth
 sc_usage
 sc-hsm-tool
 scala
+scala-cli
 scalac
 scaladoc
 scalar

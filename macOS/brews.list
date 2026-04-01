@@ -254,6 +254,7 @@ ruby-build
 rust
 rustup
 scala
+scala-cli
 sdl2
 sdl2_image
 shared-mime-info
