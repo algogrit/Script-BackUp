@@ -2951,8 +2951,8 @@ f172bdea3f63fa2d908d6e0a47da9001  /bin/nm-connection-editor
 3ce03682bfaf0d3500d30a9766fc9c7b  /home/om/.nodenv/shims/node
 14970498b83699faa545d4016e9dee0b  /usr/bin/node
 14970498b83699faa545d4016e9dee0b  /bin/node
-d979804123c7d32d6104d0cfa28569ca  /home/linuxbrew/.linuxbrew/bin/node-build
-d979804123c7d32d6104d0cfa28569ca  /home/linuxbrew/.linuxbrew/bin/node-build
+0b221a16e688ca12dcf7ab6521d5c894  /home/linuxbrew/.linuxbrew/bin/node-build
+0b221a16e688ca12dcf7ab6521d5c894  /home/linuxbrew/.linuxbrew/bin/node-build
 e4958eea2f21d865c066d9a31bae34cf  /usr/bin/node-coveralls
 e4958eea2f21d865c066d9a31bae34cf  /bin/node-coveralls
 07ff1590d86212a6bd018bbd2bd69029  /usr/sbin/nodegc-bpfcc
@@ -4972,10 +4972,10 @@ d8856ea17dc408bbaebfabc128a6c369  /usr/bin/uuidgen
 d8856ea17dc408bbaebfabc128a6c369  /bin/uuidgen
 32fa2a4dc6a8e876d2b3c00254b6eb8b  /usr/bin/uuidparse
 32fa2a4dc6a8e876d2b3c00254b6eb8b  /bin/uuidparse
-bccb1f731f91d79142bc3d5fe65cb7d7  /home/linuxbrew/.linuxbrew/bin/uv
-bccb1f731f91d79142bc3d5fe65cb7d7  /home/linuxbrew/.linuxbrew/bin/uv
-a79ab73870cec5b8b9629d93fd971691  /home/linuxbrew/.linuxbrew/bin/uvx
-a79ab73870cec5b8b9629d93fd971691  /home/linuxbrew/.linuxbrew/bin/uvx
+5543cae4f42e0178cfb2a78e29bc5568  /home/linuxbrew/.linuxbrew/bin/uv
+5543cae4f42e0178cfb2a78e29bc5568  /home/linuxbrew/.linuxbrew/bin/uv
+6c2c8242ac2f44534867b1346ccf954a  /home/linuxbrew/.linuxbrew/bin/uvx
+6c2c8242ac2f44534867b1346ccf954a  /home/linuxbrew/.linuxbrew/bin/uvx
 26a957a5a3b2321d6fe202503cba867a  /usr/bin/uz
 26a957a5a3b2321d6fe202503cba867a  /bin/uz
 404ee60b9383cd405c34cbdeff6eda1f  /usr/bin/v4l2-compliance

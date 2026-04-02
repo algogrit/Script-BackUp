@@ -1,6 +1,6 @@
 Name                       Version                         Rev    Tracking         Publisher      Notes
 bare                       1.0                             5      latest/stable    canonical**    base
-code                       cfbea10c                        231    latest/stable    vscode**       classic
+code                       e7fb5e96                        232    latest/stable    vscode**       classic
 core20                     20260211                        2769   latest/stable    canonical**    base
 core22                     20260225                        2411   latest/stable    canonical**    base
 core24                     20260317                        1587   latest/stable    canonical**    base
@@ -15,5 +15,5 @@ mesa-2404                  25.0.7-snap211                  1165   latest/stable 
 rustup                     1.28.2                          1492   latest/stable    canonical**    classic
 snap-store                 0+git.515109e7                  1310   2/stable/…       canonical**    -
 snapd                      2.74.1                          26382  latest/stable    canonical**    snapd
-snapd-desktop-integration  0.9                             343    latest/stable/…  canonical**    -
+snapd-desktop-integration  0.9                             357    latest/stable/…  canonical**    -
 thunderbird                140.9.0esr-1                    1040   latest/stable/…  canonical**    -
