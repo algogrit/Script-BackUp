@@ -83,6 +83,9 @@ echo "\033[1;31mInstalling rbenv...\033[0m"
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
+echo "\033[1;31mInstalling goenv...\033[0m"
+git clone https://github.com/go-nv/goenv.git ~/.goenv
+
 echo "\033[1;31mHave you reloaded shell? (Y/n)\033[0m"
 read -r _reloaded_shell
 
@@ -104,6 +107,9 @@ function _install_languages {
 
 echo "\033[1;31mInstalling language versions...\033[0m"
 RBENV_ROOT=~/.rbenv _install_languages ruby rbenv
+if [ -f "$HOME/Script-BackUp/Ubuntu/go.versions" ]; then
+  GOENV_ROOT=~/.goenv _install_languages go goenv
+fi
 
 echo "\033[1;31mInstalling git-up...\033[0m"
 RBENV_VERSION=3.4.4 gem install git-up

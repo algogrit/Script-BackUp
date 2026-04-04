@@ -80,14 +80,26 @@ brew info 2>&1 | tee -a brew.info
 echo "\033[1;31mUpdating version managers...\033[0m"
 bash -c "cd ~/.rbenv; git pull"
 bash -c "cd ~/.rbenv/plugins/ruby-build; git pull"
+if [ -d ~/.goenv/.git ]; then
+  bash -c "cd ~/.goenv; git pull"
+fi
 
 echo "\033[1;31mCopying over version manager configs...\033[0m"
 rbenv versions > ruby.versions
+if command -v goenv >/dev/null 2>&1; then
+  goenv versions > go.versions
+fi
 
 mkdir -p version-manager-config
 cp ~/.rbenv/version version-manager-config/rbenv-version
+if [ -f ~/.goenv/version ]; then
+  cp ~/.goenv/version version-manager-config/goenv-version
+fi
 
 rbenv rehash
+if command -v goenv >/dev/null 2>&1; then
+  goenv rehash
+fi
 
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq > executables.list

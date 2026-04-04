@@ -40,12 +40,13 @@ if bash_startup_optional_enabled && command -v nodenv >/dev/null 2>&1; then
 fi
 
 ## goenv
-# export GOENV_ROOT="$HOME/.goenv"
-# export GOPATH=$GOENV_ROOT
-# export PATH="$GOPATH/bin:$PATH"
-# export GOENV_DISABLE_GOROOT=1
-# export GOENV_DISABLE_GOPATH=1
-# eval "$(goenv init -)"
+if bash_startup_optional_enabled && [ -x ~/.goenv/bin/goenv ]; then
+  export GOENV_ROOT="$HOME/.goenv"
+  export PATH="$GOENV_ROOT/bin:$PATH"
+  export GOENV_DISABLE_GOROOT=1
+  export GOENV_DISABLE_GOPATH=1
+  eval "$(~/.goenv/bin/goenv init -)"
+fi
 
 ## rustup-init
 # export CARGO_HOME="$HOME/.cargo"
