@@ -16,4 +16,4 @@ rustup                     1.28.2                          1492   latest/stable 
 snap-store                 0+git.515109e7                  1310   2/stable/…       canonical**    -
 snapd                      2.74.1                          26382  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             357    latest/stable/…  canonical**    -
-thunderbird                140.9.0esr-1                    1040   latest/stable/…  canonical**    -
+thunderbird                140.9.0esr-1                    1043   latest/stable/…  canonical**    -
