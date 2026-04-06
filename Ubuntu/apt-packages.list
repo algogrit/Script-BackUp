@@ -24,6 +24,7 @@ bsdutils
 build-essential
 bzip2
 ca-certificates
+clang
 cloudflared
 cmake
 console-setup
@@ -137,15 +138,18 @@ libavdevice-dev
 libavfilter-dev
 libavformat-dev
 libavutil-dev
+libayatana-appindicator3-dev
 libblas-dev
 libbz2-dev
 libcairo2-dev
 libchewing3
 libchewing3-data
+libclang-dev
 libdb-dev
 libegl1
 libffi-dev
 libfuse2t64
+libgbm-dev
 libgdbm-dev
 libgdk-pixbuf-2.0-dev
 libgl1
@@ -172,6 +176,7 @@ libpam-sss
 libpango1.0-dev
 libpinyin-data
 libpinyin15
+libpipewire-0.3-dev
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
 libreadline-dev
@@ -186,6 +191,7 @@ libreoffice-l10n-en-za
 libreoffice-math
 libreoffice-style-yaru
 libreoffice-writer
+librsvg2-dev
 libsasl2-modules
 libsm6
 libsndfile1
@@ -200,7 +206,8 @@ libtool
 libu2f-udev
 libvirt-clients
 libvirt-daemon-system
-libwebkit2gtk-4.1-dev:arm64
+libwayland-dev
+libwebkit2gtk-4.1-dev
 libwmf0.2-7-gtk
 libxdo-dev
 libxext6
