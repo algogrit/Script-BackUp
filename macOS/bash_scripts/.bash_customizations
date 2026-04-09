@@ -55,3 +55,6 @@ export HOMEBREW_AUTO_UPDATE_SECS=86400
 if bash_startup_optional_enabled && command -v fzf >/dev/null 2>&1; then
   eval "$(fzf --bash)"
 fi
+
+# gti - Dumb commands
+export GTI_SPEED=4000

@@ -943,6 +943,7 @@ gresource
 grm
 grmdir
 groups
+gsed
 gseq
 gsettings
 gsha1sum

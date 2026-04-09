@@ -71,6 +71,7 @@ git-svn
 glew
 glib
 gmp
+gnu-sed
 gnupg
 gnutls
 go
