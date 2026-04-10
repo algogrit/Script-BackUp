@@ -44,6 +44,7 @@ aider
 airport
 al
 al2
+alembic
 alias
 ambiguous_words
 amt
@@ -339,6 +340,13 @@ csplit
 csreq
 csrutil
 ct_run
+ct2-fairseq-converter
+ct2-marian-converter
+ct2-openai-gpt2-converter
+ct2-opennmt-py-converter
+ct2-opennmt-tf-converter
+ct2-opus-mt-converter
+ct2-transformers-converter
 ctags
 ctf_insert
 cu
@@ -562,6 +570,7 @@ extcap
 eyapp
 eyapp5.34
 f2py
+fabric
 factor
 false
 fastboot
@@ -620,6 +629,7 @@ fnm
 fold
 font_cache
 fontrestore
+fonttools
 fonttosfnt
 footprint
 fourcc2pixfmt
@@ -1017,6 +1027,7 @@ heif-info
 heif-thumbnailer
 helm
 hexdump
+hf
 hidutil
 hiutil
 hmac256
@@ -1041,6 +1052,7 @@ httpd-wrapper
 httpserv
 httxt2dbm
 hub-tool
+huggingface-cli
 iasecc-tool
 ibtool
 icc_simplify
@@ -1366,12 +1378,14 @@ make_f2fs
 make_f2fs_casefold
 makecert
 makepqg
+mako-render
 malloc_history
 man
 mandoc
 mandoc_soelim
 mangle
 manpath
+markdown-it
 mas
 masqreq
 mconfig
@@ -1575,6 +1589,7 @@ nice
 ninja
 nl
 nlcontrol
+nltk
 nm
 nmap
 nmedit
@@ -1625,6 +1640,7 @@ ojph_compress
 ojph_expand
 ollama
 onig-config
+onnxruntime_test
 open
 opencode
 opendiff
@@ -1639,6 +1655,7 @@ openssl
 opj_compress
 opj_decompress
 opj_dump
+optuna
 orbd
 osacompile
 osadecompile
@@ -1875,6 +1892,11 @@ pwd_mkdb
 pwdecrypt
 pwgen
 pwpolicy
+pyannote-audio
+pyannote-database
+pyannote-metrics
+pyannote-pipeline
+pyav
 pydoc
 pydoc3
 pydoc3.10
@@ -1899,6 +1921,10 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pyftmerge
+pyftsubset
+pygmentize
+pygrun
 python
 python-build
 python-config
@@ -2360,6 +2386,7 @@ timeout
 timer_analyser.d
 timerfires
 timesyncanalyse
+tiny-agents
 tjbench
 tkcon
 tkmib
@@ -2392,6 +2419,8 @@ trace
 traceroute
 traceroute6
 train
+transformers
+transformers-cli
 transicc
 traptoemail
 trash
@@ -2411,6 +2440,7 @@ tshark
 tsig-keygen
 tsort
 tstclnt
+ttx
 tty
 twm
 type
@@ -2556,6 +2586,7 @@ which
 whisper
 whisper_timestamped
 whisper_timestamped_make_subtitles
+whisperx
 who
 whoami
 whois
