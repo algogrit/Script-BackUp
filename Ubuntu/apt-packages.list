@@ -310,6 +310,7 @@ v4l2loopback-dkms
 v4l2loopback-utils
 vim
 vim-tiny
+virt-manager
 w3m
 wdtokentool-proxkey
 wget

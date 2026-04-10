@@ -859,6 +859,7 @@ gnome-thumbnail-font
 gnome-www-browser
 go
 gobject-query
+goenv
 gofmt
 go.gofmt
 gold
@@ -2046,6 +2047,7 @@ regsvr32-stable
 remmina
 remmina-file-wrapper
 remmina-gnome
+remote-viewer
 remove-default-ispell
 remove-default-wordlist
 remove-shell
@@ -2636,14 +2638,19 @@ vimtutor
 vipw
 virsh
 virt-admin
+virt-clone
 virt-host-validate
+virt-install
 virtiostat-bpfcc
 virtlockd
 virtlogd
+virt-manager
 virt-pki-query-dn
 virt-pki-validate
 virt-qemu-run
 virt-ssh-helper
+virt-viewer
+virt-xml
 virt-xml-validate
 visudo
 vmcore-dmesg
