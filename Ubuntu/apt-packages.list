@@ -3,6 +3,7 @@ adduser
 alsa-base
 alsa-utils
 anacron
+antigravity
 appstream
 apt
 apt-config-icons-hidpi
