@@ -573,6 +573,7 @@ f2py
 fabric
 factor
 false
+fastbase64
 fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -2290,6 +2291,8 @@ stz
 su
 sudo
 sum
+sutf
+sutf-benchmark
 svcutil
 svn
 svnadmin
@@ -2489,7 +2492,6 @@ unzstd
 update_dyld_shared_cache
 update_mcdp29xx
 update-hosts
-update-mime-database
 uptime
 uri-encode
 usbcfwflasher

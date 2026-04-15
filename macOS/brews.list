@@ -184,6 +184,7 @@ mas
 maven
 mbedtls@3
 media-info
+merve
 mistral-vibe
 mlx
 mlx-c
@@ -193,6 +194,7 @@ mpdecimal
 mpfr
 mpg123
 mplayer
+nbytes
 ncurses
 neovim
 nettle
@@ -258,8 +260,8 @@ scala
 scala-cli
 sdl2
 sdl2_image
-shared-mime-info
 simdjson
+simdutf
 sl
 snappy
 softhsm

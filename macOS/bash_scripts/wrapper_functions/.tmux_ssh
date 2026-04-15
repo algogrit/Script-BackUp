@@ -1,10 +1,17 @@
 function tssh() {
     local session="Gaurav"
+    local tmux_cmd
 
     if [[ "$1" == "-d" ]]; then
         session="Gaurav-$(basename $(pwd))"
         shift
     fi
 
-    ssh "$@" -t "tmux a -t '$session' || tmux new -s '$session' || screen -r || screen || /bin/bash"
+    if [[ "${TERM_PROGRAM:-}" == "iTerm.app" ]]; then
+        tmux_cmd="tmux -CC new -A -s '$session'"
+    else
+        tmux_cmd="tmux a -t '$session' || tmux new -s '$session'"
+    fi
+
+    ssh "$@" -t "$tmux_cmd || screen -r || screen || /bin/bash"
 }
