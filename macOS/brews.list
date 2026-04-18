@@ -134,6 +134,7 @@ libnghttp3
 libngtcp2
 libogg
 libomp
+libplacebo
 libpng
 libptytty
 librist
@@ -188,12 +189,15 @@ merve
 mistral-vibe
 mlx
 mlx-c
+molten-vk
 mp3splt
 mp3wrap
 mpdecimal
 mpfr
 mpg123
 mplayer
+mpv
+mujs
 nbytes
 ncurses
 neovim
@@ -260,6 +264,7 @@ scala
 scala-cli
 sdl2
 sdl2_image
+shaderc
 simdjson
 simdutf
 sl
@@ -283,6 +288,7 @@ torsocks
 tree
 tree-sitter
 tree-sitter@0.25
+uchardet
 unbound
 unibilium
 unixodbc
@@ -290,9 +296,12 @@ unzip
 utf8proc
 uv
 uvwasi
+vapoursynth
 vcpkg
 vim
 vimpager
+vulkan-headers
+vulkan-loader
 w3m
 wakeonlan
 watch

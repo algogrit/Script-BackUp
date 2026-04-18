@@ -878,6 +878,7 @@ glink
 gln
 glogname
 gls
+glslc
 glxgears
 glxinfo
 gm4
@@ -1454,6 +1455,7 @@ modelcatalogdump
 modelmanagerdump
 modutil
 mogrify
+MoltenVKShaderConverter
 mono
 mono-api-html
 mono-api-info
@@ -1514,6 +1516,7 @@ mpioutil
 mplayer
 mprof-report
 mpsgraphtool
+mpv
 mrbc
 mrdb
 mruby
@@ -1537,6 +1540,8 @@ msgunfmt
 msguniq
 msiexec
 mtree
+mujs
+mujs-pp
 multinit
 murge
 mv
@@ -2450,6 +2455,7 @@ type
 typeprof
 typer
 uasysdiagnose
+uchardet
 ucs2any
 udpdump
 ul
@@ -2476,6 +2482,7 @@ uniq
 units
 universalaccessd
 unlink
+unlock.rb
 unlz4
 unlzma
 uno
@@ -2556,6 +2563,7 @@ vmaf
 vmmap
 vpnd
 vsdbutil
+vspipe
 vtool
 vwebp
 w
