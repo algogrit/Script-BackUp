@@ -119,7 +119,6 @@ libgcrypt
 libgit2
 libgpg-error
 libheif
-libiconv
 libid3tag
 libidn2
 libksba
@@ -170,7 +169,6 @@ libzen
 little-cms2
 llhttp
 llvm
-llvm@21
 lpeg
 lua
 lua@5.4
@@ -220,6 +218,7 @@ openjdk@17
 openjpeg
 openjph
 openssl@3
+openssl@4
 opus
 p11-kit
 p7zip

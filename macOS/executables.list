@@ -574,6 +574,7 @@ fabric
 factor
 false
 fastbase64
+fastbase64.coreutils
 fastboot
 fastcgi-mono-server
 fastcgi-mono-server2
@@ -1964,6 +1965,7 @@ qprofdiff
 qrencode
 qt-faststart
 quartz-wm
+quicktype
 quota
 quotacheck
 quotaoff
@@ -2042,6 +2044,7 @@ rist2rist
 ristreceiver
 ristsender
 ristsrppasswd
+risttunnel
 rls
 rlwrap
 rm
@@ -2457,6 +2460,7 @@ typer
 uasysdiagnose
 uchardet
 ucs2any
+udp2udp
 udpdump
 ul
 ulimit
