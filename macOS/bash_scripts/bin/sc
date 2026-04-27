@@ -1,0 +1,122 @@
+#!/bin/bash
+
+# sc - Screenshot utility for macOS
+# Usage: sc [-p] [-n] [command]
+#   sc              - Print path + copy image to clipboard
+#   sc -p           - Print path + copy path to clipboard
+#   sc print        - Print the latest screenshot path
+#   sc open         - Open the latest screenshot
+#   sc copy [-p]    - Copy image (or path with -p) to clipboard
+#   sc clean [-n]   - Remove all screenshots except the latest
+#   sc nuke  [-n]   - Remove ALL screenshots
+
+SCREENSHOT_DIR="$HOME/Desktop"
+COPY_PATH=0
+DRY_RUN=0
+
+# Parse flags (anywhere in args)
+ARGS=()
+for arg in "$@"; do
+  case "$arg" in
+    -p|--path)     COPY_PATH=1 ;;
+    -n|--dry-run)  DRY_RUN=1 ;;
+    *) ARGS+=("$arg") ;;
+  esac
+done
+
+CMD="${ARGS[0]:-default}"
+
+# Shorten $HOME to ~ in displayed paths
+short() { echo "${1/#$HOME/\~}"; }
+
+latest() {
+  ls -t "$SCREENSHOT_DIR"/Screenshot\ *.png 2>/dev/null | head -1
+}
+
+all_screenshots() {
+  ls -t "$SCREENSHOT_DIR"/Screenshot\ *.png 2>/dev/null
+}
+
+copy_to_clipboard() {
+  local FILE="$1"
+  if [[ $COPY_PATH -eq 1 ]]; then
+    echo -n "$FILE" | pbcopy
+    echo "Copied path to clipboard."
+  else
+    osascript -e "set the clipboard to (read (POSIX file \"$FILE\") as JPEG picture)" 2>/dev/null \
+      || osascript -e "set the clipboard to (read (POSIX file \"$FILE\") as PNG picture)"
+    echo "Copied image to clipboard."
+  fi
+}
+
+case "$CMD" in
+  print)
+    FILE=$(latest)
+    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    short "$FILE"
+    ;;
+
+  open)
+    FILE=$(latest)
+    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    short "$FILE"
+    open "$FILE"
+    ;;
+
+  copy)
+    FILE=$(latest)
+    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    short "$FILE"
+    copy_to_clipboard "$FILE"
+    ;;
+
+  clean)
+    FILES=()
+    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
+    COUNT=${#FILES[@]}
+    if [[ $COUNT -le 1 ]]; then echo "Nothing to clean (<=1 screenshot)."; exit 0; fi
+    TO_DELETE=( "${FILES[@]:1}" )
+    if [[ $DRY_RUN -eq 1 ]]; then
+      echo "Dry run -- would remove $((COUNT - 1)) screenshot(s):"
+      for f in "${TO_DELETE[@]}"; do echo "  $(short "$f")"; done
+      echo "Would keep: $(short "${FILES[0]}")"
+    else
+      printf '%s\0' "${TO_DELETE[@]}" | xargs -0 rm --
+      echo "Removed $((COUNT - 1)) old screenshot(s). Kept: $(short "${FILES[0]}")"
+    fi
+    ;;
+
+  nuke)
+    FILES=()
+    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
+    COUNT=${#FILES[@]}
+    if [[ $COUNT -eq 0 ]]; then echo "No screenshots to remove."; exit 0; fi
+    if [[ $DRY_RUN -eq 1 ]]; then
+      echo "Dry run -- would remove $COUNT screenshot(s):"
+      for f in "${FILES[@]}"; do echo "  $(short "$f")"; done
+    else
+      printf '%s\0' "${FILES[@]}" | xargs -0 rm --
+      echo "Removed $COUNT screenshot(s)."
+    fi
+    ;;
+
+  default)
+    FILE=$(latest)
+    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    short "$FILE"
+    copy_to_clipboard "$FILE"
+    ;;
+
+  *)
+    echo "Usage: sc [-p] [-n] [print|open|copy|clean|nuke]"
+    echo "  (no args)     Print path + copy image to clipboard"
+    echo "  -p            Copy file path instead of image contents"
+    echo "  -n, --dry-run Preview what clean/nuke would delete"
+    echo "  print         Print the latest screenshot path"
+    echo "  open          Open the latest screenshot"
+    echo "  copy [-p]     Copy latest screenshot (image or path) to clipboard"
+    echo "  clean [-n]    Remove all screenshots except the latest"
+    echo "  nuke  [-n]    Remove ALL screenshots"
+    exit 1
+    ;;
+esac

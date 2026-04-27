@@ -2097,6 +2097,7 @@ sample
 sampleproc
 sandbox-exec
 say
+sc
 sc_auth
 sc_usage
 sc-hsm-tool
