@@ -275,6 +275,7 @@ cargo-miri
 cat
 catman
 cc
+cct
 cd-create-profile
 cd-fix-profile
 cd-iccdump
@@ -368,6 +369,7 @@ c_rehash
 criticalstat-bpfcc
 cron
 crontab
+cs2cs
 csplit
 ctest
 ctr
@@ -763,6 +765,7 @@ genl
 gennorm2
 genrb
 gensprep
+geod
 geqn
 GET
 getcap
@@ -785,6 +788,7 @@ gfortran-13
 ghostscript
 gi-compile-repository
 gi-decompile-typelib
+gie
 gi-inspect-typelib
 ginstall-info
 gio
@@ -1056,7 +1060,9 @@ installkernel
 install-sgmlcatalog
 instmodsh
 intel-virtual-output
+invgeod
 invoke-rc.d
+invproj
 ionice
 iostat
 ip
@@ -1411,6 +1417,8 @@ mdig
 mdir
 mdu
 media-ctl
+melt
+melt-7
 memhog
 memleak-bpfcc
 memusage
@@ -1821,6 +1829,9 @@ printf
 prlimit
 pro
 profile-bpfcc
+proj
+projinfo
+projsync
 proton
 proton-viewer
 prove

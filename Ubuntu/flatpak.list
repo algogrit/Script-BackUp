@@ -1,12 +1,12 @@
-OBS Studio	Live stream and record videos	com.obsproject.Studio	32.1.1	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	cc0e7c973cb4	-	537.3 MB	user,current
-DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.1.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	2fb812357bcd	-	2.8 MB	user,runtime
-Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	fef6e7904167	-	335.2 MB	user,current
-Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.8	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	18c4d2cd492e	-	659.0 MB	user,runtime
-Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	00248c58a6cd	-	444.9 MB	user,runtime
-Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	25.3.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	d6c03d2ba3e6	-	444.9 MB	user,runtime
+OBS Studio	Live stream and record videos	com.obsproject.Studio	32.1.2	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	d5ef55629900	-	537.3 MB	user,current
+DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	64fbd7605d20	-	2.8 MB	user,runtime
+Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	361b80717234	-	335.2 MB	user,current
+Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.10	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	75794af0c7d1	-	657.2 MB	user,runtime
+Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	4f7f9562c7b4	-	449.5 MB	user,runtime
+Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	1b943a57ca3d	-	449.5 MB	user,runtime
 nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	1da06c3ee86d	-	776.7 MB	user,runtime
 nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	d971ae530e8c	-	901.8 MB	user,runtime
-Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	d038c3ffcc3c	-	100.4 kB	user,runtime
-Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	c0512f067028	-	43.6 MB	user,runtime
-Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.8	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	37c47d7f28c2	-	1.7 GB	user,runtime
+Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	7be5e7de09ff	-	100.4 kB	user,runtime
+Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	529c7e851289	-	43.4 MB	user,runtime
+Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.10	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	94938f2e7cc6	-	1.7 GB	user,runtime
 Yaru-dark Gtk Theme	Yaru-dark theme	org.gtk.Gtk3theme.Yaru-dark		3.22	x86_64	flathub	user	org.gtk.Gtk3theme.Yaru-dark/x86_64/3.22	d4b294293b43	-	745.5 kB	user,runtime
