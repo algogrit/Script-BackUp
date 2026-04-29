@@ -1,6 +1,6 @@
 Name                       Version                         Rev    Tracking         Publisher      Notes
 bare                       1.0                             5      latest/stable    canonical**    base
-code                       10c8e557                        235    latest/stable    vscode**       classic
+code                       9b8ae15a                        236    latest/stable    vscode**       classic
 core20                     20260211                        2769   latest/stable    canonical**    base
 core22                     20260225                        2411   latest/stable    canonical**    base
 core24                     20260317                        1587   latest/stable    canonical**    base

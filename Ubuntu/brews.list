@@ -9,6 +9,7 @@ fzf
 gdbm
 libffi
 libxcrypt
+llmfit
 m4
 ncurses
 node-build

@@ -4,8 +4,9 @@ Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpa
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.10	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	75794af0c7d1	-	657.2 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	4f7f9562c7b4	-	449.5 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	1b943a57ca3d	-	449.5 MB	user,runtime
-nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	1da06c3ee86d	-	776.7 MB	user,runtime
-nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	d971ae530e8c	-	901.8 MB	user,runtime
+nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	5d05cf227849	-	776.7 MB	user,runtime
+nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	bb07a39096a1	-	901.8 MB	user,runtime
+nvidia-580-142		org.freedesktop.Platform.GL.nvidia-580-142		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-142/x86_64/1.4	996f31870e58	-	901.9 MB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	7be5e7de09ff	-	100.4 kB	user,runtime
 Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	529c7e851289	-	43.4 MB	user,runtime
 Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.10	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	94938f2e7cc6	-	1.7 GB	user,runtime

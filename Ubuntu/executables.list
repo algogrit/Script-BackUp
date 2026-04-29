@@ -1210,6 +1210,7 @@ llc-18
 llcstat-bpfcc
 lli-18
 lli-child-target-18
+llmfit
 llvm-addr2line-18
 llvm-ar-18
 llvm-as-18
@@ -1417,6 +1418,7 @@ mdig
 mdir
 mdu
 media-ctl
+mediainfo
 melt
 melt-7
 memhog
