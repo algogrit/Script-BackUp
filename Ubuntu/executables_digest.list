@@ -4131,8 +4131,8 @@ f393656ca7d03c11b861b4398a5730b6  /usr/bin/regsvr32
 f393656ca7d03c11b861b4398a5730b6  /bin/regsvr32
 f393656ca7d03c11b861b4398a5730b6  /usr/bin/regsvr32-stable
 f393656ca7d03c11b861b4398a5730b6  /bin/regsvr32-stable
-d755181b15ee5b61651b96c729ed1343  /usr/bin/remmina
-d755181b15ee5b61651b96c729ed1343  /bin/remmina
+f2a4a3ec9eedc57b0ff40a7fe80570c3  /usr/bin/remmina
+f2a4a3ec9eedc57b0ff40a7fe80570c3  /bin/remmina
 33eb8c139d4e07e581dd1583829e4895  /usr/bin/remmina-file-wrapper
 33eb8c139d4e07e581dd1583829e4895  /bin/remmina-file-wrapper
 b636c4bbcfb6f98393fa36de3c5060f5  /usr/bin/remmina-gnome
