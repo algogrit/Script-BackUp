@@ -9,4 +9,4 @@ alias mistral='ollama run mistral:latest'
 alias mistral-small='ollama run mistral-small3.1:latest'
 alias phi4='ollama run phi4:latest'
 
-alias codexfa='codex --sandbox workspace-write'
+alias codex='codex --sandbox workspace-write'
