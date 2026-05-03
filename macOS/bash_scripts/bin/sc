@@ -5,8 +5,10 @@
 #   sc              - Print path + copy image to clipboard
 #   sc -p           - Print path + copy path to clipboard
 #   sc print        - Print the latest screenshot path
+#   sc list         - List all screenshots
 #   sc open         - Open the latest screenshot
 #   sc copy [-p]    - Copy image (or path with -p) to clipboard
+#   sc move <dest>  - Move latest screenshot to <dest> (creates dirs as needed)
 #   sc clean [-n]   - Remove all screenshots except the latest
 #   sc nuke  [-n]   - Remove ALL screenshots
 
@@ -56,6 +58,16 @@ case "$CMD" in
     short "$FILE"
     ;;
 
+  list)
+    FILES=()
+    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
+    COUNT=${#FILES[@]}
+    if [[ $COUNT -eq 0 ]]; then echo "No screenshots found."; exit 0; fi
+    for f in "${FILES[@]}"; do echo "$(short "$f")"; done
+    echo ""
+    echo "$COUNT screenshot(s)."
+    ;;
+
   open)
     FILE=$(latest)
     if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
@@ -68,6 +80,27 @@ case "$CMD" in
     if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
     short "$FILE"
     copy_to_clipboard "$FILE"
+    ;;
+
+  move)
+    DEST="${ARGS[1]}"
+    if [[ -z "$DEST" ]]; then
+      echo "Usage: sc move <destination>"
+      echo "  e.g. sc move screenshots/2026-05-03/my-screenshot.png"
+      exit 1
+    fi
+    FILE=$(latest)
+    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    # Resolve destination: if no extension given, treat as directory and keep original filename
+    if [[ "$DEST" != *.png ]]; then
+      DEST="${DEST%/}/$(basename "$FILE")"
+    fi
+    # Expand ~ and make absolute (relative paths resolved from cwd)
+    DEST="${DEST/#\~/$HOME}"
+    DEST_DIR="$(dirname "$DEST")"
+    mkdir -p "$DEST_DIR" || { echo "Failed to create directory: $DEST_DIR"; exit 1; }
+    mv -- "$FILE" "$DEST"
+    echo "$(short "$FILE")  →  $(short "$DEST")"
     ;;
 
   clean)
@@ -108,15 +141,17 @@ case "$CMD" in
     ;;
 
   *)
-    echo "Usage: sc [-p] [-n] [print|open|copy|clean|nuke]"
-    echo "  (no args)     Print path + copy image to clipboard"
-    echo "  -p            Copy file path instead of image contents"
-    echo "  -n, --dry-run Preview what clean/nuke would delete"
-    echo "  print         Print the latest screenshot path"
-    echo "  open          Open the latest screenshot"
-    echo "  copy [-p]     Copy latest screenshot (image or path) to clipboard"
-    echo "  clean [-n]    Remove all screenshots except the latest"
-    echo "  nuke  [-n]    Remove ALL screenshots"
+    echo "Usage: sc [-p] [-n] [print|list|open|copy|move|clean|nuke]"
+    echo "  (no args)       Print path + copy image to clipboard"
+    echo "  -p              Copy file path instead of image contents"
+    echo "  -n, --dry-run   Preview what clean/nuke would delete"
+    echo "  print           Print the latest screenshot path"
+    echo "  list            List all screenshots"
+    echo "  open            Open the latest screenshot"
+    echo "  copy [-p]       Copy latest screenshot (image or path) to clipboard"
+    echo "  move <dest>     Move latest screenshot to <dest> (dirs created as needed)"
+    echo "  clean [-n]      Remove all screenshots except the latest"
+    echo "  nuke  [-n]      Remove ALL screenshots"
     exit 1
     ;;
 esac
