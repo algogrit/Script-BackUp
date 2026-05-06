@@ -9,4 +9,4 @@
 
 alias qwen25-aider='aider --model ollama/qwen2.5-coder:32b --auto-commits'
 
-alias codexfa='codex --sandbox workspace-write' 
+alias codex='codex --sandbox workspace-write'

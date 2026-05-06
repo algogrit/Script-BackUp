@@ -5,6 +5,7 @@
 2to3-3.11
 2to3-3.12
 2to3-3.9
+4channels
 7z
 7za
 7zr
@@ -404,6 +405,7 @@ cythonize
 danetool
 dappprof
 dapptrace
+darktable-cli
 dash
 date
 dav1d
@@ -444,6 +446,8 @@ dbus-test-tool
 dbus-update-activation-environment
 dbus-uuidgen
 dc
+dcraw_emu
+dcraw_half
 dd
 dddiagnose
 ddns-confgen
@@ -1069,6 +1073,7 @@ h5repart
 h5stat
 h5unjam
 h5watch
+half_mt
 halt
 hash
 hb-info
@@ -1496,6 +1501,7 @@ mdutil
 mdvalidater
 mediainfo
 melt
+mem_image
 memory_pressure
 mencoder
 merge_unicharsets
@@ -1627,6 +1633,7 @@ mtree
 mujs
 mujs-pp
 multinit
+multirender_test
 murge
 mv
 mvn
@@ -1939,6 +1946,7 @@ postlock
 postlog
 postmap
 postmulti
+postprocessing_benchmark
 postqueue
 postsuper
 power_report.sh
@@ -2107,8 +2115,10 @@ randpktdump
 ranlib
 rarpd
 rav1e
+raw-identify
 raw2tiff
 rawshark
+rawtextdump
 rbenv
 rbenv---version
 rbenv-commands
@@ -2312,6 +2322,7 @@ sigdist.d
 signcode
 signtool
 signver
+simple_dcraw
 sips
 size
 skywalkctl
@@ -2627,6 +2638,7 @@ uno
 unoinfo
 unopkg
 unpack200
+unprocessed_raw
 unsetpassword
 unvis
 unwrap-diff
