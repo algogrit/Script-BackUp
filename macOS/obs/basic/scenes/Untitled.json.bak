@@ -39,7 +39,7 @@
             "id": "coreaudio_input_capture",
             "versioned_id": "coreaudio_input_capture",
             "settings": {
-                "device_id": "AppleUSBAudioEngine:CMEDIA:USB PnP Audio Device:2100000:1"
+                "device_id": "AppleUSBAudioEngine:CMEDIA:USB PnP Audio Device:2110000:1"
             },
             "mixers": 255,
             "sync": 0,
@@ -565,7 +565,7 @@
                     {
                         "name": "Video Capture Device",
                         "source_uuid": "887daca4-704d-4a3e-a297-92069552020b",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
