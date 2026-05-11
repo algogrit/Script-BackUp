@@ -1,0 +1,33 @@
+function dirsize() {
+  local n=""
+  local show_errors=0
+
+  while getopts ":n:e" opt; do
+    case $opt in
+      n) n="$OPTARG" ;;
+      e) show_errors=1 ;;
+      :) echo "Option -$OPTARG requires an argument."; return 1 ;;
+      \?) echo "Unknown option: -$OPTARG"; return 1 ;;
+    esac
+  done
+
+  shift $((OPTIND - 1))
+  local dir="${1:-.}"
+
+  _du() { [[ $show_errors -eq 1 ]] && du "$@" || du "$@" 2>/dev/null; }
+
+  echo ""
+  echo "📁 $(_du -sh "$dir" | cut -f1) total — $dir"
+  echo ""
+  if [[ -n "$n" ]]; then
+    _du -sh "$dir"/* | sort -rh | head -"$n"
+  else
+    _du -sh "$dir"/* | sort -rh
+  fi
+}
+
+# dirsize                        # current dir
+# dirsize ~/Library              # positional dir
+# dirsize -n 10 ~/Library        # top 10
+# dirsize -e ~/Library           # show errors
+# dirsize -n 10 -e ~/Library     # top 10, show errors
