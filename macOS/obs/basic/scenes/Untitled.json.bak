@@ -39,7 +39,7 @@
             "id": "coreaudio_input_capture",
             "versioned_id": "coreaudio_input_capture",
             "settings": {
-                "device_id": "AppleUSBAudioEngine:CMEDIA:USB PnP Audio Device:2110000:1"
+                "device_id": "AppleUSBAudioEngine:CY:AI-04:2100000:2"
             },
             "mixers": 255,
             "sync": 0,
@@ -231,6 +231,7 @@
             "versioned_id": "screen_capture",
             "settings": {
                 "display_uuid": "58F539B5-E99B-4643-A21E-BA903FA94052",
+                "type": 0,
                 "hide_obs": true
             },
             "mixers": 255,
@@ -565,7 +566,7 @@
                     {
                         "name": "Video Capture Device",
                         "source_uuid": "887daca4-704d-4a3e-a297-92069552020b",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -654,7 +655,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
+                "id_counter": 2,
                 "custom_size": false,
                 "items": [
                     {

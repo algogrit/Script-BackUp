@@ -15,6 +15,7 @@ audiowaveform
 auto-editor
 autoconf
 autoenv
+awscli
 bash
 bash-completion
 bat
@@ -31,6 +32,7 @@ certifi
 cffi
 cgns
 cjson
+cloc
 clojure
 cloudflared
 colordiff
@@ -113,6 +115,7 @@ jpeg-xl
 jq
 jsoncpp
 kind
+krb5
 lame
 leiningen
 leptonica
@@ -261,6 +264,7 @@ pkgconf
 pnpm
 poppler
 popt
+postgresql@18
 proj
 protobuf
 psgrep
@@ -321,6 +325,7 @@ the_silver_searcher
 theora
 tig
 tmux
+tokei
 tor
 torsocks
 tree
