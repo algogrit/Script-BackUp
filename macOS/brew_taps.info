@@ -6,3 +6,15 @@ HEAD: f2010264750946da91893971c094a3cfb5bdcfb0
 last commit: 4 weeks ago
 ==> Casks
 game-porting-toolkit
+
+hashicorp/tap: Installed
+2 casks, 32 formulae
+/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (111 files, 1.8MB)
+From: https://github.com/hashicorp/homebrew-tap
+HEAD: ade498fd981b41eed8ab02b129ff258f3f7a7189
+last commit: 5 minutes ago
+==> Formulae
+terraform
+==> Casks
+hashicorp-boundary-desktop
+hashicorp-vagrant

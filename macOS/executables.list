@@ -1,4 +1,5 @@
 
+__pycache__
 [
 2to3
 2to3-3.10
@@ -350,7 +351,6 @@ createuser-18
 critcl
 crlrefresh
 crlutil
-crmftest
 cron
 crontab
 crypto_bench
@@ -515,6 +515,7 @@ docker-credential-ecr-login
 docker-credential-osxkeychain
 docker-machine
 dot_clean
+dotenv
 dropdb
 dropdb-18
 dropuser
@@ -541,6 +542,7 @@ dtw
 du
 dubdv
 dumpcap
+dumppdf.py
 dumpsexp
 dvconnect
 dvd2concat
@@ -1283,6 +1285,7 @@ jmap
 jobs
 join
 jot
+jp.py
 jpackage
 jpegtran
 jpgicc
@@ -1392,6 +1395,7 @@ llvm-gcc
 ln
 lndir
 loads.d
+loc
 local_tone_map
 locale
 localedef
@@ -1856,11 +1860,13 @@ pcregrep
 pcretest
 pcsctest
 pdb2mdb
+pdf2txt.py
 pdfattach
 pdfdetach
 pdffonts
 pdfimages
 pdfinfo
+pdfplumber
 pdfseparate
 pdfsig
 pdftocairo
@@ -2115,6 +2121,8 @@ pyftmerge
 pyftsubset
 pygmentize
 pygrun
+pymupdf
+pypdfium2
 pyrsa-decrypt
 pyrsa-encrypt
 pyrsa-keygen
@@ -2289,6 +2297,7 @@ rubberband
 rubberband-r3
 ruby
 ruby-build
+ruff
 run_erl
 runant.pl
 runant.py
@@ -2588,6 +2597,7 @@ tcpdump
 tcsh
 tee
 telnet
+terraform
 tesseract
 test
 test-yaml
@@ -2772,6 +2782,7 @@ vacuumlo
 vacuumlo-18
 vagrant
 validation
+vba_extract.py
 vbc
 vbnc
 vbnc2

@@ -191,6 +191,7 @@ little-cms2
 llhttp
 llmfit
 llvm
+loc
 lpeg
 lua
 lua@5.4
@@ -320,6 +321,7 @@ svt-av1
 tbb
 tcl-tk
 telnet
+terraform
 tesseract
 the_silver_searcher
 theora
