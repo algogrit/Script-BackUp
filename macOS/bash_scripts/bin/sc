@@ -7,8 +7,8 @@
 #   sc print        - Print the latest screenshot path
 #   sc list         - List all screenshots
 #   sc open         - Open the latest screenshot
-#   sc copy [-p]    - Copy image (or path with -p) to clipboard
-#   sc move <dest>  - Move latest screenshot to <dest> (creates dirs as needed)
+#   sc cp [-p]    - Copy image (or path with -p) to clipboard
+#   sc mv <dest>  - Move latest screenshot to <dest> (creates dirs as needed)
 #   sc clean [-n]   - Remove all screenshots except the latest
 #   sc nuke  [-n]   - Remove ALL screenshots
 
@@ -75,18 +75,18 @@ case "$CMD" in
     open "$FILE"
     ;;
 
-  copy)
+  cp)
     FILE=$(latest)
     if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
     short "$FILE"
     copy_to_clipboard "$FILE"
     ;;
 
-  move)
+  mv)
     DEST="${ARGS[1]}"
     if [[ -z "$DEST" ]]; then
-      echo "Usage: sc move <destination>"
-      echo "  e.g. sc move screenshots/2026-05-03/my-screenshot.png"
+      echo "Usage: sc mv <destination>"
+      echo "  e.g. sc mv screenshots/2026-05-03/my-screenshot.png"
       exit 1
     fi
     FILE=$(latest)
@@ -141,15 +141,15 @@ case "$CMD" in
     ;;
 
   *)
-    echo "Usage: sc [-p] [-n] [print|list|open|copy|move|clean|nuke]"
+    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke]"
     echo "  (no args)       Print path + copy image to clipboard"
     echo "  -p              Copy file path instead of image contents"
     echo "  -n, --dry-run   Preview what clean/nuke would delete"
     echo "  print           Print the latest screenshot path"
     echo "  list            List all screenshots"
     echo "  open            Open the latest screenshot"
-    echo "  copy [-p]       Copy latest screenshot (image or path) to clipboard"
-    echo "  move <dest>     Move latest screenshot to <dest> (dirs created as needed)"
+    echo "  cp [-p]       Copy latest screenshot (image or path) to clipboard"
+    echo "  mv <dest>     Move latest screenshot to <dest> (dirs created as needed)"
     echo "  clean [-n]      Remove all screenshots except the latest"
     echo "  nuke  [-n]      Remove ALL screenshots"
     exit 1

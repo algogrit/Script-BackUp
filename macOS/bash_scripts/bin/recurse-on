@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Usage: recurse-on <directory> <extension> <command>
+# Finds all files with the given extension and runs the command against each,
+# passing the full file path as the last argument.
+#
+# Examples:
+#   recurse-on ./docs md md-to-pdf
+#   recurse-on ./src ts tsc
+#   recurse-on ./images png "convert -resize 50%"
+
+set -euo pipefail
+
+if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
+  echo "Usage: $(basename "$0") <directory> <extension> <command>"
+  echo ""
+  echo "Finds all files with the given extension and runs the command in each"
+  echo "file's containing directory, with the filename appended as the last argument."
+  echo ""
+  echo "Examples:"
+  echo "  $(basename "$0") ./docs md md-to-pdf"
+  echo "  $(basename "$0") ./src ts tsc"
+  echo "  $(basename "$0") ./images png \"convert -resize 50%\""
+  exit 0
+fi
+
+DIR="${1:?Usage: $0 <directory> <extension> <command>}"
+EXT="${2:?Usage: $0 <directory> <extension> <command>}"
+CMD="${3:?Usage: $0 <directory> <extension> <command>}"
+
+# We use Process Substitution to feed 'find' into File Descriptor 3
+while IFS= read -r -u 3 file; do
+    # Skip the file if it matches a .gitignore rule
+    if git check-ignore -q "$file" 2>/dev/null; then
+        continue
+    fi
+
+    $CMD "$file"
+done 3< <(find "$DIR" -type f -name "*.$EXT")
+
+# We need to give `md-to-pdf` its real terminal back. We do this by feeding the file list through a custom file descriptor (like `3`), leaving standard input (`0`) completely untouched.
+
+# #### Why this works beautifully:
+
+# 1. **`done 3< <(...)`**: This runs your `find` command in the background and pipelines its output into **File Descriptor 3**.
+# 2. **`read -u 3`**: This tells the `while` loop to only read its variables from File Descriptor 3.
+# 3. **`$CMD "$file"`**: Because the loop isn't touching standard input (FD 0), standard output (FD 1), or standard error (FD 2), `md-to-pdf` inherits your actual terminal window. The progress spinner will work properly, Puppeteer will have a healthy environment, and it will drop the PDF right next to the markdown file where it belongs.

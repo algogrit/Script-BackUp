@@ -39,7 +39,7 @@
             "id": "coreaudio_input_capture",
             "versioned_id": "coreaudio_input_capture",
             "settings": {
-                "device_id": "AppleUSBAudioEngine:CY:AI-04:100000:2"
+                "device_id": "AppleUSBAudioEngine:CY:AI-04:1100000:2"
             },
             "mixers": 255,
             "sync": 0,
