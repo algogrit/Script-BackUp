@@ -138,7 +138,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7650 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7651 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -161,4 +161,4 @@ Unexpected dylibs:
   /usr/local/lib/libnss3.dylib
   /usr/local/lib/libonnxruntime.dylib
   /usr/local/lib/libsoftokn3.dylib
-374 kegs, 226,626 files, 10.9GB
+374 kegs, 226,615 files, 10.9GB
