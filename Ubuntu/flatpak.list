@@ -1,12 +1,13 @@
 OBS Studio	Live stream and record videos	com.obsproject.Studio	32.1.2	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	d5ef55629900	-	537.3 MB	user,current
 DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	64fbd7605d20	-	2.8 MB	user,runtime
-Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	1506d5e4e8d0	-	332.2 MB	user,current
+Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	a010146ae1f0	-	332.3 MB	user,current
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.11	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	4eb7c7499360	-	657.5 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	9d2c591f6563	-	449.5 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.0.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	45661bb5fae0	-	449.5 MB	user,runtime
-nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	330f81b44248	-	776.7 MB	user,runtime
-nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	7439982d6f47	-	901.8 MB	user,runtime
-nvidia-580-142		org.freedesktop.Platform.GL.nvidia-580-142		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-142/x86_64/1.4	ef3a5587f8aa	-	901.9 MB	user,runtime
+nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	77994c55d948	-	776.7 MB	user,runtime
+nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	e7289d28ec16	-	901.8 MB	user,runtime
+nvidia-580-142		org.freedesktop.Platform.GL.nvidia-580-142		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-142/x86_64/1.4	8fe1dcd83098	-	901.9 MB	user,runtime
+nvidia-580-159-03		org.freedesktop.Platform.GL.nvidia-580-159-03		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-159-03/x86_64/1.4	6873a7f573c4	-	901.9 MB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	4b08ae3b2326	-	100.4 kB	user,runtime
 Codecs Extra Extension	This extension contains patent-restricted codecs not shipped in Platform	org.freedesktop.Platform.codecs-extra		25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.codecs-extra/x86_64/25.08-extra	ddd3ef348560	-	43.4 MB	user,runtime
 Freedesktop SDK	Tools and headers for developing applications	org.freedesktop.Sdk	freedesktop-sdk-25.08.11	25.08	x86_64	flathub	user	org.freedesktop.Sdk/x86_64/25.08	66c2b1545e69	-	1.7 GB	user,runtime
