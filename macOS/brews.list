@@ -76,6 +76,7 @@ gflags
 gh
 giflib
 git
+git-delta
 git-extras
 git-lfs
 git-svn
@@ -141,6 +142,8 @@ libharu
 libheif
 libid3tag
 libidn2
+libimobiledevice
+libimobiledevice-glue
 libksba
 liblinear
 libmediainfo
@@ -154,6 +157,7 @@ libngtcp2
 libogg
 libomp
 libplacebo
+libplist
 libpng
 libptytty
 libraw
@@ -166,6 +170,7 @@ libsoxr
 libssh
 libssh2
 libtasn1
+libtatsu
 libthai
 libtiff
 libtommath
@@ -174,6 +179,7 @@ libudfread
 libunibreak
 libunistring
 libusb
+libusbmuxd
 libuv
 libvidstab
 libvmaf

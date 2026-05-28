@@ -7,6 +7,7 @@
 	excludesfile = ~/.gitignore
 	hooksPath = /Users/gaurav/git-hooks/
 	attributesfile = /home/gaurav/.gitattributes
+	pager = delta
 [alias]
 	st = status -sb
 	co = checkout
@@ -51,3 +52,13 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	dark = true
+	line-numbers = true
+	hyperlinks = true
+	side-by-side = true
+[merge]
+	conflictStyle = zdiff3

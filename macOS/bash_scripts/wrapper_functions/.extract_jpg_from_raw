@@ -1,0 +1,4 @@
+# Extract embedded preview images as matching JPGs
+extract_jpg_from_raw() {
+    exiftool -a -b -W '%d%f%-c.%s' -preview:all "$@"
+}
