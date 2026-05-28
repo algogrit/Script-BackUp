@@ -435,6 +435,7 @@ decode_tm6000
 deja-dup
 delgroup
 delpart
+delta
 deluser
 delv
 depmod
@@ -801,6 +802,7 @@ g-ir-generate
 g-ir-inspect
 g-ir-scanner
 git
+git2
 git-add-nw
 git-auto-push
 git-catchup
@@ -1641,6 +1643,7 @@ offcputime-bpfcc
 offwaketime-bpfcc
 ollama
 on_ac_power
+onig-config
 oomctl
 oomkill-bpfcc
 oomkill.bt
