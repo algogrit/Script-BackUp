@@ -60,5 +60,6 @@
 	line-numbers = true
 	hyperlinks = true
 	side-by-side = true
+	true-color = always
 [merge]
 	conflictStyle = zdiff3

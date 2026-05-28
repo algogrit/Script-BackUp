@@ -12,7 +12,7 @@ hashicorp/tap: Installed
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (160 files, 1.8MB)
 From: https://github.com/hashicorp/homebrew-tap
 HEAD: 3c3aed01bdaf9eeaf9e15965dee1e9ca95c593cb
-last commit: 11 hours ago
+last commit: 12 hours ago
 ==> Formulae
 terraform
 ==> Casks
