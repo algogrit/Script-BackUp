@@ -47,6 +47,7 @@ if bash_startup_optional_enabled && [ -x ~/.goenv/bin/goenv ]; then
   export GOENV_DISABLE_GOPATH=1
   eval "$(~/.goenv/bin/goenv init -)"
 fi
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 ## rustup-init
 # export CARGO_HOME="$HOME/.cargo"

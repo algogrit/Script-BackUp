@@ -1290,6 +1290,7 @@ lnstat
 loadkeys
 loads.bt
 loadunimap
+loc
 localc
 locale
 locale-check

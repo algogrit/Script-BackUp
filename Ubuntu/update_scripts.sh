@@ -125,6 +125,7 @@ rm -rf bash_scripts/third_party
 echo "\033[1;31mRefreshing ollama models list...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
 ollama list | awk '{print $1, $2, $3}' | sort > ollama.list
+ollama list | awk 'NR>1 {sum += $3} END {print "Total Size: " sum " GB"}'
 
 echo "\033[1;31mUpgrade Open WebUI...\033[0m"
 if command -v pipx >/dev/null 2>&1; then

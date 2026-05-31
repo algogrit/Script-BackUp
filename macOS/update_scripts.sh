@@ -180,6 +180,7 @@ rm bash_scripts/aliases/.*_secret
 # Refreshing Ollama models
 echo "\033[1;31mRefreshing ollama models...\033[0m"
 ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
+ollama list | awk 'NR>1 {sum += $3} END {print "Total Size: " sum " GB"}'
 
 echo "\033[1;31m/etc/hosts...\033[0m"
 compare-hosts-files
