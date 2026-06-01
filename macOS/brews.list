@@ -74,6 +74,7 @@ gemini-cli
 gettext
 gflags
 gh
+ghostscript
 giflib
 git
 git-delta
@@ -110,7 +111,9 @@ imagemagick
 imath
 imlib2
 isl
+jbig2dec
 jenv
+jj
 jpeg-turbo
 jpeg-xl
 jq
@@ -141,6 +144,7 @@ libgpg-error
 libharu
 libheif
 libid3tag
+libidn
 libidn2
 libimobiledevice
 libimobiledevice-glue

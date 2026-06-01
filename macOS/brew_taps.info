@@ -3,7 +3,7 @@ gcenx/wine: Installed
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (61 files, 363.7KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: f2010264750946da91893971c094a3cfb5bdcfb0
-last commit: 6 weeks ago
+last commit: 7 weeks ago
 ==> Casks
 game-porting-toolkit
 
@@ -12,7 +12,7 @@ hashicorp/tap: Installed
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (160 files, 1.8MB)
 From: https://github.com/hashicorp/homebrew-tap
 HEAD: 3c3aed01bdaf9eeaf9e15965dee1e9ca95c593cb
-last commit: 3 days ago
+last commit: 5 days ago
 ==> Formulae
 terraform
 ==> Casks

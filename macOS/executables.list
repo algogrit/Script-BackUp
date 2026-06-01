@@ -547,6 +547,7 @@ dumppdf.py
 dumpsexp
 dvconnect
 dvd2concat
+dvipdf
 dwarfdump
 dwebp
 dx
@@ -588,6 +589,7 @@ envvars
 envvars-std
 episodes-rename
 epmd
+eps2eps
 erb
 erl
 erlc
@@ -976,6 +978,9 @@ gopls
 gource
 gpaste
 gpathchk
+gpcl6
+gpcl6c
+gpdlc
 gperf
 gpg
 gpg-agent
@@ -1018,6 +1023,11 @@ gresource
 grm
 grmdir
 groups
+gs
+gsbj
+gsc
+gsdj
+gsdj500
 gsed
 gseq
 gsettings
@@ -1029,6 +1039,9 @@ gsha512sum
 gshred
 gshuf
 gsleep
+gslj
+gslp
+gsnd
 gsort
 gsplit
 gssd
@@ -1036,6 +1049,7 @@ gstat
 gstdbuf
 gstty
 gsum
+gsx
 gsync
 gtac
 gtail
@@ -1062,6 +1076,8 @@ gvdir
 gwc
 gwho
 gwhoami
+gxps
+gxpsc
 gyes
 gzcat
 gzexe
@@ -1189,6 +1205,7 @@ idle3.12
 idle3.13
 idle3.14
 idle3.9
+idn
 idn2
 iex
 ifconfig
@@ -1291,6 +1308,7 @@ javac
 javadoc
 javap
 javaws
+jbig2dec
 jcmd
 jconsole
 jcontrol
@@ -1300,6 +1318,7 @@ jenv
 jhsdb
 jimage
 jinfo
+jj
 jjs
 jlink
 jmap
@@ -1441,6 +1460,7 @@ lpoptions
 lpq
 lpr
 lprm
+lprsetup.sh
 lpstat
 ls
 lsappinfo
@@ -1883,6 +1903,8 @@ pcregrep
 pcretest
 pcsctest
 pdb2mdb
+pdf2dsc
+pdf2ps
 pdf2txt.py
 pdfattach
 pdfdetach
@@ -1912,6 +1934,8 @@ perlthanks
 perlthanks5.34
 permview
 peverify
+pf2afm
+pfbtopfa
 pfctl
 pg_amcheck
 pg_amcheck-18
@@ -2059,6 +2083,7 @@ ppdhtml
 ppdi
 ppdmerge
 ppdpo
+pphs
 ppm2tiff
 pppd
 pq_to_hlg
@@ -2067,6 +2092,7 @@ praudit
 predict
 priclass.d
 pridist.d
+printafm
 printenv
 printf
 printf_gettext
@@ -2090,6 +2116,15 @@ protoc-gen-upbdefs-35.0.0
 prove
 prove5.34
 ps
+ps2ascii
+ps2epsi
+ps2pdf
+ps2pdf12
+ps2pdf13
+ps2pdf14
+ps2pdfwr
+ps2ps
+ps2ps2
 psgrep
 psicc
 psktool
@@ -2747,6 +2782,7 @@ unify
 uniq
 units
 universalaccessd
+unix-lpr.sh
 unlink
 unlock.rb
 unlz4
