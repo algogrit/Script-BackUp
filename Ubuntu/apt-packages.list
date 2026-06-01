@@ -22,6 +22,7 @@ bluez-cups
 bridge-utils
 brltty
 bsdutils
+bubblewrap
 build-essential
 bzip2
 ca-certificates
@@ -97,6 +98,7 @@ gnome-settings-daemon
 gnome-snapshot
 gnome-system-monitor
 gnome-text-editor
+gnupg
 google-chrome-stable
 gpg-agent
 grep
@@ -121,6 +123,7 @@ inputattach
 intel-mkl
 iproute2
 iputils-ping
+jq
 kbd
 kerneloops
 kexec-tools
@@ -244,6 +247,8 @@ nvidia-cuda-toolkit
 nvidia-driver-570
 obs-backgroundremoval
 openprinting-ppds
+openssh-client
+openssl
 ovmf
 packagekit
 passwd
@@ -288,6 +293,7 @@ sshpass
 subversion
 sudo
 systemd-oomd
+tar
 thunderbird
 thunderbird-locale-en
 thunderbird-locale-en-gb

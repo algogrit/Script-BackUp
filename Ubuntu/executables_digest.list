@@ -2609,6 +2609,7 @@ ea95a9ceae0a127fbe3ee39fa226cf8a  /bin/llvm-windres-18
 f1ae5d73628ed393ec7fa549138ee9d0  /usr/bin/loadunimap
 f1ae5d73628ed393ec7fa549138ee9d0  /bin/loadunimap
 721e5b840c2933596d4ecde248cdfc1a  /home/om/go/bin/loc
+721e5b840c2933596d4ecde248cdfc1a  /home/om/go/bin/loc
 f747a26a82e66f643564ecc3bafdd07a  /usr/bin/localc
 f747a26a82e66f643564ecc3bafdd07a  /bin/localc
 62c034732a8773c2ab3b20cc4c510f3c  /usr/bin/locale
