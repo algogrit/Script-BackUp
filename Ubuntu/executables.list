@@ -780,6 +780,7 @@ getkeycodes
 getopt
 getpcaps
 get-quirk-options
+getsubids
 gettext
 gettext.sh
 getty
@@ -1535,7 +1536,9 @@ netqtop-bpfcc
 netstat
 networkctl
 NetworkManager
+newgidmap
 newgrp
+newuidmap
 newusers
 nfnl_osf
 nfsdist-bpfcc
