@@ -31,6 +31,8 @@ alias gd="git diff"
 alias gdc="git diff --cached"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
+alias gitm="git multi"
+alias gitms="git multi-sh"
 
 # Http Server
 alias pyHttpServer="python -m http.server"
