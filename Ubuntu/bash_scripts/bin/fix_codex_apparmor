@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+CODEX_ROOT="$(npm root -g)/@openai/codex"
+CODEX_NATIVE="$(find "$CODEX_ROOT" -type f -path '*/vendor/*/bin/codex' -perm -111 -print -quit)"
+CODEX_BWRAP="$(find "$CODEX_ROOT" -type f -path '*/codex-resources/bwrap' -perm -111 -print -quit)"
+
+sudo /home/om/bash_scripts/bin/fix_codex_apparmor.sh \
+  --codex-bin "$CODEX_NATIVE" \
+  --bwrap "$CODEX_BWRAP"

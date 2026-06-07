@@ -636,6 +636,8 @@ findmnt
 firefox
 firefox.geckodriver
 firmware-updater
+fix_codex_apparmor
+fix_codex_apparmor.sh
 fixparts
 flash
 flashfetch
@@ -2455,6 +2457,7 @@ tmux
 tnameserv
 tnftp
 toe
+tofu
 top
 torchfrtrace
 torchrun

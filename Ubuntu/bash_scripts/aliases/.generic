@@ -22,6 +22,15 @@ alias ag='ag --path-to-ignore ~/.ignore'
 # Git Aliases
 alias gd="git diff"
 alias gdc="git diff --cached"
+alias gitm="git multi"
+alias gitms="git multi-sh"
+alias gmd="git multi diff"
+alias gmdc="git multi diff --cached"
+alias gms="git multi status"
+alias gma="git multi add"
+alias gmc="git multi commit"
+alias gmp="git multi push"
+alias gmu="git multi up"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
 
