@@ -105,7 +105,6 @@ helm
 highway
 htop
 hwloc
-icu4c@77
 icu4c@78
 imagemagick
 imath
@@ -138,6 +137,7 @@ libdeflate
 libdv
 libevent
 libexif
+libffi
 libgcrypt
 libgit2
 libgpg-error
@@ -271,6 +271,8 @@ pinentry
 pixman
 pkcs11-tools
 pkgconf
+playwright-cli
+playwright-mcp
 pnpm
 poppler
 popt
@@ -307,8 +309,6 @@ rsync
 rubberband
 ruby
 ruby-build
-rust
-rustup
 scala
 scala-cli
 sdl2

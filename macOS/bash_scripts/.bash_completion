@@ -8,6 +8,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 complete -F _ssh tssh
+complete -F _ssh hari
 
 source ~/bash_scripts/custom_completion/.git_commands
 

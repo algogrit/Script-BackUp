@@ -1154,7 +1154,6 @@ httpd
 httpd-wrapper
 httpserv
 httxt2dbm
-hub-tool
 huggingface-cli
 hwloc-annotate
 hwloc-bind
@@ -2030,6 +2029,9 @@ pl
 pl2pm
 pl2pm5.34
 play
+playwright
+playwright-cli
+playwright-mcp
 plistutil
 plockstat
 plotframes
@@ -2140,6 +2142,7 @@ ptardiff5.34
 ptargrep
 ptargrep5.34
 ptx
+puppeteer
 purge
 pv
 pwd
