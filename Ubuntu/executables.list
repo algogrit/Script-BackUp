@@ -123,6 +123,8 @@ argdist-bpfcc
 arm2hpdl
 arp
 arpd
+arp-fingerprint
+arp-scan
 arptables
 arptables-nft
 arptables-nft-restore
@@ -317,6 +319,7 @@ clang++
 clang++-18
 clang-18
 clang-cpp-18
+claude
 clear
 clear_console
 clippy-driver
@@ -452,6 +455,7 @@ dh_bash-completion
 dhcpcd
 dh_girepository
 dh_installxmlcatalogs
+dh_libva
 dh_perl_openssl
 diff
 diff3
@@ -778,8 +782,10 @@ getent
 getfacl
 gethostlatency-bpfcc
 gethostlatency.bt
+get-iab
 getkeycodes
 getopt
+get-oui
 getpcaps
 get-quirk-options
 getsubids
@@ -2620,6 +2626,7 @@ v4l2-ctl
 v4l2-dbg
 v4l2loopback-ctl
 v4l2-sysfs-path
+vainfo
 validlocale
 varlinkctl
 vcs-run

@@ -9,6 +9,7 @@ apt
 apt-config-icons-hidpi
 apt-transport-https
 apt-utils
+arp-scan
 at-spi2-core
 autoconf
 automake
@@ -151,6 +152,7 @@ libchewing3
 libchewing3-data
 libclang-dev
 libdb-dev
+libdrm-dev
 libegl1
 libffi-dev
 libfuse2t64
@@ -210,6 +212,7 @@ libswresample-dev
 libswscale-dev
 libtool
 libu2f-udev
+libva-dev
 libvirt-clients
 libvirt-daemon-system
 libwayland-dev
@@ -321,6 +324,7 @@ uidmap
 unzip
 v4l2loopback-dkms
 v4l2loopback-utils
+vainfo
 vim
 vim-tiny
 virt-manager
