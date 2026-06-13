@@ -128,7 +128,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-6.0.0
+6.0.1
 ==> macOS
 15.7.4
 ==> SIP
@@ -138,7 +138,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7708 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7705 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -186,4 +186,4 @@ Untap them with:
 To disable trust checks:
   export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
 This is not recommended and will be removed in a later release.
-384 kegs, 222,690 files, 10.7GB
+384 kegs, 222,689 files, 10.7GB
