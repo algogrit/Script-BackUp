@@ -395,8 +395,8 @@
             "id": "macos-avcapture",
             "versioned_id": "macos-avcapture",
             "settings": {
-                "device": "47B4B64B-7067-4B9C-AD2B-AE273A71F4B5",
-                "device_name": "FaceTime HD Camera"
+                "device_name": "FaceTime HD Camera",
+                "device": "47B4B64B-7067-4B9C-AD2B-AE273A71F4B5"
             },
             "mixers": 255,
             "sync": 0,
@@ -1077,8 +1077,8 @@
             "name": "Audio Only"
         }
     ],
-    "current_scene": "Scene 2",
-    "current_program_scene": "Scene 2",
+    "current_scene": "Scene",
+    "current_program_scene": "Scene",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 100,

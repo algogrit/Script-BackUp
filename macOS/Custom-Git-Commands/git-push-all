@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [ "${1:-}" = "-h" ]; then
+  printf '%s\n' 'Usage: git push-all'
+  exit 0
+fi
+
+if [ "$#" -ne 0 ]; then
+  printf '%s\n' 'Usage: git push-all' >&2
+  exit 2
+fi
+
+root=$(git rev-parse --show-toplevel)
+
+if [ ! -d "$root/apps" ]; then
+  printf '%s\n' "git push-all: expected apps/ under $root" >&2
+  exit 1
+fi
+
+(
+  cd "$root"
+  git multi push
+)

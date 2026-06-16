@@ -1,9 +1,11 @@
 #! /usr/bin/env sh
 
 echo "Comamnds:
+  add-all               - Stage changed files in the current repo and app repositories
   add-nw                -
   auto-push             -
   catchup               - Show log of commits only in remote repo
+  commit-all            - Commit staged changes in the current repo and app repositories
   latest                -
   ls-conflicted         -
   ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
@@ -15,6 +17,8 @@ echo "Comamnds:
   new-commits           - Show log of commits not yet pushed
   nuke                  - Removes the branch from local and also deletes from remote origin
   pristine              - Hard cleans the repository (think fresh clone)
+  pull-all              - Pull/rebase the current repo and app repositories
+  push-all              - Push the current repo and app repositories
   swamp                 - List the latest commit's timestamp for each remote branch
   up                    -
   wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)"

@@ -10,3 +10,4 @@
 alias qwen25-aider='aider --model ollama/qwen2.5-coder:32b --auto-commits'
 
 alias codex='codex --sandbox workspace-write'
+alias claude='claude --enable-auto-mode'

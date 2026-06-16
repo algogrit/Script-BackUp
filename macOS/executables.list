@@ -136,6 +136,10 @@ avifgainmaputil
 aviocat
 avmediainfo
 avmetareadwrite
+avroappend
+avrocat
+avromod
+avropipe
 awk
 aws
 aws_completer
@@ -827,6 +831,7 @@ gio
 gio-querymodules
 git
 git-abort
+git-add-all
 git-add-nw
 git-alias
 git-archive-file
@@ -841,6 +846,7 @@ git-changelog
 git-clear
 git-clear-soft
 git-coauthor
+git-commit-all
 git-commits-since
 git-continue
 git-contrib
@@ -892,7 +898,9 @@ git-paste
 git-pr
 git-pristine
 git-psykorebase
+git-pull-all
 git-pull-request
+git-push-all
 git-reauthor
 git-rebase-patch
 git-receive-pack
@@ -1335,6 +1343,8 @@ jrunscript
 jshell
 json_pp
 json_pp5.34
+json_reformat
+json_verify
 json_xs
 json_xs5.34
 jsonschema
@@ -1347,6 +1357,7 @@ kadmin
 kadmin.local
 karabiner_cli
 kbxutil
+kcat
 kcc
 kcditto
 kdcsetup
@@ -1481,7 +1492,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1780076327
+luajit-2.1.1781341259
 luit
 lwp-download
 lwp-download5.34
@@ -2659,6 +2670,7 @@ tcpdump
 tcsh
 tee
 telnet
+temporal
 terraform
 tesseract
 test
@@ -2958,6 +2970,7 @@ wrjpgcom
 wrk
 wsdl
 wsdl2
+wsdump
 wx-config-3.2
 wxrc-3.2
 X

@@ -15,6 +15,7 @@ audiowaveform
 auto-editor
 autoconf
 autoenv
+avro-c
 awscli
 bash
 bash-completion
@@ -110,6 +111,7 @@ imagemagick
 imath
 imlib2
 isl
+jansson
 jbig2dec
 jenv
 jj
@@ -117,6 +119,7 @@ jpeg-turbo
 jpeg-xl
 jq
 jsoncpp
+kcat
 kind
 krb5
 lame
@@ -165,9 +168,11 @@ libplist
 libpng
 libptytty
 libraw
+librdkafka
 librist
 libsamplerate
 libscrypt
+libserdes
 libsndfile
 libsodium
 libsoxr
@@ -207,6 +212,7 @@ lua
 luajit
 luv
 lz4
+lzlib
 lzo
 m4
 mad
@@ -330,6 +336,7 @@ svt-av1
 tbb
 tcl-tk
 telnet
+temporal
 terraform
 tesseract
 the_silver_searcher
@@ -374,6 +381,7 @@ xorgproto
 xvid
 xxhash
 xz
+yajl
 yq
 yt-dlp
 yyjson
