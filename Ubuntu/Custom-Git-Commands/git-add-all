@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [ "${1:-}" = "-h" ]; then
+  printf '%s\n' 'Usage: git add-all'
+  exit 0
+fi
+
+if [ "$#" -ne 0 ]; then
+  printf '%s\n' 'Usage: git add-all' >&2
+  exit 2
+fi
+
+root=$(git rev-parse --show-toplevel)
+
+if [ ! -d "$root/apps" ]; then
+  printf '%s\n' "git add-all: expected apps/ under $root" >&2
+  exit 1
+fi
+
+add_repo() {
+  local path=$1
+  local existing
+
+  for existing in "${repo_paths[@]}"; do
+    if [ "$existing" = "$path" ]; then
+      return
+    fi
+  done
+
+  repo_paths+=("$path")
+}
+
+repo_paths=()
+
+if [ -f "$root/.gitmodules" ]; then
+  while read -r _ path; do
+    [ -n "$path" ] || continue
+    case "$path" in
+      apps/*)
+        [ -e "$root/$path" ] && add_repo "$root/$path"
+        ;;
+    esac
+  done < <(git config --file "$root/.gitmodules" --get-regexp '^submodule\..*\.path$' 2>/dev/null || true)
+fi
+
+while read -r repo; do
+  [ -n "$repo" ] || continue
+  add_repo "$root/apps/$repo"
+done < <(
+  cd "$root/apps"
+  find . -mindepth 2 -maxdepth 2 \( -type d -name .git -o -type f -name .git \) | cut -d / -f 2 | sort
+)
+
+for repo_path in "${repo_paths[@]}"; do
+  git -C "$repo_path" add -A
+done
+
+git -C "$root" add -A

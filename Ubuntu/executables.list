@@ -812,10 +812,13 @@ g-ir-inspect
 g-ir-scanner
 git
 git2
+git-add-all
 git-add-nw
 git-auto-push
 git-catchup
+git-commit-all
 git-custom-help
+git-deploy-to-sandbox
 git-latest
 git-ls-conflicted
 git-ls-modified
@@ -826,6 +829,8 @@ git-multi-sh
 git-new-commits
 git-nuke
 git-pristine
+git-pull-all
+git-push-all
 git-receive-pack
 git-shell
 git-swamp

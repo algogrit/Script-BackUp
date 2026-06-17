@@ -1,0 +1,115 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  printf '%s\n' 'Usage: git commit-all [-a] "commit message"'
+  printf '%s\n' '       git commit-all [-a] -m "commit message"'
+}
+
+if [ "$#" -eq 0 ]; then
+  usage >&2
+  exit 2
+fi
+
+case "${1:-}" in
+  -h|--help)
+    usage
+    exit 0
+    ;;
+esac
+
+commit_args=()
+if [ "${1:-}" = "-a" ] || [ "${1:-}" = "--all" ]; then
+  commit_args=(-a)
+  shift
+fi
+
+case "${1:-}" in
+  -m|--message)
+    shift
+    if [ "$#" -eq 0 ]; then
+      usage >&2
+      exit 2
+    fi
+    message=$1
+    shift
+    ;;
+  *)
+    message=$1
+    shift
+    ;;
+esac
+
+if [ "$#" -ne 0 ] || [ -z "$message" ]; then
+  usage >&2
+  exit 2
+fi
+
+root=$(git rev-parse --show-toplevel)
+
+if [ ! -d "$root/apps" ]; then
+  printf '%s\n' "git commit-all: expected apps/ under $root" >&2
+  exit 1
+fi
+
+add_repo() {
+  local path=$1
+  local display=$2
+  local existing
+
+  for existing in "${repo_paths[@]}"; do
+    if [ "$existing" = "$path" ]; then
+      return
+    fi
+  done
+
+  repo_paths+=("$path")
+  repo_names+=("$display")
+}
+
+has_committable_changes() {
+  repo=$1
+  if [ "${#commit_args[@]}" -gt 0 ]; then
+    ! git -C "$repo" diff-index --quiet HEAD --
+  else
+    ! git -C "$repo" diff --cached --quiet
+  fi
+}
+
+repo_paths=()
+repo_names=()
+
+if [ -f "$root/.gitmodules" ]; then
+  while read -r _ path; do
+    [ -n "$path" ] || continue
+    case "$path" in
+      apps/*)
+        [ -e "$root/$path" ] && add_repo "$root/$path" "$path"
+        ;;
+    esac
+  done < <(git config --file "$root/.gitmodules" --get-regexp '^submodule\..*\.path$' 2>/dev/null || true)
+fi
+
+while read -r repo; do
+  [ -n "$repo" ] || continue
+  add_repo "$root/apps/$repo" "apps/$repo"
+done < <(
+  cd "$root/apps"
+  find . -mindepth 2 -maxdepth 2 \( -type d -name .git -o -type f -name .git \) | cut -d / -f 2 | sort
+)
+
+for i in "${!repo_paths[@]}"; do
+  repo_path=${repo_paths[$i]}
+  repo_name=${repo_names[$i]}
+  if has_committable_changes "$repo_path"; then
+    git -C "$repo_path" commit "${commit_args[@]}" -m "$message"
+  else
+    printf '%s\n' "$repo_name: no changes to commit"
+  fi
+done
+
+if has_committable_changes "$root"; then
+  git -C "$root" commit "${commit_args[@]}" -m "$message"
+else
+  printf '%s\n' 'infra: no changes to commit'
+fi
