@@ -71,7 +71,6 @@ fzf
 gcc
 gd
 gdk-pixbuf
-gemini-cli
 gettext
 gflags
 gh
@@ -107,6 +106,7 @@ highway
 htop
 hwloc
 icu4c@78
+ideviceinstaller
 imagemagick
 imath
 imlib2
@@ -202,6 +202,7 @@ libxext
 libxrender
 libyaml
 libzen
+libzip
 little-cms2
 llhttp
 llmfit
@@ -317,8 +318,9 @@ ruby
 ruby-build
 scala
 scala-cli
-sdl2
+sdl2-compat
 sdl2_image
+sdl3
 shaderc
 simdjson
 simdutf
