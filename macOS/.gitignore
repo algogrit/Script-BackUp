@@ -9,7 +9,6 @@
 
 .powder
 .DS_Store
-.vscode
 project-resources
 git-bisect-run.sh
 

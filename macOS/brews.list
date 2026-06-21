@@ -40,6 +40,7 @@ colordiff
 colortail
 coreutils
 cryptography
+csvkit
 curl
 dav1d
 dbus
