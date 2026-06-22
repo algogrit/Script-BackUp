@@ -36,10 +36,10 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/stackprof-0.2.28
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/spoom-1.7.16/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/thor-1.5.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13284/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13284/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13284-universal-darwin/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-cobertura-3.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13296/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13296/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13296-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-cobertura-3.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-0.22.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov_json_formatter-0.1.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-html-0.13.2/lib
@@ -49,7 +49,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-macho-5.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-lsp-0.26.9/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-sorbet-0.12.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-rspec-3.9.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-rspec-3.10.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-performance-1.26.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-md-2.0.4/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-1.87.0/lib
@@ -59,7 +59,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-ast-1.49.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-sorbet-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13284/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13296/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-github-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-3.13.2/lib
@@ -70,9 +70,9 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/require-hooks-0.4.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/redcarpet-3.6.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/redcarpet-3.6.1
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rbi-0.3.12/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rbs-4.0.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/rbs-4.0.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rbi-0.3.13/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rbs-4.0.3/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/rbs-4.0.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/tsort-0.2.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rainbow-3.1.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/pycall-1.5.2/lib
@@ -111,7 +111,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/docile-1.4.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/diff-lcs-1.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/csv-3.3.5/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.6/lib/concurrent-ruby
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.7/lib/concurrent-ruby
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/coderay-1.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bindata-2.5.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bigdecimal-4.1.2/lib
@@ -128,7 +128,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-6.0.2
+6.0.3
 ==> macOS
 15.7.4
 ==> SIP
@@ -172,18 +172,21 @@ Warning: The following taps are not trusted:
   hashicorp/tap
 
 Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
-Trust specific formulae, casks or commands with:
-  brew trust --formula <user>/<tap>/<formula>
-  brew trust --cask <user>/<tap>/<cask>
-  brew trust --command <user>/<tap>/<command>
-or trust installed formulae from these taps with:
-  brew trust --formula hashicorp/tap/terraform
-You can trust all formulae, casks and commands from these taps with:
-  brew trust gcenx/wine hashicorp/tap
 Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula hashicorp/tap/terraform
+Trust installed casks from these taps with:
+  brew trust --cask gcenx/wine/wine-crossover
+Trust other specific commands with:
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust gcenx/wine hashicorp/tap
 Untap them with:
   brew untap gcenx/wine hashicorp/tap
 To disable trust checks:
   export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
 This is not recommended and will be removed in a later release.
-395 kegs, 225,064 files, 11.3GB
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+395 kegs, 225,364 files, 11.3GB
