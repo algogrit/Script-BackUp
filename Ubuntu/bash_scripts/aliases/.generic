@@ -12,6 +12,7 @@ alias cat="batcat"
 
 # Rsync with Progress
 alias rsyncP='rsync -avhP'
+alias rsyncGVFS='rsync --recursive --times --human-readable --progress --inplace'
 
 # Tree improvements
 alias tree-gi='git ls-tree -r --name-only HEAD | tree --fromfile'
@@ -30,6 +31,7 @@ alias gms="git multi status"
 alias gma="git multi add"
 alias gmc="git multi commit"
 alias gmp="git multi push"
+alias gmr="git multi remote update"
 alias gmu="git multi up"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"

@@ -256,6 +256,7 @@ openssh-client
 openssl
 ovmf
 packagekit
+passt
 passwd
 pavucontrol
 pcmciautils
@@ -344,8 +345,10 @@ xdg-desktop-portal-gnome
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xdotool
 xkb-data
 xorg
+xvfb
 yaru-theme-gnome-shell
 yaru-theme-gtk
 yaru-theme-icon
