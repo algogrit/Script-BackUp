@@ -864,6 +864,7 @@ git-ls-conflicted
 git-ls-modified
 git-ls-new
 git-ls-untracked
+git-merge-to
 git-multi
 git-multi-sh
 git-new-commits
