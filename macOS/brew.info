@@ -138,7 +138,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7725 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7723 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -189,4 +189,4 @@ To disable trust checks:
 This is not recommended and will be removed in a later release.
 For more information, see:
   https://docs.brew.sh/Tap-Trust
-395 kegs, 225,364 files, 11.3GB
+395 kegs, 225,072 files, 11.3GB

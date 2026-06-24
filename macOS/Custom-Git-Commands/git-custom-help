@@ -11,6 +11,7 @@ echo "Comamnds:
   ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
   ls-new                -
   ls-untracked          - Lists all the untracked files in the repo (or) the director(y|ies) specified
+  merge-to              - Merge the current clean branch into a target branch and check it out
   multi                 - See 'git multi help'
     `git multi help`
   multi-sh              -

@@ -899,6 +899,7 @@ git-ls-untracked
 git-magic
 git-merge-into
 git-merge-repo
+git-merge-to
 git-missing
 git-mr
 git-multi

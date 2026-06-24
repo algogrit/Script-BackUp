@@ -1,0 +1,43 @@
+#! /usr/bin/env sh
+
+TARGET_BRANCH=$1
+
+if [ -z "$TARGET_BRANCH" ]; then
+  echo "Usage: git merge-to <branch>" >&2
+  exit 1
+fi
+
+if [ "$#" -ne 1 ]; then
+  echo "Usage: git merge-to <branch>" >&2
+  exit 1
+fi
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  echo "Not inside a Git worktree." >&2
+  exit 1
+fi
+
+CURRENT_BRANCH=$(git symbolic-ref --quiet --short HEAD)
+
+if [ -z "$CURRENT_BRANCH" ]; then
+  echo "Cannot merge from a detached HEAD." >&2
+  exit 1
+fi
+
+if [ "$CURRENT_BRANCH" = "$TARGET_BRANCH" ]; then
+  echo "Already on $TARGET_BRANCH."
+  exit 0
+fi
+
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Working tree is not clean. Commit, stash, or remove changes before merging." >&2
+  exit 1
+fi
+
+if ! git show-ref --verify --quiet "refs/heads/$TARGET_BRANCH"; then
+  echo "Local branch '$TARGET_BRANCH' does not exist." >&2
+  exit 1
+fi
+
+git checkout "$TARGET_BRANCH" || exit 1
+git merge "$CURRENT_BRANCH"
