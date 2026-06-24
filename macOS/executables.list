@@ -1235,6 +1235,8 @@ ikdasm
 ilasm
 illinkanalyzer
 imagetops
+img2pdf
+img2pdf-gui
 img2txt
 img2webp
 imgcat

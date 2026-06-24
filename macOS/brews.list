@@ -110,6 +110,7 @@ icu4c@78
 ideviceinstaller
 imagemagick
 imath
+img2pdf
 imlib2
 isl
 jansson
@@ -150,6 +151,7 @@ libheif
 libid3tag
 libidn
 libidn2
+libimagequant
 libimobiledevice
 libimobiledevice-glue
 libksba
@@ -168,6 +170,7 @@ libplacebo
 libplist
 libpng
 libptytty
+libraqm
 libraw
 librdkafka
 librist
@@ -275,6 +278,7 @@ p7zip
 pango
 pcre
 pcre2
+pillow
 pinentry
 pixman
 pkcs11-tools

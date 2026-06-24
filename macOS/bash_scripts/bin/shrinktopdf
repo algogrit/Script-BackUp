@@ -2,9 +2,10 @@
 set -e
 
 # Defaults
-max_size=$((2 * 1024 * 1024))   # 2 MiB
-resize="612x800"
-quality=55
+max_mb=2                          # 2 MiB
+max_size=$((2 * 1024 * 1024))   # 2 MiB in bytes
+resize=""                         # empty = keep native resolution
+quality=100
 min_quality=20
 out="out.pdf"
 no_convert=0
@@ -21,9 +22,8 @@ Modes:
 
 Options:
   -o <file>        Output PDF (default: out.pdf)
-  -s <bytes>       Max PDF size (default: 2097152 = 2MiB)
-  -r <WxH>         Resize (default: 612x800)
-  -q <num>         Starting quality (default: 55)
+  -s <MB>          Max PDF size in MB, decimals OK (default: 2)
+  -r <WxH>         Resize/downscale pages (default: keep native resolution)
   -m <num>         Minimum quality (default: 20)
   -N, --no-convert Do not convert/resize/compress images; merge them as-is (Recover using: 'pdfimages -all out.pdf extracted')
   -h, --help       Show help
@@ -40,11 +40,11 @@ while [[ $# -gt 0 ]]; do
         -o)
             out="$2"; shift 2 ;;
         -s)
-            max_size="$2"; shift 2 ;;
+            max_mb="$2"
+            max_size=$(awk "BEGIN{printf \"%d\", $max_mb * 1024 * 1024}")
+            shift 2 ;;
         -r)
             resize="$2"; shift 2 ;;
-        -q)
-            quality="$2"; shift 2 ;;
         -m)
             min_quality="$2"; shift 2 ;;
         -N|--no-convert)
@@ -86,37 +86,59 @@ fi
 tmpdir=$(mktemp -d)
 trap "rm -rf $tmpdir" EXIT
 
-try_quality=$quality
+# Only resize when the user asked for it (constant across builds)
+resize_args=()
+[[ -n "$resize" ]] && resize_args=(-resize "$resize")
 
-while :; do
+# Build the PDF at a given quality; echoes the resulting size in bytes.
+build_pdf() {
+    local q=$1
     rm -f "$out"
 
     # Convert inputs → JPEGs
     for f in "${inputs[@]}"; do
         base=$(basename "$f")
         base="${base%.*}"
-
-        magick "$f" -resize "$resize" -quality "$try_quality" \
-            "$tmpdir/$base.jpg"
+        magick "$f" "${resize_args[@]}" -quality "$q" "$tmpdir/$base.jpg"
     done
 
-    # Create PDF
-    magick -density 72 "$tmpdir"/*.jpg \
-        -compress JPEG -quality "$try_quality" "$out"
+    # Create PDF — let each page keep its own resolution/density so
+    # full-res scans stay sharp and physically letter-sized.
+    magick "$tmpdir"/*.jpg -compress JPEG -quality "$q" "$out"
 
-    # Size check
-    size=$(stat -c%s "$out" 2>/dev/null || stat -f%z "$out")
+    stat -c%s "$out" 2>/dev/null || stat -f%z "$out"
+}
+
+# Binary-search the highest quality that fits under max_size.
+lo=$min_quality
+hi=$quality
+best_q=-1
+best_size=0
+last_q=-1
+
+while [[ $lo -le $hi ]]; do
+    mid=$(( (lo + hi) / 2 ))
+    size=$(build_pdf "$mid")
+    last_q=$mid
 
     if [[ "$size" -lt "$max_size" ]]; then
-        echo "✔ Success: $out is $((size/1024)) KiB (quality=$try_quality)"
-        exit 0
-    fi
-
-    echo "PDF too large ($((size/1024)) KiB). Lowering quality..."
-
-    try_quality=$((try_quality - 5))
-    if [[ "$try_quality" -lt "$min_quality" ]]; then
-        echo "✘ Could not shrink under $max_size bytes even at minimum quality."
-        exit 1
+        best_q=$mid; best_size=$size
+        echo "quality=$mid → $((size/1024)) KiB ✓ fits (trying higher)"
+        lo=$(( mid + 1 ))
+    else
+        echo "quality=$mid → $((size/1024)) KiB ✗ too large (trying lower)"
+        hi=$(( mid - 1 ))
     fi
 done
+
+if [[ $best_q -lt 0 ]]; then
+    echo "✘ Could not shrink under ${max_mb} MB even at minimum quality."
+    exit 1
+fi
+
+# The last build may have been a failing higher quality — rebuild the winner.
+if [[ $last_q -ne $best_q ]]; then
+    best_size=$(build_pdf "$best_q")
+fi
+echo "✔ Success: $out is $((best_size/1024)) KiB (quality=$best_q)"
+exit 0
