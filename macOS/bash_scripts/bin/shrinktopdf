@@ -4,9 +4,12 @@ set -e
 # Defaults
 max_mb=2                          # 2 MiB
 max_size=$((2 * 1024 * 1024))   # 2 MiB in bytes
-resize=""                         # empty = keep native resolution
-quality=100
-min_quality=20
+resize=""                         # explicit WxH; empty = auto resolution
+quality=100                       # starting (max) JPEG quality
+min_quality=20                    # quality floor (%)
+min_scale=50                      # resolution floor (%) for auto downscale
+scale_step=10                     # auto downscale step (%)
+gray_mode="off"                   # off (color, default) | on (grayscale, opt-in)
 out="out.pdf"
 no_convert=0
 
@@ -17,16 +20,25 @@ shrinktopdf - Convert or combine images into a PDF under a target size
 Usage: shrinktopdf [options] files...
 
 Modes:
-  Default: convert + compress + shrink to target size.
+  Default: inspect the input, choose a minimum useful JPEG quality for its
+           content, then preserve as much resolution as that quality permits.
+           Use -g/--gray to convert to grayscale instead.
   -N, --no-convert: merge images AS-IS (no resize/quality/conversion).
 
 Options:
   -o <file>        Output PDF (default: out.pdf)
   -s <MB>          Max PDF size in MB, decimals OK (default: 2)
-  -r <WxH>         Resize/downscale pages (default: keep native resolution)
-  -m <num>         Minimum quality (default: 20)
-  -N, --no-convert Do not convert/resize/compress images; merge them as-is (Recover using: 'pdfimages -all out.pdf extracted')
+  -r <WxH>         Fixed resize (disables auto resolution stepping)
+  -m <pct>         Minimum JPEG quality % (default: 20)
+  --min-scale <pct> Resolution floor % for auto downscale (default: 50)
+  --scale-step <pct> Resolution decrement while searching (default: 10)
+  -g, --gray       Convert to grayscale (default: keep color)
+  -c, --color      Keep color (default)
+  -N, --no-convert Merge images as-is (Recover using: 'pdfimages -all out.pdf extracted')
   -h, --help       Show help
+
+Typical document scans target JPEG quality >=55; photographic images target
+quality >=70. Resolution is reduced before crossing that content-aware floor.
 
 You may place options anywhere, even after filenames.
 EOF
@@ -47,6 +59,14 @@ while [[ $# -gt 0 ]]; do
             resize="$2"; shift 2 ;;
         -m)
             min_quality="$2"; shift 2 ;;
+        --min-scale)
+            min_scale="$2"; shift 2 ;;
+        --scale-step)
+            scale_step="$2"; shift 2 ;;
+        -c|--color)
+            gray_mode="off"; shift ;;
+        -g|--gray)
+            gray_mode="on"; shift ;;
         -N|--no-convert)
             no_convert=1; shift ;;
         -h|--help)
@@ -82,63 +102,179 @@ if [[ $no_convert -eq 1 ]]; then
     exit 0
 fi
 
-# Shrink mode
-tmpdir=$(mktemp -d)
-trap "rm -rf $tmpdir" EXIT
-
-# Only resize when the user asked for it (constant across builds)
-resize_args=()
-[[ -n "$resize" ]] && resize_args=(-resize "$resize")
-
-# Build the PDF at a given quality; echoes the resulting size in bytes.
+# Build the PDF at a given quality / resolution-scale / grayscale setting.
+# Args: <quality> <scale-spec or ""> <gray 0|1>   Echoes resulting size in bytes.
 build_pdf() {
-    local q=$1
+    local q=$1 scale=$2 gray=$3
     rm -f "$out"
 
-    # Convert inputs → JPEGs
-    for f in "${inputs[@]}"; do
-        base=$(basename "$f")
-        base="${base%.*}"
-        magick "$f" "${resize_args[@]}" -quality "$q" "$tmpdir/$base.jpg"
-    done
+    local pre=()
+    [[ "$gray" == "1" ]] && pre+=(-colorspace Gray)
+    if [[ -n "$scale" ]]; then
+        pre+=(-resize "$scale")
+        if [[ "$scale" == *% ]]; then
+            local pct=${scale%%%}
+            # Keep the original paper dimensions: fewer pixels should mean
+            # lower effective DPI, not a physically smaller PDF page.
+            pre+=(-set density \
+                "%[fx:resolution.x*$pct/100]x%[fx:resolution.y*$pct/100]")
+        fi
+    fi
 
-    # Create PDF — let each page keep its own resolution/density so
-    # full-res scans stay sharp and physically letter-sized.
-    magick "$tmpdir"/*.jpg -compress JPEG -quality "$q" "$out"
+    # Write directly to PDF. The previous JPEG-intermediate pipeline encoded
+    # every page twice, adding artifacts and roughly doubling conversion work.
+    magick "${inputs[@]}" "${pre[@]}" -compress JPEG -quality "$q" "$out"
 
     stat -c%s "$out" 2>/dev/null || stat -f%z "$out"
 }
 
-# Binary-search the highest quality that fits under max_size.
-lo=$min_quality
-hi=$quality
-best_q=-1
-best_size=0
-last_q=-1
+# Human label for a rung.
+rung_desc() {
+    local g=$1 scale=$2 parts
+    [[ "$g" == "1" ]] && parts="grayscale" || parts="color"
+    [[ -n "$scale" ]] && parts="$parts, $scale"
+    echo "$parts"
+}
 
-while [[ $lo -le $hi ]]; do
-    mid=$(( (lo + hi) / 2 ))
-    size=$(build_pdf "$mid")
-    last_q=$mid
+# Infer whether these are mostly-white, low-entropy document pages or
+# photographic images. Sampling at 12.5% keeps this analysis cheap.
+profile="photo"
+profile_quality=70
+if [[ -z "$resize" ]]; then
+    stats=$(magick "${inputs[@]}" -resize 12.5% -colorspace Gray \
+        -format '%[fx:mean] %[entropy]\n' info:)
+    read -r mean entropy <<< "$(awk '
+        NF >= 2 { mean += $1; entropy += $2; n++ }
+        END {
+            if (n) printf "%.6f %.6f", mean/n, entropy/n
+            else print "0 1"
+        }
+    ' <<< "$stats")"
 
-    if [[ "$size" -lt "$max_size" ]]; then
-        best_q=$mid; best_size=$size
-        echo "quality=$mid → $((size/1024)) KiB ✓ fits (trying higher)"
-        lo=$(( mid + 1 ))
-    else
-        echo "quality=$mid → $((size/1024)) KiB ✗ too large (trying lower)"
-        hi=$(( mid - 1 ))
+    if awk "BEGIN { exit !($mean >= 0.72 && $entropy <= 0.65) }"; then
+        profile="document"
+        profile_quality=55
     fi
+fi
+
+# -m remains an absolute floor and can also raise the profile preference.
+search_quality=$profile_quality
+[[ -n "$resize" ]] && search_quality=$min_quality
+[[ $min_quality -gt $search_quality ]] && search_quality=$min_quality
+[[ $search_quality -gt $quality ]] && search_quality=$quality
+
+# Report density when the source provides it. It explains the selected
+# document tradeoff without making density metadata mandatory.
+density=$(magick identify -format '%x\n' "${inputs[0]}" 2>/dev/null |
+    awk 'NR == 1 { printf "%.0f", $1 }')
+if [[ -n "$resize" ]]; then
+    echo "Input analysis: fixed resize requested; quality floor=$min_quality"
+elif [[ "$profile" == "document" ]]; then
+    if [[ -n "$density" && "$density" -gt 0 ]]; then
+        echo "Input analysis: document scan, ${density} DPI; preferring quality≥$search_quality"
+    else
+        echo "Input analysis: document scan; preferring quality≥$search_quality"
+    fi
+else
+    echo "Input analysis: photographic/mixed content; preferring quality≥$search_quality"
+fi
+
+# Build the ordered resolution ladder of "<gray> <scale>" rungs, highest first.
+rungs=()
+# g = 1 for grayscale, 0 for color (default)
+[[ "$gray_mode" == "off" ]] && g=0 || g=1
+
+if [[ -n "$resize" ]]; then
+    # Explicit resize: no auto resolution stepping.
+    rungs=( "$g $resize" )
+else
+    # Auto resolution: 100% down to the floor in scale_step increments.
+    scales=(100)
+    s=$(( 100 - scale_step ))
+    while [[ $s -ge $min_scale ]]; do scales+=( "$s" ); s=$(( s - scale_step )); done
+    for sc in "${scales[@]}"; do rungs+=( "$g ${sc}%" ); done
+fi
+
+# First preserve the content-aware quality floor while walking down resolution.
+# Once a resolution fits, maximize quality there. Only cross the preferred
+# quality floor if even the minimum resolution cannot meet the size target.
+best_size=0
+best_q=-1
+
+for rung in "${rungs[@]}"; do
+    read -r g scale <<< "$rung"
+    desc=$(rung_desc "$g" "$scale")
+    floor_size=$(build_pdf "$search_quality" "$scale" "$g")
+    if [[ "$floor_size" -gt "$max_size" ]]; then
+        echo "[$desc, q=$search_quality] → $((floor_size/1024)) KiB ✗ too large (lowering resolution)"
+        continue
+    fi
+
+    echo "[$desc, q=$search_quality] → $((floor_size/1024)) KiB ✓ fits (optimizing quality)"
+    lo=$(( search_quality + 1 ))
+    hi=$quality
+    best_q=$search_quality
+    best_size=$floor_size
+    last_q=$search_quality
+
+    while [[ $lo -le $hi ]]; do
+        mid=$(( (lo + hi) / 2 ))
+        size=$(build_pdf "$mid" "$scale" "$g")
+        last_q=$mid
+        if [[ "$size" -le "$max_size" ]]; then
+            best_q=$mid
+            best_size=$size
+            echo "[$desc, q=$mid] → $((size/1024)) KiB ✓ fits (trying higher)"
+            lo=$(( mid + 1 ))
+        else
+            echo "[$desc, q=$mid] → $((size/1024)) KiB ✗ too large (trying lower)"
+            hi=$(( mid - 1 ))
+        fi
+    done
+
+    # The last probe may have overwritten the output with a failing candidate.
+    if [[ $last_q -ne $best_q ]]; then
+        best_size=$(build_pdf "$best_q" "$scale" "$g")
+    fi
+    echo "✔ Success: $out is $((best_size/1024)) KiB — $desc at quality=$best_q"
+    exit 0
 done
 
-if [[ $best_q -lt 0 ]]; then
-    echo "✘ Could not shrink under ${max_mb} MB even at minimum quality."
-    exit 1
+# The preferred quality did not fit even at the resolution floor. Fall back to
+# the user-specified absolute quality floor on that final rung.
+desc=$(rung_desc "$g" "$scale")
+if [[ $search_quality -gt $min_quality ]]; then
+    echo "Preferred quality cannot meet the target; lowering quality on [$desc]..."
+    floor_size=$(build_pdf "$min_quality" "$scale" "$g")
+    if [[ "$floor_size" -le "$max_size" ]]; then
+        lo=$(( min_quality + 1 ))
+        hi=$(( search_quality - 1 ))
+        best_q=$min_quality
+        best_size=$floor_size
+        last_q=$min_quality
+
+        while [[ $lo -le $hi ]]; do
+            mid=$(( (lo + hi) / 2 ))
+            size=$(build_pdf "$mid" "$scale" "$g")
+            last_q=$mid
+            if [[ "$size" -le "$max_size" ]]; then
+                best_q=$mid
+                best_size=$size
+                echo "[$desc, q=$mid] → $((size/1024)) KiB ✓ fits (trying higher)"
+                lo=$(( mid + 1 ))
+            else
+                echo "[$desc, q=$mid] → $((size/1024)) KiB ✗ too large (trying lower)"
+                hi=$(( mid - 1 ))
+            fi
+        done
+
+        if [[ $last_q -ne $best_q ]]; then
+            best_size=$(build_pdf "$best_q" "$scale" "$g")
+        fi
+        echo "✔ Success: $out is $((best_size/1024)) KiB — $desc at quality=$best_q"
+        exit 0
+    fi
 fi
 
-# The last build may have been a failing higher quality — rebuild the winner.
-if [[ $last_q -ne $best_q ]]; then
-    best_size=$(build_pdf "$best_q")
-fi
-echo "✔ Success: $out is $((best_size/1024)) KiB (quality=$best_q)"
-exit 0
+echo "✘ Could not shrink under ${max_mb} MB even at $desc, quality=$min_quality."
+exit 1

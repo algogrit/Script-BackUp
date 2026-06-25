@@ -234,6 +234,7 @@ captoinfo
 captype
 cardos-tool
 cargo
+cargo-audit
 cargo-clippy
 cargo-fmt
 cargo-miri
@@ -2521,6 +2522,8 @@ slaptest
 sleep
 slencheck
 slogin
+smartctl
+smartd
 smbd
 smbdiagnose
 smbutil
@@ -2836,6 +2839,7 @@ unzstd
 update_dyld_shared_cache
 update_mcdp29xx
 update-hosts
+update-smart-drivedb
 uptime
 uri-encode
 usbcfwflasher

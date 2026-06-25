@@ -138,7 +138,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7724 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7725 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -166,27 +166,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   ruby
-
-Warning: The following taps are not trusted:
-  gcenx/wine
-  hashicorp/tap
-
-Homebrew is currently ignoring formulae, casks and commands from these taps because tap trust is required.
-Prefer trusting only the specific formulae, casks or commands you need.
-Trust installed formulae from these taps with:
-  brew trust --formula hashicorp/tap/terraform
-Trust installed casks from these taps with:
-  brew trust --cask gcenx/wine/wine-crossover
-Trust other specific commands with:
-  brew trust --command <user>/<tap>/<command>
-Whole-tap trust is broader and includes all current and future formulae,
-casks and commands from the listed taps. Trust whole taps with:
-  brew trust gcenx/wine hashicorp/tap
-Untap them with:
-  brew untap gcenx/wine hashicorp/tap
-To disable trust checks:
-  export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
-This is not recommended and will be removed in a later release.
-For more information, see:
-  https://docs.brew.sh/Tap-Trust
-399 kegs, 225,620 files, 11.3GB
+400 kegs, 225,956 files, 11.3GB

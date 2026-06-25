@@ -11,10 +11,10 @@ game-porting-toolkit
 hashicorp/tap: Installed
 Untrusted
 2 casks, 33 formulae
-/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (235 files, 1.8MB)
+/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (251 files, 1.9MB)
 From: https://github.com/hashicorp/homebrew-tap
-HEAD: d46abd1f85001e74db4943ec0d3301b43dfe6fa6
-last commit: 5 days ago
+HEAD: 8bb5373fd29a8f70aef380a50d282c1e75db0123
+last commit: 2 hours ago
 ==> Formulae
 terraform
 ==> Casks
