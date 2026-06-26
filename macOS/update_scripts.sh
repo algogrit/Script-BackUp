@@ -126,6 +126,49 @@ cp ~/Library/Application\ Support/Code/User/settings.json VSCode
 cp ~/Library/Application\ Support/Code/User/keybindings.json VSCode
 code --list-extensions > VSCode/extensions.list
 
+# Back up a curated set of macOS System Settings preference domains and iTerm2 prefs.
+# Edit the list below to change what is captured; restore_scripts.sh imports them back.
+echo "\033[1;31mBacking up macOS System Settings & iTerm2...\033[0m"
+mkdir -p SystemSettings iTerm2
+for domain in \
+  NSGlobalDomain \
+  com.apple.systempreferences \
+  com.apple.dock \
+  com.apple.WindowManager \
+  com.apple.spaces \
+  com.apple.finder \
+  com.apple.desktopservices \
+  com.apple.universalaccess \
+  com.apple.Accessibility \
+  com.apple.HIToolbox \
+  com.apple.symbolichotkeys \
+  com.apple.keyboardtype \
+  com.apple.TextInputMenu \
+  com.apple.AppleMultitouchTrackpad \
+  com.apple.driver.AppleBluetoothMultitouch.trackpad \
+  com.apple.AppleMultitouchMouse \
+  com.apple.driver.AppleBluetoothMultitouch.mouse \
+  com.apple.trackpad \
+  com.apple.sound.beep \
+  com.apple.controlcenter \
+  com.apple.menuextra.clock \
+  com.apple.menuextra.battery \
+  com.apple.screensaver \
+  com.apple.screencapture \
+  com.apple.SoftwareUpdate \
+  com.apple.print.PrintingPrefs \
+  com.apple.ActivityMonitor \
+  com.apple.LaunchServices \
+  com.apple.Terminal; do
+  if defaults export "$domain" - 2>/dev/null | plutil -convert xml1 -o "SystemSettings/$domain.plist" - 2>/dev/null; then
+    echo "  exported: $domain"
+  else
+    echo "  skipped (no prefs / unreadable, may need Full Disk Access): $domain"
+  fi
+done
+# iTerm2 prefs (use defaults export so cfprefsd's in-memory state is flushed)
+defaults export com.googlecode.iterm2 - | plutil -convert xml1 -o iTerm2/com.googlecode.iterm2.plist -
+
 # Copy files relative to root
 mkdir -p root
 mkdir -p root/etc

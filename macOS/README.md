@@ -5,8 +5,8 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
 ## Non-System files
 
 - This `README.md`.
-- `update_scripts.sh` - Use to backup the sytem to this folder.
-- `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations.
+- `update_scripts.sh` - Use to backup the sytem to this folder. Also snapshots a curated set of macOS System Settings preference domains (into `SystemSettings/`) and iTerm2 prefs (into `iTerm2/`); edit the domain list in the script to change what is captured.
+- `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations. Also imports the `SystemSettings/` domains and iTerm2 prefs back, and enables iTerm2's native custom-folder sync. Quit affected apps (especially iTerm2) before running.
 
 ## Checklist
 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AVDesktopPlaybackControlsControllerShowsDurationInsteadOfTimeRemainingDefaultsKey</key>
+	<true/>
+	<key>LastHeartbeatDateString.daily</key>
+	<string>2026-06-26T10:11:51Z</string>
+	<key>NSStatusItem Preferred Position Battery</key>
+	<real>229</real>
+	<key>NSStatusItem Preferred Position BentoBox</key>
+	<real>157</real>
+	<key>NSStatusItem Preferred Position Bluetooth</key>
+	<real>481</real>
+	<key>NSStatusItem Preferred Position FocusModes</key>
+	<real>336</real>
+	<key>NSStatusItem Preferred Position KeyboardBrightness</key>
+	<real>405</real>
+	<key>NSStatusItem Preferred Position NowPlaying</key>
+	<real>374</real>
+	<key>NSStatusItem Preferred Position ScreenMirroring</key>
+	<real>475</real>
+	<key>NSStatusItem Preferred Position Sound</key>
+	<real>443</real>
+	<key>NSStatusItem Preferred Position UserSwitcher</key>
+	<real>336</real>
+	<key>NSStatusItem Preferred Position WiFi</key>
+	<real>191</real>
+	<key>NSStatusItem Visible AudioVideoModule</key>
+	<false/>
+	<key>NSStatusItem Visible Battery</key>
+	<true/>
+	<key>NSStatusItem Visible BentoBox</key>
+	<true/>
+	<key>NSStatusItem Visible Bluetooth</key>
+	<true/>
+	<key>NSStatusItem Visible Clock</key>
+	<true/>
+	<key>NSStatusItem Visible FaceTime</key>
+	<false/>
+	<key>NSStatusItem Visible FocusModes</key>
+	<false/>
+	<key>NSStatusItem Visible Item-0</key>
+	<false/>
+	<key>NSStatusItem Visible Item-1</key>
+	<false/>
+	<key>NSStatusItem Visible Item-10</key>
+	<false/>
+	<key>NSStatusItem Visible Item-11</key>
+	<false/>
+	<key>NSStatusItem Visible Item-12</key>
+	<false/>
+	<key>NSStatusItem Visible Item-2</key>
+	<false/>
+	<key>NSStatusItem Visible Item-3</key>
+	<false/>
+	<key>NSStatusItem Visible Item-4</key>
+	<false/>
+	<key>NSStatusItem Visible Item-5</key>
+	<false/>
+	<key>NSStatusItem Visible Item-6</key>
+	<false/>
+	<key>NSStatusItem Visible Item-7</key>
+	<false/>
+	<key>NSStatusItem Visible Item-8</key>
+	<false/>
+	<key>NSStatusItem Visible Item-9</key>
+	<false/>
+	<key>NSStatusItem Visible KeyboardBrightness</key>
+	<true/>
+	<key>NSStatusItem Visible MusicRecognition</key>
+	<false/>
+	<key>NSStatusItem Visible NowPlaying</key>
+	<true/>
+	<key>NSStatusItem Visible ScreenMirroring</key>
+	<false/>
+	<key>NSStatusItem Visible Sound</key>
+	<true/>
+	<key>NSStatusItem Visible UserSwitcher</key>
+	<false/>
+	<key>NSStatusItem Visible WiFi</key>
+	<true/>
+</dict>
+</plist>

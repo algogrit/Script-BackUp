@@ -159,6 +159,27 @@ cp ~/Script-BackUp/macOS/VSCode/settings.json ~/Library/Application\ Support/Cod
 cp ~/Script-BackUp/macOS/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
 cat ~/Script-BackUp/macOS/VSCode/extensions.list | xargs -n 1 code --install-extension
 
+echo "\033[1;31mRestoring macOS System Settings & iTerm2...\033[0m"
+echo "  (Quit System Settings and any affected apps, especially iTerm2, before this step.)"
+for plist in ~/Script-BackUp/macOS/SystemSettings/*.plist; do
+  [ -e "$plist" ] || continue
+  domain="$(basename "$plist" .plist)"
+  if defaults import "$domain" "$plist" 2>/dev/null; then
+    echo "  imported: $domain"
+  else
+    echo "  failed (may need Full Disk Access): $domain"
+  fi
+done
+killall Dock Finder SystemUIServer ControlCenter cfprefsd 2>/dev/null || true
+echo "  Note: some settings only take effect after a logout or restart."
+# iTerm2: import prefs and enable its native custom-folder sync (iTerm2 must be quit)
+if [ -f ~/Script-BackUp/macOS/iTerm2/com.googlecode.iterm2.plist ]; then
+  defaults import com.googlecode.iterm2 ~/Script-BackUp/macOS/iTerm2/com.googlecode.iterm2.plist
+  defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/Script-BackUp/macOS/iTerm2"
+  defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+  defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile_selection -int 2
+fi
+
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash
