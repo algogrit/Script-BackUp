@@ -11,10 +11,16 @@
 #   sc mv <dest>  - Move latest screenshot to <dest> (creates dirs as needed)
 #   sc clean [-n]   - Remove all screenshots except the latest
 #   sc nuke  [-n]   - Remove ALL screenshots
+#   sc auto on|off|status - Per-dir auto date-prefix for `sc mv`
 
 SCREENSHOT_DIR="$HOME/Desktop"
 COPY_PATH=0
 DRY_RUN=0
+
+# Auto date-prefix settings (used by `sc mv` when active for the current dir)
+CONFIG_FILE="${SC_CONFIG_FILE:-$HOME/.config/sc/config}"  # registry: one enabled dir per line
+AUTO_BASE_DIR="screenshots"   # base dir (relative to cwd) for auto-prefixed moves
+AUTO_DATE_FMT="+%Y-%m-%d"     # date subdir format
 
 # Parse flags (anywhere in args)
 ARGS=()
@@ -30,6 +36,30 @@ CMD="${ARGS[0]:-default}"
 
 # Shorten $HOME to ~ in displayed paths
 short() { echo "${1/#$HOME/\~}"; }
+
+# Echo the registered ancestor dir that enables auto-prefix for the current cwd
+# (cwd itself or any ancestor). Empty if none. Ignores SC_AUTO_PREFIX.
+auto_match_dir() {
+  [[ -f "$CONFIG_FILE" ]] || return 0
+  local cwd="$PWD" d
+  while IFS= read -r d; do
+    [[ -z "$d" ]] && continue
+    if [[ "$cwd" == "$d" || "$cwd" == "$d"/* ]]; then
+      echo "$d"
+      return 0
+    fi
+  done < "$CONFIG_FILE"
+}
+
+# Return success when auto date-prefix should apply for the current cwd.
+# SC_AUTO_PREFIX (if set) overrides the registry: 1 = on, anything else = off.
+auto_active() {
+  if [[ -n "${SC_AUTO_PREFIX+x}" ]]; then
+    [[ "$SC_AUTO_PREFIX" == "1" ]]
+    return
+  fi
+  [[ -n "$(auto_match_dir)" ]]
+}
 
 latest() {
   ls -t "$SCREENSHOT_DIR"/Screenshot\ *.png 2>/dev/null | head -1
@@ -91,6 +121,11 @@ case "$CMD" in
     fi
     FILE=$(latest)
     if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+    # Auto date-prefix: when active for this dir, prepend screenshots/<today>/ to plain
+    # relative names. Skip absolute paths and ones already under $AUTO_BASE_DIR/.
+    if auto_active && [[ "$DEST" != /* && "$DEST" != \~* && "$DEST" != "$AUTO_BASE_DIR"/* ]]; then
+      DEST="$AUTO_BASE_DIR/$(date "$AUTO_DATE_FMT")/$DEST"
+    fi
     # Resolve destination: if no extension given, treat as directory and keep original filename
     if [[ "$DEST" != *.png ]]; then
       DEST="${DEST%/}/$(basename "$FILE")"
@@ -101,6 +136,59 @@ case "$CMD" in
     mkdir -p "$DEST_DIR" || { echo "Failed to create directory: $DEST_DIR"; exit 1; }
     mv -- "$FILE" "$DEST"
     echo "$(short "$FILE")  →  $(short "$DEST")"
+    ;;
+
+  auto)
+    SUB="${ARGS[1]:-status}"
+    case "$SUB" in
+      on)
+        mkdir -p "$(dirname "$CONFIG_FILE")" || { echo "Failed to create config dir."; exit 1; }
+        touch "$CONFIG_FILE"
+        if grep -qxF "$PWD" "$CONFIG_FILE"; then
+          echo "Auto date-prefix: already ON for $(short "$PWD")"
+        else
+          echo "$PWD" >> "$CONFIG_FILE"
+          echo "Auto date-prefix: ON for $(short "$PWD")"
+        fi
+        ;;
+      off)
+        if [[ -f "$CONFIG_FILE" ]] && grep -qxF "$PWD" "$CONFIG_FILE"; then
+          grep -vxF "$PWD" "$CONFIG_FILE" > "$CONFIG_FILE.tmp"  # exit 1 when result is empty is fine
+          mv "$CONFIG_FILE.tmp" "$CONFIG_FILE"
+          echo "Auto date-prefix: OFF for $(short "$PWD")"
+        else
+          echo "Auto date-prefix: not enabled for $(short "$PWD")"
+        fi
+        ANCESTOR="$(auto_match_dir)"
+        if [[ -n "$ANCESTOR" ]]; then
+          echo "Note: still active here via enabled ancestor $(short "$ANCESTOR")"
+        fi
+        ;;
+      status)
+        if [[ -n "${SC_AUTO_PREFIX+x}" ]]; then
+          if [[ "$SC_AUTO_PREFIX" == "1" ]]; then
+            echo "Auto date-prefix: ON for $(short "$PWD") (forced by SC_AUTO_PREFIX=1)"
+          else
+            echo "Auto date-prefix: OFF for $(short "$PWD") (forced by SC_AUTO_PREFIX=$SC_AUTO_PREFIX)"
+          fi
+        else
+          MATCH="$(auto_match_dir)"
+          if [[ -n "$MATCH" ]]; then
+            if [[ "$MATCH" == "$PWD" ]]; then
+              echo "Auto date-prefix: ON for $(short "$PWD")"
+            else
+              echo "Auto date-prefix: ON for $(short "$PWD") (via enabled $(short "$MATCH"))"
+            fi
+          else
+            echo "Auto date-prefix: OFF for $(short "$PWD")"
+          fi
+        fi
+        ;;
+      *)
+        echo "Usage: sc auto [on|off|status]"
+        exit 1
+        ;;
+    esac
     ;;
 
   clean)
@@ -141,7 +229,7 @@ case "$CMD" in
     ;;
 
   *)
-    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke]"
+    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke|auto]"
     echo "  (no args)       Print path + copy image to clipboard"
     echo "  -p              Copy file path instead of image contents"
     echo "  -n, --dry-run   Preview what clean/nuke would delete"
@@ -152,6 +240,7 @@ case "$CMD" in
     echo "  mv <dest>     Move latest screenshot to <dest> (dirs created as needed)"
     echo "  clean [-n]      Remove all screenshots except the latest"
     echo "  nuke  [-n]      Remove ALL screenshots"
+    echo "  auto on|off|status  Toggle per-dir 'screenshots/<today>/' prefix for mv"
     exit 1
     ;;
 esac

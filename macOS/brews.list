@@ -326,6 +326,7 @@ scala-cli
 sdl2-compat
 sdl2_image
 sdl3
+sentry-cli
 shaderc
 simdjson
 simdutf

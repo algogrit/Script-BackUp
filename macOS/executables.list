@@ -433,6 +433,7 @@ cythonize
 dappprof
 dapptrace
 darktable-cli
+dart
 dash
 date
 dav1d
@@ -702,6 +703,7 @@ flac
 flash
 flex
 flex++
+flutter
 fmt
 fnm
 fold
@@ -1510,7 +1512,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1781602682
+luajit-2.1.1782381659
 luit
 lwp-download
 lwp-download5.34
@@ -2453,6 +2455,7 @@ segedit
 selfserv
 senddoc
 sendmail
+sentry-cli
 seq
 serialver
 serverinfo

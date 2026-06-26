@@ -128,7 +128,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.5_1/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-6.0.3
+6.0.4
 ==> macOS
 15.7.4
 ==> SIP
@@ -166,4 +166,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   ruby
-400 kegs, 225,956 files, 11.3GB
+401 kegs, 225,980 files, 11.3GB
