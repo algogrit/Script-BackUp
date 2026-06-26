@@ -12,6 +12,8 @@
 #   sc clean [-n]   - Remove all screenshots except the latest
 #   sc nuke  [-n]   - Remove ALL screenshots
 #   sc auto on|off|status - Per-dir auto date-prefix for `sc mv`
+#   sc sync [-n]    - Push ./screenshots to the mirrored remote dir (rsync)
+#   sc sync config <host> <remote-home> - Set/show sync target
 
 SCREENSHOT_DIR="$HOME/Desktop"
 COPY_PATH=0
@@ -21,6 +23,9 @@ DRY_RUN=0
 CONFIG_FILE="${SC_CONFIG_FILE:-$HOME/.config/sc/config}"  # registry: one enabled dir per line
 AUTO_BASE_DIR="screenshots"   # base dir (relative to cwd) for auto-prefixed moves
 AUTO_DATE_FMT="+%Y-%m-%d"     # date subdir format
+
+# Sync settings (used by `sc sync` to rsync ./screenshots to a remote host)
+SYNC_CONFIG_FILE="${SC_SYNC_CONFIG_FILE:-$HOME/.config/sc/sync}"  # sourced KEY=value file
 
 # Parse flags (anywhere in args)
 ARGS=()
@@ -59,6 +64,24 @@ auto_active() {
     return
   fi
   [[ -n "$(auto_match_dir)" ]]
+}
+
+# Resolve SYNC_HOST / SYNC_REMOTE_HOME and SYNC_SOURCE (where the values came from).
+# Precedence: env vars (SC_SYNC_HOST / SC_SYNC_REMOTE_HOME, with OM_HOST as a host fallback)
+# win over the stored config file, which is parsed manually so env stays authoritative.
+load_sync_config() {
+  SYNC_HOST="${SC_SYNC_HOST:-${OM_HOST:-}}"
+  SYNC_REMOTE_HOME="${SC_SYNC_REMOTE_HOME:-}"
+  SYNC_SOURCE="env"
+  if [[ -f "$SYNC_CONFIG_FILE" ]]; then
+    local k v
+    while IFS='=' read -r k v; do
+      case "$k" in
+        SC_SYNC_HOST)        [[ -z "$SYNC_HOST" ]]        && { SYNC_HOST="$v"; SYNC_SOURCE="config"; } ;;
+        SC_SYNC_REMOTE_HOME) [[ -z "$SYNC_REMOTE_HOME" ]] && { SYNC_REMOTE_HOME="$v"; SYNC_SOURCE="config"; } ;;
+      esac
+    done < "$SYNC_CONFIG_FILE"
+  fi
 }
 
 latest() {
@@ -191,6 +214,68 @@ case "$CMD" in
     esac
     ;;
 
+  sync)
+    SUB="${ARGS[1]:-}"
+    if [[ "$SUB" == "config" ]]; then
+      HOST_ARG="${ARGS[2]:-}"
+      HOME_ARG="${ARGS[3]:-}"
+      if [[ -z "$HOST_ARG" && -z "$HOME_ARG" ]]; then
+        # Show current effective config and its source
+        load_sync_config
+        if [[ -z "$SYNC_HOST" && -z "$SYNC_REMOTE_HOME" ]]; then
+          echo "Sync not configured. Run: sc sync config <host> <remote-home>"
+          echo "  e.g. sc sync config om /home/om"
+          exit 1
+        fi
+        echo "Sync target: ${SYNC_HOST:-?}  (home ${SYNC_REMOTE_HOME:-?})  [from $SYNC_SOURCE]"
+        exit 0
+      fi
+      if [[ -z "$HOST_ARG" || -z "$HOME_ARG" ]]; then
+        echo "Usage: sc sync config <host> <remote-home>"
+        echo "  e.g. sc sync config om /home/om"
+        exit 1
+      fi
+      if [[ "$HOME_ARG" != /* ]]; then
+        echo "Remote home must be an absolute path (got: $HOME_ARG)"
+        exit 1
+      fi
+      mkdir -p "$(dirname "$SYNC_CONFIG_FILE")" || { echo "Failed to create config dir."; exit 1; }
+      printf 'SC_SYNC_HOST=%s\nSC_SYNC_REMOTE_HOME=%s\n' "$HOST_ARG" "$HOME_ARG" > "$SYNC_CONFIG_FILE"
+      echo "Sync target: $HOST_ARG  (home $HOME_ARG)"
+      exit 0
+    elif [[ -n "$SUB" ]]; then
+      echo "Usage: sc sync [-n]            Push ./screenshots to the remote"
+      echo "       sc sync config <host> <remote-home>"
+      exit 1
+    fi
+
+    # Default: push ./screenshots to the mirrored remote dir
+    load_sync_config
+    if [[ -z "$SYNC_HOST" || -z "$SYNC_REMOTE_HOME" ]]; then
+      echo "Sync not configured. Run: sc sync config <host> <remote-home>"
+      echo "  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)"
+      exit 1
+    fi
+    if [[ "$PWD" != "$HOME"/* && "$PWD" != "$HOME" ]]; then
+      echo "cwd is outside \$HOME; cannot mirror path to remote."
+      exit 1
+    fi
+    if [[ ! -d "screenshots" ]]; then
+      echo "No ./screenshots dir here ($(short "$PWD")). Nothing to sync."
+      exit 1
+    fi
+    REMOTE_DIR="${PWD/#$HOME/$SYNC_REMOTE_HOME}"
+    RSYNC_OPTS=(-avP)   # no -z: screenshots are already-compressed images
+    if [[ $DRY_RUN -eq 1 ]]; then
+      RSYNC_OPTS+=(--dry-run)
+      echo "Pushing ./screenshots  →  ${SYNC_HOST}:${REMOTE_DIR}  (dry-run)"
+    else
+      echo "Pushing ./screenshots  →  ${SYNC_HOST}:${REMOTE_DIR}"
+    fi
+    rsync "${RSYNC_OPTS[@]}" --rsync-path="mkdir -p '$REMOTE_DIR' && rsync" \
+      screenshots "${SYNC_HOST}:${REMOTE_DIR}"
+    ;;
+
   clean)
     FILES=()
     while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
@@ -229,7 +314,7 @@ case "$CMD" in
     ;;
 
   *)
-    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke|auto]"
+    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke|auto|sync]"
     echo "  (no args)       Print path + copy image to clipboard"
     echo "  -p              Copy file path instead of image contents"
     echo "  -n, --dry-run   Preview what clean/nuke would delete"
@@ -241,6 +326,8 @@ case "$CMD" in
     echo "  clean [-n]      Remove all screenshots except the latest"
     echo "  nuke  [-n]      Remove ALL screenshots"
     echo "  auto on|off|status  Toggle per-dir 'screenshots/<today>/' prefix for mv"
+    echo "  sync [-n]       Push ./screenshots to the mirrored remote dir (rsync)"
+    echo "  sync config <host> <remote-home>  Set/show the sync target"
     exit 1
     ;;
 esac
