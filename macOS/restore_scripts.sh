@@ -3,8 +3,17 @@
 alias cp="cp -v"
 alias rm="rm -v"
 
+# Detect the Homebrew prefix: /opt/homebrew on Apple Silicon, /usr/local on Intel.
+if [ -x /opt/homebrew/bin/brew ]; then
+  BREW_PREFIX=/opt/homebrew
+elif [ -x /usr/local/bin/brew ]; then
+  BREW_PREFIX=/usr/local
+else
+  BREW_PREFIX="$(brew --prefix 2>/dev/null || echo /opt/homebrew)"
+fi
+
 # Disable homebrew auto update
-export PATH=/opt/homebrew/bin:$PATH
+export PATH="$BREW_PREFIX/bin:$PATH"
 export HOMEBREW_NO_AUTO_UPDATE=1
 # Don't prompt for confirmation before installing (ask mode is brew's default now);
 # installs are piped via xargs with no TTY, so the prompt would otherwise hang.
@@ -86,14 +95,20 @@ sudo cp ~/Script-BackUp/macOS/root/etc/paths /etc/paths
 sudo cp ~/Script-BackUp/macOS/root/etc/hosts /etc/hosts
 sudo cp ~/Script-BackUp/macOS/root/etc/shells /etc/shells
 
+# The committed /etc/shells only lists the Apple Silicon bash path; ensure the
+# detected brew bash is present so chsh accepts it on Intel too.
+if ! grep -qxF "$BREW_PREFIX/bin/bash" /etc/shells; then
+  echo "$BREW_PREFIX/bin/bash" | sudo tee -a /etc/shells >/dev/null
+fi
+
 echo "\033[1;31mChanging Shell...\033[0m"
 # chsh only checks /etc/shells, not that the binary exists. Guard against pointing
 # the login shell at a bash that the brew step never installed (causes a Terminal lockout).
-if [ -x /opt/homebrew/bin/bash ]; then
-  chsh -s /opt/homebrew/bin/bash
+if [ -x "$BREW_PREFIX/bin/bash" ]; then
+  chsh -s "$BREW_PREFIX/bin/bash"
 else
-  echo "  /opt/homebrew/bin/bash not found — leaving login shell unchanged to avoid lockout."
-  echo "  Re-run 'chsh -s /opt/homebrew/bin/bash' after 'brew install bash' succeeds."
+  echo "  $BREW_PREFIX/bin/bash not found — leaving login shell unchanged to avoid lockout."
+  echo "  Re-run 'chsh -s $BREW_PREFIX/bin/bash' after 'brew install bash' succeeds."
 fi
 
 echo "\033[1;31mRestoring other configs...\033[0m"
@@ -207,8 +222,8 @@ if [[ "$(echo "$_reloaded_shell" | tr '[:upper:]' '[:lower:]')" == "n" ]]; then
 fi
 
 echo "\033[1;31mInstalling language versions...\033[0m"
-RBENV_ROOT=/usr/local/var/rbenv _install_languages ruby rbenv
-LDFLAGS="-L/usr/local/opt/zlib/lib" CPPFLAGS="-I/usr/local/opt/zlib/include" _install_languages python pyenv
+RBENV_ROOT="$BREW_PREFIX/var/rbenv" _install_languages ruby rbenv
+LDFLAGS="-L$BREW_PREFIX/opt/zlib/lib" CPPFLAGS="-I$BREW_PREFIX/opt/zlib/include" _install_languages python pyenv
 _install_languages node fnm
 _install_languages go goenv
 jenv enable-plugin export
