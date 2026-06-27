@@ -185,11 +185,30 @@ cp ~/Script-BackUp/macOS/VSCode/keybindings.json ~/Library/Application\ Support/
 cat ~/Script-BackUp/macOS/VSCode/extensions.list | xargs -n 1 code --install-extension
 
 echo "\033[1;31mApplying macOS System Settings...\033[0m"
-# Curated, declarative settings applied on restore. Add `defaults write ...`
-# lines here (TODO: list to be provided), then the killall below applies them.
 
-killall Dock Finder SystemUIServer ControlCenter 2>/dev/null || true
-echo "  Note: some settings only take effect after a logout or restart."
+# Desktop & Screen Saver > Hot Corner: bottom-left = Put Display to Sleep (action 10)
+defaults write com.apple.dock wvous-bl-corner -int 10
+defaults write com.apple.dock wvous-bl-modifier -int 0
+
+# Keyboard: use F1, F2, etc. as standard function keys (press Fn for special features)
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
+
+# Trackpad: App Expose (four-finger swipe down)
+defaults write com.apple.dock showAppExposeGestureEnabled -int 1
+defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerVertSwipeGesture -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerVertSwipeGesture -int 2
+
+# Accessibility > Pointer Control: enable dragging with three fingers
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+
+# Security & Privacy: require password immediately after sleep / screen saver.
+# Modern macOS ignores the legacy `defaults write com.apple.screensaver askForPassword`,
+# so use the supported, version-agnostic sysadminctl. NOTE: this prompts for the account password.
+sysadminctl -screenLock immediate -password -
+
+killall Dock 2>/dev/null || true
+echo "  Note: keyboard Fn and trackpad changes may need a logout/restart to take effect."
 
 echo "\033[1;31mRestoring iTerm2 preferences...\033[0m"
 echo "  (Quit iTerm2 before this step so it doesn't overwrite on exit.)"
