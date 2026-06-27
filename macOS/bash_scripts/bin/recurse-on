@@ -1,31 +1,43 @@
 #!/usr/bin/env bash
-# Usage: recurse-on <directory> <extension> <command>
+# Usage: recurse-on [--exclude PATH_SUBSTR ...] <directory> <extension> <command>
 # Finds all files with the given extension and runs the command against each,
 # passing the full file path as the last argument.
 #
+# Files matching a .gitignore rule are skipped. Files whose path contains any
+# --exclude substring are also skipped (repeatable).
+#
 # Examples:
 #   recurse-on ./docs md md-to-pdf
+#   recurse-on --exclude docs/testing ./docs md md-to-pdf
 #   recurse-on ./src ts tsc
 #   recurse-on ./images png "convert -resize 50%"
 
 set -euo pipefail
 
 if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
-  echo "Usage: $(basename "$0") <directory> <extension> <command>"
+  echo "Usage: $(basename "$0") [--exclude PATH_SUBSTR ...] <directory> <extension> <command>"
   echo ""
   echo "Finds all files with the given extension and runs the command in each"
   echo "file's containing directory, with the filename appended as the last argument."
+  echo "Skips .gitignore'd files and any path containing an --exclude substring."
   echo ""
   echo "Examples:"
   echo "  $(basename "$0") ./docs md md-to-pdf"
+  echo "  $(basename "$0") --exclude docs/testing ./docs md md-to-pdf"
   echo "  $(basename "$0") ./src ts tsc"
   echo "  $(basename "$0") ./images png \"convert -resize 50%\""
   exit 0
 fi
 
-DIR="${1:?Usage: $0 <directory> <extension> <command>}"
-EXT="${2:?Usage: $0 <directory> <extension> <command>}"
-CMD="${3:?Usage: $0 <directory> <extension> <command>}"
+EXCLUDES=()
+while [[ "${1:-}" == "--exclude" ]]; do
+  EXCLUDES+=("${2:?--exclude needs a value}")
+  shift 2
+done
+
+DIR="${1:?Usage: $0 [--exclude PATH_SUBSTR ...] <directory> <extension> <command>}"
+EXT="${2:?Usage: $0 [--exclude PATH_SUBSTR ...] <directory> <extension> <command>}"
+CMD="${3:?Usage: $0 [--exclude PATH_SUBSTR ...] <directory> <extension> <command>}"
 
 # We use Process Substitution to feed 'find' into File Descriptor 3
 while IFS= read -r -u 3 file; do
@@ -33,6 +45,13 @@ while IFS= read -r -u 3 file; do
     if git check-ignore -q "$file" 2>/dev/null; then
         continue
     fi
+
+    # Skip the file if its path contains any --exclude substring
+    for pat in ${EXCLUDES[@]+"${EXCLUDES[@]}"}; do
+        if [[ "$file" == *"$pat"* ]]; then
+            continue 2
+        fi
+    done
 
     $CMD "$file"
 done 3< <(find "$DIR" -type f -name "*.$EXT")

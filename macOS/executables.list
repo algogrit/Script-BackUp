@@ -1580,6 +1580,7 @@ md2pdf
 md5
 md5sum
 mdassembler
+mdbook
 mddiagnose
 mdfind
 mdiff
@@ -2423,6 +2424,7 @@ sc
 sc_auth
 sc_usage
 sc-hsm-tool
+sc.bash
 scala
 scala-cli
 scalac

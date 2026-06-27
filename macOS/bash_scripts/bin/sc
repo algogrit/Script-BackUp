@@ -1,333 +1,446 @@
-#!/bin/bash
+#!/usr/bin/env python3
+"""sc - Screenshot utility for macOS.
 
-# sc - Screenshot utility for macOS
-# Usage: sc [-p] [-n] [command]
-#   sc              - Print path + copy image to clipboard
-#   sc -p           - Print path + copy path to clipboard
-#   sc print        - Print the latest screenshot path
-#   sc list         - List all screenshots
-#   sc open         - Open the latest screenshot
-#   sc cp [-p]    - Copy image (or path with -p) to clipboard
-#   sc mv <dest>  - Move latest screenshot to <dest> (creates dirs as needed)
-#   sc clean [-n]   - Remove all screenshots except the latest
-#   sc nuke  [-n]   - Remove ALL screenshots
-#   sc auto on|off|status - Per-dir auto date-prefix for `sc mv`
-#   sc sync [-n]    - Push ./screenshots to the mirrored remote dir (rsync)
-#   sc sync config <host> <remote-home> - Set/show sync target
+Commands:
+  sc              Print path + copy image to clipboard
+  sc -p           Print path + copy path to clipboard
+  sc print        Print the latest screenshot path
+  sc list         List all screenshots
+  sc open         Open the latest screenshot
+  sc cp [-p]      Copy image (or path with -p) to clipboard
+  sc mv <dest>    Move latest screenshot to <dest> (creates dirs as needed)
+  sc clean [-n]   Remove all screenshots except the latest
+  sc nuke  [-n]   Remove ALL screenshots
+  sc auto on|off|status            Per-dir auto date-prefix for `sc mv`
+  sc sync [-n]                     Push ./screenshots to the mirrored remote dir (rsync)
+  sc sync config <host> <remote-home>   Set/show sync target
+"""
 
-SCREENSHOT_DIR="$HOME/Desktop"
-COPY_PATH=0
-DRY_RUN=0
+import argparse
+import os
+import shutil
+import subprocess
+import sys
+from datetime import datetime
+from glob import glob
+
+HOME = os.environ.get("HOME", os.path.expanduser("~"))
+PWD = os.environ.get("PWD", os.getcwd())  # logical cwd, matches bash $PWD
+
+SCREENSHOT_DIR = os.path.join(HOME, "Desktop")
 
 # Auto date-prefix settings (used by `sc mv` when active for the current dir)
-CONFIG_FILE="${SC_CONFIG_FILE:-$HOME/.config/sc/config}"  # registry: one enabled dir per line
-AUTO_BASE_DIR="screenshots"   # base dir (relative to cwd) for auto-prefixed moves
-AUTO_DATE_FMT="+%Y-%m-%d"     # date subdir format
+CONFIG_FILE = os.environ.get("SC_CONFIG_FILE", os.path.join(HOME, ".config/sc/config"))  # one enabled dir per line
+AUTO_BASE_DIR = "screenshots"   # base dir (relative to cwd) for auto-prefixed moves
+AUTO_DATE_FMT = "%Y-%m-%d"      # date subdir format
 
 # Sync settings (used by `sc sync` to rsync ./screenshots to a remote host)
-SYNC_CONFIG_FILE="${SC_SYNC_CONFIG_FILE:-$HOME/.config/sc/sync}"  # sourced KEY=value file
+SYNC_CONFIG_FILE = os.environ.get("SC_SYNC_CONFIG_FILE", os.path.join(HOME, ".config/sc/sync"))  # KEY=value
 
-# Parse flags (anywhere in args)
-ARGS=()
-for arg in "$@"; do
-  case "$arg" in
-    -p|--path)     COPY_PATH=1 ;;
-    -n|--dry-run)  DRY_RUN=1 ;;
-    *) ARGS+=("$arg") ;;
-  esac
-done
+# Global flags, populated by parse_globals() before dispatch.
+COPY_PATH = False
+DRY_RUN = False
 
-CMD="${ARGS[0]:-default}"
 
-# Shorten $HOME to ~ in displayed paths
-short() { echo "${1/#$HOME/\~}"; }
+# --- helpers ---------------------------------------------------------------
 
-# Echo the registered ancestor dir that enables auto-prefix for the current cwd
-# (cwd itself or any ancestor). Empty if none. Ignores SC_AUTO_PREFIX.
-auto_match_dir() {
-  [[ -f "$CONFIG_FILE" ]] || return 0
-  local cwd="$PWD" d
-  while IFS= read -r d; do
-    [[ -z "$d" ]] && continue
-    if [[ "$cwd" == "$d" || "$cwd" == "$d"/* ]]; then
-      echo "$d"
-      return 0
-    fi
-  done < "$CONFIG_FILE"
-}
+def short(path):
+    """Shorten a leading $HOME to ~ in displayed paths (only at the start)."""
+    if path == HOME:
+        return "~"
+    if path.startswith(HOME + "/"):
+        return "~" + path[len(HOME):]
+    return path
 
-# Return success when auto date-prefix should apply for the current cwd.
-# SC_AUTO_PREFIX (if set) overrides the registry: 1 = on, anything else = off.
-auto_active() {
-  if [[ -n "${SC_AUTO_PREFIX+x}" ]]; then
-    [[ "$SC_AUTO_PREFIX" == "1" ]]
-    return
-  fi
-  [[ -n "$(auto_match_dir)" ]]
-}
 
-# Resolve SYNC_HOST / SYNC_REMOTE_HOME and SYNC_SOURCE (where the values came from).
-# Precedence: env vars (SC_SYNC_HOST / SC_SYNC_REMOTE_HOME, with OM_HOST as a host fallback)
-# win over the stored config file, which is parsed manually so env stays authoritative.
-load_sync_config() {
-  SYNC_HOST="${SC_SYNC_HOST:-${OM_HOST:-}}"
-  SYNC_REMOTE_HOME="${SC_SYNC_REMOTE_HOME:-}"
-  SYNC_SOURCE="env"
-  if [[ -f "$SYNC_CONFIG_FILE" ]]; then
-    local k v
-    while IFS='=' read -r k v; do
-      case "$k" in
-        SC_SYNC_HOST)        [[ -z "$SYNC_HOST" ]]        && { SYNC_HOST="$v"; SYNC_SOURCE="config"; } ;;
-        SC_SYNC_REMOTE_HOME) [[ -z "$SYNC_REMOTE_HOME" ]] && { SYNC_REMOTE_HOME="$v"; SYNC_SOURCE="config"; } ;;
-      esac
-    done < "$SYNC_CONFIG_FILE"
-  fi
-}
+def all_screenshots():
+    """All 'Screenshot *.png' files in SCREENSHOT_DIR, newest first (like `ls -t`)."""
+    files = glob(os.path.join(SCREENSHOT_DIR, "Screenshot *.png"))
+    files.sort(key=lambda f: os.path.getmtime(f), reverse=True)
+    return files
 
-latest() {
-  ls -t "$SCREENSHOT_DIR"/Screenshot\ *.png 2>/dev/null | head -1
-}
 
-all_screenshots() {
-  ls -t "$SCREENSHOT_DIR"/Screenshot\ *.png 2>/dev/null
-}
+def latest():
+    """The most recent screenshot, or None."""
+    files = all_screenshots()
+    return files[0] if files else None
 
-copy_to_clipboard() {
-  local FILE="$1"
-  if [[ $COPY_PATH -eq 1 ]]; then
-    echo -n "$FILE" | pbcopy
-    echo "Copied path to clipboard."
-  else
-    osascript -e "set the clipboard to (read (POSIX file \"$FILE\") as JPEG picture)" 2>/dev/null \
-      || osascript -e "set the clipboard to (read (POSIX file \"$FILE\") as PNG picture)"
-    echo "Copied image to clipboard."
-  fi
-}
 
-case "$CMD" in
-  print)
-    FILE=$(latest)
-    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
-    short "$FILE"
-    ;;
+def copy_path(file):
+    subprocess.run(["pbcopy"], input=file.encode())
+    print("Copied path to clipboard.")
 
-  list)
-    FILES=()
-    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
-    COUNT=${#FILES[@]}
-    if [[ $COUNT -eq 0 ]]; then echo "No screenshots found."; exit 0; fi
-    for f in "${FILES[@]}"; do echo "$(short "$f")"; done
-    echo ""
-    echo "$COUNT screenshot(s)."
-    ;;
 
-  open)
-    FILE=$(latest)
-    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
-    short "$FILE"
-    open "$FILE"
-    ;;
+def copy_image(file):
+    jpeg = f'set the clipboard to (read (POSIX file "{file}") as JPEG picture)'
+    png = f'set the clipboard to (read (POSIX file "{file}") as PNG picture)'
+    result = subprocess.run(["osascript", "-e", jpeg],
+                            stderr=subprocess.DEVNULL)
+    if result.returncode != 0:
+        subprocess.run(["osascript", "-e", png])
+    print("Copied image to clipboard.")
 
-  cp)
-    FILE=$(latest)
-    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
-    short "$FILE"
-    copy_to_clipboard "$FILE"
-    ;;
 
-  mv)
-    DEST="${ARGS[1]}"
-    if [[ -z "$DEST" ]]; then
-      echo "Usage: sc mv <destination>"
-      echo "  e.g. sc mv screenshots/2026-05-03/my-screenshot.png"
-      exit 1
-    fi
-    FILE=$(latest)
-    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
+def copy_to_clipboard(file):
+    if COPY_PATH:
+        copy_path(file)
+    else:
+        copy_image(file)
+
+
+def auto_match_dir():
+    """The registered ancestor dir enabling auto-prefix for the current cwd, or None.
+
+    Matches the cwd itself or any ancestor. Ignores SC_AUTO_PREFIX.
+    """
+    if not os.path.isfile(CONFIG_FILE):
+        return None
+    with open(CONFIG_FILE) as fh:
+        for line in fh:
+            d = line.rstrip("\n")
+            if not d:
+                continue
+            if PWD == d or PWD.startswith(d + "/"):
+                return d
+    return None
+
+
+def auto_active():
+    """Whether auto date-prefix should apply for the current cwd.
+
+    SC_AUTO_PREFIX (if set) overrides the registry: '1' = on, anything else = off.
+    """
+    if "SC_AUTO_PREFIX" in os.environ:
+        return os.environ["SC_AUTO_PREFIX"] == "1"
+    return auto_match_dir() is not None
+
+
+def load_sync_config():
+    """Resolve (host, remote_home, source) for `sc sync`.
+
+    Precedence: env vars (SC_SYNC_HOST / SC_SYNC_REMOTE_HOME, with OM_HOST as a host
+    fallback) win over the stored config file, parsed manually so env stays authoritative.
+    """
+    host = os.environ.get("SC_SYNC_HOST") or os.environ.get("OM_HOST") or ""
+    remote_home = os.environ.get("SC_SYNC_REMOTE_HOME") or ""
+    source = "env"
+    if os.path.isfile(SYNC_CONFIG_FILE):
+        with open(SYNC_CONFIG_FILE) as fh:
+            for line in fh:
+                k, _, v = line.rstrip("\n").partition("=")
+                if k == "SC_SYNC_HOST" and not host:
+                    host, source = v, "config"
+                elif k == "SC_SYNC_REMOTE_HOME" and not remote_home:
+                    remote_home, source = v, "config"
+    return host, remote_home, source
+
+
+# --- commands --------------------------------------------------------------
+
+def cmd_print():
+    file = latest()
+    if not file:
+        print("No screenshots found.")
+        return 1
+    print(short(file))
+    return 0
+
+
+def cmd_list():
+    files = all_screenshots()
+    if not files:
+        print("No screenshots found.")
+        return 0
+    for f in files:
+        print(short(f))
+    print()
+    print(f"{len(files)} screenshot(s).")
+    return 0
+
+
+def cmd_open():
+    file = latest()
+    if not file:
+        print("No screenshots found.")
+        return 1
+    print(short(file))
+    subprocess.run(["open", file])
+    return 0
+
+
+def cmd_cp():
+    file = latest()
+    if not file:
+        print("No screenshots found.")
+        return 1
+    print(short(file))
+    copy_to_clipboard(file)
+    return 0
+
+
+def cmd_mv(dest):
+    if not dest:
+        print("Usage: sc mv <destination>")
+        print("  e.g. sc mv screenshots/2026-05-03/my-screenshot.png")
+        return 1
+    file = latest()
+    if not file:
+        print("No screenshots found.")
+        return 1
     # Auto date-prefix: when active for this dir, prepend screenshots/<today>/ to plain
-    # relative names. Skip absolute paths and ones already under $AUTO_BASE_DIR/.
-    if auto_active && [[ "$DEST" != /* && "$DEST" != \~* && "$DEST" != "$AUTO_BASE_DIR"/* ]]; then
-      DEST="$AUTO_BASE_DIR/$(date "$AUTO_DATE_FMT")/$DEST"
-    fi
-    # Resolve destination: if no extension given, treat as directory and keep original filename
-    if [[ "$DEST" != *.png ]]; then
-      DEST="${DEST%/}/$(basename "$FILE")"
-    fi
-    # Expand ~ and make absolute (relative paths resolved from cwd)
-    DEST="${DEST/#\~/$HOME}"
-    DEST_DIR="$(dirname "$DEST")"
-    mkdir -p "$DEST_DIR" || { echo "Failed to create directory: $DEST_DIR"; exit 1; }
-    mv -- "$FILE" "$DEST"
-    echo "$(short "$FILE")  →  $(short "$DEST")"
-    ;;
+    # relative names. Skip absolute paths and ones already under AUTO_BASE_DIR/.
+    if (auto_active()
+            and not dest.startswith("/")
+            and not dest.startswith("~")
+            and not dest.startswith(AUTO_BASE_DIR + "/")):
+        dest = f"{AUTO_BASE_DIR}/{datetime.now().strftime(AUTO_DATE_FMT)}/{dest}"
+    # Resolve destination: if no .png extension, treat as directory and keep original filename
+    if not dest.endswith(".png"):
+        base = dest[:-1] if dest.endswith("/") else dest  # strip one trailing slash, like ${DEST%/}
+        dest = f"{base}/{os.path.basename(file)}"
+    # Expand a leading ~ (relative paths resolved from cwd)
+    if dest.startswith("~"):
+        dest = HOME + dest[1:]
+    dest_dir = os.path.dirname(dest)
+    try:
+        if dest_dir:
+            os.makedirs(dest_dir, exist_ok=True)
+    except OSError:
+        print(f"Failed to create directory: {dest_dir}")
+        return 1
+    shutil.move(file, dest)
+    print(f"{short(file)}  →  {short(dest)}")
+    return 0
 
-  auto)
-    SUB="${ARGS[1]:-status}"
-    case "$SUB" in
-      on)
-        mkdir -p "$(dirname "$CONFIG_FILE")" || { echo "Failed to create config dir."; exit 1; }
-        touch "$CONFIG_FILE"
-        if grep -qxF "$PWD" "$CONFIG_FILE"; then
-          echo "Auto date-prefix: already ON for $(short "$PWD")"
-        else
-          echo "$PWD" >> "$CONFIG_FILE"
-          echo "Auto date-prefix: ON for $(short "$PWD")"
-        fi
-        ;;
-      off)
-        if [[ -f "$CONFIG_FILE" ]] && grep -qxF "$PWD" "$CONFIG_FILE"; then
-          grep -vxF "$PWD" "$CONFIG_FILE" > "$CONFIG_FILE.tmp"  # exit 1 when result is empty is fine
-          mv "$CONFIG_FILE.tmp" "$CONFIG_FILE"
-          echo "Auto date-prefix: OFF for $(short "$PWD")"
-        else
-          echo "Auto date-prefix: not enabled for $(short "$PWD")"
-        fi
-        ANCESTOR="$(auto_match_dir)"
-        if [[ -n "$ANCESTOR" ]]; then
-          echo "Note: still active here via enabled ancestor $(short "$ANCESTOR")"
-        fi
-        ;;
-      status)
-        if [[ -n "${SC_AUTO_PREFIX+x}" ]]; then
-          if [[ "$SC_AUTO_PREFIX" == "1" ]]; then
-            echo "Auto date-prefix: ON for $(short "$PWD") (forced by SC_AUTO_PREFIX=1)"
-          else
-            echo "Auto date-prefix: OFF for $(short "$PWD") (forced by SC_AUTO_PREFIX=$SC_AUTO_PREFIX)"
-          fi
-        else
-          MATCH="$(auto_match_dir)"
-          if [[ -n "$MATCH" ]]; then
-            if [[ "$MATCH" == "$PWD" ]]; then
-              echo "Auto date-prefix: ON for $(short "$PWD")"
-            else
-              echo "Auto date-prefix: ON for $(short "$PWD") (via enabled $(short "$MATCH"))"
-            fi
-          else
-            echo "Auto date-prefix: OFF for $(short "$PWD")"
-          fi
-        fi
-        ;;
-      *)
-        echo "Usage: sc auto [on|off|status]"
-        exit 1
-        ;;
-    esac
-    ;;
 
-  sync)
-    SUB="${ARGS[1]:-}"
-    if [[ "$SUB" == "config" ]]; then
-      HOST_ARG="${ARGS[2]:-}"
-      HOME_ARG="${ARGS[3]:-}"
-      if [[ -z "$HOST_ARG" && -z "$HOME_ARG" ]]; then
-        # Show current effective config and its source
-        load_sync_config
-        if [[ -z "$SYNC_HOST" && -z "$SYNC_REMOTE_HOME" ]]; then
-          echo "Sync not configured. Run: sc sync config <host> <remote-home>"
-          echo "  e.g. sc sync config om /home/om"
-          exit 1
-        fi
-        echo "Sync target: ${SYNC_HOST:-?}  (home ${SYNC_REMOTE_HOME:-?})  [from $SYNC_SOURCE]"
-        exit 0
-      fi
-      if [[ -z "$HOST_ARG" || -z "$HOME_ARG" ]]; then
-        echo "Usage: sc sync config <host> <remote-home>"
-        echo "  e.g. sc sync config om /home/om"
-        exit 1
-      fi
-      if [[ "$HOME_ARG" != /* ]]; then
-        echo "Remote home must be an absolute path (got: $HOME_ARG)"
-        exit 1
-      fi
-      mkdir -p "$(dirname "$SYNC_CONFIG_FILE")" || { echo "Failed to create config dir."; exit 1; }
-      printf 'SC_SYNC_HOST=%s\nSC_SYNC_REMOTE_HOME=%s\n' "$HOST_ARG" "$HOME_ARG" > "$SYNC_CONFIG_FILE"
-      echo "Sync target: $HOST_ARG  (home $HOME_ARG)"
-      exit 0
-    elif [[ -n "$SUB" ]]; then
-      echo "Usage: sc sync [-n]            Push ./screenshots to the remote"
-      echo "       sc sync config <host> <remote-home>"
-      exit 1
-    fi
+def cmd_auto(sub):
+    if sub == "on":
+        try:
+            os.makedirs(os.path.dirname(CONFIG_FILE), exist_ok=True)
+        except OSError:
+            print("Failed to create config dir.")
+            return 1
+        existing = []
+        if os.path.isfile(CONFIG_FILE):
+            with open(CONFIG_FILE) as fh:
+                existing = [ln.rstrip("\n") for ln in fh]
+        if PWD in existing:
+            print(f"Auto date-prefix: already ON for {short(PWD)}")
+        else:
+            with open(CONFIG_FILE, "a") as fh:
+                fh.write(PWD + "\n")
+            print(f"Auto date-prefix: ON for {short(PWD)}")
+        return 0
+
+    if sub == "off":
+        lines = []
+        if os.path.isfile(CONFIG_FILE):
+            with open(CONFIG_FILE) as fh:
+                lines = [ln.rstrip("\n") for ln in fh]
+        if PWD in lines:
+            kept = [ln for ln in lines if ln != PWD]
+            with open(CONFIG_FILE, "w") as fh:
+                for ln in kept:
+                    fh.write(ln + "\n")
+            print(f"Auto date-prefix: OFF for {short(PWD)}")
+        else:
+            print(f"Auto date-prefix: not enabled for {short(PWD)}")
+        ancestor = auto_match_dir()
+        if ancestor:
+            print(f"Note: still active here via enabled ancestor {short(ancestor)}")
+        return 0
+
+    if sub == "status":
+        if "SC_AUTO_PREFIX" in os.environ:
+            val = os.environ["SC_AUTO_PREFIX"]
+            if val == "1":
+                print(f"Auto date-prefix: ON for {short(PWD)} (forced by SC_AUTO_PREFIX=1)")
+            else:
+                print(f"Auto date-prefix: OFF for {short(PWD)} (forced by SC_AUTO_PREFIX={val})")
+        else:
+            match = auto_match_dir()
+            if match:
+                if match == PWD:
+                    print(f"Auto date-prefix: ON for {short(PWD)}")
+                else:
+                    print(f"Auto date-prefix: ON for {short(PWD)} (via enabled {short(match)})")
+            else:
+                print(f"Auto date-prefix: OFF for {short(PWD)}")
+        return 0
+
+    print("Usage: sc auto [on|off|status]")
+    return 1
+
+
+def cmd_sync(rest):
+    if rest and rest[0] == "config":
+        host_arg = rest[1] if len(rest) > 1 else ""
+        home_arg = rest[2] if len(rest) > 2 else ""
+        if not host_arg and not home_arg:
+            # Show current effective config and its source
+            host, remote_home, source = load_sync_config()
+            if not host and not remote_home:
+                print("Sync not configured. Run: sc sync config <host> <remote-home>")
+                print("  e.g. sc sync config om /home/om")
+                return 1
+            print(f"Sync target: {host or '?'}  (home {remote_home or '?'})  [from {source}]")
+            return 0
+        if not host_arg or not home_arg:
+            print("Usage: sc sync config <host> <remote-home>")
+            print("  e.g. sc sync config om /home/om")
+            return 1
+        if not home_arg.startswith("/"):
+            print(f"Remote home must be an absolute path (got: {home_arg})")
+            return 1
+        try:
+            os.makedirs(os.path.dirname(SYNC_CONFIG_FILE), exist_ok=True)
+        except OSError:
+            print("Failed to create config dir.")
+            return 1
+        with open(SYNC_CONFIG_FILE, "w") as fh:
+            fh.write(f"SC_SYNC_HOST={host_arg}\nSC_SYNC_REMOTE_HOME={home_arg}\n")
+        print(f"Sync target: {host_arg}  (home {home_arg})")
+        return 0
+    if rest:
+        print("Usage: sc sync [-n]            Push ./screenshots to the remote")
+        print("       sc sync config <host> <remote-home>")
+        return 1
 
     # Default: push ./screenshots to the mirrored remote dir
-    load_sync_config
-    if [[ -z "$SYNC_HOST" || -z "$SYNC_REMOTE_HOME" ]]; then
-      echo "Sync not configured. Run: sc sync config <host> <remote-home>"
-      echo "  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)"
-      exit 1
-    fi
-    if [[ "$PWD" != "$HOME"/* && "$PWD" != "$HOME" ]]; then
-      echo "cwd is outside \$HOME; cannot mirror path to remote."
-      exit 1
-    fi
-    if [[ ! -d "screenshots" ]]; then
-      echo "No ./screenshots dir here ($(short "$PWD")). Nothing to sync."
-      exit 1
-    fi
-    REMOTE_DIR="${PWD/#$HOME/$SYNC_REMOTE_HOME}"
-    RSYNC_OPTS=(-avP)   # no -z: screenshots are already-compressed images
-    if [[ $DRY_RUN -eq 1 ]]; then
-      RSYNC_OPTS+=(--dry-run)
-      echo "Pushing ./screenshots  →  ${SYNC_HOST}:${REMOTE_DIR}  (dry-run)"
-    else
-      echo "Pushing ./screenshots  →  ${SYNC_HOST}:${REMOTE_DIR}"
-    fi
-    rsync "${RSYNC_OPTS[@]}" --rsync-path="mkdir -p '$REMOTE_DIR' && rsync" \
-      screenshots "${SYNC_HOST}:${REMOTE_DIR}"
-    ;;
+    host, remote_home, _ = load_sync_config()
+    if not host or not remote_home:
+        print("Sync not configured. Run: sc sync config <host> <remote-home>")
+        print("  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)")
+        return 1
+    if PWD != HOME and not PWD.startswith(HOME + "/"):
+        print("cwd is outside $HOME; cannot mirror path to remote.")
+        return 1
+    if not os.path.isdir("screenshots"):
+        print(f"No ./screenshots dir here ({short(PWD)}). Nothing to sync.")
+        return 1
+    remote_dir = remote_home + PWD[len(HOME):]
+    opts = ["-avP"]  # no -z: screenshots are already-compressed images
+    if DRY_RUN:
+        opts.append("--dry-run")
+        print(f"Pushing ./screenshots  →  {host}:{remote_dir}  (dry-run)")
+    else:
+        print(f"Pushing ./screenshots  →  {host}:{remote_dir}")
+    cmd = (["rsync"] + opts
+           + [f"--rsync-path=mkdir -p '{remote_dir}' && rsync",
+              "screenshots", f"{host}:{remote_dir}"])
+    return subprocess.run(cmd).returncode
 
-  clean)
-    FILES=()
-    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
-    COUNT=${#FILES[@]}
-    if [[ $COUNT -le 1 ]]; then echo "Nothing to clean (<=1 screenshot)."; exit 0; fi
-    TO_DELETE=( "${FILES[@]:1}" )
-    if [[ $DRY_RUN -eq 1 ]]; then
-      echo "Dry run -- would remove $((COUNT - 1)) screenshot(s):"
-      for f in "${TO_DELETE[@]}"; do echo "  $(short "$f")"; done
-      echo "Would keep: $(short "${FILES[0]}")"
-    else
-      printf '%s\0' "${TO_DELETE[@]}" | xargs -0 rm --
-      echo "Removed $((COUNT - 1)) old screenshot(s). Kept: $(short "${FILES[0]}")"
-    fi
-    ;;
 
-  nuke)
-    FILES=()
-    while IFS= read -r f; do FILES+=("$f"); done < <(all_screenshots)
-    COUNT=${#FILES[@]}
-    if [[ $COUNT -eq 0 ]]; then echo "No screenshots to remove."; exit 0; fi
-    if [[ $DRY_RUN -eq 1 ]]; then
-      echo "Dry run -- would remove $COUNT screenshot(s):"
-      for f in "${FILES[@]}"; do echo "  $(short "$f")"; done
-    else
-      printf '%s\0' "${FILES[@]}" | xargs -0 rm --
-      echo "Removed $COUNT screenshot(s)."
-    fi
-    ;;
+def cmd_clean():
+    files = all_screenshots()
+    if len(files) <= 1:
+        print("Nothing to clean (<=1 screenshot).")
+        return 0
+    to_delete = files[1:]
+    if DRY_RUN:
+        print(f"Dry run -- would remove {len(to_delete)} screenshot(s):")
+        for f in to_delete:
+            print(f"  {short(f)}")
+        print(f"Would keep: {short(files[0])}")
+    else:
+        for f in to_delete:
+            os.remove(f)
+        print(f"Removed {len(to_delete)} old screenshot(s). Kept: {short(files[0])}")
+    return 0
 
-  default)
-    FILE=$(latest)
-    if [[ -z "$FILE" ]]; then echo "No screenshots found."; exit 1; fi
-    short "$FILE"
-    copy_to_clipboard "$FILE"
-    ;;
 
-  *)
-    echo "Usage: sc [-p] [-n] [print|list|open|cp|mv|clean|nuke|auto|sync]"
-    echo "  (no args)       Print path + copy image to clipboard"
-    echo "  -p              Copy file path instead of image contents"
-    echo "  -n, --dry-run   Preview what clean/nuke would delete"
-    echo "  print           Print the latest screenshot path"
-    echo "  list            List all screenshots"
-    echo "  open            Open the latest screenshot"
-    echo "  cp [-p]       Copy latest screenshot (image or path) to clipboard"
-    echo "  mv <dest>     Move latest screenshot to <dest> (dirs created as needed)"
-    echo "  clean [-n]      Remove all screenshots except the latest"
-    echo "  nuke  [-n]      Remove ALL screenshots"
-    echo "  auto on|off|status  Toggle per-dir 'screenshots/<today>/' prefix for mv"
-    echo "  sync [-n]       Push ./screenshots to the mirrored remote dir (rsync)"
-    echo "  sync config <host> <remote-home>  Set/show the sync target"
-    exit 1
-    ;;
-esac
+def cmd_nuke():
+    files = all_screenshots()
+    if not files:
+        print("No screenshots to remove.")
+        return 0
+    if DRY_RUN:
+        print(f"Dry run -- would remove {len(files)} screenshot(s):")
+        for f in files:
+            print(f"  {short(f)}")
+    else:
+        for f in files:
+            os.remove(f)
+        print(f"Removed {len(files)} screenshot(s).")
+    return 0
+
+
+def cmd_default():
+    file = latest()
+    if not file:
+        print("No screenshots found.")
+        return 1
+    print(short(file))
+    copy_to_clipboard(file)
+    return 0
+
+
+# --- arg parsing & dispatch ------------------------------------------------
+
+def build_parser():
+    # Global flags live on a parent parser so they're accepted before OR after the
+    # subcommand (e.g. `sc -p cp` and `sc cp -p`). default=SUPPRESS keeps a subparser
+    # from clobbering a value already set on the main parser.
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("-p", "--path", action="store_true", default=argparse.SUPPRESS,
+                        help="copy file path instead of image contents")
+    common.add_argument("-n", "--dry-run", action="store_true", default=argparse.SUPPRESS,
+                        help="preview clean/nuke deletions, or rsync --dry-run for sync")
+
+    parser = argparse.ArgumentParser(
+        prog="sc", parents=[common],
+        description="Screenshot utility for macOS. With no command: print path + copy image.")
+    sub = parser.add_subparsers(dest="command")
+
+    sub.add_parser("print", parents=[common], help="print the latest screenshot path")
+    sub.add_parser("list", parents=[common], help="list all screenshots")
+    sub.add_parser("open", parents=[common], help="open the latest screenshot")
+    sub.add_parser("cp", parents=[common], help="copy latest screenshot (image or path) to clipboard")
+
+    p_mv = sub.add_parser("mv", parents=[common],
+                          help="move latest screenshot to <dest> (dirs created as needed)")
+    p_mv.add_argument("dest", nargs="?", default="", help="destination path or directory")
+
+    p_auto = sub.add_parser("auto", parents=[common],
+                            help="toggle per-dir 'screenshots/<today>/' prefix for mv")
+    p_auto.add_argument("action", nargs="?", default="status",
+                        help="on | off | status (default: status)")
+
+    p_sync = sub.add_parser("sync", parents=[common],
+                            help="push ./screenshots to the mirrored remote dir (rsync)")
+    p_sync.add_argument("rest", nargs="*",
+                        help="'config <host> <remote-home>' to set/show target; empty to push")
+
+    sub.add_parser("clean", parents=[common], help="remove all screenshots except the latest")
+    sub.add_parser("nuke", parents=[common], help="remove ALL screenshots")
+    return parser
+
+
+def main(argv):
+    global COPY_PATH, DRY_RUN
+    args = build_parser().parse_args(argv)
+    COPY_PATH = getattr(args, "path", False)
+    DRY_RUN = getattr(args, "dry_run", False)
+
+    dispatch = {
+        None: cmd_default,
+        "print": cmd_print,
+        "list": cmd_list,
+        "open": cmd_open,
+        "cp": cmd_cp,
+        "clean": cmd_clean,
+        "nuke": cmd_nuke,
+    }
+    if args.command in dispatch:
+        return dispatch[args.command]()
+    if args.command == "mv":
+        return cmd_mv(args.dest)
+    if args.command == "auto":
+        return cmd_auto(args.action)
+    if args.command == "sync":
+        return cmd_sync(args.rest)
+    return 1  # unreachable: argparse rejects unknown commands
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
