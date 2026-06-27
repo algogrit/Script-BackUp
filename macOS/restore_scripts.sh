@@ -6,6 +6,9 @@ alias rm="rm -v"
 # Disable homebrew auto update
 export PATH=/opt/homebrew/bin:$PATH
 export HOMEBREW_NO_AUTO_UPDATE=1
+# Don't prompt for confirmation before installing (ask mode is brew's default now);
+# installs are piped via xargs with no TTY, so the prompt would otherwise hang.
+export HOMEBREW_NO_ASK=1
 
 # Defining Resuable functions
 
