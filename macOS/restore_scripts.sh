@@ -87,7 +87,14 @@ sudo cp ~/Script-BackUp/macOS/root/etc/hosts /etc/hosts
 sudo cp ~/Script-BackUp/macOS/root/etc/shells /etc/shells
 
 echo "\033[1;31mChanging Shell...\033[0m"
-chsh -s /opt/homebrew/bin/bash
+# chsh only checks /etc/shells, not that the binary exists. Guard against pointing
+# the login shell at a bash that the brew step never installed (causes a Terminal lockout).
+if [ -x /opt/homebrew/bin/bash ]; then
+  chsh -s /opt/homebrew/bin/bash
+else
+  echo "  /opt/homebrew/bin/bash not found — leaving login shell unchanged to avoid lockout."
+  echo "  Re-run 'chsh -s /opt/homebrew/bin/bash' after 'brew install bash' succeeds."
+fi
 
 echo "\033[1;31mRestoring other configs...\033[0m"
 cp ~/Script-BackUp/macOS/.ignore ~/
