@@ -42,7 +42,7 @@ cat $HOME/Script-BackUp/macOS/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
 ## Special Installs
-brew install --cask --no-quarantine wine-crossover
+brew install --cask wine-crossover
 ## Normal Installs
 cat brew_casks.list | sort -r | xargs -n 1 brew install --cask &
 cat brew_casks.list | xargs -n 1 brew install --cask
