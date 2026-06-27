@@ -198,9 +198,15 @@ defaults write com.apple.dock showAppExposeGestureEnabled -int 1
 defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerVertSwipeGesture -int 2
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerVertSwipeGesture -int 2
 
-# Accessibility > Pointer Control: enable dragging with three fingers
+# Accessibility > Pointer Control: enable dragging with three fingers.
+# macOS cannot bind three fingers to both swipe and drag, so the three-finger swipe
+# gestures must be turned off or the drag never engages (System Settings does this for you).
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
 
 # Security & Privacy: require password immediately after sleep / screen saver.
 # Modern macOS ignores the legacy `defaults write com.apple.screensaver askForPassword`,
@@ -208,7 +214,8 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeF
 sysadminctl -screenLock immediate -password -
 
 killall Dock 2>/dev/null || true
-echo "  Note: keyboard Fn and trackpad changes may need a logout/restart to take effect."
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u 2>/dev/null || true
+echo "  IMPORTANT: keyboard Fn and trackpad changes only apply after a LOG OUT / RESTART."
 
 echo "\033[1;31mRestoring iTerm2 preferences...\033[0m"
 echo "  (Quit iTerm2 before this step so it doesn't overwrite on exit.)"
