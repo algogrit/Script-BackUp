@@ -15,7 +15,7 @@ if bash_startup_optional_enabled; then
 fi
 
 # Editor Configuration
-export EDITOR="/opt/homebrew/bin/code -w"
+export EDITOR="$BREW_PREFIX/bin/code -w"
 
 # Set LSCOLORS when CLICOLOR is enabled
 export LSCOLORS="ecfxcxdxbxegedabagacad"
@@ -40,7 +40,7 @@ fi
 # Vimpager
 # export PAGER=vimpager
 export LESS=-R
-export LESSOPEN="/opt/homebrew/bin/src-hilite-lesspipe.sh %s"
+export LESSOPEN="$BREW_PREFIX/bin/src-hilite-lesspipe.sh %s"
 
 # Homebrew
 export HOMEBREW_NO_ANALYTICS=true

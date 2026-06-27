@@ -3,9 +3,12 @@ if bash_startup_debug_enabled; then
   echo -e "\033[1;34m~/bash_scripts/.bash_load Loaded\033[0m"
 fi
 
-# HOMEBREW
-export PATH=/opt/homebrew/bin:$PATH ## Redundant!? No, this is definitely required, to be placed before /usr/bin
-export PATH=/opt/homebrew/sbin:$PATH
+# HOMEBREW — brew isn't on PATH at login, so seed it from the canonical prefix
+# (/opt/homebrew on Apple Silicon; Intel's /usr/local/bin is already on PATH),
+# then let `brew --prefix` be the source of truth for everything downstream.
+[ -x /opt/homebrew/bin/brew ] && export PATH="/opt/homebrew/sbin:/opt/homebrew/bin:$PATH"
+[ -x /usr/local/bin/brew ]    && export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export BREW_PREFIX="$(brew --prefix 2>/dev/null)"
 
 # Sourcing Bash Paths and language env for all shells
 bash_startup_source ~/bash_scripts/.bash_paths
@@ -26,9 +29,9 @@ if bash_startup_optional_enabled; then
     unset _brew_prefix
   fi
 
-  if [ -f /opt/homebrew/opt/autoenv/activate.sh ]; then
+  if [ -f "$BREW_PREFIX/opt/autoenv/activate.sh" ]; then
     # shellcheck source=/dev/null
-    . /opt/homebrew/opt/autoenv/activate.sh
+    . "$BREW_PREFIX/opt/autoenv/activate.sh"
   fi
 
   if command -v direnv >/dev/null 2>&1; then

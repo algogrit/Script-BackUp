@@ -70,7 +70,7 @@ jenv versions > java.versions
 fnm ls > node.versions
 
 mkdir -p version-manager-config
-cp /usr/local/var/rbenv/version version-manager-config/rbenv-version
+cp "$(rbenv root)/version" version-manager-config/rbenv-version
 cp ~/.pyenv/version version-manager-config/pyenv-version
 cp ~/.goenv/version version-manager-config/goenv-version
 cp ~/.jenv/version version-manager-config/jenv-version

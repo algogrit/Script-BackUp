@@ -29,7 +29,7 @@ export ELM_HOME=~/.elm
 
 # Language Version Managers
 ## rbenv
-export RBENV_ROOT=/usr/local/var/rbenv # Create rubies in Brew
+export RBENV_ROOT="$BREW_PREFIX/var/rbenv" # Rubies under the Homebrew prefix
 if bash_startup_optional_enabled && command -v rbenv >/dev/null 2>&1; then
   eval "$(rbenv init -)"
 fi
