@@ -34,3 +34,4 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
   - App Expose
 - Accessibility
   - Pointer Control (Enable dragging with 3 fingers)
+- Battery Percentage
