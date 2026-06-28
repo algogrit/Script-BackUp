@@ -70,10 +70,10 @@ jenv versions > java.versions
 fnm ls > node.versions
 
 mkdir -p version-manager-config
-cp "$(rbenv root)/version" version-manager-config/rbenv-version
-cp ~/.pyenv/version version-manager-config/pyenv-version
-cp ~/.goenv/version version-manager-config/goenv-version
-cp ~/.jenv/version version-manager-config/jenv-version
+rbenv global > version-manager-config/rbenv-version
+pyenv global > version-manager-config/pyenv-version
+goenv global > version-manager-config/goenv-version
+jenv global  > version-manager-config/jenv-version
 
 rbenv rehash
 pyenv rehash
