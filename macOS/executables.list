@@ -300,7 +300,6 @@ cntraining
 code
 code-tunnel
 codecctl
-coderay
 codesign
 codesign_allocate
 codex
@@ -1168,7 +1167,6 @@ hprof-conv
 htcacheclean
 htdbm
 htdigest
-htmldiff
 htmltree
 htmltree5.34
 htop
@@ -1340,8 +1338,10 @@ jcmd
 jconsole
 jcontrol
 jdb
+jdeprscan
 jdeps
 jenv
+jfr
 jhsdb
 jimage
 jinfo
@@ -1349,6 +1349,8 @@ jj
 jjs
 jlink
 jmap
+jmod
+jnativescan
 jobs
 join
 jot
@@ -1371,6 +1373,7 @@ jsonschema
 jstack
 jstat
 jstatd
+jwebserver
 jxl_from_tree
 jxlinfo
 kadmin
@@ -1436,7 +1439,6 @@ ldappasswd
 ldapsearch
 ldapurl
 ldapwhoami
-ldiff
 leaks
 leave
 lein
@@ -1612,7 +1614,6 @@ mg
 mib2c
 mib2c-update
 mig
-mirb
 missing_codec_desc
 mix
 mkbom
@@ -1704,11 +1705,6 @@ mpmetis
 mprof-report
 mpsgraphtool
 mpv
-mrbc
-mrdb
-mruby
-mruby-config
-mruby-strip
 msbuild
 msgattrib
 msgcat
@@ -2092,7 +2088,6 @@ pod2usage5.34
 podchecker
 podchecker5.34
 policytool
-posix-spawn-benchmark
 postalias
 postcat
 postconf
@@ -2149,7 +2144,6 @@ protoc-gen-upbdefs
 protoc-gen-upbdefs-35.1.0
 prove
 prove5.34
-pry
 ps
 ps2ascii
 ps2epsi
@@ -2287,8 +2281,6 @@ quotacheck
 quotaoff
 quotaon
 R
-racc
-racc2y
 racoon
 rails
 rake
@@ -2302,34 +2294,8 @@ raw2tiff
 rawshark
 rawtextdump
 rbenv
-rbenv---version
-rbenv-commands
-rbenv-completions
-rbenv-exec
-rbenv-global
-rbenv-help
-rbenv-hooks
-rbenv-init
 rbenv-install
-rbenv-local
-rbenv-prefix
-rbenv-rehash
-rbenv-root
-rbenv-sh-rehash
-rbenv-sh-shell
-rbenv-shims
 rbenv-uninstall
-rbenv-version
-rbenv-version-file
-rbenv-version-file-read
-rbenv-version-file-write
-rbenv-version-name
-rbenv-version-origin
-rbenv-versions
-rbenv-whence
-rbenv-which
-rbs
-rdbg
 rdjpgcom
 rdoc
 read
@@ -2424,7 +2390,6 @@ sc
 sc_auth
 sc_usage
 sc-hsm-tool
-sc.bash
 scala
 scala-cli
 scalac
@@ -2660,7 +2625,6 @@ symbols
 symbolscache
 symkeyutil
 sync
-syntax_suggest
 sysadminctl
 syscallbypid.d
 syscallbyproc.d
@@ -2794,7 +2758,6 @@ ttx
 tty
 twm
 type
-typeprof
 typer
 uasysdiagnose
 uchardet
@@ -3124,7 +3087,6 @@ xzfgrep
 xzgrep
 xzless
 xzmore
-y2racc
 yaa
 yacc
 yamlpp-events

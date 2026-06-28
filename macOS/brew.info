@@ -138,7 +138,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7725 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7728 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -166,4 +166,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   ruby
-401 kegs, 225,988 files, 11.3GB
+401 kegs, 225,989 files, 11.3GB

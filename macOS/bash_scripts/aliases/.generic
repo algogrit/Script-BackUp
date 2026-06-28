@@ -9,6 +9,7 @@ alias ls="ls -GAF"
 alias vp="vimpager"
 alias bat="PAGER=less bat"
 alias cat="bat"
+alias pwdh='echo "~/${PWD#$HOME/}"'
 
 # Rsync with Progress
 alias rsyncP='rsync -avhP'
