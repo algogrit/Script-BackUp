@@ -7,7 +7,7 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
 - This `README.md`.
 - `update_scripts.sh` - Use to backup the sytem to this folder. Also snapshots iTerm2 prefs into `iTerm2/`.
 - `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations. Applies the System Settings tweaks (via `apply_system_settings.sh`), and restores iTerm2 prefs + enables iTerm2's native custom-folder sync. Quit iTerm2 before running.
-- `apply_system_settings.sh` - Applies the curated `defaults write` System Settings tweaks and login items. Called by `restore_scripts.sh`; can also be run on its own to re-apply just these settings.
+- `apply_system_settings.sh` - Applies the curated `defaults write` System Settings tweaks and login items. Called by `restore_scripts.sh`; can also be run on its own to re-apply just these settings. Also enforces Private Wi-Fi Address (off for "Om AX", on everywhere else) — this part needs `sudo` **and** the terminal to have Full Disk Access (System Settings > Privacy & Security > Full Disk Access), and fully applies after a reboot or Wi-Fi off/on.
 
 ## Checklist
 

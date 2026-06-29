@@ -18,6 +18,11 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 # Keyboard: use F1, F2, etc. as standard function keys (press Fn for special features)
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 
+# Keyboard: Key Repeat = Fast (slider max) and Delay Until Repeat = Short (slider max).
+# Lower numbers are faster; these match the rightmost slider positions in System Settings.
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
+
 # Trackpad: tap to click (driver domains + NSGlobalDomain mirror; -currentHost holds it at login)
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -56,6 +61,64 @@ sysadminctl -screenLock immediate -password -
 # Tahoe/Big Sur+ moved this out of the legacy menu extra into Control Center,
 # a per-host key applied by restarting ControlCenter (see killall below).
 defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
+
+# Private Wi-Fi Address (MAC randomization): keep it ON everywhere except the
+# "Om AX" network, which is turned OFF.
+#   - Per-SSID lives in com.apple.wifi.known-networks.plist as a string key
+#     PrivateMACAddressModeUserSetting ("off" | "rotating" | "static"); "On" = rotating.
+#   - The system default lives in airport.preferences.plist as an int key
+#     PrivateMACAddressModeSystemSetting (0 = On, 1 = Off); we pin it to 0.
+# Both plists are root-owned AND TCC-protected, so this needs `sudo` *and* the
+# terminal running this script must have Full Disk Access (System Settings >
+# Privacy & Security > Full Disk Access). Without FDA the read is denied and the
+# block self-skips. Values are version-specific (verified on macOS Sequoia).
+echo "\033[1;31mApplying Private Wi-Fi Address settings (Om AX off, rest on)...\033[0m"
+sudo python3 - <<'PY' || echo "  Skipped Wi-Fi settings (needs sudo + Full Disk Access for this terminal)."
+import plistlib, sys
+
+OFF_SSID = "Om AX"  # the one network whose Private Wi-Fi Address stays OFF
+KN = "/Library/Preferences/com.apple.wifi.known-networks.plist"
+AP = "/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist"
+PREFIX = "wifi.network.ssid."
+
+try:
+    with open(KN, "rb") as f:
+        kn = plistlib.load(f)
+except PermissionError:
+    print("  Full Disk Access missing for this terminal; cannot edit Wi-Fi settings.")
+    sys.exit(1)
+
+changed = False
+saw_off_ssid = False
+for key, entry in kn.items():
+    if not key.startswith(PREFIX) or not isinstance(entry, dict):
+        continue
+    ssid = key[len(PREFIX):]
+    want = "off" if ssid == OFF_SSID else "rotating"
+    saw_off_ssid = saw_off_ssid or ssid == OFF_SSID
+    if entry.get("PrivateMACAddressModeUserSetting") != want:
+        entry["PrivateMACAddressModeUserSetting"] = want
+        changed = True
+        print(f"  {ssid}: Private Wi-Fi Address -> {'Off' if want == 'off' else 'On'}")
+if not saw_off_ssid:
+    print(f'  Note: "{OFF_SSID}" is not a known network yet; nothing to turn off.')
+if changed:
+    with open(KN, "wb") as f:
+        plistlib.dump(kn, f, fmt=plistlib.FMT_BINARY)
+
+# System default: pin to 0 (On) so unknown/future networks randomize by default.
+with open(AP, "rb") as f:
+    ap = plistlib.load(f)
+if ap.get("PrivateMACAddressModeSystemSetting") != 0:
+    ap["PrivateMACAddressModeSystemSetting"] = 0
+    with open(AP, "wb") as f:
+        plistlib.dump(ap, f, fmt=plistlib.FMT_BINARY)
+    print("  System default: Private Wi-Fi Address -> On")
+PY
+# Reload the Wi-Fi daemon so it re-reads the plist (full effect after a reboot or
+# Wi-Fi off/on; without this the daemon keeps the old cached value).
+sudo killall -HUP airportd 2>/dev/null || true
+echo "  NOTE: Private Wi-Fi Address changes fully apply after a REBOOT or Wi-Fi off/on."
 
 killall cfprefsd 2>/dev/null || true
 killall Dock SystemUIServer ControlCenter 2>/dev/null || true
