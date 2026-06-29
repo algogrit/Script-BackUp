@@ -184,38 +184,8 @@ cp ~/Script-BackUp/macOS/VSCode/settings.json ~/Library/Application\ Support/Cod
 cp ~/Script-BackUp/macOS/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
 cat ~/Script-BackUp/macOS/VSCode/extensions.list | xargs -n 1 code --install-extension
 
-echo "\033[1;31mApplying macOS System Settings...\033[0m"
-
-# Desktop & Screen Saver > Hot Corner: bottom-left = Put Display to Sleep (action 10)
-defaults write com.apple.dock wvous-bl-corner -int 10
-defaults write com.apple.dock wvous-bl-modifier -int 0
-
-# Keyboard: use F1, F2, etc. as standard function keys (press Fn for special features)
-defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
-
-# Trackpad: App Expose (four-finger swipe down)
-defaults write com.apple.dock showAppExposeGestureEnabled -int 1
-defaults write com.apple.AppleMultitouchTrackpad TrackpadFourFingerVertSwipeGesture -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerVertSwipeGesture -int 2
-
-# Accessibility > Pointer Control: enable dragging with three fingers.
-# macOS cannot bind three fingers to both swipe and drag, so the three-finger swipe
-# gestures must be turned off or the drag never engages (System Settings does this for you).
-defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
-defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerHorizSwipeGesture -int 0
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 0
-defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGesture -int 0
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
-
-# Security & Privacy: require password immediately after sleep / screen saver.
-# Modern macOS ignores the legacy `defaults write com.apple.screensaver askForPassword`,
-# so use the supported, version-agnostic sysadminctl. NOTE: this prompts for the account password.
-sysadminctl -screenLock immediate -password -
-
-killall Dock 2>/dev/null || true
-/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u 2>/dev/null || true
-echo "  IMPORTANT: keyboard Fn and trackpad changes only apply after a LOG OUT / RESTART."
+# Apply macOS System Settings tweaks + login items (also runnable standalone).
+./apply_system_settings.sh
 
 echo "\033[1;31mRestoring iTerm2 preferences...\033[0m"
 echo "  (Quit iTerm2 before this step so it doesn't overwrite on exit.)"

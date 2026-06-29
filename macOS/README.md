@@ -6,7 +6,8 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
 
 - This `README.md`.
 - `update_scripts.sh` - Use to backup the sytem to this folder. Also snapshots iTerm2 prefs into `iTerm2/`.
-- `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations. Applies a curated set of `defaults write` System Settings tweaks, and restores iTerm2 prefs + enables iTerm2's native custom-folder sync. Quit iTerm2 before running.
+- `restore_scripts.sh` - Copies scripts from this folder to the original, filesystem locations. Applies the System Settings tweaks (via `apply_system_settings.sh`), and restores iTerm2 prefs + enables iTerm2's native custom-folder sync. Quit iTerm2 before running.
+- `apply_system_settings.sh` - Applies the curated `defaults write` System Settings tweaks and login items. Called by `restore_scripts.sh`; can also be run on its own to re-apply just these settings.
 
 ## Checklist
 
@@ -32,6 +33,17 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
 - Keyboard (Fn keys)
 - Trackpad
   - App Expose
+  - Tracking Speed: Fastest
 - Accessibility
   - Pointer Control (Enable dragging with 3 fingers)
-- Battery Percentage
+- Show Battery Percentage
+- Login Items
+  - Caffeine
+  - Google Drive
+  - iTerm2
+  - MenuMeters
+  - Raycast
+  - Rectangle
+  - Synology Drive Client
+  - Usage
+  - Zoho WorkDrive TrueSync

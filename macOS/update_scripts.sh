@@ -9,6 +9,7 @@ echo "\033[1;31mBacking up non-system files...\033[0m"
 cp mini_update.sh /tmp
 cp update_scripts.sh /tmp
 cp restore_scripts.sh /tmp
+cp apply_system_settings.sh /tmp
 cp read_android_packages.sh /tmp
 cp android_packages.list /tmp
 cp README.md /tmp
@@ -26,6 +27,7 @@ echo "\033[1;31mRestoring non-system files...\033[0m"
 cp /tmp/mini_update.sh .
 cp /tmp/update_scripts.sh .
 cp /tmp/restore_scripts.sh .
+cp /tmp/apply_system_settings.sh .
 cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
 cp /tmp/README.md .
