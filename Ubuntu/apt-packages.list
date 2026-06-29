@@ -290,7 +290,9 @@ shim-signed
 shotwell
 silversearcher-ag
 simple-scan
+smartmontools
 snapd
+softhsm2
 sox
 speech-dispatcher
 spice-vdagent
@@ -331,6 +333,7 @@ vim-tiny
 virt-manager
 w3m
 wdtokentool-proxkey
+webkit2gtk-driver
 wget
 whiptail
 whoopsie

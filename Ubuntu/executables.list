@@ -2375,6 +2375,8 @@ sleep
 slirp4netns
 slogin
 slxdecode
+smartctl
+smartd
 smproxy
 smtpd.py
 snap
@@ -2389,6 +2391,7 @@ sofdsnoop-bpfcc
 soffice
 softhsm2-dump-file
 softhsm2-keyconv
+softhsm2-migrate
 softhsm2-util
 softirqs-bpfcc
 software-properties-gtk
@@ -2738,6 +2741,7 @@ update-rc.d
 update_rubygems
 update-secureboot-policy
 update-shells
+update-smart-drivedb
 update-xmlcatalog
 upgrade-packages
 upower
@@ -2846,6 +2850,7 @@ Watchsafe_ProxKey
 wayland-scanner
 wc
 wdctl
+WebKitWebDriver
 webpack
 webpack-cli
 westcos-tool

@@ -35,6 +35,7 @@ alias gmct='git multi commit -m "Updating Tasks."'
 alias gmp="git multi push"
 alias gmr="git multi remote update"
 alias gmu="git multi up"
+alias gmmm="git multi merge-to master"
 alias gru="git remote update"
 alias grlog="git log \`git rev-parse --abbrev-ref HEAD\`..origin/\`git rev-parse --abbrev-ref HEAD\`"
 
