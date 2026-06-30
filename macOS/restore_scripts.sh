@@ -50,9 +50,6 @@ echo "\033[1;31mTapping brews...\033[0m"
 cat $HOME/Script-BackUp/macOS/brew_taps.list | xargs -n 1 brew tap
 
 echo "\033[1;31mInstalling all brew casks...\033[0m"
-## Special Installs
-brew install --cask wine-crossover
-## Normal Installs
 cat brew_casks.list | sort -r | xargs -n 1 brew install --cask &
 cat brew_casks.list | xargs -n 1 brew install --cask
 
@@ -61,7 +58,7 @@ cat ~/Script-BackUp/macOS/brews.list | xargs brew install
 brew upgrade
 
 echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
-cat "$HOME/Script-BackUp/macOS/mas.list" | cut -d ' ' -f 1 | xargs -n 1 mas install || exit 1
+cat "$HOME/Script-BackUp/macOS/mas.list" | awk '{print $1}' | xargs -n 1 mas install || exit 1
 
 echo "\033[1;31mAll Good? (Y/n)\033[0m"
 read _all_good
