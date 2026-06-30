@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-RBENV_VERSION=3.4.4 `rbenv root`/shims/git-up

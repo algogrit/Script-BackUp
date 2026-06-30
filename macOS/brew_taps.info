@@ -1,5 +1,5 @@
 gcenx/wine: Installed
-Untrusted
+Trusted
 1 cask
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (65 files, 366.3KB)
 From: https://github.com/gcenx/homebrew-wine
@@ -14,7 +14,7 @@ Untrusted
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (268 files, 1.9MB)
 From: https://github.com/hashicorp/homebrew-tap
 HEAD: 799920c3dff461e9bf630be4c687e43606bbc1e3
-last commit: 3 days ago
+last commit: 5 days ago
 ==> Formulae
 terraform
 ==> Casks
