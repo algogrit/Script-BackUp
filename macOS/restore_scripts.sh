@@ -145,9 +145,40 @@ cp ~/Script-BackUp/macOS/.tmux.conf ~/
 cp ~/Script-BackUp/macOS/.sackrc ~/
 cp ~/Script-BackUp/macOS/.irbrc ~/
 cp ~/Script-BackUp/macOS/.gemrc ~/
-mkdir -p ~/.config/karabiner/
-cp ~/Script-BackUp/macOS/karabiner.json ~/.config/karabiner/
 cp ~/Script-BackUp/macOS/.lein/* ~/.lein
+
+echo "\033[1;31mConfiguring Karabiner-Elements...\033[0m"
+mkdir -p ~/.config/karabiner/
+# Back up any config Karabiner's onboarding may have written, then restore ours.
+[ -f ~/.config/karabiner/karabiner.json ] && \
+  cp ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak
+cp ~/Script-BackUp/macOS/karabiner.json ~/.config/karabiner/
+
+# Copying the JSON is not enough: on Karabiner-Elements 14+ the config is inert
+# until (1) the DriverKit virtual-HID system extension is activated & approved
+# and (2) Input Monitoring is granted to its core service. Without Input
+# Monitoring the core service can't enumerate devices, so the Devices pane is
+# empty and the per-device remaps never bind. Both are SIP/TCC-protected (not
+# scriptable), so trigger the prompts, open the pane, and tell the user what to click.
+KE_APP="/Applications/Karabiner-Elements.app"
+KE_DRIVER="/Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager"
+if [ -d "$KE_APP" ]; then
+  # 1) Activate the DriverKit virtual-HID system extension (user must still
+  #    approve it once in System Settings > Privacy & Security if prompted).
+  [ -x "$KE_DRIVER" ] && "$KE_DRIVER" activate || true
+  # 2) Launch Karabiner so its core service starts, reads our config, and
+  #    requests Input Monitoring (this is what triggers the TCC prompt).
+  open -a "$KE_APP" || true
+  # 3) Jump the user straight to the Input Monitoring pane to grant it.
+  open "x-apple.systempreferences:com.apple.preference.security?Privacy_ListenEvent" || true
+  echo "  IMPORTANT: Karabiner needs one-time manual approval to see your keyboard:"
+  echo "    - Approve the Karabiner system extension if System Settings prompts."
+  echo "    - Enable Input Monitoring for 'Karabiner-Elements' / 'Karabiner-Core-Service'."
+  echo "    - In Karabiner > Devices, tick 'Modify events' for your external keyboard."
+  echo "    - A REBOOT may be needed before the device appears and remaps apply."
+else
+  echo "  Skipping Karabiner setup (not installed) — config copied for later."
+fi
 
 echo "\033[1;31mSetting up managers...\033[0m"
 
