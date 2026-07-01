@@ -86,9 +86,10 @@ defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool 
 # Two mechanisms are written for cross-version support:
 #
 #  1. Per-host module int.
-#     8 = Always Show in Menu Bar, 18 = Show When Active, 2 = Don't Show.
-#     On macOS 26 Tahoe, Apple's new Menu Bar pane writes 2 when these
-#     controls are checked, so keep the old value only for pre-Tahoe macOS.
+#     Legacy values: 8 = Always Show, 18 = Show When Active, 2 = Don't Show.
+#     On macOS 26 Tahoe, Apple's new Menu Bar pane uses these differently:
+#     Bluetooth checked = 2; Sound "Always Show" = 18. Keep the old values only
+#     for pre-Tahoe macOS.
 #  2. macOS 26 Tahoe: visibility is also driven by
 #     `NSStatusItem VisibleCC <Module>` = 1 in the MAIN domain, with an optional
 #     `NSStatusItem Preferred Position <Module>` for left/right ordering.
@@ -100,7 +101,7 @@ defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool 
 macos_major="$(sw_vers -productVersion | cut -d. -f1)"
 if [ "${macos_major:-0}" -ge 26 ] 2>/dev/null; then
   defaults -currentHost write com.apple.controlcenter Bluetooth -int 2
-  defaults -currentHost write com.apple.controlcenter Sound     -int 2
+  defaults -currentHost write com.apple.controlcenter Sound     -int 18
 else
   defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
   defaults -currentHost write com.apple.controlcenter Sound     -int 8
@@ -108,11 +109,18 @@ fi
 # Tahoe (macOS 26):
 defaults write com.apple.controlcenter "NSStatusItem VisibleCC Bluetooth" -int 1
 defaults write com.apple.controlcenter "NSStatusItem VisibleCC Sound"     -int 1
+defaults write com.apple.controlcenter "NSStatusItem VisibleCC Display"   -int 1
 defaults write com.apple.controlcenter "NSStatusItem Preferred Position Bluetooth" -int 469
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Display"   -int 396
 defaults write com.apple.controlcenter "NSStatusItem Preferred Position Sound"     -int 431
 
-# Displays: show only when an external display is connected ("Show When Active").
-defaults -currentHost write com.apple.controlcenter Display -int 18
+# Displays: always show in the menu bar. On Tahoe this is 18; on older macOS,
+# 18 meant "Show When Active", so use the legacy Always Show value there.
+if [ "${macos_major:-0}" -ge 26 ] 2>/dev/null; then
+  defaults -currentHost write com.apple.controlcenter Display -int 18
+else
+  defaults -currentHost write com.apple.controlcenter Display -int 8
+fi
 
 # Private Wi-Fi Address (MAC randomization): keep it ON everywhere except the
 # "Om AX" network, which is turned OFF.
