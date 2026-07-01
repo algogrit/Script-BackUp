@@ -23,6 +23,25 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
+# Keyboard > Input Sources: add "Hindi - Transliteration" alongside U.S.
+# (phonetic Devanagari: typing "namaste" produces नमस्ते). The input source is
+# provided by /System/Library/Input Methods/TransliterationIM.app.
+# Idempotent: only append if the Hindi mode isn't already enabled.
+if ! defaults read com.apple.HIToolbox AppleEnabledInputSources 2>/dev/null \
+     | grep -q "com.apple.inputmethod.TransliterationIM.hi"; then
+  defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add \
+    '{ "Bundle ID" = "com.apple.inputmethod.TransliterationIM"; "Input Mode" = "com.apple.inputmethod.TransliterationIM.hi"; InputSourceKind = "Input Mode"; }'
+  echo "  Added Hindi (Transliteration) input source."
+else
+  echo "  Hindi (Transliteration) input source already enabled."
+fi
+
+# Keyboard: "Press 🌐 (Fn/Globe) key to" = Change Input Source, so Fn toggles
+# between English and Hindi. Values: 0 = Change Input Source, 1 = Emoji &
+# Symbols, 2 = Start Dictation. (Independent of com.apple.keyboard.fnState above,
+# which only affects the F1–F12 function-key row.)
+defaults write com.apple.HIToolbox AppleFnUsageType -int 0
+
 # Trackpad: tap to click (driver domains + NSGlobalDomain mirror; -currentHost holds it at login)
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -62,15 +81,31 @@ sysadminctl -screenLock immediate -password -
 # a per-host key applied by restarting ControlCenter (see killall below).
 defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
 
-# Control Center: show Bluetooth, Volume (Sound) and Displays in the menu bar.
-# Module int values: 8 = Always Show in Menu Bar, 18 = Show When Active, 2 = Don't Show.
-# "Displays (when one is connected)" == Show When Active.
-# NOTE: like BatteryShowPercentage/Wi-Fi, these keys are macOS-version-specific; if one
-# doesn't take, set it by hand and read the live value back with
-# `defaults -currentHost read com.apple.controlcenter`, then hardcode it here.
+# Control Center: show Bluetooth and Volume (Sound) in the menu bar.
+# Two mechanisms, written together for cross-version support:
+#
+#  1. Legacy (macOS 15 Sequoia and earlier): per-host module int.
+#     8 = Always Show in Menu Bar, 18 = Show When Active, 2 = Don't Show.
+#  2. macOS 26 Tahoe: the per-host int above is vestigial for visibility
+#     (Bluetooth shows even with int 2). Visibility is driven by
+#     `NSStatusItem VisibleCC <Module>` = 1 in the MAIN domain, with an optional
+#     `NSStatusItem Preferred Position <Module>` for left/right ordering.
+#
+# The other OS ignores the keys it doesn't use, so writing both is safe.
+# Tahoe values were captured live after enabling both by hand; if a future macOS
+# ignores them, set by hand (System Settings > Control Center) and re-capture:
+#   defaults read com.apple.controlcenter | grep -iE 'VisibleCC|Preferred Position'
+# Legacy (Sequoia and earlier):
 defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
 defaults -currentHost write com.apple.controlcenter Sound     -int 8
-defaults -currentHost write com.apple.controlcenter Display   -int 18
+# Tahoe (macOS 26):
+defaults write com.apple.controlcenter "NSStatusItem VisibleCC Bluetooth" -int 1
+defaults write com.apple.controlcenter "NSStatusItem VisibleCC Sound"     -int 1
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Bluetooth" -int 469
+defaults write com.apple.controlcenter "NSStatusItem Preferred Position Sound"     -int 431
+
+# Displays: show only when an external display is connected ("Show When Active").
+defaults -currentHost write com.apple.controlcenter Display -int 18
 
 # Private Wi-Fi Address (MAC randomization): keep it ON everywhere except the
 # "Om AX" network, which is turned OFF.
