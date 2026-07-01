@@ -83,12 +83,13 @@ sysadminctl -screenLock immediate -password -
 defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
 
 # Control Center: show Bluetooth and Volume (Sound) in the menu bar.
-# Two mechanisms, written together for cross-version support:
+# Two mechanisms are written for cross-version support:
 #
-#  1. Legacy (macOS 15 Sequoia and earlier): per-host module int.
+#  1. Per-host module int.
 #     8 = Always Show in Menu Bar, 18 = Show When Active, 2 = Don't Show.
-#  2. macOS 26 Tahoe: the per-host int above is vestigial for visibility
-#     (Bluetooth shows even with int 2). Visibility is driven by
+#     On macOS 26 Tahoe, Apple's new Menu Bar pane writes 2 when these
+#     controls are checked, so keep the old value only for pre-Tahoe macOS.
+#  2. macOS 26 Tahoe: visibility is also driven by
 #     `NSStatusItem VisibleCC <Module>` = 1 in the MAIN domain, with an optional
 #     `NSStatusItem Preferred Position <Module>` for left/right ordering.
 #
@@ -96,9 +97,14 @@ defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool 
 # Tahoe values were captured live after enabling both by hand; if a future macOS
 # ignores them, set by hand (System Settings > Control Center) and re-capture:
 #   defaults read com.apple.controlcenter | grep -iE 'VisibleCC|Preferred Position'
-# Legacy (Sequoia and earlier):
-defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
-defaults -currentHost write com.apple.controlcenter Sound     -int 8
+macos_major="$(sw_vers -productVersion | cut -d. -f1)"
+if [ "${macos_major:-0}" -ge 26 ] 2>/dev/null; then
+  defaults -currentHost write com.apple.controlcenter Bluetooth -int 2
+  defaults -currentHost write com.apple.controlcenter Sound     -int 2
+else
+  defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
+  defaults -currentHost write com.apple.controlcenter Sound     -int 8
+fi
 # Tahoe (macOS 26):
 defaults write com.apple.controlcenter "NSStatusItem VisibleCC Bluetooth" -int 1
 defaults write com.apple.controlcenter "NSStatusItem VisibleCC Sound"     -int 1
@@ -200,3 +206,36 @@ EOF
     echo "  Skipping login item (not installed): $app"
   fi
 done
+
+echo "\033[1;31mConfiguring Karabiner-Elements...\033[0m"
+mkdir -p ~/.config/karabiner/
+# Back up any config Karabiner's onboarding may have written, then restore ours.
+[ -f ~/.config/karabiner/karabiner.json ] && \
+  cp ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak
+cp ~/Script-BackUp/macOS/karabiner.json ~/.config/karabiner/
+
+# Copying the JSON is not enough: on Karabiner-Elements 14+ the config is inert
+# until (1) the DriverKit virtual-HID system extension is activated & approved
+# and (2) Input Monitoring is granted to its core service. Without Input
+# Monitoring the core service can't enumerate devices, so the Devices pane is
+# empty and the per-device remaps never bind. Both are SIP/TCC-protected (not
+# scriptable), so trigger the prompts, open the pane, and tell the user what to click.
+KE_APP="/Applications/Karabiner-Elements.app"
+KE_DRIVER="/Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager"
+if [ -d "$KE_APP" ]; then
+  # 1) Activate the DriverKit virtual-HID system extension (user must still
+  #    approve it once in System Settings > Privacy & Security if prompted).
+  [ -x "$KE_DRIVER" ] && "$KE_DRIVER" activate || true
+  # 2) Launch Karabiner so its core service starts, reads our config, and
+  #    requests Input Monitoring (this is what triggers the TCC prompt).
+  open -a "$KE_APP" || true
+  # 3) Jump the user straight to the Input Monitoring pane to grant it.
+  open "x-apple.systempreferences:com.apple.preference.security?Privacy_ListenEvent" || true
+  echo "  IMPORTANT: Karabiner needs one-time manual approval to see your keyboard:"
+  echo "    - Approve the Karabiner system extension if System Settings prompts."
+  echo "    - Enable Input Monitoring for 'Karabiner-Elements' / 'Karabiner-Core-Service'."
+  echo "    - In Karabiner > Devices, tick 'Modify events' for your external keyboard."
+  echo "    - A REBOOT may be needed before the device appears and remaps apply."
+else
+  echo "  Skipping Karabiner setup (not installed) — config copied for later."
+fi
