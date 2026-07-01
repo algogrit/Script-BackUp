@@ -128,6 +128,15 @@ cp ~/Library/Application\ Support/Code/User/settings.json VSCode
 cp ~/Library/Application\ Support/Code/User/keybindings.json VSCode
 code --list-extensions > VSCode/extensions.list
 
+# Copy Claude Code settings (never ~/.claude.json — it holds oauth/identity)
+mkdir -p Claude Claude/plugins
+cp ~/.claude/settings.json Claude/ 2>/dev/null || true
+cp ~/.claude/keybindings.json Claude/ 2>/dev/null || true
+cp ~/.claude/CLAUDE.md Claude/ 2>/dev/null || true
+cp -r ~/.claude/commands Claude/ 2>/dev/null || true
+cp -r ~/.claude/agents Claude/ 2>/dev/null || true
+cp ~/.claude/plugins/known_marketplaces.json Claude/plugins/ 2>/dev/null || true
+
 # Back up iTerm2 prefs (use defaults export so cfprefsd's in-memory state is flushed)
 echo "\033[1;31mBacking up iTerm2 preferences...\033[0m"
 mkdir -p iTerm2

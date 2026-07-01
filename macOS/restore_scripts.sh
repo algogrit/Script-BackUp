@@ -207,6 +207,15 @@ cp ~/Script-BackUp/macOS/VSCode/settings.json ~/Library/Application\ Support/Cod
 cp ~/Script-BackUp/macOS/VSCode/keybindings.json ~/Library/Application\ Support/Code/User/
 cat ~/Script-BackUp/macOS/VSCode/extensions.list | xargs -n 1 code --install-extension
 
+echo "\033[1;31mRestoring Claude Code settings...\033[0m"
+mkdir -p ~/.claude ~/.claude/plugins
+cp ~/Script-BackUp/macOS/Claude/settings.json ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Claude/keybindings.json ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Claude/CLAUDE.md ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Claude/commands ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Claude/agents ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Claude/plugins/known_marketplaces.json ~/.claude/plugins/ 2>/dev/null || true
+
 # Apply macOS System Settings tweaks + login items (also runnable standalone).
 ./apply_system_settings.sh
 
