@@ -23,18 +23,44 @@ defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
-# Keyboard > Input Sources: add "Hindi - Transliteration" alongside U.S.
+# Keyboard > Input Sources: enable "Hindi - Transliteration" alongside U.S.
 # (phonetic Devanagari: typing "namaste" produces नमस्ते). The input source is
 # provided by /System/Library/Input Methods/TransliterationIM.app.
-# Idempotent: only append if the Hindi mode isn't already enabled.
-if ! defaults read com.apple.HIToolbox AppleEnabledInputSources 2>/dev/null \
-     | grep -q "com.apple.inputmethod.TransliterationIM.hi"; then
-  defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add \
-    '{ "Bundle ID" = "com.apple.inputmethod.TransliterationIM"; "Input Mode" = "com.apple.inputmethod.TransliterationIM.hi"; InputSourceKind = "Input Mode"; }'
-  echo "  Added Hindi (Transliteration) input source."
+#
+# NOTE: a raw `defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add`
+# only sets the preference — it does NOT register the source with the live Text Input
+# System, so an input *method/mode* (unlike a plain com.apple.keylayout.* layout) never
+# shows up in System Settings or the input menu, even after a restart. The reliable fix
+# is Apple's Text Input Services API (TISEnableInputSource) — the same call System
+# Settings makes. Enabling an already-enabled source is a harmless no-op (idempotent).
+if command -v swift >/dev/null 2>&1; then
+  swift - <<'SWIFT' && echo "  Enabled Hindi (Transliteration) input source." \
+                    || echo "  WARNING: could not enable Hindi input source."
+import Carbon
+let id = "com.apple.inputmethod.TransliterationIM.hi"
+let filter = [kTISPropertyInputSourceID as String: id] as CFDictionary
+guard let cf = TISCreateInputSourceList(filter, true)?.takeRetainedValue(),
+      let src = (cf as? [TISInputSource])?.first else {
+    FileHandle.standardError.write("source not found\n".data(using: .utf8)!); exit(1)
+}
+exit(TISEnableInputSource(src) == noErr ? 0 : 2)
+SWIFT
 else
-  echo "  Hindi (Transliteration) input source already enabled."
+  # Fallback for machines without a Swift toolchain: write the preference directly.
+  # (May require a log out / login before the source registers — see note above.)
+  if ! defaults read com.apple.HIToolbox AppleEnabledInputSources 2>/dev/null \
+       | grep -q "com.apple.inputmethod.TransliterationIM.hi"; then
+    defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add \
+      '{ "Bundle ID" = "com.apple.inputmethod.TransliterationIM"; "Input Mode" = "com.apple.inputmethod.TransliterationIM.hi"; InputSourceKind = "Input Mode"; }'
+    echo "  Added Hindi input source via defaults (no swift; may require logout to register)."
+  else
+    echo "  Hindi (Transliteration) input source already enabled."
+  fi
 fi
+
+# Keyboard: show the Input menu (flag/globe) in the menu bar, so the active layout is
+# visible and switchable from there in addition to the Fn/Globe toggle below.
+defaults write com.apple.TextInputMenu visible -bool true
 
 # Keyboard: "Press 🌐 (Fn/Globe) key to" = Change Input Source, so Fn toggles
 # between English and Hindi. Value 1 = Change Input Source (0 = Emoji & Symbols /
@@ -72,10 +98,24 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGes
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
 defaults write NSGlobalDomain com.apple.trackpad.threeFingerVertSwipeGesture -int 0
 
+# Finder: default new windows to Column view (clmv; other values: icnv, Nlsv, glyv)
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+
 # Security & Privacy: require password immediately after sleep / screen saver.
 # Modern macOS ignores the legacy `defaults write com.apple.screensaver askForPassword`,
 # so use the supported, version-agnostic sysadminctl. NOTE: this prompts for the account password.
 sysadminctl -screenLock immediate -password -
+
+# Lock Screen: turn the display off sooner on battery (15 min; on power stays 30 min).
+# These are the same values shown under System Settings > Lock Screen ("Turn display off ...").
+sudo pmset -b displaysleep 15 || true
+sudo pmset -c displaysleep 30 || true
+
+# Lock Screen: show an "if found" message on the login/lock screen.
+# System Settings' "Show message when locked" writes this key; a non-empty value both
+# enables the toggle and supplies the text. Root-owned plist, so needs sudo.
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText \
+  "If found, please contact gaurav@codermana.com" || true
 
 # Control Center: show battery percentage in the menu bar.
 # Tahoe/Big Sur+ moved this out of the legacy menu extra into Control Center,
@@ -181,7 +221,7 @@ sudo killall -HUP airportd 2>/dev/null || true
 echo "  NOTE: Private Wi-Fi Address changes fully apply after a REBOOT or Wi-Fi off/on."
 
 killall cfprefsd 2>/dev/null || true
-killall Dock SystemUIServer ControlCenter 2>/dev/null || true
+killall Dock SystemUIServer ControlCenter Finder 2>/dev/null || true
 /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u 2>/dev/null || true
 echo "  IMPORTANT: keyboard Fn and trackpad changes only apply after a LOG OUT / RESTART."
 
