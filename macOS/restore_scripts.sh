@@ -41,6 +41,13 @@ function _install_languages {
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Rosetta 2 (Apple Silicon only). Some casks (e.g. zoho-workdrive) require it.
+# `oahd` is the Rosetta daemon; if it's running, Rosetta is already installed.
+if [ "$(uname -m)" = "arm64" ] && ! /usr/bin/pgrep -q oahd; then
+  echo "\033[1;31mInstalling Rosetta 2...\033[0m"
+  sudo softwareupdate --install-rosetta --agree-to-license || true
+fi
+
 echo "\033[1;31mStarting the restore process...\033[0m"
 
 echo "\033[1;31mCreating directories...\033[0m"
@@ -53,12 +60,31 @@ echo "\033[1;31mInstalling all brew casks...\033[0m"
 cat brew_casks.list | sort -r | xargs -n 1 brew install --cask &
 cat brew_casks.list | xargs -n 1 brew install --cask
 
+# Zoho WorkDrive TrueSync: no Homebrew cask exists (the `zoho-workdrive` cask is the
+# different full-sync "Sync" app, installed as "Zoho WorkDrive.app"). Best-effort install
+# of the on-demand TrueSync virtual-drive app; safe to fail (login item self-skips if absent).
+TRUESYNC_APP="/Applications/Zoho WorkDrive TrueSync.app"
+TRUESYNC_PKG_URL=""   # pin the current .pkg URL from https://www.zoho.com/workdrive/truesync.html
+if [ ! -d "$TRUESYNC_APP" ]; then
+  if [ -n "$TRUESYNC_PKG_URL" ] && curl -fsSL "$TRUESYNC_PKG_URL" -o /tmp/truesync.pkg; then
+    sudo installer -pkg /tmp/truesync.pkg -target / || echo "  TrueSync install failed; install manually."
+    rm -f /tmp/truesync.pkg
+  else
+    echo "  Zoho WorkDrive TrueSync not installed — download manually: https://www.zoho.com/workdrive/truesync.html"
+  fi
+fi
+
 echo "\033[1;31mInstalling all brews...\033[0m"
 cat ~/Script-BackUp/macOS/brews.list | xargs brew install
 brew upgrade
 
 echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
 cat "$HOME/Script-BackUp/macOS/mas.list" | awk '{print $1}' | xargs -n 1 mas install || exit 1
+
+# Accept the Xcode license non-interactively (Xcode is installed via mas above).
+if command -v xcodebuild >/dev/null 2>&1; then
+  sudo xcodebuild -license accept 2>/dev/null || true
+fi
 
 echo "\033[1;31mAll Good? (Y/n)\033[0m"
 read _all_good

@@ -62,6 +62,16 @@ sysadminctl -screenLock immediate -password -
 # a per-host key applied by restarting ControlCenter (see killall below).
 defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
 
+# Control Center: show Bluetooth, Volume (Sound) and Displays in the menu bar.
+# Module int values: 8 = Always Show in Menu Bar, 18 = Show When Active, 2 = Don't Show.
+# "Displays (when one is connected)" == Show When Active.
+# NOTE: like BatteryShowPercentage/Wi-Fi, these keys are macOS-version-specific; if one
+# doesn't take, set it by hand and read the live value back with
+# `defaults -currentHost read com.apple.controlcenter`, then hardcode it here.
+defaults -currentHost write com.apple.controlcenter Bluetooth -int 8
+defaults -currentHost write com.apple.controlcenter Sound     -int 8
+defaults -currentHost write com.apple.controlcenter Display   -int 18
+
 # Private Wi-Fi Address (MAC randomization): keep it ON everywhere except the
 # "Om AX" network, which is turned OFF.
 #   - Per-SSID lives in com.apple.wifi.known-networks.plist as a string key

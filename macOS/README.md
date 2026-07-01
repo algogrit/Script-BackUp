@@ -11,16 +11,18 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
 
 ## Checklist
 
+These are the manual bootstrap steps; the rest (Rosetta, Xcode license, casks, App Store apps, settings, login items) is handled by `restore_scripts.sh`.
+
 - Xcode
 - Command Line Tools (`xcode-select --install`)
-- Accept License (`sudo xcodebuild -license`)
+- Accept License (`sudo xcodebuild -license`) — auto-accepted by `restore_scripts.sh` once Xcode is installed
 - ssh (https://help.github.com/articles/generating-ssh-keys/; https://blog.g3rt.nl/upgrade-your-ssh-keys.html; `ssh-keygen -o -a 100 -t ed25519 -C your_email@example.com`)
   - Github & Bitbucket
 - git (`git clone git@github.com:algogrit/Script-BackUp.git`)
 - Brew (http://brew.sh/)
   - Bootstrap the essentials up front (also in `brews.list`; installed early as a safety net)
   - `brew install mas bash`
-- Install Rosetta `sudo softwareupdate --install-rosetta`
+- Install Rosetta `sudo softwareupdate --install-rosetta` — auto-installed by `restore_scripts.sh` on Apple Silicon
 
 [Tips & Tricks](https://gist.github.com/brandonb927/3195465)
 
@@ -47,3 +49,7 @@ These scripts are used everyday on a couple of macOSes to keep them in sync. Wor
   - Synology Drive Client
   - Usage
   - Zoho WorkDrive TrueSync
+- Show in Taskbar
+  - Displays (when one is connected)
+  - Bluetooth
+  - Volume
