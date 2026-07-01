@@ -37,10 +37,11 @@ else
 fi
 
 # Keyboard: "Press 🌐 (Fn/Globe) key to" = Change Input Source, so Fn toggles
-# between English and Hindi. Values: 0 = Change Input Source, 1 = Emoji &
-# Symbols, 2 = Start Dictation. (Independent of com.apple.keyboard.fnState above,
-# which only affects the F1–F12 function-key row.)
-defaults write com.apple.HIToolbox AppleFnUsageType -int 0
+# between English and Hindi. Value 1 = Change Input Source (0 = Emoji & Symbols /
+# default, 2/3 = Dictation / Do Nothing); verified on macOS Tahoe. NOTE: applied
+# via `defaults`, this key only takes effect after a RESTART. (Independent of
+# com.apple.keyboard.fnState above, which only affects the F1–F12 function-key row.)
+defaults write com.apple.HIToolbox AppleFnUsageType -int 1
 
 # Trackpad: tap to click (driver domains + NSGlobalDomain mirror; -currentHost holds it at login)
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
