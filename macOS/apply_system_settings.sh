@@ -33,23 +33,45 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 # shows up in System Settings or the input menu, even after a restart. The reliable fix
 # is Apple's Text Input Services API (TISEnableInputSource) — the same call System
 # Settings makes. Enabling an already-enabled source is a harmless no-op (idempotent).
+#
+# IMPORTANT: both the PARENT input method (com.apple.inputmethod.TransliterationIM)
+# and the .hi input MODE must be enabled. With only the mode enabled, TIS reports it
+# enabled=true yet it never appears in the input menu, because macOS hides an input
+# mode whose parent input method is disabled.
 if command -v swift >/dev/null 2>&1; then
   swift - <<'SWIFT' && echo "  Enabled Hindi (Transliteration) input source." \
                     || echo "  WARNING: could not enable Hindi input source."
 import Carbon
-let id = "com.apple.inputmethod.TransliterationIM.hi"
-let filter = [kTISPropertyInputSourceID as String: id] as CFDictionary
-guard let cf = TISCreateInputSourceList(filter, true)?.takeRetainedValue(),
-      let src = (cf as? [TISInputSource])?.first else {
-    FileHandle.standardError.write("source not found\n".data(using: .utf8)!); exit(1)
+func enable(_ id: String) -> Bool {
+    let filter = [kTISPropertyInputSourceID as String: id] as CFDictionary
+    guard let list = TISCreateInputSourceList(filter, true)?.takeRetainedValue()
+            as? [TISInputSource] else { return false }
+    // The parent IM can appear under more than one source kind; enable every match.
+    var ok = false
+    for src in list where TISEnableInputSource(src) == noErr { ok = true }
+    return ok
 }
-exit(TISEnableInputSource(src) == noErr ? 0 : 2)
+// Parent first: the .hi mode stays invisible while its input method is disabled.
+guard enable("com.apple.inputmethod.TransliterationIM"),
+      enable("com.apple.inputmethod.TransliterationIM.hi") else {
+    FileHandle.standardError.write("could not enable input source\n".data(using: .utf8)!)
+    exit(1)
+}
+exit(0)
 SWIFT
 else
   # Fallback for machines without a Swift toolchain: write the preference directly.
   # (May require a log out / login before the source registers — see note above.)
-  if ! defaults read com.apple.HIToolbox AppleEnabledInputSources 2>/dev/null \
-       | grep -q "com.apple.inputmethod.TransliterationIM.hi"; then
+  enabled_sources=$(defaults read com.apple.HIToolbox AppleEnabledInputSources 2>/dev/null)
+  # Parent input method entry (required, or the Hindi mode below stays hidden).
+  # defaults prints each dict across several lines, so pair the Bundle ID line
+  # with the InputSourceKind line that follows it.
+  if ! echo "$enabled_sources" | grep -A2 'Bundle ID.*TransliterationIM' \
+       | grep -q '"Keyboard Input Method"'; then
+    defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add \
+      '{ "Bundle ID" = "com.apple.inputmethod.TransliterationIM"; InputSourceKind = "Keyboard Input Method"; }'
+  fi
+  if ! echo "$enabled_sources" | grep -q "com.apple.inputmethod.TransliterationIM.hi"; then
     defaults write com.apple.HIToolbox AppleEnabledInputSources -array-add \
       '{ "Bundle ID" = "com.apple.inputmethod.TransliterationIM"; "Input Mode" = "com.apple.inputmethod.TransliterationIM.hi"; InputSourceKind = "Input Mode"; }'
     echo "  Added Hindi input source via defaults (no swift; may require logout to register)."
