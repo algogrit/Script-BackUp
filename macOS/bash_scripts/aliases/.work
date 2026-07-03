@@ -1,2 +1,3 @@
 alias om-video-editor-code="code --remote ssh-remote+om /home/om/Developer/CMTech/video-editor"
 alias om-infra-code="code --remote ssh-remote+om /home/om/Developer/CMTech/infra"
+alias om-vyuha-code="code --remote ssh-remote+om /home/om/Developer/CMTech/vyuha"

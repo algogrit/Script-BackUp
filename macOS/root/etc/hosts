@@ -16,6 +16,7 @@
 # Work
 ## Custom Temporary Routing
 127.0.0.1 auth.codermana.test mirrorpad.test api.mirrorpad.test novelsigner.test api.novelsigner.test
+127.0.0.1 novelsigner.testing api.novelsigner.testing auth.codermana.testing mirrorpad.testing api.mirrorpad.testing
 
 ## Home
 192.168.0.108 om.local

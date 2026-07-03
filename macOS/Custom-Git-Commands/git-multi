@@ -90,8 +90,15 @@ done < <(find . -mindepth 2 -maxdepth 2 \( -type d -name '.git' -o -type f -name
 
 mapfile -t symlinks < <(find . -maxdepth 1 -type l | cut -d '/' -f 2)
 
-if [ -n "$repo_root" ] && [ "$repo_root" = "$base" ]; then
-  repositories+=(".")
+if [ -n "$repo_root" ]; then
+  if [ "$repo_root" = "$base" ]; then
+    root_entry="."
+  else
+    root_entry="$repo_root"
+  fi
+  if add_unique "$root_entry" "${repositories[@]}"; then
+    repositories+=("$root_entry")
+  fi
 fi
 
 run_command "repositories and submodules" "${repositories[@]}"
