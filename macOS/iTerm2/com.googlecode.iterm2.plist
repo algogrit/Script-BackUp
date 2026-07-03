@@ -46,6 +46,8 @@
 	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>LoadPrefsFromCustomFolder</key>
+	<true/>
 	<key>NSAutoFillHeuristicControllerEnabled</key>
 	<false/>
 	<key>NSOverlayScrollersFallBackForAccessoryViews</key>
@@ -69,7 +71,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 81 224 278 0 0 2056 1285 </string>
+	<string>0 81 224 278 0 0 2560 1415 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -77,9 +79,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 502 1050 783 0 0 2056 1285 </string>
+	<string>0 36 2056 1254 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 23 2560 1392 0 0 2560 1415 </string>
+	<string>0 0 2560 1410 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-1 23 2056 1262 0 0 2056 1285 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -3575,13 +3577,15 @@
 	<key>NoSyncInstallationId</key>
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
-	<string>Version 15.7.4 (Build 24G517)</string>
+	<string>Version 26.5.1 (Build 25F80)</string>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
 	<integer>20</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>790404455.90770996</real>
 	<key>NoSyncPermissionToShowTip</key>
@@ -4589,9 +4593,9 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{0, 1285}</string>
+		<string>{0, 1290}</string>
 		<key>1</key>
-		<string>{0, 1415}</string>
+		<string>{-0, 1410}</string>
 		<key>2</key>
 		<string>{-1, 1285}</string>
 		<key>3</key>
@@ -4674,6 +4678,8 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>PrefsCustomFolder</key>
+	<string>/Users/gaurav/Script-BackUp/macOS/iTerm2</string>
 	<key>PreventEscapeSequenceFromClearingHistory</key>
 	<false/>
 	<key>Print In Black And White</key>
@@ -4689,7 +4695,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-07-02T09:39:13Z</date>
+	<date>2026-07-02T09:41:42Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>

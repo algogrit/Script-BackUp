@@ -3,10 +3,18 @@
     "commit": "",
     "pr": ""
   },
-  "model": "opus",
+  "permissions": {
+    "deny": [
+      "Bash(git checkout -b:*)",
+      "Bash(git switch -c:*)",
+      "Bash(git switch --create:*)"
+    ]
+  },
   "enabledPlugins": {
     "rust-analyzer-lsp@claude-plugins-official": true
   },
+  "model": "claude-fable-5[1m]",
+  "effortLevel": "medium",
   "theme": "dark",
   "editorMode": "normal",
   "verbose": false

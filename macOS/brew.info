@@ -130,7 +130,7 @@ SHELL="/opt/homebrew/bin/bash"
 ==> Homebrew Version
 6.0.6
 ==> macOS
-15.7.4
+26.5.1
 ==> SIP
 Enabled
 ==> Homebrew Cask Staging Location
@@ -150,21 +150,5 @@ If you didn't put them there on purpose they could cause problems when
 building Homebrew formulae and may need to be deleted.
 
 Unexpected dylibs:
-  /usr/local/lib/libcastle_v2.1.0.0.dylib
-  /usr/local/lib/libfreebl3.dylib
-  /usr/local/lib/libgkcodecs.dylib
-  /usr/local/lib/liblgpllibs.dylib
-  /usr/local/lib/libmozavcodec.dylib
-  /usr/local/lib/libmozavutil.dylib
-  /usr/local/lib/libmozglue.dylib
-  /usr/local/lib/libmozinference.dylib
   /usr/local/lib/libndi.dylib
-  /usr/local/lib/libnss3.dylib
-  /usr/local/lib/libonnxruntime.dylib
-  /usr/local/lib/libsoftokn3.dylib
-
-Warning: You have unlinked kegs in your Cellar.
-Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
-those kegs to fail to run properly once built. Run `brew link` on these:
-  ruby
-401 kegs, 225,829 files, 11.3GB
+408 kegs, 240,334 files, 11.4GB
