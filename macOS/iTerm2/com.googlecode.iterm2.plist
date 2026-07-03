@@ -69,7 +69,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 81 224 278 0 0 2560 1415 </string>
+	<string>0 81 224 278 0 0 2056 1285 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -77,7 +77,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 23 2056 1262 0 0 2056 1285 </string>
+	<string>0 502 1050 783 0 0 2056 1285 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 23 2560 1392 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3581,7 +3581,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>19</integer>
+	<integer>20</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>790404455.90770996</real>
 	<key>NoSyncPermissionToShowTip</key>
@@ -4689,7 +4689,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-06-30T08:10:57Z</date>
+	<date>2026-07-02T09:39:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>

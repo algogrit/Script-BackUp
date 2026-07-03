@@ -1,3 +1,13 @@
 {
-  "theme": "dark"
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
+  "theme": "dark",
+  "editorMode": "normal",
+  "verbose": false
 }

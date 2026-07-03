@@ -67,6 +67,7 @@ aomenc
 apachectl
 apfs_hfs_convert
 apfs_unlockfv
+apkanalyzer
 apktool
 app-sso
 appdb
@@ -130,6 +131,7 @@ avbdeviced
 avbdiagnose
 avbutil
 avconvert
+avdmanager
 avifdec
 avifenc
 avifgainmaputil
@@ -1456,6 +1458,7 @@ libpng16-config
 libtool
 link
 linkicc
+lint
 lipo
 listres
 listsuites
@@ -2283,6 +2286,7 @@ R
 racoon
 rails
 rake
+ramayan
 randpkt
 randpktdump
 ranlib
@@ -2323,6 +2327,7 @@ resgen2
 resize
 ResMerger
 resolveLinks
+retrace
 rev
 Rez
 rg
@@ -2400,12 +2405,14 @@ scandeps5.34.pl
 scp
 screen
 screencapture
+screenshot2
 script
 scselect
 scutil
 sdbthreadtst
 sdef
 sdiff
+sdkmanager
 sdl2-config
 sdp
 sdrtest

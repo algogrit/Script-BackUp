@@ -138,10 +138,11 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7734 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7740 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
+  docker-machine
   pcre
 
 Warning: Unbrewed dylibs were found in /usr/local/lib.
@@ -166,4 +167,4 @@ Warning: You have unlinked kegs in your Cellar.
 Leaving kegs unlinked can lead to build-trouble and cause formulae that depend on
 those kegs to fail to run properly once built. Run `brew link` on these:
   ruby
-401 kegs, 225,699 files, 11.3GB
+401 kegs, 225,829 files, 11.3GB
