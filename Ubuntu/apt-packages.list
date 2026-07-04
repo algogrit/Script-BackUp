@@ -108,7 +108,9 @@ grub-efi-amd64
 grub-efi-amd64-signed
 gsettings-ubuntu-schemas
 gstreamer1.0-alsa
+gstreamer1.0-nice
 gstreamer1.0-packagekit
+gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base-apps
 gvfs-fuse
 gzip
