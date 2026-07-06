@@ -76,6 +76,7 @@ gd
 gdk-pixbuf
 gettext
 gflags
+ggml
 gh
 ghostscript
 giflib
@@ -386,6 +387,7 @@ watch
 wdiff
 webp
 wget
+whisper-cpp
 winetricks
 witr
 wrk

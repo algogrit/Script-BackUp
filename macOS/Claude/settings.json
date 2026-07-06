@@ -1,4 +1,9 @@
 {
+  "env": {
+    "CLAUDE_CODE_NO_FLICKER": "1",
+    "COLORTERM": "truecolor",
+    "CLAUDE_AFK_TIMEOUT_MS": "86400000"
+  },
   "attribution": {
     "commit": "",
     "pr": ""
@@ -10,11 +15,18 @@
       "Bash(git switch --create:*)"
     ]
   },
-  "enabledPlugins": {
-    "rust-analyzer-lsp@claude-plugins-official": true
-  },
   "model": "claude-fable-5[1m]",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "kotlin-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
   "effortLevel": "medium",
+  "autoCompactWindow": 600000,
   "theme": "dark",
   "editorMode": "normal",
   "verbose": false
