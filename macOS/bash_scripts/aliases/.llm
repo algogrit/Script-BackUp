@@ -9,6 +9,6 @@
 
 alias qwen25-aider='aider --model ollama/qwen2.5-coder:32b --auto-commits'
 
-alias codex='codex --sandbox workspace-write'
+alias codex='codex --sandbox workspace-write --ask-for-approval never'
 alias claude='claude --enable-auto-mode --permission-mode=plan'
 alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'

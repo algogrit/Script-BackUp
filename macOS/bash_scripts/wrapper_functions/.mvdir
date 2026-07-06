@@ -1,0 +1,10 @@
+function mvdir() {
+  # Get the last argument (the destination path)
+  local dest="${@: -1}"
+
+  # Extract the directory portion of the destination
+  local dest_dir=$(dirname "$dest")
+
+  # Create the directory structure if it doesn't exist
+  mkdir -p "$dest_dir" && mv "$@"
+}
