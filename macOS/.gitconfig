@@ -24,7 +24,6 @@
 	ls-others = ls-files --other
 	pr = pull --rebase
 	add-ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-	ct = commit -m 'Updating Tasks.'
 	up = pull --all --rebase --autostash
 	ls-ignored-changes = !git ls-files -v | grep ^S | awk '{print $2}'
 	make-patch = diff --cached --binary

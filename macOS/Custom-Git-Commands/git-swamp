@@ -4,89 +4,35 @@ start_time=Time.now
 
 require 'time'
 
-# ANSI colors
-RESET  = "\033[0m"
-YELLOW = "\033[1;33m"
-MAGENTA= "\033[1;35m"
-RED    = "\033[1;31m"
-GREEN  = "\033[1;32m"
-CYAN   = "\033[1;36m"
-
-local = !ARGV.delete("--local").nil?
 comparing_branch = ARGV.first || "master"
-base = local ? comparing_branch : "origin/#{comparing_branch}"
 
-branch_names =
-	if local
-		(`git branch --format='%(refname:short)'`).split("\n").reject { |b| b == comparing_branch }
-	else
-		(`git branch -r | grep -v "origin/#{comparing_branch}\$" | grep -v "origin/HEAD" | awk '{print $1}'`).split("\n")
-	end
+branch_names = (`git branch -r | grep -v "origin/#{comparing_branch}\$" | grep -v "origin/HEAD" | awk '{print $1}'`).split("\n")
 
-# Build one row of data per branch. A single `git log` call fetches the epoch (for
-# sorting), relative age, compact absolute date, and author; a single `git rev-list`
-# call fetches behind/ahead counts.
-rows = branch_names.map do |branch|
-	epoch, age_rel, age_abs, author =
-		`git log -1 --date=format:'%Y-%m-%d %H:%M' --pretty=format:"%at%x00%ar%x00%ad%x00%an" #{branch}`.split("\x00")
-
-	behind, ahead = `git rev-list --left-right --count #{base}...#{branch}`.split
-	behind = behind.to_i
-	ahead  = ahead.to_i
-
-	{
-		:branch => branch,
-		:epoch  => epoch.to_i,
-		:age    => "#{age_rel} (#{age_abs})",
-		:author => author.to_s,
-		:ahead  => ahead,
-		:behind => behind,
-	}
-end.sort_by { |r| r[:epoch] }
-
-if rows.empty?
-	which = local ? "local" : "remote"
-	puts "#{YELLOW}No #{which} branches to compare against #{base}.#{RESET}"
-	puts "#{RED}git swamp took #{Time.now - start_time} sec(s).#{RESET}"
-	exit
+remote_branches = branch_names.reduce({}) do |memo, branch|
+	timestamp = Time.parse(`git log --date=local --pretty=format:"%ad" -1 #{branch}`)
+	memo[branch] = timestamp
+	memo
 end
 
-# Colorized diff cell: green ahead / red behind, sides dropped when zero.
-def diff_cell(ahead, behind)
-	parts = []
-	parts << "#{GREEN}↑#{ahead} ahead#{RESET}" if ahead > 0
-	parts << "#{RED}↓#{behind} behind#{RESET}" if behind > 0
-	return "#{YELLOW}up to date#{RESET}" if parts.empty?
-	parts.join("  ")
+def print_branch_details(comparing_branch, branch, timestamp, count, size)
+	puts "\033[1;33mOn branch \033[1;35m#{count}/#{size}\033[1;33m - \033[1;35m#{branch}\033[0m"
+
+	puts "\033[1;31mLast Updated\t-\033[0m\t#{timestamp}"
+
+	author = `git log --date=local --pretty=format:"%an" -1 #{branch}`
+	puts "\033[1;31mAuthor\t-\033[0m\t#{author}"
+
+	ahead_commit_count = `git log --oneline origin/#{comparing_branch}..#{branch} | wc | awk '{print $1}'`.strip
+	behind_commit_count = `git log --oneline #{branch}..origin/#{comparing_branch} | wc | awk '{print $1}'`.strip
+	puts "\033[1;31mMaster diff\t-\033[0m\t#{"+" + ahead_commit_count + " / -" + behind_commit_count}"
+
+	puts "\n"
 end
 
-# Column widths computed from plain (un-colored) text so ANSI escapes, which have
-# zero display width, don't throw off alignment.
-num_w    = rows.size.to_s.length
-branch_w = ([ "BRANCH" ] + rows.map { |r| r[:branch] }).map(&:length).max
-age_w    = ([ "AGE" ]    + rows.map { |r| r[:age]    }).map(&:length).max
-author_w = ([ "AUTHOR" ] + rows.map { |r| r[:author] }).map(&:length).max
-
-diff_header = "VS #{comparing_branch.upcase}"
-
-# Header row
-puts [
-	YELLOW + "#".rjust(num_w),
-	"BRANCH".ljust(branch_w),
-	"AGE".ljust(age_w),
-	"AUTHOR".ljust(author_w),
-	diff_header + RESET,
-].join("  ")
-
-# Branch rows (diff cell is last, so it needs no padding)
-rows.each_with_index do |r, i|
-	puts [
-		CYAN    + (i + 1).to_s.rjust(num_w) + RESET,
-		MAGENTA + r[:branch].ljust(branch_w) + RESET,
-		r[:age].ljust(age_w),
-		r[:author].ljust(author_w),
-		diff_cell(r[:ahead], r[:behind]),
-	].join("  ")
+count = 0
+remote_branches.sort_by{|branch, timestamp| timestamp}.each do |branch, timestamp|
+	count += 1
+	print_branch_details(comparing_branch, branch, timestamp, count, remote_branches.size)
 end
 
-puts "#{RED}git swamp took #{Time.now - start_time} sec(s).#{RESET}"
+puts "\033[1;31mgit swamp took #{Time.now - start_time} sec(s).\033[0m"

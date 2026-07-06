@@ -36,7 +36,6 @@ cjson
 cloc
 clojure
 cloudflared
-cocoapods
 colordiff
 colortail
 coreutils
@@ -47,7 +46,6 @@ dav1d
 dbus
 deno
 direnv
-dnsmasq
 docker-compose
 docker-machine
 double-conversion
@@ -115,7 +113,6 @@ imagemagick
 imath
 img2pdf
 imlib2
-ios-deploy
 isl
 jansson
 jbig2dec
@@ -174,7 +171,6 @@ libomp
 libplacebo
 libplist
 libpng
-libpsl
 libptytty
 libraqm
 libraw
@@ -248,7 +244,6 @@ mpg123
 mplayer
 mpv
 mujs
-nasm
 nbytes
 ncurses
 neovim
@@ -328,7 +323,6 @@ rsync
 rubberband
 ruby
 ruby-build
-rustup
 scala
 scala-cli
 sdl2-compat
@@ -395,7 +389,6 @@ wrk
 wxwidgets@3.2
 x264
 x265
-xcodegen
 xorgproto
 xvid
 xxhash

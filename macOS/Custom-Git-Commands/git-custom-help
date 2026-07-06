@@ -20,7 +20,6 @@ echo "Comamnds:
   pristine              - Hard cleans the repository (think fresh clone)
   pull-all              - Pull/rebase the current repo and app repositories
   push-all              - Push the current repo and app repositories
-  resub                 - Wipe all submodules and re-clone each as a standalone clone (default branch)
-  swamp                 - List each remote branch's latest commit timestamp (use --local for local branches)
+  swamp                 - List the latest commit's timestamp for each remote branch
   up                    -
   wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)"

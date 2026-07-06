@@ -59,15 +59,8 @@ while read -r repo; do
   fi
 done < <(find . -mindepth 2 -maxdepth 2 \( -type d -name '.git' -o -type f -name '.git' \) | cut -d '/' -f 2 | sort)
 
-if [ -n "$repo_root" ]; then
-  if [ "$repo_root" = "$base" ]; then
-    root_entry="."
-  else
-    root_entry="$repo_root"
-  fi
-  if add_unique "$root_entry" "${repository_list[@]}"; then
-    repository_list+=("$root_entry")
-  fi
+if [ -n "$repo_root" ] && [ "$repo_root" = "$base" ]; then
+  repository_list+=(".")
 fi
 
 repository_count=${#repository_list[@]}

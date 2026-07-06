@@ -22,6 +22,8 @@ Google Earth Pro
 Google Sheets
 Google Slides
 HandBrake
+HyperPKIMgr
+HYPSmartToken
 iTerm
 Karabiner-Elements
 Karabiner-EventViewer
@@ -30,6 +32,7 @@ Keynote Creator Studio
 LBRY
 LibreOffice
 MenuMeters
+MirrorPad Beta
 NDI Access Manager
 NDI Discovery
 NDI Launcher
@@ -38,15 +41,18 @@ NDI Scan Converter
 NDI Test Patterns
 NDI Video Monitor
 NDI Virtual Input
-Novel Signer Beta
+NovelSigner Beta
 Numbers Creator Studio
 OBS
 OpenCode
 Pages Creator Studio
+ProxKey Token Tool
+ProxKey Uninstall USBKey Tool
 Raspberry Pi Imager
 Raycast
 Rectangle
 Safari
+SafeNet
 Slack
 Sonic Visualiser
 Steam
@@ -58,16 +64,16 @@ The Unarchiver
 Thunderbird
 Tor Browser
 Transmission
-Unity
-Unity Hub
 Usage
 Utilities
 UTM
 VB-Audio
 Visual Studio Code
 VLC
+VNC Viewer
 WhatsApp
 Windows App
+Wine Crossover
 Wireshark
 Xcode
 Zoho Mail - Desktop
@@ -76,3 +82,5 @@ zoom
 [1;31mListing User Applications...[0m
 Chrome Apps
 Claude Code URL Handler
+odriveFinderSyncExtension
+pandoc
