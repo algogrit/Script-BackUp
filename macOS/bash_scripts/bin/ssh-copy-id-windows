@@ -1,0 +1,96 @@
+#!/usr/bin/env bash
+# ssh-copy-id-windows
+# ssh-copy-id for Windows OpenSSH hosts, where the stock tool fails because its
+# POSIX install script can't run under a cmd/PowerShell default shell.
+#
+# Installs the public key into:
+#   - ~\.ssh\authorized_keys                                (non-admin accounts)
+#   - C:\ProgramData\ssh\administrators_authorized_keys     (admin accounts; the
+#     file Windows sshd actually reads for Administrators), with the strict ACL
+#     sshd requires (a wrong ACL makes sshd silently ignore the file)
+#
+# Idempotent: appends only if the key isn't already present. The whole remote
+# payload is sent as `powershell -EncodedCommand <base64>` so no quote
+# characters cross the sshd command-line boundary.
+#
+# Usage: ssh-copy-id-windows [-i pubkey] <destination>
+
+set -euo pipefail
+
+usage() {
+  echo "Usage: ssh-copy-id-windows [-i pubkey] <destination>" >&2
+  echo "  -i pubkey  public key file (default: ~/.ssh/id_ed25519.pub)" >&2
+}
+
+pubkey="$HOME/.ssh/id_ed25519.pub"
+while getopts ":i:h" opt; do
+  case "$opt" in
+    i) pubkey="$OPTARG" ;;
+    h) usage; exit 0 ;;
+    *) usage; exit 2 ;;
+  esac
+done
+shift $((OPTIND - 1))
+[[ $# -eq 1 ]] || { usage; exit 2; }
+dest="$1"
+
+# Like ssh-copy-id, accept a private-key path and use its .pub sibling.
+if [[ ! -f "$pubkey" && -f "$pubkey.pub" ]]; then
+  pubkey="$pubkey.pub"
+fi
+if [[ ! -f "$pubkey" ]]; then
+  echo "Public key not found: $pubkey" >&2
+  exit 1
+fi
+
+key="$(head -n1 "$pubkey")"
+if [[ -z "$key" ]]; then
+  echo "Empty public key file: $pubkey" >&2
+  exit 1
+fi
+
+ps_template="$(cat <<'EOF'
+$ErrorActionPreference = 'Stop'
+# Progress records otherwise stream back to the ssh client as CLIXML noise.
+$ProgressPreference = 'SilentlyContinue'
+$key = '__PUBKEY__'
+
+function Install-Key([string]$path) {
+  if ((Test-Path $path) -and (Select-String -Quiet -SimpleMatch -Pattern $key -Path $path)) {
+    return "already present: $path"
+  }
+  $dir = Split-Path -Parent $path
+  if ($dir) { $null = New-Item -Force -ItemType Directory $dir }
+  Add-Content -Path $path -Value $key
+  return "installed: $path"
+}
+
+Write-Output (Install-Key (Join-Path $HOME '.ssh\authorized_keys'))
+
+$adminFile = Join-Path $env:ProgramData 'ssh\administrators_authorized_keys'
+try {
+  $msg = Install-Key $adminFile
+  $null = icacls.exe $adminFile /inheritance:r /grant 'Administrators:F' /grant 'SYSTEM:F'
+  Write-Output $msg
+} catch {
+  Write-Output "skipped: $adminFile (needs admin rights)"
+}
+EOF
+)"
+
+# Single quotes in a PowerShell single-quoted string are escaped by doubling.
+key_ps="${key//\'/\'\'}"
+ps_script="${ps_template/__PUBKEY__/$key_ps}"
+encoded="$(printf '%s' "$ps_script" | iconv -f UTF-8 -t UTF-16LE | base64 | tr -d '\n')"
+
+echo "Installing $pubkey on $dest (may prompt for the password) ..."
+ssh "$dest" "powershell -NoProfile -NonInteractive -EncodedCommand $encoded"
+
+echo "Verifying key-based login to $dest ..."
+if ssh -o BatchMode=yes -o ConnectTimeout=10 "$dest" whoami; then
+  echo "Key-based SSH to $dest works."
+else
+  echo "Key installed, but key-based login still failed. Check the remote sshd_config" >&2
+  echo "(PubkeyAuthentication, AuthorizedKeysFile, Match Group administrators block)." >&2
+  exit 1
+fi
