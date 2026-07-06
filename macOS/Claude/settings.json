@@ -26,7 +26,6 @@
     "pyright-lsp@claude-plugins-official": true
   },
   "effortLevel": "medium",
-  "autoCompactWindow": 600000,
   "theme": "dark",
   "editorMode": "normal",
   "verbose": false
