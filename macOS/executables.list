@@ -1353,6 +1353,7 @@ jstat
 jstatd
 jxl_from_tree
 jxlinfo
+jxltran
 kadmin
 kadmin.local
 karabiner_cli
