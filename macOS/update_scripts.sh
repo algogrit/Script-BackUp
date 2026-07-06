@@ -137,6 +137,15 @@ cp -r ~/.claude/commands Claude/ 2>/dev/null || true
 cp -r ~/.claude/agents Claude/ 2>/dev/null || true
 cp ~/.claude/plugins/known_marketplaces.json Claude/plugins/ 2>/dev/null || true
 
+# Copy Codex settings (never auth/session/runtime state)
+mkdir -p Codex
+cp ~/.codex/config.toml Codex/ 2>/dev/null || true
+if [ -d ~/.codex/skills ]; then
+  mkdir -p Codex/skills
+  find ~/.codex/skills -mindepth 1 -maxdepth 1 ! -name .system -exec cp -r {} Codex/skills/ \; 2>/dev/null || true
+fi
+cp -r ~/.codex/plugins Codex/ 2>/dev/null || true
+
 # Back up iTerm2 prefs (use defaults export so cfprefsd's in-memory state is flushed)
 echo "\033[1;31mBacking up iTerm2 preferences...\033[0m"
 mkdir -p iTerm2
