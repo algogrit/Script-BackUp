@@ -218,7 +218,6 @@ echo "\033[1;31mRestoring Codex settings...\033[0m"
 mkdir -p ~/.codex
 cp ~/Script-BackUp/macOS/Codex/config.toml ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/skills ~/.codex/ 2>/dev/null || true
-cp -r ~/Script-BackUp/macOS/Codex/plugins ~/.codex/ 2>/dev/null || true
 
 # Apply macOS System Settings tweaks + login items (also runnable standalone).
 ./apply_system_settings.sh
