@@ -123,6 +123,127 @@ defaults write NSGlobalDomain com.apple.trackpad.threeFingerVertSwipeGesture -in
 # Finder: default new windows to Column view (clmv; other values: icnv, Nlsv, glyv)
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
+# Finder: new windows open ~/Downloads. PfLo = "Other..." (an arbitrary path), whose
+# location comes from NewWindowTargetPath as a file:// URL with a trailing slash.
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Downloads/"
+
+# Finder > Sidebar ("left bar") favourites: Desktop, Developer, home, /tmp.
+#
+# NOTE: there is no `defaults` key for this. The favourites are bookmark-encoded blobs
+# in ~/Library/Application Support/com.apple.sharedfilelist/
+# com.apple.LSSharedFileList.FavoriteItems.sfl4, reachable only through an API.
+#
+# The documented API is LSSharedFileList (what `mysides` wraps). Do NOT use it to add:
+# on macOS Tahoe, LSSharedFileListInsertItemURL SEGFAULTS. (Its read and remove calls
+# still work; only insert is broken. This is why Homebrew disabled `mysides` in Oct
+# 2025.) The list is instead read and written through the SFL Objective-C classes that
+# Finder itself uses, which LaunchServices vends from CoreServices: SFLGenericList and
+# SFLItem. They are PRIVATE — verified working on Tahoe, but re-check after a major
+# macOS upgrade. The verify pass at the end turns any regression into a warning rather
+# than a silent no-op.
+#
+# Private classes have no headers, and their init selectors can't be expressed in
+# Swift, so this block is Objective-C compiled on the fly (needs the Command Line
+# Tools, which the README checklist installs first).
+#
+# Additive: existing entries are left alone and nothing is ever pruned. Paths compare
+# after symlink resolution, since /tmp resolves to /private/tmp.
+if command -v clang >/dev/null 2>&1; then
+  sidebar_dir="$(mktemp -d)"
+  cat > "$sidebar_dir/sidebar.m" <<'OBJC'
+#import <Foundation/Foundation.h>
+#import <CoreServices/CoreServices.h>
+
+@interface SFLBookmark : NSObject
+- (BOOL)resolve;
+- (NSURL *)url;
+@end
+
+@interface SFLItem : NSObject
+- (instancetype)initWithName:(NSString *)name URL:(NSURL *)url properties:(NSDictionary *)props;
+- (SFLBookmark *)bookmark;
+@end
+
+@interface SFLGenericList : NSObject
+- (instancetype)initWithIdentifier:(NSString *)identifier;
+- (NSArray<SFLItem *> *)snapshotItems;
+- (BOOL)addItem:(SFLItem *)item error:(NSError **)error;
+@end
+
+// Both an existing favourite and a target normalise through this, so /tmp and
+// /private/tmp compare equal.
+static NSString *Normalise(NSURL *url) {
+    return url.URLByResolvingSymlinksInPath.URLByStandardizingPath.path;
+}
+
+static NSSet<NSString *> *Favourites(SFLGenericList *list) {
+    NSMutableSet *paths = [NSMutableSet set];
+    for (SFLItem *item in [list snapshotItems]) {
+        SFLBookmark *bookmark = [item bookmark];
+        if (![bookmark resolve]) continue;  // e.g. an offline network volume
+        NSURL *url = [bookmark url];
+        if (url) [paths addObject:Normalise(url)];
+    }
+    return paths;
+}
+
+int main(void) { @autoreleasepool {
+    // Force LaunchServices to register the SFL classes before we look them up.
+    LSSharedFileListCreate(NULL, kLSSharedFileListFavoriteItems, NULL);
+
+    SFLGenericList *list = [[NSClassFromString(@"SFLGenericList") alloc]
+        initWithIdentifier:@"com.apple.LSSharedFileList.FavoriteItems"];
+    if (!list) { fprintf(stderr, "could not open the favourites list\n"); return 1; }
+
+    NSMutableSet *present = [Favourites(list) mutableCopy];
+    NSMutableArray<NSURL *> *added = [NSMutableArray array];
+
+    for (NSString *target in @[@"~/Desktop", @"~/Developer", @"~", @"/tmp"]) {
+        NSString *path = target.stringByExpandingTildeInPath;
+        BOOL isDir = NO;
+        if (![NSFileManager.defaultManager fileExistsAtPath:path isDirectory:&isDir] || !isDir) {
+            printf("  Skipping Finder sidebar entry (no such folder): %s\n", path.UTF8String);
+            continue;
+        }
+        NSURL *url = [NSURL fileURLWithPath:path isDirectory:YES];
+        if ([present containsObject:Normalise(url)]) continue;
+        [present addObject:Normalise(url)];  // in case a path is listed twice
+
+        SFLItem *item = [[NSClassFromString(@"SFLItem") alloc]
+            initWithName:url.lastPathComponent URL:url properties:nil];
+        NSError *error = nil;
+        if (![list addItem:item error:&error]) {
+            fprintf(stderr, "could not add %s: %s\n", path.UTF8String,
+                    error.localizedDescription.UTF8String ?: "unknown error");
+            return 1;
+        }
+        [added addObject:url];
+        printf("  Added to Finder sidebar: %s\n", path.UTF8String);
+    }
+
+    // An add can report success without landing, so confirm against a fresh snapshot.
+    NSSet<NSString *> *after = Favourites(list);
+    for (NSURL *url in added) {
+        if (![after containsObject:Normalise(url)]) {
+            fprintf(stderr, "added %s but it is not in the list\n", url.path.UTF8String);
+            return 1;
+        }
+    }
+    return 0;
+}}
+OBJC
+  if clang -fobjc-arc -framework Foundation -framework CoreServices \
+       -o "$sidebar_dir/sidebar" "$sidebar_dir/sidebar.m" 2>/dev/null; then
+    "$sidebar_dir/sidebar" || echo "  WARNING: could not update the Finder sidebar."
+  else
+    echo "  WARNING: could not build the Finder sidebar helper."
+  fi
+  rm -rf "$sidebar_dir"
+else
+  echo "  Skipping Finder sidebar (no clang); add by hand: ~/Desktop, ~/Developer, ~, /tmp"
+fi
+
 # Security & Privacy: require password immediately after sleep / screen saver.
 # Modern macOS ignores the legacy `defaults write com.apple.screensaver askForPassword`,
 # so use the supported, version-agnostic sysadminctl. NOTE: this prompts for the account password.
