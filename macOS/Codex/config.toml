@@ -24,6 +24,12 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/infra/apps/vyom-ar/landing-page"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Developer/CMTech/infra/apps/novel-signer"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/infra/apps/mirrorpad"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
@@ -33,6 +39,9 @@ single_key_approval = false
 
 [desktop]
 appearanceTheme = "system"
+
+[notice]
+hide_rate_limit_model_nudge = true
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4

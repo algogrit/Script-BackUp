@@ -180,6 +180,7 @@ libraqm
 libraw
 librdkafka
 librist
+librsvg
 libsamplerate
 libscrypt
 libserdes
@@ -235,6 +236,7 @@ md4c
 media-info
 merve
 metis
+mingw-w64
 mistral-vibe
 mlt
 mlx
@@ -318,6 +320,7 @@ qtdeclarative
 qtshadertools
 qtsvg
 r
+radare2
 rav1e
 rbenv
 readline
