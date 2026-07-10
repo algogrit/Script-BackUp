@@ -1,0 +1,1 @@
+- Never use or set the `autoResolutionMs` parameter for the `request_user_input` tool. Always wait indefinitely for explicit user input when asking a question or requiring clarification.

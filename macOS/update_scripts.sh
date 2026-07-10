@@ -140,6 +140,7 @@ cp ~/.claude/plugins/known_marketplaces.json Claude/plugins/ 2>/dev/null || true
 # Copy Codex settings (never auth/session/runtime state)
 mkdir -p Codex
 cp ~/.codex/config.toml Codex/ 2>/dev/null || true
+cp ~/.codex/AGENTS.md Codex/ 2>/dev/null || true
 if [ -d ~/.codex/skills ]; then
   mkdir -p Codex/skills
   find ~/.codex/skills -mindepth 1 -maxdepth 1 ! -name .system -exec cp -r {} Codex/skills/ \; 2>/dev/null || true
