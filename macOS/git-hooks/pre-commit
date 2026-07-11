@@ -2,29 +2,32 @@
 
 # Redirect output to stderr.
 exec 1>&2
-# Enable user input
-exec < /dev/tty
 
 # Define regex patterns
-patterns=('console\.log' 'api.key', 'secret', 'password')
+patterns=('console\.log' 'api\.key' 'secret' 'password')
+
+# Only scan lines being added (skip context, deletions, and +++ headers).
+added_lines=$(git diff --cached --unified=0 | grep -E '^\+[^+]')
 
 found=false
 for pattern in "${patterns[@]}"; do
-  if git diff --cached | grep -E -q "$pattern"; then
-    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged files:"
-    git diff --cached | grep -E -ne "$pattern"
+  if grep -E -q "$pattern" <<< "$added_lines"; then
+    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged additions:"
+    grep -E -ne "$pattern" <<< "$added_lines"
     found=true
   fi
 done
 
 if [ "$found" = true ]; then
-  read -p "⚠️  Continue with commit? (y/N): " yn
-  echo "$yn" | grep -Eq '^[Yy]$'
-  if [ $? -eq 0 ]; then
-    exit 0 # Allow commit
-  else
+  if (: < /dev/tty) 2>/dev/null; then
+    read -p "⚠️  Continue with commit? (y/N): " yn < /dev/tty
+    if echo "$yn" | grep -Eq '^[Yy]$'; then
+      exit 0 # Allow commit
+    fi
     exit 1 # Block commit
   fi
+  echo "⛔ No terminal available to confirm. Re-run from a terminal or use git commit --no-verify."
+  exit 1
 fi
 
 exit 0

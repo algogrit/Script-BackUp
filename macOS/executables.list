@@ -1529,7 +1529,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1783585446
+luajit-2.1.1783672735
 luit
 lwp-download
 lwp-download5.34
@@ -1856,7 +1856,6 @@ onig-config
 open
 opencode
 opencv_annotation
-opencv_interactive-calibration
 opencv_model_diagnostics
 opencv_version
 opencv_visualisation
@@ -2216,6 +2215,7 @@ pyenv-virtualenv-prefix
 pyenv-virtualenvs
 pyenv-virtualenvwrapper
 pyenv-virtualenvwrapper_lazy
+pyflakes
 python
 python-build
 python-config
@@ -2482,7 +2482,7 @@ setquota
 setreg
 setregion
 setuids.d
-setup_vars_opencv4.sh
+setup_vars_opencv5.sh
 setxkbmap
 sexp-conv
 sfltool

@@ -1,4 +1,4 @@
-model = "gpt-5.5"
+model = "gpt-5.6-sol"
 model_reasoning_effort = "medium"
 notify = ["/Users/gaurav/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
 service_tier = "default"
@@ -30,9 +30,22 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/infra/apps/mirrorpad"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Developer/CMTech/astronomy-go"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/nayak"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/nayak-co"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 4
 
 [ui]
 single_key_approval = false
@@ -42,6 +55,3 @@ appearanceTheme = "system"
 
 [notice]
 hide_rate_limit_model_nudge = true
-
-[tui.model_availability_nux]
-"gpt-5.5" = 4
