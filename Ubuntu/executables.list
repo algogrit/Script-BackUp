@@ -280,8 +280,10 @@ canberra-gtk-play
 cancel
 capable-bpfcc
 capable.bt
+capinfos
 capsh
 captoinfo
+captype
 cardos-tool
 cargo
 cargo-clippy
@@ -544,6 +546,7 @@ dsymutil-18
 dtrust-tool
 dtw
 du
+dumpcap
 dumpe2fs
 dumpkeys
 dumpsexp
@@ -573,6 +576,7 @@ ebtables-translate
 ec2metadata
 echo
 ed
+editcap
 editor
 editres
 efibootdump
@@ -1533,6 +1537,7 @@ memhog
 memleak-bpfcc
 memusage
 memusagestat
+mergecap
 mesa-overlay-control.py
 mesg
 mformat
@@ -1577,6 +1582,7 @@ mkzftree
 mlabel
 mmcli
 mmd
+mmdbresolve
 mmount
 mmove
 ModemManager
@@ -2142,9 +2148,11 @@ qt-faststart
 quirks-handler
 racc
 rake
+randpkt
 ranlib
 rarp
 raw2tiff
+rawshark
 rbash
 rbenv
 rbenv-commands
@@ -2207,6 +2215,7 @@ rename
 rename.ul
 rendercheck
 renice
+reordercap
 reset
 reset-trace-bpfcc
 resize2fs
@@ -2359,6 +2368,7 @@ sha256sum
 sha384sum
 sha512sum
 shadowconfig
+sharkd
 shasum
 shmsnoop-bpfcc
 shotwell
@@ -2571,6 +2581,7 @@ tempfile
 temporal
 terser
 test
+text2pcap
 tgz
 thermald
 thin_check
@@ -2652,6 +2663,7 @@ true
 truncate
 trust
 tset
+tshark
 tsort
 tty
 ttysnoop-bpfcc
