@@ -39,6 +39,12 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/nayak-co"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Developer/CMTech/nayak/nayak-cl"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/nayak/nayak-co"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false

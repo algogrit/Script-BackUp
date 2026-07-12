@@ -141,5 +141,20 @@
     "**/.gitea/workflows/*.yaml",
     "**/.forgejo/workflows/*.yml",
     "**/.forgejo/workflows/*.yaml"
-  ]
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "none",
+    "editor.lineNumbers": "off",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.occurrencesHighlight": "off",
+    "files.trimTrailingWhitespace": false
+  },
+  "markdownInlineEditor.decorations.ghostFaintOpacity": 0.4,
+  "markdownInlineEditor.math.enabled": true,
+  "markdownInlineEditor.emojis.enabled": true
 }
