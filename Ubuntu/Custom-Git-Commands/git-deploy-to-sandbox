@@ -1,4 +1,42 @@
 #!/usr/bin/env bash
 
-git push -f origin `git rev-parse --abbrev-ref HEAD`:sandbox
-git branch -D sandbox
+set -euo pipefail
+
+usage() {
+  printf '%s\n' 'Usage: git deploy-to-sandbox [-y]'
+  printf '%s\n' ''
+  printf '%s\n' 'Force-pushes the current branch to origin/sandbox, then removes the'
+  printf '%s\n' 'local sandbox branch if one exists.'
+  printf '%s\n' ''
+  printf '%s\n' '  -y, --yes   Skip the confirmation prompt'
+}
+
+assume_yes=0
+
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    -y|--yes) assume_yes=1; shift ;;
+    *) usage >&2; exit 2 ;;
+  esac
+done
+
+if ! branch=$(git symbolic-ref -q --short HEAD); then
+  printf '%s\n' 'Detached HEAD: check out a branch before deploying.' >&2
+  exit 1
+fi
+
+if [ "$assume_yes" -eq 0 ]; then
+  printf 'Force-push %s to origin/sandbox? [y/N] ' "$branch"
+  read -r reply
+  case "$reply" in
+    [yY]|[yY][eE][sS]) ;;
+    *) printf '%s\n' 'Aborted.'; exit 1 ;;
+  esac
+fi
+
+git push -f origin "$branch:sandbox"
+
+if git show-ref --verify --quiet refs/heads/sandbox; then
+  git branch -D sandbox
+fi

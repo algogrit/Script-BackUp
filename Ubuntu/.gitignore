@@ -1,6 +1,2 @@
 project-resources/
 **/.claude/settings.local.json
-
-# Secrets - the backup allowlist never copies these, but deny them outright too
-Claude/.credentials.json
-Codex/auth.json

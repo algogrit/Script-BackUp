@@ -1,3 +1,13 @@
 #! /usr/bin/env sh
 
-git status $@ | ag modified | awk '{print $2}'
+# Keyed off status codes rather than 'git diff', because diff emits both a 'U'
+# and an 'M' row for a conflicted path - no --diff-filter can separate them.
+# Porcelain codes are unambiguous: a modification is M in column 1 (staged) or
+# column 2 (unstaged); a conflict is U, which never pairs with M.
+#
+# -z keeps paths raw (plain --porcelain wraps a path containing spaces in
+# quotes); tr turns the NUL terminators back into newlines, since BSD awk
+# cannot take RS="\0".
+git status --porcelain -z -- "$@" |
+  tr '\0' '\n' |
+  awk 'substr($0,1,1) == "M" || substr($0,2,1) == "M" { print substr($0,4) }'

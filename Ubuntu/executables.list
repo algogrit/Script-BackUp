@@ -878,6 +878,7 @@ git-pristine
 git-pull-all
 git-push-all
 git-receive-pack
+git-resub
 git-shell
 git-swamp
 git-up
@@ -1179,6 +1180,8 @@ iptunnel
 irb
 ir-ctl
 irqtop
+isadump
+isaset
 ischroot
 isdv4-serial-debugger
 isdv4-serial-inputattach
@@ -1825,6 +1828,7 @@ pathchk
 pavucontrol
 pax11publish
 pccardctl
+pccritic
 pcre2-config
 pcre2grep
 pcre2test
@@ -2333,6 +2337,9 @@ sensible-browser
 sensible-editor
 sensible-pager
 sensible-terminal
+sensors
+sensors-conf-convert
+sensors-detect
 seq
 serialver
 servertool
@@ -2421,6 +2428,7 @@ spa-resample
 spd-conf
 spd-say
 spdsend
+spdxtool
 speaker-test
 speech-dispatcher
 spice-vdagent

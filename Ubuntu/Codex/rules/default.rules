@@ -47,3 +47,4 @@ prefix_rule(pattern=["git", "add", "Makefile", "contracts/resolved_timeline.sche
 prefix_rule(pattern=["git", "add", "-A"], decision="allow")
 prefix_rule(pattern=["git", "commit"], decision="allow")
 prefix_rule(pattern=["git", "log", "-1", "--oneline"], decision="allow")
+prefix_rule(pattern=["sudo", "-n", "wipefs", "--no-act", "/dev/nvme1n1"], decision="allow")
