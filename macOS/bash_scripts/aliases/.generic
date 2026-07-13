@@ -14,6 +14,9 @@ alias pwdh='echo "~/${PWD#$HOME/}"'
 # Rsync with Progress
 alias rsyncP='rsync -avhP'
 
+# List disks
+alias list-disks="diskutil list"
+
 # Tree improvements
 alias tree-gi='git ls-tree -r --name-only HEAD | tree --fromfile'
 
