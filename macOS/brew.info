@@ -4,8 +4,11 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 
 Warning: Some installed casks are deprecated or disabled.
 You should find replacements for the following casks:
+  codex-app
   distroav
+  gstreamer-runtime
   lbry
+  wine@staging
   zoho-mail
 ==> Cask Environment Variables:
 LC_ALL="en_US.UTF-8"
@@ -138,7 +141,7 @@ Enabled
 ==> Homebrew Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7721 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7709 casks)
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -151,4 +154,4 @@ building Homebrew formulae and may need to be deleted.
 
 Unexpected dylibs:
   /usr/local/lib/libndi.dylib
-414 kegs, 249,967 files, 12.5GB
+423 kegs, 252,252 files, 12.5GB

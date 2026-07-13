@@ -20,6 +20,7 @@ gimp
 google-chrome
 google-drive
 google-earth-pro
+gstreamer-runtime
 handbrake-app
 iterm2
 karabiner-elements
@@ -56,6 +57,7 @@ vagrant
 vb-cable
 visual-studio-code
 vlc
+wine@staging
 wireshark-app
 xquartz
 zoho-mail

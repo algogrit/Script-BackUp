@@ -1,26 +1,32 @@
 #! /usr/bin/env sh
 
-echo "Comamnds:
-  add-all               - Stage changed files in the current repo and app repositories
-  add-nw                -
-  auto-push             -
-  catchup               - Show log of commits only in remote repo
-  commit-all            - Commit staged changes in the current repo and app repositories
-  latest                -
-  ls-conflicted         -
-  ls-modified           - Lists all the modified files in the repo (or) the director(y|ies) specified
-  ls-new                -
-  ls-untracked          - Lists all the untracked files in the repo (or) the director(y|ies) specified
+cat <<'EOF'
+Commands:
+  add-all               - Stage all changes (git add -A) across apps/* repos, then the root
+  add-nw                - Stage changes while ignoring whitespace-only edits
+  auto-push             - Remote update, status, show incoming, pull --rebase, then push
+  catchup               - Show commits on the remote but not yet local [-r <remote>] [<branch>]
+  commit-all            - Commit across apps/* repos and the root with one shared message
+  custom-help           - Show this list
+  deploy-to-sandbox     - Force-push the current branch to origin/sandbox (destructive)
+  incoming-commits      - Show commits on the tracked upstream but not yet local
+  latest                - List every remote branch by last-commit date, newest first
+  ls-conflicted         - List files with merge conflicts
+  ls-modified           - List modified files in the repo (or the director(y|ies) specified)
+  ls-new                - List staged new files
+  ls-untracked          - List untracked files in the repo (or the director(y|ies) specified)
   merge-to              - Merge the current clean branch into a target branch and check it out
-  multi                 - See 'git multi help'
-    `git multi help`
-  multi-sh              -
-  new-commits           - Show log of commits not yet pushed
-  nuke                  - Removes the branch from local and also deletes from remote origin
-  pristine              - Hard cleans the repository (think fresh clone)
-  pull-all              - Pull/rebase the current repo and app repositories
-  push-all              - Push the current repo and app repositories
-  resub                 - Wipe all submodules and re-clone each as a standalone clone (default branch)
-  swamp                 - List each remote branch's latest commit timestamp (use --local for local branches)
-  up                    -
-  wash                  - Cleans up the repository (Removes untracked directories, ignores entries in .gitignore)"
+  multi                 - Run a git command across submodules, nested repos, then the root
+  multi-sh              - Run a shell command across submodules, nested repos, then the root
+  new-commits           - Show local commits not yet pushed
+  nuke                  - Delete a branch locally and on origin (destructive)
+  pristine              - Hard clean: untracked dirs + ignored files + reset --hard (destructive)
+  pull-all              - Pull/rebase across apps/* repos and the root
+  push-all              - Push across apps/* repos and the root
+  resub                 - Wipe all submodules and re-clone each as a standalone repo (destructive)
+  swamp                 - Branch dashboard: age, author, ahead/behind [--local] [<base>]
+  up                    - (gitconfig alias) pull --all --rebase --autostash
+  wash                  - Clean untracked files, expire reflog, gc, fsck
+
+Run 'git multi help' or 'git multi-sh help' for usage examples.
+EOF

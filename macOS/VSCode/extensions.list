@@ -16,6 +16,7 @@ hashicorp.terraform
 howardzuo.vscode-git-blamer
 jpotterm.simple-vim
 mechatroner.rainbow-csv
+mermaidchart.vscode-mermaid-chart
 mikestead.dotenv
 mobalic.jetbrains-new-dark
 ms-python.debugpy

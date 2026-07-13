@@ -118,6 +118,7 @@ imlib2
 ios-deploy
 isl
 jansson
+jasper
 jbig2dec
 jenv
 jj
@@ -210,7 +211,12 @@ libxau
 libxcb
 libxdmcp
 libxext
+libxfixes
+libxi
+libxinerama
+libxkbcommon
 libxrender
+libxtst
 libyaml
 libzen
 libzip
@@ -255,6 +261,7 @@ nbytes
 ncurses
 neovim
 netcdf
+netpbm
 nettle
 nginx
 ninja
@@ -399,6 +406,8 @@ wxwidgets@3.2
 x264
 x265
 xcodegen
+xdotool
+xkeyboard-config
 xorgproto
 xvid
 xxhash

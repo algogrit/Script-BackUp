@@ -1,8 +1,8 @@
 #! /usr/bin/env sh
 
 git clean -f
-echo "\033[1;33mReflog commit count: `git reflog | wc -l`\033[0m"
-echo "\033[1;33mStash count: `git stash list | wc -l`\033[0m"
+printf '\033[1;33mReflog commit count: %s\033[0m\n' "$(git reflog | wc -l | tr -d ' ')"
+printf '\033[1;33mStash count: %s\033[0m\n' "$(git stash list | wc -l | tr -d ' ')"
 git reflog expire --expire=now --all
 git gc --prune=now
 git fsck

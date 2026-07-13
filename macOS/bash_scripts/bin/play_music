@@ -1,0 +1,152 @@
+#!/usr/bin/env bash
+# Usage: play_music [-m MAX_FAILURES] <file|glob> ...
+# Plays audio with mplayer (shuffled, looping forever), and bails out if it hits
+# too many unplayable files in a row.
+#
+# mplayer exits 0 even when a file is missing or corrupt, and with -loop 0 it will
+# spin through a dead playlist (stale glob, unmounted NAS) forever. So we watch its
+# output instead: a healthy track prints "Starting playback...", a failed one never
+# does. Four consecutive failures and we stop.
+#
+# Examples:
+#   play_music ~/Music/*.mp3
+#   play_music -m 2 /Volumes/nas/music/*
+#   PLAY_MUSIC_MAX_FAILURES=10 play_music album/*
+
+set -uo pipefail
+
+MAX_FAILURES="${PLAY_MUSIC_MAX_FAILURES:-4}"
+
+usage() {
+  echo "Usage: $(basename "$0") [-m MAX_FAILURES] <file|glob> ..."
+  echo ""
+  echo "Plays the given files with mplayer, shuffled and looping forever."
+  echo "Stops with an error after MAX_FAILURES (default 4) files in a row fail to play."
+  echo "MAX_FAILURES can also be set with \$PLAY_MUSIC_MAX_FAILURES."
+  echo ""
+  echo "Examples:"
+  echo "  $(basename "$0") ~/Music/*.mp3"
+  echo "  $(basename "$0") -m 2 /Volumes/nas/music/*"
+}
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  usage
+  exit 0
+fi
+
+if [[ "${1:-}" == "-m" ]]; then
+  MAX_FAILURES="${2:?-m needs a value}"
+  shift 2
+fi
+
+if [[ $# -eq 0 ]]; then
+  usage
+  exit 1
+fi
+
+if ! [[ "$MAX_FAILURES" =~ ^[1-9][0-9]*$ ]]; then
+  echo "play_music: max failures must be a positive integer, got '$MAX_FAILURES'" >&2
+  exit 1
+fi
+
+MPLAYER_OPTS=(-novideo -cache 16384 -cache-min 80 -loop 0 -shuffle)
+
+# Reads mplayer's output and counts files that never reach "Starting playback...".
+# Kills mplayer once too many fail back to back. Runs in a subshell (it is the tail
+# of a pipeline), so it reports back through its exit status rather than a variable.
+monitor() {
+  local line track pending="" streak=0
+  local failed=()
+
+  while IFS= read -r line; do
+    case "$line" in
+      "Playing "*)
+        if [[ -n "$pending" ]]; then
+          failed+=("$pending")
+          streak=$((streak + 1))
+        fi
+
+        if [[ $streak -ge $MAX_FAILURES ]]; then
+          report_failures "$streak" "${failed[@]}"
+          stop_mplayer
+          return 1
+        fi
+
+        track="${line#Playing }"
+        pending="${track%.}"
+        ;;
+      "Starting playback"*)
+        pending=""
+        streak=0
+        failed=()
+        ;;
+    esac
+  done
+
+  # mplayer exited on its own. Without -loop it can end on a failed file, so account
+  # for the last track before deciding whether the limit was reached.
+  if [[ -n "$pending" ]]; then
+    failed+=("$pending")
+    streak=$((streak + 1))
+  fi
+
+  if [[ $streak -ge $MAX_FAILURES ]]; then
+    report_failures "$streak" "${failed[@]}"
+    return 1
+  fi
+
+  return 0
+}
+
+report_failures() {
+  local streak="$1"
+  shift
+  echo "" >&2
+  echo "play_music: $streak files in a row failed to play, giving up:" >&2
+  printf '  %s\n' "$@" >&2
+}
+
+# mplayer does not always honour SIGTERM (while churning through a broken playlist it
+# can ignore it entirely), so give it a second to leave on its own, then force it.
+stop_mplayer() {
+  local i
+  kill "$mpid" 2>/dev/null
+  for i in $(seq 10); do
+    kill -0 "$mpid" 2>/dev/null || return
+    sleep 0.1
+  done
+  kill -9 "$mpid" 2>/dev/null
+}
+
+fifo="$(mktemp -u "${TMPDIR:-/tmp}/play_music.$$.XXXXXX")"
+mkfifo "$fifo" || exit 1
+
+# mplayer puts the terminal in raw mode to read its keys, and cannot put it back if we
+# have to SIGKILL it, so remember how the terminal was and hand it back ourselves.
+if [[ -t 0 ]]; then
+  tty_state="$(stty -g)"
+  trap 'stty "$tty_state" 2>/dev/null; rm -f "$fifo"' EXIT
+else
+  trap 'rm -f "$fifo"' EXIT
+fi
+
+# mplayer's stdout goes through the fifo so we can hold its pid and still kill it.
+# Its stdin has to be handed over deliberately: a background job in a non-interactive
+# shell gets /dev/null for stdin, which would cost us mplayer's keys (q, pause, seek).
+exec 3>&1
+exec 5<&0
+mplayer "${MPLAYER_OPTS[@]}" "$@" >"$fifo" 2>&1 <&5 &
+mpid=$!
+
+# Stop the shell tracking it as a job, otherwise it announces the signal we kill it
+# with. Nothing is waited on: the fifo reaches EOF precisely when mplayer exits.
+disown "$mpid" 2>/dev/null
+
+trap 'stop_mplayer' INT TERM
+
+# tee, rather than echoing from monitor: mplayer's live "A: 12.3 ..." status line ends
+# in a carriage return, and a bash read loop would sit on it until the next newline.
+tee /dev/fd/3 < "$fifo" | monitor
+status="${PIPESTATUS[1]}"
+
+exit "$status"
