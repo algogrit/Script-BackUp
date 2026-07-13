@@ -212,12 +212,17 @@ cp ~/Script-BackUp/macOS/Claude/keybindings.json ~/.claude/ 2>/dev/null || true
 cp ~/Script-BackUp/macOS/Claude/CLAUDE.md ~/.claude/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Claude/commands ~/.claude/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Claude/agents ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Claude/skills ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Claude/hooks ~/.claude/ 2>/dev/null || true
 cp ~/Script-BackUp/macOS/Claude/plugins/known_marketplaces.json ~/.claude/plugins/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Claude/plugins/installed_plugins.json ~/.claude/plugins/ 2>/dev/null || true
 
 echo "\033[1;31mRestoring Codex settings...\033[0m"
 mkdir -p ~/.codex
 cp ~/Script-BackUp/macOS/Codex/config.toml ~/.codex/ 2>/dev/null || true
 cp ~/Script-BackUp/macOS/Codex/AGENTS.md ~/.codex/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Codex/rules ~/.codex/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Codex/prompts ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/skills ~/.codex/ 2>/dev/null || true
 
 # Apply macOS System Settings tweaks + login items (also runnable standalone).

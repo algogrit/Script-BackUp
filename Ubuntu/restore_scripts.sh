@@ -59,6 +59,26 @@ cp ~/Script-BackUp/Ubuntu/VSCode/settings.json ~/.config/Code/User/
 cp ~/Script-BackUp/Ubuntu/VSCode/keybindings.json ~/.config/Code/User/
 cat ~/Script-BackUp/Ubuntu/VSCode/extensions.list | xargs -n 1 code --install-extension
 
+echo "\033[1;31mRestoring Claude Code settings...\033[0m"
+mkdir -p ~/.claude ~/.claude/plugins
+cp ~/Script-BackUp/Ubuntu/Claude/settings.json ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Claude/keybindings.json ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Claude/CLAUDE.md ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Claude/commands ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Claude/agents ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Claude/skills ~/.claude/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Claude/hooks ~/.claude/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Claude/plugins/known_marketplaces.json ~/.claude/plugins/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Claude/plugins/installed_plugins.json ~/.claude/plugins/ 2>/dev/null || true
+
+echo "\033[1;31mRestoring Codex settings...\033[0m"
+mkdir -p ~/.codex
+cp ~/Script-BackUp/Ubuntu/Codex/config.toml ~/.codex/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Codex/AGENTS.md ~/.codex/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Codex/rules ~/.codex/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Codex/prompts ~/.codex/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Codex/skills ~/.codex/ 2>/dev/null || true
+
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash

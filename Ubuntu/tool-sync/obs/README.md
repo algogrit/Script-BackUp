@@ -1,14 +1,14 @@
 # OBS Studio sync
 
 Cross-platform backup/restore of OBS Studio config. One `sync.sh` is shared by
-every machine; the backup itself lives once at the repo root in `OBS/` and is
+every machine; the backup itself lives once at the repo root in `shared/OBS/` and is
 sanitized so it restores cleanly on macOS, Linux, or Windows.
 
 ## Usage
 
 ```sh
-./tool-sync/obs/sync.sh backup     # live OBS config -> repo/OBS/
-./tool-sync/obs/sync.sh restore    # repo/OBS/      -> live OBS config
+./tool-sync/obs/sync.sh backup     # live OBS config -> repo/shared/OBS/
+./tool-sync/obs/sync.sh restore    # repo/shared/OBS/      -> live OBS config
 ```
 
 (`backup` is run from each platform's `update_scripts.sh`; `restore` from

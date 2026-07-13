@@ -1,0 +1,31 @@
+{
+  "env": {
+    "COLORTERM": "truecolor",
+    "CLAUDE_AFK_TIMEOUT_MS": "86400000"
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "deny": [
+      "Bash(git checkout -b:*)",
+      "Bash(git switch -c:*)",
+      "Bash(git switch --create:*)"
+    ]
+  },
+  "model": "claude-fable-5[1m]",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "kotlin-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
+  "theme": "dark",
+  "editorMode": "normal",
+  "verbose": false
+}

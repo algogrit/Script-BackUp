@@ -46,6 +46,29 @@ cp ~/.config/Code/User/settings.json VSCode
 cp ~/.config/Code/User/keybindings.json VSCode
 code --list-extensions > VSCode/extensions.list
 
+# Copy Claude Code settings (never ~/.claude.json - it holds oauth/identity)
+mkdir -p Claude Claude/plugins
+cp ~/.claude/settings.json Claude/ 2>/dev/null || true
+cp ~/.claude/keybindings.json Claude/ 2>/dev/null || true
+cp ~/.claude/CLAUDE.md Claude/ 2>/dev/null || true
+cp -r ~/.claude/commands Claude/ 2>/dev/null || true
+cp -r ~/.claude/agents Claude/ 2>/dev/null || true
+cp -r ~/.claude/skills Claude/ 2>/dev/null || true
+cp -r ~/.claude/hooks Claude/ 2>/dev/null || true
+cp ~/.claude/plugins/known_marketplaces.json Claude/plugins/ 2>/dev/null || true
+cp ~/.claude/plugins/installed_plugins.json Claude/plugins/ 2>/dev/null || true
+
+# Copy Codex settings (never auth/session/runtime state)
+mkdir -p Codex
+cp ~/.codex/config.toml Codex/ 2>/dev/null || true
+cp ~/.codex/AGENTS.md Codex/ 2>/dev/null || true
+cp -r ~/.codex/rules Codex/ 2>/dev/null || true
+cp -r ~/.codex/prompts Codex/ 2>/dev/null || true
+if [ -d ~/.codex/skills ]; then
+  mkdir -p Codex/skills
+  find ~/.codex/skills -mindepth 1 -maxdepth 1 ! -name .system -exec cp -r {} Codex/skills/ \; 2>/dev/null || true
+fi
+
 # Copy Custom Git Commands
 cp -r ~/git-hooks .
 cp -r ~/Custom-Git-Commands .

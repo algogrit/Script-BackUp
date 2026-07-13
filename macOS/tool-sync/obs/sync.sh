@@ -5,7 +5,7 @@
 #   ./sync.sh backup     # live OBS config  ->  repo  (sanitized, portable)
 #   ./sync.sh restore    # repo             ->  live OBS config (re-localized)
 #
-# The backup is stored ONCE at the repo root in OBS/ so the same config is
+# The backup is stored ONCE in shared/OBS/ at the repo root so the same config is
 # shared across machines/OSes. Paths under $HOME are tokenized to __OBS_HOME__
 # on backup and expanded back to the local $HOME on restore, so recording
 # directories and scene media paths follow you across macOS/Linux/Windows.
@@ -34,7 +34,7 @@ else
     done
     [ -d "$REPO_ROOT/.git" ] || REPO_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
 fi
-STORE="$REPO_ROOT/OBS"
+STORE="$REPO_ROOT/shared/OBS"
 
 # ---------------------------------------------------------------------------
 # Detect the live OBS config directory for this OS / install method.

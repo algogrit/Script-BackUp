@@ -1,0 +1,47 @@
+model = "gpt-5.6-sol"
+approvals_reviewer = "user"
+model_reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+[projects."/home/om/Developer/CMTech/creator-kit"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/creator-kit/video/editor/workbench/2026-01-22 Weylus"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/novel-signer"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/video-editor"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/Algogrit/one-offs"]
+trust_level = "trusted"
+
+[projects."/home/om/Script-BackUp"]
+trust_level = "trusted"
+
+[projects."/home/om/bash_scripts"]
+trust_level = "trusted"
+
+[projects."/home/om"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/infra"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/infra/apps/novel-signer"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/infra/apps/mirrorpad"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/vyuha"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.4"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 4
