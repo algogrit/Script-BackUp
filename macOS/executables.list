@@ -43,6 +43,7 @@ afscexpand
 ag
 agentxtrap
 agvtool
+agy
 ahost
 aider
 airport
@@ -972,6 +973,7 @@ glib-genmarshal
 glib-gettextize
 glib-mkenums
 glibtool
+glibtool-next-version
 glibtoolize
 glink
 gln
@@ -2135,6 +2137,7 @@ pbmupc
 pbpaste
 pc1toppm
 pcap-config
+pccritic
 pcdindex
 pcdovtoppm
 pcre-config
@@ -2979,6 +2982,7 @@ sox
 soxi
 spctl
 spctoppm
+spdxtool
 speexdec
 speexenc
 spfd

@@ -7,9 +7,16 @@
 # alias mistral-small='ollama run mistral-small3.1:latest'
 # alias phi4='ollama run phi4:latest'
 
-alias qwen25-aider='aider --model ollama/qwen2.5-coder:32b --auto-commits'
+# alias qwen25-aider='aider --model ollama/qwen2.5-coder:32b --auto-commits'
 
 alias codex='codex --sandbox workspace-write --ask-for-approval on-request'
 alias codex-commit='codex --model gpt-5.6-luna "review and commit"'
-alias claude='claude --enable-auto-mode --permission-mode=plan'
-alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
+
+# alias claude='claude --enable-auto-mode --permission-mode=plan'
+# alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
+alias claude='agy --model "Claude Opus 4.6 (Thinking)" --add-dir "$(pwd)" -i "/plan"'
+alias claude-commit='agy --model "Claude Sonnet 4.6 (Thinking)" --add-dir "$(pwd)" --dangerously-skip-permissions -i "review and commit"'
+
+alias gemini='agy --add-dir "$(pwd)" -i "/plan"'
+alias gemini-grill='agy --add-dir "$(pwd)" -i "/grill-me"'
+alias gemini-commit='agy --model "Gemini 3.1 Pro (High)" --add-dir "$(pwd)" --dangerously-skip-permissions -i "review and commit"'
