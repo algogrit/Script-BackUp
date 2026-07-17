@@ -1,15 +1,21 @@
 alias ollama-refresh-all="ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull"
 
-alias codellama='ollama run codellama:13b-code'
-alias deepseek-coder='ollama run DeepSeek-Coder:6.7b'
-alias deepseek='ollama run deepseek-r1:latest'
-alias gemma3='ollama run gemma3:latest'
-alias llama3.1='ollama run llama3.1:8b'
-alias mistral='ollama run mistral:latest'
-alias mistral-small='ollama run mistral-small3.1:latest'
-alias phi4='ollama run phi4:latest'
+# alias codellama='ollama run codellama:13b-code'
+# alias deepseek-coder='ollama run DeepSeek-Coder:6.7b'
+# alias deepseek='ollama run deepseek-r1:latest'
+# alias gemma3='ollama run gemma3:latest'
+# alias llama3.1='ollama run llama3.1:8b'
+# alias mistral='ollama run mistral:latest'
+# alias mistral-small='ollama run mistral-small3.1:latest'
+# alias phi4='ollama run phi4:latest'
 
 alias codex='codex --sandbox workspace-write --ask-for-approval on-request'
 alias codex-commit='codex --model gpt-5.6-luna "review and commit"'
+
 alias claude='claude --enable-auto-mode --permission-mode=plan'
-alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
+# alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
+alias claude-commit='agy --add-dir "$(pwd)" --dangerously-skip-permissions -i "/model claude-sonnet review and commit"'
+
+alias gemini='agy -i "/plan"'
+alias gemini-grill='agy -i "/grill-me"'
+alias gemini-commit='agy --add-dir "$(pwd)" --dangerously-skip-permissions -i "/model claude-sonnet review and commit"'

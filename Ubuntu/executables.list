@@ -72,6 +72,7 @@ add-shell
 adduser
 ag
 agetty
+agy
 airscan-discover
 alsa
 alsabat
@@ -669,10 +670,19 @@ filelife-bpfcc
 file-roller
 fileslower-bpfcc
 filetop-bpfcc
+finalrd
 fincore
 find
 findfs
 findmnt
+fio
+fio2gnuplot
+fio-btrace2fio
+fio-dedupe
+fio_generate_plots
+fio-genzipf
+fio_jsonplus_clat2csv
+fio-verify-state
 firefox
 firefox.geckodriver
 firmware-updater
@@ -804,6 +814,7 @@ gencfu
 gencmn
 gencnval
 gendict
+genfio
 genisoimage
 genl
 gennorm2
@@ -833,6 +844,7 @@ getty
 getweb
 gfortran
 gfortran-13
+gh
 ghostscript
 gi-compile-repository
 gi-decompile-typelib
@@ -1524,6 +1536,7 @@ mcookie
 mcopy
 md5sum
 md5sum.textutils
+mdadm
 mdel
 mdeltree
 mdevctl
@@ -1531,6 +1544,7 @@ mdflush-bpfcc
 mdflush.bt
 mdig
 mdir
+mdmon
 mdu
 media-ctl
 mediainfo
@@ -3010,6 +3024,8 @@ x86_64-linux-gnu-objcopy
 x86_64-linux-gnu-objdump
 x86_64-linux-gnu-pkgconf
 x86_64-linux-gnu-pkg-config
+x86_64-linux-gnu-python3.12-config
+x86_64-linux-gnu-python3-config
 x86_64-linux-gnu-ranlib
 x86_64-linux-gnu-readelf
 x86_64-linux-gnu-size

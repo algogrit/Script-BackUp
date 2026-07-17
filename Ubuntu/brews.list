@@ -13,6 +13,7 @@ fontconfig
 freetype
 fzf
 gdbm
+gh
 giflib
 git-delta
 glib
@@ -81,3 +82,4 @@ xz
 zip
 zlib-ng-compat
 zstd
+antigravity-cli
