@@ -111,6 +111,10 @@ cp ~/.sackrc .
 # Copy karbiner config
 cp ~/.config/karabiner/karabiner.json .
 
+# Copy ramayan config
+mkdir -p ramayan
+cp ~/.config/ramayan/config.toml ramayan/ 2>/dev/null || true
+
 # Copy Git Customizations
 cp -r ~/Custom-Git-Commands .
 cp -r ~/git-hooks .

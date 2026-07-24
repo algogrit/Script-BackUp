@@ -225,6 +225,10 @@ cp -r ~/Script-BackUp/macOS/Codex/rules ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/prompts ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/skills ~/.codex/ 2>/dev/null || true
 
+echo "\033[1;31mRestoring ramayan config...\033[0m"
+mkdir -p ~/.config/ramayan
+cp ~/Script-BackUp/macOS/ramayan/config.toml ~/.config/ramayan/ 2>/dev/null || true
+
 # Apply macOS System Settings tweaks + login items (also runnable standalone).
 ./apply_system_settings.sh
 
