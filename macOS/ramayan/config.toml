@@ -1,0 +1,39 @@
+destination_root = "/Volumes/Vishwakarma"
+parallelism = 0
+
+[[sources]]
+name = "camera-1" # One Plus 8
+kind = "android"
+serial = "ac444ec5"
+target = "camera-1"
+enabled = true
+
+[[sources]]
+name = "camera-2" # iPhone 14 Pro Max - Blackmagic
+kind = "ios-blackmagic"
+device_id = "00008120-000A3D900138C01E"
+target = "camera-2"
+concurrency_group = "iphone-14-pro-max"
+enabled = true
+
+[[sources]]
+name = "camera-3" # One Plus Nord CE4 Lite
+kind = "android"
+serial = "9a468f74"
+target = "camera-3"
+enabled = true
+
+[[sources]]
+name = "camera-4" # iPhone 14 Pro Max
+kind = "ios"
+device_id = "30303030-3831-3230-2D30-304133443930"
+target = "camera-4"
+concurrency_group = "iphone-14-pro-max"
+enabled = true
+
+[[sources]]
+name = "screen"
+kind = "obs"
+path = "/Users/gaurav/Downloads/Creator/Raw Recordings"
+target = "screen"
+enabled = true

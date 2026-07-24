@@ -33,6 +33,7 @@ redhat.java
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 shakram02.bash-beautify
+tamasfe.even-better-toml
 tauri-apps.tauri-vscode
 tomoki1207.pdf
 tomoki1207.vscode-input-sequence
