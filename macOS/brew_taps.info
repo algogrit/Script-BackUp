@@ -4,7 +4,7 @@ Trusted
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (20 files, 328.9KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: 8fa0df79e4a1b7d4ab292958352feaceb4905bfb
-last commit: 5 weeks ago
+last commit: 6 weeks ago
 ==> Casks
 game-porting-toolkit
 
@@ -14,7 +14,7 @@ Trusted
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (170 files, 1.8MB)
 From: https://github.com/hashicorp/homebrew-tap
 HEAD: 3923c7c647e8cebcc09d900240aee4e1b1b26478
-last commit: 3 days ago
+last commit: 10 days ago
 ==> Formulae
 terraform
 ==> Casks

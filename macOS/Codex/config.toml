@@ -1,4 +1,4 @@
-model = "gpt-5.6-sol"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "medium"
 notify = ["/Users/gaurav/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
 service_tier = "default"
@@ -55,6 +55,15 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/Users/gaurav/Developer/CMTech/creator-kit"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/Presentations/presentation-demystifying-webrtc"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/Presentations/presentation-template"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
 [tui]

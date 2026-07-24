@@ -1576,7 +1576,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1783773675
+luajit-2.1.1784580905
 luit
 lwp-download
 lwp-download5.34
@@ -2668,6 +2668,7 @@ ragg2
 rahash2
 rails
 rake
+ramayan
 randpkt
 randpktdump
 ranlib
