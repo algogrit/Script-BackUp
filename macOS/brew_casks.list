@@ -11,7 +11,6 @@ claude
 claude-code@latest
 coconutbattery
 discord
-disk-drill
 docker-desktop
 firefox
 flutter
@@ -23,17 +22,11 @@ gstreamer-runtime
 handbrake-app
 iterm2
 karabiner-elements
-kdenlive
 lbry
-libndi
 libreoffice
 menumeters
-mono-mdk
-ndi-tools
 ngrok
 obs
-opencode-desktop
-opensc-app
 raspberry-pi-imager
 raycast
 rectangle
@@ -41,7 +34,6 @@ slack
 sonic-visualiser
 steam
 stremio
-synology-chat
 synology-drive
 telegram
 temurin@17
