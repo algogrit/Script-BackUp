@@ -343,3 +343,6 @@ prefix_rule(pattern=["/opt/homebrew/bin/bash", "-lc", "uv run --with pyyaml pyth
 prefix_rule(pattern=["/opt/homebrew/bin/bash", "-lc", "(cd cv/webserver && go test ./...) && git diff --check && git diff -- scripts/jetson-tx1/deploy-cv-tx1.sh cv/webserver/config_test.go"], decision="allow")
 prefix_rule(pattern=["printf", "%s\\n", "q"], decision="allow")
 prefix_rule(pattern=["cd", "app"], decision="allow")
+prefix_rule(pattern=["rsync", "-a", "--exclude", ".git", "--exclude", "node_modules", "--exclude", "dist", "/Users/gaurav/Developer/Presentations/presentation-template/", "/Users/gaurav/Developer/CMTech/proposals/novel-signer-auggit-integration-proposal/"], decision="allow")
+prefix_rule(pattern=["npm", "ci"], decision="allow")
+prefix_rule(pattern=["npm", "run", "deck:sync"], decision="allow")
