@@ -15,6 +15,9 @@ echo "\033[1;31mApplying macOS System Settings...\033[0m"
 defaults write com.apple.dock wvous-bl-corner -int 10
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
+# Dock: Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
 # Keyboard: use F1, F2, etc. as standard function keys (press Fn for special features)
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 
