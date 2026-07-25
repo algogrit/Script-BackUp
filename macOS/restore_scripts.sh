@@ -110,7 +110,7 @@ cp ~/Script-BackUp/macOS/.bash* ~/
 touch ~/bash_scripts/aliases/.personal_secret
 
 echo "\033[1;31mRestoring ssh config...\033[0m"
-mkdir -p ~/.ssh
+mkdir -p ~/.ssh ~/.ssh/sockets
 cp ~/Script-BackUp/macOS/.ssh/config ~/.ssh
 
 echo "\033[1;31mRestoring paths...\033[0m"
