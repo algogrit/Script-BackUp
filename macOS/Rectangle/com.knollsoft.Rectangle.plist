@@ -52,7 +52,5 @@
 		<key>modifierFlags</key>
 		<integer>786432</integer>
 	</dict>
-	<key>windowSnapping</key>
-	<integer>2</integer>
 </dict>
 </plist>
