@@ -252,6 +252,12 @@ if [ -f ~/Script-BackUp/macOS/iTerm2/com.googlecode.iterm2.plist ]; then
   defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile_selection -int 2
 fi
 
+echo "\033[1;31mRestoring Rectangle preferences...\033[0m"
+echo "  (Quit Rectangle before this step so it doesn't overwrite preferences on exit.)"
+if [ -f ~/Script-BackUp/macOS/Rectangle/com.knollsoft.Rectangle.plist ]; then
+  defaults import com.knollsoft.Rectangle ~/Script-BackUp/macOS/Rectangle/com.knollsoft.Rectangle.plist
+fi
+
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash

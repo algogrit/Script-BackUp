@@ -161,6 +161,12 @@ echo "\033[1;31mBacking up iTerm2 preferences...\033[0m"
 mkdir -p iTerm2
 defaults export com.googlecode.iterm2 - | plutil -convert xml1 -o iTerm2/com.googlecode.iterm2.plist -
 
+# Back up Rectangle preferences (including all custom keyboard shortcuts).
+echo "\033[1;31mBacking up Rectangle preferences...\033[0m"
+echo "  (Quit Rectangle first to avoid it overwriting preferences on exit.)"
+mkdir -p Rectangle
+defaults export com.knollsoft.Rectangle - | plutil -convert xml1 -o Rectangle/com.knollsoft.Rectangle.plist -
+
 # Copy files relative to root
 mkdir -p root
 mkdir -p root/etc
