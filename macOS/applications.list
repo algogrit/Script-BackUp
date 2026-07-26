@@ -1,5 +1,5 @@
 [1;31mListing /Applications...[0m
-Adobe Acrobat Reader
+Adobe Acrobat DC
 Antigravity
 Arc
 balenaEtcher
@@ -47,6 +47,7 @@ The Unarchiver
 Thunderbird
 Tor Browser
 Transmission
+Unity
 Unity Hub
 Usage
 Utilities
@@ -63,3 +64,5 @@ Zoho Mail - Desktop
 Zoho WorkDrive TrueSync
 zoom
 [1;31mListing User Applications...[0m
+Chrome Apps
+Claude Code URL Handler
