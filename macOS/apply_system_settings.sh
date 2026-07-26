@@ -126,6 +126,10 @@ defaults write NSGlobalDomain com.apple.trackpad.threeFingerVertSwipeGesture -in
 # Finder: default new windows to Column view (clmv; other values: icnv, Nlsv, glyv)
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 
+# Keep the user Library folder visible in Finder. This is useful for managing
+# application support files and CloudStorage-backed folders during restores.
+chflags nohidden "$HOME/Library"
+
 # Finder: new windows open ~/Downloads. PfLo = "Other..." (an arbitrary path), whose
 # location comes from NewWindowTargetPath as a file:// URL with a trailing slash.
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
