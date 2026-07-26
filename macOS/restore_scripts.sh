@@ -264,8 +264,19 @@ chmod +x ~/bin/flash
 cp ~/Script-BackUp/macOS/bin/* ~/bin
 
 # Workaround for annoying non-apple bluetooth keyboard disconnects...
-cp ~/Script-BackUp/macOS/LaunchAgents/* ~/Library/LaunchAgents/
+for agent in ~/Script-BackUp/macOS/LaunchAgents/*; do
+  [ "$(basename "$agent")" = "com.user.codermana-nas-backup.plist" ] && continue
+  cp "$agent" ~/Library/LaunchAgents/
+done
 launchctl load ~/Library/LaunchAgents/com.user.bluetooth.keepalive.plist
+
+# The CoderMana backup needs the Zoho WorkDrive source folder available on
+# Arundhati; do not install or load it on the other restored Macs.
+if [ "$(scutil --get LocalHostName 2>/dev/null)" = "Arundhati" ]; then
+  cp ~/Script-BackUp/macOS/LaunchAgents/com.user.codermana-nas-backup.plist \
+    ~/Library/LaunchAgents/
+  launchctl load ~/Library/LaunchAgents/com.user.codermana-nas-backup.plist 2>/dev/null || true
+fi
 
 echo "\033[1;31mSetup Airport Utility...\033[0m"
 ln -sf /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport ~/bin
