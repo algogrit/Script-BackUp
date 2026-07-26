@@ -182,6 +182,7 @@ cp ~/.ssh/config .ssh/
 # Copy custom LaunchAgents
 mkdir -p LaunchAgents
 cp ~/Library/LaunchAgents/com.user.bluetooth.keepalive.plist LaunchAgents/
+cp ~/Library/LaunchAgents/com.user.codermana-nas-backup.plist LaunchAgents/
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history

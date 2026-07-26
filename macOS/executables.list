@@ -138,6 +138,7 @@ aws_completer
 b2sum
 b64decode
 b64encode
+backup-codermana-to-nas
 baddbdir
 banner
 base32
