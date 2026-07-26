@@ -24,7 +24,7 @@ export LSCOLORS="ecfxcxdxbxegedabagacad"
 export GIT_PS1_SHOWDIRTYSTATE=true
 
 function parse_git_branch {
-  echo "$(__git_ps1)"
+  type __git_ps1 >/dev/null 2>&1 && __git_ps1
 }
 
 # Formatting bash prompt

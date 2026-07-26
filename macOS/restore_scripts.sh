@@ -25,13 +25,22 @@ function _install_languages {
   cd /tmp
   ACTUAL_WD=$OLDPWD
 
+  local lang="$1"
+  local tool="$2"
+
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "  [WARNING] '$tool' command not found. Skipping $lang version installation."
+    cd "$ACTUAL_WD"
+    return
+  fi
+
   ## TODO: Handle nuances in fnm
   # Install just the global version
-  cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 install
+  /bin/cat "$HOME/Script-BackUp/macOS/$lang.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $tool install || true
   # Set the global version
-  cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $2 global
+  /bin/cat "$HOME/Script-BackUp/macOS/$lang.versions" | grep -v system | grep set | cut -d ' ' -f 2 | xargs -n 1 $tool global || true
   # Install the other versions (TODO: make it optional)
-  cat "$HOME/Script-BackUp/macOS/$1.versions" | grep -v system | grep -v set | xargs -n 1 $2 install
+  /bin/cat "$HOME/Script-BackUp/macOS/$lang.versions" | grep -v system | grep -v set | xargs -n 1 $tool install || true
 
   cd "$ACTUAL_WD"
 }
@@ -75,8 +84,8 @@ if [ ! -d "$TRUESYNC_APP" ]; then
 fi
 
 echo "\033[1;31mInstalling all brews...\033[0m"
-cat ~/Script-BackUp/macOS/brews.list | xargs brew install
-brew upgrade
+/bin/cat ~/Script-BackUp/macOS/brews.list | xargs -n 1 brew install || true
+brew upgrade || true
 
 echo "\033[1;31mInstalling all mac App Store apps...\033[0m"
 cat "$HOME/Script-BackUp/macOS/mas.list" | awk '{print $1}' | xargs -n 1 mas install || exit 1
@@ -263,14 +272,20 @@ if [[ "$(echo "$_reloaded_shell" | tr '[:upper:]' '[:lower:]')" == "n" ]]; then
 fi
 
 echo "\033[1;31mInstalling language versions...\033[0m"
+export PATH="$BREW_PREFIX/bin:$HOME/.goenv/bin:$HOME/.jenv/bin:$PATH"
 RBENV_ROOT="$BREW_PREFIX/var/rbenv" _install_languages ruby rbenv
 LDFLAGS="-L$BREW_PREFIX/opt/zlib/lib" CPPFLAGS="-I$BREW_PREFIX/opt/zlib/include" _install_languages python pyenv
 _install_languages node fnm
 _install_languages go goenv
-jenv enable-plugin export
-# jenv installing all the java versions
-/usr/libexec/java_home -V2&> /tmp/jdk-list
-cat /tmp/jdk-list | ag Library | cut -f 3 | xargs -n 1 jenv add
+
+if command -v jenv >/dev/null 2>&1; then
+  jenv enable-plugin export || true
+  # jenv installing all the java versions
+  /usr/libexec/java_home -V2 &> /tmp/jdk-list
+  /bin/cat /tmp/jdk-list | grep Library | cut -f 3 | xargs -n 1 jenv add || true
+else
+  echo "  [WARNING] 'jenv' command not found. Skipping Java version manager setup."
+fi
 
 echo "\033[1;31mInstalling git-up...\033[0m"
 RBENV_VERSION=3.4.4 gem install git-up
