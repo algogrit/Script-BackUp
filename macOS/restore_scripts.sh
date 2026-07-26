@@ -116,6 +116,7 @@ fi
 
 echo "\033[1;31mRestoring bash scripts...\033[0m"
 cp ~/Script-BackUp/macOS/.bash* ~/
+cp ~/Script-BackUp/macOS/.goenvrc ~/ 2>/dev/null || true
 touch ~/bash_scripts/aliases/.personal_secret
 
 echo "\033[1;31mRestoring ssh config...\033[0m"

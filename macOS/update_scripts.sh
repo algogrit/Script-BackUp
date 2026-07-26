@@ -86,6 +86,7 @@ echo "\033[1;31mCopying fresh files...\033[0m"
 # Copy all bash scripts, except .bash_history
 cp -r ~/bash_scripts .
 cp ~/.bash* .
+cp ~/.goenvrc . 2>/dev/null || true
 
 # Copy gitconfig
 cp ~/.gitconfig .

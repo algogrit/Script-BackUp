@@ -56,6 +56,7 @@ export GOPATH=$GOENV_ROOT
 export PATH="$GOPATH/bin:$PATH"
 export GOENV_DISABLE_GOROOT=1
 export GOENV_DISABLE_GOPATH=1
+export GOENV_PATH_ORDER=front
 if bash_startup_optional_enabled && command -v goenv >/dev/null 2>&1; then
   eval "$(goenv init -)"
 fi
