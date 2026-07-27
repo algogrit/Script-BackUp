@@ -13,5 +13,23 @@ function hari() {
         tmux_cmd="tmux a -t '$session' || tmux new -s '$session'"
     fi
 
-    ssh "$@" -t "$tmux_cmd || screen -r || screen || /bin/bash"
+    local attempt=0
+    local max_attempts=36 # 36 * 5s = 180s = 3 mins
+
+    while [[ $attempt -lt $max_attempts ]]; do
+        ssh "$@" -t "$tmux_cmd || screen -r || screen || /bin/bash"
+        local exit_code=$?
+
+        # 255 indicates an SSH connection error (e.g., Network unreachable)
+        if [[ $exit_code -eq 255 ]]; then
+            echo "hari: SSH connection failed. Retrying in 5 seconds... ($((attempt + 1))/$max_attempts)"
+            sleep 5
+            ((attempt++))
+        else
+            return $exit_code
+        fi
+    done
+
+    echo "hari: Could not connect after 3 minutes."
+    return 255
 }

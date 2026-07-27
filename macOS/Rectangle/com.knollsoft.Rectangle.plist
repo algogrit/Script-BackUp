@@ -19,6 +19,8 @@
 		<key>modifierFlags</key>
 		<integer>786432</integer>
 	</dict>
+	<key>centerThird</key>
+	<dict/>
 	<key>installVersion</key>
 	<string>104</string>
 	<key>internalTilingNotified</key>
