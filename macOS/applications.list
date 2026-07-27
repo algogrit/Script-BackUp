@@ -1,5 +1,5 @@
 [1;31mListing /Applications...[0m
-Adobe Acrobat DC
+Adobe Acrobat Reader
 Antigravity
 Arc
 balenaEtcher
@@ -27,8 +27,6 @@ Keynote Creator Studio
 LBRY
 LibreOffice
 MenuMeters
-Mirrorpad Beta
-Novel Signer Beta
 Numbers Creator Studio
 OBS
 Pages Creator Studio
@@ -40,7 +38,6 @@ Slack
 Sonic Visualiser
 Steam
 Stremio
-Synology Drive Client
 Telegram
 TestFlight
 The Unarchiver
@@ -61,8 +58,5 @@ Wine Staging
 Wireshark
 Xcode
 Zoho Mail - Desktop
-Zoho WorkDrive TrueSync
 zoom
 [1;31mListing User Applications...[0m
-Chrome Apps
-Claude Code URL Handler
