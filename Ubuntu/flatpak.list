@@ -1,4 +1,4 @@
-OBS Studio	Live stream and record videos	com.obsproject.Studio	32.1.2	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	d5ef55629900	-	537.3 MB	user,current
+OBS Studio	Live stream and record videos	com.obsproject.Studio	32.2.1	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	a3a5cbd575a1	-	528.5 MB	user,current
 DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	64fbd7605d20	-	2.8 MB	user,runtime
 Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	d04b579250db	-	335.1 MB	user,current
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.14	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	fdad08cc1090	-	658.5 MB	user,runtime

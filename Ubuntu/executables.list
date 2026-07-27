@@ -418,6 +418,7 @@ curl
 cut
 cvt
 cvtsudoers
+cwebp
 cx18-ctl
 cygdb
 cython
@@ -553,6 +554,7 @@ dumpkeys
 dumpsexp
 duplicity
 dvipdf
+dwebp
 dwp
 e2freefrag
 e2fsck
@@ -850,6 +852,7 @@ gi-compile-repository
 gi-decompile-typelib
 gids-tool
 gie
+gif2webp
 gifbuild
 gifclrmp
 giffix
@@ -1131,6 +1134,7 @@ ifconfig
 ifnames
 ijs_pxljr
 im-config
+img2webp
 im-launch
 inetutils-telnet
 info
@@ -1239,6 +1243,7 @@ jjs
 jlink
 jmap
 jmod
+jnativescan
 join
 journalctl
 jpackage
@@ -1246,7 +1251,6 @@ jpegtran
 jpgicc
 jps
 jq
-jrunscript
 js
 jsesc
 jshell
@@ -1261,6 +1265,7 @@ jstack
 jstat
 jstatd
 js-yaml
+jwebserver
 JxrDecApp
 JxrEncApp
 kbdinfo
@@ -2166,6 +2171,7 @@ qt-faststart
 quirks-handler
 racc
 rake
+ramayan
 randpkt
 ranlib
 rarp
@@ -2729,6 +2735,7 @@ UnicodeNameMappingGenerator-18
 unicode_start
 unicode_stop
 uniq
+unityhub
 unity-scope-loader
 unix_chkpwd
 unix_update
@@ -2810,7 +2817,6 @@ uz
 v4l2-compliance
 v4l2-ctl
 v4l2-dbg
-v4l2loopback-ctl
 v4l2-sysfs-path
 vainfo
 validlocale
@@ -2890,6 +2896,8 @@ wdctl
 WebKitWebDriver
 webpack
 webpack-cli
+webpinfo
+webpmux
 westcos-tool
 wget
 whatis

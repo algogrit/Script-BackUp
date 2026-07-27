@@ -45,6 +45,9 @@ trust_level = "trusted"
 [projects."/home/om/Developer/CMTech/pdf-text-extractor"]
 trust_level = "trusted"
 
+[projects."/home/om/Developer/CMTech/Ramayan"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 "gpt-5.3-codex" = "gpt-5.4"
 

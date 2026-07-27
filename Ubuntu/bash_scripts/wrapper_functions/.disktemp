@@ -1,0 +1,15 @@
+disktemp() {
+    printf "%-12s %-30s %-8s\n" "DEVICE" "MODEL" "TEMP(°C)"
+    for d in $(lsblk -d -n -o NAME | grep -E '^(sd|nvme)'); do
+        dev="/dev/$d"
+        model=$(sudo smartctl -i "$dev" 2>/dev/null | awk -F: '/Device Model|Product|Model Number/ {print $2; exit}' | xargs)
+
+        if [[ "$d" == nvme* ]]; then
+            temp=$(sudo smartctl -A "$dev" 2>/dev/null | awk '/^Temperature:/ {print $2; exit}')
+        else
+            temp=$(sudo smartctl -A -d scsi "$dev" 2>/dev/null | awk -F: '/Current Drive Temperature/ {print $2; exit}' | grep -oE '[0-9]+' | head -1)
+        fi
+
+        printf "%-12s %-30s %-8s\n" "$dev" "${model:-unknown}" "${temp:-N/A}"
+    done
+}
