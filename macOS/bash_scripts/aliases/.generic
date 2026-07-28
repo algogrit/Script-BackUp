@@ -13,6 +13,9 @@ if command -v bat >/dev/null 2>&1; then
 fi
 alias pwdh='echo "~/${PWD#$HOME/}"'
 
+# MBP
+alias battery="pmset -g batt"
+
 # Rsync with Progress
 alias rsyncP='rsync -avhP'
 
