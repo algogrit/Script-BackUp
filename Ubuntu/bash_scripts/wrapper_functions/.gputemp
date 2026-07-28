@@ -1,0 +1,9 @@
+gputemp() {
+    if ! command -v nvidia-smi &>/dev/null; then
+        echo "nvidia-smi not found. Is the NVIDIA driver installed?"
+        return 1
+    fi
+    nvidia-smi --query-gpu=index,name,temperature.gpu,utilization.gpu,memory.used,memory.total \
+        --format=csv,noheader,nounits | \
+        awk -F', ' '{printf "GPU%-3s %-25s %sC   util:%s%%   mem:%s/%sMiB\n", $1, $2, $3, $4, $5, $6}'
+}

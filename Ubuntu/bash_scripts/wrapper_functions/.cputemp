@@ -1,0 +1,12 @@
+cputemp() {
+    if ! command -v sensors &>/dev/null; then
+        echo "lm-sensors not installed. Run: sudo apt install lm-sensors && sudo sensors-detect --auto"
+        return 1
+    fi
+    sensors | awk '
+        /^Tctl|^Tccd|^Package id|^Core [0-9]|^edge:/ {
+            gsub(/\+|°C.*/, "", $0)
+            print
+        }
+    '
+}

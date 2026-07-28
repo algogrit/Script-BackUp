@@ -144,8 +144,8 @@ f8dc9184a78fb23f2d4b281d3def3e4c  /sbin/adduser
 2bccdc907a597be9f9be156a20ca7506  /home/linuxbrew/.linuxbrew/sbin/agetty
 7072f1b1e70f0f7bbe8f9a1c5d7fbd8f  /usr/sbin/agetty
 7072f1b1e70f0f7bbe8f9a1c5d7fbd8f  /sbin/agetty
-d49146065ee583a4f4809d39221b4cb7  /home/linuxbrew/.linuxbrew/bin/agy
-d49146065ee583a4f4809d39221b4cb7  /home/linuxbrew/.linuxbrew/bin/agy
+ce6b4f41049ba9eb54398d77c335b292  /home/linuxbrew/.linuxbrew/bin/agy
+ce6b4f41049ba9eb54398d77c335b292  /home/linuxbrew/.linuxbrew/bin/agy
 766d5329f41e29ed3cf57cf1894b66a6  /usr/bin/airscan-discover
 766d5329f41e29ed3cf57cf1894b66a6  /bin/airscan-discover
 1ce27c8487cedac93ea5ddc2cf5e4762  /usr/sbin/alsa
@@ -3858,7 +3858,7 @@ d73fcdc533b20a872ac635efa6d4061e  /bin/od
 6cd678e2708485c35d4f81140ef173d9  /sbin/offcputime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /usr/sbin/offwaketime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /sbin/offwaketime-bpfcc
-192e7945fb3f001aa72f8f91b509b66c  /usr/local/bin/ollama
+ffd01a85be1c1fc8b87a13a03eb74ef4  /usr/local/bin/ollama
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/sbin/on_ac_power
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/bin/on_ac_power
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /sbin/on_ac_power

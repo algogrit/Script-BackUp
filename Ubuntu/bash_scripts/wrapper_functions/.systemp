@@ -1,0 +1,10 @@
+systemp() {
+    echo "=== CPU ==="
+    cputemp
+    echo
+    echo "=== GPU ==="
+    gputemp
+    echo
+    echo "=== DISKS ==="
+    disktemp
+}
