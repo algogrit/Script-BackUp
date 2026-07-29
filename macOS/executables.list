@@ -7,13 +7,6 @@
 7za
 7zr
 aa
-aarch64-apple-darwin25-c++-16
-aarch64-apple-darwin25-g++-16
-aarch64-apple-darwin25-gcc-16
-aarch64-apple-darwin25-gcc-ar-16
-aarch64-apple-darwin25-gcc-nm-16
-aarch64-apple-darwin25-gcc-ranlib-16
-aarch64-apple-darwin25-gfortran-16
 ab
 ac
 accton
@@ -63,6 +56,7 @@ apfs_unlockfv
 apkanalyzer
 apktool
 app-sso
+appdb
 appleh13camerad
 appleh16camerad
 applesingle
@@ -140,6 +134,7 @@ aws_completer
 b2sum
 b64decode
 b64encode
+backup-codermana-to-nas
 baddbdir
 banner
 base32
@@ -289,6 +284,7 @@ code-tunnel
 codecctl
 codesign
 codesign_allocate
+codex
 col
 collect-recordings
 colordiff
@@ -1130,10 +1126,12 @@ hwloc-calc
 hwloc-compress-dir
 hwloc-diff
 hwloc-distrib
+hwloc-gather-cpuid
 hwloc-info
 hwloc-ls
 hwloc-patch
 hwloc-ps
+hyperkit
 i686-w64-mingw32-addr2line
 i686-w64-mingw32-ar
 i686-w64-mingw32-as
@@ -1383,6 +1381,8 @@ latency
 launchctl
 launchd
 layerutil
+lbry-first
+lbrynet
 ld
 ldapadd
 ldapcompare
@@ -1575,8 +1575,6 @@ mkfontscale
 mknod
 mkpassdb
 mktemp
-mlx.distributed_config
-mlx.launch
 mmdbresolve
 mnthome
 modelcatalogdump
@@ -1634,6 +1632,8 @@ msgmerge
 msgpre
 msgunfmt
 msguniq
+msidb
+msiexec
 mtree
 mtvtoppm
 mujs
@@ -1711,6 +1711,7 @@ nohup
 nologin
 nonspr10
 normalize.py
+notepad
 notifyd
 notifyutil
 nping
@@ -2515,6 +2516,8 @@ reboot
 rec
 recode-sr-latin
 recurse-on
+regedit
+regsvr32
 regview
 reindexdb
 reindexdb-18
@@ -2572,6 +2575,7 @@ run_erl
 runant.pl
 runant.py
 rustup
+rvictl
 rview
 rvim
 rwbypid.d
@@ -3132,6 +3136,16 @@ who
 whoami
 whois
 wifidump
+wine
+wineboot
+winecfg
+wineconsole
+winedbg
+winefile
+winehelp
+winemine
+winepath
+wineserver
 winetricks
 winicontopam
 winicontoppm
@@ -3159,6 +3173,13 @@ wxrc-3.2
 X
 x264
 x265
+x86_64-apple-darwin25-c++-16
+x86_64-apple-darwin25-g++-16
+x86_64-apple-darwin25-gcc-16
+x86_64-apple-darwin25-gcc-ar-16
+x86_64-apple-darwin25-gcc-nm-16
+x86_64-apple-darwin25-gcc-ranlib-16
+x86_64-apple-darwin25-gfortran-16
 x86_64-w64-mingw32-addr2line
 x86_64-w64-mingw32-ar
 x86_64-w64-mingw32-as
