@@ -71,7 +71,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 1728 1084 </string>
+	<string>0 43 250 316 0 0 2560 1410 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -79,7 +79,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 622 570 462 0 0 1728 1084 </string>
+	<string>0 0 2051 629 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 0 2560 1410 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3252,9 +3252,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1728, 1117}}</string>
+		<string>{{2560, 111}, {2056, 1329}}</string>
 		<key>topLeft</key>
-		<string>{402, 798}</string>
+		<string>{3126, 1014}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
@@ -3267,7 +3267,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>25</integer>
+	<integer>22</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -4277,7 +4277,7 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{0, 1084}</string>
+		<string>{0, 629}</string>
 		<key>1</key>
 		<string>{0, 1410}</string>
 		<key>2</key>
@@ -4379,7 +4379,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-07-27T13:34:12Z</date>
+	<date>2026-07-28T15:24:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
