@@ -16,10 +16,12 @@ alias codex="$CODEX_BIN --model gpt-5.6-terra --sandbox workspace-write --ask-fo
 alias codex-hard="$CODEX_BIN --model gpt-5.6-sol --sandbox workspace-write --ask-for-approval on-request"
 alias codex-commit="$CODEX_BIN --model gpt-5.6-luna \"review and commit\" --sandbox workspace-write --ask-for-approval on-request"
 
-# alias claude='claude --enable-auto-mode --permission-mode=plan'
-# alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
-alias claude='\agy --model "Claude Opus 4.6 (Thinking)" --add-dir "$(pwd)" -i "/plan"'
-alias claude-commit='\agy --model "Claude Sonnet 4.6 (Thinking)" --add-dir "$(pwd)" --dangerously-skip-permissions -i "review and commit"'
+alias claude='claude --enable-auto-mode --permission-mode=plan --model=opus --effort=high'
+alias claude-hard='claude --enable-auto-mode --permission-mode=plan --model=fable'
+alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'
+
+alias gclaude='\agy --model "Claude Opus 4.6 (Thinking)" --add-dir "$(pwd)" -i "/plan"'
+alias gclaude-commit='\agy --model "Claude Sonnet 4.6 (Thinking)" --add-dir "$(pwd)" --dangerously-skip-permissions -i "review and commit"'
 
 alias gemini='\agy --add-dir "$(pwd)"'
 alias gemini-grill='\agy --add-dir "$(pwd)" -i "/grill-me"'

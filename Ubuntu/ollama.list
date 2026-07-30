@@ -1,4 +1,6 @@
+gemma3:12b f4031aab637d 8.1
 mistral:latest 6577803aa9a0 4.4
 NAME ID SIZE
 qwen2.5vl:7b 5ced39dfa4ba 6.0
 qwen3.5:27b 7653528ba5cb 17
+qwen3-vl:8b 901cae732162 6.1
