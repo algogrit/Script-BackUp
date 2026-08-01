@@ -1,0 +1,332 @@
+#!/usr/bin/env python3
+"""
+macthermal - dump every readable temperature sensor on a Mac.
+
+Apple Silicon: enumerates HID services on the Apple vendor usage page
+               (0xff00 / usage 5) and reads kIOHIDEventTypeTemperature.
+Intel:         enumerates SMC keys via the AppleSMC IOKit user client and
+               decodes every key beginning with 'T'.
+
+No dependencies beyond the system Python 3. No root required.
+Usage: python3 macthermal.py [-w SECONDS]
+"""
+
+import argparse
+import ctypes
+import ctypes.util
+import platform
+import struct
+import sys
+import time
+from ctypes import (
+    POINTER, Structure, byref, c_char, c_char_p, c_double, c_int, c_int32,
+    c_int64, c_long, c_size_t, c_uint8, c_uint16, c_uint32, c_void_p,
+)
+
+if sys.platform != "darwin":
+    sys.exit("macthermal: macOS only")
+
+CF = ctypes.CDLL("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation")
+IOKIT = ctypes.CDLL("/System/Library/Frameworks/IOKit.framework/IOKit")
+LIBC = ctypes.CDLL(ctypes.util.find_library("c"))
+
+# --------------------------------------------------------------------------
+# CoreFoundation glue
+# --------------------------------------------------------------------------
+kCFStringEncodingUTF8 = 0x08000100
+kCFNumberSInt32Type = 3
+
+CF.CFStringCreateWithCString.restype = c_void_p
+CF.CFStringCreateWithCString.argtypes = [c_void_p, c_char_p, c_uint32]
+CF.CFStringGetCString.restype = c_int
+CF.CFStringGetCString.argtypes = [c_void_p, c_char_p, c_long, c_uint32]
+CF.CFNumberCreate.restype = c_void_p
+CF.CFNumberCreate.argtypes = [c_void_p, c_int, c_void_p]
+CF.CFDictionaryCreate.restype = c_void_p
+CF.CFDictionaryCreate.argtypes = [
+    c_void_p, POINTER(c_void_p), POINTER(c_void_p), c_long, c_void_p, c_void_p
+]
+CF.CFArrayGetCount.restype = c_long
+CF.CFArrayGetCount.argtypes = [c_void_p]
+CF.CFArrayGetValueAtIndex.restype = c_void_p
+CF.CFArrayGetValueAtIndex.argtypes = [c_void_p, c_long]
+CF.CFRelease.argtypes = [c_void_p]
+
+
+def cfstr(s):
+    return CF.CFStringCreateWithCString(None, s.encode("utf-8"), kCFStringEncodingUTF8)
+
+
+def from_cfstr(ref):
+    if not ref:
+        return None
+    buf = ctypes.create_string_buffer(512)
+    if CF.CFStringGetCString(ref, buf, 512, kCFStringEncodingUTF8):
+        return buf.value.decode("utf-8", "replace")
+    return None
+
+
+def cfnum(n):
+    v = c_int32(n)
+    return CF.CFNumberCreate(None, kCFNumberSInt32Type, byref(v))
+
+
+def cfdict(pairs):
+    n = len(pairs)
+    keys = (c_void_p * n)(*[p[0] for p in pairs])
+    vals = (c_void_p * n)(*[p[1] for p in pairs])
+    kcb = ctypes.addressof(c_void_p.in_dll(CF, "kCFTypeDictionaryKeyCallBacks"))
+    vcb = ctypes.addressof(c_void_p.in_dll(CF, "kCFTypeDictionaryValueCallBacks"))
+    return CF.CFDictionaryCreate(None, keys, vals, n, kcb, vcb)
+
+
+# --------------------------------------------------------------------------
+# Apple Silicon: IOHIDEventSystemClient
+# --------------------------------------------------------------------------
+kHIDPage_AppleVendor = 0xFF00
+kHIDUsage_AppleVendor_TemperatureSensor = 0x0005
+kIOHIDEventTypeTemperature = 15
+kIOHIDEventFieldTemperatureLevel = kIOHIDEventTypeTemperature << 16
+
+
+def read_hid_sensors():
+    for fn, res, args in [
+        ("IOHIDEventSystemClientCreate", c_void_p, [c_void_p]),
+        ("IOHIDEventSystemClientSetMatching", None, [c_void_p, c_void_p]),
+        ("IOHIDEventSystemClientCopyServices", c_void_p, [c_void_p]),
+        ("IOHIDServiceClientCopyProperty", c_void_p, [c_void_p, c_void_p]),
+        ("IOHIDServiceClientCopyEvent", c_void_p, [c_void_p, c_int64, c_int32, c_int64]),
+        ("IOHIDEventGetFloatValue", c_double, [c_void_p, c_int32]),
+    ]:
+        try:
+            f = getattr(IOKIT, fn)
+        except AttributeError:
+            raise RuntimeError(f"{fn} missing from IOKit -- unsupported macOS version")
+        f.restype = res
+        f.argtypes = args
+
+    client = IOKIT.IOHIDEventSystemClientCreate(None)
+    if not client:
+        raise RuntimeError("could not create IOHIDEventSystemClient")
+
+    match = cfdict([
+        (cfstr("PrimaryUsagePage"), cfnum(kHIDPage_AppleVendor)),
+        (cfstr("PrimaryUsage"), cfnum(kHIDUsage_AppleVendor_TemperatureSensor)),
+    ])
+    IOKIT.IOHIDEventSystemClientSetMatching(client, match)
+
+    services = IOKIT.IOHIDEventSystemClientCopyServices(client)
+    if not services:
+        return []
+
+    out = []
+    for i in range(CF.CFArrayGetCount(services)):
+        svc = CF.CFArrayGetValueAtIndex(services, i)
+        name = from_cfstr(IOKIT.IOHIDServiceClientCopyProperty(svc, cfstr("Product")))
+        ev = IOKIT.IOHIDServiceClientCopyEvent(svc, kIOHIDEventTypeTemperature, 0, 0)
+        if not ev:
+            continue
+        val = IOKIT.IOHIDEventGetFloatValue(ev, kIOHIDEventFieldTemperatureLevel)
+        CF.CFRelease(ev)
+        if name and val == val and 0.0 < val < 150.0:  # val == val filters NaN
+            out.append((name, val))
+    return sorted(out)
+
+
+# --------------------------------------------------------------------------
+# Intel: AppleSMC user client
+# --------------------------------------------------------------------------
+KERNEL_INDEX_SMC = 2
+SMC_CMD_READ_BYTES = 5
+SMC_CMD_READ_INDEX = 8
+SMC_CMD_READ_KEYINFO = 9
+
+
+class SMCVers(Structure):
+    _fields_ = [("major", c_uint8), ("minor", c_uint8), ("build", c_uint8),
+                ("reserved", c_uint8), ("release", c_uint16)]
+
+
+class SMCPLimit(Structure):
+    _fields_ = [("version", c_uint16), ("length", c_uint16), ("cpuPLimit", c_uint32),
+                ("gpuPLimit", c_uint32), ("memPLimit", c_uint32)]
+
+
+class SMCKeyInfo(Structure):
+    _fields_ = [("dataSize", c_uint32), ("dataType", c_uint32),
+                ("dataAttributes", c_uint8)]
+
+
+class SMCParam(Structure):
+    _fields_ = [("key", c_uint32), ("vers", SMCVers), ("pLimitData", SMCPLimit),
+                ("keyInfo", SMCKeyInfo), ("result", c_uint8), ("status", c_uint8),
+                ("data8", c_uint8), ("data32", c_uint32), ("bytes", c_char * 32)]
+
+
+def _fourcc(s):
+    return struct.unpack(">I", s.encode())[0]
+
+
+def _unfourcc(n):
+    return struct.pack(">I", n).decode("ascii", "replace")
+
+
+class SMC:
+    def __init__(self):
+        IOKIT.IOServiceMatching.restype = c_void_p
+        IOKIT.IOServiceMatching.argtypes = [c_char_p]
+        IOKIT.IOServiceGetMatchingService.restype = c_uint32
+        IOKIT.IOServiceGetMatchingService.argtypes = [c_uint32, c_void_p]
+        IOKIT.IOServiceOpen.restype = c_int
+        IOKIT.IOServiceOpen.argtypes = [c_uint32, c_uint32, c_uint32, POINTER(c_uint32)]
+        IOKIT.IOConnectCallStructMethod.restype = c_int
+        IOKIT.IOConnectCallStructMethod.argtypes = [
+            c_uint32, c_uint32, c_void_p, c_size_t, c_void_p, POINTER(c_size_t)
+        ]
+        IOKIT.IOServiceClose.argtypes = [c_uint32]
+        IOKIT.IOObjectRelease.argtypes = [c_uint32]
+
+        svc = IOKIT.IOServiceGetMatchingService(0, IOKIT.IOServiceMatching(b"AppleSMC"))
+        if not svc:
+            raise RuntimeError("AppleSMC service not found")
+        conn = c_uint32(0)
+        task = c_uint32.in_dll(LIBC, "mach_task_self_")
+        rc = IOKIT.IOServiceOpen(svc, task, 0, byref(conn))
+        IOKIT.IOObjectRelease(svc)
+        if rc != 0:
+            raise RuntimeError(f"IOServiceOpen failed (0x{rc:x})")
+        self.conn = conn.value
+
+    def close(self):
+        IOKIT.IOServiceClose(self.conn)
+
+    def _call(self, inp):
+        out = SMCParam()
+        size = c_size_t(ctypes.sizeof(SMCParam))
+        rc = IOKIT.IOConnectCallStructMethod(
+            self.conn, KERNEL_INDEX_SMC, byref(inp), ctypes.sizeof(SMCParam),
+            byref(out), byref(size))
+        if rc != 0 or out.result != 0:
+            return None
+        return out
+
+    def key_at(self, index):
+        p = SMCParam()
+        p.data8 = SMC_CMD_READ_INDEX
+        p.data32 = index
+        r = self._call(p)
+        return _unfourcc(r.key) if r else None
+
+    def key_count(self):
+        v = self.read("#KEY")
+        return v if isinstance(v, int) else 0
+
+    def read(self, key):
+        p = SMCParam()
+        p.key = _fourcc(key)
+        p.data8 = SMC_CMD_READ_KEYINFO
+        info = self._call(p)
+        if not info:
+            return None
+        size, dtype = info.keyInfo.dataSize, _unfourcc(info.keyInfo.dataType)
+
+        q = SMCParam()
+        q.key = _fourcc(key)
+        q.keyInfo.dataSize = size
+        q.data8 = SMC_CMD_READ_BYTES
+        r = self._call(q)
+        if not r:
+            return None
+        return decode(r.bytes[:size], dtype, size)
+
+
+def decode(b, dtype, size):
+    try:
+        if dtype == "flt " and size == 4:
+            return struct.unpack("<f", b)[0]
+        if dtype == "sp78" and size == 2:
+            return struct.unpack(">h", b)[0] / 256.0
+        if dtype == "fp88" and size == 2:
+            return struct.unpack(">H", b)[0] / 256.0
+        if dtype == "fpe2" and size == 2:
+            return struct.unpack(">H", b)[0] / 4.0
+        if dtype.startswith("ui") or dtype == "hex_":
+            return int.from_bytes(b, "big")
+        if dtype.startswith("si"):
+            return int.from_bytes(b, "big", signed=True)
+    except struct.error:
+        pass
+    return None
+
+
+SMC_LABELS = {
+    "TC0D": "CPU die", "TC0P": "CPU proximity", "TC0E": "CPU PECI",
+    "TC0F": "CPU PECI filtered", "TCXC": "CPU core avg", "TCGC": "CPU GPU core",
+    "TG0D": "GPU die", "TG0P": "GPU proximity", "TG1D": "GPU 2 die",
+    "TA0P": "Ambient", "TA1P": "Ambient 2", "TM0P": "Memory",
+    "TB0T": "Battery 1", "TB1T": "Battery 2", "TB2T": "Battery 3",
+    "TPCD": "PCH die", "Ts0P": "Palm rest", "Ts1P": "Bottom case",
+    "TW0P": "Airport / Wi-Fi", "TH0P": "Drive bay", "TN0D": "Northbridge die",
+    "TL0P": "Display", "TI0P": "Thunderbolt",
+}
+
+
+def read_smc_sensors():
+    smc = SMC()
+    try:
+        out = []
+        for i in range(smc.key_count()):
+            key = smc.key_at(i)
+            if not key or not key.startswith("T"):
+                continue
+            v = smc.read(key)
+            if isinstance(v, float) and 0.0 < v < 150.0:
+                label = SMC_LABELS.get(key, "")
+                out.append((f"{key}  {label}".rstrip(), v))
+        return sorted(out)
+    finally:
+        smc.close()
+
+
+# --------------------------------------------------------------------------
+def collect():
+    if platform.machine() == "arm64":
+        return read_hid_sensors()
+    return read_smc_sensors()
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Dump Mac temperature sensors.")
+    ap.add_argument("-w", "--watch", type=float, metavar="SEC",
+                    help="refresh every SEC seconds")
+    ap.add_argument("-f", "--fahrenheit", action="store_true")
+    args = ap.parse_args()
+
+    def show():
+        rows = collect()
+        if not rows:
+            print("No temperature sensors returned a plausible reading.")
+            return
+        width = max(len(n) for n, _ in rows)
+        for name, c in rows:
+            t = c * 9 / 5 + 32 if args.fahrenheit else c
+            unit = "F" if args.fahrenheit else "C"
+            print(f"{name:<{width}}  {t:6.1f} °{unit}")
+
+    try:
+        if args.watch:
+            while True:
+                print("\033[2J\033[H", end="")
+                print(f"{platform.machine()}  {time.strftime('%H:%M:%S')}\n")
+                show()
+                time.sleep(args.watch)
+        else:
+            show()
+    except KeyboardInterrupt:
+        pass
+    except RuntimeError as e:
+        sys.exit(f"macthermal: {e}")
+
+
+if __name__ == "__main__":
+    main()

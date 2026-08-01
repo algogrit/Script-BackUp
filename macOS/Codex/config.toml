@@ -66,12 +66,6 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Developer/CMTech/video-editor"]
-trust_level = "trusted"
-
-[projects."/Users/gaurav/git-hooks"]
-trust_level = "trusted"
-
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
