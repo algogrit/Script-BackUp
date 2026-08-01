@@ -66,6 +66,9 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false

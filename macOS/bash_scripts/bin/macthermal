@@ -173,7 +173,7 @@ class SMCKeyInfo(Structure):
 class SMCParam(Structure):
     _fields_ = [("key", c_uint32), ("vers", SMCVers), ("pLimitData", SMCPLimit),
                 ("keyInfo", SMCKeyInfo), ("result", c_uint8), ("status", c_uint8),
-                ("data8", c_uint8), ("data32", c_uint32), ("bytes", c_char * 32)]
+                ("data8", c_uint8), ("data32", c_uint32), ("bytes", c_uint8 * 32)]
 
 
 def _fourcc(s):
@@ -232,9 +232,13 @@ class SMC:
 
     def key_count(self):
         v = self.read("#KEY")
-        return v if isinstance(v, int) else 0
+        if not isinstance(v, int) or v <= 0:
+            raise RuntimeError(
+                "AppleSMC opened but the key directory (#KEY) is unreadable. "
+                "Run with --debug for the raw response.")
+        return v
 
-    def read(self, key):
+    def read(self, key, raw=False):
         p = SMCParam()
         p.key = _fourcc(key)
         p.data8 = SMC_CMD_READ_KEYINFO
@@ -242,6 +246,8 @@ class SMC:
         if not info:
             return None
         size, dtype = info.keyInfo.dataSize, _unfourcc(info.keyInfo.dataType)
+        if size == 0 or size > 32:
+            return None
 
         q = SMCParam()
         q.key = _fourcc(key)
@@ -250,7 +256,10 @@ class SMC:
         r = self._call(q)
         if not r:
             return None
-        return decode(r.bytes[:size], dtype, size)
+        buf = bytes(bytearray(r.bytes)[:size])
+        if raw:
+            return dtype, size, buf
+        return decode(buf, dtype, size)
 
 
 def decode(b, dtype, size):
@@ -284,6 +293,28 @@ SMC_LABELS = {
 }
 
 
+def smc_debug():
+    smc = SMC()
+    try:
+        raw = smc.read("#KEY", raw=True)
+        print(f"#KEY raw -> {raw}")
+        count = smc.key_count()
+        print(f"key count: {count}\n")
+        for i in range(count):
+            key = smc.key_at(i)
+            if not key or not key.startswith("T"):
+                continue
+            r = smc.read(key, raw=True)
+            if not r:
+                print(f"{key}  <keyinfo/read failed>")
+                continue
+            dtype, size, buf = r
+            print(f"{key}  type={dtype!r} size={size} raw={buf.hex()} "
+                  f"decoded={decode(buf, dtype, size)}")
+    finally:
+        smc.close()
+
+
 def read_smc_sensors():
     smc = SMC()
     try:
@@ -315,7 +346,18 @@ def main():
     ap.add_argument("-f", "--fahrenheit", action="store_true")
     ap.add_argument("-s", "--summary", action="store_true",
                     help="collapse sensor families to their maximum")
+    ap.add_argument("--debug", action="store_true",
+                    help="Intel only: dump every T* SMC key with raw bytes")
     args = ap.parse_args()
+
+    if args.debug:
+        if platform.machine() == "arm64":
+            sys.exit("--debug is Intel/SMC only")
+        try:
+            smc_debug()
+        except RuntimeError as e:
+            sys.exit(f"macthermal: {e}")
+        return
 
     def family(name):
         base = name.split(" [")[0]
