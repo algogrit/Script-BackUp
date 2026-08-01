@@ -244,8 +244,6 @@ metis
 mingw-w64
 mistral-vibe
 mlt
-mlx
-mlx-c
 molten-vk
 mp3splt
 mpdecimal
@@ -282,6 +280,7 @@ openjdk
 openjdk@17
 openjpeg
 openjph
+opensc
 openssl@3
 openssl@4
 openvino

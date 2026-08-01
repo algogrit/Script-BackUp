@@ -1,5 +1,5 @@
 [1;31mListing /Applications...[0m
-Adobe Acrobat DC
+Adobe Acrobat Reader
 Antigravity
 Arc
 balenaEtcher
@@ -19,6 +19,7 @@ Google Drive
 Google Earth Pro
 Google Sheets
 Google Slides
+HandBrake
 iTerm
 Karabiner-Elements
 Karabiner-EventViewer
@@ -35,6 +36,7 @@ Raspberry Pi Imager
 Raycast
 Rectangle
 Safari
+Slack
 Sonic Visualiser
 Steam
 Stremio
@@ -44,7 +46,6 @@ The Unarchiver
 Thunderbird
 Tor Browser
 Transmission
-Unity
 Unity Hub
 Usage
 Utilities
@@ -61,5 +62,4 @@ Zoho Mail - Desktop
 Zoho WorkDrive TrueSync
 zoom
 [1;31mListing User Applications...[0m
-Chrome Apps
 Claude Code URL Handler

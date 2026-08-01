@@ -26,6 +26,11 @@ from ctypes import (
 if sys.platform != "darwin":
     sys.exit("macthermal: macOS only")
 
+# Sensor readings below this are treated as unpopulated slots or misdecoded
+# keys rather than real temperatures. Override with --all.
+MIN_C = 10.0
+MAX_C = 150.0
+
 CF = ctypes.CDLL("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation")
 IOKIT = ctypes.CDLL("/System/Library/Frameworks/IOKit.framework/IOKit")
 LIBC = ctypes.CDLL(ctypes.util.find_library("c"))
@@ -128,7 +133,7 @@ def read_hid_sensors():
             continue
         val = IOKIT.IOHIDEventGetFloatValue(ev, kIOHIDEventFieldTemperatureLevel)
         CF.CFRelease(ev)
-        if name and val == val and 0.0 < val < 150.0:  # val == val filters NaN
+        if name and val == val and MIN_C < val < MAX_C:  # val == val filters NaN
             raw.append((name, val))
 
     # Several distinct physical sensors share one Product string. Number them
@@ -282,14 +287,36 @@ def decode(b, dtype, size):
 
 
 SMC_LABELS = {
+    # CPU package
     "TC0D": "CPU die", "TC0P": "CPU proximity", "TC0E": "CPU PECI",
-    "TC0F": "CPU PECI filtered", "TCXC": "CPU core avg", "TCGC": "CPU GPU core",
+    "TC0F": "CPU PECI filtered", "TCXC": "CPU package avg", "TCMX": "CPU core max",
+    "TCSA": "CPU system agent", "TCGC": "CPU integrated GPU",
+    "TC1C": "CPU core 1", "TC2C": "CPU core 2", "TC3C": "CPU core 3",
+    "TC4C": "CPU core 4", "TC5C": "CPU core 5", "TC6C": "CPU core 6",
+    "TC7C": "CPU core 7", "TC8C": "CPU core 8",
+    # GPU
     "TG0D": "GPU die", "TG0P": "GPU proximity", "TG1D": "GPU 2 die",
-    "TA0P": "Ambient", "TA1P": "Ambient 2", "TM0P": "Memory",
+    "TG1P": "GPU 2 proximity", "TGDD": "GPU diode D", "TGDE": "GPU diode E",
+    "TGDF": "GPU diode F", "TGVP": "GPU VRM proximity", "TGVF": "GPU VRM filtered",
+    # board / chipset / memory
+    "TPCD": "PCH die", "TM0P": "Memory proximity", "Tm0P": "Mainboard proximity",
+    "TN0D": "Northbridge die", "TW0P": "Airport / Wi-Fi",
+    "TTLD": "Thunderbolt left die", "TTRD": "Thunderbolt right die",
+    "TI0P": "Thunderbolt proximity",
+    # heatsink / heat pipe
+    "Th1H": "Heat pipe 1", "Th2H": "Heat pipe 2", "Th0H": "Heat pipe 0",
+    # storage
+    "TH0F": "Storage 0", "TH0X": "Storage 0 (alt)", "TH0a": "Storage 0a",
+    "TH0b": "Storage 0b", "TH1a": "Storage 1a", "TH1b": "Storage 1b",
+    "TH0P": "Drive bay",
+    # ambient / chassis skin
+    "TA0P": "Ambient", "TA1P": "Ambient 2", "TA0V": "Ambient (computed)",
+    "TaLC": "Ambient left", "TaRC": "Ambient right",
+    "Ts0P": "Palm rest", "Ts1P": "Bottom case",
+    "Ts0S": "Skin sensor 0", "Ts1S": "Skin sensor 1", "Ts2S": "Skin sensor 2",
+    "TL0P": "Display",
+    # battery
     "TB0T": "Battery 1", "TB1T": "Battery 2", "TB2T": "Battery 3",
-    "TPCD": "PCH die", "Ts0P": "Palm rest", "Ts1P": "Bottom case",
-    "TW0P": "Airport / Wi-Fi", "TH0P": "Drive bay", "TN0D": "Northbridge die",
-    "TL0P": "Display", "TI0P": "Thunderbolt",
 }
 
 
@@ -324,7 +351,7 @@ def read_smc_sensors():
             if not key or not key.startswith("T"):
                 continue
             v = smc.read(key)
-            if isinstance(v, float) and 0.0 < v < 150.0:
+            if isinstance(v, float) and MIN_C < v < MAX_C:
                 label = SMC_LABELS.get(key, "")
                 out.append((f"{key}  {label}".rstrip(), v))
         return sorted(out)
@@ -346,9 +373,14 @@ def main():
     ap.add_argument("-f", "--fahrenheit", action="store_true")
     ap.add_argument("-s", "--summary", action="store_true",
                     help="collapse sensor families to their maximum")
+    ap.add_argument("--all", action="store_true",
+                    help="show readings below the plausibility floor too")
     ap.add_argument("--debug", action="store_true",
                     help="Intel only: dump every T* SMC key with raw bytes")
     args = ap.parse_args()
+
+    if args.all:
+        globals()["MIN_C"] = 0.0
 
     if args.debug:
         if platform.machine() == "arm64":
