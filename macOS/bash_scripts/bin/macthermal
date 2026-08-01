@@ -119,7 +119,7 @@ def read_hid_sensors():
     if not services:
         return []
 
-    out = []
+    raw = []
     for i in range(CF.CFArrayGetCount(services)):
         svc = CF.CFArrayGetValueAtIndex(services, i)
         name = from_cfstr(IOKIT.IOHIDServiceClientCopyProperty(svc, cfstr("Product")))
@@ -129,7 +129,20 @@ def read_hid_sensors():
         val = IOKIT.IOHIDEventGetFloatValue(ev, kIOHIDEventFieldTemperatureLevel)
         CF.CFRelease(ev)
         if name and val == val and 0.0 < val < 150.0:  # val == val filters NaN
-            out.append((name, val))
+            raw.append((name, val))
+
+    # Several distinct physical sensors share one Product string. Number them
+    # in enumeration order so each line refers to a stable, individual sensor.
+    totals = {}
+    for name, _ in raw:
+        totals[name] = totals.get(name, 0) + 1
+    seen = {}
+    out = []
+    for name, val in raw:
+        if totals[name] > 1:
+            seen[name] = seen.get(name, 0) + 1
+            name = f"{name} [{seen[name]}]"
+        out.append((name, val))
     return sorted(out)
 
 
@@ -300,13 +313,28 @@ def main():
     ap.add_argument("-w", "--watch", type=float, metavar="SEC",
                     help="refresh every SEC seconds")
     ap.add_argument("-f", "--fahrenheit", action="store_true")
+    ap.add_argument("-s", "--summary", action="store_true",
+                    help="collapse sensor families to their maximum")
     args = ap.parse_args()
+
+    def family(name):
+        base = name.split(" [")[0]
+        head = base.rstrip("0123456789").rstrip()
+        return head or base
 
     def show():
         rows = collect()
         if not rows:
             print("No temperature sensors returned a plausible reading.")
             return
+        if args.summary:
+            groups = {}
+            for name, c in rows:
+                f = family(name)
+                g = groups.setdefault(f, [0, -999.0])
+                g[0] += 1
+                g[1] = max(g[1], c)
+            rows = [(f"{f}  (max of {n})", hi) for f, (n, hi) in sorted(groups.items())]
         width = max(len(n) for n, _ in rows)
         for name, c in rows:
             t = c * 9 / 5 + 32 if args.fahrenheit else c
