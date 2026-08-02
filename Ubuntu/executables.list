@@ -956,6 +956,7 @@ gp-display-html
 gp-display-src
 gp-display-text
 gpg
+gpg2
 gpg-agent
 gpgconf
 gpg-connect-agent
@@ -1754,6 +1755,12 @@ nvcc
 __nvcc_device_query
 nvdisasm
 nvidia-bug-report.sh
+nvidia-cdi-hook
+nvidia-container-cli
+nvidia-container-runtime
+nvidia-container-runtime-hook
+nvidia-container-toolkit
+nvidia-ctk
 nvidia-cuda-mps-control
 nvidia-cuda-mps-server
 nvidia-debugdump

@@ -107,6 +107,7 @@ gnome-snapshot
 gnome-system-monitor
 gnome-text-editor
 gnupg
+gnupg2
 google-chrome-stable
 gpg-agent
 grep
@@ -281,6 +282,7 @@ network-manager
 nmap
 npm
 ntfs-3g
+nvidia-container-toolkit
 nvidia-cuda-toolkit
 nvidia-driver-570
 obs-backgroundremoval
