@@ -66,10 +66,7 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Developer/CMTech/video-editor"]
-trust_level = "trusted"
-
-[projects."/Users/gaurav/git-hooks"]
+[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
 trust_level = "trusted"
 
 [tui]
