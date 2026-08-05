@@ -7,6 +7,13 @@
 7za
 7zr
 aa
+aarch64-apple-darwin25-c++-16
+aarch64-apple-darwin25-g++-16
+aarch64-apple-darwin25-gcc-16
+aarch64-apple-darwin25-gcc-ar-16
+aarch64-apple-darwin25-gcc-nm-16
+aarch64-apple-darwin25-gcc-ranlib-16
+aarch64-apple-darwin25-gfortran-16
 ab
 ac
 accton
@@ -32,7 +39,6 @@ ag
 agentxtrap
 agvtool
 agy
-agy.1785653560530869000.old
 ahost
 aider
 airport
@@ -135,7 +141,6 @@ aws_completer
 b2sum
 b64decode
 b64encode
-backup-codermana-to-nas
 baddbdir
 banner
 base32
@@ -153,6 +158,7 @@ bd_splice
 bdftogd
 bdftopcf
 bdftruncate
+beforelight
 benchmark_app
 benchmark_xl
 bg
@@ -217,6 +223,7 @@ cacaserver
 cacaview
 caddy
 caffeinate
+cagent
 cairo-trace
 cal
 calendar
@@ -230,7 +237,6 @@ cardos-tool
 cargo
 cargo-clippy
 cargo-fmt
-cargo-llvm-cov
 cargo-miri
 cat
 cc
@@ -950,13 +956,18 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
+gobind
 gobject-query
 god
 goenv
 gofmt
 goid-tool
+goimports
+gomobile
+gopls
 gouldtoppm
 gource
+govulncheck
 gpaste
 gpathchk
 gpcl6
@@ -1141,12 +1152,10 @@ hwloc-calc
 hwloc-compress-dir
 hwloc-diff
 hwloc-distrib
-hwloc-gather-cpuid
 hwloc-info
 hwloc-ls
 hwloc-patch
 hwloc-ps
-hyperkit
 i686-w64-mingw32-addr2line
 i686-w64-mingw32-ar
 i686-w64-mingw32-as
@@ -1568,6 +1577,7 @@ md2html
 md5
 md5sum
 mdatopbm
+mdbook
 mddiagnose
 mdfind
 mdiff
@@ -1609,6 +1619,8 @@ mkfontscale
 mknod
 mkpassdb
 mktemp
+mlx.distributed_config
+mlx.launch
 mmdbresolve
 mnthome
 modelcatalogdump
@@ -2504,6 +2516,7 @@ ragg2
 rahash2
 rails
 rake
+ramayan
 randpkt
 randpktdump
 ranlib
@@ -3230,13 +3243,6 @@ wxrc-3.2
 X
 x264
 x265
-x86_64-apple-darwin25-c++-16
-x86_64-apple-darwin25-g++-16
-x86_64-apple-darwin25-gcc-16
-x86_64-apple-darwin25-gcc-ar-16
-x86_64-apple-darwin25-gcc-nm-16
-x86_64-apple-darwin25-gcc-ranlib-16
-x86_64-apple-darwin25-gfortran-16
 x86_64-w64-mingw32-addr2line
 x86_64-w64-mingw32-ar
 x86_64-w64-mingw32-as
@@ -3360,6 +3366,8 @@ xsanctl
 xscertadmin
 xscope
 xset
+xsetmode
+xsetpointer
 xsetroot
 xslt-config
 xsltproc
