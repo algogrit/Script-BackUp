@@ -1,3 +1,86 @@
-#!/bin/sh
-command -v git-lfs >/dev/null 2>&1 || { printf >&2 "\n%s\n\n" "This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting the 'pre-push' file in the hooks directory (set by 'core.hookspath'; usually '.git/hooks')."; exit 2; }
-git lfs pre-push "$@"
+#!/usr/bin/env bash
+#
+# pre-push: scan the commits being pushed, then hand off to Git LFS.
+#
+# This is the backstop. pre-commit only ever sees the index, so anything
+# committed with --no-verify, or committed before these hooks existed, reaches
+# the remote unchecked. Once a secret is pushed it must be treated as burned, so
+# this is the last place a mistake is still cheap.
+#
+# Scans each commit's own patch rather than the net range diff, so a secret that
+# was added and later removed within the pushed range is still caught: it is in
+# the history being published either way.
+#
+#   allow one line   append `pre-commit-allow` to it (needs a new commit)
+#   bypass entirely  git push --no-verify
+#
+#   exit 0  clean (and Git LFS agreed), or the human chose to continue
+#   exit 1  findings, push blocked
+#   exit 2  internal error, or Git LFS is missing
+
+exec 1>&2
+
+HOOK_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# shellcheck source=lib/common.sh
+. "$HOOK_DIR/lib/common.sh" || { echo "pre-push: ERROR: cannot load lib/common.sh"; exit 2; }
+
+HOOK_NAME="pre-push"
+HOOK_SUBJECT="the commits being pushed"
+HOOK_UNIT="push"
+HOOK_BYPASS="git push --no-verify"
+
+MAX_COMMITS=1000
+
+command -v git-lfs >/dev/null 2>&1 || {
+  printf "\n%s\n\n" "This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting the 'pre-push' file in the hooks directory (set by 'core.hookspath'; usually '.git/hooks')."
+  exit 2
+}
+
+# Stdin is readable exactly once, and Git LFS needs the same ref lines we do.
+refs=$(cat)
+
+findings=""
+truncated=0
+
+if [ -n "$refs" ]; then
+  while read -r local_ref local_sha remote_ref remote_sha; do
+    [ -n "$local_sha" ] || continue
+    case "$local_sha" in *[!0]*) ;; *) continue ;; esac   # all-zero: branch deletion
+
+    if [[ "$remote_sha" =~ ^0*$ ]]; then
+      # New branch: only what is not already on some remote, so a first push
+      # does not replay the entire history.
+      range_args=("$local_sha" --not --remotes)
+    else
+      range_args=("$remote_sha..$local_sha")
+    fi
+
+    n=$(git rev-list --count "${range_args[@]}" 2>/dev/null) || n=0
+    [ "$n" -gt 0 ] || continue
+    if [ "$n" -gt "$MAX_COMMITS" ]; then truncated=$((truncated + n - MAX_COMMITS)); fi
+
+    out=$(
+      git "${hook_git_diff_opts[@]}" \
+          log -p --unified=0 --no-color --no-textconv --no-ext-diff \
+              --diff-filter=ACMR -n "$MAX_COMMITS" "${range_args[@]}" 2>/dev/null |
+      scan_stream
+    )
+    [ -n "$out" ] && findings=${findings:+$findings$'\n'}$out
+  done <<< "$refs"
+fi
+
+if [ "$truncated" -gt 0 ]; then
+  echo "pre-push: NOTE: scanned the most recent $MAX_COMMITS commit(s) per ref; $truncated older commit(s) were not scanned."
+fi
+
+if [ -n "$findings" ]; then
+  hook_report "$findings" || exit 1
+fi
+
+# Clean, or waved through: carry on to Git LFS with its stdin intact and let its
+# exit code stand.
+if [ -n "$refs" ]; then
+  printf '%s\n' "$refs" | git lfs pre-push "$@"
+else
+  git lfs pre-push "$@" < /dev/null
+fi

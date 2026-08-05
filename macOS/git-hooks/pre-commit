@@ -1,33 +1,55 @@
 #!/usr/bin/env bash
+#
+# pre-commit: scan staged additions for secrets and debug leftovers.
+#
+# Installed globally via `git config --global core.hooksPath /Users/gaurav/git-hooks/`,
+# so it runs on every commit in every repo on this machine.
+#
+# Rules, suppression and exit codes are documented in README.md; the rule engine
+# itself is lib/scan.awk. Tuned for recall: a false positive costs one comment,
+# a false negative is unrecoverable.
+#
+#   allow one line   append `pre-commit-allow` (or `pragma: allowlist secret`)
+#   bypass entirely  git commit --no-verify
+#
+#   exit 0  clean, or the human chose to continue
+#   exit 1  findings, commit blocked
+#   exit 2  internal error
 
-# Redirect output to stderr.
 exec 1>&2
 
-# Define regex patterns
-patterns=('console\.log' 'api\.key' 'secret' 'password')
+HOOK_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# shellcheck source=lib/common.sh
+. "$HOOK_DIR/lib/common.sh" || { echo "pre-commit: ERROR: cannot load lib/common.sh"; exit 2; }
 
-# Only scan lines being added (skip context, deletions, and +++ headers).
-added_lines=$(git diff --cached --unified=0 | grep -E '^\+[^+]')
+HOOK_NAME="pre-commit"
+HOOK_SUBJECT="staged changes"
+HOOK_UNIT="commit"
+HOOK_BYPASS="git commit --no-verify"
 
-found=false
-for pattern in "${patterns[@]}"; do
-  if grep -E -q "$pattern" <<< "$added_lines"; then
-    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged additions:"
-    grep -E -ne "$pattern" <<< "$added_lines"
-    found=true
-  fi
-done
-
-if [ "$found" = true ]; then
-  if (: < /dev/tty) 2>/dev/null; then
-    read -p "⚠️  Continue with commit? (y/N): " yn < /dev/tty
-    if echo "$yn" | grep -Eq '^[Yy]$'; then
-      exit 0 # Allow commit
-    fi
-    exit 1 # Block commit
-  fi
-  echo "⛔ No terminal available to confirm. Re-run from a terminal or use git commit --no-verify."
-  exit 1
+# HEAD is unborn on the very first commit; diff against the empty tree instead.
+if git rev-parse --verify --quiet HEAD >/dev/null 2>&1; then
+  against=HEAD
+else
+  against=$(git hash-object -t tree /dev/null 2>/dev/null) || {
+    echo "pre-commit: ERROR: could not determine the empty tree object."
+    exit 2
+  }
 fi
 
+findings=$(
+  git "${hook_git_diff_opts[@]}" \
+      diff --cached --unified=0 --no-color --no-textconv --no-ext-diff \
+           --diff-filter=ACMR "$against" -- 2>/dev/null |
+  scan_stream
+)
+git_status=${PIPESTATUS[0]}
+
+if [ "$git_status" -ne 0 ]; then
+  echo "pre-commit: ERROR: 'git diff --cached' failed (status $git_status). Commit aborted."
+  echo "pre-commit: to commit anyway: git commit --no-verify"
+  exit 2
+fi
+
+hook_report "$findings" || exit 1
 exit 0

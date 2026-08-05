@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+#
+# commit-msg: scan the commit message for credentials.
+#
+# Closes a leak path pre-commit structurally cannot see: a token pasted into the
+# message rather than into a file. Git's `#` comment lines are ignored, since
+# git strips them before the message is stored.
+#
+#   allow one line   append `pre-commit-allow` to it
+#   bypass entirely  git commit --no-verify
+#
+#   exit 0  clean, or the human chose to continue
+#   exit 1  findings, commit blocked
+#   exit 2  internal error
+
+exec 1>&2
+
+HOOK_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# shellcheck source=lib/common.sh
+. "$HOOK_DIR/lib/common.sh" || { echo "commit-msg: ERROR: cannot load lib/common.sh"; exit 2; }
+
+HOOK_NAME="commit-msg"
+HOOK_SUBJECT="the commit message"
+HOOK_UNIT="commit"
+HOOK_BYPASS="git commit --no-verify"
+
+msgfile=$1
+[ -n "$msgfile" ] && [ -r "$msgfile" ] || exit 0
+
+findings=$(scan_stream -v MSGMODE=1 < "$msgfile")
+
+hook_report "$findings" || exit 1
+exit 0
