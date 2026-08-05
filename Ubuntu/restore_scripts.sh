@@ -154,9 +154,6 @@ sudo apt-get update
 # Doing the installation
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-echo "\033[1;31mSyncing tools...\033[0m"
-./tool-sync/obs/sync.sh restore
-
 echo "\033[1;31mFinishing up...\033[0m"
 echo "\033[1;31mManually: install Homebrew...\033[0m"
 

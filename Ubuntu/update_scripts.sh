@@ -132,7 +132,6 @@ ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' |
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq | xargs -n 1 which -a | xargs -n 1 md5sum > executables_digest.list 2> /dev/null | echo "completed listing execs with digest"
 
 echo "\033[1;31mSyncing tools...\033[0m"
-./tool-sync/obs/sync.sh
 ./tool-sync/ollama/update-and-sync.sh
 
 echo "\033[1;31mGetting ollama models list...\033[0m"

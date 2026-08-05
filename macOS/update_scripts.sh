@@ -14,8 +14,6 @@ cp read_android_packages.sh /tmp
 cp android_packages.list /tmp
 cp README.md /tmp
 cp notes.txt /tmp
-rm -rf /tmp/tool-sync
-cp -r tool-sync /tmp
 
 echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
 chmod 666 root/etc/irbrc
@@ -32,7 +30,6 @@ cp /tmp/read_android_packages.sh .
 cp /tmp/android_packages.list .
 cp /tmp/README.md .
 cp /tmp/notes.txt .
-cp -r /tmp/tool-sync .
 
 echo "\033[1;31mUpdating brew...\033[0m"
 
@@ -188,9 +185,6 @@ fi
 
 echo "\033[1;31mRemoving bash unnecessary files...\033[0m"
 rm .bash_history
-
-echo "\033[1;31mSyncing tools...\033[0m"
-./tool-sync/obs/sync.sh
 
 echo "\033[1;31mListing all executables in \$PATH...\033[0m"
 ruby -e '`echo $PATH`.strip.split(":").uniq.each {|path| puts `ls "#{path}"`}' | sort | uniq > executables.list

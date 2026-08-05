@@ -1,6 +1,6 @@
 # shared/bin
 
-OS-agnostic helpers. Unlike `macOS/tool-sync/` and `Ubuntu/tool-sync/`, these live outside the
+OS-agnostic helpers. Unlike `Ubuntu/tool-sync/`, these live outside the
 per-OS directories, so `update_scripts.sh`'s `rm -vr *` cannot touch them and there is only ever one
 copy to maintain.
 
