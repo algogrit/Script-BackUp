@@ -7,13 +7,6 @@
 7za
 7zr
 aa
-aarch64-apple-darwin25-c++-16
-aarch64-apple-darwin25-g++-16
-aarch64-apple-darwin25-gcc-16
-aarch64-apple-darwin25-gcc-ar-16
-aarch64-apple-darwin25-gcc-nm-16
-aarch64-apple-darwin25-gcc-ranlib-16
-aarch64-apple-darwin25-gfortran-16
 ab
 ac
 accton
@@ -39,6 +32,7 @@ ag
 agentxtrap
 agvtool
 agy
+agy.1785653560530869000.old
 ahost
 aider
 airport
@@ -63,6 +57,7 @@ apfs_unlockfv
 apkanalyzer
 apktool
 app-sso
+appdb
 appleh13camerad
 appleh16camerad
 applesingle
@@ -140,6 +135,7 @@ aws_completer
 b2sum
 b64decode
 b64encode
+backup-codermana-to-nas
 baddbdir
 banner
 base32
@@ -230,6 +226,12 @@ cap_mkdb
 capinfos
 captoinfo
 captype
+cardos-tool
+cargo
+cargo-clippy
+cargo-fmt
+cargo-llvm-cov
+cargo-miri
 cat
 cc
 cct
@@ -272,6 +274,7 @@ classifier_tester
 claude
 clean-diff
 clear
+clippy-driver
 clj
 cloc
 clojure
@@ -289,6 +292,7 @@ code-tunnel
 codecctl
 codesign
 codesign_allocate
+codex
 col
 collect-recordings
 colordiff
@@ -345,6 +349,7 @@ crlutil
 cron
 crontab
 crypto_bench
+cryptoflex-tool
 cs2cs
 csfdiagnose
 csh
@@ -490,6 +495,7 @@ dltest
 dmc
 dmesg
 dnctl
+dnie-tool
 dns-sd
 dnsmasq
 docker
@@ -517,6 +523,7 @@ dsymutil
 dtplite
 dtrace
 dtruss
+dtrust-tool
 du
 dubdv
 dumpcap
@@ -539,7 +546,9 @@ ed
 editcap
 editres
 edquota
+egk-tool
 egrep
+eidenv
 elixir
 elixirc
 elm
@@ -778,6 +787,7 @@ gi-compile-repository
 gi-decompile-typelib
 gi-inspect-typelib
 gid
+gids-tool
 gie
 gif2webp
 gifbuild
@@ -940,12 +950,11 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
-gobind
 gobject-query
 god
 goenv
 gofmt
-gomobile
+goid-tool
 gouldtoppm
 gource
 gpaste
@@ -1132,10 +1141,12 @@ hwloc-calc
 hwloc-compress-dir
 hwloc-diff
 hwloc-distrib
+hwloc-gather-cpuid
 hwloc-info
 hwloc-ls
 hwloc-patch
 hwloc-ps
+hyperkit
 i686-w64-mingw32-addr2line
 i686-w64-mingw32-ar
 i686-w64-mingw32-as
@@ -1170,6 +1181,7 @@ i686-w64-mingw32-strip
 i686-w64-mingw32-widl
 i686-w64-mingw32-windmc
 i686-w64-mingw32-windres
+iasecc-tool
 ibtool
 ibv_devices
 ibv_devinfo
@@ -1221,8 +1233,10 @@ img2pdf
 img2pdf-gui
 img2txt
 img2webp
+imgcat
 imgcmp
 imginfo
+imgls
 imgtoppm
 imlib2_bumpmap
 imlib2_colorspace
@@ -1283,6 +1297,21 @@ iRATBW.mlmodelc
 irb
 ismindex
 isql
+it2api
+it2attention
+it2cat
+it2check
+it2copy
+it2dl
+it2getvar
+it2git
+it2profile
+it2setcolor
+it2setkeylabel
+it2ssh
+it2tip
+it2ul
+it2universion
 iusql
 jar
 jarsigner
@@ -1385,6 +1414,8 @@ latency
 launchctl
 launchd
 layerutil
+lbry-first
+lbrynet
 ld
 ldapadd
 ldapcompare
@@ -1508,6 +1539,7 @@ macerror5.34
 machine
 macoserror
 macptopbm
+macthermal
 magick
 magick-script
 Magick++-config
@@ -1577,8 +1609,6 @@ mkfontscale
 mknod
 mkpassdb
 mktemp
-mlx.distributed_config
-mlx.launch
 mmdbresolve
 mnthome
 modelcatalogdump
@@ -1636,6 +1666,8 @@ msgmerge
 msgpre
 msgunfmt
 msguniq
+msidb
+msiexec
 mtree
 mtvtoppm
 mujs
@@ -1674,6 +1706,7 @@ net-snmp-cert
 net-snmp-config
 net-snmp-create-v3-user
 netbiosd
+netkey-tool
 netstat
 nettle-hash
 nettle-lfib-stream
@@ -1713,6 +1746,7 @@ nohup
 nologin
 nonspr10
 normalize.py
+notepad
 notifyd
 notifyutil
 nping
@@ -1757,6 +1791,11 @@ opencv_version
 opencv_visualisation
 opencv_waldboost_detector
 opendiff
+openpgp-tool
+opensc-asn1
+opensc-explorer
+opensc-notify
+opensc-tool
 opensnoop
 openssl
 opj_compress
@@ -2100,6 +2139,7 @@ pip3
 pip3.12
 pip3.13
 pip3.14
+piv-tool
 pjtoppm
 pk11ectest
 pk11gcmtest
@@ -2108,6 +2148,11 @@ pk11mode
 pk12util
 pk1sign
 pkcs1-conv
+pkcs11-register
+pkcs11-tool
+pkcs15-crypt
+pkcs15-init
+pkcs15-tool
 pkg-config
 pkgbuild
 pkgconf
@@ -2517,6 +2562,8 @@ reboot
 rec
 recode-sr-latin
 recurse-on
+regedit
+regsvr32
 regview
 reindexdb
 reindexdb-18
@@ -2544,6 +2591,7 @@ ristsrppasswd
 risttunnel
 rlatopam
 rletopnm
+rls
 rlwrap
 rm
 rmdir
@@ -2573,6 +2621,13 @@ ruby-build
 run_erl
 runant.pl
 runant.py
+rust-analyzer
+rust-gdb
+rust-gdbgui
+rust-lldb
+rustc
+rustdoc
+rustfmt
 rustup
 rvictl
 rview
@@ -2593,6 +2648,7 @@ sbigtopgm
 sc
 sc_auth
 sc_usage
+sc-hsm-tool
 scala
 scala-cli
 scalac
@@ -3114,6 +3170,7 @@ weakpass_edit
 webpinfo
 webpmux
 webpng
+westcos-tool
 wfsctl
 wget
 what
@@ -3136,6 +3193,16 @@ who
 whoami
 whois
 wifidump
+wine
+wineboot
+winecfg
+wineconsole
+winedbg
+winefile
+winehelp
+winemine
+winepath
+wineserver
 winetricks
 winicontopam
 winicontoppm
@@ -3163,6 +3230,13 @@ wxrc-3.2
 X
 x264
 x265
+x86_64-apple-darwin25-c++-16
+x86_64-apple-darwin25-g++-16
+x86_64-apple-darwin25-gcc-16
+x86_64-apple-darwin25-gcc-ar-16
+x86_64-apple-darwin25-gcc-nm-16
+x86_64-apple-darwin25-gcc-ranlib-16
+x86_64-apple-darwin25-gfortran-16
 x86_64-w64-mingw32-addr2line
 x86_64-w64-mingw32-ar
 x86_64-w64-mingw32-as
