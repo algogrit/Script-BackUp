@@ -71,7 +71,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 2056 1290 </string>
+	<string>0 43 250 316 0 0 2560 1410 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -3256,9 +3256,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{2560, 111}, {2056, 1329}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{3126, 1014}</string>
+		<string>{670, 747}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
@@ -4383,7 +4383,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-08-03T15:24:50Z</date>
+	<date>2026-08-04T15:24:51Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
