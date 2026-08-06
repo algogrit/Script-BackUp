@@ -238,6 +238,10 @@ cargo
 cargo-clippy
 cargo-fmt
 cargo-miri
+cargo-ndk
+cargo-ndk-env
+cargo-ndk-runner
+cargo-ndk-test
 cat
 cc
 cct
@@ -671,6 +675,7 @@ flash
 flex
 flex++
 flutter
+flutter_rust_bridge_codegen
 fmt
 fnm
 fold
