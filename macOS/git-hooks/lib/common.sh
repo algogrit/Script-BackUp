@@ -1,5 +1,18 @@
 # common.sh: shared helpers for the pre-commit, commit-msg and pre-push hooks.
 # Sourced, never executed.
+#
+# Each driver must set, before calling hook_report:
+#   HOOK_NAME     the hook's own name, used in headers
+#   HOOK_SUBJECT  what was scanned, e.g. "staged changes"
+#   HOOK_UNIT     the thing being blocked, e.g. "commit"
+#   HOOK_BYPASS   the command that skips every check, e.g. "git commit --no-verify"
+#   HOOK_HINT     one line of advice for the interactive output
+#   HOOK_FIXES    array of remediation options, rendered as a numbered list
+#
+# HOOK_HINT and HOOK_FIXES are per-hook because the fix differs by hook: a
+# staged file can be edited and re-staged, a commit message cannot carry a
+# suppression marker without storing it in history, and a finding in an
+# already-created commit needs a history rewrite.
 
 HOOK_LIB_DIR=${HOOK_LIB_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}
 SCAN_AWK="$HOOK_LIB_DIR/scan.awk"
@@ -49,7 +62,7 @@ hook_render_human() {
     fi
   done <<< "$findings"
 
-  printf '\n  %sAllow one line by appending a `pre-commit-allow` comment to it.%s\n' "$D" "$Z"
+  printf '\n  %s%s%s\n' "$D" "$HOOK_HINT" "$Z"
   printf '  %sSkip every check for this %s: %s%s\n\n' "$D" "$HOOK_UNIT" "$HOOK_BYPASS" "$Z"
 }
 
@@ -66,16 +79,17 @@ hook_render_agent() {
     fi
   done <<< "$findings"
 
-  cat <<EOF
+  # Remediation is per-hook: what resolves a staged-file finding cannot resolve
+  # one in a commit message or in an already-published commit.
+  printf '\nHow to resolve (pick one):\n'
+  local i=1 fix
+  for fix in "${HOOK_FIXES[@]}"; do
+    printf '  %d. %s\n' "$i" "$fix"
+    i=$((i + 1))
+  done
+  [ -n "${HOOK_NOTE:-}" ] && printf '\n%s\n' "$HOOK_NOTE"
 
-How to resolve (pick one):
-  1. Fix or remove the flagged line(s), then retry.
-  2. If a finding is a false positive, append a \`pre-commit-allow\` comment to that
-     exact line in the file's comment syntax, re-stage, and retry.
-     Example:  const token = "abc123"  // pre-commit-allow
-     A file-level finding (line shown as none) is waived by putting the marker on
-     any added line of that file.
-  3. To skip every check for this $HOOK_UNIT: $HOOK_BYPASS
+  cat <<EOF
 
 Secret values above are masked to their first 4 characters.
 Rules: debug-leftover, secret-assignment, secret-assignment-unquoted,

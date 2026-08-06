@@ -11,7 +11,11 @@
 # was added and later removed within the pushed range is still caught: it is in
 # the history being published either way.
 #
-#   allow one line   append `pre-commit-allow` to it (needs a new commit)
+# A `pre-commit-allow` marker added in a NEW commit does not waive a finding in
+# an earlier one: each commit's own patch is scanned, and the commit that
+# introduced the secret still contains it. Resolving a finding here means
+# rewriting the offending commit, or pushing with --no-verify.
+#
 #   bypass entirely  git push --no-verify
 #
 #   exit 0  clean (and Git LFS agreed), or the human chose to continue
@@ -28,6 +32,18 @@ HOOK_NAME="pre-push"
 HOOK_SUBJECT="the commits being pushed"
 HOOK_UNIT="push"
 HOOK_BYPASS="git push --no-verify"
+HOOK_HINT='These lines are already committed; fixing them means rewriting those commits.'
+HOOK_FIXES=(
+  "If the secret is real, treat it as burned and rotate it now. Rewriting the
+     commit does not un-leak anything already pushed elsewhere."
+  "Remove it from the commits being pushed, then push again:
+     git commit --amend    for the tip commit
+     git rebase -i <base>  for anything older"
+  "If it is a false positive: git push --no-verify"
+)
+HOOK_NOTE="A \`pre-commit-allow\` marker added in a NEW commit does not waive this finding:
+each commit's own patch is scanned, and the commit that introduced the secret
+still contains it."
 
 MAX_COMMITS=1000
 

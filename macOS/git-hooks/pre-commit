@@ -26,6 +26,16 @@ HOOK_NAME="pre-commit"
 HOOK_SUBJECT="staged changes"
 HOOK_UNIT="commit"
 HOOK_BYPASS="git commit --no-verify"
+HOOK_HINT='Allow one line by appending a `pre-commit-allow` comment to it.'
+HOOK_FIXES=(
+  "Fix or remove the flagged line(s), re-stage, and commit again."
+  "If a finding is a false positive, append a \`pre-commit-allow\` comment to that
+     exact line in the file's comment syntax, re-stage, and commit again.
+     Example:  const token = \"abc123\"  // pre-commit-allow
+     A file-level finding (shown without a line number) is waived by putting the
+     marker on any added line of that file."
+  "To skip every check for this commit: git commit --no-verify"
+)
 
 # HEAD is unborn on the very first commit; diff against the empty tree instead.
 if git rev-parse --verify --quiet HEAD >/dev/null 2>&1; then

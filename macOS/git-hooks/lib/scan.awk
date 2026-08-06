@@ -152,7 +152,9 @@ inhunk && /^\+/ {
 function scan_line(line, f, n,   low, lf) {
   low = tolower(line)
   # The marker waives this line, and any file-level finding for its file.
-  if (low ~ ALLOW) { allowed[f] = 1; return }
+  # Diff mode only: in a commit message the marker would be stored in history
+  # permanently, so message mode ignores it and `--no-verify` is the only bypass.
+  if (!MSGMODE && low ~ ALLOW) { allowed[f] = 1; return }
   lf = tolower(f)
 
   if (line ~ /console\.(log|debug)/ || line ~ /(^|[^A-Za-z0-9_.])debugger[ \t]*;?[ \t]*$/)

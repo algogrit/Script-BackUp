@@ -6,7 +6,10 @@
 # message rather than into a file. Git's `#` comment lines are ignored, since
 # git strips them before the message is stored.
 #
-#   allow one line   append `pre-commit-allow` to it
+# The `pre-commit-allow` marker does NOT apply here and is deliberately ignored
+# in message mode: a marker written into a commit message would be stored in
+# history permanently. `git commit --no-verify` is the only bypass.
+#
 #   bypass entirely  git commit --no-verify
 #
 #   exit 0  clean, or the human chose to continue
@@ -23,9 +26,23 @@ HOOK_NAME="commit-msg"
 HOOK_SUBJECT="the commit message"
 HOOK_UNIT="commit"
 HOOK_BYPASS="git commit --no-verify"
+HOOK_HINT='Reword the message to remove the credential.'
+HOOK_FIXES=(
+  "Remove the credential from the commit message and commit again."
+  "If the credential is real, rotate it. It has been through your shell history
+     and clipboard, so the message is not the only place it leaked."
+  "If it is a false positive: git commit --no-verify"
+)
 
 msgfile=$1
 [ -n "$msgfile" ] && [ -r "$msgfile" ] || exit 0
+
+# Only worth saying when someone actually reached for the marker. Without this
+# the marker is silently ignored, which is a confusing way to be told no.
+if grep -qiE 'pre-commit-allow|pragma:[[:space:]]*allowlist[[:space:]]+secret' "$msgfile"; then
+  HOOK_NOTE="The \`pre-commit-allow\` marker is ignored in commit messages: it would be stored
+in history permanently. Remove it, and use --no-verify for a false positive."
+fi
 
 findings=$(scan_stream -v MSGMODE=1 < "$msgfile")
 

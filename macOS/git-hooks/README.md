@@ -102,6 +102,20 @@ waived by putting the marker on **any** added line of that file. Files ending in
 that rule automatically. Their **contents** are still scanned, so a real key
 inside `.env.example` still blocks.
 
+### The marker applies to files only
+
+`commit-msg` ignores the marker deliberately. A marker written into a commit
+message would be stored in history permanently, so there is no way to muddy a
+message with hook directives. For a false positive in a message, reword it or use
+`git commit --no-verify`.
+
+`pre-push` findings cannot be waived with a marker either. Each commit's own
+patch is scanned, so a marker added in a *new* commit does not waive the finding
+in the earlier commit that introduced the secret. Rewrite that commit
+(`git commit --amend`, or `git rebase -i`) or push with `--no-verify`.
+
+Each hook prints the remediation that actually applies to it.
+
 ## Bypassing every check
 
 ```sh
