@@ -196,6 +196,7 @@ libnotify-bin
 libnspr4
 libnss-mdns
 libnss3
+libnss3-tools
 libopenblas-dev
 libopencc-data
 libopencc1.1
@@ -287,6 +288,7 @@ nvidia-cuda-toolkit
 nvidia-driver-570
 obs-backgroundremoval
 openprinting-ppds
+opensc
 openssh-client
 openssl
 ovmf
@@ -370,7 +372,6 @@ vim
 vim-tiny
 virt-manager
 w3m
-wdtokentool-proxkey
 webkit2gtk-driver
 wget
 whiptail

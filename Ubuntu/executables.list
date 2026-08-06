@@ -301,6 +301,7 @@ cd-it8
 cec-compliance
 cec-ctl
 cec-follower
+certutil
 cfdisk
 c++filt
 cgdisk
@@ -317,6 +318,7 @@ check-language-support
 chfn
 chgpasswd
 chgrp
+chktest
 chmem
 chmod
 choom
@@ -346,6 +348,7 @@ cloud-init
 cloud-init-per
 cmake
 cmp
+cmsutil
 cobjnew-bpfcc
 code
 codepage
@@ -389,6 +392,7 @@ cracklib-unpacker
 create-cracklib-dict
 c_rehash
 criticalstat-bpfcc
+crlutil
 cron
 crontab
 cryptoflex-tool
@@ -467,6 +471,7 @@ deluser
 delv
 depmod
 derb
+derdump
 desktop-file-edit
 desktop-file-install
 desktop-file-validate
@@ -1106,6 +1111,7 @@ hp-testpage
 hp-timedate
 htmldiff
 htop
+httpserv
 httpx
 hwclock
 hwe-support-status
@@ -1611,6 +1617,7 @@ mmove
 ModemManager
 modinfo
 modprobe
+modutil
 mokutil
 monitor-sensor
 more
@@ -1710,6 +1717,7 @@ nologin
 normalizer
 not-18
 notify-send
+npa-tool
 nping
 npm
 npm-arborist
@@ -1720,7 +1728,10 @@ nsenter
 nsight-sys
 nslookup
 nspr-config
+nss-addbuiltin
 nss-config
+nss-dbtest
+nss-pp
 nstat
 nsupdate
 nsys
@@ -1784,6 +1795,7 @@ obj2yaml-18
 objcopy
 objdump
 oclock
+ocspclnt
 od
 oem-getlogs
 offcputime-bpfcc
@@ -1815,6 +1827,10 @@ orca-dm-wrapper
 osirrox
 ownership
 p11-kit
+p7content
+p7env
+p7sign
+p7verify
 p7zip
 pacat
 pack200
@@ -1859,7 +1875,6 @@ pcre2-config
 pcre2grep
 pcre2test
 pcscd
-pcscd_wd
 pcsc-spy
 pdata_tools
 pdb3
@@ -1932,6 +1947,8 @@ pipewire-pulse
 pipx
 pivot_root
 piv-tool
+pk12util
+pk1sign
 pkaction
 pkcheck
 pkcon
@@ -2008,7 +2025,6 @@ projsync
 proton
 proton-viewer
 prove
-ProxKey_DiagnoseTool
 prtstat
 ps
 ps2ascii
@@ -2050,6 +2066,7 @@ pw-cli
 pw-config
 pwconv
 pwd
+pwdecrypt
 pw-dot
 pw-dsdplay
 pw-dump
@@ -2277,6 +2294,7 @@ route
 routel
 rpcgen
 rrsync
+rsaperf
 rstart
 rstartd
 rsync
@@ -2359,6 +2377,7 @@ select-default-ispell
 select-default-iwrap
 select-default-wordlist
 select-editor
+selfserv
 semver
 sensible-browser
 sensible-editor
@@ -2404,6 +2423,7 @@ sha512sum
 shadowconfig
 sharkd
 shasum
+shlibsign
 shmsnoop-bpfcc
 shotwell
 showconsolefont
@@ -2412,6 +2432,8 @@ showrgb
 shred
 shuf
 shutdown
+signtool
+signver
 simple-scan
 size
 skill
@@ -2481,6 +2503,7 @@ sshpass
 ssllatency.bt
 sslsniff-bpfcc
 sslsnoop.bt
+ssltap
 stackcount-bpfcc
 start-stop-daemon
 startx
@@ -2494,6 +2517,7 @@ strace-log-merge
 streamzip
 strings
 strip
+strsclnt
 stty
 su
 sudo
@@ -2528,6 +2552,7 @@ swtpm_cert
 swtpm_ioctl
 swtpm_localca
 swtpm_setup
+symkeyutil
 sync
 syncsnoop-bpfcc
 syncsnoop.bt
@@ -2700,6 +2725,7 @@ trust
 tset
 tshark
 tsort
+tstclnt
 tty
 ttysnoop-bpfcc
 tune2fs
@@ -2837,6 +2863,8 @@ vfscount-bpfcc
 vfscount.bt
 vfsstat-bpfcc
 vfsstat.bt
+vfychain
+vfyserv
 vgcfgbackup
 vgcfgrestore
 vgchange
@@ -2896,7 +2924,6 @@ wakeuptime-bpfcc
 wall
 watch
 watchgnupg
-Watchsafe_ProxKey
 wayland-scanner
 wc
 wdctl

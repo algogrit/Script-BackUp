@@ -54,3 +54,7 @@ trust_level = "trusted"
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
+
+[mcp_servers.woodpecker]
+url = "http://192.168.0.109:8099/mcp"
+bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"

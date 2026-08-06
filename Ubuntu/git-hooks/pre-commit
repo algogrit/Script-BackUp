@@ -1,30 +1,65 @@
 #!/usr/bin/env bash
+#
+# pre-commit: scan staged additions for secrets and debug leftovers.
+#
+# Installed globally via `git config --global core.hooksPath /Users/gaurav/git-hooks/`,
+# so it runs on every commit in every repo on this machine.
+#
+# Rules, suppression and exit codes are documented in README.md; the rule engine
+# itself is lib/scan.awk. Tuned for recall: a false positive costs one comment,
+# a false negative is unrecoverable.
+#
+#   allow one line   append `pre-commit-allow` (or `pragma: allowlist secret`)
+#   bypass entirely  git commit --no-verify
+#
+#   exit 0  clean, or the human chose to continue
+#   exit 1  findings, commit blocked
+#   exit 2  internal error
 
-# Redirect output to stderr.
 exec 1>&2
-# Enable user input
-exec < /dev/tty
 
-# Define regex patterns
-patterns=('console\.log' 'api.key', 'secret', 'password')
+HOOK_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# shellcheck source=lib/common.sh
+. "$HOOK_DIR/lib/common.sh" || { echo "pre-commit: ERROR: cannot load lib/common.sh"; exit 2; }
 
-found=false
-for pattern in "${patterns[@]}"; do
-  if git diff --cached | grep -E -q "$pattern"; then
-    echo -e "\n❗ Found occurrences of pattern \`$pattern\` in staged files:"
-    git diff --cached | grep -E -ne "$pattern"
-    found=true
-  fi
-done
+HOOK_NAME="pre-commit"
+HOOK_SUBJECT="staged changes"
+HOOK_UNIT="commit"
+HOOK_BYPASS="git commit --no-verify"
+HOOK_HINT='Allow one line by appending a `pre-commit-allow` comment to it.'
+HOOK_FIXES=(
+  "Fix or remove the flagged line(s), re-stage, and commit again."
+  "If a finding is a false positive, append a \`pre-commit-allow\` comment to that
+     exact line in the file's comment syntax, re-stage, and commit again.
+     Example:  const token = \"abc123\"  // pre-commit-allow
+     A file-level finding (shown without a line number) is waived by putting the
+     marker on any added line of that file."
+  "To skip every check for this commit: git commit --no-verify"
+)
 
-if [ "$found" = true ]; then
-  read -p "⚠️  Continue with commit? (y/N): " yn
-  echo "$yn" | grep -Eq '^[Yy]$'
-  if [ $? -eq 0 ]; then
-    exit 0 # Allow commit
-  else
-    exit 1 # Block commit
-  fi
+# HEAD is unborn on the very first commit; diff against the empty tree instead.
+if git rev-parse --verify --quiet HEAD >/dev/null 2>&1; then
+  against=HEAD
+else
+  against=$(git hash-object -t tree /dev/null 2>/dev/null) || {
+    echo "pre-commit: ERROR: could not determine the empty tree object."
+    exit 2
+  }
 fi
 
+findings=$(
+  git "${hook_git_diff_opts[@]}" \
+      diff --cached --unified=0 --no-color --no-textconv --no-ext-diff \
+           --diff-filter=ACMR "$against" -- 2>/dev/null |
+  scan_stream
+)
+git_status=${PIPESTATUS[0]}
+
+if [ "$git_status" -ne 0 ]; then
+  echo "pre-commit: ERROR: 'git diff --cached' failed (status $git_status). Commit aborted."
+  echo "pre-commit: to commit anyway: git commit --no-verify"
+  exit 2
+fi
+
+hook_report "$findings" || exit 1
 exit 0

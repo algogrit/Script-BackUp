@@ -62,8 +62,6 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/rbs-4.0.3
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/tsort-0.2.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rainbow-3.1.1/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/pycall-1.5.2/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/pycall-1.5.2
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/plist-3.7.2/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/patchelf-1.5.2/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/parser-3.3.12.0/lib
@@ -106,12 +104,12 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0/x86_64-linux
 ==> Homebrew Version
-6.0.14
+6.0.15
 ==> Linux
 Ubuntu 24.04.4 LTS (noble)
 ==> Cask Staging Location
 /home/linuxbrew/.linuxbrew/Caskroom
 ==> Cask Taps:
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7671 casks)
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7683 casks)
 Your system is ready to brew.
-85 kegs, 36,640 files, 1.9GB
+85 kegs, 36,653 files, 1.9GB
