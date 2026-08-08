@@ -17,11 +17,13 @@ avahi-daemon
 baobab
 bat
 bc
+binaryen
 bison
 bluez
 bluez-cups
 bridge-utils
 brltty
+brotli
 bsdutils
 bubblewrap
 build-essential
@@ -257,6 +259,7 @@ libxrandr2
 libxrender1
 libyaml-dev
 linux-generic-hwe-24.04
+llvm
 lm-sensors
 locales
 login

@@ -14,7 +14,7 @@ go                         1.26.5                          11227  latest/stable 
 gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/…  canonical**    -
 mesa-2404                  25.2.8-snap288                  1839   latest/stable    canonical**    -
 rustup                     1.29.0                          1504   latest/stable    canonical**    classic
-snap-store                 0+git.10310e85                  1367   2/stable/…       canonical**    -
+snap-store                 0+git.8334e2e4                  1390   2/stable/…       canonical**    -
 snapd                      2.76.1                          27591  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             391    latest/stable/…  canonical**    -
 thunderbird                153.0-2                         1201   latest/stable/…  canonical**    -
