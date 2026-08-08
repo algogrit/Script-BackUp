@@ -1,13 +1,3 @@
-Please note that these warnings are just used to help the Homebrew maintainers
-with debugging if you file an issue. If everything you use Homebrew for is
-working fine: please don't worry or file an issue; just ignore this. Thanks!
-
-Warning: Some installed casks are deprecated or disabled.
-You should find replacements for the following casks:
-gstreamer-runtime
-  lbry
-  wine@staging
-  zoho-mail
 ==> Cask Environment Variables:
 LC_ALL="en_US.UTF-8"
 PATH="/opt/homebrew/Library/Homebrew/shims/shared:/usr/bin:/bin:/usr/sbin:/sbin"
@@ -124,5 +114,5 @@ Enabled
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
 /opt/homebrew/Library/Taps/homebrew/homebrew-cask (7684 casks)
-
-422 kegs, 253,966 files, 12.6GB
+Your system is ready to brew.
+420 kegs, 250,881 files, 12.5GB

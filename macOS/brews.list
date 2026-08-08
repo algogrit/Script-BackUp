@@ -21,7 +21,6 @@ bash
 bash-completion
 bat
 bdw-gc
-binaryen
 boost
 brotli
 c-ares
@@ -283,7 +282,6 @@ openjdk
 openjdk@17
 openjpeg
 openjph
-opensc
 openssl@3
 openssl@4
 openvino
