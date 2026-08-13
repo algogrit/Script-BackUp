@@ -1,0 +1,14 @@
+{
+  "colorScheme": "dark",
+  "permissions": {
+    "allow": [
+      "command(echo)",
+      "command(uv)",
+      "command(make verify)"
+    ]
+  },
+  "trustedWorkspaces": [
+    "/home/om/Developer/CMTech/vyuha",
+    "/home/om/Developer/CMTech/pdf-text-extractor"
+  ]
+}

@@ -1955,7 +1955,7 @@ perf
 perl
 perl5.38.2
 perl5.38-x86_64-linux-gnu
-perl5.42.2
+perl5.44.0
 perlbug
 perlcalls-bpfcc
 perldoc
@@ -2409,6 +2409,7 @@ sanstats
 sanstats-18
 sar
 sar.sysstat
+sas_disk_blink
 savelog
 sbattach
 sbkeysync
@@ -2426,7 +2427,9 @@ screendump
 script
 scriptlive
 scriptreplay
+scsi_ch_swp
 sdiff
+sdparm
 sdptool
 seahorse
 sed
