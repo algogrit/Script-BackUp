@@ -74,6 +74,10 @@ PORTABLE=(
     "codex|rules"
     "codex|prompts"
     "codex|skills"
+    "gemini|config/AGENTS.md"
+    "gemini|config/mcp_config.json"
+    "gemini|config/projects"
+    "gemini|antigravity-cli/settings.json"
 )
 
 # Compared and reported, never synced.
@@ -84,8 +88,8 @@ PER_OS=(
 )
 
 # Map a tool key to its repo sub-dir and its live dir.
-repo_dir()  { case "$1" in claude) echo "Claude" ;; codex) echo "Codex" ;; esac; }
-live_dir()  { case "$1" in claude) echo "$HOME/.claude" ;; codex) echo "$HOME/.codex" ;; esac; }
+repo_dir()  { case "$1" in claude) echo "Claude" ;; codex) echo "Codex" ;; gemini) echo "Gemini" ;; esac; }
+live_dir()  { case "$1" in claude) echo "$HOME/.claude" ;; codex) echo "$HOME/.codex" ;; gemini) echo "$HOME/.gemini" ;; esac; }
 
 # ---------------------------------------------------------------------------
 # Path normalisation. Only ever rewrite text config, never binaries.

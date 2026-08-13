@@ -69,6 +69,14 @@ if [ -d ~/.codex/skills ]; then
   find ~/.codex/skills -mindepth 1 -maxdepth 1 ! -name .system -exec cp -r {} Codex/skills/ \; 2>/dev/null || true
 fi
 
+# Copy Gemini / Antigravity CLI settings (never the oauth token, installation id,
+# or per-machine config.json)
+mkdir -p Gemini/config Gemini/antigravity-cli
+cp ~/.gemini/config/AGENTS.md Gemini/config/ 2>/dev/null || true
+cp ~/.gemini/config/mcp_config.json Gemini/config/ 2>/dev/null || true
+cp -r ~/.gemini/config/projects Gemini/config/ 2>/dev/null || true
+cp ~/.gemini/antigravity-cli/settings.json Gemini/antigravity-cli/ 2>/dev/null || true
+
 # Copy Custom Git Commands
 cp -r ~/git-hooks .
 cp -r ~/Custom-Git-Commands .

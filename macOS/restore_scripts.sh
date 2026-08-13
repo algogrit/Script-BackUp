@@ -235,6 +235,13 @@ cp -r ~/Script-BackUp/macOS/Codex/rules ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/prompts ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/skills ~/.codex/ 2>/dev/null || true
 
+echo "\033[1;31mRestoring Gemini / Antigravity CLI settings...\033[0m"
+mkdir -p ~/.gemini/config ~/.gemini/antigravity-cli
+cp ~/Script-BackUp/macOS/Gemini/config/AGENTS.md ~/.gemini/config/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Gemini/config/mcp_config.json ~/.gemini/config/ 2>/dev/null || true
+cp -r ~/Script-BackUp/macOS/Gemini/config/projects ~/.gemini/config/ 2>/dev/null || true
+cp ~/Script-BackUp/macOS/Gemini/antigravity-cli/settings.json ~/.gemini/antigravity-cli/ 2>/dev/null || true
+
 echo "\033[1;31mRestoring ramayan config...\033[0m"
 mkdir -p ~/.config/ramayan
 cp ~/Script-BackUp/macOS/ramayan/config.toml ~/.config/ramayan/ 2>/dev/null || true

@@ -25,14 +25,16 @@ identical config on two machines compares equal instead of drowning the diff in 
 
 **Portable** (compared, and synced by `adopt`): Claude `CLAUDE.md`, `settings.json`,
 `keybindings.json`, `agents/`, `commands/`, `skills/`, `hooks/`; Codex `AGENTS.md`, `rules/`,
-`prompts/`, `skills/`.
+`prompts/`, `skills/`; Gemini `config/AGENTS.md`, `config/mcp_config.json`, `config/projects/`,
+`antigravity-cli/settings.json`. Gemini's `settings.json` does carry a `trustedWorkspaces` list, so
+if it starts churning between machines, move that one entry to **Per-OS**.
 
 **Per-OS** (compared and reported, never synced): Codex `config.toml` and Claude
 `plugins/*.json`. These embed absolute install paths, per-machine project trust lists, and OS-only
 keys (Codex's `notify` points at a macOS `.app`), so copying them across would produce a config that
 references paths that do not exist. `diff` still reports them, so drift stays visible.
 
-`adopt` writes to the **live** `~/.claude` / `~/.codex` (saving a timestamped `.pre-adopt.<stamp>`
+`adopt` writes to the **live** `~/.claude` / `~/.codex` / `~/.gemini` (saving a timestamped `.pre-adopt.<stamp>`
 copy of anything it overwrites), not to the repo. Run this OS's `update_scripts.sh` afterwards to
 record the adopted files into its tree. That is the convergence loop:
 

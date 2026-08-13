@@ -79,6 +79,13 @@ cp -r ~/Script-BackUp/Ubuntu/Codex/rules ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/Ubuntu/Codex/prompts ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/Ubuntu/Codex/skills ~/.codex/ 2>/dev/null || true
 
+echo "\033[1;31mRestoring Gemini / Antigravity CLI settings...\033[0m"
+mkdir -p ~/.gemini/config ~/.gemini/antigravity-cli
+cp ~/Script-BackUp/Ubuntu/Gemini/config/AGENTS.md ~/.gemini/config/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Gemini/config/mcp_config.json ~/.gemini/config/ 2>/dev/null || true
+cp -r ~/Script-BackUp/Ubuntu/Gemini/config/projects ~/.gemini/config/ 2>/dev/null || true
+cp ~/Script-BackUp/Ubuntu/Gemini/antigravity-cli/settings.json ~/.gemini/antigravity-cli/ 2>/dev/null || true
+
 echo "\033[1;31mInstalling ~/bin utilities...\033[0m"
 wget -O ~/bin/flash https://raw.githubusercontent.com/hypriot/flash/master/flash
 chmod +x ~/bin/flash
