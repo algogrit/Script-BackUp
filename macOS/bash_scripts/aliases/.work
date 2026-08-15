@@ -3,3 +3,9 @@ alias om-infra-code="code --remote ssh-remote+om /home/om/Developer/CMTech/infra
 alias om-vyuha-code="code --remote ssh-remote+om /home/om/Developer/CMTech/vyuha"
 
 alias eject-vishwakarma="diskutil eject /Volumes/Vishwakarma"
+
+# Wake-on-LAN via the Mayur relay (hosts sit on isolated VLANs the Mac can't
+# broadcast into; Mayur has a leg in each VLAN and runs `mayur-wake`).
+# See ~/Developer/CMTech/vyuha/docs/wake-on-lan.md
+alias om='ssh mayur mayur-wake om'               # Om        (VLAN 1)
+alias codermana='ssh mayur mayur-wake coderprod' # CoderProd (VLAN 30)
