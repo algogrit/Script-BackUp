@@ -1,24 +1,14 @@
 {
-  "allowNonWorkspaceAccess": true,
   "colorScheme": "dark",
-  "model": "Gemini 3.1 Pro (High)",
+  "enableTelemetry": false,
   "permissions": {
     "allow": [
-      "command(git status)",
-      "command(git diff)",
-      "command(git add)",
-      "command(git commit)",
-      "command(grep)",
-      "command(mv)",
-      "command(git log)",
-      "command(git show)",
-      "command(cargo test --workspace)"
+      "command(ls)",
+      "command(cat)",
+      "command(goenv)",
+      "command(echo)",
+      "command(rg)",
+      "command(which)"
     ]
-  },
-  "trustedWorkspaces": [
-    "/Users/gaurav/Developer/CMTech/vyuha",
-    "/Users/gaurav/Developer/CMTech/creator-kit",
-    "/Users/gaurav/Developer/CMTech/nayak",
-    "/Users/gaurav/Developer/CMTech/infra/apps/vyom-ar"
-  ]
+  }
 }
