@@ -12,8 +12,9 @@ Commands:
   sc clean [-n]   Remove all screenshots except the latest
   sc nuke  [-n]   Remove ALL screenshots
   sc auto on|off|status            Per-dir auto date-prefix for `sc mv`
-  sc sync [-n]                     Push ./screenshots to the mirrored remote dir (rsync)
-  sc sync config <host> <remote-home>   Set/show sync target
+  sc sync [-n] [--to <host>] [--remote-home <path>]
+                                   Push ./screenshots to the mirrored remote dir (rsync)
+  sc sync config <host> <remote-home>   Set/show the default sync target
 """
 
 import argparse
@@ -36,6 +37,9 @@ AUTO_DATE_FMT = "%Y-%m-%d"      # date subdir format
 
 # Sync settings (used by `sc sync` to rsync ./screenshots to a remote host)
 SYNC_CONFIG_FILE = os.environ.get("SC_SYNC_CONFIG_FILE", os.path.join(HOME, ".config/sc/sync"))  # KEY=value
+# Per-host remote-home cache for `sc sync --to`, one "host=/abs/home" per line. Kept out of
+# SYNC_CONFIG_FILE because `sc sync config` rewrites that file wholesale.
+SYNC_HOMES_FILE = os.environ.get("SC_SYNC_HOMES_FILE", os.path.join(HOME, ".config/sc/sync-homes"))
 
 # Global flags, populated by parse_globals() before dispatch.
 COPY_PATH = False
@@ -133,6 +137,44 @@ def load_sync_config():
                 elif k == "SC_SYNC_REMOTE_HOME" and not remote_home:
                     remote_home, source = v, "config"
     return host, remote_home, source
+
+
+def load_home_cache():
+    """Remembered remote homes as {host: path}, from previous `sc sync --to` probes."""
+    cache = {}
+    if os.path.isfile(SYNC_HOMES_FILE):
+        with open(SYNC_HOMES_FILE) as fh:
+            for line in fh:
+                k, sep, v = line.rstrip("\n").partition("=")
+                if k and sep and v:
+                    cache[k] = v
+    return cache
+
+
+def save_home_cache(host, path):
+    """Remember <host>'s remote home. Best effort: a write failure is not fatal."""
+    cache = load_home_cache()
+    cache[host] = path
+    try:
+        os.makedirs(os.path.dirname(SYNC_HOMES_FILE), exist_ok=True)
+        with open(SYNC_HOMES_FILE, "w") as fh:
+            for k in sorted(cache):
+                fh.write(f"{k}={cache[k]}\n")
+    except OSError:
+        print(f"Note: could not cache remote home in {short(SYNC_HOMES_FILE)}")
+
+
+def detect_remote_home(host):
+    """Ask <host> for $HOME over ssh. Returns an absolute path, or None."""
+    print(f"Resolving remote home for {host}...")
+    # BatchMode keeps an unreachable/unconfigured host from hanging on a password prompt.
+    result = subprocess.run(
+        ["ssh", "-o", "BatchMode=yes", host, 'printf %s "$HOME"'],
+        capture_output=True, text=True)
+    home = result.stdout.strip()
+    if result.returncode != 0 or not home.startswith("/"):
+        return None
+    return home
 
 
 # --- commands --------------------------------------------------------------
@@ -272,8 +314,12 @@ def cmd_auto(sub):
     return 1
 
 
-def cmd_sync(rest):
+def cmd_sync(rest, to="", remote_home_arg=""):
     if rest and rest[0] == "config":
+        if to or remote_home_arg:
+            print("--to / --remote-home apply to the push, not to `sc sync config`.")
+            print("Usage: sc sync config <host> <remote-home>")
+            return 1
         host_arg = rest[1] if len(rest) > 1 else ""
         home_arg = rest[2] if len(rest) > 2 else ""
         if not host_arg and not home_arg:
@@ -284,6 +330,11 @@ def cmd_sync(rest):
                 print("  e.g. sc sync config om /home/om")
                 return 1
             print(f"Sync target: {host or '?'}  (home {remote_home or '?'})  [from {source}]")
+            cache = load_home_cache()
+            if cache:
+                print("Known remote homes (use with --to):")
+                for k in sorted(cache):
+                    print(f"  {k}  {cache[k]}")
             return 0
         if not host_arg or not home_arg:
             print("Usage: sc sync config <host> <remote-home>")
@@ -302,13 +353,37 @@ def cmd_sync(rest):
         print(f"Sync target: {host_arg}  (home {home_arg})")
         return 0
     if rest:
-        print("Usage: sc sync [-n]            Push ./screenshots to the remote")
+        print("Usage: sc sync [-n] [--to <host>] [--remote-home <path>]")
         print("       sc sync config <host> <remote-home>")
         return 1
 
     # Default: push ./screenshots to the mirrored remote dir
-    host, remote_home, _ = load_sync_config()
-    if not host or not remote_home:
+    cfg_host, cfg_home, _ = load_sync_config()
+    host = to or cfg_host
+    if not host:
+        print("Sync not configured. Run: sc sync config <host> <remote-home>")
+        print("  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)")
+        return 1
+
+    # Remote home: explicit flag > configured value (for the configured host) > cache > ssh probe.
+    if remote_home_arg:
+        if not remote_home_arg.startswith("/"):
+            print(f"Remote home must be an absolute path (got: {remote_home_arg})")
+            return 1
+        remote_home = remote_home_arg
+    elif host == cfg_host and cfg_home:
+        remote_home = cfg_home
+    else:
+        remote_home = load_home_cache().get(host, "")
+        if not remote_home:
+            remote_home = detect_remote_home(host)
+            if not remote_home:
+                print(f"Could not determine $HOME on {host} over ssh.")
+                print(f"  Pass --remote-home <path>, or run: sc sync config {host} <path>")
+                return 1
+            print(f"Remote home for {host}: {remote_home} (cached)")
+            save_home_cache(host, remote_home)
+    if not remote_home:
         print("Sync not configured. Run: sc sync config <host> <remote-home>")
         print("  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)")
         return 1
@@ -410,6 +485,10 @@ def build_parser():
                             help="push ./screenshots to the mirrored remote dir (rsync)")
     p_sync.add_argument("rest", nargs="*",
                         help="'config <host> <remote-home>' to set/show target; empty to push")
+    p_sync.add_argument("--to", default="", metavar="HOST",
+                        help="push to HOST for this run instead of the configured target")
+    p_sync.add_argument("--remote-home", default="", metavar="PATH",
+                        help="remote $HOME for --to (skips ssh detection)")
 
     sub.add_parser("clean", parents=[common], help="remove all screenshots except the latest")
     sub.add_parser("nuke", parents=[common], help="remove ALL screenshots")
@@ -438,7 +517,7 @@ def main(argv):
     if args.command == "auto":
         return cmd_auto(args.action)
     if args.command == "sync":
-        return cmd_sync(args.rest)
+        return cmd_sync(args.rest, args.to, args.remote_home)
     return 1  # unreachable: argparse rejects unknown commands
 
 
