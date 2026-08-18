@@ -66,7 +66,10 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
+[projects."/Users/gaurav/Developer/CMTech/video-editor"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/git-hooks"]
 trust_level = "trusted"
 
 [tui]
@@ -85,7 +88,3 @@ appearanceTheme = "system"
 
 [notice]
 hide_rate_limit_model_nudge = true
-
-[mcp_servers.woodpecker]
-url = "http://192.168.0.109:8099/mcp"
-bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"
