@@ -66,6 +66,9 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
@@ -82,3 +85,7 @@ appearanceTheme = "system"
 
 [notice]
 hide_rate_limit_model_nudge = true
+
+[mcp_servers.woodpecker]
+url = "http://192.168.0.109:8099/mcp"
+bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"
