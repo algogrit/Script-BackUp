@@ -156,5 +156,6 @@
   },
   "markdownInlineEditor.decorations.ghostFaintOpacity": 0.4,
   "markdownInlineEditor.math.enabled": true,
-  "markdownInlineEditor.emojis.enabled": true
+  "markdownInlineEditor.emojis.enabled": true,
+  "extensions.ignoreRecommendations": true
 }
