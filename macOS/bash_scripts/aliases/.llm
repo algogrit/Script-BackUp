@@ -15,7 +15,8 @@ alias codex-easy="$CODEX_BIN --model gpt-5.6-luna --sandbox workspace-write --as
 alias codex-hard="$CODEX_BIN --model gpt-5.6-sol --sandbox workspace-write --ask-for-approval on-request"
 alias codex-commit="$CODEX_BIN --model gpt-5.6-luna \"review and commit\" --sandbox workspace-write --ask-for-approval on-request"
 
-alias claude='claude --enable-auto-mode --permission-mode=plan --model=opus --effort=medium'
+alias claude='claude --enable-auto-mode --permission-mode=plan --model=claude-opus-4-8 --effort=medium'
+alias claude46='claude --enable-auto-mode --permission-mode=plan --model=claude-opus-4-6 --effort=medium'
 alias claude-easy='claude --enable-auto-mode --permission-mode=plan --model=sonnet'
 alias claude-hard='claude --enable-auto-mode --permission-mode=plan --model=fable'
 alias claude-commit='claude --enable-auto-mode --permission-mode=auto --model=sonnet "review and commit"'

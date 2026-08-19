@@ -1,16 +1,37 @@
 function hari() {
     local session="Gaurav"
     local tmux_cmd
+    local any_session=false
 
-    if [[ "$1" == "-d" ]]; then
-        session="Gaurav-$(basename $(pwd))"
-        shift
-    fi
+    # Parse custom flags before passing the rest to ssh
+    while [[ $# -gt 0 ]]; do
+        case "$1" in
+            -d)
+                session="Gaurav-$(basename $(pwd))"
+                shift
+                ;;
+            -a|--any-session)
+                any_session=true
+                shift
+                ;;
+            *)
+                break
+                ;;
+        esac
+    done
 
     if [[ "${TERM_PROGRAM:-}" == "iTerm.app" ]]; then
-        tmux_cmd="tmux -CC new -A -s '$session'"
+        if $any_session; then
+            tmux_cmd="tmux -CC attach || tmux -CC new -s '$session'"
+        else
+            tmux_cmd="tmux -CC new -A -s '$session'"
+        fi
     else
-        tmux_cmd="tmux a -t '$session' || tmux new -s '$session'"
+        if $any_session; then
+            tmux_cmd="tmux attach || tmux new -s '$session'"
+        else
+            tmux_cmd="tmux a -t '$session' || tmux new -s '$session'"
+        fi
     fi
 
     local attempt=0
