@@ -14,7 +14,7 @@
       "Bash(git switch --create:*)"
     ]
   },
-  "model": "fable",
+  "model": "claude-fable-5[1m]",
   "enabledPlugins": {
     "clangd-lsp@claude-plugins-official": true,
     "gopls-lsp@claude-plugins-official": true,
@@ -25,9 +25,9 @@
     "pyright-lsp@claude-plugins-official": true
   },
   "effortLevel": "medium",
-  "advisorModel": "fable",
   "skipWorkflowUsageWarning": true,
   "theme": "dark",
   "editorMode": "normal",
-  "verbose": false
+  "verbose": false,
+  "advisorModel": "fable"
 }

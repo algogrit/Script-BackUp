@@ -3,7 +3,6 @@ android-commandlinetools
 android-platform-tools
 antigravity
 antigravity-cli
-arc
 balenaetcher
 blackhole-16ch
 caffeine
@@ -18,6 +17,7 @@ google-chrome
 google-drive
 google-earth-pro
 gstreamer-runtime
+handbrake-app
 iterm2
 karabiner-elements
 lbry
@@ -28,6 +28,7 @@ obs
 raspberry-pi-imager
 raycast
 rectangle
+slack
 sonic-visualiser
 steam
 stremio
@@ -37,8 +38,6 @@ the-unarchiver
 thunderbird
 tor-browser
 transmission
-ulaa
-unity-hub
 usage-app
 utm
 vagrant

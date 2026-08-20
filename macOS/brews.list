@@ -1,6 +1,7 @@
 abseil
 ack
 ada-url
+aider
 ant
 aom
 apache-serf
@@ -31,7 +32,6 @@ bash
 bash-completion
 bat
 bdw-gc
-binaryen
 boost
 brotli
 c-ares
@@ -250,14 +250,12 @@ mas
 maven
 mbedtls@3
 md4c
+mdbook
 media-info
 merve
 metis
 mingw-w64
-mistral-vibe
 mlt
-mlx
-mlx-c
 molten-vk
 mp3splt
 mpdecimal
@@ -297,7 +295,6 @@ openjph
 opensc
 openssl@3
 openssl@4
-opentofu
 openvino
 opus
 opusfile
