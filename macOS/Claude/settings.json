@@ -25,6 +25,7 @@
     "pyright-lsp@claude-plugins-official": true
   },
   "effortLevel": "medium",
+  "advisorModel": "fable",
   "skipWorkflowUsageWarning": true,
   "theme": "dark",
   "editorMode": "normal",
