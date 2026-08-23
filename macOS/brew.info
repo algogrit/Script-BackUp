@@ -123,7 +123,7 @@ Enabled
 ==> Cask Taps:
 /usr/local/Homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /usr/local/Homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (7704 casks)
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask (7701 casks)
 
 Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
@@ -132,4 +132,4 @@ This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   sentry-cli
 
-432 kegs, 246,396 files, 12.5GB
+432 kegs, 247,016 files, 12.5GB
