@@ -1,5 +1,5 @@
 OBS Studio	Live stream and record videos	com.obsproject.Studio	32.2.2	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	21b35765922f	-	528.5 MB	user,current
-DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	64fbd7605d20	-	2.8 MB	user,runtime
+DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.1	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	02298b2838c2	-	2.8 MB	user,runtime
 Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	d04b579250db	-	335.1 MB	user,current
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.16	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	bd44a6230581	-	659.9 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.1.6	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	bcfd828b0c47	-	457.0 MB	user,runtime

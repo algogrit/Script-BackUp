@@ -27,11 +27,11 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/stackprof-0.2.28
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/spoom-1.8.7/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/thor-1.5.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13412/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13412/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13412-universal-darwin/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13426/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13426/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13426-universal-darwin/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-cobertura-4.0.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.0.3/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.1.1/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubydex-0.3.0-arm64-darwin/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-prof-2.0.5/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/ruby-prof-2.0.5
@@ -48,7 +48,7 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-ast-1.50.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec_junit_formatter-0.6.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-sorbet-1.9.2/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13412/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13426/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-retry-0.6.2/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-github-3.0.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-3.13.2/lib
@@ -104,12 +104,12 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0/x86_64-linux
 ==> Homebrew Version
-6.0.18
+6.0.19
 ==> Linux
 Ubuntu 24.04.4 LTS (noble)
 ==> Cask Staging Location
 /home/linuxbrew/.linuxbrew/Caskroom
 ==> Cask Taps:
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7707 casks)
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7711 casks)
 Your system is ready to brew.
 85 kegs, 36,606 files, 1.9GB
