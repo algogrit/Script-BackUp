@@ -564,7 +564,7 @@ elixir
 elixirc
 elm
 emacs
-emacs-30.2
+emacs-31.1
 emacsclient
 enc_recon_frame_test
 enc2xs
@@ -3261,6 +3261,7 @@ with_nss
 with_pkcs11_common
 with_softhsm
 with_utimaco
+with_yubico
 witr
 wordlist2dawg
 write
