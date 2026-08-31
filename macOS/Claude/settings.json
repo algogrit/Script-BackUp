@@ -28,5 +28,6 @@
   "skipWorkflowUsageWarning": true,
   "theme": "dark",
   "editorMode": "normal",
-  "verbose": false
+  "verbose": false,
+  "advisorModel": "fable"
 }

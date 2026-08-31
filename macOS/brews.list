@@ -1,6 +1,7 @@
 abseil
 ack
 ada-url
+aider
 ant
 aom
 apache-serf
@@ -14,7 +15,6 @@ audiowaveform
 auto-editor
 autoconf
 autoenv
-automake
 avro-c
 aws-c-auth
 aws-c-cal
@@ -47,6 +47,7 @@ cjson
 cloc
 clojure
 cloudflared
+cmake
 cocoapods
 colordiff
 colortail
@@ -250,14 +251,12 @@ mas
 maven
 mbedtls@3
 md4c
+mdbook
 media-info
 merve
-meson
 metis
 mingw-w64
 mlt
-mlx
-mlx-c
 molten-vk
 mp3splt
 mpdecimal
@@ -282,6 +281,7 @@ npth
 nspr
 nss
 numpy
+ollama
 oniguruma
 onnx
 openblas
@@ -293,6 +293,7 @@ openjdk
 openjdk@17
 openjpeg
 openjph
+opensc
 openssl@3
 openssl@4
 openvino

@@ -7,19 +7,10 @@
 7za
 7zr
 aa
-aarch64-apple-darwin25-c++-16
-aarch64-apple-darwin25-g++-16
-aarch64-apple-darwin25-gcc-16
-aarch64-apple-darwin25-gcc-ar-16
-aarch64-apple-darwin25-gcc-nm-16
-aarch64-apple-darwin25-gcc-ranlib-16
-aarch64-apple-darwin25-gfortran-16
 ab
 ac
 accton
 ack
-aclocal
-aclocal-1.18
 actool
 adaparse
 adb
@@ -42,12 +33,14 @@ agentxtrap
 agvtool
 agy
 ahost
+aider
 airport
 alias
 ambiguous_words
 amt
 androiddeployqt
 androiddeployqt6
+androiddump
 androidtestrunner
 animate
 annotate
@@ -63,6 +56,7 @@ apfs_unlockfv
 apkanalyzer
 apktool
 app-sso
+appdb
 appleh13camerad
 appleh16camerad
 applesingle
@@ -107,8 +101,6 @@ auto-editor
 autoconf
 autoheader
 autom4te
-automake
-automake-1.18
 automationmodetool
 automator
 automount
@@ -142,6 +134,7 @@ aws_completer
 b2sum
 b64decode
 b64encode
+backup-codermana-to-nas
 baddbdir
 banner
 base32
@@ -229,13 +222,18 @@ calendar
 cameratopam
 cancel
 cap_mkdb
+capinfos
 captoinfo
-cargo-ndk
-cargo-ndk-env
-cargo-ndk-runner
-cargo-ndk-test
+captype
+cardos-tool
+cargo
+cargo-clippy
+cargo-fmt
+cargo-llvm-cov
+cargo-miri
 cat
 cc
+ccmake
 cct
 cd
 cdiff
@@ -263,6 +261,7 @@ chown
 chpass
 chroot
 chsh
+ciscodump
 cistopbm
 cjpeg
 cjxl
@@ -276,12 +275,14 @@ classifier_tester
 claude
 clean-diff
 clear
+clippy-driver
 clj
 cloc
 clojure
 cloudflared
 clusterdb
 clusterdb-18
+cmake
 cmp
 cmpdylib
 cmpfillin
@@ -293,6 +294,7 @@ code-tunnel
 codecctl
 codesign
 codesign_allocate
+codex
 col
 collect-recordings
 colordiff
@@ -326,6 +328,7 @@ corelist
 corelist5.34
 corepack
 cp
+cpack
 cpan
 cpan5.34
 cpio
@@ -349,6 +352,7 @@ crlutil
 cron
 crontab
 crypto_bench
+cryptoflex-tool
 cs2cs
 csfdiagnose
 csh
@@ -369,6 +373,7 @@ csvstack
 csvstat
 ct_run
 ctags
+ctest
 ctf_insert
 cu
 cups-config
@@ -467,6 +472,7 @@ devicectl
 devmodectl
 DevToolsSecurity
 df
+dftest
 dialyzer
 diff
 diff3
@@ -493,6 +499,7 @@ dltest
 dmc
 dmesg
 dnctl
+dnie-tool
 dns-sd
 dnsmasq
 docker
@@ -520,8 +527,10 @@ dsymutil
 dtplite
 dtrace
 dtruss
+dtrust-tool
 du
 dubdv
+dumpcap
 dumpsexp
 dvconnect
 dvd2concat
@@ -538,9 +547,12 @@ ecperf
 ecpg
 ecpg-18
 ed
+editcap
 editres
 edquota
+egk-tool
 egrep
+eidenv
 elixir
 elixirc
 elm
@@ -592,6 +604,7 @@ exrmetrics
 exrmultipart
 exrmultiview
 exrstdattr
+extcap
 eyapp
 eyapp5.34
 eyuvtoppm
@@ -656,7 +669,6 @@ flash
 flex
 flex++
 flutter
-flutter_rust_bridge_codegen
 fmt
 fnm
 fold
@@ -779,6 +791,7 @@ gi-compile-repository
 gi-decompile-typelib
 gi-inspect-typelib
 gid
+gids-tool
 gie
 gif2webp
 gifbuild
@@ -941,12 +954,11 @@ gnutls-cli
 gnutls-cli-debug
 gnutls-serv
 go
-gobind
 gobject-query
 god
 goenv
 gofmt
-gomobile
+goid-tool
 gouldtoppm
 gource
 gpaste
@@ -1133,10 +1145,12 @@ hwloc-calc
 hwloc-compress-dir
 hwloc-diff
 hwloc-distrib
+hwloc-gather-cpuid
 hwloc-info
 hwloc-ls
 hwloc-patch
 hwloc-ps
+hyperkit
 i686-w64-mingw32-addr2line
 i686-w64-mingw32-ar
 i686-w64-mingw32-as
@@ -1171,6 +1185,7 @@ i686-w64-mingw32-strip
 i686-w64-mingw32-widl
 i686-w64-mingw32-windmc
 i686-w64-mingw32-windres
+iasecc-tool
 ibtool
 ibv_devices
 ibv_devinfo
@@ -1205,6 +1220,7 @@ ideviceprovision
 idevicescreenshot
 idevicesetlocation
 idevicesyslog
+idl2wrs
 idle
 idle3
 idle3.12
@@ -1388,6 +1404,8 @@ latency
 launchctl
 launchd
 layerutil
+lbry-first
+lbrynet
 ld
 ldapadd
 ldapcompare
@@ -1540,6 +1558,7 @@ md2html
 md5
 md5sum
 mdatopbm
+mdbook
 mddiagnose
 mdfind
 mdiff
@@ -1557,8 +1576,8 @@ mencoder
 merge_unicharsets
 merge-all-source-plugins
 merge-with-subtitle
+mergecap
 mesg
-meson
 metaflac
 mftraining
 mg
@@ -1581,8 +1600,7 @@ mkfontscale
 mknod
 mkpassdb
 mktemp
-mlx.distributed_config
-mlx.launch
+mmdbresolve
 mnthome
 modelcatalogdump
 modelmanagerdump
@@ -1639,6 +1657,8 @@ msgmerge
 msgpre
 msgunfmt
 msguniq
+msidb
+msiexec
 mtree
 mtvtoppm
 mujs
@@ -1677,6 +1697,7 @@ net-snmp-cert
 net-snmp-config
 net-snmp-create-v3-user
 netbiosd
+netkey-tool
 netstat
 nettle-hash
 nettle-lfib-stream
@@ -1716,6 +1737,7 @@ nohup
 nologin
 nonspr10
 normalize.py
+notepad
 notifyd
 notifyutil
 nping
@@ -1750,6 +1772,7 @@ oid2name-18
 oidcalc
 ojph_compress
 ojph_expand
+ollama
 onig-config
 open
 opencode
@@ -1759,6 +1782,11 @@ opencv_version
 opencv_visualisation
 opencv_waldboost_detector
 opendiff
+openpgp-tool
+opensc-asn1
+opensc-explorer
+opensc-notify
+opensc-tool
 opensnoop
 openssl
 opj_compress
@@ -2102,6 +2130,7 @@ pip3
 pip3.12
 pip3.13
 pip3.14
+piv-tool
 pjtoppm
 pk11ectest
 pk11gcmtest
@@ -2110,6 +2139,11 @@ pk11mode
 pk12util
 pk1sign
 pkcs1-conv
+pkcs11-register
+pkcs11-tool
+pkcs15-crypt
+pkcs15-init
+pkcs15-tool
 pkg-config
 pkgbuild
 pkgconf
@@ -2461,6 +2495,8 @@ ragg2
 rahash2
 rails
 rake
+randpkt
+randpktdump
 ranlib
 rapatch2
 rarpd
@@ -2472,6 +2508,7 @@ rav1e
 ravc2
 raw-identify
 raw2tiff
+rawshark
 rawtextdump
 rawtopgm
 rawtoppm
@@ -2516,6 +2553,8 @@ reboot
 rec
 recode-sr-latin
 recurse-on
+regedit
+regsvr32
 regview
 reindexdb
 reindexdb-18
@@ -2523,6 +2562,7 @@ remtest
 rename-files
 render_hlg
 renice
+reordercap
 repairHomePermissions
 repquota
 reset
@@ -2542,6 +2582,7 @@ ristsrppasswd
 risttunnel
 rlatopam
 rletopnm
+rls
 rlwrap
 rm
 rmdir
@@ -2571,6 +2612,13 @@ ruby-build
 run_erl
 runant.pl
 runant.py
+rust-analyzer
+rust-gdb
+rust-gdbgui
+rust-lldb
+rustc
+rustdoc
+rustfmt
 rustup
 rvictl
 rview
@@ -2591,6 +2639,7 @@ sbigtopgm
 sc
 sc_auth
 sc_usage
+sc-hsm-tool
 scala
 scala-cli
 scalac
@@ -2657,6 +2706,7 @@ sha512sum
 shapeclustering
 shar
 sharing
+sharkd
 shasum
 shasum5.34
 shazam
@@ -2780,6 +2830,7 @@ ssh-copy-id-windows
 ssh-keygen
 ssh-keyscan
 sshd
+sshdump
 ssimulacra_main
 ssimulacra2
 ssltap
@@ -2874,6 +2925,7 @@ test-unit
 test-yaml
 test-yaml5.34
 text2image
+text2pcap
 texture_to_cube
 textutil
 tftp
@@ -2952,6 +3004,7 @@ truncate
 trust
 trustcachectl
 tset
+tshark
 tsig-keygen
 tsort
 tstclnt
@@ -2964,6 +3017,7 @@ uasysdiagnose
 uchardet
 ucs2any
 udp2udp
+udpdump
 ul
 ulimit
 umask
@@ -3105,6 +3159,7 @@ weakpass_edit
 webpinfo
 webpmux
 webpng
+westcos-tool
 wfsctl
 wget
 what
@@ -3126,10 +3181,22 @@ whisper-vad-speech-segments
 who
 whoami
 whois
+wifidump
+wine
+wineboot
+winecfg
+wineconsole
+winedbg
+winefile
+winehelp
+winemine
+winepath
+wineserver
 winetricks
 winicontopam
 winicontoppm
 WirelessRadioManagerd
+Wireshark
 wish
 wish8.5
 wish9.0
@@ -3153,6 +3220,13 @@ wxrc-3.2
 X
 x264
 x265
+x86_64-apple-darwin25-c++-16
+x86_64-apple-darwin25-g++-16
+x86_64-apple-darwin25-gcc-16
+x86_64-apple-darwin25-gcc-ar-16
+x86_64-apple-darwin25-gcc-nm-16
+x86_64-apple-darwin25-gcc-ranlib-16
+x86_64-apple-darwin25-gfortran-16
 x86_64-w64-mingw32-addr2line
 x86_64-w64-mingw32-ar
 x86_64-w64-mingw32-as

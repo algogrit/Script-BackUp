@@ -1,0 +1,14 @@
+{
+  "colorScheme": "dark",
+  "enableTelemetry": false,
+  "permissions": {
+    "allow": [
+      "command(ls)",
+      "command(cat)",
+      "command(goenv)",
+      "command(echo)",
+      "command(rg)",
+      "command(which)"
+    ]
+  }
+}
