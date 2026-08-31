@@ -14,6 +14,7 @@ audiowaveform
 auto-editor
 autoconf
 autoenv
+automake
 avro-c
 aws-c-auth
 aws-c-cal
@@ -31,7 +32,6 @@ bash
 bash-completion
 bat
 bdw-gc
-binaryen
 boost
 brotli
 c-ares
@@ -252,9 +252,9 @@ mbedtls@3
 md4c
 media-info
 merve
+meson
 metis
 mingw-w64
-mistral-vibe
 mlt
 mlx
 mlx-c
@@ -282,7 +282,6 @@ npth
 nspr
 nss
 numpy
-ollama
 oniguruma
 onnx
 openblas
@@ -294,10 +293,8 @@ openjdk
 openjdk@17
 openjpeg
 openjph
-opensc
 openssl@3
 openssl@4
-opentofu
 openvino
 opus
 opusfile

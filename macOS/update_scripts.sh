@@ -224,9 +224,13 @@ unalias rm
 rm bash_scripts/aliases/.*_secret
 
 # Refreshing Ollama models
-echo "\033[1;31mRefreshing ollama models...\033[0m"
-ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
-ollama list | awk 'NR>1 {sum += $3} END {print "Total Size: " sum " GB"}'
+if command -v ollama >/dev/null 2>&1; then
+  echo "\033[1;31mRefreshing ollama models...\033[0m"
+  ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollama pull
+  ollama list | awk 'NR>1 {sum += $3} END {print "Total Size: " sum " GB"}'
+else
+  echo "\033[1;33mSkipping ollama (not installed).\033[0m"
+fi
 
 echo "\033[1;31m/etc/hosts...\033[0m"
 compare-hosts-files

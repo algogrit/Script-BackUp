@@ -71,7 +71,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 2056 1290 </string>
+	<string>0 43 250 316 0 0 1728 1084 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -79,7 +79,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 35 2056 1255 0 0 2056 1290 </string>
+	<string>0 330 1728 754 0 0 1728 1084 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 0 2560 1410 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -761,7 +761,7 @@
 				<key>Green Component</key>
 				<real>0.92047786712646484</real>
 				<key>Red Component</key>
-				<real>0.7486259937286377</real>
+				<real>0.74862593412399292</real>
 			</dict>
 			<key>Cursor Guide Color (Light)</key>
 			<dict>
@@ -774,7 +774,7 @@
 				<key>Green Component</key>
 				<real>0.92047786712646484</real>
 				<key>Red Component</key>
-				<real>0.7486259937286377</real>
+				<real>0.74862593412399292</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -909,26 +909,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70932406187057495</real>
+				<real>0.7093239426612854</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
 				<real>0.35333043336868286</real>
 				<key>Red Component</key>
-				<real>0.1451396644115448</real>
+				<real>0.14513972401618958</real>
 			</dict>
 			<key>Link Color (Light)</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70932406187057495</real>
+				<real>0.7093239426612854</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
 				<real>0.35333043336868286</real>
 				<key>Red Component</key>
-				<real>0.1451396644115448</real>
+				<real>0.14513972401618958</real>
 			</dict>
 			<key>Match Background Color (Dark)</key>
 			<dict>
@@ -941,7 +941,7 @@
 				<key>Green Component</key>
 				<real>0.98600882291793823</real>
 				<key>Red Component</key>
-				<real>0.99697154760360718</real>
+				<real>0.99697142839431763</real>
 			</dict>
 			<key>Match Background Color (Light)</key>
 			<dict>
@@ -954,7 +954,7 @@
 				<key>Green Component</key>
 				<real>0.98600882291793823</real>
 				<key>Red Component</key>
-				<real>0.99697154760360718</real>
+				<real>0.99697142839431763</real>
 			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
@@ -1752,7 +1752,7 @@
 				<key>Green Component</key>
 				<real>0.92047786712646484</real>
 				<key>Red Component</key>
-				<real>0.7486259937286377</real>
+				<real>0.74862593412399292</real>
 			</dict>
 			<key>Cursor Guide Color (Light)</key>
 			<dict>
@@ -1765,7 +1765,7 @@
 				<key>Green Component</key>
 				<real>0.92047786712646484</real>
 				<key>Red Component</key>
-				<real>0.7486259937286377</real>
+				<real>0.74862593412399292</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -1918,26 +1918,26 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70932406187057495</real>
+				<real>0.7093239426612854</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
 				<real>0.35333043336868286</real>
 				<key>Red Component</key>
-				<real>0.1451396644115448</real>
+				<real>0.14513972401618958</real>
 			</dict>
 			<key>Link Color (Light)</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.70932406187057495</real>
+				<real>0.7093239426612854</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
 				<real>0.35333043336868286</real>
 				<key>Red Component</key>
-				<real>0.1451396644115448</real>
+				<real>0.14513972401618958</real>
 			</dict>
 			<key>Match Background Color (Dark)</key>
 			<dict>
@@ -1950,7 +1950,7 @@
 				<key>Green Component</key>
 				<real>0.98600882291793823</real>
 				<key>Red Component</key>
-				<real>0.99697154760360718</real>
+				<real>0.99697142839431763</real>
 			</dict>
 			<key>Match Background Color (Light)</key>
 			<dict>
@@ -1963,7 +1963,7 @@
 				<key>Green Component</key>
 				<real>0.98600882291793823</real>
 				<key>Red Component</key>
-				<real>0.99697154760360718</real>
+				<real>0.99697142839431763</real>
 			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
@@ -3242,10 +3242,6 @@
 	<true/>
 	<key>NoSyncBrowserUpsell_selection</key>
 	<integer>1</integer>
-	<key>NoSyncClearAllBroadcast</key>
-	<true/>
-	<key>NoSyncClearAllBroadcast_selection</key>
-	<integer>0</integer>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -3256,22 +3252,22 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1440}}</string>
+		<string>{{0, 0}, {1728, 1117}}</string>
 		<key>topLeft</key>
-		<string>{670, 747}</string>
+		<string>{402, 798}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
-	<string>Version 26.5.2 (Build 25F84)</string>
+	<string>Version 26.6.2 (Build 25G83)</string>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>27</integer>
+	<integer>51</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -4281,7 +4277,7 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{0, 1290}</string>
+		<string>{0, 1084}</string>
 		<key>1</key>
 		<string>{0, 1410}</string>
 		<key>2</key>
@@ -4383,7 +4379,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-08-30T06:09:57Z</date>
+	<date>2026-08-31T03:31:41Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -4392,8 +4388,6 @@
 	<false/>
 	<key>SoundForEsc</key>
 	<false/>
-	<key>TabStyleWithAutomaticOption</key>
-	<integer>4</integer>
 	<key>UIElementRequiresHotkeys</key>
 	<true/>
 	<key>VisualIndicatorForEsc</key>
