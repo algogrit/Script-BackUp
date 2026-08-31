@@ -113,7 +113,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-6.0.19
+6.0.20
 ==> macOS
 26.5.2
 ==> SIP
@@ -123,7 +123,7 @@ Enabled
 ==> Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7716 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7711 casks)
 
 Warning: Some installed kegs have no formulae!
 This means they were either deleted or installed manually.
@@ -132,4 +132,4 @@ This means they were either deleted or installed manually.
 You should find replacements for the following formulae:
   sentry-cli
 
-435 kegs, 245,372 files, 12.3GB
+435 kegs, 245,139 files, 12.3GB
