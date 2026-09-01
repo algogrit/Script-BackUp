@@ -71,7 +71,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 1792 1090 </string>
+	<string>0 43 250 316 0 0 2056 1290 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -79,9 +79,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 2048 1250 0 0 2048 1250 </string>
+	<string>0 35 2056 1255 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 2560 1410 0 0 2560 1410 </string>
+	<string>107 -146 2056 1255 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-1 23 2056 1262 0 0 2056 1285 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -3242,6 +3242,10 @@
 	<true/>
 	<key>NoSyncBrowserUpsell_selection</key>
 	<integer>1</integer>
+	<key>NoSyncClearAllBroadcast</key>
+	<true/>
+	<key>NoSyncClearAllBroadcast_selection</key>
+	<integer>0</integer>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -3252,22 +3256,22 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1792, 1120}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{434, 801}</string>
+		<string>{670, 747}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
-	<string>Version 26.6.2 (Build 25G83)</string>
+	<string>Version 26.5.2 (Build 25F84)</string>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>41</integer>
+	<integer>27</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -4277,9 +4281,9 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{-0, 1250}</string>
+		<string>{0, 1290}</string>
 		<key>1</key>
-		<string>{0, 1410}</string>
+		<string>{107, 1109}</string>
 		<key>2</key>
 		<string>{-1, 1285}</string>
 		<key>3</key>
@@ -4379,7 +4383,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-08-31T05:55:57Z</date>
+	<date>2026-08-31T06:09:58Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
