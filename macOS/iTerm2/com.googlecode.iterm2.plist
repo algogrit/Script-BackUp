@@ -79,7 +79,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 35 2056 1255 0 0 2056 1290 </string>
+	<string>0 36 2560 1374 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>107 -146 2056 1255 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3265,13 +3265,13 @@
 	<key>NoSyncInstallationId</key>
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
-	<string>Version 26.5.2 (Build 25F84)</string>
+	<string>Version 26.6.2 (Build 25G83)</string>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>27</integer>
+	<integer>28</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -4281,7 +4281,7 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{0, 1290}</string>
+		<string>{0, 1410}</string>
 		<key>1</key>
 		<string>{107, 1109}</string>
 		<key>2</key>
@@ -4383,7 +4383,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-08-31T06:09:58Z</date>
+	<date>2026-09-03T12:53:11Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>

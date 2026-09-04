@@ -39,6 +39,7 @@ ag
 agentxtrap
 agvtool
 agy
+agy.1788510900961220000.old
 ahost
 airport
 alias
@@ -1248,10 +1249,8 @@ img2pdf
 img2pdf-gui
 img2txt
 img2webp
-imgcat
 imgcmp
 imginfo
-imgls
 imgtoppm
 imlib2_bumpmap
 imlib2_colorspace
@@ -1312,21 +1311,6 @@ iRATBW.mlmodelc
 irb
 ismindex
 isql
-it2api
-it2attention
-it2cat
-it2check
-it2copy
-it2dl
-it2getvar
-it2git
-it2profile
-it2setcolor
-it2setkeylabel
-it2ssh
-it2tip
-it2ul
-it2universion
 iusql
 jar
 jarsigner
@@ -1523,7 +1507,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1787165859
+luajit-2.1.1788460057
 luit
 lwp-download
 lwp-download5.34
@@ -1606,6 +1590,7 @@ merge-all-source-plugins
 merge-with-subtitle
 mergecap
 mesg
+meson
 metaflac
 mftraining
 mg
