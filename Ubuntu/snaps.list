@@ -1,12 +1,12 @@
 Name                       Version                         Rev    Tracking         Publisher      Notes
 bare                       1.0                             5      latest/stable    canonical**    base
-code                       110a328e                        258    latest/stable    vscode**       classic
+code                       a44adf7f                        261    latest/stable    vscode**       classic
 core20                     20260410                        2866   latest/stable    canonical**    base
 core22                     20260410                        2437   latest/stable    canonical**    base
 core24                     20260410                        1643   latest/stable    canonical**    base
 core26                     20260629                        462    latest/stable    canonical**    base
 ffmpeg-2404                7.1.5                           149    latest/stable    snapcrafters*  -
-firefox                    154.0-1                         8763   latest/stable/…  mozilla**      -
+firefox                    155.0.1-1                       8863   latest/stable/…  mozilla**      -
 firmware-updater           0+git.5645b80                   226    1/stable/…       canonical**    -
 gnome-42-2204              0+git.4982e7b-sdk0+git.69b626a  263    latest/stable/…  canonical**    -
 gnome-46-2404              0+git.b31ceab-sdk0+git.f0723a0  164    latest/stable    canonical**    -
@@ -15,6 +15,6 @@ gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/
 mesa-2404                  25.2.8-snap288                  1839   latest/stable    canonical**    -
 rustup                     1.29.0                          1504   latest/stable    canonical**    classic
 snap-store                 0+git.8334e2e4                  1390   2/stable/…       canonical**    -
-snapd                      2.76.2                          27710  latest/stable    canonical**    snapd
+snapd                      2.76.3                          27738  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             391    latest/stable/…  canonical**    -
-thunderbird                154.0-2                         1228   latest/stable/…  canonical**    -
+thunderbird                155.0-1                         1240   latest/stable/…  canonical**    -

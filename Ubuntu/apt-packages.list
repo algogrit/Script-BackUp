@@ -80,6 +80,7 @@ fonts-ubuntu
 fonts-unifont
 fonts-wqy-zenhei
 foomatic-db-compressed-ppds
+freerdp3-x11
 fwupd
 fwupd-signed
 gamemode
@@ -327,6 +328,7 @@ rfkill
 rhythmbox
 rsync
 rsyslog
+safenetauthenticationclient-core
 screen
 sdparm
 seahorse
@@ -377,6 +379,7 @@ vim
 vim-tiny
 virt-manager
 w3m
+wdtokentool-proxkey
 webkit2gtk-driver
 wget
 whiptail

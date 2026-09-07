@@ -1911,6 +1911,7 @@ oem-getlogs
 offcputime-bpfcc
 offwaketime-bpfcc
 ollama
+om-token-pcscd
 on_ac_power
 onig-config
 oomctl
@@ -1986,6 +1987,7 @@ pcre2-config
 pcre2grep
 pcre2test
 pcscd
+pcscd_wd
 pcsc-spy
 pdata_tools
 pdb3
@@ -2136,6 +2138,7 @@ projsync
 proton
 proton-viewer
 prove
+ProxKey_DiagnoseTool
 prtstat
 ps
 ps2ascii
@@ -2457,6 +2460,7 @@ rustup.rust-lldb
 rview
 rvim
 rygel
+SACSrv
 sadf
 saned
 sane-find-scanner
@@ -3051,6 +3055,7 @@ wasm-shell
 wasm-split
 watch
 watchgnupg
+Watchsafe_ProxKey
 wayland-scanner
 wc
 wdctl
@@ -3309,6 +3314,7 @@ xev
 xeyes
 xfd
 xfontsel
+xfreerdp3
 xfsdist-bpfcc
 xfsdist.bt
 xfsslower-bpfcc
