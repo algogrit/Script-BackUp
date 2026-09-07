@@ -233,7 +233,15 @@ cp ~/Script-BackUp/macOS/Codex/config.toml ~/.codex/ 2>/dev/null || true
 cp ~/Script-BackUp/macOS/Codex/AGENTS.md ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/rules ~/.codex/ 2>/dev/null || true
 cp -r ~/Script-BackUp/macOS/Codex/prompts ~/.codex/ 2>/dev/null || true
-cp -r ~/Script-BackUp/macOS/Codex/skills ~/.codex/ 2>/dev/null || true
+# BEGIN Codex skills restore
+if [ -d "$HOME/Script-BackUp/macOS/Codex/skills" ]; then
+  if ! mkdir -p "$HOME/.codex/skills" ||
+     ! rsync -a --exclude='/.system' "$HOME/Script-BackUp/macOS/Codex/skills/" "$HOME/.codex/skills/"; then
+    echo "Failed to restore Codex skills." >&2
+    exit 1
+  fi
+fi
+# END Codex skills restore
 
 echo "\033[1;31mRestoring Gemini / Antigravity CLI settings...\033[0m"
 mkdir -p ~/.gemini/config ~/.gemini/antigravity-cli

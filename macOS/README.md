@@ -53,3 +53,5 @@ These are the manual bootstrap steps; the rest (Rosetta, Xcode license, casks, A
   - Displays (when one is connected)
   - Bluetooth
   - Volume
+
+Codex personal skills are mirrored from `~/.codex/skills/` into `Codex/skills/` using `rsync`. Backup removes stale skills and files when the source exists; an empty source clears the personal-skill snapshot, while a missing source preserves the previous snapshot across the backup rebuild. Restore merges the snapshot into `~/.codex/skills/` without deleting other installed skills. Both directions exclude `.system`, preserve file permissions and symbolic links, and stop with an error if skill syncing fails. Plugin caches remain excluded.

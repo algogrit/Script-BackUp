@@ -19,7 +19,19 @@ echo "\033[1;31mSetting permission prior to deletion...("'!'")\033[0m"
 chmod 666 root/etc/irbrc
 
 echo "\033[1;31mRemoving files...\033[0m"
+# Preserve the previous skill snapshot until its source can be synced.
+codex_skills_snapshot_tmp=
+if [ -d Codex/skills ]; then
+  codex_skills_snapshot_tmp=$(mktemp -d "${TMPDIR:-/tmp}/codex-skills.XXXXXX")
+  cp -R Codex/skills "$codex_skills_snapshot_tmp/skills"
+fi
 rm -vr *
+
+if [ -n "$codex_skills_snapshot_tmp" ]; then
+  mkdir -p Codex
+  mv "$codex_skills_snapshot_tmp/skills" Codex/skills
+  rmdir "$codex_skills_snapshot_tmp"
+fi
 
 echo "\033[1;31mRestoring non-system files...\033[0m"
 cp /tmp/mini_update.sh .
@@ -148,10 +160,15 @@ cp ~/.codex/config.toml Codex/ 2>/dev/null || true
 cp ~/.codex/AGENTS.md Codex/ 2>/dev/null || true
 cp -r ~/.codex/rules Codex/ 2>/dev/null || true
 cp -r ~/.codex/prompts Codex/ 2>/dev/null || true
-if [ -d ~/.codex/skills ]; then
-  mkdir -p Codex/skills
-  find ~/.codex/skills -mindepth 1 -maxdepth 1 ! -name .system -exec cp -r {} Codex/skills/ \; 2>/dev/null || true
+# BEGIN Codex skills backup
+if [ -d "$HOME/.codex/skills" ]; then
+  if ! mkdir -p Codex/skills ||
+     ! rsync -a --delete --exclude='/.system' "$HOME/.codex/skills/" Codex/skills/; then
+    echo "Failed to back up Codex skills." >&2
+    exit 1
+  fi
 fi
+# END Codex skills backup
 
 # Copy Gemini / Antigravity CLI settings (never the oauth token, installation id,
 # or per-machine config.json)

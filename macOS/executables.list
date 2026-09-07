@@ -39,7 +39,6 @@ ag
 agentxtrap
 agvtool
 agy
-agy.1788510900961220000.old
 ahost
 airport
 alias
@@ -2377,13 +2376,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-36.0.0
+protoc-36.1.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-36.0.0
-protoc-gen-upb-36.0.0
+protoc-gen-upb_minitable-36.1.0
+protoc-gen-upb-36.1.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-36.0.0
+protoc-gen-upbdefs-36.1.0
 prove
 prove5.34
 ps
@@ -2917,6 +2916,7 @@ tab2space
 tabs
 tac
 tail
+tailscale
 tailspin
 talk
 tar
