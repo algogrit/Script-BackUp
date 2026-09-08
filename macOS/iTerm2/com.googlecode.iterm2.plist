@@ -38,6 +38,8 @@
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409</string>
+	<key>EnableAPIServer</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideFromDockAndAppSwitcher</key>
@@ -71,19 +73,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 1792 1090 </string>
+	<string>0 43 250 316 0 0 2056 1290 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>3198 175 400 135 1920 -249 2056 1285 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 762 620 398 0 0 2560 1415 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>60 207 592 594 0 0 2048 1250 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 35 2048 1215 0 0 2048 1250 </string>
+	<string>0 36 2560 1374 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 2560 1410 0 0 2560 1410 </string>
+	<string>107 -146 2056 1255 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-1 23 2056 1262 0 0 2056 1285 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -3244,6 +3244,10 @@
 	<true/>
 	<key>NoSyncBrowserUpsell_selection</key>
 	<integer>1</integer>
+	<key>NoSyncClearAllBroadcast</key>
+	<true/>
+	<key>NoSyncClearAllBroadcast_selection</key>
+	<integer>0</integer>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -3254,9 +3258,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1792, 1120}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{434, 801}</string>
+		<string>{670, 747}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
@@ -3269,7 +3273,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>46</integer>
+	<integer>28</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -4279,9 +4283,9 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{-0, 1250}</string>
-		<key>1</key>
 		<string>{0, 1410}</string>
+		<key>1</key>
+		<string>{107, 1109}</string>
 		<key>2</key>
 		<string>{-1, 1285}</string>
 		<key>3</key>
@@ -4381,7 +4385,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-09-08T03:48:45Z</date>
+	<date>2026-09-07T10:09:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -4394,8 +4398,6 @@
 	<integer>4</integer>
 	<key>UIElementRequiresHotkeys</key>
 	<true/>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1788804480</real>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>

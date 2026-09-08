@@ -11,7 +11,8 @@
 
 CODEX_BIN="$(fnm exec --using=default which codex)"
 alias codex="$CODEX_BIN --model gpt-6-astra --sandbox workspace-write --ask-for-approval on-request"
-alias codex-easy="$CODEX_BIN --model gpt-5.6-luna --sandbox workspace-write --ask-for-approval on-request"
+# alias codex-easy="$CODEX_BIN --model gpt-5.6-luna --sandbox workspace-write --ask-for-approval on-request"
+# alias codex-hard="$CODEX_BIN --model gpt-5.6-sol --sandbox workspace-write --ask-for-approval on-request"
 alias codex-commit="$CODEX_BIN --model gpt-5.6-luna \"review and commit\" --sandbox workspace-write --ask-for-approval on-request"
 
 alias claude='claude --enable-auto-mode --permission-mode=plan --model=claude-opus-4-8 --effort=medium'
