@@ -1,4 +1,4 @@
-model = "gpt-6-astra"
+model = "gpt-5.6-terra"
 model_reasoning_effort = "medium"
 notify = ["/Users/gaurav/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
 service_tier = "default"
@@ -66,12 +66,6 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
-trust_level = "trusted"
-
-[projects."/Users/gaurav/Developer/CMTech/lead-ops"]
-trust_level = "trusted"
-
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
@@ -79,7 +73,6 @@ single_key_approval = false
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
-gpt-6-astra = 4
 
 [ui]
 single_key_approval = false
@@ -89,7 +82,3 @@ appearanceTheme = "system"
 
 [notice]
 hide_rate_limit_model_nudge = true
-
-[mcp_servers.woodpecker]
-url = "http://192.168.0.109:8099/mcp"
-bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"
