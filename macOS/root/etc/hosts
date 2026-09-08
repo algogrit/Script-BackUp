@@ -22,6 +22,7 @@
 192.168.0.108 om.local
 192.168.0.109 mayur.local
 192.168.20.100 tegra.local
+192.168.40.10 listmonk.local
 192.168.40.10 codermana-dev.local
 192.168.30.10 codermana-prod.local
 192.168.50.10 uttara.local
