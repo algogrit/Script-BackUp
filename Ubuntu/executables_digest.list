@@ -144,8 +144,8 @@ e57fb820ff9e44bfbe02c55db24b7279  /home/linuxbrew/.linuxbrew/sbin/agetty
 e57fb820ff9e44bfbe02c55db24b7279  /home/linuxbrew/.linuxbrew/sbin/agetty
 42eef39488c74b31ea710f45ee9a64e8  /usr/sbin/agetty
 42eef39488c74b31ea710f45ee9a64e8  /sbin/agetty
-ceb3ce67c0fbc10565f82c8d16ef3b9d  /home/linuxbrew/.linuxbrew/bin/agy
-ceb3ce67c0fbc10565f82c8d16ef3b9d  /home/linuxbrew/.linuxbrew/bin/agy
+e5d0e809742140b76c7777dccb1ae2b8  /home/linuxbrew/.linuxbrew/bin/agy
+e5d0e809742140b76c7777dccb1ae2b8  /home/linuxbrew/.linuxbrew/bin/agy
 766d5329f41e29ed3cf57cf1894b66a6  /usr/bin/airscan-discover
 766d5329f41e29ed3cf57cf1894b66a6  /bin/airscan-discover
 1ce27c8487cedac93ea5ddc2cf5e4762  /usr/sbin/alsa
@@ -5796,6 +5796,10 @@ d2f7b07208e6e578e8ebd8e8b5ee0767  /usr/bin/tac
 d2f7b07208e6e578e8ebd8e8b5ee0767  /bin/tac
 ccdc10fe7b620d3489bbd66dc09ad916  /usr/bin/tail
 ccdc10fe7b620d3489bbd66dc09ad916  /bin/tail
+b486414fb0705d01c8933a529449e31c  /usr/bin/tailscale
+b486414fb0705d01c8933a529449e31c  /bin/tailscale
+bb03e13bf8aa52d0853c326544b3b678  /usr/sbin/tailscaled
+bb03e13bf8aa52d0853c326544b3b678  /sbin/tailscaled
 9911c4b512ac47001084f758abd7d483  /usr/bin/tap
 9911c4b512ac47001084f758abd7d483  /bin/tap
 7f15ffb17b9285f7f60a138f1cdb3b4b  /usr/bin/tape

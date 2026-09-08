@@ -2716,6 +2716,8 @@ systemd-umount
 tabs
 tac
 tail
+tailscale
+tailscaled
 tap
 tape
 tapestat

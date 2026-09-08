@@ -348,6 +348,7 @@ sshpass
 subversion
 sudo
 systemd-oomd
+tailscale
 tar
 thunderbird
 thunderbird-locale-en

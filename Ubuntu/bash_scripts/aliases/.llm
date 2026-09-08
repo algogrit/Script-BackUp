@@ -12,9 +12,7 @@ alias ollama-refresh-all="ollama list | awk 'NR>1 {print $1}' | xargs -n 1 ollam
 NODENV_GLOBAL="$(nodenv global)"
 CODEX_BIN="$(NODENV_VERSION="$NODENV_GLOBAL" nodenv which codex)"
 
-alias codex="$CODEX_BIN --model gpt-5.6-terra --sandbox workspace-write --ask-for-approval on-request"
-alias codex-easy="$CODEX_BIN --model gpt-5.6-luna --sandbox workspace-write --ask-for-approval on-request"
-alias codex-hard="$CODEX_BIN --model gpt-5.6-sol --sandbox workspace-write --ask-for-approval on-request"
+alias codex="$CODEX_BIN --model gpt-6-astra --sandbox workspace-write --ask-for-approval on-request"
 alias codex-commit="$CODEX_BIN --model gpt-5.6-luna \"review and commit\" --sandbox workspace-write --ask-for-approval on-request"
 
 alias claude='claude --enable-auto-mode --permission-mode=plan --model=claude-opus-4-8 --effort=medium'

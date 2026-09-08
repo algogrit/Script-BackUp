@@ -1,0 +1,11 @@
+interface:
+  display_name: "Fix Pipeline Failures"
+  short_description: "Debug CI failures and flakes; rerun only the failed step"
+  default_prompt: "Use $fix-pipeline-failures to diagnose and fix the failed Woodpecker step, inspect its history for flakes, and manually rerun only that step until it passes."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "woodpecker"
+      description: "Woodpecker access for pipeline status, configuration, logs, and history"
+policy:
+  allow_implicit_invocation: true
