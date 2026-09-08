@@ -1,6 +1,7 @@
 abseil
 ack
 ada-url
+aklomp-base64
 ant
 aom
 apache-serf
@@ -14,6 +15,7 @@ audiowaveform
 auto-editor
 autoconf
 autoenv
+automake
 avro-c
 aws-c-auth
 aws-c-cal
@@ -31,7 +33,6 @@ bash
 bash-completion
 bat
 bdw-gc
-binaryen
 boost
 brotli
 c-ares
@@ -43,10 +44,12 @@ ceres-solver
 certifi
 cffi
 cgns
+chafa
 cjson
 cloc
 clojure
 cloudflared
+cmake
 cocoapods
 colordiff
 colortail
@@ -60,6 +63,7 @@ deno
 direnv
 dnsmasq
 docker-compose
+docutils
 double-conversion
 eigen
 elixir
@@ -74,6 +78,7 @@ ffmpeg
 ffmpeg@6
 fftw
 flac
+flatbuffers
 fmt
 fnm
 fontconfig
@@ -103,6 +108,7 @@ gnu-sed
 gnupg
 gnutls
 go
+gobject-introspection
 goenv
 gource
 gpgme
@@ -235,6 +241,7 @@ little-cms2
 llhttp
 llmfit
 llvm
+llvm@22
 loc
 lpeg
 lua
@@ -247,18 +254,17 @@ m4
 mad
 make
 mas
+maturin
 maven
 mbedtls@3
 md4c
+mdbook
 media-info
 merve
 meson
 metis
 mingw-w64
-mistral-vibe
 mlt
-mlx
-mlx-c
 molten-vk
 mp3splt
 mpdecimal
@@ -275,6 +281,7 @@ netcdf
 netpbm
 nettle
 nginx
+nim
 ninja
 nlohmann-json
 nmap
@@ -298,7 +305,6 @@ openjph
 opensc
 openssl@3
 openssl@4
-opentofu
 openvino
 opus
 opusfile
@@ -324,18 +330,22 @@ pstree
 pugixml
 pv
 pwgen
+pybind11
 pycparser
 pydantic
 pyenv
 pyenv-virtualenv
 pyenv-virtualenvwrapper
+python-setuptools
 python@3.12
+python@3.13
 python@3.14
 qpdf
 qrencode
 qt5compat
 qtbase
 qtdeclarative
+qtlanguageserver
 qtshadertools
 qtsvg
 r
@@ -350,6 +360,7 @@ rsync
 rubberband
 ruby
 ruby-build
+rust
 rustup
 s2n
 scala
@@ -379,6 +390,7 @@ telnet
 temporal
 terraform
 tesseract
+texinfo
 the_silver_searcher
 theora
 tig

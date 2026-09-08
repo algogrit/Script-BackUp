@@ -306,7 +306,9 @@ function mask_url(line,   pre, m, post, user) {
 }
 
 function mask_token(line, t,   i) {
-  return line
+  i = index(line, t)
+  if (!i) return line
+  return substr(line, 1, i - 1) substr(t, 1, 4) "…" substr(line, i + length(t))
 }
 
 function mask_tail(line, val,   i) {

@@ -66,10 +66,10 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
+[projects."/Users/gaurav/Developer/CMTech/video-editor"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Developer/CMTech/lead-ops"]
+[projects."/Users/gaurav/git-hooks"]
 trust_level = "trusted"
 
 [tui]
@@ -79,7 +79,7 @@ single_key_approval = false
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
-gpt-6-astra = 4
+gpt-6-astra = 3
 
 [ui]
 single_key_approval = false
