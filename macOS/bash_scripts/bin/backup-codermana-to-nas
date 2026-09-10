@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+
+# One-way, versioned backup of the Zoho WorkDrive CoderMana folder to the NAS.
+# The command deliberately runs only when the NAS SMB service is reachable.
+
+set -uo pipefail
+
+readonly SOURCE="/Users/gaurav/Library/CloudStorage/ZohoWorkDriveTrueSync-CoderManaTechnologiesPrivateLimited/General/CoderMana"
+readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+readonly NAS_ALIASES="$SCRIPT_DIR/../aliases/.nas"
+readonly LOCK_DIR="/tmp/backup-codermana-to-nas.lock"
+# macOS ships openrsync, which does not honor receiver-side protect filters
+# with --delete-excluded. Use the installed full rsync implementation instead.
+readonly RSYNC_BIN="/usr/local/bin/rsync"
+
+dry_run=false
+case "${1:-}" in
+  "") ;;
+  --dry-run) dry_run=true ;;
+  *)
+    echo "Usage: $(basename "$0") [--dry-run]" >&2
+    exit 64
+    ;;
+esac
+
+log() {
+  printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"
+}
+
+if [[ ! -r "$SOURCE" || ! -d "$SOURCE" ]]; then
+  log "ERROR: source folder is unavailable: $SOURCE"
+  exit 1
+fi
+
+if [[ ! -x "$RSYNC_BIN" ]]; then
+  log "ERROR: required rsync executable is unavailable: $RSYNC_BIN"
+  exit 1
+fi
+
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  lock_pid="$(cat "$LOCK_DIR/pid" 2>/dev/null || true)"
+  if [[ "$lock_pid" =~ ^[0-9]+$ ]] && kill -0 "$lock_pid" 2>/dev/null; then
+    log "Skipping backup: another run is already in progress (PID $lock_pid)."
+    exit 0
+  fi
+
+  # A cancelled or crashed process can leave this directory behind. It is safe
+  # to recover only after confirming that its recorded PID is no longer alive.
+  rm -f "$LOCK_DIR/pid"
+  rmdir "$LOCK_DIR" 2>/dev/null || {
+    log "ERROR: could not recover stale backup lock."
+    exit 1
+  }
+  mkdir "$LOCK_DIR"
+fi
+printf '%s\n' "$$" > "$LOCK_DIR/pid"
+trap 'rm -f "$LOCK_DIR/pid"; rmdir "$LOCK_DIR"' EXIT
+
+# shellcheck source=../aliases/.nas
+source "$NAS_ALIASES"
+if ! /usr/bin/nc -z -G 3 "$NAS_HOST" 445; then
+  log "Skipping backup: NAS SMB service is unreachable at $NAS_HOST:445."
+  exit 0
+fi
+
+if ! ensure-codermana-drive-mounted; then
+  log "ERROR: could not mount CoderMana Drive."
+  exit 1
+fi
+
+if [[ ! -d "$NAS_CODERMANA_DRIVE" ]] || ! mount | /usr/bin/grep -Fq " on $NAS_CODERMANA_DRIVE ("; then
+  log "ERROR: CoderMana Drive is not mounted at $NAS_CODERMANA_DRIVE."
+  exit 1
+fi
+
+timestamp="$(date '+%Y%m%d-%H%M%S')"
+archive_dir="$NAS_CODERMANA_DRIVE/.codermana-backup-archive/$timestamp"
+if [[ "$dry_run" == false ]]; then
+  mkdir -p "$archive_dir"
+fi
+
+rsync_args=(
+  # Do not use macOS rsync -E: the SMB-backed destination rejects its
+  # extended-attribute protocol extension. Archive mode keeps normal metadata.
+  -a
+  --delete
+  --delete-excluded
+  --backup
+  "--backup-dir=$archive_dir"
+  --itemize-changes
+  --exclude '.DS_Store'
+  --exclude '*.gdocx'
+  --exclude '*.gsheetx'
+  # Synology Drive's local working files are not user content. Preserve either
+  # side's copies if they already exist, while never transferring them.
+  --exclude '.SynologyWorkingDirectory/***'
+  --filter 'P /.SynologyWorkingDirectory'
+  --filter 'P /.SynologyWorkingDirectory/***'
+  # These are NAS-managed directories and must not be affected by mirroring.
+  --filter 'P /#recycle'
+  --filter 'P /#recycle/***'
+  --filter 'P /.codermana-backup-archive'
+  --filter 'P /.codermana-backup-archive/***'
+)
+if [[ "$dry_run" == true ]]; then
+  rsync_args+=(--dry-run)
+fi
+
+log "Starting CoderMana backup to $NAS_CODERMANA_DRIVE."
+if "$RSYNC_BIN" "${rsync_args[@]}" "$SOURCE/" "$NAS_CODERMANA_DRIVE/"; then
+  if [[ "$dry_run" == true ]]; then
+    log "CoderMana backup dry run completed; no files were changed."
+  else
+    log "CoderMana backup completed. Archived prior files in $archive_dir."
+  fi
+else
+  status=$?
+  log "ERROR: CoderMana backup failed with rsync status $status."
+  exit "$status"
+fi
