@@ -10,7 +10,7 @@ firefox                    155.0.1-1                       8863   latest/stable/
 firmware-updater           0+git.5645b80                   226    1/stable/…       canonical**    -
 gnome-42-2204              0+git.4982e7b-sdk0+git.69b626a  263    latest/stable/…  canonical**    -
 gnome-46-2404              0+git.b31ceab-sdk0+git.f0723a0  164    latest/stable    canonical**    -
-go                         1.26.7                          11262  latest/stable    canonical**    classic
+go                         1.27.1                          11295  latest/stable    canonical**    classic
 gtk-common-themes          0.1-81-g442e511                 1535   latest/stable/…  canonical**    -
 mesa-2404                  25.2.8-snap288                  1839   latest/stable    canonical**    -
 rustup                     1.29.0                          1504   latest/stable    canonical**    classic

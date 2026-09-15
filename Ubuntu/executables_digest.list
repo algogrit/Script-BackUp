@@ -5034,8 +5034,8 @@ edaa60a005d811b3c575791a922d2538  /home/om/.rbenv/plugins/ruby-build/bin/rbenv-u
 9f449d169de65a41eb010424c3d601a7  /bin/rdma
 6099c5194aee013bac975799862358b4  /usr/sbin/rdmaucma-bpfcc
 6099c5194aee013bac975799862358b4  /sbin/rdmaucma-bpfcc
-4f674f91fca7a3e5d471102a504f0d2e  /usr/sbin/rdmsr
-4f674f91fca7a3e5d471102a504f0d2e  /sbin/rdmsr
+7a7b827674c983be81dc9180a6ade9b5  /usr/sbin/rdmsr
+7a7b827674c983be81dc9180a6ade9b5  /sbin/rdmsr
 8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/rdoc
 75c930f6fb0c02308dbd51521e6634a7  /usr/bin/rds-ctl
 75c930f6fb0c02308dbd51521e6634a7  /bin/rds-ctl
@@ -6664,8 +6664,8 @@ d4f5b6a705bd7ec8f5a7c70991a6921b  /bin/wpctl
 959cfe754bff97eb34a079cccbe3bdc6  /sbin/writeback.bt
 b51c1ab88d86267f86ab5e08e5916329  /home/linuxbrew/.linuxbrew/bin/wrjpgcom
 b51c1ab88d86267f86ab5e08e5916329  /home/linuxbrew/.linuxbrew/bin/wrjpgcom
-01b844b07d803f097804703e57488b12  /usr/sbin/wrmsr
-01b844b07d803f097804703e57488b12  /sbin/wrmsr
+b029936c1888c07fddbc2a11ab0dd93f  /usr/sbin/wrmsr
+b029936c1888c07fddbc2a11ab0dd93f  /sbin/wrmsr
 6286af1422536d8e936b14409315bbcf  /usr/bin/wscat
 6286af1422536d8e936b14409315bbcf  /bin/wscat
 7624a8c0f5eab72efa8e822183149340  /usr/bin/www-browser
