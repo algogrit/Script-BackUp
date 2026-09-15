@@ -38,6 +38,8 @@
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409</string>
+	<key>EnableAPIServer</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideFromDockAndAppSwitcher</key>
@@ -71,19 +73,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 43 250 316 0 0 1792 1090 </string>
+	<string>0 43 250 316 0 0 2056 1290 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>202 462 735 388 0 0 2560 1415 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>1272 407 400 139 0 0 2048 1250 </string>
+	<string>3198 175 400 135 1920 -249 2056 1285 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>714 639 620 398 0 0 2048 1250 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>60 207 592 594 0 0 2048 1250 </string>
+	<string>970 759 620 398 0 0 2560 1410 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 1250 2048 754 0 0 2048 1250 </string>
+	<string>0 0 2056 1290 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 0 2560 1410 0 0 2560 1410 </string>
+	<string>107 -146 2056 1255 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>-1 23 2056 1262 0 0 2056 1285 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -3236,15 +3236,18 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.7.0</string>
-		<string>3.6.11</string>
 		<string>3.6.5</string>
 		<string>3.6.8</string>
+		<string>3.6.11</string>
 	</array>
 	<key>NoSyncBrowserUpsell</key>
 	<true/>
 	<key>NoSyncBrowserUpsell_selection</key>
 	<integer>1</integer>
+	<key>NoSyncClearAllBroadcast</key>
+	<true/>
+	<key>NoSyncClearAllBroadcast_selection</key>
+	<integer>0</integer>
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -3255,9 +3258,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1792, 1120}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{434, 801}</string>
+		<string>{670, 747}</string>
 	</dict>
 	<key>NoSyncIgnoreSystemWindowRestoration</key>
 	<true/>
@@ -3265,16 +3268,12 @@
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
 	<string>Version 26.6.2 (Build 25G83)</string>
-	<key>NoSyncLastShutdownWasClean</key>
-	<false/>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>48</integer>
-	<key>NoSyncMigratedDynamicProfileTagToFlag</key>
-	<true/>
+	<integer>28</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
@@ -3283,11 +3282,6 @@
 	<true/>
 	<key>NoSyncPermissionsHelper_Accessibility</key>
 	<string>3.6.5</string>
-	<key>NoSyncPersistentRateLimitedUpdates</key>
-	<dict>
-		<key>CheckForUpdatedUv</key>
-		<real>810808980.69464898</real>
-	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -3393,14 +3387,6 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>isLocalhost</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>parentSession</string>
@@ -3452,14 +3438,6 @@
 				<true/>
 				<key>name</key>
 				<string>bellCount</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>foregroundJobAncestors</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3579,14 +3557,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>deepestJob</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>tmuxClientName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3612,14 +3582,6 @@
 				<true/>
 				<key>name</key>
 				<string>selectionLength</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>isBroadcastSource</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4078,14 +4040,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>title</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>titleOverride</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4300,22 +4254,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>effectiveTheme</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>appBundlePath</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4328,6 +4266,14 @@
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>effectiveTheme</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>NoSyncRemoveDeprecatedKeyMappings</key>
@@ -4337,9 +4283,9 @@
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
 		<key>0</key>
-		<string>{0, 2004}</string>
+		<string>{-0, 1290}</string>
 		<key>1</key>
-		<string>{0, 1410}</string>
+		<string>{107, 1109}</string>
 		<key>2</key>
 		<string>{-1, 1285}</string>
 		<key>3</key>
@@ -4439,11 +4385,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-09-10T08:32:16Z</date>
+	<date>2026-09-15T06:05:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
-	<integer>2469704597</integer>
+	<integer>2311729649</integer>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SoundForEsc</key>
@@ -4452,14 +4398,12 @@
 	<integer>4</integer>
 	<key>UIElementRequiresHotkeys</key>
 	<true/>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1788804480</real>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.7.0</string>
+	<string>3.6.11</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
