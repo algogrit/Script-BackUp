@@ -174,7 +174,7 @@ git clone https://github.com/microsoft/vcpkg "$HOME/vcpkg"
 
 echo "\033[1;31mRestoring git customizations...\033[0m"
 cp ~/Script-BackUp/macOS/Custom-Git-Commands/* ~/Custom-Git-Commands/
-cp ~/Script-BackUp/macOS/git-hooks/* ~/git-hooks/
+cp -r ~/Script-BackUp/macOS/git-hooks/. ~/git-hooks/
 
 echo "\033[1;31mSetting up exercism...\033[0m"
 mkdir -p ~/Developer/exercism ~/.config/exercism/
