@@ -1,7 +1,7 @@
 {
   "allowNonWorkspaceAccess": true,
   "colorScheme": "dark",
-  "model": "Gemini 3.1 Pro (High)",
+  "model": "Gemini 3.8 Flash (High)",
   "permissions": {
     "allow": [
       "command(git status)",
@@ -24,7 +24,9 @@
       "command(make test)",
       "command(git mv)",
       "read_url(github.com)",
-      "command(adb)"
+      "command(adb)",
+      "command(hostname)",
+      "command(head)"
     ]
   },
   "trustedWorkspaces": [

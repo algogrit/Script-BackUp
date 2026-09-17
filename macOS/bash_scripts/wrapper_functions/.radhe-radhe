@@ -1,0 +1,11 @@
+function radhe-radhe () { 
+    echo "Shutting down iOS device...";
+    idevicediagnostics shutdown;
+    echo "Shutting down Android devices...";
+    for dev in $(adb devices | grep -v "List" | awk '{print $1}'); do
+        echo "Shutting down $dev...";
+        adb -s "$dev" shell reboot -p;
+    done;
+    echo "Shutting down Mac...";
+    sudo shutdown -h now;
+}
