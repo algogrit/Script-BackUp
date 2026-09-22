@@ -27,6 +27,8 @@ exec 1>&2
 HOOK_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 # shellcheck source=lib/common.sh
 . "$HOOK_DIR/lib/common.sh" || { echo "pre-push: ERROR: cannot load lib/common.sh"; exit 2; }
+# shellcheck source=lib/env.sh
+. "$HOOK_DIR/lib/env.sh" || { echo "pre-push: ERROR: cannot load lib/env.sh"; exit 2; }
 
 HOOK_NAME="pre-push"
 HOOK_SUBJECT="the commits being pushed"
@@ -47,10 +49,12 @@ still contains it."
 
 MAX_COMMITS=1000
 
-command -v git-lfs >/dev/null 2>&1 || {
-  printf "\n%s\n\n" "This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting the 'pre-push' file in the hooks directory (set by 'core.hookspath'; usually '.git/hooks')."
-  exit 2
-}
+if ! command -v git-lfs >/dev/null 2>&1; then
+  if repo_uses_lfs; then
+    printf "\n%s\n\n" "This repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook by deleting the 'pre-push' file in the hooks directory (set by 'core.hookspath'; usually '.git/hooks')."
+    exit 2
+  fi
+fi
 
 # Stdin is readable exactly once, and Git LFS needs the same ref lines we do.
 refs=$(cat)
@@ -95,8 +99,10 @@ fi
 
 # Clean, or waved through: carry on to Git LFS with its stdin intact and let its
 # exit code stand.
-if [ -n "$refs" ]; then
-  printf '%s\n' "$refs" | git lfs pre-push "$@"
-else
-  git lfs pre-push "$@" < /dev/null
+if command -v git-lfs >/dev/null 2>&1; then
+  if [ -n "$refs" ]; then
+    printf '%s\n' "$refs" | git lfs pre-push "$@"
+  else
+    git lfs pre-push "$@" < /dev/null
+  fi
 fi

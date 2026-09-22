@@ -1,0 +1,31 @@
+{
+  "colorScheme": "dark",
+  "enableTelemetry": false,
+  "permissions": {
+    "allow": [
+      "command(ls)",
+      "command(cat)",
+      "command(goenv)",
+      "command(echo)",
+      "command(rg)",
+      "command(which)",
+      "command(git config)",
+      "command(brew config)",
+      "command(grep)",
+      "command(brew --env)",
+      "command(head)",
+      "command(brew cat)",
+      "command(git status)",
+      "command(git diff)",
+      "command(diff)",
+      "command(brew ruby)",
+      "command(brew list)",
+      "command(brew outdated)",
+      "command(cp)",
+      "command(brew fetch)",
+      "command(brew upgrade)",
+      "command(helm)",
+      "command(brew services)"
+    ]
+  }
+}
