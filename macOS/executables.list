@@ -2434,13 +2434,13 @@ proj
 projinfo
 projsync
 protoc
-protoc-36.1.0
+protoc-36.2.0
 protoc-gen-upb
 protoc-gen-upb_minitable
-protoc-gen-upb_minitable-36.1.0
-protoc-gen-upb-36.1.0
+protoc-gen-upb_minitable-36.2.0
+protoc-gen-upb-36.2.0
 protoc-gen-upbdefs
-protoc-gen-upbdefs-36.1.0
+protoc-gen-upbdefs-36.2.0
 prove
 prove5.34
 ps
@@ -3238,7 +3238,6 @@ wasm-opt
 wasm-reduce
 wasm-shell
 wasm-split
-wasm2c
 wasm2es6js
 wasm2js
 wasmdeployqt
