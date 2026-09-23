@@ -1,5 +1,5 @@
 model = "gpt-6-astra"
-model_reasoning_effort = "medium"
+model_reasoning_effort = "xhigh"
 notify = ["/Users/gaurav/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
 service_tier = "default"
 
@@ -66,20 +66,24 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/Ramayan"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/Developer/CMTech/video-editor"]
+[projects."/Users/gaurav/Library/CloudStorage/GoogleDrive-gauravagarwal0705@gmail.com/My Drive/Finance"]
 trust_level = "trusted"
 
-[projects."/Users/gaurav/git-hooks"]
+[projects."/Users/gaurav/Developer/CMTech/lead-ops"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/video-editor"]
 trust_level = "trusted"
 
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
+screen_reader_detection_done = true
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
-gpt-6-astra = 3
+gpt-6-astra = 4
 
 [ui]
 single_key_approval = false

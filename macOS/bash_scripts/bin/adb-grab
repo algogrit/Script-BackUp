@@ -1,0 +1,125 @@
+#!/usr/bin/env bash
+
+DOWNLOAD_DIR="$HOME/Downloads"
+PATTERN=""
+CAPTURE=0
+AUTO_YES=0
+DELETE_ONLY=0
+
+show_help() {
+  cat << EOF
+Usage: adb-grab [OPTIONS] [FILE_PATTERN]
+
+Capture a new screenshot, pull existing images, or delete files on a connected ADB device.
+
+Options:
+  -c, --capture       Take a new screenshot of the device display right now.
+  -D, --delete-only   Delete the latest matching file without pulling it first.
+  -y, --yes           Skip confirmation prompts (auto-confirm actions).
+  -d, --dir DIR       Destination folder on computer (default: ~/Downloads).
+  -h, --help          Display this help message and exit.
+
+Arguments:
+  FILE_PATTERN        Path/glob on device to look for (default: /sdcard/Download/*).
+
+Examples:
+  adb-grab -c                               Take a live screenshot and pull/delete it.
+  adb-grab -D "/sdcard/Download/mirror*"    Delete the latest matching file without pulling.
+  adb-grab -D -y                            Delete the latest image in Downloads with no prompts.
+  adb-grab -d ~/Desktop "/sdcard/DCIM/*"    Pull latest photo to Desktop.
+EOF
+}
+
+# Parse Command-Line Arguments
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -c|--capture)
+      CAPTURE=1
+      shift
+      ;;
+    -D|--delete-only)
+      DELETE_ONLY=1
+      shift
+      ;;
+    -y|--yes)
+      AUTO_YES=1
+      shift
+      ;;
+    -d|--dir)
+      DOWNLOAD_DIR="$2"
+      shift 2
+      ;;
+    -h|--help)
+      show_help
+      exit 0
+      ;;
+    -*)
+      echo "Unknown option: $1"
+      show_help
+      exit 1
+      ;;
+    *)
+      PATTERN="$1"
+      shift
+      ;;
+  esac
+done
+
+TARGET_FILE=""
+
+# Handle Live Screenshot
+if [ $CAPTURE -eq 1 ]; then
+  TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
+  TARGET_FILE="/sdcard/Download/screenshot_${TIMESTAMP}.png"
+
+  echo "--> Taking live screenshot on device..."
+  if ! adb shell screencap -p "$TARGET_FILE"; then
+    echo "Error: Failed to capture screenshot."
+    exit 1
+  fi
+# Handle Existing File Lookup
+else
+  [ -z "$PATTERN" ] && PATTERN="/sdcard/Download/*"
+
+  echo "--> Searching for latest image matching: $PATTERN"
+  TARGET_FILE=$(adb shell "ls -t $PATTERN 2>/dev/null | grep -E '\.(png|jpg|jpeg|webp)$' | head -n 1" | tr -d '\r')
+
+  if [ -z "$TARGET_FILE" ]; then
+    echo "Error: No matching image files found."
+    exit 1
+  fi
+fi
+
+echo "Target image: $TARGET_FILE"
+
+# Confirmation Helper
+confirm() {
+  [ $AUTO_YES -eq 1 ] && return 0
+  read -p "$1 (y/N): " -n 1 -r
+  echo
+  [[ $REPLY =~ ^[Yy]$ ]]
+}
+
+# Pull Stage (Skipped if --delete-only is set)
+if [ $DELETE_ONLY -eq 0 ]; then
+  if confirm "Pull file to $DOWNLOAD_DIR?"; then
+    mkdir -p "$DOWNLOAD_DIR"
+    if adb pull "$TARGET_FILE" "$DOWNLOAD_DIR/"; then
+      echo "Successfully pulled to $DOWNLOAD_DIR"
+    else
+      echo "Failed to pull file. Aborting delete."
+      exit 1
+    fi
+  else
+    echo "Skipped pull."
+    exit 0
+  fi
+fi
+
+# Delete Stage
+if confirm "Delete file from device?"; then
+  adb shell rm "$TARGET_FILE"
+  echo "Deleted $TARGET_FILE from device."
+else
+  echo "File retained on device."
+fi
