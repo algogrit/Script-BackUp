@@ -4,19 +4,19 @@ LC_ALL="en_US.UTF-8"
 PATH="/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/shared:/usr/bin:/bin:/usr/sbin:/sbin"
 SHELL="/bin/bash"
 ==> $LOAD_PATHS
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bundler-4.0.16/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/reline-0.6.3/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/rdoc-7.0.4/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/rake-13.3.1/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/msgpack-1.8.4/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/irb-1.16.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/fiddle-1.1.8/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/debug-1.11.1/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/gems/bootsnap-1.26.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/msgpack-1.8.4
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/fiddle-1.1.8
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/debug-1.11.1
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/bootsnap-1.26.0
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bundler-4.0.20/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/reline-0.6.3/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/rdoc-7.0.4/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/rake-13.3.1/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/msgpack-1.8.5/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/irb-1.16.0/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/fiddle-1.1.8/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/debug-1.11.1/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/bootsnap-1.26.0/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/msgpack-1.8.5
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/fiddle-1.1.8
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/debug-1.11.1
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/x86_64-linux/4.0.0-static/bootsnap-1.26.0
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/yard-sorbet-0.9.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/yard-0.9.45/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/vernier-1.11.0/lib
@@ -26,29 +26,29 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/stackprof-0.2.28/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/stackprof-0.2.28
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-cobertura-4.0.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.1.1/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.2.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubydex-0.4.1-arm64-darwin/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-prof-2.0.5/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/ruby-prof-2.0.5
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-macho-6.0.0/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-macho-7.0.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-lsp-0.26.11/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-sorbet-0.16.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/spoom-1.8.7/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/thor-1.5.0/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13480/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13480/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13480-universal-darwin/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13497/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13497/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13497-universal-darwin/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-rspec-3.10.2/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-performance-1.27.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-md-2.0.4/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-1.90.0/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-1.91.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/unicode-display_width-3.2.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/unicode-emoji-4.2.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-progressbar-1.13.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-ast-1.50.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec_junit_formatter-0.6.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-sorbet-1.9.2/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13480/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13497/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-retry-0.6.2/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-github-3.0.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-3.13.2/lib
@@ -63,7 +63,7 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/tsort-0.2.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rainbow-3.1.1/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/plist-3.7.2/lib
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/patchelf-1.6.2/lib
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/patchelf-1.7.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/parser-3.3.12.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/racc-1.8.1
@@ -98,18 +98,18 @@ SHELL="/bin/bash"
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/base64-0.3.0/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ast-2.4.3/lib
 /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/vendor_ruby/4.0.0
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/vendor_ruby/4.0.0/x86_64-linux
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/vendor_ruby
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/4.0.0
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.6_2/lib/ruby/4.0.0/x86_64-linux
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby/4.0.0
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby/4.0.0/x86_64-linux
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0/x86_64-linux
 ==> Homebrew Version
-7.0.1
+7.0.6
 ==> Linux
 Ubuntu 24.04.5 LTS (noble)
 ==> Cask Staging Location
 /home/linuxbrew/.linuxbrew/Caskroom
 ==> Cask Taps:
-/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7723 casks)
+/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-cask (7749 casks)
 Your system is ready to brew.
-85 kegs, 36,649 files, 1.9GB
+85 kegs, 36,791 files, 1.9GB
