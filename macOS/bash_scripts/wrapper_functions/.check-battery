@@ -1,3 +1,0 @@
-function check-battery-dhruvtara {
-  ssh -t dhruvtara "pmset -g batt"
-}

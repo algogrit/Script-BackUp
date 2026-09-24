@@ -82,7 +82,13 @@
       "command(ssh dhruvtara 'cd /Users/gaurav/CI/codermana/infra \u0026\u0026 git status')",
       "command(ssh dhruvtara 'cd /Users/gaurav/CI/codermana/infra \u0026\u0026 . scripts/lib/root-env.sh \u0026\u0026 load_root_env . \u0026\u0026 CONFIRM=novel-signer:prod:store-assets STORE_SUBMISSIONS_ROOT=/Users/gaurav/CI/codermana/releases/prod/store-submissions/579-e62b5d9 make mobile-store-upload-ios-assets PRODUCT=novel-signer ENV=prod SCOPE=all VERSION=26.0919.580')",
       "command(stat)",
-      "command(git -C ~/bash_scripts status)"
+      "command(git -C ~/bash_scripts status)",
+      "command(npm test)",
+      "command(make verify-frontend-tests)",
+      "command(make verify-frontend-types)",
+      "command(wc)",
+      "command(make verify-frontend)",
+      "command(make verify)"
     ]
   },
   "trustedWorkspaces": [

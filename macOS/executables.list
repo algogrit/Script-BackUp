@@ -263,6 +263,7 @@ cgnsupdate
 chat
 check_arm_indent.sh
 check_commit_msg.sh
+check-battery-dhruvtara
 checkgid
 chflags
 chfn
@@ -1683,6 +1684,11 @@ montage
 moose-outdated
 moose-outdated5.34
 more
+mosh
+mosh-client
+mosh-server
+moshi
+moshi-hook
 mount
 mount_9p
 mount_acfs

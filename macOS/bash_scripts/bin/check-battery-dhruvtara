@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ssh -t dhruvtara "pmset -g batt"

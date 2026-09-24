@@ -85,9 +85,6 @@ screen_reader_detection_done = true
 "gpt-5.6-sol" = 4
 gpt-6-astra = 4
 
-[ui]
-single_key_approval = false
-
 [desktop]
 appearanceTheme = "system"
 
@@ -97,3 +94,6 @@ hide_rate_limit_model_nudge = true
 [mcp_servers.woodpecker]
 url = "http://192.168.0.109:8099/mcp"
 bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"
+
+[features]
+hooks = true
