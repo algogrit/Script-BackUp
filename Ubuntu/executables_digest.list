@@ -2925,8 +2925,8 @@ ca30a3d4755749199fd73a61a4a84df6  /sbin/killsnoop.bt
 7d11c71f7f95aee7f4f34943c115f04b  /bin/kmod
 b1623be287e948da9e3d5c1b57872989  /usr/bin/kmodsign
 b1623be287e948da9e3d5c1b57872989  /bin/kmodsign
-c34ffe40389f0bef9ff8ef4332417377  /home/linuxbrew/.linuxbrew/bin/kubectl
-c34ffe40389f0bef9ff8ef4332417377  /home/linuxbrew/.linuxbrew/bin/kubectl
+28f6f5d678130683571a96c7c2b56029  /home/linuxbrew/.linuxbrew/bin/kubectl
+28f6f5d678130683571a96c7c2b56029  /home/linuxbrew/.linuxbrew/bin/kubectl
 d40d92167a2841e0531cd6060b53dea1  /usr/bin/kvm
 d40d92167a2841e0531cd6060b53dea1  /bin/kvm
 81d2956c01679bba273dd6a50974f86f  /usr/sbin/kvmexit-bpfcc
@@ -4136,7 +4136,7 @@ d9e81b9f1fc910ce4aa8012018200ff7  /bin/od
 6cd678e2708485c35d4f81140ef173d9  /sbin/offcputime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /usr/sbin/offwaketime-bpfcc
 ca3d94c52f260cdd9155fbf5f1bf7150  /sbin/offwaketime-bpfcc
-c007c767f16efec27ef1195c545af543  /usr/local/bin/ollama
+96eb2aca6323cdbc334900a2e922e1af  /usr/local/bin/ollama
 a78506b99e6a87851c9d17e37452ed4d  /usr/local/bin/om-token-pcscd
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/sbin/on_ac_power
 a61bbe1aa5ef2bb60ddaa58dfad38eb4  /usr/bin/on_ac_power
@@ -5189,8 +5189,8 @@ ee808864fde3db8c6c4c54a345ea8a6b  /bin/rtla
 421ba259c2187f2ac16a90a23ec23fb3  /usr/bin/rtstat
 421ba259c2187f2ac16a90a23ec23fb3  /bin/rtstat
 8759c0811feac6555571d47667fa546c  /home/om/.rbenv/shims/ruby
-ee739a5a6d32375e0306fffe63b0ebb1  /home/om/.rbenv/plugins/ruby-build/bin/ruby-build
-ee739a5a6d32375e0306fffe63b0ebb1  /home/om/.rbenv/plugins/ruby-build/bin/ruby-build
+d869d023d731b7c1c2f694377d4103c7  /home/om/.rbenv/plugins/ruby-build/bin/ruby-build
+d869d023d731b7c1c2f694377d4103c7  /home/om/.rbenv/plugins/ruby-build/bin/ruby-build
 6217411f9b4fcbb9261dae9241e6eef3  /usr/sbin/rubycalls-bpfcc
 6217411f9b4fcbb9261dae9241e6eef3  /sbin/rubycalls-bpfcc
 dd9eb99e386574c09ed920f44d76b07a  /usr/sbin/rubyflow-bpfcc
@@ -5796,10 +5796,10 @@ d2f7b07208e6e578e8ebd8e8b5ee0767  /usr/bin/tac
 d2f7b07208e6e578e8ebd8e8b5ee0767  /bin/tac
 ccdc10fe7b620d3489bbd66dc09ad916  /usr/bin/tail
 ccdc10fe7b620d3489bbd66dc09ad916  /bin/tail
-b486414fb0705d01c8933a529449e31c  /usr/bin/tailscale
-b486414fb0705d01c8933a529449e31c  /bin/tailscale
-bb03e13bf8aa52d0853c326544b3b678  /usr/sbin/tailscaled
-bb03e13bf8aa52d0853c326544b3b678  /sbin/tailscaled
+6a52fb0398ea70081178da91d4dfc9d6  /usr/bin/tailscale
+6a52fb0398ea70081178da91d4dfc9d6  /bin/tailscale
+9c753b41483302edebdc87ef89f428c1  /usr/sbin/tailscaled
+9c753b41483302edebdc87ef89f428c1  /sbin/tailscaled
 9911c4b512ac47001084f758abd7d483  /usr/bin/tap
 9911c4b512ac47001084f758abd7d483  /bin/tap
 7f15ffb17b9285f7f60a138f1cdb3b4b  /usr/bin/tape
