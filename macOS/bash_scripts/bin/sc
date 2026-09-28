@@ -8,17 +8,22 @@ Commands:
   sc list         List all screenshots
   sc open         Open the latest screenshot
   sc cp [-p]      Copy image (or path with -p) to clipboard
-  sc mv <dest>    Move latest screenshot to <dest> (creates dirs as needed)
+  sc mv <dest>    Move latest screenshot (defaults to screenshots/<today>/<dest>)
   sc clean [-n]   Remove all screenshots except the latest
   sc nuke  [-n]   Remove ALL screenshots
-  sc auto on|off|status            Per-dir auto date-prefix for `sc mv`
-  sc sync [-n] [--to <host>] [--remote-home <path>]
-                                   Push ./screenshots to the mirrored remote dir (rsync)
-  sc sync config <host> <remote-home>   Set/show the default sync target
+  sc auto on|off|status            Per-dir auto date-prefix (default: on)
+  sc sync [-n] [--to <host>] [--remote-home <path> | --remote-dir <path>]
+                                   Push ./screenshots to a remote project (rsync)
+  sc sync config                  Show project mapping and global fallback
+  sc sync config <host> <remote-home>   Set the global home-mirroring fallback
+  sc sync config <host> --remote-dir <path>   Map this local project to a remote project
 """
 
 import argparse
+import json
 import os
+import posixpath
+import shlex
 import shutil
 import subprocess
 import sys
@@ -31,7 +36,8 @@ PWD = os.environ.get("PWD", os.getcwd())  # logical cwd, matches bash $PWD
 SCREENSHOT_DIR = os.path.join(HOME, "Desktop")
 
 # Auto date-prefix settings (used by `sc mv` when active for the current dir)
-CONFIG_FILE = os.environ.get("SC_CONFIG_FILE", os.path.join(HOME, ".config/sc/config"))  # one enabled dir per line
+# Legacy plain paths mean ON; "off\t/absolute/path" entries mean OFF.
+CONFIG_FILE = os.environ.get("SC_CONFIG_FILE", os.path.join(HOME, ".config/sc/config"))
 AUTO_BASE_DIR = "screenshots"   # base dir (relative to cwd) for auto-prefixed moves
 AUTO_DATE_FMT = "%Y-%m-%d"      # date subdir format
 
@@ -40,8 +46,9 @@ SYNC_CONFIG_FILE = os.environ.get("SC_SYNC_CONFIG_FILE", os.path.join(HOME, ".co
 # Per-host remote-home cache for `sc sync --to`, one "host=/abs/home" per line. Kept out of
 # SYNC_CONFIG_FILE because `sc sync config` rewrites that file wholesale.
 SYNC_HOMES_FILE = os.environ.get("SC_SYNC_HOMES_FILE", os.path.join(HOME, ".config/sc/sync-homes"))
+SYNC_PROJECTS_FILE = os.environ.get("SC_SYNC_PROJECTS_FILE", os.path.join(HOME, ".config/sc/sync-projects.json"))
 
-# Global flags, populated by parse_globals() before dispatch.
+# Global flags, populated by main() before dispatch.
 COPY_PATH = False
 DRY_RUN = False
 
@@ -92,21 +99,44 @@ def copy_to_clipboard(file):
         copy_image(file)
 
 
-def auto_match_dir():
-    """The registered ancestor dir enabling auto-prefix for the current cwd, or None.
+def is_within(path, directory):
+    """Match a directory or descendant without matching sibling name prefixes."""
+    return path == directory or path.startswith(directory.rstrip("/") + "/")
 
-    Matches the cwd itself or any ancestor. Ignores SC_AUTO_PREFIX.
-    """
+
+def nearest_setting(settings):
+    """Return the closest configured ancestor and its value, or (None, None)."""
+    matches = [directory for directory in settings if is_within(PWD, directory)]
+    if not matches:
+        return None, None
+    directory = max(matches, key=len)
+    return directory, settings[directory]
+
+
+def load_auto_settings():
+    settings = {}
     if not os.path.isfile(CONFIG_FILE):
-        return None
+        return settings
     with open(CONFIG_FILE) as fh:
         for line in fh:
-            d = line.rstrip("\n")
-            if not d:
-                continue
-            if PWD == d or PWD.startswith(d + "/"):
-                return d
-    return None
+            directory = line.rstrip("\n")
+            enabled = not directory.startswith("off\t")
+            if not enabled:
+                directory = directory[4:]
+            if directory.startswith("/"):
+                settings[os.path.normpath(directory)] = enabled
+    return settings
+
+
+def auto_state():
+    """Return the effective ON/OFF setting and its source; default to ON."""
+    if "SC_AUTO_PREFIX" in os.environ:
+        value = os.environ["SC_AUTO_PREFIX"]
+        return value == "1", f"forced by SC_AUTO_PREFIX={value}"
+    directory, enabled = nearest_setting(load_auto_settings())
+    if directory is not None:
+        return enabled, f"directory setting: {short(directory)}"
+    return True, "default"
 
 
 def auto_active():
@@ -114,9 +144,34 @@ def auto_active():
 
     SC_AUTO_PREFIX (if set) overrides the registry: '1' = on, anything else = off.
     """
-    if "SC_AUTO_PREFIX" in os.environ:
-        return os.environ["SC_AUTO_PREFIX"] == "1"
-    return auto_match_dir() is not None
+    return auto_state()[0]
+
+
+def load_project_settings():
+    if not os.path.isfile(SYNC_PROJECTS_FILE):
+        return {}
+    with open(SYNC_PROJECTS_FILE) as fh:
+        settings = json.load(fh)
+    if not isinstance(settings, dict):
+        raise ValueError(f"Invalid project mappings in {short(SYNC_PROJECTS_FILE)}")
+    for directory, target in settings.items():
+        if (not directory.startswith("/") or not isinstance(target, dict)
+                or not isinstance(target.get("host"), str) or not target["host"]
+                or not isinstance(target.get("remote_dir"), str)
+                or not target["remote_dir"].startswith("/")):
+            raise ValueError(f"Invalid project mapping for {directory!r}")
+    return settings
+
+
+def project_remote_dir(directory, target):
+    relative = os.path.relpath(PWD, directory)
+    if relative == ".":
+        return target["remote_dir"]
+    return posixpath.join(target["remote_dir"], relative)
+
+
+def ensure_config_dir(path):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
 
 
 def load_sync_config():
@@ -156,7 +211,7 @@ def save_home_cache(host, path):
     cache = load_home_cache()
     cache[host] = path
     try:
-        os.makedirs(os.path.dirname(SYNC_HOMES_FILE), exist_ok=True)
+        ensure_config_dir(SYNC_HOMES_FILE)
         with open(SYNC_HOMES_FILE, "w") as fh:
             for k in sorted(cache):
                 fh.write(f"{k}={cache[k]}\n")
@@ -229,11 +284,15 @@ def cmd_mv(dest):
     if not file:
         print("No screenshots found.")
         return 1
-    # Auto date-prefix: when active for this dir, prepend screenshots/<today>/ to plain
-    # relative names. Skip absolute paths and ones already under AUTO_BASE_DIR/.
+    # Ignore redundant leading ./ without changing the meaning of other paths.
+    while dest.startswith("./"):
+        dest = dest[2:]
+    dest = dest or "."
+    # Absolute, tilde, and existing screenshots destinations are explicit.
     if (auto_active()
             and not dest.startswith("/")
             and not dest.startswith("~")
+            and dest != AUTO_BASE_DIR
             and not dest.startswith(AUTO_BASE_DIR + "/")):
         dest = f"{AUTO_BASE_DIR}/{datetime.now().strftime(AUTO_DATE_FMT)}/{dest}"
     # Resolve destination: if no .png extension, treat as directory and keep original filename
@@ -256,154 +315,175 @@ def cmd_mv(dest):
 
 
 def cmd_auto(sub):
-    if sub == "on":
-        try:
-            os.makedirs(os.path.dirname(CONFIG_FILE), exist_ok=True)
-        except OSError:
-            print("Failed to create config dir.")
-            return 1
-        existing = []
-        if os.path.isfile(CONFIG_FILE):
-            with open(CONFIG_FILE) as fh:
-                existing = [ln.rstrip("\n") for ln in fh]
-        if PWD in existing:
-            print(f"Auto date-prefix: already ON for {short(PWD)}")
-        else:
-            with open(CONFIG_FILE, "a") as fh:
-                fh.write(PWD + "\n")
-            print(f"Auto date-prefix: ON for {short(PWD)}")
-        return 0
-
-    if sub == "off":
-        lines = []
-        if os.path.isfile(CONFIG_FILE):
-            with open(CONFIG_FILE) as fh:
-                lines = [ln.rstrip("\n") for ln in fh]
-        if PWD in lines:
-            kept = [ln for ln in lines if ln != PWD]
-            with open(CONFIG_FILE, "w") as fh:
-                for ln in kept:
-                    fh.write(ln + "\n")
-            print(f"Auto date-prefix: OFF for {short(PWD)}")
-        else:
-            print(f"Auto date-prefix: not enabled for {short(PWD)}")
-        ancestor = auto_match_dir()
-        if ancestor:
-            print(f"Note: still active here via enabled ancestor {short(ancestor)}")
+    if sub in ("on", "off"):
+        settings = load_auto_settings()
+        if DRY_RUN:
+            print(f"Would set auto date-prefix: {sub.upper()} for {short(PWD)}")
+            return 0
+        settings[PWD] = sub == "on"
+        ensure_config_dir(CONFIG_FILE)
+        with open(CONFIG_FILE, "w") as fh:
+            for directory, enabled in sorted(settings.items()):
+                fh.write(("" if enabled else "off\t") + directory + "\n")
+        print(f"Auto date-prefix: {sub.upper()} for {short(PWD)} (saved)")
+        if "SC_AUTO_PREFIX" in os.environ:
+            cmd_auto("status")
         return 0
 
     if sub == "status":
-        if "SC_AUTO_PREFIX" in os.environ:
-            val = os.environ["SC_AUTO_PREFIX"]
-            if val == "1":
-                print(f"Auto date-prefix: ON for {short(PWD)} (forced by SC_AUTO_PREFIX=1)")
-            else:
-                print(f"Auto date-prefix: OFF for {short(PWD)} (forced by SC_AUTO_PREFIX={val})")
-        else:
-            match = auto_match_dir()
-            if match:
-                if match == PWD:
-                    print(f"Auto date-prefix: ON for {short(PWD)}")
-                else:
-                    print(f"Auto date-prefix: ON for {short(PWD)} (via enabled {short(match)})")
-            else:
-                print(f"Auto date-prefix: OFF for {short(PWD)}")
+        enabled, source = auto_state()
+        print(f"Auto date-prefix: {'ON' if enabled else 'OFF'} for {short(PWD)} ({source})")
         return 0
 
     print("Usage: sc auto [on|off|status]")
     return 1
 
 
-def cmd_sync(rest, to="", remote_home_arg=""):
-    if rest and rest[0] == "config":
-        if to or remote_home_arg:
-            print("--to / --remote-home apply to the push, not to `sc sync config`.")
-            print("Usage: sc sync config <host> <remote-home>")
+def sync_config_usage():
+    print("Usage: sc sync config <host> --remote-dir <project-path>  (this project)")
+    print("       sc sync config <host> <remote-home>  (global home mirroring)")
+
+
+def cmd_sync_config(rest, to, remote_home_arg, remote_dir_arg):
+    if to or remote_home_arg:
+        print("--to / --remote-home apply to the push, not to `sc sync config`.")
+        sync_config_usage()
+        return 1
+    if len(rest) == 1 and not remote_dir_arg:
+        directory, target = nearest_setting(load_project_settings())
+        host, remote_home, source = load_sync_config()
+        if not target and not host and not remote_home:
+            print("Sync not configured.")
+            sync_config_usage()
             return 1
-        host_arg = rest[1] if len(rest) > 1 else ""
-        home_arg = rest[2] if len(rest) > 2 else ""
-        if not host_arg and not home_arg:
-            # Show current effective config and its source
-            host, remote_home, source = load_sync_config()
-            if not host and not remote_home:
-                print("Sync not configured. Run: sc sync config <host> <remote-home>")
-                print("  e.g. sc sync config om /home/om")
-                return 1
-            print(f"Sync target: {host or '?'}  (home {remote_home or '?'})  [from {source}]")
-            cache = load_home_cache()
-            if cache:
-                print("Known remote homes (use with --to):")
-                for k in sorted(cache):
-                    print(f"  {k}  {cache[k]}")
-            return 0
-        if not host_arg or not home_arg:
-            print("Usage: sc sync config <host> <remote-home>")
-            print("  e.g. sc sync config om /home/om")
-            return 1
-        if not home_arg.startswith("/"):
-            print(f"Remote home must be an absolute path (got: {home_arg})")
-            return 1
-        try:
-            os.makedirs(os.path.dirname(SYNC_CONFIG_FILE), exist_ok=True)
-        except OSError:
-            print("Failed to create config dir.")
-            return 1
-        with open(SYNC_CONFIG_FILE, "w") as fh:
-            fh.write(f"SC_SYNC_HOST={host_arg}\nSC_SYNC_REMOTE_HOME={home_arg}\n")
-        print(f"Sync target: {host_arg}  (home {home_arg})")
+        if target:
+            remote_dir = project_remote_dir(directory, target)
+            print(f"Project target: {target['host']}:{remote_dir}/screenshots")
+            print(f"  Mapped local project: {short(directory)}")
+        if host or remote_home:
+            print(f"Home-mirroring fallback: {host or '?'}  "
+                  f"(remote home {remote_home or 'auto-detect'})  [from {source}]")
+        for name in ("SC_SYNC_HOST", "OM_HOST", "SC_SYNC_REMOTE_HOME"):
+            if os.environ.get(name):
+                print(f"Environment override: {name}={os.environ[name]}")
+        cache = load_home_cache()
+        if cache:
+            print("Known remote homes (use with --to):")
+            for key in sorted(cache):
+                print(f"  {key}  {cache[key]}")
         return 0
-    if rest:
-        print("Usage: sc sync [-n] [--to <host>] [--remote-home <path>]")
-        print("       sc sync config <host> <remote-home>")
-        return 1
 
-    # Default: push ./screenshots to the mirrored remote dir
-    cfg_host, cfg_home, _ = load_sync_config()
-    host = to or cfg_host
-    if not host:
-        print("Sync not configured. Run: sc sync config <host> <remote-home>")
-        print("  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)")
-        return 1
-
-    # Remote home: explicit flag > configured value (for the configured host) > cache > ssh probe.
-    if remote_home_arg:
-        if not remote_home_arg.startswith("/"):
-            print(f"Remote home must be an absolute path (got: {remote_home_arg})")
+    if remote_dir_arg:
+        if len(rest) != 2 or not rest[1]:
+            sync_config_usage()
             return 1
-        remote_home = remote_home_arg
-    elif host == cfg_host and cfg_home:
-        remote_home = cfg_home
-    else:
-        remote_home = load_home_cache().get(host, "")
-        if not remote_home:
-            remote_home = detect_remote_home(host)
-            if not remote_home:
-                print(f"Could not determine $HOME on {host} over ssh.")
-                print(f"  Pass --remote-home <path>, or run: sc sync config {host} <path>")
-                return 1
-            print(f"Remote home for {host}: {remote_home} (cached)")
-            save_home_cache(host, remote_home)
-    if not remote_home:
-        print("Sync not configured. Run: sc sync config <host> <remote-home>")
-        print("  e.g. sc sync config om /home/om   (or set SC_SYNC_HOST / SC_SYNC_REMOTE_HOME)")
+        if not remote_dir_arg.startswith("/"):
+            print(f"Remote project directory must be an absolute path (got: {remote_dir_arg})")
+            return 1
+        target = {"host": rest[1], "remote_dir": posixpath.normpath(remote_dir_arg)}
+        settings = load_project_settings()
+        if DRY_RUN:
+            print(f"Would map {short(PWD)} to {target['host']}:{target['remote_dir']}/screenshots")
+            return 0
+        settings[PWD] = target
+        ensure_config_dir(SYNC_PROJECTS_FILE)
+        with open(SYNC_PROJECTS_FILE, "w") as fh:
+            json.dump(settings, fh, indent=2, sort_keys=True)
+            fh.write("\n")
+        print(f"Project target: {target['host']}:{target['remote_dir']}/screenshots")
+        print(f"  Mapped local project: {short(PWD)}")
+        return 0
+
+    if len(rest) != 3 or not rest[1] or not rest[2]:
+        sync_config_usage()
         return 1
-    if PWD != HOME and not PWD.startswith(HOME + "/"):
-        print("cwd is outside $HOME; cannot mirror path to remote.")
+    host_arg, home_arg = rest[1:]
+    if not home_arg.startswith("/"):
+        print(f"Remote home must be an absolute path (got: {home_arg})")
+        return 1
+    if DRY_RUN:
+        print(f"Would set home-mirroring fallback: {host_arg}  (remote home {home_arg})")
+        return 0
+    ensure_config_dir(SYNC_CONFIG_FILE)
+    with open(SYNC_CONFIG_FILE, "w") as fh:
+        fh.write(f"SC_SYNC_HOST={host_arg}\nSC_SYNC_REMOTE_HOME={home_arg}\n")
+    print(f"Home-mirroring fallback: {host_arg}  (remote home {home_arg})")
+    return 0
+
+
+def cmd_sync(rest, to="", remote_home_arg="", remote_dir_arg=""):
+    if remote_home_arg and remote_dir_arg:
+        print("--remote-home and --remote-dir cannot be used together.")
+        return 1
+    if rest and rest[0] == "config":
+        return cmd_sync_config(rest, to, remote_home_arg, remote_dir_arg)
+    if rest:
+        print("Usage: sc sync [-n] [--to <host>] [--remote-home <path> | --remote-dir <path>]")
+        sync_config_usage()
+        return 1
+    for label, path in (("Remote home", remote_home_arg), ("Remote project directory", remote_dir_arg)):
+        if path and not path.startswith("/"):
+            print(f"{label} must be an absolute path (got: {path})")
+            return 1
+
+    cfg_host, cfg_home, _ = load_sync_config()
+    directory, target = nearest_setting(load_project_settings())
+    env_host = os.environ.get("SC_SYNC_HOST") or os.environ.get("OM_HOST")
+    host = to or env_host or (target["host"] if target else cfg_host)
+    if not host:
+        print("Sync not configured.")
+        sync_config_usage()
         return 1
     if not os.path.isdir("screenshots"):
         print(f"No ./screenshots dir here ({short(PWD)}). Nothing to sync.")
         return 1
-    remote_dir = remote_home + PWD[len(HOME):]
+
+    # Explicit destinations beat environment and project settings. A project path
+    # belongs only to its saved host; changing hosts falls back to home mirroring.
+    home_override = remote_home_arg or os.environ.get("SC_SYNC_REMOTE_HOME", "")
+    if remote_dir_arg:
+        remote_dir = posixpath.normpath(remote_dir_arg)
+    elif target and host == target["host"] and not home_override:
+        remote_dir = project_remote_dir(directory, target)
+    else:
+        if not is_within(PWD, HOME):
+            print("cwd is outside $HOME; cannot mirror path to remote. Use --remote-dir.")
+            return 1
+        remote_home = home_override or (cfg_home if host == cfg_host else "")
+        if not remote_home:
+            remote_home = load_home_cache().get(host, "")
+        if not remote_home:
+            remote_home = detect_remote_home(host)
+            if not remote_home:
+                print(f"Could not determine $HOME on {host} over ssh.")
+                print("  Pass --remote-home <path> or --remote-dir <project-path>.")
+                return 1
+            if not DRY_RUN:
+                save_home_cache(host, remote_home)
+        if not remote_home.startswith("/"):
+            print(f"Remote home must be an absolute path (got: {remote_home})")
+            return 1
+        relative = os.path.relpath(PWD, HOME)
+        remote_dir = posixpath.normpath(remote_home)
+        if relative != ".":
+            remote_dir = posixpath.join(remote_dir, relative)
+
     opts = ["-avP"]  # no -z: screenshots are already-compressed images
+    rsync_path = "rsync"
     if DRY_RUN:
         opts.append("--dry-run")
-        print(f"Pushing ./screenshots  →  {host}:{remote_dir}  (dry-run)")
     else:
-        print(f"Pushing ./screenshots  →  {host}:{remote_dir}")
+        rsync_path = f"mkdir -p {shlex.quote(remote_dir)} && rsync"
+    suffix = "  (dry-run)" if DRY_RUN else ""
+    print(f"Pushing ./screenshots  →  {host}:{posixpath.join(remote_dir, 'screenshots')}{suffix}", flush=True)
+    # Quote for the remote shell too; argv protects only the local invocation.
+    remote_destination = shlex.quote(remote_dir.rstrip("/") + "/")
     cmd = (["rsync"] + opts
-           + [f"--rsync-path=mkdir -p '{remote_dir}' && rsync",
-              "screenshots", f"{host}:{remote_dir}"])
-    return subprocess.run(cmd).returncode
+           + [f"--rsync-path={rsync_path}", "screenshots", f"{host}:{remote_destination}"])
+    # rsync's manual recommends these for scripts that quote remote arguments:
+    # newer versions must not escape our quotes again; older versions ignore them.
+    rsync_env = dict(os.environ, RSYNC_OLD_ARGS="1", RSYNC_PROTECT_ARGS="0")
+    return subprocess.run(cmd, env=rsync_env).returncode
 
 
 def cmd_clean():
@@ -460,7 +540,7 @@ def build_parser():
     common.add_argument("-p", "--path", action="store_true", default=argparse.SUPPRESS,
                         help="copy file path instead of image contents")
     common.add_argument("-n", "--dry-run", action="store_true", default=argparse.SUPPRESS,
-                        help="preview clean/nuke deletions, or rsync --dry-run for sync")
+                        help="preview clean/nuke deletions, auto/config changes, or rsync sync")
 
     parser = argparse.ArgumentParser(
         prog="sc", parents=[common],
@@ -473,22 +553,31 @@ def build_parser():
     sub.add_parser("cp", parents=[common], help="copy latest screenshot (image or path) to clipboard")
 
     p_mv = sub.add_parser("mv", parents=[common],
-                          help="move latest screenshot to <dest> (dirs created as needed)")
+                          help="move latest screenshot (default: screenshots/<today>/<dest>)",
+                          description="Relative destinations default to screenshots/<today>/. "
+                          "Use 'sc auto off' to disable, or an absolute/screenshots path to override.")
     p_mv.add_argument("dest", nargs="?", default="", help="destination path or directory")
 
     p_auto = sub.add_parser("auto", parents=[common],
-                            help="toggle per-dir 'screenshots/<today>/' prefix for mv")
+                            help="toggle per-dir 'screenshots/<today>/' prefix for mv (default: on)")
     p_auto.add_argument("action", nargs="?", default="status",
                         help="on | off | status (default: status)")
 
     p_sync = sub.add_parser("sync", parents=[common],
-                            help="push ./screenshots to the mirrored remote dir (rsync)")
+                            help="push ./screenshots to a remote project (rsync)",
+                            description="Project mappings inherit into subdirectories; otherwise mirror "
+                            "the local path relative to $HOME. --remote-dir names the remote project, "
+                            "not its screenshots folder.")
     p_sync.add_argument("rest", nargs="*",
-                        help="'config <host> <remote-home>' to set/show target; empty to push")
+                        help="'config' to show; 'config HOST HOME' for global mirroring; "
+                        "'config HOST --remote-dir PATH' for this project; empty to push")
     p_sync.add_argument("--to", default="", metavar="HOST",
                         help="push to HOST for this run instead of the configured target")
-    p_sync.add_argument("--remote-home", default="", metavar="PATH",
-                        help="remote $HOME for --to (skips ssh detection)")
+    destinations = p_sync.add_mutually_exclusive_group()
+    destinations.add_argument("--remote-home", default="", metavar="PATH",
+                              help="remote $HOME for this push (skips ssh detection)")
+    destinations.add_argument("--remote-dir", default="", metavar="PATH",
+                              help="exact remote project directory, for this push or project config")
 
     sub.add_parser("clean", parents=[common], help="remove all screenshots except the latest")
     sub.add_parser("nuke", parents=[common], help="remove ALL screenshots")
@@ -517,9 +606,13 @@ def main(argv):
     if args.command == "auto":
         return cmd_auto(args.action)
     if args.command == "sync":
-        return cmd_sync(args.rest, args.to, args.remote_home)
+        return cmd_sync(args.rest, args.to, args.remote_home, args.remote_dir)
     return 1  # unreachable: argparse rejects unknown commands
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    try:
+        sys.exit(main(sys.argv[1:]))
+    except (OSError, ValueError) as exc:
+        print(f"sc: {exc}", file=sys.stderr)
+        sys.exit(1)

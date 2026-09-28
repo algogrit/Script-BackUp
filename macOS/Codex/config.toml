@@ -75,6 +75,12 @@ trust_level = "trusted"
 [projects."/Users/gaurav/Developer/CMTech/video-editor"]
 trust_level = "trusted"
 
+[projects."/Users/gaurav/Developer/CMTech/rashmi"]
+trust_level = "trusted"
+
+[projects."/Users/gaurav/Developer/CMTech/spark-guru"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "context-remaining", "current-dir", "model-name", "context-used"]
 single_key_approval = false
@@ -97,3 +103,17 @@ bearer_token_env_var = "VYUHA_MCP_AUTH_TOKEN"
 
 [features]
 hooks = true
+
+[hooks.state]
+
+[hooks.state."/Users/gaurav/.codex/hooks.json:permission_request:0:0"]
+trusted_hash = "sha256:1b7624ea48936b8f3258affd1669804316f5b45cff6d2326b7732916469eb48a"
+
+[hooks.state."/Users/gaurav/.codex/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:282ef4f786ed6c3cd4d9639e029d006c516c39638b258d2f1da498b82c616a2e"
+
+[hooks.state."/Users/gaurav/.codex/hooks.json:user_prompt_submit:0:0"]
+trusted_hash = "sha256:523d693b2584fd65e5910e1dd8df3b23c76fb2451655a4c1ac2e46c5fce70171"
+
+[hooks.state."/Users/gaurav/.codex/hooks.json:stop:0:0"]
+trusted_hash = "sha256:fcbc53cb686f3694a40d2ec3621098c55069c901a0e0d4b1f30a54e1263ce2be"

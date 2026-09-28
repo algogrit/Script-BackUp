@@ -88,7 +88,20 @@
       "command(make verify-frontend-types)",
       "command(wc)",
       "command(make verify-frontend)",
-      "command(make verify)"
+      "command(make verify)",
+      "command(git grep)",
+      "command(rg)",
+      "command(ping)",
+      "command(ssh -o ConnectTimeout=5 mayur 'systemctl status vyuha-woodpecker-mcp.service')",
+      "command(ssh -o ConnectTimeout=5 om 'sudo docker ps')",
+      "command(ssh -o ConnectTimeout=5 om 'docker ps')",
+      "command(cd)",
+      "command(uv run python)",
+      "command(make availability-plan)",
+      "command(go vet ./...)",
+      "command(make availability-build)",
+      "command(make availability-deploy)",
+      "command(make availability-status)"
     ]
   },
   "trustedWorkspaces": [

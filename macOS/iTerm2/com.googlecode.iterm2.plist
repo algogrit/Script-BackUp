@@ -80,6 +80,8 @@
 	<string>3198 175 400 135 1920 -249 2056 1285 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 759 620 398 0 0 2560 1410 </string>
+	<key>NSWindow Frame iTerm Profile  0</key>
+	<string>0 35 3004 779 0 0 3008 1662 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2056 1290 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -3236,14 +3238,23 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.7.3</string>
+		<string>3.6.11</string>
 		<string>3.6.5</string>
 		<string>3.6.8</string>
-		<string>3.6.11</string>
 	</array>
 	<key>NoSyncBrowserUpsell</key>
 	<true/>
 	<key>NoSyncBrowserUpsell_selection</key>
 	<integer>1</integer>
+	<key>NoSyncClaudeCodeAutoRequestReviewBackfilled</key>
+	<true/>
+	<key>NoSyncClaudeCodeAutoSendClippingsBackfilled</key>
+	<true/>
+	<key>NoSyncClaudeCodeDiffModeBackfilled</key>
+	<true/>
+	<key>NoSyncClaudeCodeReviewSystemPromptCommandBackfilled</key>
+	<true/>
 	<key>NoSyncClearAllBroadcast</key>
 	<true/>
 	<key>NoSyncClearAllBroadcast_selection</key>
@@ -3268,20 +3279,33 @@
 	<string>5DB1ADBF-B849-46FD-9182-3BE5717BF7AA</string>
 	<key>NoSyncLastOSVersion</key>
 	<string>Version 26.6.2 (Build 25G83)</string>
+	<key>NoSyncLastShutdownWasClean</key>
+	<false/>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>28</integer>
+	<integer>30</integer>
+	<key>NoSyncMigratedDynamicProfileTagToFlag</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>2</integer>
+	<key>NoSyncNewTabFromTmuxOpensTmux</key>
+	<true/>
+	<key>NoSyncNewTabFromTmuxOpensTmux_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>790404455.90770996</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncPermissionsHelper_Accessibility</key>
 	<string>3.6.5</string>
+	<key>NoSyncPersistentRateLimitedUpdates</key>
+	<dict>
+		<key>CheckForUpdatedUv</key>
+		<real>812346644.24903595</real>
+	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -3387,6 +3411,14 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>isLocalhost</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>parentSession</string>
@@ -3438,6 +3470,14 @@
 				<true/>
 				<key>name</key>
 				<string>bellCount</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>foregroundJobAncestors</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3557,6 +3597,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>deepestJob</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>tmuxClientName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -3582,6 +3630,14 @@
 				<true/>
 				<key>name</key>
 				<string>selectionLength</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>isBroadcastSource</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3904,6 +3960,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.deepestJob</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4033,6 +4097,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.parentSession.parentSession.parentSession.bellCount</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>title</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4274,6 +4346,14 @@
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>appBundlePath</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>NoSyncRemoveDeprecatedKeyMappings</key>
@@ -4282,6 +4362,8 @@
 	<integer>0</integer>
 	<key>NoSyncSavedWindowPositions</key>
 	<dict>
+		<key> 0</key>
+		<string>{0, 814}</string>
 		<key>0</key>
 		<string>{-0, 1290}</string>
 		<key>1</key>
@@ -4295,6 +4377,39 @@
 	<true/>
 	<key>NoSyncSuppressPromptToEnableResizing</key>
 	<true/>
+	<key>NoSyncSuppressedAlertsCatalog</key>
+	<dict>
+		<key>NoSyncBrowserUpsell</key>
+		<dict>
+			<key>count</key>
+			<integer>1</integer>
+			<key>episode</key>
+			<string>permanent</string>
+			<key>heading</key>
+			<string>Plugin Required</string>
+			<key>lastSuppressed</key>
+			<real>812267995.83391094</real>
+			<key>selectionLabel</key>
+			<string>Use System Browser</string>
+			<key>title</key>
+			<string>iTerm2 can display web pages! But first you must download the Browser Plugin.</string>
+		</dict>
+		<key>NoSyncNewTabFromTmuxOpensTmux</key>
+		<dict>
+			<key>count</key>
+			<integer>2</integer>
+			<key>episode</key>
+			<string>permanent</string>
+			<key>heading</key>
+			<string>What kind of tab do you want to open?</string>
+			<key>lastSuppressed</key>
+			<real>812263115.00512397</real>
+			<key>selectionLabel</key>
+			<string>New tmux Tab</string>
+			<key>title</key>
+			<string>The current session is a tmux session. Would you like to create a new tmux tab or use the default profile?</string>
+		</dict>
+	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>784528321.52062404</real>
 	<key>NoSyncTipsDisabled</key>
@@ -4327,8 +4442,15 @@
 		<string>0021</string>
 		<string>0023</string>
 	</array>
+	<key>NoSyncWindowCornerRadiusCache</key>
+	<dict>
+		<key>mask_15_tv_1_os_26_6_scale_2.0</key>
+		<real>17.25</real>
+	</dict>
 	<key>NoSyncWindowRestoresWorkspaceAtLaunch</key>
 	<false/>
+	<key>NoSyncWorkgroupShortcutsBackfilled</key>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
@@ -4385,7 +4507,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-09-24T05:48:55Z</date>
+	<date>2026-09-28T08:03:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
@@ -4405,7 +4527,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.6.11</string>
+	<string>3.7.3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
