@@ -124,7 +124,7 @@ Enabled
 ==> Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7766 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7770 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -146,4 +146,4 @@ This is a Tier 2 configuration:
 You can report issues with Tier 2 configurations to Homebrew/* repositories!
   https://docs.brew.sh/Troubleshooting
 Read the above document before opening any issues or PRs.
-438 kegs, 245,532 files, 12.4GB
+438 kegs, 245,265 files, 12.4GB

@@ -207,7 +207,6 @@ bzip2
 bzip2recover
 bzless
 bzmore
-c_rehash
 c++
 c++-16
 c++filt

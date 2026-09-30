@@ -101,8 +101,17 @@
       "command(go vet ./...)",
       "command(make availability-build)",
       "command(make availability-deploy)",
-      "command(make availability-status)"
+      "command(make availability-status)",
+      "command(find . -type f -name \"*.py\")",
+      "command(find ./src -type f -name \"*.py\")",
+      "command(uv run pytest)",
+      "command(uv run ruff)"
     ]
+  },
+  "statusLine": {
+    "type": "",
+    "command": "",
+    "enabled": true
   },
   "trustedWorkspaces": [
     "/Users/gaurav/Developer/CMTech/vyuha",

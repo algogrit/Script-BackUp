@@ -90,6 +90,7 @@ screen_reader_detection_done = true
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
 gpt-6-astra = 4
+"gpt-6.1-sol" = 2
 
 [desktop]
 appearanceTheme = "system"
