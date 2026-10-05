@@ -2236,6 +2236,7 @@ play
 play_music
 playwright-cli
 playwright-mcp
+plist2json
 plistutil
 plockstat
 plotframes
@@ -2991,7 +2992,7 @@ tccutil
 tcldocstrip
 tclsh
 tclsh8.5
-tclsh9.0
+tclsh9.1
 tcpdump
 tcsh
 tee
@@ -3298,7 +3299,7 @@ WirelessRadioManagerd
 Wireshark
 wish
 wish8.5
-wish9.0
+wish9.1
 with_aws
 with_beid
 with_kryoptic
