@@ -105,7 +105,13 @@
       "command(find . -type f -name \"*.py\")",
       "command(find ./src -type f -name \"*.py\")",
       "command(uv run pytest)",
-      "command(uv run ruff)"
+      "command(uv run ruff)",
+      "command(go run main.go sync-all --help)",
+      "command(go run . sync-all --help)",
+      "command(go test ./...)",
+      "command(git ls-files)",
+      "command(go test -v ./...)",
+      "command(make build)"
     ]
   },
   "statusLine": {

@@ -4384,13 +4384,13 @@
 		<key>NoSyncBrowserUpsell</key>
 		<dict>
 			<key>count</key>
-			<integer>17</integer>
+			<integer>21</integer>
 			<key>episode</key>
 			<string>permanent</string>
 			<key>heading</key>
 			<string>Plugin Required</string>
 			<key>lastSuppressed</key>
-			<real>812468657.66426897</real>
+			<real>813076531.25235605</real>
 			<key>selectionLabel</key>
 			<string>Use System Browser</string>
 			<key>title</key>
@@ -4414,13 +4414,13 @@
 		<key>NoSyncNewTabFromTmuxOpensTmux</key>
 		<dict>
 			<key>count</key>
-			<integer>18</integer>
+			<integer>20</integer>
 			<key>episode</key>
 			<string>permanent</string>
 			<key>heading</key>
 			<string>What kind of tab do you want to open?</string>
 			<key>lastSuppressed</key>
-			<real>812470241.01212502</real>
+			<real>813048810.55454099</real>
 			<key>selectionLabel</key>
 			<string>New tmux Tab</string>
 			<key>title</key>
@@ -4524,7 +4524,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-10-05T05:27:41Z</date>
+	<date>2026-10-08T06:25:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
