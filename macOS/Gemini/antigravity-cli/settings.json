@@ -111,7 +111,9 @@
       "command(go test ./...)",
       "command(git ls-files)",
       "command(go test -v ./...)",
-      "command(make build)"
+      "command(make build)",
+      "command(make verify-contract-types)",
+      "command(make types)"
     ]
   },
   "statusLine": {

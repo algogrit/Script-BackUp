@@ -244,7 +244,6 @@ cargo-ndk-runner
 cargo-ndk-test
 cat
 cc
-cc-status
 cct
 cd
 cdiff
@@ -1109,6 +1108,9 @@ h5unjam
 h5watch
 half_mt
 halt
+harmonydeployqt
+harmonydeployqt6
+harmonyostestrunner
 hash
 hb-info
 hb-raster
@@ -1240,6 +1242,7 @@ idle3
 idle3.12
 idle3.13
 idle3.14
+idle3.15
 idn
 idn2
 iex
@@ -1251,10 +1254,8 @@ img2pdf
 img2pdf-gui
 img2txt
 img2webp
-imgcat
 imgcmp
 imginfo
-imgls
 imgtoppm
 imlib2_bumpmap
 imlib2_colorspace
@@ -1315,22 +1316,6 @@ iRATBW.mlmodelc
 irb
 ismindex
 isql
-it2
-it2api
-it2attention
-it2cat
-it2check
-it2copy
-it2dl
-it2getvar
-it2git
-it2profile
-it2setcolor
-it2setkeylabel
-it2ssh
-it2tip
-it2ul
-it2universion
 iusql
 jar
 jarsigner
@@ -1564,7 +1549,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1788856981
+luajit-2.1.1791890110
 luit
 lwp-download
 lwp-download5.34
@@ -2205,6 +2190,7 @@ pip3
 pip3.12
 pip3.13
 pip3.14
+pip3.15
 piv-tool
 pjtoppm
 pk11ectest
@@ -2488,6 +2474,7 @@ pydoc3
 pydoc3.12
 pydoc3.13
 pydoc3.14
+pydoc3.15
 pyenv
 pyenv-activate
 pyenv-deactivate
@@ -2516,6 +2503,8 @@ python3.13-config
 python3.13-gdb.py
 python3.14
 python3.14-config
+python3.15
+python3.15-config
 pzstd
 qdbuscpp2xml
 qdbusxml2cpp
@@ -3262,7 +3251,6 @@ wfsctl
 wget
 what
 whatis
-wheel3
 wheel3.12
 wheel3.14
 whereis

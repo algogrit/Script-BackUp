@@ -83,7 +83,11 @@
 	<key>NSWindow Frame iTerm Profile  0</key>
 	<string>0 35 3004 779 0 0 3008 1662 </string>
 	<key>NSWindow Frame iTerm Profile 0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 0</key>
-	<string>0 0 2056 1290 0 0 2056 1290 </string>
+	<string>3008 363 2056 1290 3008 363 2056 1290 </string>
+	<key>NSWindow Frame iTerm Profile 0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 1</key>
+	<string>0 52 2056 1229 0 0 2056 1290 </string>
+	<key>NSWindow Frame iTerm Profile 4DD7C373-FFA5-40EC-BA24-3F0E0ACE0D4A 0</key>
+	<string>0 872 3008 790 0 0 3008 1662 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 2056 1290 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -3282,7 +3286,7 @@
 	<key>NoSyncLastOSVersion</key>
 	<string>Version 26.6.2 (Build 25G83)</string>
 	<key>NoSyncLastShutdownWasClean</key>
-	<false/>
+	<true/>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
@@ -4366,14 +4370,16 @@
 	<dict>
 		<key> 0</key>
 		<string>{0, 814}</string>
-		<key>0</key>
-		<string>{-0, 1290}</string>
 		<key>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 0</key>
-		<string>{-0, 1290}</string>
+		<string>{3008, 1653}</string>
+		<key>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 1</key>
+		<string>{0, 1281}</string>
 		<key>2</key>
 		<string>{-1, 1285}</string>
 		<key>3</key>
 		<string>{-0, 1285}</string>
+		<key>4DD7C373-FFA5-40EC-BA24-3F0E0ACE0D4A 0</key>
+		<string>{0, 1662}</string>
 	</dict>
 	<key>NoSyncScrollingHorizontally</key>
 	<true/>
@@ -4465,7 +4471,7 @@
 		<real>17.25</real>
 	</dict>
 	<key>NoSyncWindowRestoresWorkspaceAtLaunch</key>
-	<false/>
+	<true/>
 	<key>NoSyncWorkgroupShortcutsBackfilled</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -4524,7 +4530,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-10-08T06:25:28Z</date>
+	<date>2026-10-12T05:46:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
@@ -4532,7 +4538,7 @@
 	<key>SUUpdateGroupIdentifier</key>
 	<integer>2311729649</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<false/>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>

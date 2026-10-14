@@ -114,7 +114,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0
 /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-7.0.8
+7.0.9
 ==> macOS
 26.6.2
 ==> SIP
@@ -124,7 +124,7 @@ Enabled
 ==> Cask Taps:
 /opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7787 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7782 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -135,7 +135,7 @@ If that doesn't show you any updates, run:
 
 Alternatively, manually download them from:
   https://developer.apple.com/download/all/.
-You should download the Command Line Tools for Xcode 26.6.
+You should download the Command Line Tools for Xcode 27.0.
 
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
@@ -163,4 +163,4 @@ This is a Tier 2 configuration:
 You can report issues with Tier 2 configurations to Homebrew/* repositories!
   https://docs.brew.sh/Troubleshooting
 Read the above document before opening any issues or PRs.
-437 kegs, 244,971 files, 12.4GB
+438 kegs, 251,690 files, 12.6GB
