@@ -1,7 +1,7 @@
 gcenx/wine: Installed
 Trusted
 1 cask
-/opt/homebrew/Library/Taps/gcenx/homebrew-wine (55 files, 367KB)
+/opt/homebrew/Library/Taps/gcenx/homebrew-wine (55 files, 368.3KB)
 From: https://github.com/gcenx/homebrew-wine
 HEAD: f5bd24f0d90edb887c3f4ca8d078dee285bf8838
 last commit: 3 weeks ago
@@ -11,10 +11,10 @@ game-porting-toolkit
 hashicorp/tap: Installed
 Trusted
 2 casks, 34 formulae
-/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (384 files, 2.1MB)
+/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (406 files, 2.2MB)
 From: https://github.com/hashicorp/homebrew-tap
-HEAD: 98373f9e755a7d249ec7234781d2b0f7fb7e7a82
-last commit: 5 days ago
+HEAD: 9d5821b38a05a5b9d632641ac20be29847db11b1
+last commit: 9 hours ago
 ==> Formulae
 terraform
 ==> Casks
@@ -24,9 +24,9 @@ hashicorp-vagrant
 rjyo/moshi: Installed
 Untrusted
 1 formula
-/opt/homebrew/Library/Taps/rjyo/homebrew-moshi (218 files, 1.5MB)
+/opt/homebrew/Library/Taps/rjyo/homebrew-moshi (232 files, 1.5MB)
 From: https://github.com/rjyo/homebrew-moshi
-HEAD: d54a2ae436e6caf30bead6e4accd21d02d5bbe75
-last commit: 15 hours ago
+HEAD: 82f1d32d5103987178c83615098aade6ad11887a
+last commit: 13 hours ago
 ==> Formulae
 moshi-hook

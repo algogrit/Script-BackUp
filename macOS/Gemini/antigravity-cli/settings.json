@@ -113,7 +113,15 @@
       "command(go test -v ./...)",
       "command(make build)",
       "command(make verify-contract-types)",
-      "command(make types)"
+      "command(make types)",
+      "command(find . -name \"*thumb*\" -o -name \"*thumbnail*\")",
+      "command(find src/reviewer/tools/video/thumbnails -type f)",
+      "command(pytest)",
+      "command(make verify-contracts)",
+      "command(find tests -name \"*.spec.ts\")",
+      "command(find . -name \"*.spec.ts\")",
+      "command(npm run test:unit)",
+      "command(make verify-python-tests)"
     ]
   },
   "statusLine": {

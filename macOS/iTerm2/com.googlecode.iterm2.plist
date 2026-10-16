@@ -52,6 +52,16 @@
 	<true/>
 	<key>NSAutoFillHeuristicControllerEnabled</key>
 	<false/>
+	<key>NSAutomaticCapitalizationEnabled</key>
+	<false/>
+	<key>NSAutomaticDashSubstitutionEnabled</key>
+	<false/>
+	<key>NSAutomaticPeriodSubstitutionEnabled</key>
+	<false/>
+	<key>NSAutomaticQuoteSubstitutionEnabled</key>
+	<false/>
+	<key>NSAutomaticSpellingCorrectionEnabled</key>
+	<false/>
 	<key>NSOverlayScrollersFallBackForAccessoryViews</key>
 	<false/>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -83,7 +93,7 @@
 	<key>NSWindow Frame iTerm Profile  0</key>
 	<string>0 35 3004 779 0 0 3008 1662 </string>
 	<key>NSWindow Frame iTerm Profile 0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 0</key>
-	<string>3008 363 2056 1290 3008 363 2056 1290 </string>
+	<string>989 503 1067 787 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Profile 0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 1</key>
 	<string>0 52 2056 1229 0 0 2056 1290 </string>
 	<key>NSWindow Frame iTerm Profile 4DD7C373-FFA5-40EC-BA24-3F0E0ACE0D4A 0</key>
@@ -3244,6 +3254,7 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.7.4</string>
 		<string>3.7.3</string>
 		<string>3.6.11</string>
 		<string>3.6.5</string>
@@ -3286,13 +3297,13 @@
 	<key>NoSyncLastOSVersion</key>
 	<string>Version 26.6.2 (Build 25G83)</string>
 	<key>NoSyncLastShutdownWasClean</key>
-	<true/>
+	<false/>
 	<key>NoSyncLastSystemPythonVersionRequirement</key>
 	<string>1.17</string>
 	<key>NoSyncLastTipTime</key>
 	<real>793697163.18309295</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>30</integer>
+	<integer>31</integer>
 	<key>NoSyncMigratedDynamicProfileTagToFlag</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3310,7 +3321,7 @@
 	<key>NoSyncPersistentRateLimitedUpdates</key>
 	<dict>
 		<key>CheckForUpdatedUv</key>
-		<real>812459827.42041695</real>
+		<real>813760728.20445597</real>
 	</dict>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
@@ -3327,6 +3338,14 @@
 		</array>
 		<key>1</key>
 		<array>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>parentSession.tmuxClientName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
 			<dict>
 				<key>isTerminal</key>
 				<true/>
@@ -3388,6 +3407,14 @@
 				<true/>
 				<key>name</key>
 				<string>username</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>parentSession.tmuxRole</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4054,6 +4081,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.parentSession.tmuxClientName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.currentSession.tmuxClientName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4071,6 +4106,14 @@
 				<true/>
 				<key>name</key>
 				<string>currentTab.currentSession.path</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.parentSession.tmuxRole</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4332,22 +4375,6 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>pid</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>localhostName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>effectiveTheme</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -4357,6 +4384,22 @@
 				<true/>
 				<key>name</key>
 				<string>appBundlePath</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>pid</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>localhostName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -4371,7 +4414,7 @@
 		<key> 0</key>
 		<string>{0, 814}</string>
 		<key>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 0</key>
-		<string>{3008, 1653}</string>
+		<string>{989, 1290}</string>
 		<key>0B06895D-A6AD-4FD8-9BB5-D68F12FFD409 1</key>
 		<string>{0, 1281}</string>
 		<key>2</key>
@@ -4390,13 +4433,13 @@
 		<key>NoSyncBrowserUpsell</key>
 		<dict>
 			<key>count</key>
-			<integer>21</integer>
+			<integer>22</integer>
 			<key>episode</key>
 			<string>permanent</string>
 			<key>heading</key>
 			<string>Plugin Required</string>
 			<key>lastSuppressed</key>
-			<real>813076531.25235605</real>
+			<real>813684470.46409798</real>
 			<key>selectionLabel</key>
 			<string>Use System Browser</string>
 			<key>title</key>
@@ -4471,7 +4514,7 @@
 		<real>17.25</real>
 	</dict>
 	<key>NoSyncWindowRestoresWorkspaceAtLaunch</key>
-	<true/>
+	<false/>
 	<key>NoSyncWorkgroupShortcutsBackfilled</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -4530,7 +4573,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2026-10-12T05:46:39Z</date>
+	<date>2026-10-16T02:56:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUSkippedVersion</key>
@@ -4538,7 +4581,7 @@
 	<key>SUUpdateGroupIdentifier</key>
 	<integer>2311729649</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>TabStyleWithAutomaticOption</key>
@@ -4550,7 +4593,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.7.3</string>
+	<string>3.7.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
