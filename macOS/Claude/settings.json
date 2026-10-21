@@ -1,24 +1,12 @@
 {
+  "env": {
+    "COLORTERM": "truecolor",
+    "CLAUDE_AFK_TIMEOUT_MS": "86400000"
+  },
   "attribution": {
     "commit": "",
     "pr": ""
   },
-  "editorMode": "normal",
-  "effortLevel": "medium",
-  "enabledPlugins": {
-    "clangd-lsp@claude-plugins-official": true,
-    "gopls-lsp@claude-plugins-official": true,
-    "kotlin-lsp@claude-plugins-official": true,
-    "pyright-lsp@claude-plugins-official": true,
-    "rust-analyzer-lsp@claude-plugins-official": true,
-    "swift-lsp@claude-plugins-official": true,
-    "typescript-lsp@claude-plugins-official": true
-  },
-  "env": {
-    "CLAUDE_AFK_TIMEOUT_MS": "86400000",
-    "COLORTERM": "truecolor"
-  },
-  "model": "fable",
   "permissions": {
     "deny": [
       "Bash(git checkout -b:*)",
@@ -26,7 +14,19 @@
       "Bash(git switch --create:*)"
     ]
   },
+  "model": "claude-fable-5[1m]",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "kotlin-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "effortLevel": "medium",
   "skipWorkflowUsageWarning": true,
   "theme": "dark",
+  "editorMode": "normal",
   "verbose": false
 }
