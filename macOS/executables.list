@@ -1568,7 +1568,7 @@ luac
 luac-5.5
 luac5.5
 luajit
-luajit-2.1.1791988261
+luajit-2.1.1792349434
 luit
 lwp-download
 lwp-download5.34
@@ -1921,7 +1921,6 @@ pamarith
 pambackground
 pambayer
 pambrighten
-pamcat
 pamchannel
 pamcomp
 pamcrater
@@ -1943,7 +1942,6 @@ pamfunc
 pamgauss
 pamgetcolor
 pamgradient
-pamhomography
 pamhue
 pamlevels
 pamlookup
@@ -1957,7 +1955,6 @@ pamperspective
 pampick
 pampop9
 pamrecolor
-pamrestack
 pamrgbatopng
 pamrubber
 pamscale
@@ -1965,7 +1962,6 @@ pamseq
 pamshadedrelief
 pamsharpmap
 pamsharpness
-pamshuffle
 pamsistoaglyph
 pamslice
 pamsplit
@@ -1992,7 +1988,6 @@ pamtopdbimg
 pamtopfm
 pamtopng
 pamtopnm
-pamtoqoi
 pamtosrf
 pamtosvg
 pamtotga
@@ -2030,7 +2025,6 @@ pbmlife
 pbmmake
 pbmmask
 pbmminkowski
-pbmnoise
 pbmpage
 pbmpscale
 pbmreduce
@@ -2270,7 +2264,6 @@ pnmhisteq
 pnmhistmap
 pnmindex
 pnminterp
-pnminterp-gen
 pnminvert
 pnmmargin
 pnmmercator
@@ -2544,7 +2537,6 @@ qmlscene
 qmltc
 qmltestrunner
 qmltime
-qoitopam
 qpdf
 qprofdiff
 qrencode

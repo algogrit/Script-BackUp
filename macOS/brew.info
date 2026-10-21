@@ -15,18 +15,18 @@ PATH="/opt/homebrew/Library/Homebrew/shims/shared:/usr/bin:/bin:/usr/sbin:/sbin"
 SHELL="/opt/homebrew/bin/bash"
 ==> $LOAD_PATHS
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bundler-4.0.20/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/reline-0.6.3/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/rdoc-7.0.4/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/rake-13.3.1/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/msgpack-1.8.5/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/irb-1.16.0/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/fiddle-1.1.8/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/debug-1.11.1/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/gems/bootsnap-1.26.0/lib
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/msgpack-1.8.5
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/fiddle-1.1.8
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/debug-1.11.1
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/bootsnap-1.26.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/reline-0.6.3/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/rdoc-7.0.4/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/rake-13.3.1/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/msgpack-1.8.5/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/irb-1.16.0/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/fiddle-1.1.8/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/debug-1.11.1/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/gems/bootsnap-1.26.0/lib
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/msgpack-1.8.5
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/fiddle-1.1.8
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/debug-1.11.1
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/gems/4.0.0/extensions/arm64-darwin-20/4.0.0-static/bootsnap-1.26.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/yard-sorbet-0.9.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/yard-0.9.45/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/vernier-1.11.0/lib
@@ -36,18 +36,18 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/stackprof-0.2.28/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/stackprof-0.2.28
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-cobertura-4.0.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.3.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simplecov-1.3.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubydex-0.4.1-arm64-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-prof-2.0.5/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/ruby-prof-2.0.5
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-macho-7.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ruby-lsp-0.26.11/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-sorbet-0.16.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/spoom-1.8.9/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-sorbet-0.17.1/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/spoom-1.8.10/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/thor-1.5.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13508/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13508/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13508-universal-darwin/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-and-runtime-0.6.13544/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-0.6.13544/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-static-0.6.13544-universal-darwin/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-rspec-3.10.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-performance-1.27.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-md-2.0.4/lib
@@ -58,7 +58,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rubocop-ast-1.50.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec_junit_formatter-0.6.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-sorbet-1.9.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13508/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/sorbet-runtime-0.6.13544/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-retry-0.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-github-3.0.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/rspec-3.13.2/lib
@@ -78,7 +78,7 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/racc-1.8.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/racc-1.8.1
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/parallel_tests-5.8.0/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/parallel-2.2.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/parallel-2.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ostruct-0.6.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/netrc-0.11.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/minitest-6.0.6/lib
@@ -92,8 +92,8 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/json_schemer-2.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/simpleidn-0.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/regexp_parser-2.13.1/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/json-3.0.2/lib
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/json-3.0.2
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/json-3.1.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/json-3.1.0
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/hana-1.3.7/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/erubi-1.13.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/elftools-2.2.0/lib
@@ -101,20 +101,20 @@ SHELL="/opt/homebrew/bin/bash"
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/diff-lcs-1.6.2/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/csv-3.3.6/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/concurrent-ruby-1.3.8/lib/concurrent-ruby
-/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bindata-3.0.0/lib
+/opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bindata-3.0.1/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/bigdecimal-4.1.3/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-20/4.0.0-static/bigdecimal-4.1.3
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/benchmark-0.5.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/base64-0.3.0/lib
 /opt/homebrew/Library/Homebrew/vendor/bundle/ruby/4.0.0/gems/ast-2.4.3/lib
 /opt/homebrew/Library/Homebrew
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby/4.0.0
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby/4.0.0/arm64-darwin20
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/vendor_ruby
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0
-/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/lib/ruby/4.0.0/arm64-darwin20
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/vendor_ruby/4.0.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/vendor_ruby/4.0.0/arm64-darwin20
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/vendor_ruby
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/4.0.0
+/opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/lib/ruby/4.0.0/arm64-darwin20
 ==> Homebrew Version
-7.0.9
+7.0.10
 ==> macOS
 26.6.2
 ==> SIP
@@ -122,9 +122,9 @@ Enabled
 ==> Cask Staging Location
 /opt/homebrew/Caskroom
 ==> Cask Taps:
-/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
 /opt/homebrew/Library/Taps/gcenx/homebrew-wine (1 cask)
-/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7779 casks)
+/opt/homebrew/Library/Taps/hashicorp/homebrew-tap (2 casks)
+/opt/homebrew/Library/Taps/homebrew/homebrew-cask (7800 casks)
 
 Warning: A newer Command Line Tools release is available.
 Update them from Software Update in System Settings.
@@ -163,4 +163,4 @@ This is a Tier 2 configuration:
 You can report issues with Tier 2 configurations to Homebrew/* repositories!
   https://docs.brew.sh/Troubleshooting
 Read the above document before opening any issues or PRs.
-438 kegs, 251,745 files, 12.6GB
+438 kegs, 251,330 files, 12.6GB
