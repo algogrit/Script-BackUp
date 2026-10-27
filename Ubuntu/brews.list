@@ -3,6 +3,7 @@ autoconf
 autoenv
 bash
 berkeley-db@5
+brotli
 bzip2
 ca-certificates
 cairo
@@ -21,15 +22,14 @@ graphite2
 harfbuzz
 helm
 icu4c@78
+icu4c@79
 jpeg-turbo
 kind
 kubernetes-cli
 libedit
 libffi
 libgit2
-libice
 libpng
-libsm
 libssh2
 libtiff
 libx11
@@ -42,7 +42,6 @@ libxfixes
 libxi
 libxrandr
 libxrender
-libxt
 libxtst
 little-cms2
 llhttp
@@ -60,6 +59,7 @@ openjdk
 openjdk@17
 opensc
 openssl@3
+openssl@4
 pcre2
 pcsc-lite
 perl
@@ -68,6 +68,7 @@ pkgconf
 psgrep
 pyenv
 python@3.14
+python@3.15
 readline
 ripgrep
 softhsm
@@ -80,7 +81,6 @@ webp
 witr
 xorgproto
 xz
-zip
 zlib-ng-compat
 zstd
 antigravity-cli

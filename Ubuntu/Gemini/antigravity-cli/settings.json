@@ -1,10 +1,33 @@
 {
   "colorScheme": "dark",
+  "model": "Gemini 3.8 Flash (High)",
   "permissions": {
     "allow": [
       "command(echo)",
       "command(uv)",
-      "command(make verify)"
+      "command(make verify)",
+      "command(git grep)",
+      "command(ls)",
+      "command(git log)",
+      "command(head)",
+      "command(make verify-contracts)",
+      "command(make verify-go)",
+      "command(git status)",
+      "command(wc)",
+      "command(make final-render-metadata)",
+      "command(git diff)",
+      "command(grep)",
+      "command(git show)",
+      "command(ffprobe)",
+      "command(ffmpeg)",
+      "command(make verify-python-tests)",
+      "command(cp)",
+      "command(which)",
+      "command(hostname)",
+      "command(docker ps)",
+      "command(uptime)",
+      "command(ping)",
+      "command(stat)"
     ]
   },
   "trustedWorkspaces": [

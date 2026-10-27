@@ -1,2 +1,4 @@
 mistral:latest 6577803aa9a0 4.4
 NAME ID SIZE
+qwen3.8:27b aaee06c39dcf 17
+qwen3:8b 500a1f067a9f 5.2

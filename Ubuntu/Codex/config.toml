@@ -1,4 +1,4 @@
-model = "gpt-5.6-sol"
+model = "gpt-5.6-luna"
 approvals_reviewer = "user"
 model_reasoning_effort = "medium"
 approval_policy = "never"
@@ -51,13 +51,26 @@ trust_level = "trusted"
 [projects."/home/om/Developer/CMTech/infra/apps/vyom-ar"]
 trust_level = "trusted"
 
+[projects."/home/om/Developer/CMTech/pyspark-guru"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/Algogrit/value-investing-with-analysis"]
+trust_level = "trusted"
+
+[projects."/home/om/Developer/CMTech/rashmi"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 "gpt-5.3-codex" = "gpt-5.4"
+
+[tui]
+screen_reader_detection_done = true
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
 gpt-6-astra = 4
+"gpt-6.1-sol" = 4
 
 [mcp_servers.woodpecker]
 url = "http://192.168.0.109:8099/mcp"
