@@ -27,7 +27,10 @@
       "command(docker ps)",
       "command(uptime)",
       "command(ping)",
-      "command(stat)"
+      "command(stat)",
+      "command(cat)",
+      "command(curl -s http://127.0.0.1:11434/api/tags)",
+      "command(curl -s -X POST http://127.0.0.1:11434/api/generate -d '{\"model\": \"mistral:latest\", \"prompt\": \"hi\", \"stream\": false}')"
     ]
   },
   "trustedWorkspaces": [

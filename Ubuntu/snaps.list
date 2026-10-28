@@ -6,7 +6,7 @@ core22                     20260909                        2987   latest/stable 
 core24                     20260824                        2124   latest/stable    canonical**    base
 core26                     20260925                        646    latest/stable    canonical**    base
 ffmpeg-2404                7.1.5                           156    latest/stable    snapcrafters*  -
-firefox                    158.0.1-1                       9113   latest/stable/…  mozilla**      -
+firefox                    159.0-1                         9137   latest/stable/…  mozilla**      -
 firmware-updater           0+git.64c41a0                   262    1/stable/…       canonical**    -
 gnome-42-2204              0+git.4982e7b-sdk0+git.69b626a  263    latest/stable/…  canonical**    -
 gnome-46-2404              0+git.b31ceab-sdk0+git.ef6f7e9  177    latest/stable    canonical**    -
@@ -17,4 +17,4 @@ rustup                     1.29.2                          1533   latest/stable 
 snap-store                 0+git.5534399d                  1468   2/stable/…       canonical**    -
 snapd                      2.77.1                          28254  latest/stable    canonical**    snapd
 snapd-desktop-integration  0.9                             391    latest/stable/…  canonical**    -
-thunderbird                158.0.1-1                       1299   latest/stable/…  canonical**    -
+thunderbird                159.0-1                         1312   latest/stable/…  canonical**    -
