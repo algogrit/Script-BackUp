@@ -4433,13 +4433,13 @@
 		<key>NoSyncBrowserUpsell</key>
 		<dict>
 			<key>count</key>
-			<integer>24</integer>
+			<integer>26</integer>
 			<key>episode</key>
 			<string>permanent</string>
 			<key>heading</key>
 			<string>Plugin Required</string>
 			<key>lastSuppressed</key>
-			<real>814367770.52198696</real>
+			<real>814943114.19681096</real>
 			<key>selectionLabel</key>
 			<string>Use System Browser</string>
 			<key>title</key>
@@ -4463,13 +4463,13 @@
 		<key>NoSyncNewTabFromTmuxOpensTmux</key>
 		<dict>
 			<key>count</key>
-			<integer>21</integer>
+			<integer>26</integer>
 			<key>episode</key>
 			<string>permanent</string>
 			<key>heading</key>
 			<string>What kind of tab do you want to open?</string>
 			<key>lastSuppressed</key>
-			<real>814270413.73117197</real>
+			<real>814942931.61551905</real>
 			<key>selectionLabel</key>
 			<string>New tmux Tab</string>
 			<key>title</key>
@@ -4591,7 +4591,7 @@
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>
-	<integer>0</integer>
+	<integer>2</integer>
 	<key>iTerm Version</key>
 	<string>3.7.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>

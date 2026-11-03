@@ -134,7 +134,8 @@
       "command(find app/lib -name \"*theme*\" -o -name \"*style*\" -o -name \"*color*\")",
       "command(flutter)",
       "command(xcodebuild)",
-      "command(./gradlew)"
+      "command(./gradlew)",
+      "command(python3 scripts/test-widget-ios-signing.py)"
     ]
   },
   "statusLine": {
