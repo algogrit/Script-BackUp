@@ -41,6 +41,8 @@ Apply the smallest causal fix, run relevant local checks, then manually execute 
 
 Keep reruns within the user's authorized scope. Before repeating a deploy or publish step, inspect partial completion and idempotency so the retry does not duplicate irreversible effects. Ask only when the required action expands scope or needs permission not already granted. A request to create this skill does not authorize running live CI.
 
+Re-running the step is optional unless you think there are other failures which might be hidden in it.
+
 ## Respect repository constraints and report evidence
 
 Follow the active repository's `AGENTS.md` for edits, tests, formatting, git workflow, and deployment. In CoderMana infra, evaluate all applicable product surfaces, preserve dev/prod pipeline parity and run-specific artifact provenance, and include any required runtime wiring. Read the current CI documentation for operational details; a poller change requires its separate deployment, whereas in-pipeline scripts run from the triggering checkout. Never claim an undeployed operational fix is active.

@@ -1,4 +1,4 @@
-function radhe-radhe () { 
+function radhe-radhe () {
     echo "Shutting down iOS device...";
     idevicediagnostics shutdown;
     echo "Shutting down Android devices...";
