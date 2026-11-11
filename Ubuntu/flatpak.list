@@ -1,18 +1,18 @@
-OBS Studio	Live stream and record videos	com.obsproject.Studio	33.0.0	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	dce80c41b8d5	-	593.5 MB	user,current
-DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.2	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	e8396faee7c1	-	2.8 MB	user,runtime
-Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	b4f1412db7e6	-	360.1 MB	user,current
+OBS Studio	Live stream and record videos	com.obsproject.Studio	33.0.1	stable	x86_64	flathub	user	com.obsproject.Studio/x86_64/stable	28b32b8f9e50	-	593.5 MB	user,current
+DistroAV	NewTek NDI integration for OBS Studio	com.obsproject.Studio.Plugin.DistroAV	6.2.2	stable	x86_64	flathub	user	com.obsproject.Studio.Plugin.DistroAV/x86_64/stable	f3407ee72124	-	18.0 MB	user,runtime
+Flatpak Builder Flatpak	Flatpak Builder Flatpak (org.flatpak.Builder)	org.flatpak.Builder	v0-Flathub	stable	x86_64	flathub	user	org.flatpak.Builder/x86_64/stable	50461ee00afa	-	361.0 MB	user,current
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-25.08.19	25.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/25.08	08713ee4ce58	-	670.7 MB	user,runtime
 Freedesktop Platform	Runtime platform for applications	org.freedesktop.Platform	freedesktop-sdk-26.08.4	26.08	x86_64	flathub	user	org.freedesktop.Platform/x86_64/26.08	df26daaf9d07	-	724.2 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.2.5	25.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08	c8dc11565887	-	462.3 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.2.5	25.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/25.08-extra	4a2f70260483	-	462.3 MB	user,runtime
 Mesa	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.2.5	26.08	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/26.08	5aec1b8281d5	-	469.8 MB	user,runtime
 Mesa (Extra)	Mesa - The 3D Graphics Library	org.freedesktop.Platform.GL.default	26.2.5	26.08-extra	x86_64	flathub	user	org.freedesktop.Platform.GL.default/x86_64/26.08-extra	4d87aeea9f59	-	469.9 MB	user,runtime
-nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	2b987ec53ffc	-	776.7 MB	user,runtime
-nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	3b13ffaa7ce2	-	901.8 MB	user,runtime
-nvidia-580-142		org.freedesktop.Platform.GL.nvidia-580-142		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-142/x86_64/1.4	69fa1af5dbc5	-	901.9 MB	user,runtime
-nvidia-580-159-03		org.freedesktop.Platform.GL.nvidia-580-159-03		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-159-03/x86_64/1.4	a515f0f64d28	-	901.9 MB	user,runtime
-nvidia-580-173-02		org.freedesktop.Platform.GL.nvidia-580-173-02		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-173-02/x86_64/1.4	cc2ba0abfea9	-	903.3 MB	user,runtime
-nvidia-580-178-04		org.freedesktop.Platform.GL.nvidia-580-178-04		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-178-04/x86_64/1.4	02bab7eb5e3e	-	903.3 MB	user,runtime
+nvidia-570-211-01		org.freedesktop.Platform.GL.nvidia-570-211-01		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-570-211-01/x86_64/1.4	1445fc14c169	-	776.7 MB	user,runtime
+nvidia-580-126-09		org.freedesktop.Platform.GL.nvidia-580-126-09		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-126-09/x86_64/1.4	6fee4d81e6d2	-	901.8 MB	user,runtime
+nvidia-580-142		org.freedesktop.Platform.GL.nvidia-580-142		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-142/x86_64/1.4	282995302b01	-	901.9 MB	user,runtime
+nvidia-580-159-03		org.freedesktop.Platform.GL.nvidia-580-159-03		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-159-03/x86_64/1.4	5298a7d5293a	-	901.9 MB	user,runtime
+nvidia-580-173-02		org.freedesktop.Platform.GL.nvidia-580-173-02		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-173-02/x86_64/1.4	a32c4a2cc00c	-	903.3 MB	user,runtime
+nvidia-580-178-04		org.freedesktop.Platform.GL.nvidia-580-178-04		1.4	x86_64	flathub	user	org.freedesktop.Platform.GL.nvidia-580-178-04/x86_64/1.4	c105849c3daa	-	903.3 MB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		25.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/25.08	92d278ee9b92	-	163.8 kB	user,runtime
 Nvidia VAAPI driver	VA-API implementation that uses NVDEC as a backend	org.freedesktop.Platform.VAAPI.nvidia		26.08	x86_64	flathub	user	org.freedesktop.Platform.VAAPI.nvidia/x86_64/26.08	a9389de767d3	-	167.4 kB	user,runtime
 AMD AMF driver	AMD AMF driver	org.freedesktop.Platform.amd.amf		26.08	x86_64	flathub	user	org.freedesktop.Platform.amd.amf/x86_64/26.08	0ddf2508ed76	-	24.3 MB	user,runtime
